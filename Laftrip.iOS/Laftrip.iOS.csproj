@@ -99,6 +99,7 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="MonoTouch.Dialog-1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -154,10 +155,7 @@
     <Compile Include="Screens\Settings.designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Screens\AddJokeViewController.cs" />
-    <Compile Include="Screens\AddJokeViewController.designer.cs">
-      <DependentUpon>AddJokeViewController.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Screens\AddJokeView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -169,7 +167,6 @@
     <InterfaceDefinition Include="Screens\JokesViewController.xib" />
     <InterfaceDefinition Include="Screens\PhotosViewController.xib" />
     <InterfaceDefinition Include="Screens\Settings.xib" />
-    <InterfaceDefinition Include="Screens\AddJokeViewController.xib" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="mbprogresshud">

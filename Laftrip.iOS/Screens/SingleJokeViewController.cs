@@ -48,7 +48,7 @@ namespace Laftrip.iOS
 				this.NavigationItem.SetRightBarButtonItem(
 					new UIBarButtonItem(UIBarButtonSystemItem.Add, (sender, args) => {
 
-					this.NavigationController.PushViewController( new AddJokeViewController(), true);
+					this.NavigationController.PushViewController( new AddJokeView(), true);
 
 				})
 					, true);

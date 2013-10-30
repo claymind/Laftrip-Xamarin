@@ -15,3 +15,5 @@ GoogleAdMobAds.dll
 Xamarin.Social.iOS.dll
 Xamarin.Auth.iOS.dll
 SDWebImage.dll
+MonoTouch.Dialog-1.dll
+System.Json.dll
