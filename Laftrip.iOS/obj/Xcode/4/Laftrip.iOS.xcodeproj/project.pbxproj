@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1C351000000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462CFEF00000000000000000 /* UIKit.framework */; };
+		226766840000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F873220000000000000000 /* MapKit.framework */; };
+		379ACF1C0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2BDBBA0000000000000000 /* Foundation.framework */; };
+		2B05B1650000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E96BE030000000000000000 /* CoreGraphics.framework */; };
+		37868C300000000000000000 /* JokesSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709756100000000000000000 /* JokesSearchViewController.xib */; };
+		26BD20B70000000000000000 /* JokesShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4E2D550000000000000000 /* JokesShareViewController.xib */; };
+		2A1B4A390000000000000000 /* PhotosSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC56D70000000000000000 /* PhotosSearchViewController.xib */; };
+		F41FA0A00000000000000000 /* SingleJokeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D306A80000000000000000 /* SingleJokeViewController.xib */; };
+		22936AC50000000000000000 /* SinglePhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262477630000000000000000 /* SinglePhotoViewController.xib */; };
+		1CED832E0000000000000000 /* JokesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207E8FCC0000000000000000 /* JokesViewController.xib */; };
+		23DCB94E0000000000000000 /* PhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276DC5EC0000000000000000 /* PhotosViewController.xib */; };
+		1025825B0000000000000000 /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B68EF90000000000000000 /* Settings.xib */; };
+		1714B87B0000000000000000 /* AddJokeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA5C5190000000000000000 /* AddJokeViewController.xib */; };
+		2194FB390000000000000000 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 252607D70000000000000000 /* Icon.png */; };
+		FBFBC2300000000000000000 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1350C8C10000000000000000 /* Icon@2x.png */; };
+		3DEA7D0D0000000000000000 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B89AB00000000000000000 /* Icon-Small.png */; };
+		BFBCC6900000000000000000 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8CD90700000000000000000 /* Icon-Small@2x.png */; };
+		F59F5EB00000000000000000 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 12EB02890000000000000000 /* Default.png */; };
+		3D84B6D50000000000000000 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 115C37300000000000000000 /* Default@2x.png */; };
+		2BAF77BF0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F40845D0000000000000000 /* Default-568h@2x.png */; };
+		19DA38A90000000000000000 /* laftrip-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B45470000000000000000 /* laftrip-menu.png */; };
+		5F01E9A00000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 9812B3800000000000000000 /* AppDelegate.h */; };
+		2EA7DB090000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238E7A70000000000000000 /* AppDelegate.m */; };
+		25A3C9F00000000000000000 /* JokesSearchViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2934D68E0000000000000000 /* JokesSearchViewController.h */; };
+		190EAC390000000000000000 /* JokesSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9FB8D70000000000000000 /* JokesSearchViewController.m */; };
+		172CB45C0000000000000000 /* JokesShareViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDC0FA0000000000000000 /* JokesShareViewController.h */; };
+		3FE470CB0000000000000000 /* JokesShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3757D6900000000000000000 /* JokesShareViewController.m */; };
+		3E0278EE0000000000000000 /* PhotosSearchViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 193858C00000000000000000 /* PhotosSearchViewController.h */; };
+		316D5B370000000000000000 /* PhotosSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FE67D50000000000000000 /* PhotosSearchViewController.m */; };
+		2BFA56BC0000000000000000 /* SingleJokeViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B635A0000000000000000 /* SingleJokeViewController.h */; };
+		D8FF9EF00000000000000000 /* SingleJokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1121068D0000000000000000 /* SingleJokeViewController.m */; };
+		FADC38000000000000000000 /* SinglePhotoViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 48BE8D600000000000000000 /* SinglePhotoViewController.h */; };
+		37C3E8030000000000000000 /* SinglePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B54F4A10000000000000000 /* SinglePhotoViewController.m */; };
+		3CD126460000000000000000 /* JokesViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 6232E4000000000000000000 /* JokesViewController.h */; };
+		13B3A39F0000000000000000 /* JokesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1744B03D0000000000000000 /* JokesViewController.m */; };
+		339A32110000000000000000 /* PhotosViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 372B3EAF0000000000000000 /* PhotosViewController.h */; };
+		8CD9AA900000000000000000 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EA74700000000000000000 /* PhotosViewController.m */; };
+		6EBA2CC00000000000000000 /* PopularPhotosViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = A7CAF6A00000000000000000 /* PopularPhotosViewController.h */; };
+		1A3D13870000000000000000 /* PopularPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCE20250000000000000000 /* PopularPhotosViewController.m */; };
+		DA7F5D000000000000000000 /* Settings.h in Sources */ = {isa = PBXBuildFile; fileRef = 1139026E0000000000000000 /* Settings.h */; };
+		834F15500000000000000000 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FDF300000000000000000 /* Settings.m */; };
+		281B7FC70000000000000000 /* AddJokeViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC8C650000000000000000 /* AddJokeViewController.h */; };
+		3D4EE85F0000000000000000 /* AddJokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF4FD000000000000000000 /* AddJokeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18020B010000000000000000 /* Laftrip.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Laftrip.iOS.app"; path = "Laftrip.iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		462CFEF00000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		25F873220000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		3B2BDBBA0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		2E96BE030000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		709756100000000000000000 /* JokesSearchViewController.xib */ = {isa = PBXFileReference; name = "JokesSearchViewController.xib"; path = "Screens/JokesSearchViewController.xib"; sourceTree = "<group>"; };
+		2A4E2D550000000000000000 /* JokesShareViewController.xib */ = {isa = PBXFileReference; name = "JokesShareViewController.xib"; path = "Screens/JokesShareViewController.xib"; sourceTree = "<group>"; };
+		2DAC56D70000000000000000 /* PhotosSearchViewController.xib */ = {isa = PBXFileReference; name = "PhotosSearchViewController.xib"; path = "Screens/PhotosSearchViewController.xib"; sourceTree = "<group>"; };
+		12D306A80000000000000000 /* SingleJokeViewController.xib */ = {isa = PBXFileReference; name = "SingleJokeViewController.xib"; path = "Screens/SingleJokeViewController.xib"; sourceTree = "<group>"; };
+		262477630000000000000000 /* SinglePhotoViewController.xib */ = {isa = PBXFileReference; name = "SinglePhotoViewController.xib"; path = "Screens/SinglePhotoViewController.xib"; sourceTree = "<group>"; };
+		207E8FCC0000000000000000 /* JokesViewController.xib */ = {isa = PBXFileReference; name = "JokesViewController.xib"; path = "Screens/JokesViewController.xib"; sourceTree = "<group>"; };
+		276DC5EC0000000000000000 /* PhotosViewController.xib */ = {isa = PBXFileReference; name = "PhotosViewController.xib"; path = "Screens/PhotosViewController.xib"; sourceTree = "<group>"; };
+		13B68EF90000000000000000 /* Settings.xib */ = {isa = PBXFileReference; name = "Settings.xib"; path = "Screens/Settings.xib"; sourceTree = "<group>"; };
+		1AA5C5190000000000000000 /* AddJokeViewController.xib */ = {isa = PBXFileReference; name = "AddJokeViewController.xib"; path = "Screens/AddJokeViewController.xib"; sourceTree = "<group>"; };
+		252607D70000000000000000 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon.png"; path = "Icon.png"; sourceTree = "<group>"; };
+		1350C8C10000000000000000 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		17B89AB00000000000000000 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		F8CD90700000000000000000 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		12EB02890000000000000000 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default.png"; path = "Default.png"; sourceTree = "<group>"; };
+		115C37300000000000000000 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2F40845D0000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1D6B45470000000000000000 /* laftrip-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "laftrip-menu.png"; path = "laftrip-menu.png"; sourceTree = "<group>"; };
+		9812B3800000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		3238E7A70000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		2934D68E0000000000000000 /* JokesSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JokesSearchViewController.h"; path = "JokesSearchViewController.h"; sourceTree = "<group>"; };
+		1C9FB8D70000000000000000 /* JokesSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "JokesSearchViewController.m"; path = "JokesSearchViewController.m"; sourceTree = "<group>"; };
+		1ABDC0FA0000000000000000 /* JokesShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JokesShareViewController.h"; path = "JokesShareViewController.h"; sourceTree = "<group>"; };
+		3757D6900000000000000000 /* JokesShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "JokesShareViewController.m"; path = "JokesShareViewController.m"; sourceTree = "<group>"; };
+		193858C00000000000000000 /* PhotosSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhotosSearchViewController.h"; path = "PhotosSearchViewController.h"; sourceTree = "<group>"; };
+		34FE67D50000000000000000 /* PhotosSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PhotosSearchViewController.m"; path = "PhotosSearchViewController.m"; sourceTree = "<group>"; };
+		2F8B635A0000000000000000 /* SingleJokeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SingleJokeViewController.h"; path = "SingleJokeViewController.h"; sourceTree = "<group>"; };
+		1121068D0000000000000000 /* SingleJokeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SingleJokeViewController.m"; path = "SingleJokeViewController.m"; sourceTree = "<group>"; };
+		48BE8D600000000000000000 /* SinglePhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SinglePhotoViewController.h"; path = "SinglePhotoViewController.h"; sourceTree = "<group>"; };
+		3B54F4A10000000000000000 /* SinglePhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SinglePhotoViewController.m"; path = "SinglePhotoViewController.m"; sourceTree = "<group>"; };
+		6232E4000000000000000000 /* JokesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JokesViewController.h"; path = "JokesViewController.h"; sourceTree = "<group>"; };
+		1744B03D0000000000000000 /* JokesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "JokesViewController.m"; path = "JokesViewController.m"; sourceTree = "<group>"; };
+		372B3EAF0000000000000000 /* PhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhotosViewController.h"; path = "PhotosViewController.h"; sourceTree = "<group>"; };
+		C5EA74700000000000000000 /* PhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PhotosViewController.m"; path = "PhotosViewController.m"; sourceTree = "<group>"; };
+		A7CAF6A00000000000000000 /* PopularPhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PopularPhotosViewController.h"; path = "PopularPhotosViewController.h"; sourceTree = "<group>"; };
+		1DCE20250000000000000000 /* PopularPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PopularPhotosViewController.m"; path = "PopularPhotosViewController.m"; sourceTree = "<group>"; };
+		1139026E0000000000000000 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Settings.h"; path = "Settings.h"; sourceTree = "<group>"; };
+		BC5FDF300000000000000000 /* Settings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Settings.m"; path = "Settings.m"; sourceTree = "<group>"; };
+		2BAC8C650000000000000000 /* AddJokeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AddJokeViewController.h"; path = "AddJokeViewController.h"; sourceTree = "<group>"; };
+		DFF4FD000000000000000000 /* AddJokeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AddJokeViewController.m"; path = "AddJokeViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12F4CCBE0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C351000000000000000000 /* UIKit.framework in Frameworks */,
+				226766840000000000000000 /* MapKit.framework in Frameworks */,
+				379ACF1C0000000000000000 /* Foundation.framework in Frameworks */,
+				2B05B1650000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330E3E4C0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				1DA7F2980000000000000000 /* Laftrip.iOS */,
+				15270C400000000000000000 /* Frameworks */,
+				285B18720000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		285B18720000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18020B010000000000000000 /* Laftrip.iOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		15270C400000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				462CFEF00000000000000000 /* UIKit.framework */,
+				25F873220000000000000000 /* MapKit.framework */,
+				3B2BDBBA0000000000000000 /* Foundation.framework */,
+				2E96BE030000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		1DA7F2980000000000000000 /* Laftrip.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BAC8C650000000000000000 /* AddJokeViewController.h */,
+				9812B3800000000000000000 /* AppDelegate.h */,
+				12EB02890000000000000000 /* Default.png */,
+				115C37300000000000000000 /* Default@2x.png */,
+				2F40845D0000000000000000 /* Default-568h@2x.png */,
+				252607D70000000000000000 /* Icon.png */,
+				1350C8C10000000000000000 /* Icon@2x.png */,
+				17B89AB00000000000000000 /* Icon-Small.png */,
+				F8CD90700000000000000000 /* Icon-Small@2x.png */,
+				2934D68E0000000000000000 /* JokesSearchViewController.h */,
+				1ABDC0FA0000000000000000 /* JokesShareViewController.h */,
+				6232E4000000000000000000 /* JokesViewController.h */,
+				1D6B45470000000000000000 /* laftrip-menu.png */,
+				193858C00000000000000000 /* PhotosSearchViewController.h */,
+				372B3EAF0000000000000000 /* PhotosViewController.h */,
+				A7CAF6A00000000000000000 /* PopularPhotosViewController.h */,
+				1139026E0000000000000000 /* Settings.h */,
+				2F8B635A0000000000000000 /* SingleJokeViewController.h */,
+				48BE8D600000000000000000 /* SinglePhotoViewController.h */,
+				2391DA510000000000000000 /* Screens */,
+				25D6AD0C0000000000000000 /* Supporting Files */,
+			);
+			name = "Laftrip.iOS";
+			sourceTree = "<group>";
+		};
+		2391DA510000000000000000 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1AA5C5190000000000000000 /* AddJokeViewController.xib */,
+				709756100000000000000000 /* JokesSearchViewController.xib */,
+				2A4E2D550000000000000000 /* JokesShareViewController.xib */,
+				207E8FCC0000000000000000 /* JokesViewController.xib */,
+				2DAC56D70000000000000000 /* PhotosSearchViewController.xib */,
+				276DC5EC0000000000000000 /* PhotosViewController.xib */,
+				13B68EF90000000000000000 /* Settings.xib */,
+				12D306A80000000000000000 /* SingleJokeViewController.xib */,
+				262477630000000000000000 /* SinglePhotoViewController.xib */,
+			);
+			name = "Screens";
+			sourceTree = "<group>";
+		};
+		25D6AD0C0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF4FD000000000000000000 /* AddJokeViewController.m */,
+				3238E7A70000000000000000 /* AppDelegate.m */,
+				1C9FB8D70000000000000000 /* JokesSearchViewController.m */,
+				3757D6900000000000000000 /* JokesShareViewController.m */,
+				1744B03D0000000000000000 /* JokesViewController.m */,
+				34FE67D50000000000000000 /* PhotosSearchViewController.m */,
+				C5EA74700000000000000000 /* PhotosViewController.m */,
+				1DCE20250000000000000000 /* PopularPhotosViewController.m */,
+				BC5FDF300000000000000000 /* Settings.m */,
+				1121068D0000000000000000 /* SingleJokeViewController.m */,
+				3B54F4A10000000000000000 /* SinglePhotoViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB63BD300000000000000000 /* Laftrip.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EE52700000000000000000 /* Build configuration list for PBXNativeTarget "Laftrip.iOS" */;
+			buildPhases = (
+				3D8E810A0000000000000000 /* Sources */,
+				12F4CCBE0000000000000000 /* Frameworks */,
+				267920950000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Laftrip.iOS";
+			productName = "Laftrip.iOS";
+			productReference = 18020B010000000000000000 /* Laftrip.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20315F900000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3F0AB2AF0000000000000000 /* Build configuration list for PBXProject "Laftrip.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 330E3E4C0000000000000000;
+			productRefGroup = 285B18720000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB63BD300000000000000000 /* Laftrip.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267920950000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37868C300000000000000000 /* JokesSearchViewController.xib in Resources */,
+				26BD20B70000000000000000 /* JokesShareViewController.xib in Resources */,
+				2A1B4A390000000000000000 /* PhotosSearchViewController.xib in Resources */,
+				F41FA0A00000000000000000 /* SingleJokeViewController.xib in Resources */,
+				22936AC50000000000000000 /* SinglePhotoViewController.xib in Resources */,
+				1CED832E0000000000000000 /* JokesViewController.xib in Resources */,
+				23DCB94E0000000000000000 /* PhotosViewController.xib in Resources */,
+				1025825B0000000000000000 /* Settings.xib in Resources */,
+				1714B87B0000000000000000 /* AddJokeViewController.xib in Resources */,
+				2194FB390000000000000000 /* Icon.png in Resources */,
+				FBFBC2300000000000000000 /* Icon@2x.png in Resources */,
+				3DEA7D0D0000000000000000 /* Icon-Small.png in Resources */,
+				BFBCC6900000000000000000 /* Icon-Small@2x.png in Resources */,
+				F59F5EB00000000000000000 /* Default.png in Resources */,
+				3D84B6D50000000000000000 /* Default@2x.png in Resources */,
+				2BAF77BF0000000000000000 /* Default-568h@2x.png in Resources */,
+				19DA38A90000000000000000 /* laftrip-menu.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D8E810A0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F01E9A00000000000000000 /* AppDelegate.h in Sources */,
+				2EA7DB090000000000000000 /* AppDelegate.m in Sources */,
+				25A3C9F00000000000000000 /* JokesSearchViewController.h in Sources */,
+				190EAC390000000000000000 /* JokesSearchViewController.m in Sources */,
+				172CB45C0000000000000000 /* JokesShareViewController.h in Sources */,
+				3FE470CB0000000000000000 /* JokesShareViewController.m in Sources */,
+				3E0278EE0000000000000000 /* PhotosSearchViewController.h in Sources */,
+				316D5B370000000000000000 /* PhotosSearchViewController.m in Sources */,
+				2BFA56BC0000000000000000 /* SingleJokeViewController.h in Sources */,
+				D8FF9EF00000000000000000 /* SingleJokeViewController.m in Sources */,
+				FADC38000000000000000000 /* SinglePhotoViewController.h in Sources */,
+				37C3E8030000000000000000 /* SinglePhotoViewController.m in Sources */,
+				3CD126460000000000000000 /* JokesViewController.h in Sources */,
+				13B3A39F0000000000000000 /* JokesViewController.m in Sources */,
+				339A32110000000000000000 /* PhotosViewController.h in Sources */,
+				8CD9AA900000000000000000 /* PhotosViewController.m in Sources */,
+				6EBA2CC00000000000000000 /* PopularPhotosViewController.h in Sources */,
+				1A3D13870000000000000000 /* PopularPhotosViewController.m in Sources */,
+				DA7F5D000000000000000000 /* Settings.h in Sources */,
+				834F15500000000000000000 /* Settings.m in Sources */,
+				281B7FC70000000000000000 /* AddJokeViewController.h in Sources */,
+				3D4EE85F0000000000000000 /* AddJokeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86E454000000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		34578CD50000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "Laftrip.iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0AB2AF0000000000000000 /* Build configuration list for PBXProject "Laftrip.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E454000000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		D4EE52700000000000000000 /* Build configuration list for PBXNativeTarget "Laftrip.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34578CD50000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20315F900000000000000000 /* Project object */;
+}
