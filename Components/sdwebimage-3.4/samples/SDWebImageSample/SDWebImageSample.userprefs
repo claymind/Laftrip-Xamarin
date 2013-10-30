@@ -1,0 +1,85 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Ad-Hoc|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.iPhone 5" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Laftrip.iOS/Screens/JokesSearchViewController.cs">
+    <Files>
+      <File FileName="../../../../Laftrip.iOS/Navigation/JokesTabBarController.cs" Line="20" Column="4" />
+      <File FileName="../../../../Laftrip.iOS/Screens/RecentJokesViewController.cs" Line="124" Column="1" />
+      <File FileName="../../../../Laftrip.iOS/Screens/JokesShareViewController.cs" Line="1" Column="1" />
+      <File FileName="../../../../Laftrip.API/WebServices/Downloader.cs" Line="145" Column="9" />
+      <File FileName="../../../../Laftrip.iOS/Screens/RecentPhotosViewController.cs" Line="151" Column="30" />
+      <File FileName="../../../../Laftrip.iOS/Screens/RecentPhotosViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="../../../../Laftrip.iOS/Navigation/PhotosTabBarController.cs" Line="24" Column="47" />
+      <File FileName="../../../../Laftrip.iOS/Navigation/MenuTableViewControllerCell.cs" Line="1" Column="1" />
+      <File FileName="../../../../Laftrip.iOS/Navigation/MenuTableViewControllerController.cs" Line="30" Column="4" />
+      <File FileName="../../../../Laftrip.iOS/Info.plist" />
+      <File FileName="../../../../Laftrip.API/Utils/Reachability.cs" Line="16" Column="36" />
+      <File FileName="../../../../Laftrip.iOS/Navigation/MenuTableViewControllerSource.cs" Line="1" Column="1" />
+      <File FileName="../../../../Laftrip.iOS/AppDelegate.cs" Line="35" Column="60" />
+      <File FileName="../../../../Laftrip.iOS/Screens/PopularJokesViewController.cs" Line="27" Column="4" />
+      <File FileName="../../../../Laftrip.iOS/Screens/RecentJokesViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="../../../../Laftrip.iOS/Screens/JokesSearchViewController.cs" Line="62" Column="42" />
+      <File FileName="../../../../Laftrip.iOS/Screens/PhotosSearchViewController.cs" Line="74" Column="8" />
+      <File FileName="../../../../Laftrip.API/ViewModel/JokeTitleViewModel.cs" Line="12" Column="21" />
+      <File FileName="../../../../Laftrip.API/ViewModel/PhotoTitleViewModel.cs" Line="13" Column="36" />
+      <File FileName="SDWebImageSample/MasterViewController.cs" Line="82" Column="108" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Laftrip.API" expanded="True">
+            <Node name="ViewModel" expanded="True" />
+            <Node name="WebServices" expanded="True" />
+          </Node>
+          <Node name="Laftrip.iOS" expanded="True">
+            <Node name="ComponentReferenceFolder" expanded="True" />
+            <Node name="Navigation" expanded="True" />
+            <Node name="Resources" expanded="True" />
+            <Node name="Screens" expanded="True">
+              <Node name="JokesSearchViewController.cs" selected="True" />
+              <Node name="RecentJokesViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>sender</Value>
+          <Value>args</Value>
+          <Value>this</Value>
+          <Value>this.NavigationItem</Value>
+          <Value>this.NavigationController</Value>
+          <Value>this.ParentViewController</Value>
+          <Value>this</Value>
+          <Value>args</Value>
+          <Value>internalPage</Value>
+          <Value>filteredphotosBatch[internalPage].Url</Value>
+          <Value>filteredphotosBatch[internalPage]</Value>
+          <Value>photoList</Value>
+          <Value>accounts</Value>
+          <Value>filteredJokesBatch</Value>
+          <Value>joke.JokeID</Value>
+          <Value>jokeList</Value>
+          <Value> Int32.Parse(json["JokeID"])</Value>
+          <Value>json["DateAdded"]</Value>
+          <Value>json["CategoryID"]</Value>
+          <Value>json["JokeID"]</Value>
+          <Value>myString</Value>
+          <Value>json["JokeID"]</Value>
+          <Value>json["JokeID"].ToString()</Value>
+          <Value>myString</Value>
+          <Value>this</Value>
+          <Value>data[indexPath.Row].PhotoTitle</Value>
+          <Value>data[indexPath.Row].PhotoUrl</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/g3misa/Projects/Laftrip/Components/json.net-4.5.11/samples/Json.NET.iOS.Sample/SampleViewController.cs" line="22" column="40" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../Laftrip.iOS/Screens/RecentJokesViewController.cs" line="68" offsetX="766" offsetY="1005" expression="NavigationController" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

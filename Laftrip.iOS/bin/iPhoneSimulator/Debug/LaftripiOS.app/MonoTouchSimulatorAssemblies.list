@@ -1,0 +1,17 @@
+mscorlib.dll
+System.Core.dll
+System.dll
+System.Xml.dll
+MBProgressHUD.dll
+Laftrip.API.dll
+RestSharp.MonoTouch.dll
+System.Xml.Linq.dll
+Mono.Data.Sqlite.dll
+System.Data.dll
+Mono.Data.Tds.dll
+Mono.Security.dll
+System.Transactions.dll
+GoogleAdMobAds.dll
+Xamarin.Social.iOS.dll
+Xamarin.Auth.iOS.dll
+SDWebImage.dll

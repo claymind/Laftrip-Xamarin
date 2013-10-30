@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E90D4990-A84A-46FF-AEE1-E13B6919D2D3}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Laftrip.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>LaftripiOS</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer: Guillermo Misa (D624PG64CB)</CodesignKey>
+    <CodesignProvision>17D9AB99-72B8-493C-BF4F-A206A45D262F</CodesignProvision>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <BuildIpa>true</BuildIpa>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <ConsolePause>false</ConsolePause>
+    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="System.Json" />
+    <Reference Include="SDWebImage">
+      <HintPath>..\Components\sdwebimage-3.4\lib\ios\SDWebImage.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleAdMobAds">
+      <HintPath>..\Components\googleadmob-6.5.1\lib\ios\GoogleAdMobAds.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Components\json.net-4.5.11\lib\ios\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Auth.iOS">
+      <HintPath>..\Components\xamarin.social-1.0.2\lib\ios\Xamarin.Auth.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Social.iOS">
+      <HintPath>..\Components\xamarin.social-1.0.2\lib\ios\Xamarin.Social.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="MBProgressHUD">
+      <HintPath>..\Components\mbprogresshud-0.5.2\lib\ios\MBProgressHUD.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="Mono.Data.Sqlite" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="images\" />
+    <Folder Include="Screens\" />
+    <Folder Include="Navigation\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Navigation\JokesTabBarController.cs" />
+    <Compile Include="Navigation\MenuTableViewControllerController.cs" />
+    <Compile Include="Navigation\MenuTableViewControllerCell.cs" />
+    <Compile Include="Navigation\MenuTableViewControllerSource.cs" />
+    <Compile Include="Screens\JokesSearchViewController.cs" />
+    <Compile Include="Screens\JokesSearchViewController.designer.cs">
+      <DependentUpon>JokesSearchViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\JokesShareViewController.cs" />
+    <Compile Include="Screens\JokesShareViewController.designer.cs">
+      <DependentUpon>JokesShareViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation\PhotosTabBarController.cs" />
+    <Compile Include="Screens\PhotosSearchViewController.cs" />
+    <Compile Include="Screens\PhotosSearchViewController.designer.cs">
+      <DependentUpon>PhotosSearchViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\SingleJokeViewController.cs" />
+    <Compile Include="Screens\SingleJokeViewController.designer.cs">
+      <DependentUpon>SingleJokeViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\SinglePhotoViewController.cs" />
+    <Compile Include="Screens\SinglePhotoViewController.designer.cs">
+      <DependentUpon>SinglePhotoViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\JokesViewController.cs" />
+    <Compile Include="Screens\JokesViewController.designer.cs">
+      <DependentUpon>JokesViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\PhotosViewController.cs" />
+    <Compile Include="Screens\PhotosViewController.designer.cs">
+      <DependentUpon>PhotosViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopularPhotosViewController.cs" />
+    <Compile Include="PopularPhotosViewController.designer.cs">
+      <DependentUpon>PopularPhotosViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Settings.cs" />
+    <Compile Include="Screens\Settings.designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\AddJokeViewController.cs" />
+    <Compile Include="Screens\AddJokeViewController.designer.cs">
+      <DependentUpon>AddJokeViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <InterfaceDefinition Include="Screens\JokesSearchViewController.xib" />
+    <InterfaceDefinition Include="Screens\JokesShareViewController.xib" />
+    <InterfaceDefinition Include="Screens\PhotosSearchViewController.xib" />
+    <InterfaceDefinition Include="Screens\SingleJokeViewController.xib" />
+    <InterfaceDefinition Include="Screens\SinglePhotoViewController.xib" />
+    <InterfaceDefinition Include="Screens\JokesViewController.xib" />
+    <InterfaceDefinition Include="Screens\PhotosViewController.xib" />
+    <InterfaceDefinition Include="Screens\Settings.xib" />
+    <InterfaceDefinition Include="Screens\AddJokeViewController.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="mbprogresshud">
+      <Version>0.5.2</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="xamarin.social">
+      <Version>1.0.2</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="json.net">
+      <Version>4.5.11</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="sdwebimage">
+      <Version>3.4</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="googleadmob">
+      <Version>6.5.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon.png" />
+    <BundleResource Include="Resources\Icon%402x.png" />
+    <BundleResource Include="Resources\Icon-Small.png" />
+    <BundleResource Include="Resources\Icon-Small%402x.png" />
+    <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\laftrip-menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Laftrip.API\Laftrip.API.csproj">
+      <Project>{D0375730-61BF-4E32-BEBD-1875E4E62848}</Project>
+      <Name>Laftrip.API</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

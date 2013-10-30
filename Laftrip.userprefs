@@ -1,0 +1,67 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina4.6.1" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="Laftrip.API" expanded="True">
+            <Node name="Data" expanded="True" />
+            <Node name="WebServices" expanded="True" />
+          </Node>
+          <Node name="Laftrip.iOS" expanded="True">
+            <Node name="Navigation" expanded="True" />
+            <Node name="Screens" expanded="True">
+              <Node name="AddJokeViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>sender</Value>
+          <Value>args</Value>
+          <Value>this</Value>
+          <Value>this.NavigationItem</Value>
+          <Value>this.NavigationController</Value>
+          <Value>this.ParentViewController</Value>
+          <Value>this</Value>
+          <Value>args</Value>
+          <Value>internalPage</Value>
+          <Value>filteredphotosBatch[internalPage].Url</Value>
+          <Value>filteredphotosBatch[internalPage]</Value>
+          <Value>photoList</Value>
+          <Value>accounts</Value>
+          <Value>filteredJokesBatch</Value>
+          <Value>joke.JokeID</Value>
+          <Value>jokeList</Value>
+          <Value> Int32.Parse(json["JokeID"])</Value>
+          <Value>json["DateAdded"]</Value>
+          <Value>json["CategoryID"]</Value>
+          <Value>json["JokeID"]</Value>
+          <Value>myString</Value>
+          <Value>json["JokeID"]</Value>
+          <Value>json["JokeID"].ToString()</Value>
+          <Value>myString</Value>
+          <Value>this</Value>
+          <Value>data[indexPath.Row].PhotoTitle</Value>
+          <Value>data[indexPath.Row].PhotoUrl</Value>
+          <Value>ParentViewController.SelectedViewController.NavigationBar.BackIndicatorImage</Value>
+        </State>
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/g3misa/Projects/Laftrip/Components/json.net-4.5.11/samples/Json.NET.iOS.Sample/SampleViewController.cs" line="22" column="40" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Laftrip.iOS/Screens/RecentJokesViewController.cs" line="68" offsetX="766" offsetY="1005" expression="NavigationController" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
