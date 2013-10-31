@@ -1726,7 +1726,7 @@ bl _p_19
 bl _p_48
 .loc 2 508 0
 
-	.byte 40,96,138,229
+	.byte 44,96,138,229
 .loc 2 509 0
 
 	.byte 6,0,160,225,0,208,141,226,96,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
@@ -1768,7 +1768,7 @@ bl _p_43
 bl _p_48
 .loc 2 522 0
 
-	.byte 40,160,134,229
+	.byte 44,160,134,229
 .loc 2 523 0
 
 	.byte 4,208,141,226,64,5,189,232,128,128,189,232
@@ -1791,7 +1791,7 @@ _MBProgressHUD_MTMBProgressHUD_get_Delegate:
 .loc 2 529 0
 
 	.byte 128,64,45,233,13,112,160,225,64,5,45,233,4,208,77,226,0,160,160,225,10,0,160,225,0,16,154,229,15,224,160,225
-	.byte 96,241,145,229,0,160,160,225,10,96,160,225,0,0,90,227,10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229
+	.byte 132,241,145,229,0,160,160,225,10,96,160,225,0,0,90,227,10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229
 	.byte 8,0,144,229,0,16,159,229,0,0,0,234
 	.long _mono_aot_MBProgressHUD_got - . + 324
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,96,160,227,6,0,160,225,4,208,141,226,64,5,189,232,128,128,189,232
@@ -1804,7 +1804,7 @@ _MBProgressHUD_MTMBProgressHUD_set_Delegate_MBProgressHUD_MBProgressHUDDelegate:
 .loc 2 532 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,0,0,157,229,4,16,157,229
-	.byte 0,32,157,229,0,32,146,229,15,224,160,225,92,241,146,229
+	.byte 0,32,157,229,0,32,146,229,15,224,160,225,128,241,146,229
 .loc 2 533 0
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
@@ -1845,7 +1845,7 @@ bl _p_19
 bl _p_48
 .loc 2 549 0
 
-	.byte 44,96,138,229
+	.byte 48,96,138,229
 .loc 2 550 0
 
 	.byte 6,0,160,225,4,208,141,226,64,5,189,232,128,128,189,232
@@ -1886,7 +1886,7 @@ bl _p_43
 bl _p_48
 .loc 2 561 0
 
-	.byte 44,160,134,229
+	.byte 48,160,134,229
 .loc 2 562 0
 
 	.byte 0,208,141,226,112,13,189,232,128,128,189,232
@@ -2152,7 +2152,7 @@ bl _p_19
 bl _p_48
 .loc 2 653 0
 
-	.byte 48,96,138,229
+	.byte 52,96,138,229
 .loc 2 654 0
 
 	.byte 6,0,160,225,0,208,141,226,96,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
@@ -2194,7 +2194,7 @@ bl _p_43
 bl _p_48
 .loc 2 667 0
 
-	.byte 48,160,134,229
+	.byte 52,160,134,229
 .loc 2 668 0
 
 	.byte 4,208,141,226,64,5,189,232,128,128,189,232
@@ -2714,7 +2714,7 @@ bl _p_19
 bl _p_48
 .loc 2 852 0
 
-	.byte 52,96,138,229
+	.byte 56,96,138,229
 .loc 2 853 0
 
 	.byte 6,0,160,225,0,208,141,226,96,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
@@ -2756,7 +2756,7 @@ bl _p_43
 bl _p_48
 .loc 2 866 0
 
-	.byte 52,160,134,229
+	.byte 56,160,134,229
 .loc 2 867 0
 
 	.byte 4,208,141,226,64,5,189,232,128,128,189,232
@@ -2812,7 +2812,7 @@ bl _p_19
 bl _p_48
 .loc 2 883 0
 
-	.byte 56,96,138,229
+	.byte 60,96,138,229
 .loc 2 884 0
 
 	.byte 6,0,160,225,0,208,141,226,96,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
@@ -2854,7 +2854,7 @@ bl _p_43
 bl _p_48
 .loc 2 897 0
 
-	.byte 56,160,134,229
+	.byte 60,160,134,229
 .loc 2 898 0
 
 	.byte 4,208,141,226,64,5,189,232,128,128,189,232
@@ -3085,7 +3085,7 @@ _MBProgressHUD_MTMBProgressHUD_EnsureMBProgressHUDDelegate:
 .loc 2 980 0
 
 	.byte 128,64,45,233,13,112,160,225,112,5,45,233,12,208,77,226,0,160,160,225,10,0,160,225,0,16,154,229,15,224,160,225
-	.byte 96,241,145,229,0,96,160,225
+	.byte 132,241,145,229,0,96,160,225
 .loc 2 981 0
 
 	.byte 0,0,80,227,16,0,0,10,6,80,160,225,6,64,160,225,0,0,86,227,10,0,0,10,0,0,149,229,0,0,144,229
@@ -3105,7 +3105,7 @@ bl _MBProgressHUD_MTMBProgressHUD__MBProgressHUDDelegate__ctor
 	.byte 0,0,157,229,0,96,160,225
 .loc 2 983 0
 
-	.byte 10,0,160,225,6,16,160,225,0,32,154,229,15,224,160,225,92,241,146,229
+	.byte 10,0,160,225,6,16,160,225,0,32,154,229,15,224,160,225,128,241,146,229
 .loc 2 985 0
 
 	.byte 6,80,160,225,0,0,86,227,9,0,0,10,0,0,149,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
@@ -3226,19 +3226,19 @@ bl _p_65
 	.byte 1,0,160,3,0,0,80,227,9,0,0,10,0,0,160,227
 .loc 2 1037 0
 
-	.byte 40,0,138,229,0,0,160,227
+	.byte 44,0,138,229,0,0,160,227
 .loc 2 1038 0
 
-	.byte 44,0,138,229,0,0,160,227
+	.byte 48,0,138,229,0,0,160,227
 .loc 2 1039 0
 
-	.byte 48,0,138,229,0,0,160,227
+	.byte 52,0,138,229,0,0,160,227
 .loc 2 1040 0
 
-	.byte 52,0,138,229,0,0,160,227
+	.byte 56,0,138,229,0,0,160,227
 .loc 2 1041 0
 
-	.byte 56,0,138,229
+	.byte 60,0,138,229
 .loc 2 1043 0
 
 	.byte 16,208,141,226,0,5,189,232,128,128,189,232
@@ -3751,7 +3751,7 @@ bl _p_19
 bl _p_48
 .loc 4 127 0
 
-	.byte 40,96,138,229
+	.byte 44,96,138,229
 .loc 4 128 0
 
 	.byte 6,0,160,225,0,208,141,226,96,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
@@ -3793,7 +3793,7 @@ bl _p_43
 bl _p_48
 .loc 4 141 0
 
-	.byte 40,160,134,229
+	.byte 44,160,134,229
 .loc 4 142 0
 
 	.byte 4,208,141,226,64,5,189,232,128,128,189,232
@@ -3849,7 +3849,7 @@ bl _p_19
 bl _p_48
 .loc 4 158 0
 
-	.byte 44,96,138,229
+	.byte 48,96,138,229
 .loc 4 159 0
 
 	.byte 6,0,160,225,0,208,141,226,96,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
@@ -3891,7 +3891,7 @@ bl _p_43
 bl _p_48
 .loc 4 172 0
 
-	.byte 44,160,134,229
+	.byte 48,160,134,229
 .loc 4 173 0
 
 	.byte 4,208,141,226,64,5,189,232,128,128,189,232
@@ -3983,10 +3983,10 @@ bl _p_65
 	.byte 1,0,160,3,0,0,80,227,3,0,0,10,0,0,160,227
 .loc 4 201 0
 
-	.byte 40,0,138,229,0,0,160,227
+	.byte 44,0,138,229,0,0,160,227
 .loc 4 202 0
 
-	.byte 44,0,138,229
+	.byte 48,0,138,229
 .loc 4 204 0
 
 	.byte 16,208,141,226,0,5,189,232,128,128,189,232
@@ -4590,7 +4590,7 @@ class_info_offsets:
 
 	.long 12,10,2,2
 	.short 0, 12
-	.byte 136,117,7,99,99,24,128,239,60,54,54,54,139,93,61
+	.byte 136,117,7,99,99,24,129,19,60,54,54,54,139,129,61
 
 .text
 	.align 4
@@ -5198,7 +5198,7 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampolines_end
 
-	.long 106,756,83,138,10,118565375,0,3164
+	.long 106,756,83,138,10,118565375,0,3236
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,128,4,4,14
 	.globl _mono_aot_module_MBProgressHUD_info
@@ -5236,7 +5236,7 @@ blob:
 	.byte 6,0,3,255,252,0,0,0,6,0,4,255,252,0,0,0,6,0,5,255,252,0,0,0,6,0,6,255,252,0,0,0
 	.byte 6,0,7,255,252,0,0,0,6,0,8,255,252,0,0,0,6,0,9,255,252,0,0,0,6,0,10,255,252,0,0,0
 	.byte 5,81,1,7,255,252,0,0,0,5,82,1,8,12,0,39,42,47,19,0,194,0,0,4,0,16,1,4,13,16,2,128
-	.byte 191,2,130,181,16,2,38,2,100,16,2,38,2,101,16,1,5,63,16,1,5,64,16,1,5,14,16,1,5,15,16,1
+	.byte 212,2,131,55,16,2,38,2,101,16,2,38,2,102,16,1,5,63,16,1,5,64,16,1,5,14,16,1,5,15,16,1
 	.byte 5,16,16,1,5,17,16,1,5,18,16,1,5,19,16,1,5,20,16,1,5,21,16,1,5,22,16,1,5,23,16,1
 	.byte 5,24,16,1,5,25,16,1,5,26,16,1,5,27,16,1,5,28,16,1,5,29,16,1,5,30,16,1,5,31,16,1
 	.byte 5,32,16,1,5,33,16,1,5,34,16,1,5,35,16,1,5,36,16,1,5,37,16,1,5,38,16,1,5,39,16,1
@@ -5245,24 +5245,24 @@ blob:
 	.byte 5,56,16,1,5,57,16,1,5,58,16,1,5,59,16,1,5,60,16,1,5,61,16,1,5,62,16,1,5,65,16,1
 	.byte 5,66,16,1,5,67,16,1,5,68,16,1,5,69,16,1,5,70,16,1,5,71,16,1,5,72,17,0,135,199,16,1
 	.byte 5,73,14,1,7,6,81,30,1,7,16,1,5,79,14,1,8,6,82,30,1,8,16,1,5,80,11,2,130,172,1,11
-	.byte 1,5,34,255,254,0,0,0,0,255,43,0,0,1,16,2,130,201,1,137,218,11,1,10,11,2,114,2,11,1,11,11
-	.byte 2,84,2,11,2,88,2,16,2,18,2,49,11,1,6,14,1,6,11,1,9,16,2,130,170,1,137,172,17,0,136,91
-	.byte 16,1,11,82,14,2,128,184,2,16,1,12,83,16,1,12,84,16,1,12,85,16,1,12,86,16,1,12,87,16,1,12
-	.byte 88,16,1,12,89,16,1,12,90,17,0,137,61,16,1,12,91,33,3,194,0,2,176,3,193,0,8,63,3,194,0,0
-	.byte 116,3,194,0,0,45,3,194,0,0,43,3,194,0,0,117,3,194,0,0,118,3,194,0,0,119,3,194,0,2,177,7
+	.byte 1,5,34,255,254,0,0,0,0,255,43,0,0,1,16,2,130,201,1,137,218,11,1,10,11,2,125,2,11,1,11,11
+	.byte 2,93,2,11,2,97,2,16,2,18,2,50,11,1,6,14,1,6,11,1,9,16,2,130,170,1,137,172,17,0,136,91
+	.byte 16,1,11,82,14,2,128,205,2,16,1,12,83,16,1,12,84,16,1,12,85,16,1,12,86,16,1,12,87,16,1,12
+	.byte 88,16,1,12,89,16,1,12,90,17,0,137,61,16,1,12,91,33,3,194,0,3,37,3,193,0,8,67,3,194,0,0
+	.byte 116,3,194,0,0,45,3,194,0,0,43,3,194,0,0,117,3,194,0,0,118,3,194,0,0,119,3,194,0,3,38,7
 	.byte 17,109,111,110,111,95,104,101,108,112,101,114,95,108,100,115,116,114,0,7,25,109,111,110,111,95,97,114,99,104,95,116
 	.byte 104,114,111,119,95,101,120,99,101,112,116,105,111,110,0,3,194,0,0,82,7,20,109,111,110,111,95,111,98,106,101,99
-	.byte 116,95,110,101,119,95,102,97,115,116,0,3,80,3,193,0,19,25,7,32,109,111,110,111,95,97,114,99,104,95,116,104
-	.byte 114,111,119,95,99,111,114,108,105,98,95,101,120,99,101,112,116,105,111,110,0,3,193,0,19,28,3,194,0,0,205,3
-	.byte 194,0,1,6,3,194,0,0,203,3,3,3,255,254,0,0,0,0,255,43,0,0,1,3,194,0,0,105,3,194,0,0
-	.byte 135,3,5,3,6,3,194,0,1,95,3,194,0,0,215,3,194,0,0,216,3,193,0,22,196,3,194,0,5,14,3,194
-	.byte 0,0,171,3,194,0,0,172,3,194,0,5,15,3,7,3,8,3,9,3,10,3,193,0,20,159,3,193,0,10,88,3
-	.byte 193,0,10,73,3,194,0,0,120,3,194,0,0,121,3,194,0,0,136,3,194,0,0,137,3,194,0,0,138,3,194,0
-	.byte 0,139,3,194,0,0,53,3,194,0,4,41,3,194,0,4,37,3,194,0,4,38,3,194,0,0,122,3,194,0,0,123
-	.byte 3,194,0,0,124,3,194,0,0,125,3,194,0,0,110,3,194,0,0,127,3,194,0,0,155,3,194,0,0,157,3,194
-	.byte 0,0,156,3,194,0,0,158,3,194,0,0,181,3,194,0,0,182,7,24,109,111,110,111,95,111,98,106,101,99,116,95
-	.byte 110,101,119,95,115,112,101,99,105,102,105,99,0,3,194,0,2,208,3,102,3,194,0,0,40,3,194,0,0,41,3,194
-	.byte 0,4,221,7,35,109,111,110,111,95,116,104,114,101,97,100,95,105,110,116,101,114,114,117,112,116,105,111,110,95,99,104
+	.byte 116,95,110,101,119,95,102,97,115,116,0,3,80,3,193,0,19,35,7,32,109,111,110,111,95,97,114,99,104,95,116,104
+	.byte 114,111,119,95,99,111,114,108,105,98,95,101,120,99,101,112,116,105,111,110,0,3,193,0,19,38,3,194,0,0,219,3
+	.byte 194,0,1,30,3,194,0,0,217,3,3,3,255,254,0,0,0,0,255,43,0,0,1,3,194,0,0,105,3,194,0,0
+	.byte 136,3,5,3,6,3,194,0,1,119,3,194,0,0,239,3,194,0,0,240,3,193,0,22,207,3,194,0,6,2,3,194
+	.byte 0,0,180,3,194,0,0,181,3,194,0,6,3,3,7,3,8,3,9,3,10,3,193,0,20,169,3,193,0,10,92,3
+	.byte 193,0,10,77,3,194,0,0,120,3,194,0,0,121,3,194,0,0,137,3,194,0,0,138,3,194,0,0,139,3,194,0
+	.byte 0,140,3,194,0,0,53,3,194,0,4,192,3,194,0,4,188,3,194,0,4,189,3,194,0,0,122,3,194,0,0,123
+	.byte 3,194,0,0,124,3,194,0,0,125,3,194,0,0,110,3,194,0,0,128,3,194,0,0,156,3,194,0,0,158,3,194
+	.byte 0,0,157,3,194,0,0,159,3,194,0,0,190,3,194,0,0,191,7,24,109,111,110,111,95,111,98,106,101,99,116,95
+	.byte 110,101,119,95,115,112,101,99,105,102,105,99,0,3,194,0,3,82,3,102,3,194,0,0,40,3,194,0,0,41,3,194
+	.byte 0,5,208,7,35,109,111,110,111,95,116,104,114,101,97,100,95,105,110,116,101,114,114,117,112,116,105,111,110,95,99,104
 	.byte 101,99,107,112,111,105,110,116,0,7,26,109,111,110,111,95,100,101,108,101,103,97,116,101,95,98,101,103,105,110,95,105
 	.byte 110,118,111,107,101,0,7,24,109,111,110,111,95,100,101,108,101,103,97,116,101,95,101,110,100,95,105,110,118,111,107,101
 	.byte 0,31,3,31,4,31,5,31,6,31,7,31,8,31,9,31,10,3,81,3,82,2,0,0,2,19,0,2,38,0,2,56
@@ -5278,38 +5278,40 @@ blob:
 	.byte 129,154,0,2,129,83,0,2,56,0,2,129,83,0,2,56,0,2,38,0,2,100,0,2,129,154,0,2,130,12,0,2
 	.byte 130,39,0,2,130,63,0,2,129,83,0,2,130,39,0,2,130,87,0,2,130,87,0,2,130,120,0,2,130,120,0,2
 	.byte 130,157,0,2,130,157,0,2,130,157,0,2,130,157,0,2,0,0,2,0,0,0,128,144,8,0,0,1,23,128,144,12
-	.byte 0,0,4,193,0,19,132,193,0,19,146,193,0,21,176,193,0,19,144,193,0,19,131,193,0,19,101,193,0,19,102,193
-	.byte 0,19,103,193,0,19,104,193,0,19,105,193,0,19,106,193,0,19,107,193,0,19,108,193,0,19,109,193,0,19,110,193
-	.byte 0,19,111,193,0,19,112,193,0,19,133,193,0,19,113,193,0,19,114,193,0,19,115,193,0,19,116,193,0,19,134,23
-	.byte 128,144,12,0,0,4,193,0,19,132,193,0,19,146,193,0,21,176,193,0,19,144,193,0,19,131,193,0,19,101,193,0
-	.byte 19,102,193,0,19,103,193,0,19,104,193,0,19,105,193,0,19,106,193,0,19,107,193,0,19,108,193,0,19,109,193,0
-	.byte 19,110,193,0,19,111,193,0,19,112,193,0,19,133,193,0,19,113,193,0,19,114,193,0,19,115,193,0,19,116,193,0
-	.byte 19,134,4,128,196,2,8,4,0,1,193,0,21,180,193,0,21,177,193,0,21,176,193,0,21,174,97,128,238,17,194,0
-	.byte 0,57,60,128,248,0,4,194,0,0,67,193,0,21,177,194,0,0,57,193,0,21,174,194,0,0,44,194,0,0,58,194
-	.byte 0,0,70,83,194,0,0,62,194,0,0,61,194,0,0,47,20,194,0,2,70,194,0,2,69,194,0,2,68,194,0,2
-	.byte 67,194,0,2,66,194,0,2,65,194,0,2,197,194,0,2,185,194,0,2,186,194,0,2,180,194,0,2,187,194,0,2
-	.byte 188,194,0,2,206,194,0,2,203,194,0,2,201,194,0,2,200,194,0,2,195,194,0,2,194,194,0,2,193,194,0,2
-	.byte 192,194,0,2,191,194,0,2,190,194,0,2,189,194,0,2,188,194,0,2,187,194,0,2,186,194,0,2,185,194,0,2
-	.byte 184,194,0,2,183,194,0,2,182,194,0,2,181,194,0,2,180,194,0,2,179,79,78,77,76,75,74,73,72,71,70,69
-	.byte 68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,53,52,51,50,49,48,47,46,45,44,41,40,39,38,37,36,35
-	.byte 34,33,32,31,30,29,28,27,26,13,128,162,194,0,0,57,28,0,0,4,194,0,0,67,193,0,21,177,194,0,0,57
-	.byte 193,0,21,174,194,0,0,44,194,0,0,58,194,0,0,70,194,0,0,69,194,0,0,62,194,0,0,61,194,0,0,47
-	.byte 194,0,0,46,85,14,128,160,52,0,0,4,193,0,21,180,193,0,21,44,193,0,21,176,193,0,21,43,193,0,19,19
-	.byte 193,0,21,42,193,0,21,49,193,0,21,46,193,0,21,45,193,0,21,42,193,0,19,19,89,88,87,14,128,160,52,0
-	.byte 0,4,193,0,21,180,193,0,21,44,193,0,21,176,193,0,21,43,193,0,19,19,193,0,21,42,193,0,21,49,193,0
-	.byte 21,46,193,0,21,45,193,0,21,42,193,0,19,19,93,92,91,14,128,160,52,0,0,4,193,0,21,180,193,0,21,44
-	.byte 193,0,21,176,193,0,21,43,193,0,19,19,193,0,21,42,193,0,21,49,193,0,21,46,193,0,21,45,193,0,21,42
-	.byte 193,0,19,19,97,96,95,14,128,160,52,0,0,4,193,0,21,180,193,0,21,44,193,0,21,176,193,0,21,43,193,0
-	.byte 19,19,193,0,21,42,193,0,21,49,193,0,21,46,193,0,21,45,193,0,21,42,193,0,19,19,101,100,99,13,128,134
-	.byte 106,194,0,0,57,24,4,0,4,194,0,0,67,193,0,21,177,194,0,0,57,193,0,21,174,194,0,0,44,194,0,0
-	.byte 58,194,0,0,70,194,0,0,69,194,0,0,62,194,0,0,61,194,0,0,47,194,0,0,46,107,53,128,166,112,194,0
-	.byte 0,57,48,36,0,4,194,0,0,67,193,0,21,177,194,0,0,57,193,0,21,174,194,0,0,44,194,0,0,58,194,0
-	.byte 0,70,122,194,0,0,62,194,0,0,61,194,0,0,47,113,194,0,2,70,194,0,2,69,194,0,2,68,194,0,2,67
-	.byte 194,0,2,66,194,0,2,65,194,0,2,197,194,0,2,185,194,0,2,186,194,0,2,180,194,0,2,187,194,0,2,188
-	.byte 194,0,2,206,194,0,2,203,194,0,2,201,194,0,2,200,194,0,2,195,194,0,2,194,194,0,2,193,194,0,2,192
-	.byte 194,0,2,191,194,0,2,190,194,0,2,189,194,0,2,188,194,0,2,187,194,0,2,186,194,0,2,185,194,0,2,184
-	.byte 194,0,2,183,194,0,2,182,194,0,2,181,194,0,2,180,194,0,2,179,121,120,119,118,117,116,115,114,98,111,101,104
-	.byte 109,0
+	.byte 0,0,4,193,0,19,142,193,0,19,156,193,0,21,187,193,0,19,154,193,0,19,141,193,0,19,111,193,0,19,112,193
+	.byte 0,19,113,193,0,19,114,193,0,19,115,193,0,19,116,193,0,19,117,193,0,19,118,193,0,19,119,193,0,19,120,193
+	.byte 0,19,121,193,0,19,122,193,0,19,143,193,0,19,123,193,0,19,124,193,0,19,125,193,0,19,126,193,0,19,144,23
+	.byte 128,144,12,0,0,4,193,0,19,142,193,0,19,156,193,0,21,187,193,0,19,154,193,0,19,141,193,0,19,111,193,0
+	.byte 19,112,193,0,19,113,193,0,19,114,193,0,19,115,193,0,19,116,193,0,19,117,193,0,19,118,193,0,19,119,193,0
+	.byte 19,120,193,0,19,121,193,0,19,122,193,0,19,143,193,0,19,123,193,0,19,124,193,0,19,125,193,0,19,126,193,0
+	.byte 19,144,4,128,196,2,8,4,0,1,193,0,21,191,193,0,21,188,193,0,21,187,193,0,21,185,106,128,238,17,194,0
+	.byte 0,57,64,128,248,0,4,194,0,0,67,193,0,21,188,194,0,0,57,193,0,21,185,194,0,0,44,194,0,0,58,194
+	.byte 0,0,70,83,194,0,0,62,194,0,0,61,194,0,0,47,20,194,0,2,122,194,0,2,121,194,0,2,120,194,0,2
+	.byte 119,194,0,2,118,194,0,2,117,194,0,3,62,194,0,3,48,194,0,3,49,194,0,3,42,194,0,3,50,194,0,3
+	.byte 51,194,0,3,80,194,0,3,76,194,0,3,75,194,0,3,74,194,0,3,73,194,0,3,72,194,0,3,71,194,0,3
+	.byte 66,194,0,3,65,194,0,3,60,194,0,3,59,194,0,3,58,194,0,3,57,194,0,3,56,194,0,3,55,194,0,3
+	.byte 54,194,0,3,53,194,0,3,52,194,0,3,51,194,0,3,50,194,0,3,49,194,0,3,48,194,0,3,47,194,0,3
+	.byte 46,194,0,3,45,194,0,3,44,194,0,3,43,194,0,3,42,194,0,3,41,194,0,3,40,79,78,77,76,75,74,73
+	.byte 72,71,70,69,68,67,66,65,64,63,62,61,60,59,58,57,56,55,54,53,52,51,50,49,48,47,46,45,44,41,40,39
+	.byte 38,37,36,35,34,33,32,31,30,29,28,27,26,13,128,162,194,0,0,57,28,0,0,4,194,0,0,67,193,0,21,188
+	.byte 194,0,0,57,193,0,21,185,194,0,0,44,194,0,0,58,194,0,0,70,194,0,0,69,194,0,0,62,194,0,0,61
+	.byte 194,0,0,47,194,0,0,46,85,14,128,160,52,0,0,4,193,0,21,191,193,0,21,55,193,0,21,187,193,0,21,54
+	.byte 193,0,19,29,193,0,21,53,193,0,21,60,193,0,21,57,193,0,21,56,193,0,21,53,193,0,19,29,89,88,87,14
+	.byte 128,160,52,0,0,4,193,0,21,191,193,0,21,55,193,0,21,187,193,0,21,54,193,0,19,29,193,0,21,53,193,0
+	.byte 21,60,193,0,21,57,193,0,21,56,193,0,21,53,193,0,19,29,93,92,91,14,128,160,52,0,0,4,193,0,21,191
+	.byte 193,0,21,55,193,0,21,187,193,0,21,54,193,0,19,29,193,0,21,53,193,0,21,60,193,0,21,57,193,0,21,56
+	.byte 193,0,21,53,193,0,19,29,97,96,95,14,128,160,52,0,0,4,193,0,21,191,193,0,21,55,193,0,21,187,193,0
+	.byte 21,54,193,0,19,29,193,0,21,53,193,0,21,60,193,0,21,57,193,0,21,56,193,0,21,53,193,0,19,29,101,100
+	.byte 99,13,128,134,106,194,0,0,57,24,4,0,4,194,0,0,67,193,0,21,188,194,0,0,57,193,0,21,185,194,0,0
+	.byte 44,194,0,0,58,194,0,0,70,194,0,0,69,194,0,0,62,194,0,0,61,194,0,0,47,194,0,0,46,107,62,128
+	.byte 166,112,194,0,0,57,52,36,0,4,194,0,0,67,193,0,21,188,194,0,0,57,193,0,21,185,194,0,0,44,194,0
+	.byte 0,58,194,0,0,70,122,194,0,0,62,194,0,0,61,194,0,0,47,113,194,0,2,122,194,0,2,121,194,0,2,120
+	.byte 194,0,2,119,194,0,2,118,194,0,2,117,194,0,3,62,194,0,3,48,194,0,3,49,194,0,3,42,194,0,3,50
+	.byte 194,0,3,51,194,0,3,80,194,0,3,76,194,0,3,75,194,0,3,74,194,0,3,73,194,0,3,72,194,0,3,71
+	.byte 194,0,3,66,194,0,3,65,194,0,3,60,194,0,3,59,194,0,3,58,194,0,3,57,194,0,3,56,194,0,3,55
+	.byte 194,0,3,54,194,0,3,53,194,0,3,52,194,0,3,51,194,0,3,50,194,0,3,49,194,0,3,48,194,0,3,47
+	.byte 194,0,3,46,194,0,3,45,194,0,3,44,194,0,3,43,194,0,3,42,194,0,3,41,194,0,3,40,121,120,119,118
+	.byte 117,116,115,114,98,111,101,104,109,0
 .section	__DATA,__objc_selrefs,literal_pointers,no_dead_strip
 .align	2
 L_OBJC_SELECTOR_REFERENCES_0:
@@ -5817,7 +5819,7 @@ LTDIE_3:
 	.byte 5
 	.asciz "MonoTouch_UIKit_UIView"
 
-	.byte 40,16
+	.byte 44,16
 LDIFF_SYM37=LTDIE_4 - Ldebug_info_start
 	.long LDIFF_SYM37
 	.byte 2,35,0,6
@@ -5831,78 +5833,83 @@ LDIFF_SYM38=LDIE_OBJECT - Ldebug_info_start
 LDIFF_SYM39=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM39
 	.byte 2,35,28,6
-	.asciz "__mt_Subviews_var"
+	.asciz "__mt_Superview_var"
 
 LDIFF_SYM40=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM40
 	.byte 2,35,32,6
-	.asciz "__mt_GestureRecognizers_var"
+	.asciz "__mt_Subviews_var"
 
 LDIFF_SYM41=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM41
-	.byte 2,35,36,0,7
+	.byte 2,35,36,6
+	.asciz "__mt_GestureRecognizers_var"
+
+LDIFF_SYM42=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM42
+	.byte 2,35,40,0,7
 	.asciz "MonoTouch_UIKit_UIView"
 
-LDIFF_SYM42=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM42
+LDIFF_SYM43=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM43
 LTDIE_3_POINTER:
 
 	.byte 13
-LDIFF_SYM43=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM43
+LDIFF_SYM44=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM44
 LTDIE_3_REFERENCE:
 
 	.byte 14
-LDIFF_SYM44=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM44
+LDIFF_SYM45=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM45
 LTDIE_2:
 
 	.byte 5
 	.asciz "MBProgressHUD_MTMBProgressHUD"
 
-	.byte 60,16
-LDIFF_SYM45=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM45
+	.byte 64,16
+LDIFF_SYM46=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM46
 	.byte 2,35,0,6
 	.asciz "__mt_CustomView_var"
-
-LDIFF_SYM46=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM46
-	.byte 2,35,40,6
-	.asciz "__mt_WeakDelegate_var"
 
 LDIFF_SYM47=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM47
 	.byte 2,35,44,6
-	.asciz "__mt_Color_var"
+	.asciz "__mt_WeakDelegate_var"
 
 LDIFF_SYM48=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM48
 	.byte 2,35,48,6
-	.asciz "__mt_LabelFont_var"
+	.asciz "__mt_Color_var"
 
 LDIFF_SYM49=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM49
 	.byte 2,35,52,6
-	.asciz "__mt_DetailsLabelFont_var"
+	.asciz "__mt_LabelFont_var"
 
 LDIFF_SYM50=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM50
-	.byte 2,35,56,0,7
+	.byte 2,35,56,6
+	.asciz "__mt_DetailsLabelFont_var"
+
+LDIFF_SYM51=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM51
+	.byte 2,35,60,0,7
 	.asciz "MBProgressHUD_MTMBProgressHUD"
 
-LDIFF_SYM51=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM51
+LDIFF_SYM52=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM52
 LTDIE_2_POINTER:
 
 	.byte 13
-LDIFF_SYM52=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM52
+LDIFF_SYM53=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM53
 LTDIE_2_REFERENCE:
 
 	.byte 14
-LDIFF_SYM53=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM53
+LDIFF_SYM54=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM54
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:.ctor"
 	.long _MBProgressHUD_MTMBProgressHUD__ctor
@@ -5911,22 +5918,22 @@ LDIFF_SYM53=LTDIE_2 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM54=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM54
+LDIFF_SYM55=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM55
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM55=Lfde2_end - Lfde2_start
-	.long LDIFF_SYM55
+LDIFF_SYM56=Lfde2_end - Lfde2_start
+	.long LDIFF_SYM56
 Lfde2_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD__ctor
 
-LDIFF_SYM56=Lme_a - _MBProgressHUD_MTMBProgressHUD__ctor
-	.long LDIFF_SYM56
+LDIFF_SYM57=Lme_a - _MBProgressHUD_MTMBProgressHUD__ctor
+	.long LDIFF_SYM57
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde2_end:
@@ -5938,23 +5945,23 @@ LTDIE_8:
 	.asciz "MonoTouch_Foundation_NSCoder"
 
 	.byte 24,16
-LDIFF_SYM57=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM57
+LDIFF_SYM58=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM58
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_Foundation_NSCoder"
 
-LDIFF_SYM58=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM58
+LDIFF_SYM59=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM59
 LTDIE_8_POINTER:
 
 	.byte 13
-LDIFF_SYM59=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM59
+LDIFF_SYM60=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM60
 LTDIE_8_REFERENCE:
 
 	.byte 14
-LDIFF_SYM60=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM60
+LDIFF_SYM61=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM61
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:.ctor"
 	.long _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_Foundation_NSCoder
@@ -5963,27 +5970,27 @@ LDIFF_SYM60=LTDIE_8 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM61=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM61
+LDIFF_SYM62=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM62
 	.byte 1,86,3
 	.asciz "coder"
 
-LDIFF_SYM62=LTDIE_8_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM62
+LDIFF_SYM63=LTDIE_8_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM63
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM63=Lfde3_end - Lfde3_start
-	.long LDIFF_SYM63
+LDIFF_SYM64=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM64
 Lfde3_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_Foundation_NSCoder
 
-LDIFF_SYM64=Lme_b - _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_Foundation_NSCoder
-	.long LDIFF_SYM64
+LDIFF_SYM65=Lme_b - _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_Foundation_NSCoder
+	.long LDIFF_SYM65
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde3_end:
@@ -5995,23 +6002,23 @@ LTDIE_9:
 	.asciz "MonoTouch_Foundation_NSObjectFlag"
 
 	.byte 8,16
-LDIFF_SYM65=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM65
+LDIFF_SYM66=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM66
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_Foundation_NSObjectFlag"
 
-LDIFF_SYM66=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM66
+LDIFF_SYM67=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM67
 LTDIE_9_POINTER:
 
 	.byte 13
-LDIFF_SYM67=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM67
+LDIFF_SYM68=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM68
 LTDIE_9_REFERENCE:
 
 	.byte 14
-LDIFF_SYM68=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM68
+LDIFF_SYM69=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM69
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:.ctor"
 	.long _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_Foundation_NSObjectFlag
@@ -6020,27 +6027,27 @@ LDIFF_SYM68=LTDIE_9 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM69=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM69
+LDIFF_SYM70=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM70
 	.byte 1,86,3
 	.asciz "t"
 
-LDIFF_SYM70=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM70
+LDIFF_SYM71=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM71
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM71=Lfde4_end - Lfde4_start
-	.long LDIFF_SYM71
+LDIFF_SYM72=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM72
 Lfde4_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_Foundation_NSObjectFlag
 
-LDIFF_SYM72=Lme_c - _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_Foundation_NSObjectFlag
-	.long LDIFF_SYM72
+LDIFF_SYM73=Lme_c - _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_Foundation_NSObjectFlag
+	.long LDIFF_SYM73
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde4_end:
@@ -6055,27 +6062,27 @@ Lfde4_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM73=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM73
+LDIFF_SYM74=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM74
 	.byte 1,86,3
 	.asciz "handle"
 
-LDIFF_SYM74=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM74
+LDIFF_SYM75=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM75
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM75=Lfde5_end - Lfde5_start
-	.long LDIFF_SYM75
+LDIFF_SYM76=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM76
 Lfde5_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD__ctor_intptr
 
-LDIFF_SYM76=Lme_d - _MBProgressHUD_MTMBProgressHUD__ctor_intptr
-	.long LDIFF_SYM76
+LDIFF_SYM77=Lme_d - _MBProgressHUD_MTMBProgressHUD__ctor_intptr
+	.long LDIFF_SYM77
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde5_end:
@@ -6086,29 +6093,29 @@ LTDIE_10:
 	.byte 5
 	.asciz "MonoTouch_UIKit_UIWindow"
 
-	.byte 44,16
-LDIFF_SYM77=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM77
+	.byte 48,16
+LDIFF_SYM78=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM78
 	.byte 2,35,0,6
 	.asciz "__mt_RootViewController_var"
 
-LDIFF_SYM78=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM78
-	.byte 2,35,40,0,7
+LDIFF_SYM79=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM79
+	.byte 2,35,44,0,7
 	.asciz "MonoTouch_UIKit_UIWindow"
 
-LDIFF_SYM79=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM79
+LDIFF_SYM80=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM80
 LTDIE_10_POINTER:
 
 	.byte 13
-LDIFF_SYM80=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM80
+LDIFF_SYM81=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM81
 LTDIE_10_REFERENCE:
 
 	.byte 14
-LDIFF_SYM81=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM81
+LDIFF_SYM82=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM82
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:.ctor"
 	.long _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_UIKit_UIWindow
@@ -6117,27 +6124,27 @@ LDIFF_SYM81=LTDIE_10 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM82=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM82
+LDIFF_SYM83=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM83
 	.byte 1,86,3
 	.asciz "window"
 
-LDIFF_SYM83=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM83
+LDIFF_SYM84=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM84
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM84=Lfde6_end - Lfde6_start
-	.long LDIFF_SYM84
+LDIFF_SYM85=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM85
 Lfde6_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_UIKit_UIWindow
 
-LDIFF_SYM85=Lme_e - _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_UIKit_UIWindow
-	.long LDIFF_SYM85
+LDIFF_SYM86=Lme_e - _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_UIKit_UIWindow
+	.long LDIFF_SYM86
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde6_end:
@@ -6152,27 +6159,27 @@ Lfde6_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM86=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM86
+LDIFF_SYM87=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM87
 	.byte 1,86,3
 	.asciz "view"
 
-LDIFF_SYM87=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM87
+LDIFF_SYM88=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM88
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM88=Lfde7_end - Lfde7_start
-	.long LDIFF_SYM88
+LDIFF_SYM89=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM89
 Lfde7_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_UIKit_UIView
 
-LDIFF_SYM89=Lme_f - _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_UIKit_UIView
-	.long LDIFF_SYM89
+LDIFF_SYM90=Lme_f - _MBProgressHUD_MTMBProgressHUD__ctor_MonoTouch_UIKit_UIView
+	.long LDIFF_SYM90
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde7_end:
@@ -6188,16 +6195,16 @@ Lfde7_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM90=Lfde8_end - Lfde8_start
-	.long LDIFF_SYM90
+LDIFF_SYM91=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM91
 Lfde8_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD__cctor
 
-LDIFF_SYM91=Lme_10 - _MBProgressHUD_MTMBProgressHUD__cctor
-	.long LDIFF_SYM91
+LDIFF_SYM92=Lme_10 - _MBProgressHUD_MTMBProgressHUD__cctor
+	.long LDIFF_SYM92
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,16
 	.align 2
 Lfde8_end:
@@ -6209,254 +6216,254 @@ LTDIE_16:
 	.asciz "System_Reflection_MemberInfo"
 
 	.byte 8,16
-LDIFF_SYM92=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM92
+LDIFF_SYM93=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM93
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MemberInfo"
 
-LDIFF_SYM93=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM93
+LDIFF_SYM94=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM94
 LTDIE_16_POINTER:
 
 	.byte 13
-LDIFF_SYM94=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM94
+LDIFF_SYM95=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM95
 LTDIE_16_REFERENCE:
 
 	.byte 14
-LDIFF_SYM95=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM95
+LDIFF_SYM96=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM96
 LTDIE_15:
 
 	.byte 5
 	.asciz "System_Reflection_MethodBase"
 
 	.byte 8,16
-LDIFF_SYM96=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM96
+LDIFF_SYM97=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM97
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MethodBase"
 
-LDIFF_SYM97=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM97
+LDIFF_SYM98=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM98
 LTDIE_15_POINTER:
 
 	.byte 13
-LDIFF_SYM98=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM98
+LDIFF_SYM99=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM99
 LTDIE_15_REFERENCE:
 
 	.byte 14
-LDIFF_SYM99=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM99
+LDIFF_SYM100=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM100
 LTDIE_14:
 
 	.byte 5
 	.asciz "System_Reflection_MethodInfo"
 
 	.byte 8,16
-LDIFF_SYM100=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM100
+LDIFF_SYM101=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM101
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MethodInfo"
 
-LDIFF_SYM101=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM101
+LDIFF_SYM102=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM102
 LTDIE_14_POINTER:
 
 	.byte 13
-LDIFF_SYM102=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM102
+LDIFF_SYM103=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM103
 LTDIE_14_REFERENCE:
 
 	.byte 14
-LDIFF_SYM103=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM103
+LDIFF_SYM104=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM104
 LTDIE_18:
 
 	.byte 5
 	.asciz "System_Type"
 
 	.byte 12,16
-LDIFF_SYM104=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM104
+LDIFF_SYM105=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM105
 	.byte 2,35,0,6
 	.asciz "_impl"
 
-LDIFF_SYM105=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM105
+LDIFF_SYM106=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM106
 	.byte 2,35,8,0,7
 	.asciz "System_Type"
 
-LDIFF_SYM106=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM106
+LDIFF_SYM107=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM107
 LTDIE_18_POINTER:
 
 	.byte 13
-LDIFF_SYM107=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM107
+LDIFF_SYM108=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM108
 LTDIE_18_REFERENCE:
 
 	.byte 14
-LDIFF_SYM108=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM108
+LDIFF_SYM109=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM109
 LTDIE_17:
 
 	.byte 5
 	.asciz "System_DelegateData"
 
 	.byte 16,16
-LDIFF_SYM109=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM109
+LDIFF_SYM110=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM110
 	.byte 2,35,0,6
 	.asciz "target_type"
 
-LDIFF_SYM110=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM110
+LDIFF_SYM111=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM111
 	.byte 2,35,8,6
 	.asciz "method_name"
 
-LDIFF_SYM111=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM111
+LDIFF_SYM112=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM112
 	.byte 2,35,12,0,7
 	.asciz "System_DelegateData"
 
-LDIFF_SYM112=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM112
+LDIFF_SYM113=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM113
 LTDIE_17_POINTER:
 
 	.byte 13
-LDIFF_SYM113=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM113
+LDIFF_SYM114=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM114
 LTDIE_17_REFERENCE:
 
 	.byte 14
-LDIFF_SYM114=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM114
+LDIFF_SYM115=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM115
 LTDIE_13:
 
 	.byte 5
 	.asciz "System_Delegate"
 
 	.byte 44,16
-LDIFF_SYM115=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM115
+LDIFF_SYM116=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM116
 	.byte 2,35,0,6
 	.asciz "method_ptr"
 
-LDIFF_SYM116=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM116
+LDIFF_SYM117=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM117
 	.byte 2,35,8,6
 	.asciz "invoke_impl"
 
-LDIFF_SYM117=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM117
+LDIFF_SYM118=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM118
 	.byte 2,35,12,6
 	.asciz "m_target"
 
-LDIFF_SYM118=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM118
+LDIFF_SYM119=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM119
 	.byte 2,35,16,6
 	.asciz "method"
 
-LDIFF_SYM119=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM119
+LDIFF_SYM120=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM120
 	.byte 2,35,20,6
 	.asciz "delegate_trampoline"
 
-LDIFF_SYM120=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM120
+LDIFF_SYM121=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM121
 	.byte 2,35,24,6
 	.asciz "method_code"
 
-LDIFF_SYM121=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM121
+LDIFF_SYM122=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM122
 	.byte 2,35,28,6
 	.asciz "method_info"
 
-LDIFF_SYM122=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM122
+LDIFF_SYM123=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM123
 	.byte 2,35,32,6
 	.asciz "original_method_info"
 
-LDIFF_SYM123=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM123
+LDIFF_SYM124=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM124
 	.byte 2,35,36,6
 	.asciz "data"
 
-LDIFF_SYM124=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM124
+LDIFF_SYM125=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM125
 	.byte 2,35,40,0,7
 	.asciz "System_Delegate"
 
-LDIFF_SYM125=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM125
+LDIFF_SYM126=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM126
 LTDIE_13_POINTER:
 
 	.byte 13
-LDIFF_SYM126=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM126
+LDIFF_SYM127=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM127
 LTDIE_13_REFERENCE:
 
 	.byte 14
-LDIFF_SYM127=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM127
+LDIFF_SYM128=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM128
 LTDIE_12:
 
 	.byte 5
 	.asciz "System_MulticastDelegate"
 
 	.byte 52,16
-LDIFF_SYM128=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM128
+LDIFF_SYM129=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM129
 	.byte 2,35,0,6
 	.asciz "prev"
 
-LDIFF_SYM129=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM129
+LDIFF_SYM130=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM130
 	.byte 2,35,44,6
 	.asciz "kpm_next"
 
-LDIFF_SYM130=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM130
+LDIFF_SYM131=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM131
 	.byte 2,35,48,0,7
 	.asciz "System_MulticastDelegate"
 
-LDIFF_SYM131=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM131
+LDIFF_SYM132=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM132
 LTDIE_12_POINTER:
 
 	.byte 13
-LDIFF_SYM132=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM132
+LDIFF_SYM133=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM133
 LTDIE_12_REFERENCE:
 
 	.byte 14
-LDIFF_SYM133=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM133
+LDIFF_SYM134=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM134
 LTDIE_11:
 
 	.byte 5
 	.asciz "System_EventHandler"
 
 	.byte 52,16
-LDIFF_SYM134=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM134
+LDIFF_SYM135=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM135
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler"
 
-LDIFF_SYM135=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM135
+LDIFF_SYM136=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM136
 LTDIE_11_POINTER:
 
 	.byte 13
-LDIFF_SYM136=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM136
+LDIFF_SYM137=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM137
 LTDIE_11_REFERENCE:
 
 	.byte 14
-LDIFF_SYM137=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM137
+LDIFF_SYM138=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM138
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:add_DidHide"
 	.long _MBProgressHUD_MTMBProgressHUD_add_DidHide_System_EventHandler
@@ -6465,27 +6472,27 @@ LDIFF_SYM137=LTDIE_11 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM138=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM138
+LDIFF_SYM139=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM139
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM139=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM139
+LDIFF_SYM140=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM140
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM140=Lfde9_end - Lfde9_start
-	.long LDIFF_SYM140
+LDIFF_SYM141=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM141
 Lfde9_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_add_DidHide_System_EventHandler
 
-LDIFF_SYM141=Lme_11 - _MBProgressHUD_MTMBProgressHUD_add_DidHide_System_EventHandler
-	.long LDIFF_SYM141
+LDIFF_SYM142=Lme_11 - _MBProgressHUD_MTMBProgressHUD_add_DidHide_System_EventHandler
+	.long LDIFF_SYM142
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde9_end:
@@ -6500,27 +6507,27 @@ Lfde9_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM142=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM142
+LDIFF_SYM143=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM143
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM143=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM143
+LDIFF_SYM144=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM144
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM144=Lfde10_end - Lfde10_start
-	.long LDIFF_SYM144
+LDIFF_SYM145=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM145
 Lfde10_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_remove_DidHide_System_EventHandler
 
-LDIFF_SYM145=Lme_12 - _MBProgressHUD_MTMBProgressHUD_remove_DidHide_System_EventHandler
-	.long LDIFF_SYM145
+LDIFF_SYM146=Lme_12 - _MBProgressHUD_MTMBProgressHUD_remove_DidHide_System_EventHandler
+	.long LDIFF_SYM146
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde10_end:
@@ -6535,22 +6542,22 @@ Lfde10_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM146=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM146
+LDIFF_SYM147=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM147
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM147=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM147
+LDIFF_SYM148=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM148
 Lfde11_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_ClassHandle
 
-LDIFF_SYM148=Lme_13 - _MBProgressHUD_MTMBProgressHUD_get_ClassHandle
-	.long LDIFF_SYM148
+LDIFF_SYM149=Lme_13 - _MBProgressHUD_MTMBProgressHUD_get_ClassHandle
+	.long LDIFF_SYM149
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde11_end:
@@ -6565,27 +6572,27 @@ Lfde11_end:
 	.byte 2,118,16,3
 	.asciz "view"
 
-LDIFF_SYM149=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM149
+LDIFF_SYM150=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM150
 	.byte 1,90,3
 	.asciz "animated"
 
-LDIFF_SYM150=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM150
+LDIFF_SYM151=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM151
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM151=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM151
+LDIFF_SYM152=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM152
 Lfde12_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_ShowHUD_MonoTouch_UIKit_UIView_bool
 
-LDIFF_SYM152=Lme_14 - _MBProgressHUD_MTMBProgressHUD_ShowHUD_MonoTouch_UIKit_UIView_bool
-	.long LDIFF_SYM152
+LDIFF_SYM153=Lme_14 - _MBProgressHUD_MTMBProgressHUD_ShowHUD_MonoTouch_UIKit_UIView_bool
+	.long LDIFF_SYM153
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde12_end:
@@ -6600,27 +6607,27 @@ Lfde12_end:
 	.byte 2,118,16,3
 	.asciz "view"
 
-LDIFF_SYM153=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM153
+LDIFF_SYM154=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM154
 	.byte 1,90,3
 	.asciz "animated"
 
-LDIFF_SYM154=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM154
+LDIFF_SYM155=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM155
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM155=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM155
+LDIFF_SYM156=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM156
 Lfde13_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_HideHUD_MonoTouch_UIKit_UIView_bool
 
-LDIFF_SYM156=Lme_15 - _MBProgressHUD_MTMBProgressHUD_HideHUD_MonoTouch_UIKit_UIView_bool
-	.long LDIFF_SYM156
+LDIFF_SYM157=Lme_15 - _MBProgressHUD_MTMBProgressHUD_HideHUD_MonoTouch_UIKit_UIView_bool
+	.long LDIFF_SYM157
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde13_end:
@@ -6635,27 +6642,27 @@ Lfde13_end:
 	.byte 2,118,16,3
 	.asciz "view"
 
-LDIFF_SYM157=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM157
+LDIFF_SYM158=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM158
 	.byte 1,90,3
 	.asciz "animated"
 
-LDIFF_SYM158=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM158
+LDIFF_SYM159=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM159
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM159=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM159
+LDIFF_SYM160=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM160
 Lfde14_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_HideAllHUDs_MonoTouch_UIKit_UIView_bool
 
-LDIFF_SYM160=Lme_16 - _MBProgressHUD_MTMBProgressHUD_HideAllHUDs_MonoTouch_UIKit_UIView_bool
-	.long LDIFF_SYM160
+LDIFF_SYM161=Lme_16 - _MBProgressHUD_MTMBProgressHUD_HideAllHUDs_MonoTouch_UIKit_UIView_bool
+	.long LDIFF_SYM161
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde14_end:
@@ -6670,22 +6677,22 @@ Lfde14_end:
 	.byte 2,118,16,3
 	.asciz "view"
 
-LDIFF_SYM161=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM161
+LDIFF_SYM162=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM162
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM162=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM162
+LDIFF_SYM163=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM163
 Lfde15_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_HUDForView_MonoTouch_UIKit_UIView
 
-LDIFF_SYM163=Lme_17 - _MBProgressHUD_MTMBProgressHUD_HUDForView_MonoTouch_UIKit_UIView
-	.long LDIFF_SYM163
+LDIFF_SYM164=Lme_17 - _MBProgressHUD_MTMBProgressHUD_HUDForView_MonoTouch_UIKit_UIView
+	.long LDIFF_SYM164
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde15_end:
@@ -6700,22 +6707,22 @@ Lfde15_end:
 	.byte 2,118,16,3
 	.asciz "view"
 
-LDIFF_SYM164=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM164
+LDIFF_SYM165=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM165
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM165=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM165
+LDIFF_SYM166=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM166
 Lfde16_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_AllHUDsForView_MonoTouch_UIKit_UIView
 
-LDIFF_SYM166=Lme_18 - _MBProgressHUD_MTMBProgressHUD_AllHUDsForView_MonoTouch_UIKit_UIView
-	.long LDIFF_SYM166
+LDIFF_SYM167=Lme_18 - _MBProgressHUD_MTMBProgressHUD_AllHUDsForView_MonoTouch_UIKit_UIView
+	.long LDIFF_SYM167
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde16_end:
@@ -6730,27 +6737,27 @@ Lfde16_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM167=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM167
+LDIFF_SYM168=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM168
 	.byte 1,90,3
 	.asciz "animated"
 
-LDIFF_SYM168=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM168
+LDIFF_SYM169=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM169
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM169=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM169
+LDIFF_SYM170=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM170
 Lfde17_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_Show_bool
 
-LDIFF_SYM170=Lme_19 - _MBProgressHUD_MTMBProgressHUD_Show_bool
-	.long LDIFF_SYM170
+LDIFF_SYM171=Lme_19 - _MBProgressHUD_MTMBProgressHUD_Show_bool
+	.long LDIFF_SYM171
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde17_end:
@@ -6765,27 +6772,27 @@ Lfde17_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM171=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM171
+LDIFF_SYM172=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM172
 	.byte 1,90,3
 	.asciz "animated"
 
-LDIFF_SYM172=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM172
+LDIFF_SYM173=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM173
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM173=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM173
+LDIFF_SYM174=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM174
 Lfde18_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_Hide_bool
 
-LDIFF_SYM174=Lme_1a - _MBProgressHUD_MTMBProgressHUD_Hide_bool
-	.long LDIFF_SYM174
+LDIFF_SYM175=Lme_1a - _MBProgressHUD_MTMBProgressHUD_Hide_bool
+	.long LDIFF_SYM175
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde18_end:
@@ -6797,28 +6804,28 @@ LTDIE_19:
 	.asciz "System_Double"
 
 	.byte 16,16
-LDIFF_SYM175=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM175
+LDIFF_SYM176=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM176
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM176=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM176
+LDIFF_SYM177=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM177
 	.byte 2,35,8,0,7
 	.asciz "System_Double"
 
-LDIFF_SYM177=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM177
+LDIFF_SYM178=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM178
 LTDIE_19_POINTER:
 
 	.byte 13
-LDIFF_SYM178=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM178
+LDIFF_SYM179=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM179
 LTDIE_19_REFERENCE:
 
 	.byte 14
-LDIFF_SYM179=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM179
+LDIFF_SYM180=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM180
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:Hide"
 	.long _MBProgressHUD_MTMBProgressHUD_Hide_bool_double
@@ -6827,32 +6834,32 @@ LDIFF_SYM179=LTDIE_19 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM180=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM180
+LDIFF_SYM181=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM181
 	.byte 1,90,3
 	.asciz "animated"
 
-LDIFF_SYM181=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM181
+LDIFF_SYM182=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM182
 	.byte 2,123,16,3
 	.asciz "delay"
 
-LDIFF_SYM182=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM182
+LDIFF_SYM183=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM183
 	.byte 2,123,20,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM183=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM183
+LDIFF_SYM184=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM184
 Lfde19_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_Hide_bool_double
 
-LDIFF_SYM184=Lme_1b - _MBProgressHUD_MTMBProgressHUD_Hide_bool_double
-	.long LDIFF_SYM184
+LDIFF_SYM185=Lme_1b - _MBProgressHUD_MTMBProgressHUD_Hide_bool_double
+	.long LDIFF_SYM185
 	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
 Lfde19_end:
@@ -6864,33 +6871,33 @@ LTDIE_20:
 	.asciz "MonoTouch_ObjCRuntime_Selector"
 
 	.byte 16,16
-LDIFF_SYM185=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM185
+LDIFF_SYM186=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM186
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM186=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM186
+LDIFF_SYM187=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM187
 	.byte 2,35,12,6
 	.asciz "name"
 
-LDIFF_SYM187=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM187
+LDIFF_SYM188=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM188
 	.byte 2,35,8,0,7
 	.asciz "MonoTouch_ObjCRuntime_Selector"
 
-LDIFF_SYM188=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM188
+LDIFF_SYM189=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM189
 LTDIE_20_POINTER:
 
 	.byte 13
-LDIFF_SYM189=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM189
+LDIFF_SYM190=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM190
 LTDIE_20_REFERENCE:
 
 	.byte 14
-LDIFF_SYM190=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM190
+LDIFF_SYM191=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM191
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:Show"
 	.long _MBProgressHUD_MTMBProgressHUD_Show_MonoTouch_ObjCRuntime_Selector_MonoTouch_Foundation_NSObject_MonoTouch_Foundation_NSObject_bool
@@ -6899,42 +6906,42 @@ LDIFF_SYM190=LTDIE_20 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM191=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM191
+LDIFF_SYM192=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM192
 	.byte 1,84,3
 	.asciz "method"
 
-LDIFF_SYM192=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM192
+LDIFF_SYM193=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM193
 	.byte 1,85,3
 	.asciz "target"
 
-LDIFF_SYM193=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM193
+LDIFF_SYM194=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM194
 	.byte 1,86,3
 	.asciz "aObject"
 
-LDIFF_SYM194=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM194
+LDIFF_SYM195=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM195
 	.byte 1,90,3
 	.asciz "animated"
 
-LDIFF_SYM195=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM195
+LDIFF_SYM196=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM196
 	.byte 2,123,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM196=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM196
+LDIFF_SYM197=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM197
 Lfde20_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_Show_MonoTouch_ObjCRuntime_Selector_MonoTouch_Foundation_NSObject_MonoTouch_Foundation_NSObject_bool
 
-LDIFF_SYM197=Lme_1c - _MBProgressHUD_MTMBProgressHUD_Show_MonoTouch_ObjCRuntime_Selector_MonoTouch_Foundation_NSObject_MonoTouch_Foundation_NSObject_bool
-	.long LDIFF_SYM197
+LDIFF_SYM198=Lme_1c - _MBProgressHUD_MTMBProgressHUD_Show_MonoTouch_ObjCRuntime_Selector_MonoTouch_Foundation_NSObject_MonoTouch_Foundation_NSObject_bool
+	.long LDIFF_SYM198
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,68,13,11
 	.align 2
 Lfde20_end:
@@ -6946,23 +6953,23 @@ LTDIE_21:
 	.asciz "MBProgressHUD_NSDispatchHandlerT"
 
 	.byte 52,16
-LDIFF_SYM198=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM198
+LDIFF_SYM199=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM199
 	.byte 2,35,0,0,7
 	.asciz "MBProgressHUD_NSDispatchHandlerT"
 
-LDIFF_SYM199=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM199
+LDIFF_SYM200=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM200
 LTDIE_21_POINTER:
 
 	.byte 13
-LDIFF_SYM200=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM200
+LDIFF_SYM201=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM201
 LTDIE_21_REFERENCE:
 
 	.byte 14
-LDIFF_SYM201=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM201
+LDIFF_SYM202=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM202
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:Show"
 	.long _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT
@@ -6971,42 +6978,42 @@ LDIFF_SYM201=LTDIE_21 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM202=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM202
+LDIFF_SYM203=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM203
 	.byte 1,86,3
 	.asciz "animated"
 
-LDIFF_SYM203=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM203
+LDIFF_SYM204=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM204
 	.byte 2,125,36,3
 	.asciz "whileExecutingHandler"
 
-LDIFF_SYM204=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM204
+LDIFF_SYM205=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM205
 	.byte 2,125,40,11
 	.asciz "block_ptr_whileExecutingHandler"
 
-LDIFF_SYM205=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM205
+LDIFF_SYM206=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM206
 	.byte 1,85,11
 	.asciz "block_whileExecutingHandler"
 
-LDIFF_SYM206=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM206
+LDIFF_SYM207=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM207
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM207=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM207
+LDIFF_SYM208=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM208
 Lfde21_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT
 
-LDIFF_SYM208=Lme_1d - _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT
-	.long LDIFF_SYM208
+LDIFF_SYM209=Lme_1d - _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT
+	.long LDIFF_SYM209
 	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,72
 	.align 2
 Lfde21_end:
@@ -7018,23 +7025,23 @@ LTDIE_22:
 	.asciz "MBProgressHUD_MBProgressHUDCompletionHandler"
 
 	.byte 52,16
-LDIFF_SYM209=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM209
+LDIFF_SYM210=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM210
 	.byte 2,35,0,0,7
 	.asciz "MBProgressHUD_MBProgressHUDCompletionHandler"
 
-LDIFF_SYM210=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM210
+LDIFF_SYM211=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM211
 LTDIE_22_POINTER:
 
 	.byte 13
-LDIFF_SYM211=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM211
+LDIFF_SYM212=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM212
 LTDIE_22_REFERENCE:
 
 	.byte 14
-LDIFF_SYM212=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM212
+LDIFF_SYM213=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM213
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:Show"
 	.long _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT_MBProgressHUD_MBProgressHUDCompletionHandler
@@ -7043,57 +7050,57 @@ LDIFF_SYM212=LTDIE_22 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM213=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM213
+LDIFF_SYM214=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM214
 	.byte 1,85,3
 	.asciz "animated"
 
-LDIFF_SYM214=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM214
+LDIFF_SYM215=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM215
 	.byte 3,123,212,0,3
 	.asciz "whileExecutingHandler"
 
-LDIFF_SYM215=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM215
+LDIFF_SYM216=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM216
 	.byte 3,123,216,0,3
 	.asciz "completionHandler"
 
-LDIFF_SYM216=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM216
+LDIFF_SYM217=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM217
 	.byte 3,123,220,0,11
 	.asciz "block_ptr_whileExecutingHandler"
 
-LDIFF_SYM217=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM217
+LDIFF_SYM218=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM218
 	.byte 1,84,11
 	.asciz "block_whileExecutingHandler"
 
-LDIFF_SYM218=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM218
+LDIFF_SYM219=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM219
 	.byte 2,123,8,11
 	.asciz "block_ptr_completionHandler"
 
-LDIFF_SYM219=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM219
+LDIFF_SYM220=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM220
 	.byte 2,123,36,11
 	.asciz "block_completionHandler"
 
-LDIFF_SYM220=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM220
+LDIFF_SYM221=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM221
 	.byte 2,123,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM221=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM221
+LDIFF_SYM222=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM222
 Lfde22_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT_MBProgressHUD_MBProgressHUDCompletionHandler
 
-LDIFF_SYM222=Lme_1e - _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT_MBProgressHUD_MBProgressHUDCompletionHandler
-	.long LDIFF_SYM222
+LDIFF_SYM223=Lme_1e - _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT_MBProgressHUD_MBProgressHUDCompletionHandler
+	.long LDIFF_SYM223
 	.byte 12,13,0,72,14,8,135,2,68,14,24,132,6,133,5,136,4,139,3,142,1,68,14,120,68,13,11
 	.align 2
 Lfde22_end:
@@ -7105,51 +7112,51 @@ LTDIE_24:
 	.asciz "MonoTouch_CoreFoundation_DispatchObject"
 
 	.byte 12,16
-LDIFF_SYM223=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM223
+LDIFF_SYM224=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM224
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM224=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM224
+LDIFF_SYM225=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM225
 	.byte 2,35,8,0,7
 	.asciz "MonoTouch_CoreFoundation_DispatchObject"
 
-LDIFF_SYM225=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM225
+LDIFF_SYM226=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM226
 LTDIE_24_POINTER:
 
 	.byte 13
-LDIFF_SYM226=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM226
+LDIFF_SYM227=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM227
 LTDIE_24_REFERENCE:
 
 	.byte 14
-LDIFF_SYM227=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM227
+LDIFF_SYM228=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM228
 LTDIE_23:
 
 	.byte 5
 	.asciz "MonoTouch_CoreFoundation_DispatchQueue"
 
 	.byte 12,16
-LDIFF_SYM228=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM228
+LDIFF_SYM229=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM229
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_CoreFoundation_DispatchQueue"
 
-LDIFF_SYM229=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM229
+LDIFF_SYM230=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM230
 LTDIE_23_POINTER:
 
 	.byte 13
-LDIFF_SYM230=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM230
+LDIFF_SYM231=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM231
 LTDIE_23_REFERENCE:
 
 	.byte 14
-LDIFF_SYM231=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM231
+LDIFF_SYM232=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM232
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:Show"
 	.long _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT_MonoTouch_CoreFoundation_DispatchQueue
@@ -7158,47 +7165,47 @@ LDIFF_SYM231=LTDIE_23 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM232=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM232
+LDIFF_SYM233=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM233
 	.byte 1,85,3
 	.asciz "animated"
 
-LDIFF_SYM233=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM233
+LDIFF_SYM234=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM234
 	.byte 2,123,44,3
 	.asciz "whileExecutingHandler"
 
-LDIFF_SYM234=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM234
+LDIFF_SYM235=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM235
 	.byte 2,123,48,3
 	.asciz "queue"
 
-LDIFF_SYM235=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM235
+LDIFF_SYM236=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM236
 	.byte 1,90,11
 	.asciz "block_ptr_whileExecutingHandler"
 
-LDIFF_SYM236=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM236
+LDIFF_SYM237=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM237
 	.byte 1,84,11
 	.asciz "block_whileExecutingHandler"
 
-LDIFF_SYM237=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM237
+LDIFF_SYM238=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM238
 	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM238=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM238
+LDIFF_SYM239=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM239
 Lfde23_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT_MonoTouch_CoreFoundation_DispatchQueue
 
-LDIFF_SYM239=Lme_1f - _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT_MonoTouch_CoreFoundation_DispatchQueue
-	.long LDIFF_SYM239
+LDIFF_SYM240=Lme_1f - _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT_MonoTouch_CoreFoundation_DispatchQueue
+	.long LDIFF_SYM240
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,136,5,138,4,139,3,142,1,68,14,88,68,13,11
 	.align 2
 Lfde23_end:
@@ -7213,62 +7220,62 @@ Lfde23_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM240=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM240
+LDIFF_SYM241=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM241
 	.byte 1,84,3
 	.asciz "animated"
 
-LDIFF_SYM241=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM241
+LDIFF_SYM242=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM242
 	.byte 3,123,216,0,3
 	.asciz "whileExecutingHandler"
 
-LDIFF_SYM242=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM242
+LDIFF_SYM243=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM243
 	.byte 3,123,220,0,3
 	.asciz "queue"
 
-LDIFF_SYM243=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM243
+LDIFF_SYM244=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM244
 	.byte 1,86,3
 	.asciz "completionHandler"
 
-LDIFF_SYM244=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM244
+LDIFF_SYM245=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM245
 	.byte 3,123,224,0,11
 	.asciz "block_ptr_whileExecutingHandler"
 
-LDIFF_SYM245=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM245
+LDIFF_SYM246=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM246
 	.byte 2,123,8,11
 	.asciz "block_whileExecutingHandler"
 
-LDIFF_SYM246=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM246
+LDIFF_SYM247=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM247
 	.byte 2,123,12,11
 	.asciz "block_ptr_completionHandler"
 
-LDIFF_SYM247=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM247
+LDIFF_SYM248=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM248
 	.byte 2,123,40,11
 	.asciz "block_completionHandler"
 
-LDIFF_SYM248=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM248
+LDIFF_SYM249=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM249
 	.byte 2,123,44,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM249=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM249
+LDIFF_SYM250=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM250
 Lfde24_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT_MonoTouch_CoreFoundation_DispatchQueue_MBProgressHUD_MBProgressHUDCompletionHandler
 
-LDIFF_SYM250=Lme_20 - _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT_MonoTouch_CoreFoundation_DispatchQueue_MBProgressHUD_MBProgressHUDCompletionHandler
-	.long LDIFF_SYM250
+LDIFF_SYM251=Lme_20 - _MBProgressHUD_MTMBProgressHUD_Show_bool_MBProgressHUD_NSDispatchHandlerT_MonoTouch_CoreFoundation_DispatchQueue_MBProgressHUD_MBProgressHUDCompletionHandler
+	.long LDIFF_SYM251
 	.byte 12,13,0,72,14,8,135,2,68,14,24,132,6,134,5,136,4,139,3,142,1,68,14,136,1,68,13,11
 	.align 2
 Lfde24_end:
@@ -7283,37 +7290,37 @@ Lfde24_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM251=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM251
+LDIFF_SYM252=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM252
 	.byte 1,90,11
 	.asciz "ret"
 
-LDIFF_SYM252=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM252
-	.byte 1,86,11
-	.asciz ""
-
-LDIFF_SYM253=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM253=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM253
-	.byte 2,125,0,11
+	.byte 1,86,11
 	.asciz ""
 
 LDIFF_SYM254=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM254
+	.byte 2,125,0,11
+	.asciz ""
+
+LDIFF_SYM255=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM255
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM255=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM255
+LDIFF_SYM256=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM256
 Lfde25_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_CompletionHandler
 
-LDIFF_SYM256=Lme_21 - _MBProgressHUD_MTMBProgressHUD_get_CompletionHandler
-	.long LDIFF_SYM256
+LDIFF_SYM257=Lme_21 - _MBProgressHUD_MTMBProgressHUD_get_CompletionHandler
+	.long LDIFF_SYM257
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,48
 	.align 2
 Lfde25_end:
@@ -7328,37 +7335,37 @@ Lfde25_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM257=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM257
+LDIFF_SYM258=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM258
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM258=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM258
+LDIFF_SYM259=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM259
 	.byte 2,125,36,11
 	.asciz "block_ptr_value"
 
-LDIFF_SYM259=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM259
+LDIFF_SYM260=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM260
 	.byte 1,85,11
 	.asciz "block_value"
 
-LDIFF_SYM260=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM260
+LDIFF_SYM261=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM261
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM261=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM261
+LDIFF_SYM262=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM262
 Lfde26_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_CompletionHandler_MBProgressHUD_MBProgressHUDCompletionHandler
 
-LDIFF_SYM262=Lme_22 - _MBProgressHUD_MTMBProgressHUD_set_CompletionHandler_MBProgressHUD_MBProgressHUDCompletionHandler
-	.long LDIFF_SYM262
+LDIFF_SYM263=Lme_22 - _MBProgressHUD_MTMBProgressHUD_set_CompletionHandler_MBProgressHUD_MBProgressHUDCompletionHandler
+	.long LDIFF_SYM263
 	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,64
 	.align 2
 Lfde26_end:
@@ -7373,22 +7380,22 @@ Lfde26_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM263=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM263
+LDIFF_SYM264=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM264
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM264=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM264
+LDIFF_SYM265=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM265
 Lfde27_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_Mode
 
-LDIFF_SYM265=Lme_23 - _MBProgressHUD_MTMBProgressHUD_get_Mode
-	.long LDIFF_SYM265
+LDIFF_SYM266=Lme_23 - _MBProgressHUD_MTMBProgressHUD_get_Mode
+	.long LDIFF_SYM266
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde27_end:
@@ -7400,8 +7407,8 @@ LTDIE_25:
 	.asciz "MBProgressHUD_MBProgressHUDMode"
 
 	.byte 4
-LDIFF_SYM266=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM266
+LDIFF_SYM267=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM267
 	.byte 9
 	.asciz "Indeterminate"
 
@@ -7420,18 +7427,18 @@ LDIFF_SYM266=LDIE_I4 - Ldebug_info_start
 	.byte 4,0,7
 	.asciz "MBProgressHUD_MBProgressHUDMode"
 
-LDIFF_SYM267=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM267
+LDIFF_SYM268=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM268
 LTDIE_25_POINTER:
 
 	.byte 13
-LDIFF_SYM268=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM268
+LDIFF_SYM269=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM269
 LTDIE_25_REFERENCE:
 
 	.byte 14
-LDIFF_SYM269=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM269
+LDIFF_SYM270=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM270
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:set_Mode"
 	.long _MBProgressHUD_MTMBProgressHUD_set_Mode_MBProgressHUD_MBProgressHUDMode
@@ -7440,27 +7447,27 @@ LDIFF_SYM269=LTDIE_25 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM270=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM270
+LDIFF_SYM271=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM271
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM271=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM271
+LDIFF_SYM272=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM272
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM272=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM272
+LDIFF_SYM273=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM273
 Lfde28_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_Mode_MBProgressHUD_MBProgressHUDMode
 
-LDIFF_SYM273=Lme_24 - _MBProgressHUD_MTMBProgressHUD_set_Mode_MBProgressHUD_MBProgressHUDMode
-	.long LDIFF_SYM273
+LDIFF_SYM274=Lme_24 - _MBProgressHUD_MTMBProgressHUD_set_Mode_MBProgressHUD_MBProgressHUDMode
+	.long LDIFF_SYM274
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde28_end:
@@ -7475,22 +7482,22 @@ Lfde28_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM274=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM274
+LDIFF_SYM275=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM275
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM275=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM275
+LDIFF_SYM276=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM276
 Lfde29_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_AnimationType
 
-LDIFF_SYM276=Lme_25 - _MBProgressHUD_MTMBProgressHUD_get_AnimationType
-	.long LDIFF_SYM276
+LDIFF_SYM277=Lme_25 - _MBProgressHUD_MTMBProgressHUD_get_AnimationType
+	.long LDIFF_SYM277
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde29_end:
@@ -7502,8 +7509,8 @@ LTDIE_26:
 	.asciz "MBProgressHUD_MBProgressHUDAnimation"
 
 	.byte 4
-LDIFF_SYM277=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM277
+LDIFF_SYM278=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM278
 	.byte 9
 	.asciz "MBProgressHUDAnimationFade"
 
@@ -7519,18 +7526,18 @@ LDIFF_SYM277=LDIE_I4 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "MBProgressHUD_MBProgressHUDAnimation"
 
-LDIFF_SYM278=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM278
+LDIFF_SYM279=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM279
 LTDIE_26_POINTER:
 
 	.byte 13
-LDIFF_SYM279=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM279
+LDIFF_SYM280=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM280
 LTDIE_26_REFERENCE:
 
 	.byte 14
-LDIFF_SYM280=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM280
+LDIFF_SYM281=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM281
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:set_AnimationType"
 	.long _MBProgressHUD_MTMBProgressHUD_set_AnimationType_MBProgressHUD_MBProgressHUDAnimation
@@ -7539,27 +7546,27 @@ LDIFF_SYM280=LTDIE_26 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM281=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM281
+LDIFF_SYM282=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM282
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM282=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM282
+LDIFF_SYM283=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM283
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM283=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM283
+LDIFF_SYM284=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM284
 Lfde30_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_AnimationType_MBProgressHUD_MBProgressHUDAnimation
 
-LDIFF_SYM284=Lme_26 - _MBProgressHUD_MTMBProgressHUD_set_AnimationType_MBProgressHUD_MBProgressHUDAnimation
-	.long LDIFF_SYM284
+LDIFF_SYM285=Lme_26 - _MBProgressHUD_MTMBProgressHUD_set_AnimationType_MBProgressHUD_MBProgressHUDAnimation
+	.long LDIFF_SYM285
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde30_end:
@@ -7574,27 +7581,27 @@ Lfde30_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM285=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM285
+LDIFF_SYM286=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM286
 	.byte 1,90,11
 	.asciz "ret"
 
-LDIFF_SYM286=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM286
+LDIFF_SYM287=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM287
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM287=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM287
+LDIFF_SYM288=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM288
 Lfde31_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_CustomView
 
-LDIFF_SYM288=Lme_27 - _MBProgressHUD_MTMBProgressHUD_get_CustomView
-	.long LDIFF_SYM288
+LDIFF_SYM289=Lme_27 - _MBProgressHUD_MTMBProgressHUD_get_CustomView
+	.long LDIFF_SYM289
 	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
 	.align 2
 Lfde31_end:
@@ -7609,27 +7616,27 @@ Lfde31_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM289=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM289
+LDIFF_SYM290=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM290
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM290=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM290
+LDIFF_SYM291=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM291
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM291=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM291
+LDIFF_SYM292=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM292
 Lfde32_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_CustomView_MonoTouch_UIKit_UIView
 
-LDIFF_SYM292=Lme_28 - _MBProgressHUD_MTMBProgressHUD_set_CustomView_MonoTouch_UIKit_UIView
-	.long LDIFF_SYM292
+LDIFF_SYM293=Lme_28 - _MBProgressHUD_MTMBProgressHUD_set_CustomView_MonoTouch_UIKit_UIView
+	.long LDIFF_SYM293
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde32_end:
@@ -7644,22 +7651,22 @@ Lfde32_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM293=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM293
+LDIFF_SYM294=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM294
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM294=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM294
+LDIFF_SYM295=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM295
 Lfde33_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_Delegate
 
-LDIFF_SYM295=Lme_29 - _MBProgressHUD_MTMBProgressHUD_get_Delegate
-	.long LDIFF_SYM295
+LDIFF_SYM296=Lme_29 - _MBProgressHUD_MTMBProgressHUD_get_Delegate
+	.long LDIFF_SYM296
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde33_end:
@@ -7671,23 +7678,23 @@ LTDIE_27:
 	.asciz "MBProgressHUD_MBProgressHUDDelegate"
 
 	.byte 24,16
-LDIFF_SYM296=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM296
+LDIFF_SYM297=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM297
 	.byte 2,35,0,0,7
 	.asciz "MBProgressHUD_MBProgressHUDDelegate"
 
-LDIFF_SYM297=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM297
+LDIFF_SYM298=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM298
 LTDIE_27_POINTER:
 
 	.byte 13
-LDIFF_SYM298=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM298
+LDIFF_SYM299=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM299
 LTDIE_27_REFERENCE:
 
 	.byte 14
-LDIFF_SYM299=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM299
+LDIFF_SYM300=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM300
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:set_Delegate"
 	.long _MBProgressHUD_MTMBProgressHUD_set_Delegate_MBProgressHUD_MBProgressHUDDelegate
@@ -7696,27 +7703,27 @@ LDIFF_SYM299=LTDIE_27 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM300=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM300
+LDIFF_SYM301=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM301
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM301=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM301
+LDIFF_SYM302=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM302
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM302=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM302
+LDIFF_SYM303=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM303
 Lfde34_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_Delegate_MBProgressHUD_MBProgressHUDDelegate
 
-LDIFF_SYM303=Lme_2a - _MBProgressHUD_MTMBProgressHUD_set_Delegate_MBProgressHUD_MBProgressHUDDelegate
-	.long LDIFF_SYM303
+LDIFF_SYM304=Lme_2a - _MBProgressHUD_MTMBProgressHUD_set_Delegate_MBProgressHUD_MBProgressHUDDelegate
+	.long LDIFF_SYM304
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde34_end:
@@ -7731,27 +7738,27 @@ Lfde34_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM304=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM304
+LDIFF_SYM305=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM305
 	.byte 1,90,11
 	.asciz "ret"
 
-LDIFF_SYM305=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM305
+LDIFF_SYM306=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM306
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM306=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM306
+LDIFF_SYM307=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM307
 Lfde35_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_WeakDelegate
 
-LDIFF_SYM307=Lme_2b - _MBProgressHUD_MTMBProgressHUD_get_WeakDelegate
-	.long LDIFF_SYM307
+LDIFF_SYM308=Lme_2b - _MBProgressHUD_MTMBProgressHUD_get_WeakDelegate
+	.long LDIFF_SYM308
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde35_end:
@@ -7766,27 +7773,27 @@ Lfde35_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM308=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM308
+LDIFF_SYM309=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM309
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM309=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM309
+LDIFF_SYM310=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM310
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM310=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM310
+LDIFF_SYM311=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM311
 Lfde36_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_WeakDelegate_MonoTouch_Foundation_NSObject
 
-LDIFF_SYM311=Lme_2c - _MBProgressHUD_MTMBProgressHUD_set_WeakDelegate_MonoTouch_Foundation_NSObject
-	.long LDIFF_SYM311
+LDIFF_SYM312=Lme_2c - _MBProgressHUD_MTMBProgressHUD_set_WeakDelegate_MonoTouch_Foundation_NSObject
+	.long LDIFF_SYM312
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
 	.align 2
 Lfde36_end:
@@ -7801,22 +7808,22 @@ Lfde36_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM312=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM312
+LDIFF_SYM313=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM313
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM313=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM313
+LDIFF_SYM314=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM314
 Lfde37_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_LabelText
 
-LDIFF_SYM314=Lme_2d - _MBProgressHUD_MTMBProgressHUD_get_LabelText
-	.long LDIFF_SYM314
+LDIFF_SYM315=Lme_2d - _MBProgressHUD_MTMBProgressHUD_get_LabelText
+	.long LDIFF_SYM315
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde37_end:
@@ -7831,32 +7838,32 @@ Lfde37_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM315=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM315
+LDIFF_SYM316=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM316
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM316=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM316
+LDIFF_SYM317=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM317
 	.byte 2,125,0,11
 	.asciz "nsvalue"
 
-LDIFF_SYM317=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM317
+LDIFF_SYM318=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM318
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM318=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM318
+LDIFF_SYM319=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM319
 Lfde38_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_LabelText_string
 
-LDIFF_SYM319=Lme_2e - _MBProgressHUD_MTMBProgressHUD_set_LabelText_string
-	.long LDIFF_SYM319
+LDIFF_SYM320=Lme_2e - _MBProgressHUD_MTMBProgressHUD_set_LabelText_string
+	.long LDIFF_SYM320
 	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,32
 	.align 2
 Lfde38_end:
@@ -7871,22 +7878,22 @@ Lfde38_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM320=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM320
+LDIFF_SYM321=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM321
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM321=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM321
+LDIFF_SYM322=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM322
 Lfde39_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_DetailsLabelText
 
-LDIFF_SYM322=Lme_2f - _MBProgressHUD_MTMBProgressHUD_get_DetailsLabelText
-	.long LDIFF_SYM322
+LDIFF_SYM323=Lme_2f - _MBProgressHUD_MTMBProgressHUD_get_DetailsLabelText
+	.long LDIFF_SYM323
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde39_end:
@@ -7901,32 +7908,32 @@ Lfde39_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM323=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM323
+LDIFF_SYM324=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM324
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM324=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM324
+LDIFF_SYM325=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM325
 	.byte 2,125,0,11
 	.asciz "nsvalue"
 
-LDIFF_SYM325=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM325
+LDIFF_SYM326=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM326
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM326=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM326
+LDIFF_SYM327=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM327
 Lfde40_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_DetailsLabelText_string
 
-LDIFF_SYM327=Lme_30 - _MBProgressHUD_MTMBProgressHUD_set_DetailsLabelText_string
-	.long LDIFF_SYM327
+LDIFF_SYM328=Lme_30 - _MBProgressHUD_MTMBProgressHUD_set_DetailsLabelText_string
+	.long LDIFF_SYM328
 	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,32
 	.align 2
 Lfde40_end:
@@ -7941,22 +7948,22 @@ Lfde40_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM328=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM328
+LDIFF_SYM329=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM329
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM329=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM329
+LDIFF_SYM330=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM330
 Lfde41_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_Opacity
 
-LDIFF_SYM330=Lme_31 - _MBProgressHUD_MTMBProgressHUD_get_Opacity
-	.long LDIFF_SYM330
+LDIFF_SYM331=Lme_31 - _MBProgressHUD_MTMBProgressHUD_get_Opacity
+	.long LDIFF_SYM331
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde41_end:
@@ -7968,28 +7975,28 @@ LTDIE_28:
 	.asciz "System_Single"
 
 	.byte 12,16
-LDIFF_SYM331=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM331
+LDIFF_SYM332=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM332
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM332=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM332
+LDIFF_SYM333=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM333
 	.byte 2,35,8,0,7
 	.asciz "System_Single"
 
-LDIFF_SYM333=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM333
+LDIFF_SYM334=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM334
 LTDIE_28_POINTER:
 
 	.byte 13
-LDIFF_SYM334=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM334
+LDIFF_SYM335=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM335
 LTDIE_28_REFERENCE:
 
 	.byte 14
-LDIFF_SYM335=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM335
+LDIFF_SYM336=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM336
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:set_Opacity"
 	.long _MBProgressHUD_MTMBProgressHUD_set_Opacity_single
@@ -7998,27 +8005,27 @@ LDIFF_SYM335=LTDIE_28 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM336=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM336
+LDIFF_SYM337=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM337
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM337=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM337
+LDIFF_SYM338=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM338
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM338=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM338
+LDIFF_SYM339=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM339
 Lfde42_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_Opacity_single
 
-LDIFF_SYM339=Lme_32 - _MBProgressHUD_MTMBProgressHUD_set_Opacity_single
-	.long LDIFF_SYM339
+LDIFF_SYM340=Lme_32 - _MBProgressHUD_MTMBProgressHUD_set_Opacity_single
+	.long LDIFF_SYM340
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde42_end:
@@ -8030,23 +8037,23 @@ LTDIE_29:
 	.asciz "MonoTouch_UIKit_UIColor"
 
 	.byte 24,16
-LDIFF_SYM340=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM340
+LDIFF_SYM341=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM341
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UIColor"
 
-LDIFF_SYM341=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM341
+LDIFF_SYM342=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM342
 LTDIE_29_POINTER:
 
 	.byte 13
-LDIFF_SYM342=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM342
+LDIFF_SYM343=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM343
 LTDIE_29_REFERENCE:
 
 	.byte 14
-LDIFF_SYM343=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM343
+LDIFF_SYM344=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM344
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:get_Color"
 	.long _MBProgressHUD_MTMBProgressHUD_get_Color
@@ -8055,27 +8062,27 @@ LDIFF_SYM343=LTDIE_29 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM344=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM344
+LDIFF_SYM345=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM345
 	.byte 1,90,11
 	.asciz "ret"
 
-LDIFF_SYM345=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM345
+LDIFF_SYM346=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM346
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM346=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM346
+LDIFF_SYM347=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM347
 Lfde43_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_Color
 
-LDIFF_SYM347=Lme_33 - _MBProgressHUD_MTMBProgressHUD_get_Color
-	.long LDIFF_SYM347
+LDIFF_SYM348=Lme_33 - _MBProgressHUD_MTMBProgressHUD_get_Color
+	.long LDIFF_SYM348
 	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
 	.align 2
 Lfde43_end:
@@ -8090,27 +8097,27 @@ Lfde43_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM348=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM348
+LDIFF_SYM349=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM349
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM349=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM349
+LDIFF_SYM350=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM350
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM350=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM350
+LDIFF_SYM351=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM351
 Lfde44_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_Color_MonoTouch_UIKit_UIColor
 
-LDIFF_SYM351=Lme_34 - _MBProgressHUD_MTMBProgressHUD_set_Color_MonoTouch_UIKit_UIColor
-	.long LDIFF_SYM351
+LDIFF_SYM352=Lme_34 - _MBProgressHUD_MTMBProgressHUD_set_Color_MonoTouch_UIKit_UIColor
+	.long LDIFF_SYM352
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde44_end:
@@ -8125,22 +8132,22 @@ Lfde44_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM352=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM352
+LDIFF_SYM353=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM353
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM353=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM353
+LDIFF_SYM354=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM354
 Lfde45_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_XOffset
 
-LDIFF_SYM354=Lme_35 - _MBProgressHUD_MTMBProgressHUD_get_XOffset
-	.long LDIFF_SYM354
+LDIFF_SYM355=Lme_35 - _MBProgressHUD_MTMBProgressHUD_get_XOffset
+	.long LDIFF_SYM355
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde45_end:
@@ -8155,27 +8162,27 @@ Lfde45_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM355=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM355
+LDIFF_SYM356=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM356
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM356=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM356
+LDIFF_SYM357=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM357
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM357=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM357
+LDIFF_SYM358=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM358
 Lfde46_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_XOffset_single
 
-LDIFF_SYM358=Lme_36 - _MBProgressHUD_MTMBProgressHUD_set_XOffset_single
-	.long LDIFF_SYM358
+LDIFF_SYM359=Lme_36 - _MBProgressHUD_MTMBProgressHUD_set_XOffset_single
+	.long LDIFF_SYM359
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde46_end:
@@ -8190,22 +8197,22 @@ Lfde46_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM359=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM359
+LDIFF_SYM360=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM360
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM360=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM360
+LDIFF_SYM361=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM361
 Lfde47_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_YOffset
 
-LDIFF_SYM361=Lme_37 - _MBProgressHUD_MTMBProgressHUD_get_YOffset
-	.long LDIFF_SYM361
+LDIFF_SYM362=Lme_37 - _MBProgressHUD_MTMBProgressHUD_get_YOffset
+	.long LDIFF_SYM362
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde47_end:
@@ -8220,27 +8227,27 @@ Lfde47_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM362=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM362
+LDIFF_SYM363=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM363
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM363=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM363
+LDIFF_SYM364=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM364
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM364=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM364
+LDIFF_SYM365=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM365
 Lfde48_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_YOffset_single
 
-LDIFF_SYM365=Lme_38 - _MBProgressHUD_MTMBProgressHUD_set_YOffset_single
-	.long LDIFF_SYM365
+LDIFF_SYM366=Lme_38 - _MBProgressHUD_MTMBProgressHUD_set_YOffset_single
+	.long LDIFF_SYM366
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde48_end:
@@ -8255,22 +8262,22 @@ Lfde48_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM366=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM366
+LDIFF_SYM367=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM367
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM367=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM367
+LDIFF_SYM368=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM368
 Lfde49_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_Margin
 
-LDIFF_SYM368=Lme_39 - _MBProgressHUD_MTMBProgressHUD_get_Margin
-	.long LDIFF_SYM368
+LDIFF_SYM369=Lme_39 - _MBProgressHUD_MTMBProgressHUD_get_Margin
+	.long LDIFF_SYM369
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde49_end:
@@ -8285,27 +8292,27 @@ Lfde49_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM369=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM369
+LDIFF_SYM370=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM370
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM370=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM370
+LDIFF_SYM371=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM371
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM371=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM371
+LDIFF_SYM372=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM372
 Lfde50_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_Margin_single
 
-LDIFF_SYM372=Lme_3a - _MBProgressHUD_MTMBProgressHUD_set_Margin_single
-	.long LDIFF_SYM372
+LDIFF_SYM373=Lme_3a - _MBProgressHUD_MTMBProgressHUD_set_Margin_single
+	.long LDIFF_SYM373
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde50_end:
@@ -8320,22 +8327,22 @@ Lfde50_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM373=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM373
+LDIFF_SYM374=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM374
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM374=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM374
+LDIFF_SYM375=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM375
 Lfde51_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_DimBackground
 
-LDIFF_SYM375=Lme_3b - _MBProgressHUD_MTMBProgressHUD_get_DimBackground
-	.long LDIFF_SYM375
+LDIFF_SYM376=Lme_3b - _MBProgressHUD_MTMBProgressHUD_get_DimBackground
+	.long LDIFF_SYM376
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde51_end:
@@ -8350,27 +8357,27 @@ Lfde51_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM376=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM376
+LDIFF_SYM377=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM377
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM377=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM377
+LDIFF_SYM378=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM378
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM378=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM378
+LDIFF_SYM379=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM379
 Lfde52_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_DimBackground_bool
 
-LDIFF_SYM379=Lme_3c - _MBProgressHUD_MTMBProgressHUD_set_DimBackground_bool
-	.long LDIFF_SYM379
+LDIFF_SYM380=Lme_3c - _MBProgressHUD_MTMBProgressHUD_set_DimBackground_bool
+	.long LDIFF_SYM380
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde52_end:
@@ -8385,22 +8392,22 @@ Lfde52_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM380=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM380
+LDIFF_SYM381=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM381
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM381=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM381
+LDIFF_SYM382=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM382
 Lfde53_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_GraceTime
 
-LDIFF_SYM382=Lme_3d - _MBProgressHUD_MTMBProgressHUD_get_GraceTime
-	.long LDIFF_SYM382
+LDIFF_SYM383=Lme_3d - _MBProgressHUD_MTMBProgressHUD_get_GraceTime
+	.long LDIFF_SYM383
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde53_end:
@@ -8415,27 +8422,27 @@ Lfde53_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM383=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM383
+LDIFF_SYM384=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM384
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM384=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM384
+LDIFF_SYM385=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM385
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM385=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM385
+LDIFF_SYM386=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM386
 Lfde54_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_GraceTime_single
 
-LDIFF_SYM386=Lme_3e - _MBProgressHUD_MTMBProgressHUD_set_GraceTime_single
-	.long LDIFF_SYM386
+LDIFF_SYM387=Lme_3e - _MBProgressHUD_MTMBProgressHUD_set_GraceTime_single
+	.long LDIFF_SYM387
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde54_end:
@@ -8450,22 +8457,22 @@ Lfde54_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM387=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM387
+LDIFF_SYM388=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM388
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM388=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM388
+LDIFF_SYM389=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM389
 Lfde55_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_MinShowTime
 
-LDIFF_SYM389=Lme_3f - _MBProgressHUD_MTMBProgressHUD_get_MinShowTime
-	.long LDIFF_SYM389
+LDIFF_SYM390=Lme_3f - _MBProgressHUD_MTMBProgressHUD_get_MinShowTime
+	.long LDIFF_SYM390
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde55_end:
@@ -8480,27 +8487,27 @@ Lfde55_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM390=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM390
+LDIFF_SYM391=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM391
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM391=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM391
+LDIFF_SYM392=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM392
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM392=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM392
+LDIFF_SYM393=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM393
 Lfde56_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_MinShowTime_single
 
-LDIFF_SYM393=Lme_40 - _MBProgressHUD_MTMBProgressHUD_set_MinShowTime_single
-	.long LDIFF_SYM393
+LDIFF_SYM394=Lme_40 - _MBProgressHUD_MTMBProgressHUD_set_MinShowTime_single
+	.long LDIFF_SYM394
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde56_end:
@@ -8515,22 +8522,22 @@ Lfde56_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM394=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM394
+LDIFF_SYM395=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM395
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM395=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM395
+LDIFF_SYM396=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM396
 Lfde57_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_TaskInProgress
 
-LDIFF_SYM396=Lme_41 - _MBProgressHUD_MTMBProgressHUD_get_TaskInProgress
-	.long LDIFF_SYM396
+LDIFF_SYM397=Lme_41 - _MBProgressHUD_MTMBProgressHUD_get_TaskInProgress
+	.long LDIFF_SYM397
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde57_end:
@@ -8545,27 +8552,27 @@ Lfde57_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM397=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM397
+LDIFF_SYM398=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM398
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM398=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM398
+LDIFF_SYM399=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM399
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM399=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM399
+LDIFF_SYM400=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM400
 Lfde58_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_TaskInProgress_bool
 
-LDIFF_SYM400=Lme_42 - _MBProgressHUD_MTMBProgressHUD_set_TaskInProgress_bool
-	.long LDIFF_SYM400
+LDIFF_SYM401=Lme_42 - _MBProgressHUD_MTMBProgressHUD_set_TaskInProgress_bool
+	.long LDIFF_SYM401
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde58_end:
@@ -8580,22 +8587,22 @@ Lfde58_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM401=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM401
+LDIFF_SYM402=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM402
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM402=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM402
+LDIFF_SYM403=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM403
 Lfde59_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_RemoveFromSuperViewOnHide
 
-LDIFF_SYM403=Lme_43 - _MBProgressHUD_MTMBProgressHUD_get_RemoveFromSuperViewOnHide
-	.long LDIFF_SYM403
+LDIFF_SYM404=Lme_43 - _MBProgressHUD_MTMBProgressHUD_get_RemoveFromSuperViewOnHide
+	.long LDIFF_SYM404
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde59_end:
@@ -8610,27 +8617,27 @@ Lfde59_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM404=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM404
+LDIFF_SYM405=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM405
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM405=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM405
+LDIFF_SYM406=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM406
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM406=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM406
+LDIFF_SYM407=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM407
 Lfde60_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_RemoveFromSuperViewOnHide_bool
 
-LDIFF_SYM407=Lme_44 - _MBProgressHUD_MTMBProgressHUD_set_RemoveFromSuperViewOnHide_bool
-	.long LDIFF_SYM407
+LDIFF_SYM408=Lme_44 - _MBProgressHUD_MTMBProgressHUD_set_RemoveFromSuperViewOnHide_bool
+	.long LDIFF_SYM408
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde60_end:
@@ -8642,23 +8649,23 @@ LTDIE_30:
 	.asciz "MonoTouch_UIKit_UIFont"
 
 	.byte 24,16
-LDIFF_SYM408=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM408
+LDIFF_SYM409=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM409
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UIFont"
 
-LDIFF_SYM409=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM409
+LDIFF_SYM410=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM410
 LTDIE_30_POINTER:
 
 	.byte 13
-LDIFF_SYM410=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM410
+LDIFF_SYM411=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM411
 LTDIE_30_REFERENCE:
 
 	.byte 14
-LDIFF_SYM411=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM411
+LDIFF_SYM412=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM412
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD:get_LabelFont"
 	.long _MBProgressHUD_MTMBProgressHUD_get_LabelFont
@@ -8667,27 +8674,27 @@ LDIFF_SYM411=LTDIE_30 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM412=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM412
+LDIFF_SYM413=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM413
 	.byte 1,90,11
 	.asciz "ret"
 
-LDIFF_SYM413=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM413
+LDIFF_SYM414=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM414
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM414=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM414
+LDIFF_SYM415=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM415
 Lfde61_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_LabelFont
 
-LDIFF_SYM415=Lme_45 - _MBProgressHUD_MTMBProgressHUD_get_LabelFont
-	.long LDIFF_SYM415
+LDIFF_SYM416=Lme_45 - _MBProgressHUD_MTMBProgressHUD_get_LabelFont
+	.long LDIFF_SYM416
 	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
 	.align 2
 Lfde61_end:
@@ -8702,27 +8709,27 @@ Lfde61_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM416=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM416
+LDIFF_SYM417=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM417
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM417=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM417
+LDIFF_SYM418=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM418
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM418=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM418
+LDIFF_SYM419=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM419
 Lfde62_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_LabelFont_MonoTouch_UIKit_UIFont
 
-LDIFF_SYM419=Lme_46 - _MBProgressHUD_MTMBProgressHUD_set_LabelFont_MonoTouch_UIKit_UIFont
-	.long LDIFF_SYM419
+LDIFF_SYM420=Lme_46 - _MBProgressHUD_MTMBProgressHUD_set_LabelFont_MonoTouch_UIKit_UIFont
+	.long LDIFF_SYM420
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde62_end:
@@ -8737,27 +8744,27 @@ Lfde62_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM420=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM420
+LDIFF_SYM421=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM421
 	.byte 1,90,11
 	.asciz "ret"
 
-LDIFF_SYM421=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM421
+LDIFF_SYM422=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM422
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM422=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM422
+LDIFF_SYM423=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM423
 Lfde63_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_DetailsLabelFont
 
-LDIFF_SYM423=Lme_47 - _MBProgressHUD_MTMBProgressHUD_get_DetailsLabelFont
-	.long LDIFF_SYM423
+LDIFF_SYM424=Lme_47 - _MBProgressHUD_MTMBProgressHUD_get_DetailsLabelFont
+	.long LDIFF_SYM424
 	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
 	.align 2
 Lfde63_end:
@@ -8772,27 +8779,27 @@ Lfde63_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM424=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM424
+LDIFF_SYM425=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM425
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM425=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM425
+LDIFF_SYM426=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM426
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM426=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM426
+LDIFF_SYM427=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM427
 Lfde64_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_DetailsLabelFont_MonoTouch_UIKit_UIFont
 
-LDIFF_SYM427=Lme_48 - _MBProgressHUD_MTMBProgressHUD_set_DetailsLabelFont_MonoTouch_UIKit_UIFont
-	.long LDIFF_SYM427
+LDIFF_SYM428=Lme_48 - _MBProgressHUD_MTMBProgressHUD_set_DetailsLabelFont_MonoTouch_UIKit_UIFont
+	.long LDIFF_SYM428
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde64_end:
@@ -8807,22 +8814,22 @@ Lfde64_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM428=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM428
+LDIFF_SYM429=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM429
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM429=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM429
+LDIFF_SYM430=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM430
 Lfde65_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_Progress
 
-LDIFF_SYM430=Lme_49 - _MBProgressHUD_MTMBProgressHUD_get_Progress
-	.long LDIFF_SYM430
+LDIFF_SYM431=Lme_49 - _MBProgressHUD_MTMBProgressHUD_get_Progress
+	.long LDIFF_SYM431
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde65_end:
@@ -8837,27 +8844,27 @@ Lfde65_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM431=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM431
+LDIFF_SYM432=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM432
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM432=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM432
+LDIFF_SYM433=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM433
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM433=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM433
+LDIFF_SYM434=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM434
 Lfde66_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_Progress_single
 
-LDIFF_SYM434=Lme_4a - _MBProgressHUD_MTMBProgressHUD_set_Progress_single
-	.long LDIFF_SYM434
+LDIFF_SYM435=Lme_4a - _MBProgressHUD_MTMBProgressHUD_set_Progress_single
+	.long LDIFF_SYM435
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde66_end:
@@ -8872,27 +8879,27 @@ Lfde66_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM435=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM435
+LDIFF_SYM436=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM436
 	.byte 1,86,11
 	.asciz "ret"
 
-LDIFF_SYM436=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM436
+LDIFF_SYM437=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM437
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM437=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM437
+LDIFF_SYM438=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM438
 Lfde67_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_MinSize
 
-LDIFF_SYM438=Lme_4b - _MBProgressHUD_MTMBProgressHUD_get_MinSize
-	.long LDIFF_SYM438
+LDIFF_SYM439=Lme_4b - _MBProgressHUD_MTMBProgressHUD_get_MinSize
+	.long LDIFF_SYM439
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,48
 	.align 2
 Lfde67_end:
@@ -8907,27 +8914,27 @@ Lfde67_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM439=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM439
+LDIFF_SYM440=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM440
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM440=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM440
+LDIFF_SYM441=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM441
 	.byte 2,123,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM441=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM441
+LDIFF_SYM442=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM442
 Lfde68_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_MinSize_System_Drawing_SizeF
 
-LDIFF_SYM442=Lme_4c - _MBProgressHUD_MTMBProgressHUD_set_MinSize_System_Drawing_SizeF
-	.long LDIFF_SYM442
+LDIFF_SYM443=Lme_4c - _MBProgressHUD_MTMBProgressHUD_set_MinSize_System_Drawing_SizeF
+	.long LDIFF_SYM443
 	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,32,68,13,11
 	.align 2
 Lfde68_end:
@@ -8942,22 +8949,22 @@ Lfde68_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM443=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM443
+LDIFF_SYM444=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM444
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM444=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM444
+LDIFF_SYM445=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM445
 Lfde69_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_get_Square
 
-LDIFF_SYM445=Lme_4d - _MBProgressHUD_MTMBProgressHUD_get_Square
-	.long LDIFF_SYM445
+LDIFF_SYM446=Lme_4d - _MBProgressHUD_MTMBProgressHUD_get_Square
+	.long LDIFF_SYM446
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde69_end:
@@ -8972,27 +8979,27 @@ Lfde69_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM446=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM446
+LDIFF_SYM447=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM447
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM447=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM447
+LDIFF_SYM448=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM448
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM448=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM448
+LDIFF_SYM449=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM449
 Lfde70_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_set_Square_bool
 
-LDIFF_SYM449=Lme_4e - _MBProgressHUD_MTMBProgressHUD_set_Square_bool
-	.long LDIFF_SYM449
+LDIFF_SYM450=Lme_4e - _MBProgressHUD_MTMBProgressHUD_set_Square_bool
+	.long LDIFF_SYM450
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde70_end:
@@ -9007,27 +9014,27 @@ Lfde70_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM450=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM450
+LDIFF_SYM451=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM451
 	.byte 1,90,11
 	.asciz "del"
 
-LDIFF_SYM451=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM451
+LDIFF_SYM452=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM452
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM452=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM452
+LDIFF_SYM453=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM453
 Lfde71_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_EnsureMBProgressHUDDelegate
 
-LDIFF_SYM453=Lme_4f - _MBProgressHUD_MTMBProgressHUD_EnsureMBProgressHUDDelegate
-	.long LDIFF_SYM453
+LDIFF_SYM454=Lme_4f - _MBProgressHUD_MTMBProgressHUD_EnsureMBProgressHUDDelegate
+	.long LDIFF_SYM454
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,40
 	.align 2
 Lfde71_end:
@@ -9042,42 +9049,42 @@ Lfde71_end:
 	.byte 2,118,16,3
 	.asciz "block"
 
-LDIFF_SYM454=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM454
-	.byte 1,90,11
-	.asciz "descriptor"
-
 LDIFF_SYM455=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM455
 	.byte 1,90,11
+	.asciz "descriptor"
+
+LDIFF_SYM456=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM456
+	.byte 1,90,11
 	.asciz "del"
 
-LDIFF_SYM456=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM456
-	.byte 1,86,11
-	.asciz ""
-
-LDIFF_SYM457=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM457=LTDIE_21_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM457
-	.byte 2,125,0,11
+	.byte 1,86,11
 	.asciz ""
 
 LDIFF_SYM458=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM458
+	.byte 2,125,0,11
+	.asciz ""
+
+LDIFF_SYM459=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM459
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM459=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM459
+LDIFF_SYM460=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM460
 Lfde72_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_TrampolineNSDispatchHandlerT_intptr
 
-LDIFF_SYM460=Lme_50 - _MBProgressHUD_MTMBProgressHUD_TrampolineNSDispatchHandlerT_intptr
-	.long LDIFF_SYM460
+LDIFF_SYM461=Lme_50 - _MBProgressHUD_MTMBProgressHUD_TrampolineNSDispatchHandlerT_intptr
+	.long LDIFF_SYM461
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,48
 	.align 2
 Lfde72_end:
@@ -9092,42 +9099,42 @@ Lfde72_end:
 	.byte 2,118,16,3
 	.asciz "block"
 
-LDIFF_SYM461=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM461
-	.byte 1,90,11
-	.asciz "descriptor"
-
 LDIFF_SYM462=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM462
 	.byte 1,90,11
+	.asciz "descriptor"
+
+LDIFF_SYM463=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM463
+	.byte 1,90,11
 	.asciz "del"
 
-LDIFF_SYM463=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM463
-	.byte 1,86,11
-	.asciz ""
-
-LDIFF_SYM464=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM464=LTDIE_22_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM464
-	.byte 2,125,0,11
+	.byte 1,86,11
 	.asciz ""
 
 LDIFF_SYM465=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM465
+	.byte 2,125,0,11
+	.asciz ""
+
+LDIFF_SYM466=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM466
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM466=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM466
+LDIFF_SYM467=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM467
 Lfde73_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_TrampolineMBProgressHUDCompletionHandler_intptr
 
-LDIFF_SYM467=Lme_51 - _MBProgressHUD_MTMBProgressHUD_TrampolineMBProgressHUDCompletionHandler_intptr
-	.long LDIFF_SYM467
+LDIFF_SYM468=Lme_51 - _MBProgressHUD_MTMBProgressHUD_TrampolineMBProgressHUDCompletionHandler_intptr
+	.long LDIFF_SYM468
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,48
 	.align 2
 Lfde73_end:
@@ -9142,27 +9149,27 @@ Lfde73_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM468=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM468
+LDIFF_SYM469=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM469
 	.byte 1,90,3
 	.asciz "disposing"
 
-LDIFF_SYM469=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM469
+LDIFF_SYM470=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM470
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM470=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM470
+LDIFF_SYM471=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM471
 Lfde74_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD_Dispose_bool
 
-LDIFF_SYM471=Lme_52 - _MBProgressHUD_MTMBProgressHUD_Dispose_bool
-	.long LDIFF_SYM471
+LDIFF_SYM472=Lme_52 - _MBProgressHUD_MTMBProgressHUD_Dispose_bool
+	.long LDIFF_SYM472
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde74_end:
@@ -9174,28 +9181,28 @@ LTDIE_31:
 	.asciz "__MBProgressHUDDelegate"
 
 	.byte 28,16
-LDIFF_SYM472=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM472
+LDIFF_SYM473=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM473
 	.byte 2,35,0,6
 	.asciz "hudWasHidden"
 
-LDIFF_SYM473=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM473
+LDIFF_SYM474=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM474
 	.byte 2,35,24,0,7
 	.asciz "__MBProgressHUDDelegate"
 
-LDIFF_SYM474=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM474
+LDIFF_SYM475=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM475
 LTDIE_31_POINTER:
 
 	.byte 13
-LDIFF_SYM475=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM475
+LDIFF_SYM476=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM476
 LTDIE_31_REFERENCE:
 
 	.byte 14
-LDIFF_SYM476=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM476
+LDIFF_SYM477=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM477
 	.byte 2
 	.asciz "MBProgressHUD.MTMBProgressHUD/_MBProgressHUDDelegate:.ctor"
 	.long _MBProgressHUD_MTMBProgressHUD__MBProgressHUDDelegate__ctor
@@ -9204,22 +9211,22 @@ LDIFF_SYM476=LTDIE_31 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM477=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM477
+LDIFF_SYM478=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM478
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM478=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM478
+LDIFF_SYM479=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM479
 Lfde75_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD__MBProgressHUDDelegate__ctor
 
-LDIFF_SYM479=Lme_53 - _MBProgressHUD_MTMBProgressHUD__MBProgressHUDDelegate__ctor
-	.long LDIFF_SYM479
+LDIFF_SYM480=Lme_53 - _MBProgressHUD_MTMBProgressHUD__MBProgressHUDDelegate__ctor
+	.long LDIFF_SYM480
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde75_end:
@@ -9234,32 +9241,32 @@ Lfde75_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM480=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM480
+LDIFF_SYM481=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM481
 	.byte 1,86,3
 	.asciz "hud"
 
-LDIFF_SYM481=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM481
+LDIFF_SYM482=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM482
 	.byte 2,125,0,11
 	.asciz "handler"
 
-LDIFF_SYM482=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM482
+LDIFF_SYM483=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM483
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM483=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM483
+LDIFF_SYM484=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM484
 Lfde76_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MTMBProgressHUD__MBProgressHUDDelegate_HudWasHidden_MBProgressHUD_MTMBProgressHUD
 
-LDIFF_SYM484=Lme_54 - _MBProgressHUD_MTMBProgressHUD__MBProgressHUDDelegate_HudWasHidden_MBProgressHUD_MTMBProgressHUD
-	.long LDIFF_SYM484
+LDIFF_SYM485=Lme_54 - _MBProgressHUD_MTMBProgressHUD__MBProgressHUDDelegate_HudWasHidden_MBProgressHUD_MTMBProgressHUD
+	.long LDIFF_SYM485
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde76_end:
@@ -9274,22 +9281,22 @@ Lfde76_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM485=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM485
+LDIFF_SYM486=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM486
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM486=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM486
+LDIFF_SYM487=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM487
 Lfde77_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBProgressHUDDelegate__ctor
 
-LDIFF_SYM487=Lme_65 - _MBProgressHUD_MBProgressHUDDelegate__ctor
-	.long LDIFF_SYM487
+LDIFF_SYM488=Lme_65 - _MBProgressHUD_MBProgressHUDDelegate__ctor
+	.long LDIFF_SYM488
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde77_end:
@@ -9304,27 +9311,27 @@ Lfde77_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM488=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM488
+LDIFF_SYM489=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM489
 	.byte 1,86,3
 	.asciz "coder"
 
-LDIFF_SYM489=LTDIE_8_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM489
+LDIFF_SYM490=LTDIE_8_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM490
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM490=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM490
+LDIFF_SYM491=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM491
 Lfde78_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBProgressHUDDelegate__ctor_MonoTouch_Foundation_NSCoder
 
-LDIFF_SYM491=Lme_66 - _MBProgressHUD_MBProgressHUDDelegate__ctor_MonoTouch_Foundation_NSCoder
-	.long LDIFF_SYM491
+LDIFF_SYM492=Lme_66 - _MBProgressHUD_MBProgressHUDDelegate__ctor_MonoTouch_Foundation_NSCoder
+	.long LDIFF_SYM492
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde78_end:
@@ -9339,27 +9346,27 @@ Lfde78_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM492=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM492
+LDIFF_SYM493=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM493
 	.byte 1,86,3
 	.asciz "t"
 
-LDIFF_SYM493=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM493
+LDIFF_SYM494=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM494
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM494=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM494
+LDIFF_SYM495=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM495
 Lfde79_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBProgressHUDDelegate__ctor_MonoTouch_Foundation_NSObjectFlag
 
-LDIFF_SYM495=Lme_67 - _MBProgressHUD_MBProgressHUDDelegate__ctor_MonoTouch_Foundation_NSObjectFlag
-	.long LDIFF_SYM495
+LDIFF_SYM496=Lme_67 - _MBProgressHUD_MBProgressHUDDelegate__ctor_MonoTouch_Foundation_NSObjectFlag
+	.long LDIFF_SYM496
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde79_end:
@@ -9374,27 +9381,27 @@ Lfde79_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM496=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM496
+LDIFF_SYM497=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM497
 	.byte 1,86,3
 	.asciz "handle"
 
-LDIFF_SYM497=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM497
+LDIFF_SYM498=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM498
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM498=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM498
+LDIFF_SYM499=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM499
 Lfde80_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBProgressHUDDelegate__ctor_intptr
 
-LDIFF_SYM499=Lme_68 - _MBProgressHUD_MBProgressHUDDelegate__ctor_intptr
-	.long LDIFF_SYM499
+LDIFF_SYM500=Lme_68 - _MBProgressHUD_MBProgressHUDDelegate__ctor_intptr
+	.long LDIFF_SYM500
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde80_end:
@@ -9410,16 +9417,16 @@ Lfde80_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM500=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM500
+LDIFF_SYM501=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM501
 Lfde81_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBProgressHUDDelegate__cctor
 
-LDIFF_SYM501=Lme_69 - _MBProgressHUD_MBProgressHUDDelegate__cctor
-	.long LDIFF_SYM501
+LDIFF_SYM502=Lme_69 - _MBProgressHUD_MBProgressHUDDelegate__cctor
+	.long LDIFF_SYM502
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,16
 	.align 2
 Lfde81_end:
@@ -9434,27 +9441,27 @@ Lfde81_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM502=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM502
+LDIFF_SYM503=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM503
 	.byte 0,3
 	.asciz "hud"
 
-LDIFF_SYM503=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM503
+LDIFF_SYM504=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM504
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM504=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM504
+LDIFF_SYM505=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM505
 Lfde82_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBProgressHUDDelegate_HudWasHidden_MBProgressHUD_MTMBProgressHUD
 
-LDIFF_SYM505=Lme_6a - _MBProgressHUD_MBProgressHUDDelegate_HudWasHidden_MBProgressHUD_MTMBProgressHUD
-	.long LDIFF_SYM505
+LDIFF_SYM506=Lme_6a - _MBProgressHUD_MBProgressHUDDelegate_HudWasHidden_MBProgressHUD_MTMBProgressHUD
+	.long LDIFF_SYM506
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde82_end:
@@ -9465,34 +9472,34 @@ LTDIE_32:
 	.byte 5
 	.asciz "MBProgressHUD_MBRoundProgressView"
 
-	.byte 48,16
-LDIFF_SYM506=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM506
+	.byte 52,16
+LDIFF_SYM507=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM507
 	.byte 2,35,0,6
 	.asciz "__mt_ProgressTintColor_var"
 
-LDIFF_SYM507=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM507
-	.byte 2,35,40,6
-	.asciz "__mt_BackgroundTintColor_var"
-
 LDIFF_SYM508=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM508
-	.byte 2,35,44,0,7
+	.byte 2,35,44,6
+	.asciz "__mt_BackgroundTintColor_var"
+
+LDIFF_SYM509=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM509
+	.byte 2,35,48,0,7
 	.asciz "MBProgressHUD_MBRoundProgressView"
 
-LDIFF_SYM509=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM509
+LDIFF_SYM510=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM510
 LTDIE_32_POINTER:
 
 	.byte 13
-LDIFF_SYM510=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM510
+LDIFF_SYM511=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM511
 LTDIE_32_REFERENCE:
 
 	.byte 14
-LDIFF_SYM511=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM511
+LDIFF_SYM512=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM512
 	.byte 2
 	.asciz "MBProgressHUD.MBRoundProgressView:.ctor"
 	.long _MBProgressHUD_MBRoundProgressView__ctor
@@ -9501,22 +9508,22 @@ LDIFF_SYM511=LTDIE_32 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM512=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM512
+LDIFF_SYM513=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM513
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM513=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM513
+LDIFF_SYM514=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM514
 Lfde83_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView__ctor
 
-LDIFF_SYM514=Lme_6b - _MBProgressHUD_MBRoundProgressView__ctor
-	.long LDIFF_SYM514
+LDIFF_SYM515=Lme_6b - _MBProgressHUD_MBRoundProgressView__ctor
+	.long LDIFF_SYM515
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde83_end:
@@ -9531,27 +9538,27 @@ Lfde83_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM515=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM515
+LDIFF_SYM516=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM516
 	.byte 1,86,3
 	.asciz "coder"
 
-LDIFF_SYM516=LTDIE_8_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM516
+LDIFF_SYM517=LTDIE_8_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM517
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM517=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM517
+LDIFF_SYM518=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM518
 Lfde84_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView__ctor_MonoTouch_Foundation_NSCoder
 
-LDIFF_SYM518=Lme_6c - _MBProgressHUD_MBRoundProgressView__ctor_MonoTouch_Foundation_NSCoder
-	.long LDIFF_SYM518
+LDIFF_SYM519=Lme_6c - _MBProgressHUD_MBRoundProgressView__ctor_MonoTouch_Foundation_NSCoder
+	.long LDIFF_SYM519
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde84_end:
@@ -9566,27 +9573,27 @@ Lfde84_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM519=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM519
+LDIFF_SYM520=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM520
 	.byte 1,86,3
 	.asciz "t"
 
-LDIFF_SYM520=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM520
+LDIFF_SYM521=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM521
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM521=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM521
+LDIFF_SYM522=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM522
 Lfde85_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView__ctor_MonoTouch_Foundation_NSObjectFlag
 
-LDIFF_SYM522=Lme_6d - _MBProgressHUD_MBRoundProgressView__ctor_MonoTouch_Foundation_NSObjectFlag
-	.long LDIFF_SYM522
+LDIFF_SYM523=Lme_6d - _MBProgressHUD_MBRoundProgressView__ctor_MonoTouch_Foundation_NSObjectFlag
+	.long LDIFF_SYM523
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde85_end:
@@ -9601,27 +9608,27 @@ Lfde85_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM523=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM523
+LDIFF_SYM524=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM524
 	.byte 1,86,3
 	.asciz "handle"
 
-LDIFF_SYM524=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM524
+LDIFF_SYM525=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM525
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM525=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM525
+LDIFF_SYM526=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM526
 Lfde86_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView__ctor_intptr
 
-LDIFF_SYM526=Lme_6e - _MBProgressHUD_MBRoundProgressView__ctor_intptr
-	.long LDIFF_SYM526
+LDIFF_SYM527=Lme_6e - _MBProgressHUD_MBRoundProgressView__ctor_intptr
+	.long LDIFF_SYM527
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde86_end:
@@ -9637,16 +9644,16 @@ Lfde86_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM527=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM527
+LDIFF_SYM528=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM528
 Lfde87_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView__cctor
 
-LDIFF_SYM528=Lme_6f - _MBProgressHUD_MBRoundProgressView__cctor
-	.long LDIFF_SYM528
+LDIFF_SYM529=Lme_6f - _MBProgressHUD_MBRoundProgressView__cctor
+	.long LDIFF_SYM529
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,16
 	.align 2
 Lfde87_end:
@@ -9661,22 +9668,22 @@ Lfde87_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM529=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM529
+LDIFF_SYM530=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM530
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM530=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM530
+LDIFF_SYM531=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM531
 Lfde88_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView_get_ClassHandle
 
-LDIFF_SYM531=Lme_70 - _MBProgressHUD_MBRoundProgressView_get_ClassHandle
-	.long LDIFF_SYM531
+LDIFF_SYM532=Lme_70 - _MBProgressHUD_MBRoundProgressView_get_ClassHandle
+	.long LDIFF_SYM532
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde88_end:
@@ -9691,22 +9698,22 @@ Lfde88_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM532=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM532
+LDIFF_SYM533=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM533
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM533=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM533
+LDIFF_SYM534=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM534
 Lfde89_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView_get_Progress
 
-LDIFF_SYM534=Lme_71 - _MBProgressHUD_MBRoundProgressView_get_Progress
-	.long LDIFF_SYM534
+LDIFF_SYM535=Lme_71 - _MBProgressHUD_MBRoundProgressView_get_Progress
+	.long LDIFF_SYM535
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde89_end:
@@ -9721,27 +9728,27 @@ Lfde89_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM535=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM535
+LDIFF_SYM536=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM536
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM536=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM536
+LDIFF_SYM537=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM537
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM537=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM537
+LDIFF_SYM538=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM538
 Lfde90_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView_set_Progress_single
 
-LDIFF_SYM538=Lme_72 - _MBProgressHUD_MBRoundProgressView_set_Progress_single
-	.long LDIFF_SYM538
+LDIFF_SYM539=Lme_72 - _MBProgressHUD_MBRoundProgressView_set_Progress_single
+	.long LDIFF_SYM539
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde90_end:
@@ -9756,27 +9763,27 @@ Lfde90_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM539=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM539
+LDIFF_SYM540=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM540
 	.byte 1,90,11
 	.asciz "ret"
 
-LDIFF_SYM540=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM540
+LDIFF_SYM541=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM541
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM541=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM541
+LDIFF_SYM542=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM542
 Lfde91_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView_get_ProgressTintColor
 
-LDIFF_SYM542=Lme_73 - _MBProgressHUD_MBRoundProgressView_get_ProgressTintColor
-	.long LDIFF_SYM542
+LDIFF_SYM543=Lme_73 - _MBProgressHUD_MBRoundProgressView_get_ProgressTintColor
+	.long LDIFF_SYM543
 	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
 	.align 2
 Lfde91_end:
@@ -9791,27 +9798,27 @@ Lfde91_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM543=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM543
+LDIFF_SYM544=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM544
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM544=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM544
+LDIFF_SYM545=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM545
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM545=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM545
+LDIFF_SYM546=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM546
 Lfde92_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView_set_ProgressTintColor_MonoTouch_UIKit_UIColor
 
-LDIFF_SYM546=Lme_74 - _MBProgressHUD_MBRoundProgressView_set_ProgressTintColor_MonoTouch_UIKit_UIColor
-	.long LDIFF_SYM546
+LDIFF_SYM547=Lme_74 - _MBProgressHUD_MBRoundProgressView_set_ProgressTintColor_MonoTouch_UIKit_UIColor
+	.long LDIFF_SYM547
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde92_end:
@@ -9826,27 +9833,27 @@ Lfde92_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM547=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM547
+LDIFF_SYM548=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM548
 	.byte 1,90,11
 	.asciz "ret"
 
-LDIFF_SYM548=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM548
+LDIFF_SYM549=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM549
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM549=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM549
+LDIFF_SYM550=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM550
 Lfde93_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView_get_BackgroundTintColor
 
-LDIFF_SYM550=Lme_75 - _MBProgressHUD_MBRoundProgressView_get_BackgroundTintColor
-	.long LDIFF_SYM550
+LDIFF_SYM551=Lme_75 - _MBProgressHUD_MBRoundProgressView_get_BackgroundTintColor
+	.long LDIFF_SYM551
 	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
 	.align 2
 Lfde93_end:
@@ -9861,27 +9868,27 @@ Lfde93_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM551=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM551
+LDIFF_SYM552=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM552
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM552=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM552
+LDIFF_SYM553=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM553
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM553=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM553
+LDIFF_SYM554=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM554
 Lfde94_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView_set_BackgroundTintColor_MonoTouch_UIKit_UIColor
 
-LDIFF_SYM554=Lme_76 - _MBProgressHUD_MBRoundProgressView_set_BackgroundTintColor_MonoTouch_UIKit_UIColor
-	.long LDIFF_SYM554
+LDIFF_SYM555=Lme_76 - _MBProgressHUD_MBRoundProgressView_set_BackgroundTintColor_MonoTouch_UIKit_UIColor
+	.long LDIFF_SYM555
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde94_end:
@@ -9896,22 +9903,22 @@ Lfde94_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM555=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM555
+LDIFF_SYM556=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM556
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM556=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM556
+LDIFF_SYM557=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM557
 Lfde95_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView_get_Annular
 
-LDIFF_SYM557=Lme_77 - _MBProgressHUD_MBRoundProgressView_get_Annular
-	.long LDIFF_SYM557
+LDIFF_SYM558=Lme_77 - _MBProgressHUD_MBRoundProgressView_get_Annular
+	.long LDIFF_SYM558
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde95_end:
@@ -9926,27 +9933,27 @@ Lfde95_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM558=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM558
+LDIFF_SYM559=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM559
 	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM559=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM559
+LDIFF_SYM560=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM560
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM560=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM560
+LDIFF_SYM561=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM561
 Lfde96_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView_set_Annular_bool
 
-LDIFF_SYM561=Lme_78 - _MBProgressHUD_MBRoundProgressView_set_Annular_bool
-	.long LDIFF_SYM561
+LDIFF_SYM562=Lme_78 - _MBProgressHUD_MBRoundProgressView_set_Annular_bool
+	.long LDIFF_SYM562
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde96_end:
@@ -9961,27 +9968,27 @@ Lfde96_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM562=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM562
+LDIFF_SYM563=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM563
 	.byte 1,90,3
 	.asciz "disposing"
 
-LDIFF_SYM563=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM563
+LDIFF_SYM564=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM564
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM564=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM564
+LDIFF_SYM565=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM565
 Lfde97_start:
 
 	.long 0
 	.align 2
 	.long _MBProgressHUD_MBRoundProgressView_Dispose_bool
 
-LDIFF_SYM565=Lme_79 - _MBProgressHUD_MBRoundProgressView_Dispose_bool
-	.long LDIFF_SYM565
+LDIFF_SYM566=Lme_79 - _MBProgressHUD_MBRoundProgressView_Dispose_bool
+	.long LDIFF_SYM566
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde97_end:
@@ -9995,18 +10002,18 @@ LTDIE_33:
 	.byte 8,7
 	.asciz "_<Module>"
 
-LDIFF_SYM566=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM566
+LDIFF_SYM567=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM567
 LTDIE_33_POINTER:
 
 	.byte 13
-LDIFF_SYM567=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM567
+LDIFF_SYM568=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM568
 LTDIE_33_REFERENCE:
 
 	.byte 14
-LDIFF_SYM568=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM568
+LDIFF_SYM569=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM569
 	.byte 2
 	.asciz "(wrapper delegate-invoke) <Module>:invoke_void__this___intptr"
 	.long _wrapper_delegate_invoke__Module_invoke_void__this___intptr_intptr
@@ -10015,37 +10022,37 @@ LDIFF_SYM568=LTDIE_33 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM569=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM569
+LDIFF_SYM570=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM570
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM570=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM570
+LDIFF_SYM571=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM571
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM571=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM571
+LDIFF_SYM572=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM572
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM572=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM572
+LDIFF_SYM573=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM573
 	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM573=Lfde98_end - Lfde98_start
-	.long LDIFF_SYM573
+LDIFF_SYM574=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM574
 Lfde98_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke__Module_invoke_void__this___intptr_intptr
 
-LDIFF_SYM574=Lme_7b - _wrapper_delegate_invoke__Module_invoke_void__this___intptr_intptr
-	.long LDIFF_SYM574
+LDIFF_SYM575=Lme_7b - _wrapper_delegate_invoke__Module_invoke_void__this___intptr_intptr
+	.long LDIFF_SYM575
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde98_end:
@@ -10057,23 +10064,23 @@ LTDIE_34:
 	.asciz "System_AsyncCallback"
 
 	.byte 52,16
-LDIFF_SYM575=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM575
+LDIFF_SYM576=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM576
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM576=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM576
+LDIFF_SYM577=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM577
 LTDIE_34_POINTER:
 
 	.byte 13
-LDIFF_SYM577=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM577
+LDIFF_SYM578=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM578
 LTDIE_34_REFERENCE:
 
 	.byte 14
-LDIFF_SYM578=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM578
+LDIFF_SYM579=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM579
 	.byte 2
 	.asciz "(wrapper delegate-begin-invoke) <Module>:begin_invoke_IAsyncResult__this___intptr_AsyncCallback_object"
 	.long _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_AsyncCallback_object_intptr_System_AsyncCallback_object
@@ -10082,47 +10089,47 @@ LDIFF_SYM578=LTDIE_34 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM579=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM579
+LDIFF_SYM580=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM580
 	.byte 2,123,0,3
 	.asciz "param0"
 
-LDIFF_SYM580=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM580
+LDIFF_SYM581=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM581
 	.byte 2,123,4,3
 	.asciz "param1"
 
-LDIFF_SYM581=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM581
+LDIFF_SYM582=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM582
 	.byte 2,123,8,3
 	.asciz "param2"
 
-LDIFF_SYM582=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM582
+LDIFF_SYM583=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM583
 	.byte 2,123,12,11
 	.asciz "V_0"
 
-LDIFF_SYM583=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM583
+LDIFF_SYM584=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM584
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM584=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM584
+LDIFF_SYM585=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM585
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM585=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM585
+LDIFF_SYM586=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM586
 Lfde99_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_AsyncCallback_object_intptr_System_AsyncCallback_object
 
-LDIFF_SYM586=Lme_7c - _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_AsyncCallback_object_intptr_System_AsyncCallback_object
-	.long LDIFF_SYM586
+LDIFF_SYM587=Lme_7c - _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_AsyncCallback_object_intptr_System_AsyncCallback_object
+	.long LDIFF_SYM587
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,32,68,13,11
 	.align 2
 Lfde99_end:
@@ -10136,18 +10143,18 @@ LTDIE_35:
 	.byte 8,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM587=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM587
+LDIFF_SYM588=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM588
 LTDIE_35_POINTER:
 
 	.byte 13
-LDIFF_SYM588=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM588
+LDIFF_SYM589=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM589
 LTDIE_35_REFERENCE:
 
 	.byte 14
-LDIFF_SYM589=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM589
+LDIFF_SYM590=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM590
 	.byte 2
 	.asciz "(wrapper delegate-end-invoke) <Module>:end_invoke_void__this___IAsyncResult"
 	.long _wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
@@ -10156,37 +10163,37 @@ LDIFF_SYM589=LTDIE_35 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM590=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM590
+LDIFF_SYM591=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM591
 	.byte 2,123,0,3
 	.asciz "param0"
 
-LDIFF_SYM591=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM591
+LDIFF_SYM592=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM592
 	.byte 2,123,4,11
 	.asciz "V_0"
 
-LDIFF_SYM592=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM592
+LDIFF_SYM593=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM593
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM593=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM593
+LDIFF_SYM594=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM594
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM594=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM594
+LDIFF_SYM595=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM595
 Lfde100_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM595=Lme_7d - _wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM595
+LDIFF_SYM596=Lme_7d - _wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM596
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,24,68,13,11
 	.align 2
 Lfde100_end:
@@ -10201,32 +10208,32 @@ Lfde100_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM596=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM596
+LDIFF_SYM597=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM597
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM597=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM597
+LDIFF_SYM598=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM598
 	.byte 1,86,11
 	.asciz "V_1"
 
-LDIFF_SYM598=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM598
+LDIFF_SYM599=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM599
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM599=Lfde101_end - Lfde101_start
-	.long LDIFF_SYM599
+LDIFF_SYM600=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM600
 Lfde101_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke__Module_invoke_void__this__
 
-LDIFF_SYM600=Lme_7e - _wrapper_delegate_invoke__Module_invoke_void__this__
-	.long LDIFF_SYM600
+LDIFF_SYM601=Lme_7e - _wrapper_delegate_invoke__Module_invoke_void__this__
+	.long LDIFF_SYM601
 	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
 	.align 2
 Lfde101_end:
@@ -10241,42 +10248,42 @@ Lfde101_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM601=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM601
+LDIFF_SYM602=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM602
 	.byte 2,123,0,3
 	.asciz "param0"
 
-LDIFF_SYM602=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM602
+LDIFF_SYM603=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM603
 	.byte 2,123,4,3
 	.asciz "param1"
 
-LDIFF_SYM603=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM603
+LDIFF_SYM604=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM604
 	.byte 2,123,8,11
 	.asciz "V_0"
 
-LDIFF_SYM604=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM604
+LDIFF_SYM605=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM605
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM605=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM605
+LDIFF_SYM606=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM606
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM606=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM606
+LDIFF_SYM607=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM607
 Lfde102_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
 
-LDIFF_SYM607=Lme_7f - _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
-	.long LDIFF_SYM607
+LDIFF_SYM608=Lme_7f - _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
+	.long LDIFF_SYM608
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,32,68,13,11
 	.align 2
 Lfde102_end:
@@ -10288,56 +10295,56 @@ LTDIE_36:
 	.asciz "System_UInt32"
 
 	.byte 12,16
-LDIFF_SYM608=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM608
+LDIFF_SYM609=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM609
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM609=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM609
+LDIFF_SYM610=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM610
 	.byte 2,35,8,0,7
 	.asciz "System_UInt32"
 
-LDIFF_SYM610=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM610
+LDIFF_SYM611=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM611
 LTDIE_36_POINTER:
 
 	.byte 13
-LDIFF_SYM611=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM611
+LDIFF_SYM612=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM612
 LTDIE_36_REFERENCE:
 
 	.byte 14
-LDIFF_SYM612=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM612
+LDIFF_SYM613=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM613
 LTDIE_37:
 
 	.byte 5
 	.asciz "System_Int32"
 
 	.byte 12,16
-LDIFF_SYM613=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM613
+LDIFF_SYM614=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM614
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM614=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM614
+LDIFF_SYM615=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM615
 	.byte 2,35,8,0,7
 	.asciz "System_Int32"
 
-LDIFF_SYM615=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM615
+LDIFF_SYM616=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM616
 LTDIE_37_POINTER:
 
 	.byte 13
-LDIFF_SYM616=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM616
+LDIFF_SYM617=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM617
 LTDIE_37_REFERENCE:
 
 	.byte 14
-LDIFF_SYM617=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM617
+LDIFF_SYM618=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM618
 	.byte 2
 	.asciz "(wrapper managed-to-native) ApiDefinition.Messaging:UInt32_objc_msgSend_IntPtr_bool"
 	.long _wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_IntPtr_bool_intptr_intptr_intptr_bool
@@ -10346,62 +10353,62 @@ LDIFF_SYM617=LTDIE_37 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM618=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM618
+LDIFF_SYM619=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM619
 	.byte 2,125,4,3
 	.asciz "param1"
 
-LDIFF_SYM619=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM619
+LDIFF_SYM620=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM620
 	.byte 2,125,8,3
 	.asciz "param2"
 
-LDIFF_SYM620=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM620
+LDIFF_SYM621=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM621
 	.byte 2,125,12,3
 	.asciz "param3"
 
-LDIFF_SYM621=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM621
+LDIFF_SYM622=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM622
 	.byte 2,125,16,11
 	.asciz "V_0"
-
-LDIFF_SYM622=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM622
-	.byte 0,11
-	.asciz "V_1"
 
 LDIFF_SYM623=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM623
 	.byte 0,11
-	.asciz "V_2"
+	.asciz "V_1"
 
 LDIFF_SYM624=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM624
 	.byte 0,11
+	.asciz "V_2"
+
+LDIFF_SYM625=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM625
+	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM625=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM625
+LDIFF_SYM626=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM626
 	.byte 2,125,0,11
 	.asciz "V_4"
 
-LDIFF_SYM626=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM626
+LDIFF_SYM627=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM627
 	.byte 1,91,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM627=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM627
+LDIFF_SYM628=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM628
 Lfde103_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_IntPtr_bool_intptr_intptr_intptr_bool
 
-LDIFF_SYM628=Lme_80 - _wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_IntPtr_bool_intptr_intptr_intptr_bool
-	.long LDIFF_SYM628
+LDIFF_SYM629=Lme_80 - _wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_IntPtr_bool_intptr_intptr_intptr_bool
+	.long LDIFF_SYM629
 	.byte 12,13,0,72,14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,112
 	.align 2
 Lfde103_end:
@@ -10416,62 +10423,62 @@ Lfde103_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM629=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM629
+LDIFF_SYM630=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM630
 	.byte 2,125,4,3
 	.asciz "param1"
 
-LDIFF_SYM630=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM630
+LDIFF_SYM631=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM631
 	.byte 2,125,8,3
 	.asciz "param2"
 
-LDIFF_SYM631=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM631
+LDIFF_SYM632=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM632
 	.byte 2,125,12,3
 	.asciz "param3"
 
-LDIFF_SYM632=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM632
+LDIFF_SYM633=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM633
 	.byte 2,125,16,11
 	.asciz "V_0"
-
-LDIFF_SYM633=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM633
-	.byte 0,11
-	.asciz "V_1"
 
 LDIFF_SYM634=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM634
 	.byte 0,11
-	.asciz "V_2"
+	.asciz "V_1"
 
 LDIFF_SYM635=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM635
 	.byte 0,11
+	.asciz "V_2"
+
+LDIFF_SYM636=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM636
+	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM636=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM636
+LDIFF_SYM637=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM637
 	.byte 2,125,0,11
 	.asciz "V_4"
 
-LDIFF_SYM637=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM637
+LDIFF_SYM638=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM638
 	.byte 1,91,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM638=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM638
+LDIFF_SYM639=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM639
 Lfde104_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSendSuper_IntPtr_bool_intptr_intptr_intptr_bool
 
-LDIFF_SYM639=Lme_81 - _wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSendSuper_IntPtr_bool_intptr_intptr_intptr_bool
-	.long LDIFF_SYM639
+LDIFF_SYM640=Lme_81 - _wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSendSuper_IntPtr_bool_intptr_intptr_intptr_bool
+	.long LDIFF_SYM640
 	.byte 12,13,0,72,14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,112
 	.align 2
 Lfde104_end:
@@ -10486,57 +10493,57 @@ Lfde104_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM640=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM640
+LDIFF_SYM641=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM641
 	.byte 2,123,16,3
 	.asciz "param1"
 
-LDIFF_SYM641=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM641
+LDIFF_SYM642=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM642
 	.byte 2,123,20,3
 	.asciz "param2"
 
-LDIFF_SYM642=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM642
+LDIFF_SYM643=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM643
 	.byte 2,123,24,3
 	.asciz "param3"
 
-LDIFF_SYM643=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM643
+LDIFF_SYM644=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM644
 	.byte 2,123,28,11
 	.asciz "V_0"
-
-LDIFF_SYM644=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM644
-	.byte 0,11
-	.asciz "V_1"
 
 LDIFF_SYM645=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM645
 	.byte 0,11
-	.asciz "V_2"
+	.asciz "V_1"
 
 LDIFF_SYM646=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM646
 	.byte 0,11
-	.asciz "V_3"
+	.asciz "V_2"
 
 LDIFF_SYM647=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM647
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM648=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM648
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM648=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM648
+LDIFF_SYM649=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM649
 Lfde105_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_Double_intptr_intptr_bool_double
 
-LDIFF_SYM649=Lme_82 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_Double_intptr_intptr_bool_double
-	.long LDIFF_SYM649
+LDIFF_SYM650=Lme_82 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_Double_intptr_intptr_bool_double
+	.long LDIFF_SYM650
 	.byte 12,13,0,72,14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,128
 	.byte 1,68,13,11
 	.align 2
@@ -10552,57 +10559,57 @@ Lfde105_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM650=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM650
+LDIFF_SYM651=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM651
 	.byte 2,123,16,3
 	.asciz "param1"
 
-LDIFF_SYM651=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM651
+LDIFF_SYM652=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM652
 	.byte 2,123,20,3
 	.asciz "param2"
 
-LDIFF_SYM652=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM652
+LDIFF_SYM653=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM653
 	.byte 2,123,24,3
 	.asciz "param3"
 
-LDIFF_SYM653=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM653
+LDIFF_SYM654=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM654
 	.byte 2,123,28,11
 	.asciz "V_0"
-
-LDIFF_SYM654=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM654
-	.byte 0,11
-	.asciz "V_1"
 
 LDIFF_SYM655=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM655
 	.byte 0,11
-	.asciz "V_2"
+	.asciz "V_1"
 
 LDIFF_SYM656=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM656
 	.byte 0,11
-	.asciz "V_3"
+	.asciz "V_2"
 
 LDIFF_SYM657=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM657
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM658=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM658
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM658=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM658
+LDIFF_SYM659=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM659
 Lfde106_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_Double_intptr_intptr_bool_double
 
-LDIFF_SYM659=Lme_83 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_Double_intptr_intptr_bool_double
-	.long LDIFF_SYM659
+LDIFF_SYM660=Lme_83 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_Double_intptr_intptr_bool_double
+	.long LDIFF_SYM660
 	.byte 12,13,0,72,14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,128
 	.byte 1,68,13,11
 	.align 2
@@ -10618,62 +10625,62 @@ Lfde106_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM660=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM660
+LDIFF_SYM661=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM661
 	.byte 2,123,8,3
 	.asciz "param1"
 
-LDIFF_SYM661=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM661
+LDIFF_SYM662=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM662
 	.byte 2,123,12,3
 	.asciz "param2"
 
-LDIFF_SYM662=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM662
+LDIFF_SYM663=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM663
 	.byte 2,123,16,3
 	.asciz "param3"
 
-LDIFF_SYM663=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM663
+LDIFF_SYM664=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM664
 	.byte 2,123,20,3
 	.asciz "param4"
 
-LDIFF_SYM664=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM664
+LDIFF_SYM665=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM665
 	.byte 2,123,24,11
 	.asciz "V_0"
-
-LDIFF_SYM665=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM665
-	.byte 0,11
-	.asciz "V_1"
 
 LDIFF_SYM666=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM666
 	.byte 0,11
-	.asciz "V_2"
+	.asciz "V_1"
 
 LDIFF_SYM667=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM667
 	.byte 0,11
-	.asciz "V_3"
+	.asciz "V_2"
 
 LDIFF_SYM668=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM668
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM669=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM669
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM669=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM669
+LDIFF_SYM670=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM670
 Lfde107_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr
 
-LDIFF_SYM670=Lme_84 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr
-	.long LDIFF_SYM670
+LDIFF_SYM671=Lme_84 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr
+	.long LDIFF_SYM671
 	.byte 12,13,0,72,14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,120
 	.byte 68,13,11
 	.align 2
@@ -10689,62 +10696,62 @@ Lfde107_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM671=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM671
+LDIFF_SYM672=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM672
 	.byte 2,123,8,3
 	.asciz "param1"
 
-LDIFF_SYM672=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM672
+LDIFF_SYM673=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM673
 	.byte 2,123,12,3
 	.asciz "param2"
 
-LDIFF_SYM673=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM673
+LDIFF_SYM674=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM674
 	.byte 2,123,16,3
 	.asciz "param3"
 
-LDIFF_SYM674=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM674
+LDIFF_SYM675=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM675
 	.byte 2,123,20,3
 	.asciz "param4"
 
-LDIFF_SYM675=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM675
+LDIFF_SYM676=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM676
 	.byte 2,123,24,11
 	.asciz "V_0"
-
-LDIFF_SYM676=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM676
-	.byte 0,11
-	.asciz "V_1"
 
 LDIFF_SYM677=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM677
 	.byte 0,11
-	.asciz "V_2"
+	.asciz "V_1"
 
 LDIFF_SYM678=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM678
 	.byte 0,11
-	.asciz "V_3"
+	.asciz "V_2"
 
 LDIFF_SYM679=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM679
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM680=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM680
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM680=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM680
+LDIFF_SYM681=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM681
 Lfde108_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr
 
-LDIFF_SYM681=Lme_85 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr
-	.long LDIFF_SYM681
+LDIFF_SYM682=Lme_85 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr
+	.long LDIFF_SYM682
 	.byte 12,13,0,72,14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,120
 	.byte 68,13,11
 	.align 2
@@ -10760,67 +10767,67 @@ Lfde108_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM682=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM682
+LDIFF_SYM683=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM683
 	.byte 2,123,8,3
 	.asciz "param1"
 
-LDIFF_SYM683=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM683
+LDIFF_SYM684=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM684
 	.byte 2,123,12,3
 	.asciz "param2"
 
-LDIFF_SYM684=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM684
+LDIFF_SYM685=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM685
 	.byte 2,123,16,3
 	.asciz "param3"
 
-LDIFF_SYM685=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM685
+LDIFF_SYM686=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM686
 	.byte 2,123,20,3
 	.asciz "param4"
 
-LDIFF_SYM686=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM686
+LDIFF_SYM687=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM687
 	.byte 2,123,24,3
 	.asciz "param5"
 
-LDIFF_SYM687=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM687
+LDIFF_SYM688=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM688
 	.byte 2,123,28,11
 	.asciz "V_0"
-
-LDIFF_SYM688=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM688
-	.byte 0,11
-	.asciz "V_1"
 
 LDIFF_SYM689=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM689
 	.byte 0,11
-	.asciz "V_2"
+	.asciz "V_1"
 
 LDIFF_SYM690=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM690
 	.byte 0,11
-	.asciz "V_3"
+	.asciz "V_2"
 
 LDIFF_SYM691=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM691
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM692=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM692
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM692=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM692
+LDIFF_SYM693=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM693
 Lfde109_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_IntPtr_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr_intptr
 
-LDIFF_SYM693=Lme_86 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_IntPtr_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr_intptr
-	.long LDIFF_SYM693
+LDIFF_SYM694=Lme_86 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_IntPtr_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr_intptr
+	.long LDIFF_SYM694
 	.byte 12,13,0,72,14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,120
 	.byte 68,13,11
 	.align 2
@@ -10836,67 +10843,67 @@ Lfde109_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM694=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM694
+LDIFF_SYM695=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM695
 	.byte 2,123,8,3
 	.asciz "param1"
 
-LDIFF_SYM695=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM695
+LDIFF_SYM696=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM696
 	.byte 2,123,12,3
 	.asciz "param2"
 
-LDIFF_SYM696=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM696
+LDIFF_SYM697=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM697
 	.byte 2,123,16,3
 	.asciz "param3"
 
-LDIFF_SYM697=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM697
+LDIFF_SYM698=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM698
 	.byte 2,123,20,3
 	.asciz "param4"
 
-LDIFF_SYM698=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM698
+LDIFF_SYM699=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM699
 	.byte 2,123,24,3
 	.asciz "param5"
 
-LDIFF_SYM699=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM699
+LDIFF_SYM700=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM700
 	.byte 2,123,28,11
 	.asciz "V_0"
-
-LDIFF_SYM700=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM700
-	.byte 0,11
-	.asciz "V_1"
 
 LDIFF_SYM701=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM701
 	.byte 0,11
-	.asciz "V_2"
+	.asciz "V_1"
 
 LDIFF_SYM702=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM702
 	.byte 0,11
-	.asciz "V_3"
+	.asciz "V_2"
 
 LDIFF_SYM703=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM703
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM704=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM704
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM704=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM704
+LDIFF_SYM705=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM705
 Lfde110_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_IntPtr_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr_intptr
 
-LDIFF_SYM705=Lme_87 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_IntPtr_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr_intptr
-	.long LDIFF_SYM705
+LDIFF_SYM706=Lme_87 - _wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_IntPtr_IntPtr_IntPtr_intptr_intptr_bool_intptr_intptr_intptr
+	.long LDIFF_SYM706
 	.byte 12,13,0,72,14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,120
 	.byte 68,13,11
 	.align 2
@@ -10912,37 +10919,37 @@ Lfde110_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM706=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM706
+LDIFF_SYM707=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM707
 	.byte 2,125,4,11
 	.asciz "V_0"
-
-LDIFF_SYM707=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM707
-	.byte 0,11
-	.asciz "V_1"
 
 LDIFF_SYM708=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM708
 	.byte 0,11
-	.asciz "V_2"
+	.asciz "V_1"
 
 LDIFF_SYM709=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM709
+	.byte 0,11
+	.asciz "V_2"
+
+LDIFF_SYM710=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM710
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM710=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM710
+LDIFF_SYM711=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM711
 Lfde111_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_native_to_managed_MBProgressHUD_MTMBProgressHUD_TrampolineNSDispatchHandlerT_intptr
 
-LDIFF_SYM711=Lme_88 - _wrapper_native_to_managed_MBProgressHUD_MTMBProgressHUD_TrampolineNSDispatchHandlerT_intptr
-	.long LDIFF_SYM711
+LDIFF_SYM712=Lme_88 - _wrapper_native_to_managed_MBProgressHUD_MTMBProgressHUD_TrampolineNSDispatchHandlerT_intptr
+	.long LDIFF_SYM712
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde111_end:
@@ -10957,37 +10964,37 @@ Lfde111_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM712=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM712
+LDIFF_SYM713=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM713
 	.byte 2,125,4,11
 	.asciz "V_0"
-
-LDIFF_SYM713=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM713
-	.byte 0,11
-	.asciz "V_1"
 
 LDIFF_SYM714=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM714
 	.byte 0,11
-	.asciz "V_2"
+	.asciz "V_1"
 
 LDIFF_SYM715=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM715
+	.byte 0,11
+	.asciz "V_2"
+
+LDIFF_SYM716=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM716
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM716=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM716
+LDIFF_SYM717=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM717
 Lfde112_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_native_to_managed_MBProgressHUD_MTMBProgressHUD_TrampolineMBProgressHUDCompletionHandler_intptr
 
-LDIFF_SYM717=Lme_89 - _wrapper_native_to_managed_MBProgressHUD_MTMBProgressHUD_TrampolineMBProgressHUDCompletionHandler_intptr
-	.long LDIFF_SYM717
+LDIFF_SYM718=Lme_89 - _wrapper_native_to_managed_MBProgressHUD_MTMBProgressHUD_TrampolineMBProgressHUDCompletionHandler_intptr
+	.long LDIFF_SYM718
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde112_end:

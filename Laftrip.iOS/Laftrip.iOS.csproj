@@ -107,6 +107,7 @@
     <Folder Include="Screens\" />
     <Folder Include="Navigation\" />
     <Folder Include="Properties\" />
+    <Folder Include="ElementPack\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -156,6 +157,7 @@
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
     <Compile Include="Screens\AddJokeView.cs" />
+    <Compile Include="ElementPack\SimpleMultilineEntryElement.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

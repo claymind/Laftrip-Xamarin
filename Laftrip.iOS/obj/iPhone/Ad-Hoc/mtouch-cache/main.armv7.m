@@ -17,6 +17,7 @@ extern void *mono_aot_module_GoogleAdMobAds_info;
 extern void *mono_aot_module_Xamarin_Social_iOS_info;
 extern void *mono_aot_module_Xamarin_Auth_iOS_info;
 extern void *mono_aot_module_SDWebImage_info;
+extern void *mono_aot_module_MonoTouch_Dialog_1_info;
 
 void monotouch_register_modules ()
 {
@@ -37,6 +38,7 @@ void monotouch_register_modules ()
 	mono_aot_register_module (mono_aot_module_Xamarin_Social_iOS_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Auth_iOS_info);
 	mono_aot_register_module (mono_aot_module_SDWebImage_info);
+	mono_aot_register_module (mono_aot_module_MonoTouch_Dialog_1_info);
 
 }
 
@@ -49,6 +51,7 @@ void monotouch_register_assemblies ()
 	monotouch_open_and_register ("Xamarin.Social.iOS.dll");
 	monotouch_open_and_register ("Xamarin.Auth.iOS.dll");
 	monotouch_open_and_register ("SDWebImage.dll");
+	monotouch_open_and_register ("MonoTouch.Dialog-1.dll");
 
 }
 

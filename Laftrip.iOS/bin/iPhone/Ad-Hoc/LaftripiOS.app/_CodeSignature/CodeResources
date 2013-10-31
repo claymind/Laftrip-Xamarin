@@ -22,7 +22,7 @@
 		</data>
 		<key>GoogleAdMobAds.dll</key>
 		<data>
-		cQWAgTdHE95B/FXgsb+6j1vvkco=
+		REKEH5ABPin/8l3JWaF9ELpDjdY=
 		</data>
 		<key>Icon-Small.png</key>
 		<data>
@@ -54,19 +54,23 @@
 		</data>
 		<key>Laftrip.API.dll</key>
 		<data>
-		n2GI5M+4SbaWP7xTDzOc5RSUY6g=
+		Z6I+OT8ECqiTFWzPcJEDhC6ysVk=
 		</data>
 		<key>LaftripiOS.exe</key>
 		<data>
-		8T2WZI93C7N6J65fRb5CscQd6NM=
+		JNnHj/ONiNqjwdKh4f7+7tdHEcI=
 		</data>
 		<key>MBProgressHUD.dll</key>
 		<data>
-		4ce5a5QI3qO+woc70N+Zf3W3jZA=
+		2aFMFR+8qTDZ4q1BP0wVFF71n7Q=
 		</data>
 		<key>Mono.Data.Sqlite.dll</key>
 		<data>
-		Ui86JSYRHDV16sY2VhMAfI7MNZQ=
+		XpG2hgJ9+JcJJHFEbxB18U7v4LA=
+		</data>
+		<key>MonoTouch.Dialog-1.dll</key>
+		<data>
+		cuwzaO2M2UCTQGNOP/ADQfA0/Nc=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -102,11 +106,11 @@
 		</data>
 		<key>RestSharp.MonoTouch.dll</key>
 		<data>
-		cLC0+9o1bjBWnlS1t9Li4FOXous=
+		8PWbbzcx2MXN5PyUmNePBZD54RA=
 		</data>
 		<key>SDWebImage.dll</key>
 		<data>
-		vHNvWWgBN5ge98uwd0p6VpY8q6Y=
+		/oPx89TC1YRgs8THdiLE2EaIdFQ=
 		</data>
 		<key>Settings.nib</key>
 		<data>
@@ -122,11 +126,11 @@
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		cua8VFDh0FtSa4U8Knd6twtuunk=
+		rtd8MoGON53IrtexvyfO2590tgM=
 		</data>
 		<key>System.Data.dll</key>
 		<data>
-		6FtSpCOSvnnp8w3FCzvGwSgizFA=
+		TG9/YlUPxUO6NSBc0oXiMF33JZk=
 		</data>
 		<key>System.Json.dll</key>
 		<data>
@@ -134,27 +138,27 @@
 		</data>
 		<key>System.Transactions.dll</key>
 		<data>
-		Ef9qyK12Fnb2r/uD2kjxZZl2NA4=
+		Xu0yjAEN7wCcqc+ppeXh2wzJaEQ=
 		</data>
 		<key>System.Xml.Linq.dll</key>
 		<data>
-		qPkro3m9zkB8Qxet4GWnR8xdCks=
+		JZCRFlxmcbEWRVNOH3NJ+RNtFn8=
 		</data>
 		<key>System.Xml.dll</key>
 		<data>
-		RI+cv6PD3jKtEL45UVi8SFv9MCo=
+		BPQAqektn78qlaX2oHfo365FraU=
 		</data>
 		<key>System.dll</key>
 		<data>
-		eBb4H8YSZjS03+EDMICUtF/gfgw=
+		Xzib+67T0FPjSeT68Bw1AuaLeLo=
 		</data>
 		<key>Xamarin.Auth.iOS.dll</key>
 		<data>
-		YJIFN7xRcmkZTZ5HwOf1ZxO2WDo=
+		H5pGvHGg59yC1hFpqzRo0i1MLoM=
 		</data>
 		<key>Xamarin.Social.iOS.dll</key>
 		<data>
-		VgA1XKTQZFw6P3jx/R/M6LiTWkk=
+		sNihJu4dG7N8DC8K2F07Kx5d/i0=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -166,11 +170,11 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
-		raaA1pjWDLNXD1kUc9LvSf96/XY=
+		do/WOES85CQFKluUorCf/dxLd9Y=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		oLV9AO8xr+y3txZrUhfB7sjpauk=
+		Him2YfZyoAez8OqZmUxfeYBjV/c=
 		</data>
 	</dict>
 	<key>rules</key>
