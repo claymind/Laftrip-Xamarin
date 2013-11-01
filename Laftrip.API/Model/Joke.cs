@@ -13,6 +13,7 @@ namespace Laftrip.API
 		public bool IsActive { get; set; }
 		public Nullable<int> Likes { get; set; }
 		public string Url { get; set; }
+		public string AddedBy { get; set; }
 
 		//public virtual Category Category { get; set; }
 	}

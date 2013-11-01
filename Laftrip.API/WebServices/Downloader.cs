@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Json;
 using RestSharp;
+using Newtonsoft.Json;
 
 
 namespace Laftrip.API
@@ -26,6 +27,8 @@ namespace Laftrip.API
 
 		static string likeJokeUrl = "/api/jokefeed/like/{0}";
 		static string likePhotoUrl = "/api/photofeed/like/{0}";
+
+		static string addJokeUrl = "/api/jokefeed/create";
 
 		List<Joke> jokeList = new List<Joke> ();
 		List<Photo> photoList = new List<Photo> ();
@@ -160,6 +163,37 @@ namespace Laftrip.API
 			return int.Parse(responseText);
 
 		}  
+
+		//Create Joke
+		public int AddJoke(Joke joke)
+		{
+			string responseText = "0";
+
+			var client = new RestClient (baseUrl);
+			RestRequest request = null;
+	
+			request = new RestRequest (addJokeUrl, Method.POST);
+			request.RequestFormat = DataFormat.Json;
+			request.AddBody (joke);
+
+			try {
+
+				IRestResponse response = client.Execute(request);
+				responseText = response.Content;
+
+			}
+			catch(WebException exc) 
+			{
+			}
+			finally 
+			{
+				client = null;
+				request = null;
+			}
+
+			return int.Parse(responseText);
+		}  
+
 
 		//GetPhotoTitles
 		public List<PhotoTitleViewModel> GetPhotoTitles(string keyword)
