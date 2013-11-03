@@ -56,6 +56,7 @@
     <Compile Include="ViewModel\PhotoTitleViewModel.cs" />
     <Compile Include="WebServices\Downloader.cs" />
     <Compile Include="Data\LikeProvider.cs" />
+    <Compile Include="Utils\ImageHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="json.net">

@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AddJokeViewController.nib</key>
-		<data>
-		4Qsq+R5QxP1paNUspRNsBb+8NV4=
-		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
 		sOhw52TPrrBsvmtQxPvEVaVYfCM=
@@ -22,7 +18,7 @@
 		</data>
 		<key>GoogleAdMobAds.dll</key>
 		<data>
-		9+DN13KF1VRKe2gRg1ZPK3kQ3hY=
+		iveYeHSZMFQ9c+cj5hYekGV5oPc=
 		</data>
 		<key>Icon-Small.png</key>
 		<data>
@@ -42,35 +38,35 @@
 		</data>
 		<key>JokesSearchViewController.nib</key>
 		<data>
-		K3FcgFm2LohpA3ylsFYbpGIGcMg=
+		ZSdkt1pCf4DrddL1z3kepc2iXaU=
 		</data>
 		<key>JokesShareViewController.nib</key>
 		<data>
-		w3b4uW4bMZrzufoqb8bId08o3XQ=
+		vzZND+co50YOU+TntOg/t+RChIM=
 		</data>
 		<key>JokesViewController.nib</key>
 		<data>
-		JBs9lLrHK7d4oda+S1wwLHudPxM=
+		yIhwJhOo8pPW3fex4Ob6uT85x4Y=
 		</data>
 		<key>Laftrip.API.dll</key>
 		<data>
-		1cNptXmGJZ5jLC0NpVbIoWKMqlg=
+		po48suIMl3Cav8ujUOap2UwqMeQ=
 		</data>
 		<key>LaftripiOS.exe</key>
 		<data>
-		N5WwzVPQ9YWkmf059xO2o5tyy24=
+		eT5faPOMfxjUcraOKLLvXqWUOkc=
 		</data>
 		<key>MBProgressHUD.dll</key>
 		<data>
-		99rqFAfVyOP8a4JGem9pIpU1CAQ=
+		JCMeq2R4YNtfgQw0RtTfb3nze+c=
 		</data>
 		<key>Mono.Data.Sqlite.dll</key>
 		<data>
-		APsdrjnkTsJs7wCkM2OL28NqLfk=
+		eLoxTCDd/T9ssTFJxLuptxiU9k8=
 		</data>
 		<key>MonoTouch.Dialog-1.dll</key>
 		<data>
-		+n6DllM5P6R+DJG9VavmjVUU/pg=
+		8pcyjZIq3pDSEUrXtCt18X5zZzM=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -78,87 +74,67 @@
 		</data>
 		<key>PhotosSearchViewController.nib</key>
 		<data>
-		l7kJIXplhTOPsO4aQSdHrKkfKWs=
+		mzEfJQSzjcHyDTOHKwiR8iwj9ro=
 		</data>
 		<key>PhotosViewController.nib</key>
 		<data>
-		nt2C6gb51qa2gYjPSgWUzMXDXUs=
+		8gpsDECRsRJy1oJheyprd/eLPTo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>PopularJokesViewController.nib</key>
-		<data>
-		MlNk9wYMBUEQ/UsIgvq14XXwuS8=
-		</data>
-		<key>PopularPhotosViewController.nib</key>
-		<data>
-		ToDdiI44CEnXBE5KMzTvj+d8Kv0=
-		</data>
-		<key>RecentJokesViewController.nib</key>
-		<data>
-		guzMBzTCpzrbAuvzZShOaURjnbU=
-		</data>
-		<key>RecentPhotosViewController.nib</key>
-		<data>
-		yft3t20Sgc95xyQZBtjEvWcso+w=
-		</data>
 		<key>RestSharp.MonoTouch.dll</key>
 		<data>
-		YFIrhrnKUbRClKpaDM0ws+KQUvE=
+		QSKuvyOkhg1HtW30sWFn9x1rSag=
 		</data>
 		<key>SDWebImage.dll</key>
 		<data>
-		95s/ZV8gVIsVH+CNVSU1jTxECB0=
+		SPlYu+azY5z1qnNNrcDRAWNfdi8=
 		</data>
 		<key>Settings.nib</key>
 		<data>
-		qp6oDoy5+KA+ZHz+/86Jh29f4BY=
+		lqKB7KOyB4JhqPe1bVky9UNXtt0=
 		</data>
 		<key>SingleJokeViewController.nib</key>
 		<data>
-		FXLN7b//PdbXgQLLiLbaN1L2JeQ=
+		9OcwSVS+hYK/AocyLe6HenwIBm0=
 		</data>
 		<key>SinglePhotoViewController.nib</key>
 		<data>
-		lGNMvFo0BnOS6w2yPnw1L9xR25M=
+		vk3yS2gFyTva8iT9+3HpQb8hn0A=
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		bqxeP9KzEg86PoYJi+o1pjDkScg=
+		yC7Pk0Ah4ZibnyljUh9A/iFILjI=
 		</data>
 		<key>System.Data.dll</key>
 		<data>
-		2nnM0+soFMzV+9BPN/8jVcpEaIk=
-		</data>
-		<key>System.Json.dll</key>
-		<data>
-		JNJx4vYg3UCUXgrrNEVvSFSssaM=
+		xcr7kIg/MDxLuELr1JZv6cPLjf4=
 		</data>
 		<key>System.Transactions.dll</key>
 		<data>
-		1uNwhOLHtSC7bJJ2kE4YCSWJWM8=
+		1aiujwWmDurBorUGmlxXXaAbpLQ=
 		</data>
 		<key>System.Xml.Linq.dll</key>
 		<data>
-		BOCf8SXAiZsKxrSnMjz8i3FE9EI=
+		4nNyXO8MmB620WITWSU6TcbaIac=
 		</data>
 		<key>System.Xml.dll</key>
 		<data>
-		sAhGZIvb+OmSrav0hNOTJYveqfU=
+		GQXME2AirQQyYKhIgp59v3A5uXg=
 		</data>
 		<key>System.dll</key>
 		<data>
-		Kcprvgcn1atJflgeL7v73TpLrqU=
+		A9gqd3twsoo+WflwK14mpBuGcUU=
 		</data>
 		<key>Xamarin.Auth.iOS.dll</key>
 		<data>
-		B2UDUpgAADul9dt0oq9G1dFQ4Xc=
+		cW1eSqcINxCbGbUa67ylbkRt6dg=
 		</data>
 		<key>Xamarin.Social.iOS.dll</key>
 		<data>
-		MHu5enRoCGiLQ72R6HS9VZPlMNU=
+		SaF+E2wpYqnt6qfNKGsawfF/OGg=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -170,11 +146,11 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
-		795S1BgxpKfeOExpIr4qWs6hUE8=
+		PZe08/aSWQS6i3CUPtBvHP9rww8=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		MBSPk/kFqH3wHw+y0WduwWMwtA0=
+		jkXR5Hz2i7GkLRf93I+HDTcN56c=
 		</data>
 	</dict>
 	<key>rules</key>

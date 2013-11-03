@@ -158,6 +158,7 @@
     </Compile>
     <Compile Include="Screens\AddJokeView.cs" />
     <Compile Include="ElementPack\SimpleMultilineEntryElement.cs" />
+    <Compile Include="Screens\AddPhotoView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

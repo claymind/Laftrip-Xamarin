@@ -59,14 +59,13 @@ namespace Laftrip.iOS
 				progressBar.Hidden = true;
 				lblPercent.Hidden = true;
 
-//				this.ParentViewController.ParentViewController.NavigationItem.SetRightBarButtonItem (
-//					new UIBarButtonItem (UIBarButtonSystemItem.Action, (sender, args) => {
-//						// button was clicked
-//
-//						this.TabBarController.NavigationController.PushViewController (new JokesShareViewController (Laftrip.API.Enums.ItemType.Photo, currentphotoTitle, currentphotoDesc, currentphotoId), true);
-//
-//					})
-//							, true);
+				this.ParentViewController.ParentViewController.NavigationItem.SetRightBarButtonItem(
+					new UIBarButtonItem(UIBarButtonSystemItem.Add, (sender, args) => {
+
+					this.TabBarController.NavigationController.PushViewController( new AddPhotoView(), true);
+
+				})
+					, true);
 
 						
 				//get liked jokes from db
