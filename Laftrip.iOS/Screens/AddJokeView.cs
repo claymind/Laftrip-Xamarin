@@ -24,13 +24,16 @@ namespace Laftrip.iOS
 
 			this.Pushing = true;
 		
-			Root = new RootElement ("Add Joke") {
+			Root = new RootElement ("Submit Joke") {
 				new Section ("") {
 
 					title,
+
+				},
+				new Section ("") {
 					name
 				},
-				 new Section ("Joke") {
+				 new Section ("Enter your joke below") {
 					desc
 				},
 			};
@@ -47,7 +50,7 @@ namespace Laftrip.iOS
 
 				Downloader downloader = new Downloader ();
 
-				DisplayProgress ("Liking Joke");
+				DisplayProgress ("Submitting Joke");
 
 				Task.Factory.StartNew(() => {
 					Joke newJoke = new Joke();
@@ -57,12 +60,20 @@ namespace Laftrip.iOS
 					newJoke.AddedBy = AddedBy;
 
 					success	 = downloader.AddJoke(newJoke);
+
 				}).ContinueWith(task3 => {
 
 					HideProgress();
 					View.BackgroundColor = UIColor.White;
 
-					//return success;
+					if (success > 0){
+						new UIAlertView ("Joke Submitted", "Thank you! Your joke will be posted after review.", null, "ok", null).Show ();
+						this.NavigationController.PopViewControllerAnimated(true);
+					}
+					else {
+						new UIAlertView ("Joke Not Submitted", "Uh oh something went wrong.  Please try again.", null, "ok", null).Show ();
+					}
+
 				}, 
 				TaskScheduler.FromCurrentSynchronizationContext ());
 

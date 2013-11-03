@@ -179,7 +179,7 @@ namespace Laftrip.API
 			try {
 
 				IRestResponse response = client.Execute(request);
-				responseText = response.Content;
+				responseText = response.Content.Replace("\"", "");
 
 			}
 			catch(WebException exc) 
@@ -190,8 +190,11 @@ namespace Laftrip.API
 				client = null;
 				request = null;
 			}
+			int result = 0;
 
-			return int.Parse(responseText);
+			int.TryParse(responseText, out result);
+
+			return result;
 		}  
 
 
