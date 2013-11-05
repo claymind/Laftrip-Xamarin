@@ -1,6 +1,7 @@
 using System;
 using MonoTouch.UIKit;
 using System.Drawing;
+using System.IO;
 
 namespace Laftrip.API
 {
@@ -46,6 +47,15 @@ namespace Laftrip.API
 			var modifiedImage = UIGraphics.GetImageFromCurrentImageContext();
 			UIGraphics.EndImageContext();
 			return modifiedImage;
+		}
+
+		public static byte[] ReadFully(Stream input)
+		{
+			using (MemoryStream ms = new MemoryStream())
+			{
+				input.CopyTo(ms);
+				return ms.ToArray();
+			}
 		}
 	}
 }

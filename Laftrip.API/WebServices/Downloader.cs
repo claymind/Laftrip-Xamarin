@@ -7,6 +7,7 @@ using System.Text;
 using System.Json;
 using RestSharp;
 using Newtonsoft.Json;
+using MonoTouch.UIKit;
 
 
 namespace Laftrip.API
@@ -29,6 +30,7 @@ namespace Laftrip.API
 		static string likePhotoUrl = "/api/photofeed/like/{0}";
 
 		static string addJokeUrl = "/api/jokefeed/create";
+		static string addPhotoUrl = "/Models/UploadHandler.ashx";
 
 		List<Joke> jokeList = new List<Joke> ();
 		List<Photo> photoList = new List<Photo> ();
@@ -196,6 +198,44 @@ namespace Laftrip.API
 
 			return result;
 		}  
+
+		//Upload Photo
+		public int AddPhoto(string title, string addedBy, byte[] streamBytes)
+		{
+
+			HttpStatusCode code = HttpStatusCode.OK;
+		
+			var client = new RestClient (baseUrl);
+			RestRequest request = null;
+
+			request = new RestRequest (addPhotoUrl, Method.POST);
+
+			request.AddHeader ("addedBy", addedBy);
+
+			request.AddFile("image", streamBytes, title.Replace(" ", "-") + ".png");
+			
+			try {
+
+				IRestResponse response = client.Execute(request);
+				code = response.StatusCode;
+
+			}
+			catch(WebException exc) 
+			{
+			}
+			finally 
+			{
+				client = null;
+				request = null;
+			}
+			int result = 1;
+
+			if (code != HttpStatusCode.OK)
+				result = 0;
+
+			return result;
+		}  
+
 
 
 		//GetPhotoTitles

@@ -9,6 +9,7 @@ using ElementPack;
 using Laftrip.API;
 using System.Threading.Tasks;
 using System.Drawing;
+using System.IO;
 
 namespace Laftrip.iOS
 {
@@ -27,7 +28,6 @@ namespace Laftrip.iOS
 			var chooseFile = new StringElement ("Choose Photo", () => {
 				NavigationController.PresentViewController(imagePicker, true, null);
 			});
-			var desc = new SimpleMultilineEntryElement (String.Empty, String.Empty) { Editable = true };
 
 			this.Pushing = true;
 
@@ -48,22 +48,16 @@ namespace Laftrip.iOS
 			this.NavigationItem.SetRightBarButtonItem (
 				new UIBarButtonItem (UIBarButtonSystemItem.Save, (sender, args) => {
 
-				string jokeTitle = title.Value;
-				string jokeDesc = desc.Value;
+				string photoTitle = title.Value;
 				string AddedBy = name.Value;
 
 				Downloader downloader = new Downloader ();
+				Stream s = (imageView.Image).AsPNG().AsStream ();
 
 				DisplayProgress ("Submitting Photo");
 
 				Task.Factory.StartNew(() => {
-					Joke newJoke = new Joke();
-					newJoke.Title = jokeTitle;
-					newJoke.JokeDesc = jokeDesc;
-					newJoke.Tags = jokeTitle;
-					newJoke.AddedBy = AddedBy;
-
-					success	 = downloader.AddJoke(newJoke);
+					success	 = downloader.AddPhoto(photoTitle, AddedBy, ImageHelper.ReadFully(s));
 
 				}).ContinueWith(task3 => {
 
@@ -93,8 +87,7 @@ namespace Laftrip.iOS
 			imagePicker.Canceled += Handle_Canceled;
 
 			imageView = new UIImageView (new RectangleF(10, 210, 300, 300));
-//			image.Image= UIImage.FromBundle ("laftrip-menu.png");
-//			TableView.BackgroundView = image;
+
 			this.Add (imageView);
 		}
 
@@ -124,8 +117,6 @@ namespace Laftrip.iOS
 			bool isImage = false;
 			switch(e.Info[UIImagePickerController.MediaType].ToString()) {
 				case "public.image":
-					//post image here
-
 					Console.WriteLine("Image selected");
 					isImage = true;
 					break;
@@ -146,6 +137,7 @@ namespace Laftrip.iOS
 				if(originalImage != null) {
 					// do something with the image
 					//Console.WriteLine ("got the original image");
+
 
 					UIImage newImage = ImageHelper.MaxResizeImage (originalImage, 400, 400);
 					imageView.Image = newImage; // display

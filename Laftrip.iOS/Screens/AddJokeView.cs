@@ -40,10 +40,7 @@ namespace Laftrip.iOS
 
 			this.NavigationItem.SetRightBarButtonItem (
 				new UIBarButtonItem (UIBarButtonSystemItem.Save, (sender, args) => {
-					// button was clicked
-					
-//					new UIAlertView ("Tapped", joke.Value
-//				                , null, "ok", null).Show ();
+
 				string jokeTitle = title.Value;
 				string jokeDesc = desc.Value;
 				string AddedBy = name.Value;
