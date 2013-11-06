@@ -152,13 +152,14 @@
     <Compile Include="PopularPhotosViewController.designer.cs">
       <DependentUpon>PopularPhotosViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Screens\Settings.cs" />
-    <Compile Include="Screens\Settings.designer.cs">
-      <DependentUpon>Settings.cs</DependentUpon>
-    </Compile>
     <Compile Include="Screens\AddJokeView.cs" />
     <Compile Include="ElementPack\SimpleMultilineEntryElement.cs" />
     <Compile Include="Screens\AddPhotoView.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Settings.designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\UserPreferencesView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -169,7 +170,6 @@
     <InterfaceDefinition Include="Screens\SinglePhotoViewController.xib" />
     <InterfaceDefinition Include="Screens\JokesViewController.xib" />
     <InterfaceDefinition Include="Screens\PhotosViewController.xib" />
-    <InterfaceDefinition Include="Screens\Settings.xib" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="mbprogresshud">

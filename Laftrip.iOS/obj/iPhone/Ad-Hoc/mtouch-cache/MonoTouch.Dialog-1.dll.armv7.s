@@ -1111,6 +1111,16 @@ bl _p_37
 Lme_27:
 .text
 	.align 2
+	.no_dead_strip _MonoTouch_Dialog_StringElement__ctor_string
+_MonoTouch_Dialog_StringElement__ctor_string:
+.loc 1 652 0
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
+	.byte 12,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
+
+Lme_28:
+.text
+	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StringElement__ctor_string_MonoTouch_Foundation_NSAction
 _MonoTouch_Dialog_StringElement__ctor_string_MonoTouch_Foundation_NSAction:
 .loc 1 661 0
@@ -1121,7 +1131,7 @@ bl _p_38
 
 	.byte 20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_28:
+Lme_29:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StringElement_add_Tapped_MonoTouch_Foundation_NSAction
@@ -1148,7 +1158,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_29:
+Lme_2a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StringElement_remove_Tapped_MonoTouch_Foundation_NSAction
@@ -1175,7 +1185,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_2a:
+Lme_2b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StringElement_GetCell_MonoTouch_UIKit_UITableView
@@ -1236,7 +1246,7 @@ bl _p_7
 
 	.byte 5,0,160,225,16,208,141,226,112,13,189,232,128,128,189,232
 
-Lme_2b:
+Lme_2c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StringElement_Summary
@@ -1246,7 +1256,7 @@ _MonoTouch_Dialog_StringElement_Summary:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,12,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_2c:
+Lme_2d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StringElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -1262,7 +1272,7 @@ _MonoTouch_Dialog_StringElement_Selected_MonoTouch_Dialog_DialogViewController_M
 
 	.byte 1,32,160,227,8,48,157,229,0,48,147,229,15,224,160,225,16,241,147,229,28,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_2d:
+Lme_2e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StringElement_Matches_string
@@ -1279,7 +1289,7 @@ bl _MonoTouch_Dialog_Element_Matches_string
 
 	.byte 255,80,0,226,0,0,0,234,1,80,160,227,5,0,160,225,12,208,141,226,96,1,189,232,128,128,189,232
 
-Lme_2e:
+Lme_2f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StringElement__cctor
@@ -1315,7 +1325,7 @@ bl _p_10
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 156
 	.byte 0,0,159,231,0,16,128,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_2f:
+Lme_30:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StyledStringElement_GetKey_int
@@ -1333,7 +1343,7 @@ bl _p_20
 
 	.byte 198,2,0,2
 
-Lme_30:
+Lme_31:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StyledStringElement_GetCell_MonoTouch_UIKit_UITableView
@@ -1370,7 +1380,7 @@ bl _p_44
 
 	.byte 10,0,160,225,8,208,141,226,96,5,189,232,128,128,189,232
 
-Lme_31:
+Lme_32:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StyledStringElement_PrepareCell_MonoTouch_UIKit_UITableViewCell
@@ -1494,7 +1504,7 @@ bl _p_48
 	.byte 12,0,141,229,2,0,0,234,44,0,150,229,16,0,144,229,12,0,141,229,8,0,157,229,12,16,157,229,8,32,157,229
 	.byte 0,32,146,229,15,224,160,225,16,241,146,229,16,208,141,226,112,13,189,232,128,128,189,232
 
-Lme_32:
+Lme_33:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StyledStringElement_ClearBackground_MonoTouch_UIKit_UITableViewCell
@@ -1513,7 +1523,7 @@ bl _p_15
 	.byte 0,16,160,225,8,32,157,229,2,0,160,225,0,32,146,229,15,224,160,225,240,240,146,229,16,208,141,226,0,5,189,232
 	.byte 128,128,189,232
 
-Lme_33:
+Lme_34:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_IColorizeBackground_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
@@ -1575,7 +1585,7 @@ bl _MonoTouch_Dialog_StyledStringElement_ClearBackground_MonoTouch_UIKit_UITable
 
 	.byte 20,208,141,226,112,5,189,232,128,128,189,232
 
-Lme_34:
+Lme_35:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_Utilities_IImageUpdated_UpdatedImage_System_Uri
@@ -1609,7 +1619,7 @@ bl _p_53
 	.byte 12,48,157,229,3,0,160,225,5,32,160,227,0,48,147,229,15,224,160,225,20,241,147,229,28,208,141,226,96,1,189,232
 	.byte 128,128,189,232
 
-Lme_35:
+Lme_36:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StyledStringElement_AccessoryTap
@@ -1624,7 +1634,7 @@ _MonoTouch_Dialog_StyledStringElement_AccessoryTap:
 
 	.byte 10,0,160,225,15,224,160,225,12,240,154,229,0,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_36:
+Lme_37:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_StyledStringElement__cctor
@@ -1684,7 +1694,7 @@ bl _p_10
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 168
 	.byte 0,0,159,231,0,16,128,229,68,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_37:
+Lme_38:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RadioElement_GetCell_MonoTouch_UIKit_UITableView
@@ -1737,7 +1747,7 @@ bl _p_20
 
 	.byte 203,2,0,2
 
-Lme_3a:
+Lme_3b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RadioElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -1799,7 +1809,17 @@ bl _p_20
 
 	.byte 203,2,0,2
 
-Lme_3b:
+Lme_3c:
+.text
+	.align 2
+	.no_dead_strip _MonoTouch_Dialog_CheckboxElement__ctor_string_bool
+_MonoTouch_Dialog_CheckboxElement__ctor_string_bool:
+.loc 1 1103 0
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,205,229,4,16,157,229
+	.byte 0,0,157,229,12,16,128,229,8,16,221,229,28,16,192,229,20,208,141,226,0,1,189,232,128,128,189,232
+
+Lme_3d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_CheckboxElement_ConfigCell_MonoTouch_UIKit_UITableViewCell
@@ -1813,7 +1833,7 @@ _MonoTouch_Dialog_CheckboxElement_ConfigCell_MonoTouch_UIKit_UITableViewCell:
 
 	.byte 12,208,141,226,96,1,189,232,128,128,189,232
 
-Lme_3c:
+Lme_3e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_CheckboxElement_GetCell_MonoTouch_UIKit_UITableView
@@ -1828,7 +1848,7 @@ bl _MonoTouch_Dialog_CheckboxElement_ConfigCell_MonoTouch_UIKit_UITableViewCell
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_3d:
+Lme_3f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_CheckboxElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -1851,7 +1871,7 @@ bl _MonoTouch_Dialog_StringElement_Selected_MonoTouch_Dialog_DialogViewControlle
 
 	.byte 12,208,141,226,80,1,189,232,128,128,189,232
 
-Lme_3e:
+Lme_40:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_ImageElement_get_CellKey
@@ -1862,7 +1882,7 @@ _MonoTouch_Dialog_ImageElement_get_CellKey:
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 200
 	.byte 0,0,159,231,0,0,144,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_3f:
+Lme_41:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_ImageElement_Scale_MonoTouch_UIKit_UIImage
@@ -1940,7 +1960,7 @@ bl _p_69
 
 	.byte 116,208,139,226,48,13,189,232,128,128,189,232
 
-Lme_40:
+Lme_42:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_ImageElement_GetCell_MonoTouch_UIKit_UITableView
@@ -2120,7 +2140,7 @@ bl _p_56
 
 	.byte 0,0,160,227,44,0,139,229,151,254,255,234
 
-Lme_41:
+Lme_43:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_ImageElement_Dispose_bool
@@ -2152,7 +2172,7 @@ bl _p_36
 
 	.byte 8,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_42:
+Lme_44:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_ImageElement_Picked_MonoTouch_UIKit_UIImage
@@ -2171,7 +2191,7 @@ bl _p_79
 	.byte 28,32,150,229,2,0,160,225,1,16,160,227,0,32,146,229,15,224,160,225,124,240,146,229,8,208,141,226,64,1,189,232
 	.byte 128,128,189,232
 
-Lme_43:
+Lme_45:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_ImageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -2264,7 +2284,7 @@ bl _p_31
 
 	.byte 28,80,132,229,56,208,139,226,112,13,189,232,128,128,189,232
 
-Lme_44:
+Lme_46:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_ImageElement__cctor
@@ -2300,7 +2320,7 @@ bl _p_10
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 200
 	.byte 0,0,159,231,0,16,128,229,56,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_45:
+Lme_47:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_ImageElement_MyDelegate__ctor_MonoTouch_Dialog_ImageElement_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -2322,7 +2342,7 @@ bl _p_85
 
 	.byte 32,0,132,229,16,208,141,226,16,1,189,232,128,128,189,232
 
-Lme_46:
+Lme_48:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_ImageElement_MyDelegate_FinishedPickingImage_MonoTouch_UIKit_UIImagePickerController_MonoTouch_UIKit_UIImage_MonoTouch_Foundation_NSDictionary
@@ -2343,7 +2363,7 @@ bl _p_52
 	.byte 16,16,157,229,20,48,157,229,3,0,160,225,5,32,160,227,0,48,147,229,15,224,160,225,20,241,147,229,24,208,141,226
 	.byte 64,1,189,232,128,128,189,232
 
-Lme_47:
+Lme_49:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_get_Value
@@ -2381,7 +2401,7 @@ bl _p_86
 
 	.byte 16,0,154,229,12,208,141,226,64,5,189,232,128,128,189,232
 
-Lme_48:
+Lme_4a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_set_Value_string
@@ -2397,7 +2417,7 @@ _MonoTouch_Dialog_EntryElement_set_Value_string:
 	.byte 20,32,150,229,2,0,160,225,0,16,157,229,0,32,146,229,15,224,160,225,68,241,146,229,8,208,141,226,64,1,189,232
 	.byte 128,128,189,232
 
-Lme_49:
+Lme_4b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_get_KeyboardType
@@ -2407,7 +2427,7 @@ _MonoTouch_Dialog_EntryElement_get_KeyboardType:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,52,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_4a:
+Lme_4c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_get_AutocapitalizationType
@@ -2417,7 +2437,7 @@ _MonoTouch_Dialog_EntryElement_get_AutocapitalizationType:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,64,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_4b:
+Lme_4d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_get_AutocorrectionType
@@ -2427,7 +2447,7 @@ _MonoTouch_Dialog_EntryElement_get_AutocorrectionType:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,68,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_4c:
+Lme_4e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_get_ClearButtonMode
@@ -2437,7 +2457,7 @@ _MonoTouch_Dialog_EntryElement_get_ClearButtonMode:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,72,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_4d:
+Lme_4f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_get_EntryStarted
@@ -2447,7 +2467,7 @@ _MonoTouch_Dialog_EntryElement_get_EntryStarted:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,36,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_4e:
+Lme_50:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_get_EntryEnded
@@ -2457,7 +2477,7 @@ _MonoTouch_Dialog_EntryElement_get_EntryEnded:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,40,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_4f:
+Lme_51:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement__ctor_string_string_string
@@ -2476,7 +2496,7 @@ bl _MonoTouch_Dialog_EntryElement_set_Value_string
 
 	.byte 24,0,132,229,16,208,141,226,16,1,189,232,128,128,189,232
 
-Lme_50:
+Lme_52:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_get_CellKey
@@ -2490,7 +2510,7 @@ _MonoTouch_Dialog_EntryElement_get_CellKey:
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 244
 	.byte 0,0,159,231,0,160,144,229,10,0,160,225,0,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_51:
+Lme_53:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_Summary
@@ -2502,7 +2522,7 @@ bl _p_87
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_52:
+Lme_54:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_ComputeEntryPosition_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell
@@ -2606,7 +2626,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_53:
+Lme_55:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_CreateTextField_System_Drawing_RectangleF
@@ -2652,7 +2672,7 @@ bl _p_87
 
 	.byte 6,0,160,225,0,32,150,229,15,224,160,225,40,241,146,229,6,0,160,225,32,208,139,226,112,13,189,232,128,128,189,232
 
-Lme_54:
+Lme_56:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_GetCell_MonoTouch_UIKit_UITableView
@@ -2851,7 +2871,7 @@ bl _p_20
 
 	.byte 203,2,0,2
 
-Lme_55:
+Lme_57:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_FetchValue
@@ -2885,7 +2905,7 @@ bl _MonoTouch_Dialog_EntryElement_set_Value_string
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,10,16,160,225,0,48,141,229,15,224,160,225,12,240,147,229,0,0,157,229
 	.byte 12,208,141,226,64,5,189,232,128,128,189,232
 
-Lme_56:
+Lme_58:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_Dispose_bool
@@ -2907,7 +2927,7 @@ bl _p_36
 
 	.byte 20,0,138,229,8,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_57:
+Lme_59:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -2920,7 +2940,7 @@ _MonoTouch_Dialog_EntryElement_Selected_MonoTouch_Dialog_DialogViewController_Mo
 
 	.byte 1,32,160,227,8,48,157,229,0,48,147,229,15,224,160,225,16,241,147,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_58:
+Lme_5a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_Matches_string
@@ -2942,7 +2962,7 @@ bl _MonoTouch_Dialog_Element_Matches_string
 
 	.byte 255,80,0,226,0,0,0,234,1,80,160,227,5,0,160,225,12,208,141,226,96,1,189,232,128,128,189,232
 
-Lme_59:
+Lme_5b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_BecomeFirstResponder_bool
@@ -2975,7 +2995,7 @@ bl _p_53
 
 	.byte 77,0,202,229,12,208,141,226,64,5,189,232,128,128,189,232
 
-Lme_5a:
+Lme_5c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement_ResignFirstResponder_bool
@@ -3005,7 +3025,7 @@ bl _p_53
 
 	.byte 20,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,92,240,145,229,12,208,141,226,64,5,189,232,128,128,189,232
 
-Lme_5b:
+Lme_5d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement__cctor
@@ -3064,7 +3084,7 @@ bl _p_10
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 244
 	.byte 0,0,159,231,0,16,128,229,36,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_5c:
+Lme_5e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__ctor
@@ -3073,7 +3093,7 @@ _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__ctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_5d:
+Lme_5f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__6_object_System_EventArgs
@@ -3086,7 +3106,7 @@ bl _p_97
 
 	.byte 20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_5e:
+Lme_60:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__7_object_System_EventArgs
@@ -3103,7 +3123,7 @@ bl _p_97
 	.byte 12,0,154,229,40,48,144,229,12,16,154,229,3,0,160,225,0,32,160,227,8,48,141,229,15,224,160,225,12,240,147,229
 	.byte 8,0,157,229,16,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_5f:
+Lme_61:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__8_MonoTouch_UIKit_UITextField
@@ -3205,7 +3225,7 @@ bl _p_4
 
 	.byte 1,0,160,227,128,208,139,226,112,13,189,232,128,128,189,232
 
-Lme_60:
+Lme_62:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__9_object_System_EventArgs
@@ -3288,7 +3308,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_61:
+Lme_63:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_GetCell_MonoTouch_UIKit_UITableView
@@ -3314,7 +3334,7 @@ bl _p_54
 
 	.byte 24,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_62:
+Lme_64:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_Dispose_bool
@@ -3348,7 +3368,7 @@ bl _p_36
 
 	.byte 28,0,138,229,8,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_63:
+Lme_65:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_GetDateWithKind_System_DateTime
@@ -3372,7 +3392,7 @@ bl _p_100
 
 	.byte 40,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_64:
+Lme_66:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_FormatDate_System_DateTime
@@ -3404,7 +3424,7 @@ bl _p_104
 
 	.byte 56,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_65:
+Lme_67:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_CreatePicker
@@ -3438,7 +3458,7 @@ bl _p_101
 
 	.byte 56,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_66:
+Lme_68:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_PickerFrameWithSize_System_Drawing_SizeF
@@ -3497,7 +3517,7 @@ bl _p_22
 	.byte 16,0,155,229,100,16,155,229,0,16,128,229,104,16,155,229,4,16,128,229,108,16,155,229,8,16,128,229,112,16,155,229
 	.byte 12,16,128,229,132,208,139,226,64,9,189,232,128,128,189,232
 
-Lme_67:
+Lme_69:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -3543,7 +3563,7 @@ bl _p_106
 	.byte 52,192,155,229,12,0,160,225,48,0,139,229,24,16,155,229,28,32,155,229,32,48,155,229,36,0,155,229,0,0,141,229
 	.byte 48,0,155,229,0,192,156,229,15,224,160,225,216,240,156,229,72,208,139,226,64,13,189,232,128,128,189,232
 
-Lme_68:
+Lme_6a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_MyViewController__ctor_MonoTouch_Dialog_DateTimeElement
@@ -3558,7 +3578,7 @@ bl _p_33
 
 	.byte 52,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_69:
+Lme_6b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_MyViewController_get_Autorotate
@@ -3568,7 +3588,7 @@ _MonoTouch_Dialog_DateTimeElement_MyViewController_get_Autorotate:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,56,0,208,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_6a:
+Lme_6c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_MyViewController_set_Autorotate_bool
@@ -3578,7 +3598,7 @@ _MonoTouch_Dialog_DateTimeElement_MyViewController_set_Autorotate_bool:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,205,229,4,16,221,229,0,0,157,229
 	.byte 56,16,192,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_6b:
+Lme_6d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_MyViewController_ViewWillDisappear_bool
@@ -3602,7 +3622,7 @@ bl _p_108
 	.byte 52,0,154,229,32,32,144,229,52,16,154,229,2,0,160,225,16,32,141,229,15,224,160,225,12,240,146,229,16,0,157,229
 	.byte 24,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_6c:
+Lme_6e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_MyViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
@@ -3623,7 +3643,7 @@ bl _p_106
 	.byte 52,192,155,229,12,0,160,225,48,0,139,229,24,16,155,229,28,32,155,229,32,48,155,229,36,0,155,229,0,0,141,229
 	.byte 48,0,155,229,0,192,156,229,15,224,160,225,216,240,156,229,60,208,139,226,64,9,189,232,128,128,189,232
 
-Lme_6d:
+Lme_6f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DateTimeElement_MyViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
@@ -3633,7 +3653,7 @@ _MonoTouch_Dialog_DateTimeElement_MyViewController_ShouldAutorotateToInterfaceOr
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,0,0,157,229,56,0,208,229
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_6e:
+Lme_70:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section__ctor_string
@@ -3652,7 +3672,7 @@ bl _p_17
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_6f:
+Lme_71:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section__ctor_string_string
@@ -3672,7 +3692,7 @@ bl _p_17
 
 	.byte 8,208,141,226,32,1,189,232,128,128,189,232
 
-Lme_70:
+Lme_72:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_get_Header
@@ -3684,7 +3704,7 @@ _MonoTouch_Dialog_Section_get_Header:
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 344
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,96,160,227,6,0,160,225,4,208,141,226,64,5,189,232,128,128,189,232
 
-Lme_71:
+Lme_73:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_get_Footer
@@ -3696,7 +3716,7 @@ _MonoTouch_Dialog_Section_get_Footer:
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 344
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,96,160,227,6,0,160,225,4,208,141,226,64,5,189,232,128,128,189,232
 
-Lme_72:
+Lme_74:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_set_Footer_string
@@ -3706,7 +3726,7 @@ _MonoTouch_Dialog_Section_set_Footer_string:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 20,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_73:
+Lme_75:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_get_HeaderView
@@ -3718,7 +3738,7 @@ _MonoTouch_Dialog_Section_get_HeaderView:
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 348
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,96,160,227,6,0,160,225,4,208,141,226,64,5,189,232,128,128,189,232
 
-Lme_74:
+Lme_76:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_set_HeaderView_MonoTouch_UIKit_UIView
@@ -3728,7 +3748,7 @@ _MonoTouch_Dialog_Section_set_HeaderView_MonoTouch_UIKit_UIView:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 16,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_75:
+Lme_77:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_get_FooterView
@@ -3740,7 +3760,7 @@ _MonoTouch_Dialog_Section_get_FooterView:
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 348
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,96,160,227,6,0,160,225,4,208,141,226,64,5,189,232,128,128,189,232
 
-Lme_76:
+Lme_78:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_set_FooterView_MonoTouch_UIKit_UIView
@@ -3750,7 +3770,7 @@ _MonoTouch_Dialog_Section_set_FooterView_MonoTouch_UIKit_UIView:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 20,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_77:
+Lme_79:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_Add_MonoTouch_Dialog_Element
@@ -3775,7 +3795,7 @@ bl _p_111
 
 	.byte 4,208,141,226,64,5,189,232,128,128,189,232
 
-Lme_78:
+Lme_7a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_InsertVisual_int_MonoTouch_UIKit_UITableViewRowAnimation_int
@@ -3819,7 +3839,7 @@ bl _p_3
 	.byte 24,48,144,229,3,0,160,225,11,16,160,225,16,32,157,229,0,48,147,229,15,224,160,225,24,241,147,229,28,208,141,226
 	.byte 96,13,189,232,128,128,189,232
 
-Lme_79:
+Lme_7b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_GetEnumerator
@@ -3833,7 +3853,7 @@ bl _p_17
 
 	.byte 0,16,157,229,28,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_7a:
+Lme_7c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_Clear
@@ -3887,7 +3907,7 @@ bl _p_17
 
 	.byte 24,16,149,229,1,0,160,225,0,16,145,229,15,224,160,225,40,241,145,229,56,208,139,226,112,13,189,232,128,128,189,232
 
-Lme_7b:
+Lme_7d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_Dispose_bool
@@ -3912,7 +3932,7 @@ bl _p_113
 
 	.byte 8,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_7c:
+Lme_7e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section_GetCell_MonoTouch_UIKit_UITableView
@@ -3939,7 +3959,7 @@ bl _p_43
 
 	.byte 28,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_7d:
+Lme_7f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_Generic_IEnumerator_object_get_Current
@@ -3949,7 +3969,7 @@ _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_Generic_
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,32,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_7e:
+Lme_80:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_IEnumerator_get_Current
@@ -3959,7 +3979,7 @@ _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_IEnumera
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,32,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_7f:
+Lme_81:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0__ctor
@@ -3968,7 +3988,7 @@ _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0__ctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_80:
+Lme_82:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_MoveNext
@@ -4013,7 +4033,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_81:
+Lme_83:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_Dispose
@@ -4033,7 +4053,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_82:
+Lme_84:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_Reset
@@ -4046,7 +4066,7 @@ bl _p_56
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_83:
+Lme_85:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RadioGroup_get_Selected
@@ -4056,7 +4076,7 @@ _MonoTouch_Dialog_RadioGroup_get_Selected:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,8,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_84:
+Lme_86:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RadioGroup_set_Selected_int
@@ -4066,7 +4086,7 @@ _MonoTouch_Dialog_RadioGroup_set_Selected_int:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 8,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_85:
+Lme_87:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__ctor_string
@@ -4095,7 +4115,7 @@ bl _p_17
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 376
 	.byte 1,16,159,231,0,16,145,229,8,16,128,229,28,0,134,229,8,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_86:
+Lme_88:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_get_RadioSelected
@@ -4116,7 +4136,7 @@ _MonoTouch_Dialog_RootElement_get_RadioSelected:
 
 	.byte 0,0,224,227,0,208,141,226,96,5,189,232,128,128,189,232
 
-Lme_87:
+Lme_89:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_set_RadioSelected_int
@@ -4134,7 +4154,7 @@ _MonoTouch_Dialog_RootElement_set_RadioSelected_int:
 
 	.byte 5,0,160,225,0,16,157,229,0,32,149,229,15,224,160,225,48,240,146,229,8,208,141,226,112,1,189,232,128,128,189,232
 
-Lme_88:
+Lme_8a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_PathForRadio_int
@@ -4230,7 +4250,7 @@ bl _p_20
 
 	.byte 198,2,0,2
 
-Lme_89:
+Lme_8b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_IndexOf_MonoTouch_Dialog_Section
@@ -4268,7 +4288,7 @@ bl _p_4
 
 	.byte 0,0,224,227,0,0,0,234,16,0,155,229,60,208,139,226,48,13,189,232,128,128,189,232
 
-Lme_8a:
+Lme_8c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_Prepare
@@ -4351,7 +4371,7 @@ bl _p_4
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 20
 	.byte 1,16,159,231,88,0,139,229,0,224,208,229,108,192,155,229,12,240,160,225,144,208,139,226,112,13,189,232,128,128,189,232
 
-Lme_8b:
+Lme_8d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_Add_MonoTouch_Dialog_Section
@@ -4378,7 +4398,7 @@ bl _MonoTouch_Dialog_RootElement_MakeIndexSet_int_int
 	.byte 0,16,160,225,0,48,157,229,3,0,160,225,5,32,160,227,0,48,147,229,15,224,160,225,28,241,147,229,12,208,141,226
 	.byte 64,5,189,232,128,128,189,232
 
-Lme_8c:
+Lme_8e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_MakeIndexSet_int_int
@@ -4395,7 +4415,7 @@ bl _p_116
 
 	.byte 36,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_8d:
+Lme_8f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_Clear
@@ -4440,7 +4460,7 @@ bl _p_17
 
 	.byte 24,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,40,241,145,229,48,208,139,226,64,13,189,232,128,128,189,232
 
-Lme_8e:
+Lme_90:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_Dispose_bool
@@ -4465,7 +4485,7 @@ bl _p_117
 
 	.byte 28,0,138,229,8,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_8f:
+Lme_91:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_System_Collections_IEnumerable_GetEnumerator
@@ -4479,7 +4499,7 @@ bl _p_17
 
 	.byte 0,16,157,229,28,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_90:
+Lme_92:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumerator
@@ -4493,7 +4513,7 @@ bl _p_17
 
 	.byte 0,16,157,229,28,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_91:
+Lme_93:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_GetCell_MonoTouch_UIKit_UITableView
@@ -4731,7 +4751,7 @@ bl _p_56
 
 	.byte 0,0,160,227,212,0,139,229,206,255,255,234
 
-Lme_92:
+Lme_94:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_PrepareDialogViewController_MonoTouch_UIKit_UIViewController
@@ -4741,7 +4761,7 @@ _MonoTouch_Dialog_RootElement_PrepareDialogViewController_MonoTouch_UIKit_UIView
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,12,208,141,226,0,1,189,232
 	.byte 128,128,189,232
 
-Lme_93:
+Lme_95:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_MakeViewController
@@ -4767,7 +4787,7 @@ bl _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement_boo
 
 	.byte 6,0,160,225,12,208,141,226,64,5,189,232,128,128,189,232
 
-Lme_94:
+Lme_96:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -4789,7 +4809,7 @@ bl _p_31
 
 	.byte 20,208,141,226,48,1,189,232,128,128,189,232
 
-Lme_95:
+Lme_97:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__cctor
@@ -4825,7 +4845,7 @@ bl _p_10
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 408
 	.byte 0,0,159,231,0,16,128,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_96:
+Lme_98:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_Generic_IEnumerator_object_get_Current
@@ -4835,7 +4855,7 @@ _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__It
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,32,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_97:
+Lme_99:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_IEnumerator_get_Current
@@ -4845,7 +4865,7 @@ _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__It
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,32,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_98:
+Lme_9a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1__ctor
@@ -4854,7 +4874,7 @@ _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__It
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_99:
+Lme_9b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_MoveNext
@@ -4899,7 +4919,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_9a:
+Lme_9c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Dispose
@@ -4919,7 +4939,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_9b:
+Lme_9d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Reset
@@ -4932,7 +4952,7 @@ bl _p_56
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_9c:
+Lme_9e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_Generic_IEnumerator_MonoTouch_Dialog_Section_get_Current
@@ -4942,7 +4962,7 @@ _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,32,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_9d:
+Lme_9f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_IEnumerator_get_Current
@@ -4952,7 +4972,7 @@ _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,32,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_9e:
+Lme_a0:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2__ctor
@@ -4961,7 +4981,7 @@ _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_9f:
+Lme_a1:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_MoveNext
@@ -5006,7 +5026,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_a0:
+Lme_a2:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Dispose
@@ -5026,7 +5046,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_a1:
+Lme_a3:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Reset
@@ -5039,7 +5059,7 @@ bl _p_56
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_a2:
+Lme_a4:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_add_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
@@ -5068,7 +5088,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_a3:
+Lme_a5:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_remove_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
@@ -5097,7 +5117,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_a4:
+Lme_a6:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_get_Root
@@ -5108,7 +5128,7 @@ _MonoTouch_Dialog_DialogViewController_get_Root:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,72,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_a5:
+Lme_a7:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_set_Root_MonoTouch_Dialog_RootElement
@@ -5139,7 +5159,7 @@ bl _MonoTouch_Dialog_DialogViewController_ReloadData
 
 	.byte 8,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_a6:
+Lme_a8:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_add_RefreshRequested_System_EventHandler
@@ -5173,7 +5193,7 @@ bl _p_20
 
 	.byte 203,2,0,2
 
-Lme_a7:
+Lme_a9:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_remove_RefreshRequested_System_EventHandler
@@ -5193,7 +5213,7 @@ bl _p_20
 
 	.byte 203,2,0,2
 
-Lme_a8:
+Lme_aa:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_get_EnableSearch
@@ -5203,7 +5223,7 @@ _MonoTouch_Dialog_DialogViewController_get_EnableSearch:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,111,0,208,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_a9:
+Lme_ab:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_set_EnableSearch_bool
@@ -5229,7 +5249,7 @@ bl _p_55
 bl _mono_create_corlib_exception_1
 bl _p_56
 
-Lme_aa:
+Lme_ac:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_get_AutoHideSearch
@@ -5239,7 +5259,7 @@ _MonoTouch_Dialog_DialogViewController_get_AutoHideSearch:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,112,0,208,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_ab:
+Lme_ad:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_set_AutoHideSearch_bool
@@ -5249,7 +5269,7 @@ _MonoTouch_Dialog_DialogViewController_set_AutoHideSearch_bool:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,205,229,4,16,221,229,0,0,157,229
 	.byte 112,16,192,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_ac:
+Lme_ae:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_get_SearchPlaceholder
@@ -5259,7 +5279,7 @@ _MonoTouch_Dialog_DialogViewController_get_SearchPlaceholder:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,80,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_ad:
+Lme_af:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_set_SearchPlaceholder_string
@@ -5269,7 +5289,7 @@ _MonoTouch_Dialog_DialogViewController_set_SearchPlaceholder_string:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 80,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_ae:
+Lme_b0:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_get_Autorotate
@@ -5279,7 +5299,7 @@ _MonoTouch_Dialog_DialogViewController_get_Autorotate:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,113,0,208,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_af:
+Lme_b1:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_set_Autorotate_bool
@@ -5289,7 +5309,7 @@ _MonoTouch_Dialog_DialogViewController_set_Autorotate_bool:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,205,229,4,16,221,229,0,0,157,229
 	.byte 113,16,192,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_b0:
+Lme_b2:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_add_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
@@ -5316,7 +5336,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_b1:
+Lme_b3:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_remove_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
@@ -5343,7 +5363,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_b2:
+Lme_b4:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_get_Pushing
@@ -5353,7 +5373,7 @@ _MonoTouch_Dialog_DialogViewController_get_Pushing:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,108,0,208,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_b3:
+Lme_b5:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_set_Pushing_bool
@@ -5369,7 +5389,7 @@ _MonoTouch_Dialog_DialogViewController_set_Pushing_bool:
 	.byte 10,0,160,225,0,16,154,229,15,224,160,225,168,240,145,229,0,32,160,225,108,0,218,229,0,0,80,227,0,16,160,19
 	.byte 1,16,160,3,2,0,160,225,0,32,146,229,15,224,160,225,108,240,146,229,8,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_b4:
+Lme_b6:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_add_ViewDisappearing_System_EventHandler
@@ -5396,7 +5416,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_b5:
+Lme_b7:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_remove_ViewDisappearing_System_EventHandler
@@ -5423,7 +5443,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_b6:
+Lme_b8:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_add_ViewDissapearing_System_EventHandler
@@ -5435,7 +5455,7 @@ bl _p_123
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_b7:
+Lme_b9:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_remove_ViewDissapearing_System_EventHandler
@@ -5447,7 +5467,7 @@ bl _p_124
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_b8:
+Lme_ba:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement
@@ -5465,7 +5485,7 @@ bl _p_125
 
 	.byte 72,0,134,229,8,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_b9:
+Lme_bb:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement
@@ -5487,7 +5507,7 @@ bl _p_125
 
 	.byte 72,0,133,229,8,208,141,226,32,1,189,232,128,128,189,232
 
-Lme_ba:
+Lme_bc:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement_bool
@@ -5509,7 +5529,7 @@ bl _p_125
 
 	.byte 72,0,134,229,8,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_bb:
+Lme_bd:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement_bool
@@ -5534,7 +5554,7 @@ bl _p_125
 
 	.byte 72,0,133,229,16,208,141,226,32,1,189,232,128,128,189,232
 
-Lme_bc:
+Lme_be:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController__ctor_intptr
@@ -5558,7 +5578,7 @@ bl _p_127
 
 	.byte 8,0,157,229,72,0,134,229,16,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_bd:
+Lme_bf:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_TriggerRefresh
@@ -5570,7 +5590,7 @@ bl _p_128
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_be:
+Lme_c0:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_TriggerRefresh_bool
@@ -5629,7 +5649,7 @@ bl _p_132
 
 	.byte 68,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_bf:
+Lme_c1:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_ReloadComplete
@@ -5693,7 +5713,7 @@ bl _p_132
 
 	.byte 68,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_c0:
+Lme_c2:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
@@ -5704,7 +5724,7 @@ _MonoTouch_Dialog_DialogViewController_ShouldAutorotateToInterfaceOrientation_Mo
 	.byte 4,0,0,26,0,0,157,229,1,0,80,227,0,96,160,19,1,96,160,3,0,0,0,234,1,96,160,227,6,0,160,225
 	.byte 8,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_c1:
+Lme_c3:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
@@ -5742,7 +5762,7 @@ bl _MonoTouch_Dialog_DialogViewController_ReloadData
 
 	.byte 92,208,139,226,64,9,189,232,128,128,189,232
 
-Lme_c2:
+Lme_c4:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_StartSearch
@@ -5783,7 +5803,7 @@ bl _p_20
 
 	.byte 198,2,0,2
 
-Lme_c3:
+Lme_c5:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_FinishSearch
@@ -5819,7 +5839,7 @@ bl _MonoTouch_Dialog_DialogViewController_ReloadData
 
 	.byte 16,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_c4:
+Lme_c6:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_OnSearchTextChanged_string
@@ -5838,7 +5858,7 @@ bl _p_17
 	.byte 0,32,160,225,12,48,157,229,0,0,157,229,8,0,130,229,3,0,160,225,6,16,160,225,8,48,141,229,15,224,160,225
 	.byte 12,240,147,229,8,0,157,229,16,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_c5:
+Lme_c7:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_PerformFilter_string
@@ -5942,7 +5962,7 @@ bl _p_20
 
 	.byte 198,2,0,2
 
-Lme_c6:
+Lme_c8:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_SearchButtonClicked_string
@@ -5952,7 +5972,7 @@ _MonoTouch_Dialog_DialogViewController_SearchButtonClicked_string:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,12,208,141,226,0,1,189,232
 	.byte 128,128,189,232
 
-Lme_c7:
+Lme_c9:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_ActivateController_MonoTouch_UIKit_UIViewController
@@ -5983,7 +6003,7 @@ _MonoTouch_Dialog_DialogViewController_ActivateController_MonoTouch_UIKit_UIView
 	.byte 6,0,160,225,10,16,160,225,1,32,160,227,0,48,150,229,15,224,160,225,128,240,147,229,0,208,141,226,112,13,189,232
 	.byte 128,128,189,232
 
-Lme_c8:
+Lme_ca:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_DeactivateController_bool
@@ -6008,7 +6028,7 @@ _MonoTouch_Dialog_DialogViewController_DeactivateController_bool:
 
 	.byte 10,0,160,225,0,16,221,229,0,32,154,229,15,224,160,225,124,240,146,229,12,208,141,226,112,5,189,232,128,128,189,232
 
-Lme_c9:
+Lme_cb:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_SetupSearch
@@ -6063,7 +6083,7 @@ bl _p_140
 	.byte 64,32,154,229,60,16,154,229,2,0,160,225,0,32,146,229,15,224,160,225,44,241,146,229,104,208,139,226,64,13,189,232
 	.byte 128,128,189,232
 
-Lme_ca:
+Lme_cc:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Deselected_MonoTouch_Foundation_NSIndexPath
@@ -6098,7 +6118,7 @@ bl _p_56
 
 	.byte 0,0,160,227,12,0,141,229,215,255,255,234
 
-Lme_cb:
+Lme_cd:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Selected_MonoTouch_Foundation_NSIndexPath
@@ -6133,7 +6153,7 @@ bl _p_56
 
 	.byte 0,0,160,227,12,0,141,229,215,255,255,234
 
-Lme_cc:
+Lme_ce:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_MakeTableView_System_Drawing_RectangleF_MonoTouch_UIKit_UITableViewStyle
@@ -6151,7 +6171,7 @@ bl _p_141
 
 	.byte 32,0,155,229,40,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_cd:
+Lme_cf:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_LoadView
@@ -6199,7 +6219,7 @@ bl _MonoTouch_Dialog_DialogViewController_ConfigureTableView
 
 	.byte 72,0,154,229,64,16,154,229,24,16,128,229,36,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_ce:
+Lme_d0:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_ConfigureTableView
@@ -6238,7 +6258,7 @@ bl _MonoTouch_Dialog_RefreshTableHeaderView_SetActivity_bool
 	.byte 10,0,160,225,0,16,154,229,15,224,160,225,200,240,145,229,0,32,160,225,68,16,154,229,2,0,160,225,0,32,146,229
 	.byte 15,224,160,225,160,240,146,229,84,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_cf:
+Lme_d1:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_MakeRefreshTableHeaderView_System_Drawing_RectangleF
@@ -6256,7 +6276,7 @@ bl _p_144
 
 	.byte 32,0,155,229,40,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_d0:
+Lme_d2:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_ViewWillAppear_bool
@@ -6315,7 +6335,7 @@ bl _p_142
 
 	.byte 109,0,202,229,48,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_d1:
+Lme_d3:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_CreateSizingSource_bool
@@ -6341,7 +6361,7 @@ bl _MonoTouch_Dialog_DialogViewController_Source__ctor_MonoTouch_Dialog_DialogVi
 
 	.byte 8,0,157,229,0,96,160,225,6,0,160,225,16,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_d2:
+Lme_d4:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_UpdateSource
@@ -6359,7 +6379,7 @@ bl _p_146
 
 	.byte 0,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_d3:
+Lme_d5:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_ReloadData
@@ -6392,7 +6412,7 @@ bl _MonoTouch_Dialog_DialogViewController_UpdateSource
 
 	.byte 109,0,202,229,0,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_d4:
+Lme_d6:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_ViewWillDisappear_bool
@@ -6411,7 +6431,7 @@ bl _p_107
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,10,16,160,225,8,48,141,229,15,224,160,225,12,240,147,229,8,0,157,229
 	.byte 16,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_d5:
+Lme_d7:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_SearchDelegate__ctor_MonoTouch_Dialog_DialogViewController
@@ -6426,7 +6446,7 @@ bl _p_147
 
 	.byte 24,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_da:
+Lme_dc:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStarted_MonoTouch_UIKit_UISearchBar
@@ -6442,7 +6462,7 @@ bl _p_148
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_db:
+Lme_dd:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStopped_MonoTouch_UIKit_UISearchBar
@@ -6455,7 +6475,7 @@ _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStopped_MonoTouch
 
 	.byte 24,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,232,240,145,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_dc:
+Lme_de:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_SearchDelegate_TextChanged_MonoTouch_UIKit_UISearchBar_string
@@ -6470,7 +6490,7 @@ bl _p_149
 
 	.byte 12,208,141,226,96,1,189,232,128,128,189,232
 
-Lme_dd:
+Lme_df:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_SearchDelegate_CancelButtonClicked_MonoTouch_UIKit_UISearchBar
@@ -6491,7 +6511,7 @@ _MonoTouch_Dialog_DialogViewController_SearchDelegate_CancelButtonClicked_MonoTo
 
 	.byte 10,0,160,225,0,16,154,229,15,224,160,225,92,240,145,229,8,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_de:
+Lme_e0:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_SearchDelegate_SearchButtonClicked_MonoTouch_UIKit_UISearchBar
@@ -6502,7 +6522,7 @@ _MonoTouch_Dialog_DialogViewController_SearchDelegate_SearchButtonClicked_MonoTo
 	.byte 8,0,141,229,4,0,157,229,0,16,160,225,0,16,145,229,15,224,160,225,4,241,145,229,0,16,160,225,8,32,157,229
 	.byte 2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_df:
+Lme_e1:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source__ctor_MonoTouch_Dialog_DialogViewController
@@ -6520,7 +6540,7 @@ bl _p_150
 
 	.byte 72,0,144,229,28,0,134,229,8,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_e0:
+Lme_e2:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_AccessoryButtonTapped_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -6563,7 +6583,7 @@ bl _p_56
 
 	.byte 0,160,160,227,203,255,255,234
 
-Lme_e1:
+Lme_e3:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_RowsInSection_MonoTouch_UIKit_UITableView_int
@@ -6587,7 +6607,7 @@ bl _p_56
 
 	.byte 0,176,160,227,232,255,255,234
 
-Lme_e2:
+Lme_e4:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_NumberOfSections_MonoTouch_UIKit_UITableView
@@ -6597,7 +6617,7 @@ _MonoTouch_Dialog_DialogViewController_Source_NumberOfSections_MonoTouch_UIKit_U
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,0,0,157,229,28,0,144,229
 	.byte 28,0,144,229,0,16,160,225,0,224,209,229,12,0,144,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_e3:
+Lme_e5:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_TitleForHeader_MonoTouch_UIKit_UITableView_int
@@ -6615,7 +6635,7 @@ bl _p_56
 
 	.byte 0,80,160,227,237,255,255,234
 
-Lme_e4:
+Lme_e6:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_TitleForFooter_MonoTouch_UIKit_UITableView_int
@@ -6637,7 +6657,7 @@ bl _p_56
 
 	.byte 0,80,160,227,221,255,255,234
 
-Lme_e5:
+Lme_e7:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -6672,7 +6692,7 @@ bl _p_56
 
 	.byte 0,160,160,227,221,255,255,234
 
-Lme_e6:
+Lme_e8:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
@@ -6725,7 +6745,7 @@ bl _p_56
 
 	.byte 0,0,160,227,16,0,141,229,161,255,255,234
 
-Lme_e7:
+Lme_e9:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_RowDeselected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -6736,7 +6756,7 @@ _MonoTouch_Dialog_DialogViewController_Source_RowDeselected_MonoTouch_UIKit_UITa
 	.byte 24,32,144,229,2,0,160,225,8,16,157,229,0,32,146,229,15,224,160,225,220,240,146,229,20,208,141,226,0,1,189,232
 	.byte 128,128,189,232
 
-Lme_e8:
+Lme_ea:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -6756,7 +6776,7 @@ _MonoTouch_Dialog_DialogViewController_Source_RowSelected_MonoTouch_UIKit_UITabl
 	.byte 24,32,144,229,2,0,160,225,8,16,157,229,0,32,146,229,15,224,160,225,216,240,146,229,16,208,141,226,32,1,189,232
 	.byte 128,128,189,232
 
-Lme_e9:
+Lme_eb:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_GetViewForHeader_MonoTouch_UIKit_UITableView_int
@@ -6780,7 +6800,7 @@ bl _p_56
 
 	.byte 0,64,160,227,220,255,255,234
 
-Lme_ea:
+Lme_ec:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_GetHeightForHeader_MonoTouch_UIKit_UITableView_int
@@ -6817,7 +6837,7 @@ bl _p_56
 
 	.byte 0,64,160,227,181,255,255,234
 
-Lme_eb:
+Lme_ed:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_GetViewForFooter_MonoTouch_UIKit_UITableView_int
@@ -6841,7 +6861,7 @@ bl _p_56
 
 	.byte 0,64,160,227,220,255,255,234
 
-Lme_ec:
+Lme_ee:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_GetHeightForFooter_MonoTouch_UIKit_UITableView_int
@@ -6878,7 +6898,7 @@ bl _p_56
 
 	.byte 0,64,160,227,181,255,255,234
 
-Lme_ed:
+Lme_ef:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_Scrolled_MonoTouch_UIKit_UIScrollView
@@ -6926,7 +6946,7 @@ bl _MonoTouch_Dialog_RefreshTableHeaderView_Flip_bool
 
 	.byte 6,0,160,225,0,16,160,227,0,32,150,229,15,224,160,225,248,240,146,229,28,208,141,226,64,5,189,232,128,128,189,232
 
-Lme_ee:
+Lme_f0:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_DraggingStarted_MonoTouch_UIKit_UIScrollView
@@ -6936,7 +6956,7 @@ _MonoTouch_Dialog_DialogViewController_Source_DraggingStarted_MonoTouch_UIKit_UI
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,0,0,157,229,1,16,160,227
 	.byte 32,16,192,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_ef:
+Lme_f1:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_Source_DraggingEnded_MonoTouch_UIKit_UIScrollView_bool
@@ -6961,7 +6981,7 @@ bl _p_128
 
 	.byte 24,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_f0:
+Lme_f2:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_SizingSource__ctor_MonoTouch_Dialog_DialogViewController
@@ -6973,7 +6993,7 @@ bl _MonoTouch_Dialog_DialogViewController_Source__ctor_MonoTouch_Dialog_DialogVi
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_f1:
+Lme_f3:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_DialogViewController_SizingSource_GetHeightForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -7027,7 +7047,7 @@ bl _p_56
 
 	.byte 0,0,160,227,12,0,141,229,154,255,255,234
 
-Lme_f2:
+Lme_f4:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_GraphicsUtil_MakeRoundedRectPath_System_Drawing_RectangleF_single
@@ -7124,7 +7144,7 @@ bl _p_154
 
 	.byte 200,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_f3:
+Lme_f5:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_GraphicsUtil_FillRoundedRect_MonoTouch_CoreGraphics_CGContext_System_Drawing_RectangleF_single
@@ -7145,7 +7165,7 @@ bl _p_157
 
 	.byte 36,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_f4:
+Lme_f6:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader__cctor
@@ -7254,7 +7274,7 @@ bl _p_17
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 604
 	.byte 0,0,159,231,0,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_f6:
+Lme_f8:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader__ctor_int_int
@@ -7287,7 +7307,7 @@ bl _p_164
 
 	.byte 0,0,157,229,8,0,133,229,8,208,141,226,96,5,189,232,128,128,189,232
 
-Lme_f7:
+Lme_f9:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader_sizer_MonoTouch_UIKit_UIImage
@@ -7306,7 +7326,7 @@ bl _p_64
 
 	.byte 0,16,160,225,8,0,157,229,145,0,0,224,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_f8:
+Lme_fa:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader_hex_int
@@ -7321,7 +7341,7 @@ _MonoTouch_Dialog_Utilities_ImageLoader_hex_int:
 
 	.byte 0,0,74,224,0,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_f9:
+Lme_fb:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader_md5_string
@@ -7378,7 +7398,7 @@ bl _p_20
 
 	.byte 198,2,0,2
 
-Lme_fa:
+Lme_fc:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader_DefaultRequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
@@ -7415,7 +7435,7 @@ bl _p_172
 
 	.byte 20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_fb:
+Lme_fd:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader_RequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
@@ -7548,7 +7568,7 @@ bl _p_188
 
 	.byte 0,0,160,227,0,0,0,234,8,0,155,229,72,208,139,226,112,13,189,232,128,128,189,232
 
-Lme_fc:
+Lme_fe:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader_QueueRequest_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
@@ -7662,7 +7682,7 @@ bl _p_20
 
 	.byte 113,2,0,2
 
-Lme_fd:
+Lme_ff:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader_Download_System_Uri
@@ -7738,7 +7758,7 @@ bl _p_56
 
 	.byte 255,255,255,234,36,0,219,229,255,255,255,234,96,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_fe:
+Lme_100:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader_StartPicDownload_System_Uri
@@ -7781,7 +7801,7 @@ bl _p_202
 
 	.byte 36,16,139,229,32,0,139,229,48,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_ff:
+Lme_101:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader__StartPicDownload_System_Uri
@@ -7913,7 +7933,7 @@ bl _p_46
 
 	.byte 0,0,80,227,87,255,255,26,32,208,139,226,64,13,189,232,128,128,189,232
 
-Lme_100:
+Lme_102:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader_NotifyImageListeners
@@ -8012,7 +8032,7 @@ bl _p_175
 
 	.byte 164,192,155,229,12,240,160,225,176,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_101:
+Lme_103:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__ctor
@@ -8021,7 +8041,7 @@ _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__ctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_102:
+Lme_104:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__m__B_object
@@ -8043,7 +8063,7 @@ bl _p_56
 
 	.byte 255,255,255,234,32,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_103:
+Lme_105:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_LRUCache_2__ctor_int_int_System_Func_2_TValue_int
@@ -8103,7 +8123,7 @@ bl _p_55
 bl _mono_create_corlib_exception_1
 bl _p_56
 
-Lme_104:
+Lme_106:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_LRUCache_2_get_Item_TKey
@@ -8143,7 +8163,7 @@ bl _p_119
 
 	.byte 20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_105:
+Lme_107:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_LRUCache_2_set_Item_TKey_TValue
@@ -8279,7 +8299,7 @@ bl _p_233
 
 	.byte 32,16,144,229,5,16,129,224,32,16,128,229,28,208,141,226,96,13,189,232,128,128,189,232
 
-Lme_106:
+Lme_108:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_LRUCache_2_Evict
@@ -8335,7 +8355,7 @@ bl _p_224
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 216
 	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,24,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_107:
+Lme_109:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_LRUCache_2_ToString
@@ -8346,7 +8366,7 @@ _MonoTouch_Dialog_Utilities_LRUCache_2_ToString:
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 712
 	.byte 0,0,159,231,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_108:
+Lme_10a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_get_Sender
@@ -8357,7 +8377,7 @@ _MonoTouch_Dialog_MessageSummaryView_get_Sender:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,44,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_109:
+Lme_10b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_set_Sender_string
@@ -8367,7 +8387,7 @@ _MonoTouch_Dialog_MessageSummaryView_set_Sender_string:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 44,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_10a:
+Lme_10c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_get_Body
@@ -8377,7 +8397,7 @@ _MonoTouch_Dialog_MessageSummaryView_get_Body:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,48,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_10b:
+Lme_10d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_set_Body_string
@@ -8387,7 +8407,7 @@ _MonoTouch_Dialog_MessageSummaryView_set_Body_string:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 48,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_10c:
+Lme_10e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_get_Subject
@@ -8397,7 +8417,7 @@ _MonoTouch_Dialog_MessageSummaryView_get_Subject:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,52,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_10d:
+Lme_10f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_set_Subject_string
@@ -8407,7 +8427,7 @@ _MonoTouch_Dialog_MessageSummaryView_set_Subject_string:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 52,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_10e:
+Lme_110:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_get_Date
@@ -8418,7 +8438,7 @@ _MonoTouch_Dialog_MessageSummaryView_get_Date:
 	.byte 0,16,144,229,4,16,141,229,4,0,144,229,8,0,141,229,0,0,157,229,4,16,157,229,0,16,128,229,8,16,157,229
 	.byte 4,16,128,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_10f:
+Lme_111:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_set_Date_System_DateTime
@@ -8429,7 +8449,7 @@ _MonoTouch_Dialog_MessageSummaryView_set_Date_System_DateTime:
 	.byte 0,0,155,229,56,0,128,226,4,16,155,229,0,16,128,229,8,16,155,229,4,16,128,229,16,208,139,226,0,9,189,232
 	.byte 128,128,189,232
 
-Lme_110:
+Lme_112:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_get_NewFlag
@@ -8439,7 +8459,7 @@ _MonoTouch_Dialog_MessageSummaryView_get_NewFlag:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,64,0,208,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_111:
+Lme_113:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_set_NewFlag_bool
@@ -8449,7 +8469,7 @@ _MonoTouch_Dialog_MessageSummaryView_set_NewFlag_bool:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,205,229,4,16,221,229,0,0,157,229
 	.byte 64,16,192,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_112:
+Lme_114:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_get_MessageCount
@@ -8459,7 +8479,7 @@ _MonoTouch_Dialog_MessageSummaryView_get_MessageCount:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,68,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_113:
+Lme_115:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_set_MessageCount_int
@@ -8469,7 +8489,7 @@ _MonoTouch_Dialog_MessageSummaryView_set_MessageCount_int:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 68,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_114:
+Lme_116:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView__cctor
@@ -8538,7 +8558,7 @@ bl _p_240
 	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,20,192,155,229,12,240,160,225,40,208,139,226,0,9,189,232
 	.byte 128,128,189,232
 
-Lme_115:
+Lme_117:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView__ctor
@@ -8552,7 +8572,7 @@ bl _p_27
 
 	.byte 0,16,160,225,10,0,160,225,0,32,154,229,15,224,160,225,240,240,146,229,0,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_116:
+Lme_118:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_Update_string_string_string_System_DateTime_bool_int
@@ -8587,7 +8607,7 @@ bl _p_247
 
 	.byte 10,0,160,225,0,16,154,229,15,224,160,225,132,240,145,229,36,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_117:
+Lme_119:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageSummaryView_Draw_System_Drawing_RectangleF
@@ -8904,7 +8924,7 @@ bl _p_269
 
 	.byte 142,223,139,226,112,13,189,232,128,128,189,232
 
-Lme_118:
+Lme_11a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageElement_GetCell_MonoTouch_UIKit_UITableView
@@ -8942,7 +8962,7 @@ bl _MonoTouch_Dialog_MessageElement_MessageCell_Update_MonoTouch_Dialog_MessageE
 
 	.byte 5,0,160,225,16,208,141,226,48,5,189,232,128,128,189,232
 
-Lme_119:
+Lme_11b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -8952,7 +8972,7 @@ _MonoTouch_Dialog_MessageElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,0,42,159,237
 	.byte 0,0,0,234,0,0,156,66,194,42,183,238,194,11,183,238,16,10,16,238,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_11a:
+Lme_11c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -8966,7 +8986,7 @@ _MonoTouch_Dialog_MessageElement_Selected_MonoTouch_Dialog_DialogViewController_
 	.byte 28,192,144,229,12,0,160,225,4,16,157,229,8,32,157,229,12,48,157,229,16,192,141,229,15,224,160,225,12,240,156,229
 	.byte 16,0,157,229,28,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_11b:
+Lme_11d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageElement__cctor
@@ -8987,7 +9007,7 @@ bl _p_10
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 756
 	.byte 0,0,159,231,0,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_11c:
+Lme_11e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageElement_MessageCell__ctor
@@ -9018,7 +9038,7 @@ bl _p_19
 
 	.byte 10,0,160,225,1,16,160,227,0,32,154,229,15,224,160,225,248,240,146,229,8,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_11d:
+Lme_11f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageElement_MessageCell_Update_MonoTouch_Dialog_MessageElement
@@ -9034,7 +9054,7 @@ bl _p_273
 
 	.byte 52,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_11e:
+Lme_120:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_MessageElement_MessageCell_LayoutSubviews
@@ -9052,7 +9072,7 @@ bl _p_21
 
 	.byte 60,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,132,240,145,229,36,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_11f:
+Lme_121:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_get_CellReuseIdentifier
@@ -9063,7 +9083,7 @@ _MonoTouch_Dialog_OwnerDrawnElement_get_CellReuseIdentifier:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,16,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_120:
+Lme_122:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_get_Style
@@ -9073,7 +9093,7 @@ _MonoTouch_Dialog_OwnerDrawnElement_get_Style:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,20,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_121:
+Lme_123:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -9085,7 +9105,7 @@ _MonoTouch_Dialog_OwnerDrawnElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTo
 	.byte 12,32,155,229,16,48,155,229,20,192,155,229,0,192,141,229,24,192,155,229,0,192,156,229,15,224,160,225,84,240,156,229
 	.byte 16,10,2,238,194,42,183,238,194,11,183,238,16,10,16,238,40,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_122:
+Lme_124:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_GetCell_MonoTouch_UIKit_UITableView
@@ -9122,7 +9142,7 @@ bl _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_Update
 
 	.byte 5,0,160,225,20,208,141,226,112,5,189,232,128,128,189,232
 
-Lme_123:
+Lme_125:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell__ctor_MonoTouch_Dialog_OwnerDrawnElement_MonoTouch_UIKit_UITableViewCellStyle_string
@@ -9139,7 +9159,7 @@ bl _p_274
 
 	.byte 20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_126:
+Lme_128:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_get_Element
@@ -9149,7 +9169,7 @@ _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_get_Element:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,60,0,144,229,0,16,160,225
 	.byte 0,224,209,229,44,0,144,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_127:
+Lme_129:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_set_Element_MonoTouch_Dialog_OwnerDrawnElement
@@ -9179,7 +9199,7 @@ bl _p_19
 
 	.byte 60,0,150,229,0,224,208,229,0,16,157,229,44,16,128,229,16,208,141,226,64,1,189,232,128,128,189,232
 
-Lme_128:
+Lme_12a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_Update
@@ -9191,7 +9211,7 @@ _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_Update:
 
 	.byte 60,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,132,240,145,229,0,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_129:
+Lme_12b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_LayoutSubviews
@@ -9207,7 +9227,7 @@ bl _p_21
 	.byte 12,32,155,229,16,48,155,229,20,0,155,229,0,0,141,229,24,0,155,229,0,192,156,229,15,224,160,225,216,240,156,229
 	.byte 36,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_12a:
+Lme_12c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView__ctor_MonoTouch_Dialog_OwnerDrawnElement
@@ -9222,7 +9242,7 @@ bl _p_241
 
 	.byte 44,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_12b:
+Lme_12d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_get_Element
@@ -9232,7 +9252,7 @@ _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_get_Element:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,44,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_12c:
+Lme_12e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_set_Element_MonoTouch_Dialog_OwnerDrawnElement
@@ -9242,7 +9262,7 @@ _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_set_Element_MonoTouch_Dia
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 44,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_12d:
+Lme_12f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Update
@@ -9252,7 +9272,7 @@ _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Update:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,0,16,160,225,0,16,145,229
 	.byte 15,224,160,225,132,240,145,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_12e:
+Lme_130:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Draw_System_Drawing_RectangleF
@@ -9270,7 +9290,7 @@ bl _p_61
 	.byte 48,0,155,229,4,0,141,229,44,0,155,229,8,0,141,229,40,0,155,229,0,192,156,229,15,224,160,225,88,240,156,229
 	.byte 56,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_12f:
+Lme_131:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Util_FromResource_System_Reflection_Assembly_string
@@ -9363,7 +9383,7 @@ bl _p_55
 bl _mono_create_corlib_exception_1
 bl _p_56
 
-Lme_130:
+Lme_132:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RefreshTableHeaderView__ctor_System_Drawing_RectangleF
@@ -9397,7 +9417,7 @@ bl _p_283
 
 	.byte 10,0,160,225,0,16,154,229,15,224,160,225,252,240,145,229,76,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_131:
+Lme_133:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RefreshTableHeaderView_get_LastUpdate
@@ -9408,7 +9428,7 @@ _MonoTouch_Dialog_RefreshTableHeaderView_get_LastUpdate:
 	.byte 0,16,144,229,4,16,141,229,4,0,144,229,8,0,141,229,0,0,157,229,4,16,157,229,0,16,128,229,8,16,157,229
 	.byte 4,16,128,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_132:
+Lme_134:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RefreshTableHeaderView_set_LastUpdate_System_DateTime
@@ -9464,7 +9484,7 @@ bl _p_37
 	.byte 0,16,160,225,56,32,155,229,2,0,160,225,0,32,146,229,15,224,160,225,32,241,146,229,76,208,139,226,0,13,189,232
 	.byte 128,128,189,232
 
-Lme_133:
+Lme_135:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RefreshTableHeaderView_CreateViews
@@ -9650,7 +9670,7 @@ bl _p_34
 
 	.byte 0,16,160,225,10,0,160,225,0,32,154,229,15,224,160,225,160,240,146,229,97,223,139,226,0,13,189,232,128,128,189,232
 
-Lme_134:
+Lme_136:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RefreshTableHeaderView_LayoutSubviews
@@ -9718,7 +9738,7 @@ bl _p_22
 	.byte 180,0,139,229,12,0,160,225,184,0,139,229,168,16,155,229,172,32,155,229,176,48,155,229,180,0,155,229,0,0,141,229
 	.byte 184,0,155,229,0,192,156,229,15,224,160,225,216,240,156,229,220,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_135:
+Lme_137:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RefreshTableHeaderView_SetStatus_MonoTouch_Dialog_RefreshViewStatus
@@ -9762,7 +9782,7 @@ bl _p_11
 	.byte 52,32,144,229,2,0,160,225,5,16,160,225,0,32,146,229,15,224,160,225,32,241,146,229,12,208,141,226,32,5,189,232
 	.byte 128,128,189,232
 
-Lme_136:
+Lme_138:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RefreshTableHeaderView_Draw_System_Drawing_RectangleF
@@ -9810,7 +9830,7 @@ bl _p_291
 
 	.byte 148,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_137:
+Lme_139:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RefreshTableHeaderView_Flip_bool
@@ -9850,7 +9870,7 @@ bl _p_132
 
 	.byte 64,0,218,229,0,0,80,227,0,0,160,19,1,0,160,3,64,0,202,229,144,208,139,226,64,13,189,232,128,128,189,232
 
-Lme_138:
+Lme_13a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RefreshTableHeaderView_SetActivity_bool
@@ -9876,7 +9896,7 @@ _MonoTouch_Dialog_RefreshTableHeaderView_SetActivity_bool:
 	.byte 56,32,154,229,2,0,160,225,0,16,160,227,0,32,146,229,15,224,160,225,172,240,146,229,8,208,141,226,0,5,189,232
 	.byte 128,128,189,232
 
-Lme_139:
+Lme_13b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_RefreshTableHeaderView__cctor
@@ -9892,7 +9912,7 @@ bl _p_292
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 820
 	.byte 0,0,159,231,0,16,128,229,4,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_13a:
+Lme_13c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_SearchChangedEventArgs__ctor_string
@@ -9902,7 +9922,7 @@ _MonoTouch_Dialog_SearchChangedEventArgs__ctor_string:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 8,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_13b:
+Lme_13d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_SearchChangedEventArgs_set_Text_string
@@ -9912,7 +9932,7 @@ _MonoTouch_Dialog_SearchChangedEventArgs_set_Text_string:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 8,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_13c:
+Lme_13e:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_GlassButton_add_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
@@ -9941,7 +9961,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_13d:
+Lme_13f:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_GlassButton_remove_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
@@ -9970,7 +9990,7 @@ bl _p_20
 
 	.byte 227,2,0,2
 
-Lme_13e:
+Lme_140:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_GlassButton__ctor_System_Drawing_RectangleF
@@ -10005,7 +10025,7 @@ bl _p_48
 
 	.byte 60,0,138,229,76,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_13f:
+Lme_141:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_GlassButton_get_Enabled
@@ -10017,7 +10037,7 @@ bl _p_295
 
 	.byte 255,0,0,226,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_140:
+Lme_142:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_GlassButton_set_Enabled_bool
@@ -10030,7 +10050,7 @@ bl _p_296
 
 	.byte 10,0,160,225,0,16,154,229,15,224,160,225,132,240,145,229,8,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_141:
+Lme_143:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_GlassButton_BeginTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
@@ -10049,7 +10069,7 @@ bl _p_297
 
 	.byte 255,0,0,226,8,208,141,226,32,1,189,232,128,128,189,232
 
-Lme_142:
+Lme_144:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_GlassButton_EndTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
@@ -10078,7 +10098,7 @@ bl _p_298
 
 	.byte 16,208,141,226,32,1,189,232,128,128,189,232
 
-Lme_143:
+Lme_145:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_GlassButton_ContinueTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
@@ -10112,7 +10132,7 @@ bl _p_300
 
 	.byte 255,0,0,226,48,208,141,226,32,13,189,232,128,128,189,232
 
-Lme_144:
+Lme_146:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_GlassButton_Draw_System_Drawing_RectangleF
@@ -10406,7 +10426,7 @@ bl _p_20
 
 	.byte 198,2,0,2
 
-Lme_145:
+Lme_147:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_LocalizationExtensions_GetText_string
@@ -10429,7 +10449,7 @@ bl _p_308
 	.byte 0,0,159,231,0,48,144,229,12,0,160,225,10,16,160,225,0,192,156,229,15,224,160,225,80,240,156,229,0,208,141,226
 	.byte 96,5,189,232,128,128,189,232
 
-Lme_146:
+Lme_148:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_LRUCache_2__0__1__ctor_int_int_System_Func_2__1_int
@@ -10494,7 +10514,7 @@ bl _p_55
 bl _mono_create_corlib_exception_1
 bl _p_56
 
-Lme_148:
+Lme_14a:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_get_Item__0
@@ -10542,7 +10562,7 @@ bl _p_321
 	.byte 12,16,155,229,44,0,150,229,0,0,133,224,24,32,150,229,28,48,150,229,51,255,47,225,44,0,150,229,0,16,133,224
 	.byte 0,0,155,229,24,32,150,229,28,48,150,229,51,255,47,225,52,208,139,226,112,9,189,232,128,128,189,232
 
-Lme_149:
+Lme_14b:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_set_Item__0__1
@@ -10706,7 +10726,7 @@ bl _p_336
 	.byte 1,0,160,225,16,32,154,229,2,16,129,224,0,16,145,229,5,16,129,224,16,32,154,229,2,0,128,224,0,16,128,229
 	.byte 68,208,139,226,96,13,189,232,128,128,189,232
 
-Lme_14a:
+Lme_14c:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_Evict
@@ -10779,7 +10799,7 @@ bl _mono_gsharedvt_constrained_call
 
 	.byte 36,208,139,226,80,13,189,232,128,128,189,232
 
-Lme_14b:
+Lme_14d:
 .text
 	.align 2
 	.no_dead_strip _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_ToString
@@ -10793,7 +10813,7 @@ bl _p_346
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 712
 	.byte 0,0,159,231,16,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_14c:
+Lme_14e:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_UIKit_UIWebErrorArgs_invoke_void__this___object_TEventArgs_object_MonoTouch_UIKit_UIWebErrorArgs
@@ -10811,7 +10831,7 @@ bl _p_347
 
 	.byte 222,255,255,234
 
-Lme_14d:
+Lme_14f:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult__this__
@@ -10828,9 +10848,9 @@ bl _p_347
 
 	.byte 226,255,255,234
 
-Lme_152:
+Lme_154:
 .text
-ut_339:
+ut_341:
 
 	.byte 8,0,128,226
 	b _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType__ctor_MonoTouch_UIKit_UIReturnKeyType
@@ -10848,9 +10868,9 @@ _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType__ctor_MonoTouch_UIKit_UIRetur
 
 	.byte 0,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_153:
+Lme_155:
 .text
-ut_340:
+ut_342:
 
 	.byte 8,0,128,226
 	b _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_HasValue
@@ -10864,9 +10884,9 @@ _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_HasValue:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,4,0,208,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_154:
+Lme_156:
 .text
-ut_341:
+ut_343:
 
 	.byte 8,0,128,226
 	b _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_Value
@@ -10891,9 +10911,9 @@ bl _p_78
 bl _mono_create_corlib_exception_1
 bl _p_56
 
-Lme_155:
+Lme_157:
 .text
-ut_342:
+ut_344:
 
 	.byte 8,0,128,226
 	b _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_object
@@ -10932,9 +10952,9 @@ bl _p_349
 
 	.byte 255,0,0,226,20,208,141,226,16,5,189,232,128,128,189,232
 
-Lme_156:
+Lme_158:
 .text
-ut_343:
+ut_345:
 
 	.byte 8,0,128,226
 	b _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
@@ -10971,9 +10991,9 @@ bl _p_286
 	.byte 0,32,160,225,8,0,155,229,12,16,155,229,8,0,130,229,2,0,160,225,0,32,146,229,15,224,160,225,44,240,146,229
 	.byte 255,0,0,226,28,208,139,226,0,13,189,232,128,128,189,232
 
-Lme_157:
+Lme_159:
 .text
-ut_344:
+ut_346:
 
 	.byte 8,0,128,226
 	b _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetHashCode
@@ -10999,9 +11019,9 @@ bl _p_286
 	.byte 0,16,160,225,8,0,157,229,8,0,129,229,1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229,20,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_158:
+Lme_15a:
 .text
-ut_345:
+ut_347:
 
 	.byte 8,0,128,226
 	b _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetValueOrDefault
@@ -11015,9 +11035,9 @@ _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetValueOrDefault:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,0,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_159:
+Lme_15b:
 .text
-ut_346:
+ut_348:
 
 	.byte 8,0,128,226
 	b _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_ToString
@@ -11044,9 +11064,9 @@ bl _p_286
 	.long _mono_aot_MonoTouch_Dialog_1_got - . + 28
 	.byte 0,0,159,231,0,0,144,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_15a:
+Lme_15c:
 .text
-ut_347:
+ut_349:
 
 	.byte 8,0,128,226
 	b _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Box_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
@@ -11071,9 +11091,9 @@ bl _p_286
 
 	.byte 8,16,155,229,8,16,128,229,16,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_15b:
+Lme_15d:
 .text
-ut_348:
+ut_350:
 
 	.byte 8,0,128,226
 	b _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Unbox_object
@@ -11106,7 +11126,7 @@ bl _p_20
 
 	.byte 203,2,0,2
 
-Lme_15c:
+Lme_15e:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Action_1_MonoTouch_Dialog_DateTimeElement_invoke_void__this___T_MonoTouch_Dialog_DateTimeElement
@@ -11123,7 +11143,7 @@ bl _p_347
 
 	.byte 225,255,255,234
 
-Lme_15d:
+Lme_15f:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__IEnumerable_GetEnumerator_T
@@ -11146,7 +11166,7 @@ bl _p_6
 
 	.byte 8,16,128,226,20,32,155,229,0,32,129,229,24,32,155,229,4,32,129,229,32,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_15e:
+Lme_160:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Func_2_MonoTouch_Dialog_RootElement_MonoTouch_UIKit_UIViewController_invoke_TResult__this___T_MonoTouch_Dialog_RootElement
@@ -11163,7 +11183,7 @@ bl _p_347
 
 	.byte 225,255,255,234
 
-Lme_15f:
+Lme_161:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Action_1_MonoTouch_Foundation_NSIndexPath_invoke_void__this___T_MonoTouch_Foundation_NSIndexPath
@@ -11180,7 +11200,7 @@ bl _p_347
 
 	.byte 225,255,255,234
 
-Lme_160:
+Lme_162:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_System_Collections_Generic_KeyValuePair_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_invoke_TRet__this___TKey_TValue_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated
@@ -11200,7 +11220,7 @@ bl _p_347
 
 	.byte 209,255,255,234
 
-Lme_165:
+Lme_167:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Func_2_MonoTouch_UIKit_UIImage_int_invoke_TResult__this___T_MonoTouch_UIKit_UIImage
@@ -11217,7 +11237,7 @@ bl _p_347
 
 	.byte 225,255,255,234
 
-Lme_16a:
+Lme_16c:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Collections_Generic_KeyValuePair_2_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_invoke_TRet__this___TKey_TValue_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage
@@ -11237,7 +11257,7 @@ bl _p_347
 
 	.byte 209,255,255,234
 
-Lme_16f:
+Lme_171:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri_System_Collections_Generic_KeyValuePair_2_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri_invoke_TRet__this___TKey_TValue_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri
@@ -11257,7 +11277,7 @@ bl _p_347
 
 	.byte 209,255,255,234
 
-Lme_174:
+Lme_176:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Action_3_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath_invoke_void__this___T1_T2_T3_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -11276,7 +11296,7 @@ bl _p_347
 
 	.byte 219,255,255,234
 
-Lme_175:
+Lme_177:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Action_1_MonoTouch_Dialog_GlassButton_invoke_void__this___T_MonoTouch_Dialog_GlassButton
@@ -11293,7 +11313,7 @@ bl _p_347
 
 	.byte 225,255,255,234
 
-Lme_176:
+Lme_178:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke__Module_invoke_void__this___object_SearchChangedEventArgs_object_MonoTouch_Dialog_SearchChangedEventArgs
@@ -11311,7 +11331,7 @@ bl _p_347
 
 	.byte 222,255,255,234
 
-Lme_177:
+Lme_179:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_SearchChangedEventArgs_AsyncCallback_object_object_MonoTouch_Dialog_SearchChangedEventArgs_System_AsyncCallback_object
@@ -11327,7 +11347,7 @@ bl _p_354
 
 	.byte 24,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_178:
+Lme_17a:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
@@ -11341,7 +11361,7 @@ bl _p_355
 
 	.byte 8,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_179:
+Lme_17b:
 .text
 	.align 3
 methods_end:
@@ -11391,6 +11411,7 @@ method_addresses:
 	bl _MonoTouch_Dialog_HtmlElement__Selectedc__AnonStorey3__m__3_object_System_EventArgs
 	bl _MonoTouch_Dialog_HtmlElement__Selectedc__AnonStorey3__m__4_object_System_EventArgs
 	bl _MonoTouch_Dialog_HtmlElement__Selectedc__AnonStorey3__m__5_object_MonoTouch_UIKit_UIWebErrorArgs
+	bl _MonoTouch_Dialog_StringElement__ctor_string
 	bl _MonoTouch_Dialog_StringElement__ctor_string_MonoTouch_Foundation_NSAction
 	bl _MonoTouch_Dialog_StringElement_add_Tapped_MonoTouch_Foundation_NSAction
 	bl _MonoTouch_Dialog_StringElement_remove_Tapped_MonoTouch_Foundation_NSAction
@@ -11411,6 +11432,7 @@ method_addresses:
 	bl method_addresses
 	bl _MonoTouch_Dialog_RadioElement_GetCell_MonoTouch_UIKit_UITableView
 	bl _MonoTouch_Dialog_RadioElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	bl _MonoTouch_Dialog_CheckboxElement__ctor_string_bool
 	bl _MonoTouch_Dialog_CheckboxElement_ConfigCell_MonoTouch_UIKit_UITableViewCell
 	bl _MonoTouch_Dialog_CheckboxElement_GetCell_MonoTouch_UIKit_UITableView
 	bl _MonoTouch_Dialog_CheckboxElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -11740,14 +11762,6 @@ code_offsets:
 	.align 3
 unbox_trampolines:
 
-	.long 339
-
-	bl ut_339
-
-	.long 340
-
-	bl ut_340
-
 	.long 341
 
 	bl ut_341
@@ -11779,82 +11793,90 @@ unbox_trampolines:
 	.long 348
 
 	bl ut_348
+
+	.long 349
+
+	bl ut_349
+
+	.long 350
+
+	bl ut_350
 unbox_trampolines_end:
 .section __TEXT, __const
 	.align 3
 method_info_offsets:
 
-	.long 378,10,38,2
+	.long 380,10,38,2
 	.short 0, 10, 24, 34, 44, 55, 71, 82
 	.short 93, 104, 115, 126, 137, 148, 159, 170
-	.short 181, 192, 203, 214, 225, 236, 252, 263
-	.short 274, 290, 301, 312, 323, 334, 350, 361
-	.short 372, 388, 404, 415, 435, 455
+	.short 181, 192, 203, 214, 225, 236, 251, 262
+	.short 273, 289, 300, 311, 322, 333, 349, 360
+	.short 371, 386, 401, 412, 428, 444
 	.byte 1,3,4,11,3,3,4,3,4,3,42,6,3,3,6,2,3,4,255,255,255,255,187,73,78,6,8,3,3,3,4,3
-	.byte 4,3,119,15,6,2,2,2,2,2,4,2,128,160,3,5,5,8,3,3,3,9,4,128,207,4,3,3,4,3,255,255
-	.byte 255,255,32,0,128,237,5,128,245,2,2,2,4,4,10,3,3,12,129,38,2,3,4,3,3,3,3,3,3,129,68,3
-	.byte 5,3,11,6,18,4,3,3,129,127,3,3,13,2,2,2,10,9,2,129,175,2,3,4,3,4,2,2,2,2,129,202
-	.byte 2,4,4,3,3,2,3,2,3,129,230,2,4,3,8,2,5,2,2,2,130,11,4,2,2,2,7,4,4,12,6,130
-	.byte 68,3,3,8,3,4,4,22,3,4,130,125,9,2,2,2,7,4,2,2,2,130,159,7,4,2,5,5,2,2,3,3
-	.byte 130,194,2,2,2,2,2,2,2,4,4,130,218,2,4,4,2,2,2,2,2,2,130,244,2,4,3,2,2,3,3,4
-	.byte 10,131,23,6,4,6,2,2,4,2,2,4,131,57,6,2,2,255,255,255,252,189,0,0,0,131,70,2,131,74,2,3
-	.byte 3,2,2,4,2,2,2,131,99,2,6,2,2,3,4,3,4,2,131,129,2,2,6,4,255,255,255,252,113,131,145,39
-	.byte 17,3,131,207,7,11,13,25,11,9,33,27,2,132,91,2,2,3,3,4,3,3,3,3,132,120,3,3,3,3,3,3
-	.byte 3,20,3,132,167,23,9,3,3,8,6,2,2,2,132,227,2,255,255,255,251,27,0,132,235,2,2,4,2,2,132,249
-	.byte 2,2,2,2,5,5,3,13,14,133,44,9,3,3,3,7,2,2,7,7,133,91,2,2,2,2,4,39,255,255,255,250
-	.byte 114,133,146,2,133,150,3,3,4,255,255,255,250,96,0,0,0,133,164,4,133,170,2,2,6,6,4,2,5,4,5,133
-	.byte 210,2,4,255,255,255,250,40,0,0,0,133,220,255,255,255,250,36,0,0,0,133,224,255,255,255,250,32,0,0,0,133
-	.byte 228,255,255,255,250,28,0,0,0,133,232,4,4,4,4,2
+	.byte 4,3,119,15,6,2,2,2,2,2,4,2,128,160,3,3,5,5,8,3,3,3,9,128,206,4,4,3,3,4,3,255
+	.byte 255,255,255,29,0,128,240,128,245,3,2,2,2,2,4,4,10,3,129,24,12,7,2,3,4,3,3,3,3,129,67,3
+	.byte 3,3,5,3,11,6,18,4,129,126,3,3,3,3,13,2,2,2,10,129,176,2,2,2,3,4,3,4,2,2,129,202
+	.byte 2,3,2,4,4,3,3,2,3,129,230,3,2,2,4,3,8,2,5,2,130,7,2,7,4,2,2,2,7,4,4,130
+	.byte 53,6,14,3,3,8,3,4,4,22,130,123,4,3,9,2,2,2,7,4,2,130,160,2,2,7,4,2,5,5,2,2
+	.byte 130,194,3,2,2,2,2,2,2,2,2,130,217,4,2,2,4,4,2,2,2,2,130,243,2,4,2,4,3,2,2,3
+	.byte 3,131,16,10,2,6,4,6,2,2,4,2,131,56,4,2,6,2,2,255,255,255,252,184,0,0,0,131,75,2,2,2
+	.byte 3,3,2,2,4,2,131,99,2,3,2,6,2,2,3,4,3,131,130,2,2,2,2,6,4,255,255,255,252,108,131,150
+	.byte 39,131,206,3,3,7,11,13,25,11,9,33,132,92,2,2,2,2,3,3,4,3,3,132,119,3,3,3,3,3,3,3
+	.byte 3,3,132,166,3,3,23,9,3,3,8,6,2,132,228,2,2,2,255,255,255,251,22,0,132,240,2,2,4,132,250,2
+	.byte 2,2,2,2,2,5,5,3,133,32,14,3,9,3,3,3,7,2,2,133,85,7,4,2,2,2,2,4,39,255,255,255
+	.byte 250,109,133,151,2,2,3,3,4,255,255,255,250,91,0,0,0,133,169,4,2,2,2,6,6,4,2,5,133,206,5,4
+	.byte 2,4,255,255,255,250,35,0,0,0,133,225,0,0,0,0,133,229,255,255,255,250,27,0,0,0,133,233,0,0,0,0
+	.byte 133,237,4,4,4,4,2
 .section __TEXT, __const
 	.align 3
 extra_method_table:
 
-	.long 73,0,0,0,1761,344,0,0
-	.long 0,0,1657,333,0,0,0,0
+	.long 73,0,0,0,1766,346,0,0
+	.long 0,0,1662,335,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.long 0,0,0,0,0,0,2088,375
-	.long 0,0,0,0,1821,347,0,1781
-	.long 345,0,0,0,0,0,0,0
-	.long 1970,362,0,1861,349,0,0,0
-	.long 0,1636,332,0,0,0,0,0
+	.long 0,0,0,0,0,0,2093,377
+	.long 0,0,0,0,1826,349,0,1786
+	.long 347,0,0,0,0,0,0,0
+	.long 1975,364,0,1866,351,0,0,0
+	.long 0,1641,334,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.long 2103,376,0,1701,340,73,0,0
-	.long 0,0,0,0,1917,352,0,0
+	.long 2108,378,0,1706,342,73,0,0
+	.long 0,0,0,0,1922,354,0,0
 	.long 0,0,0,0,0,0,0,0
-	.long 0,0,0,1552,328,0,2076,374
-	.long 0,0,0,0,1669,338,0,1905
-	.long 351,0,0,0,0,1741,343,0
-	.long 0,0,0,1721,342,0,1681,339
+	.long 0,0,0,1557,330,0,2081,376
+	.long 0,0,0,0,1674,340,0,1910
+	.long 353,0,0,0,0,1746,345,0
+	.long 0,0,0,1726,344,0,1686,341
 	.long 0,0,0,0,0,0,0,0
-	.long 0,0,1801,346,0,1594,330,0
-	.long 0,0,0,0,0,0,1841,348
-	.long 0,1615,331,76,0,0,0,1960
-	.long 357,74,0,0,0,0,0,0
-	.long 1886,350,0,1573,329,0,0,0
+	.long 0,0,1806,348,0,1599,332,0
+	.long 0,0,0,0,0,0,1846,350
+	.long 0,1620,333,76,0,0,0,1965
+	.long 359,74,0,0,0,0,0,0
+	.long 1891,352,0,1578,331,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.long 0,0,2127,377,0,0,0,0
+	.long 0,0,2132,379,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.long 0,0,0,0,1711,341,0,2017
-	.long 367,75,2054,372,0,2064,373,0
+	.long 0,0,0,0,1716,343,0,2022
+	.long 369,75,2059,374,0,2069,375,0
 .section __TEXT, __const
 	.align 3
 extra_method_info_offsets:
 
-	.long 50,328,1552,329,1573,330,1594,331
-	.long 1615,332,1636,333,1657,334,0,335
-	.long 0,336,0,337,0,338,1669,339
-	.long 1681,340,1701,341,1711,342,1721,343
-	.long 1741,344,1761,345,1781,346,1801,347
-	.long 1821,348,1841,349,1861,350,1886,351
-	.long 1905,352,1917,353,0,354,0,355
-	.long 0,356,0,357,1960,358,0,359
-	.long 0,360,0,361,0,362,1970,363
-	.long 0,364,0,365,0,366,0,367
-	.long 2017,368,0,369,0,370,0,371
-	.long 0,372,2054,373,2064,374,2076,375
-	.long 2088,376,2103,377,2127
+	.long 50,330,1557,331,1578,332,1599,333
+	.long 1620,334,1641,335,1662,336,0,337
+	.long 0,338,0,339,0,340,1674,341
+	.long 1686,342,1706,343,1716,344,1726,345
+	.long 1746,346,1766,347,1786,348,1806,349
+	.long 1826,350,1846,351,1866,352,1891,353
+	.long 1910,354,1922,355,0,356,0,357
+	.long 0,358,0,359,1965,360,0,361
+	.long 0,362,0,363,0,364,1975,365
+	.long 0,366,0,367,0,368,0,369
+	.long 2022,370,0,371,0,372,0,373
+	.long 0,374,2059,375,2069,376,2081,377
+	.long 2093,378,2108,379,2132
 .section __TEXT, __const
 	.align 3
 class_name_table:
@@ -11897,39 +11919,39 @@ got_info_offsets:
 	.short 0, 11, 22, 33, 44, 55, 66, 77
 	.short 88, 99, 110, 121, 132, 143, 154, 165
 	.short 176, 187, 198, 209, 220, 231, 242
-	.byte 136,94,2,1,1,1,4,3,3,6,6,136,126,7,3,5,7,3,3,4,3,3,136,167,5,4,5,2,5,4,3,3
-	.byte 5,136,205,2,6,2,6,3,5,4,3,4,136,245,12,4,4,4,4,4,7,7,4,137,43,4,4,3,4,4,7,5
-	.byte 5,4,137,87,3,4,4,4,4,4,4,3,5,137,125,2,2,5,2,5,5,2,4,4,137,160,6,4,5,5,10,3
-	.byte 5,14,6,137,223,5,3,4,5,4,5,14,6,3,138,23,3,3,3,3,4,4,3,3,3,138,56,4,5,4,5,5
-	.byte 4,5,6,1,138,107,5,3,12,12,3,4,4,7,3,138,163,4,4,3,5,3,3,3,3,2,138,195,5,4,5,4
-	.byte 5,4,5,4,5,138,242,5,6,5,6,5,5,6,3,6,139,39,7,5,3,3,6,5,5,3,5,139,86,5,4,4
-	.byte 4,5,5,3,5,6,139,133,3,4,5,5,5,5,7,7,5,139,184,4,4,5,3,3,4,3,3,3,139,219,7,4
-	.byte 7,4,4,5,4,5,5,140,12,4,4,4,6,12,5,7,7,7,140,75,1,4,4
+	.byte 136,99,2,1,1,1,4,3,3,6,6,136,131,7,3,5,7,3,3,4,3,3,136,172,5,4,5,2,5,4,3,3
+	.byte 5,136,210,2,6,2,6,3,5,4,3,4,136,250,12,4,4,4,4,4,7,7,4,137,48,4,4,3,4,4,7,5
+	.byte 5,4,137,92,3,4,4,4,4,4,4,3,5,137,130,2,2,5,2,5,5,2,4,4,137,165,6,4,5,5,10,3
+	.byte 5,14,6,137,228,5,3,4,5,4,5,14,6,3,138,28,3,3,3,3,4,4,3,3,3,138,61,4,5,4,5,5
+	.byte 4,5,6,1,138,112,5,3,12,12,3,4,4,7,3,138,168,4,4,3,5,3,3,3,3,2,138,200,5,4,5,4
+	.byte 5,4,5,4,5,138,247,5,6,5,6,5,5,6,3,6,139,44,7,5,3,3,6,5,5,3,5,139,91,5,4,4
+	.byte 4,5,5,3,5,6,139,138,3,4,5,5,5,5,7,7,5,139,189,4,4,5,3,3,4,3,3,3,139,224,7,4
+	.byte 7,4,4,5,4,5,5,140,17,4,4,4,6,12,5,7,7,7,140,80,1,4,4
 .section __TEXT, __const
 	.align 3
 ex_info_offsets:
 
-	.long 378,10,38,2
+	.long 380,10,38,2
 	.short 0, 11, 27, 38, 49, 60, 76, 87
 	.short 98, 109, 120, 131, 142, 153, 164, 175
-	.short 186, 197, 208, 219, 230, 241, 257, 268
-	.short 279, 295, 306, 317, 328, 339, 355, 366
-	.short 377, 393, 409, 420, 440, 460
-	.byte 155,167,3,3,33,3,3,3,3,3,3,155,227,3,3,3,3,3,4,3,255,255,255,228,7,155,252,156,0,3,4,3
-	.byte 4,4,3,4,3,3,156,35,4,3,3,3,3,3,3,4,3,156,68,3,4,4,4,3,4,4,3,3,156,104,4,4
-	.byte 4,4,3,255,255,255,227,133,0,156,127,4,156,135,4,3,4,3,4,25,3,4,4,156,193,4,4,4,4,3,3,3
-	.byte 3,3,156,227,4,3,3,15,4,4,4,3,3,157,18,4,4,4,3,3,4,24,15,4,157,86,4,4,4,4,4,3
-	.byte 3,3,4,157,123,3,3,4,4,4,3,4,3,4,157,158,4,4,3,14,3,4,3,3,3,157,219,12,3,3,3,4
-	.byte 4,4,34,19,158,73,4,4,14,3,3,3,54,3,4,158,169,3,3,3,3,20,12,3,3,3,158,225,20,12,3,4
-	.byte 4,3,4,4,3,159,29,3,3,3,3,3,3,3,4,4,159,61,3,4,4,3,3,4,4,4,4,159,98,3,4,4
-	.byte 4,4,4,4,4,4,159,136,4,4,4,4,4,4,4,4,4,159,176,4,3,3,255,255,255,224,70,0,0,0,159,190
-	.byte 3,159,196,3,4,3,3,4,4,4,3,4,159,232,4,4,3,4,4,4,4,4,4,160,14,4,3,4,4,255,255,255
-	.byte 223,227,160,33,3,4,3,160,46,4,3,43,19,17,15,14,48,3,160,227,29,28,29,29,28,3,3,3,3,161,129,3
-	.byte 3,4,3,3,3,3,15,3,161,173,4,4,3,4,3,3,4,4,3,161,208,4,255,255,255,222,44,0,161,216,3,3
-	.byte 4,3,4,161,236,3,3,3,4,15,4,3,4,4,162,27,4,4,4,3,4,3,3,4,4,162,64,3,3,4,4,4
-	.byte 55,255,255,255,221,119,162,141,34,162,209,34,34,34,255,255,255,220,201,0,0,0,163,59,4,163,66,3,3,4,4,3
-	.byte 3,3,4,4,163,100,31,3,255,255,255,220,122,0,0,0,163,137,255,255,255,220,119,0,0,0,163,141,255,255,255,220
-	.byte 115,0,0,0,163,144,255,255,255,220,112,0,0,0,163,148,4,4,3,4,4
+	.short 186, 197, 208, 219, 230, 241, 256, 267
+	.short 278, 294, 305, 316, 327, 338, 354, 365
+	.short 376, 391, 406, 417, 433, 449
+	.byte 155,172,3,3,33,3,3,3,3,3,3,155,232,3,3,3,3,3,4,3,255,255,255,228,2,156,1,156,5,3,4,3
+	.byte 4,4,3,4,3,3,156,40,4,3,3,3,3,3,3,4,3,156,73,3,3,4,4,4,3,4,4,3,156,108,4,4
+	.byte 4,4,4,3,255,255,255,227,125,0,156,135,156,139,4,3,4,3,4,3,4,25,3,156,196,4,4,4,4,4,4,3
+	.byte 3,3,156,232,3,3,4,3,3,15,4,4,4,157,22,3,4,4,4,4,3,3,4,24,157,90,4,3,4,4,4,4
+	.byte 4,3,3,157,126,4,4,3,3,4,4,4,3,4,157,162,4,3,4,4,3,14,3,4,3,157,207,3,20,12,3,3
+	.byte 3,4,4,4,158,41,19,24,4,4,14,3,3,3,54,158,172,4,4,3,3,3,3,20,12,3,158,230,3,3,20,12
+	.byte 3,4,4,3,4,159,34,3,3,3,3,3,3,3,3,3,159,65,4,3,3,4,4,3,3,4,4,159,101,4,4,3
+	.byte 4,4,4,4,4,4,159,140,4,3,4,4,4,4,4,4,4,159,179,4,4,4,3,3,255,255,255,224,59,0,0,0
+	.byte 159,201,3,3,3,4,3,3,4,4,4,159,235,4,4,4,4,3,4,4,4,4,160,18,4,3,4,3,4,4,255,255
+	.byte 255,223,216,160,44,3,160,51,3,3,4,3,43,19,17,15,14,160,220,3,15,29,28,29,29,28,3,3,161,134,3,3
+	.byte 3,3,4,3,3,3,3,161,177,3,4,4,4,3,4,3,3,4,161,213,3,3,4,255,255,255,222,33,0,161,227,3
+	.byte 3,4,161,240,4,3,3,3,3,4,15,4,3,162,30,4,4,4,4,4,3,4,3,3,162,67,4,4,3,3,4,4
+	.byte 4,55,255,255,255,221,108,162,152,34,34,34,34,34,255,255,255,220,190,0,0,0,163,70,4,3,3,3,4,4,3,3
+	.byte 3,163,104,4,3,31,3,255,255,255,220,111,0,0,0,163,148,0,0,0,0,163,152,255,255,255,220,104,0,0,0,163
+	.byte 155,0,0,0,0,163,159,4,4,3,4,4
 .section __TEXT, __const
 	.align 3
 unwind_info:
@@ -12019,9 +12041,9 @@ class_info_offsets:
 
 	.long 52,10,6,2
 	.short 0, 13, 24, 37, 51, 67
-	.byte 163,171,7,32,33,35,128,249,32,128,172,23,32,166,53,23,7,7,31,31,32,92,35,23,167,111,128,166,32,32,23,27
-	.byte 44,33,33,128,189,169,235,97,128,135,128,133,23,7,25,23,5,128,227,172,179,128,249,36,128,249,128,225,99,23,128,229
-	.byte 23,128,255,178,54,24
+	.byte 163,182,7,32,33,35,128,249,32,128,172,23,32,166,64,23,7,7,31,31,32,92,35,23,167,122,128,166,33,33,23,27
+	.byte 44,33,33,128,189,169,248,97,128,135,128,133,23,7,25,23,5,128,227,172,192,128,249,36,128,249,128,225,99,23,128,229
+	.byte 23,128,255,178,67,24
 
 .text
 	.align 4
@@ -12032,2131 +12054,2131 @@ plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Element_GetEnumerator:
 _p_1:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 896,3161
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 896,3166
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Section_GetEnumerator
 plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Section_GetEnumerator:
 _p_2:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 900,3172
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 900,3177
 	.no_dead_strip plt_MonoTouch_Foundation_NSIndexPath_FromRowSection_int_int
 plt_MonoTouch_Foundation_NSIndexPath_FromRowSection_int_int:
 _p_3:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 904,3183
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 904,3188
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_MonoTouch_Dialog_Section_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_MonoTouch_Dialog_Section_MoveNext:
 _p_4:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 908,3188
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 908,3193
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_MonoTouch_Dialog_Element_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_MonoTouch_Dialog_Element_MoveNext:
 _p_5:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 912,3199
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 912,3204
 	.no_dead_strip plt__jit_icall_mono_object_new_specific
 plt__jit_icall_mono_object_new_specific:
 _p_6:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 916,3210
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 916,3215
 	.no_dead_strip plt_MonoTouch_UIKit_UITableViewCell__ctor_MonoTouch_UIKit_UITableViewCellStyle_MonoTouch_Foundation_NSString
 plt_MonoTouch_UIKit_UITableViewCell__ctor_MonoTouch_UIKit_UITableViewCellStyle_MonoTouch_Foundation_NSString:
 _p_7:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 920,3237
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 920,3242
 	.no_dead_strip plt_MonoTouch_Dialog_Element_GetImmediateRootElement
 plt_MonoTouch_Dialog_Element_GetImmediateRootElement:
 _p_8:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 924,3242
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 924,3247
 	.no_dead_strip plt_string_IndexOf_string_System_StringComparison
 plt_string_IndexOf_string_System_StringComparison:
 _p_9:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 928,3244
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 928,3249
 	.no_dead_strip plt_MonoTouch_Foundation_NSString__ctor_string
 plt_MonoTouch_Foundation_NSString__ctor_string:
 _p_10:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 932,3249
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 932,3254
 	.no_dead_strip plt_MonoTouch_Dialog_LocalizationExtensions_GetText_string
 plt_MonoTouch_Dialog_LocalizationExtensions_GetText_string:
 _p_11:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 936,3254
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 936,3259
 	.no_dead_strip plt_MonoTouch_UIKit_UITableView_DequeueReusableCell_MonoTouch_Foundation_NSString
 plt_MonoTouch_UIKit_UITableView_DequeueReusableCell_MonoTouch_Foundation_NSString:
 _p_12:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 940,3257
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 940,3262
 	.no_dead_strip plt_MonoTouch_Dialog_BaseBooleanImageElement_TextWithImageCellView__ctor_MonoTouch_Dialog_BaseBooleanImageElement
 plt_MonoTouch_Dialog_BaseBooleanImageElement_TextWithImageCellView__ctor_MonoTouch_Dialog_BaseBooleanImageElement:
 _p_13:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 944,3262
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 944,3267
 	.no_dead_strip plt_MonoTouch_UIKit_UILabel__ctor
 plt_MonoTouch_UIKit_UILabel__ctor:
 _p_14:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 948,3264
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 948,3269
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor_get_Clear
 plt_MonoTouch_UIKit_UIColor_get_Clear:
 _p_15:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 952,3269
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 952,3274
 	.no_dead_strip plt_MonoTouch_UIKit_UIButton_FromType_MonoTouch_UIKit_UIButtonType
 plt_MonoTouch_UIKit_UIButton_FromType_MonoTouch_UIKit_UIButtonType:
 _p_16:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 956,3274
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 956,3279
 	.no_dead_strip plt__jit_icall_mono_object_new_fast
 plt__jit_icall_mono_object_new_fast:
 _p_17:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 960,3279
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 960,3284
 	.no_dead_strip plt_MonoTouch_UIKit_UIControl_add_TouchDown_System_EventHandler
 plt_MonoTouch_UIKit_UIControl_add_TouchDown_System_EventHandler:
 _p_18:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 964,3302
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 964,3307
 	.no_dead_strip plt_MonoTouch_UIKit_UIView_Add_MonoTouch_UIKit_UIView
 plt_MonoTouch_UIKit_UIView_Add_MonoTouch_UIKit_UIView:
 _p_19:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 968,3307
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 968,3312
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_20:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 972,3312
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 972,3317
 	.no_dead_strip plt_MonoTouch_UIKit_UIView_LayoutSubviews
 plt_MonoTouch_UIKit_UIView_LayoutSubviews:
 _p_21:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 976,3347
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 976,3352
 	.no_dead_strip plt_System_Drawing_RectangleF__ctor_single_single_single_single
 plt_System_Drawing_RectangleF__ctor_single_single_single_single:
 _p_22:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 980,3352
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 980,3357
 	.no_dead_strip plt_MonoTouch_UIKit_UIFont_BoldSystemFontOfSize_single
 plt_MonoTouch_UIKit_UIFont_BoldSystemFontOfSize_single:
 _p_23:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 984,3357
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 984,3362
 	.no_dead_strip plt_MonoTouch_UIKit_UIApplication_get_SharedApplication
 plt_MonoTouch_UIKit_UIApplication_get_SharedApplication:
 _p_24:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 988,3362
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 988,3367
 	.no_dead_strip plt_MonoTouch_UIKit_UIScreen_get_MainScreen
 plt_MonoTouch_UIKit_UIScreen_get_MainScreen:
 _p_25:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 992,3367
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 992,3372
 	.no_dead_strip plt_MonoTouch_UIKit_UIWebView__ctor_System_Drawing_RectangleF
 plt_MonoTouch_UIKit_UIWebView__ctor_System_Drawing_RectangleF:
 _p_26:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 996,3372
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 996,3377
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor_get_White
 plt_MonoTouch_UIKit_UIColor_get_White:
 _p_27:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1000,3377
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1000,3382
 	.no_dead_strip plt_MonoTouch_UIKit_UIWebView_add_LoadStarted_System_EventHandler
 plt_MonoTouch_UIKit_UIWebView_add_LoadStarted_System_EventHandler:
 _p_28:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1004,3382
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1004,3387
 	.no_dead_strip plt_MonoTouch_UIKit_UIWebView_add_LoadFinished_System_EventHandler
 plt_MonoTouch_UIKit_UIWebView_add_LoadFinished_System_EventHandler:
 _p_29:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1008,3387
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1008,3392
 	.no_dead_strip plt_MonoTouch_UIKit_UIWebView_add_LoadError_System_EventHandler_1_MonoTouch_UIKit_UIWebErrorArgs
 plt_MonoTouch_UIKit_UIWebView_add_LoadError_System_EventHandler_1_MonoTouch_UIKit_UIWebErrorArgs:
 _p_30:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1012,3392
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1012,3397
 	.no_dead_strip plt_MonoTouch_Dialog_DialogViewController_ActivateController_MonoTouch_UIKit_UIViewController
 plt_MonoTouch_Dialog_DialogViewController_ActivateController_MonoTouch_UIKit_UIViewController:
 _p_31:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1016,3397
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1016,3402
 	.no_dead_strip plt_MonoTouch_Foundation_NSUrlRequest_FromUrl_MonoTouch_Foundation_NSUrl
 plt_MonoTouch_Foundation_NSUrlRequest_FromUrl_MonoTouch_Foundation_NSUrl:
 _p_32:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1020,3400
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1020,3405
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController__ctor
 plt_MonoTouch_UIKit_UIViewController__ctor:
 _p_33:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1024,3405
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1024,3410
 	.no_dead_strip plt_MonoTouch_UIKit_UIActivityIndicatorView__ctor_MonoTouch_UIKit_UIActivityIndicatorViewStyle
 plt_MonoTouch_UIKit_UIActivityIndicatorView__ctor_MonoTouch_UIKit_UIActivityIndicatorViewStyle:
 _p_34:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1028,3410
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1028,3415
 	.no_dead_strip plt_MonoTouch_UIKit_UIBarButtonItem__ctor_MonoTouch_UIKit_UIView
 plt_MonoTouch_UIKit_UIBarButtonItem__ctor_MonoTouch_UIKit_UIView:
 _p_35:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1032,3415
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1032,3420
 	.no_dead_strip plt_MonoTouch_Foundation_NSObject_Dispose
 plt_MonoTouch_Foundation_NSObject_Dispose:
 _p_36:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1036,3420
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1036,3425
 	.no_dead_strip plt_string_Format_string_object_object
 plt_string_Format_string_object_object:
 _p_37:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1040,3425
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1040,3430
 	.no_dead_strip plt_MonoTouch_Dialog_StringElement_add_Tapped_MonoTouch_Foundation_NSAction
 plt_MonoTouch_Dialog_StringElement_add_Tapped_MonoTouch_Foundation_NSAction:
 _p_38:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1044,3430
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1044,3435
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_39:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1048,3432
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1048,3437
 	.no_dead_strip plt_System_Threading_Interlocked_CompareExchange_MonoTouch_Foundation_NSAction_MonoTouch_Foundation_NSAction__MonoTouch_Foundation_NSAction_MonoTouch_Foundation_NSAction
 plt_System_Threading_Interlocked_CompareExchange_MonoTouch_Foundation_NSAction_MonoTouch_Foundation_NSAction__MonoTouch_Foundation_NSAction_MonoTouch_Foundation_NSAction:
 _p_40:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1052,3437
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1052,3442
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_41:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1056,3449
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1056,3454
 	.no_dead_strip plt_MonoTouch_Foundation_NSString_op_Implicit_MonoTouch_Foundation_NSString
 plt_MonoTouch_Foundation_NSString_op_Implicit_MonoTouch_Foundation_NSString:
 _p_42:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1060,3454
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1060,3459
 	.no_dead_strip plt_MonoTouch_UIKit_UITableViewCell__ctor_MonoTouch_UIKit_UITableViewCellStyle_string
 plt_MonoTouch_UIKit_UITableViewCell__ctor_MonoTouch_UIKit_UITableViewCellStyle_string:
 _p_43:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1064,3459
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1064,3464
 	.no_dead_strip plt_MonoTouch_Dialog_StyledStringElement_PrepareCell_MonoTouch_UIKit_UITableViewCell
 plt_MonoTouch_Dialog_StyledStringElement_PrepareCell_MonoTouch_UIKit_UITableViewCell:
 _p_44:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1068,3464
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1068,3469
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor_get_Black
 plt_MonoTouch_UIKit_UIColor_get_Black:
 _p_45:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1072,3466
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1072,3471
 	.no_dead_strip plt_System_Uri_op_Inequality_System_Uri_System_Uri
 plt_System_Uri_op_Inequality_System_Uri_System_Uri:
 _p_46:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1076,3471
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1076,3476
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_ImageLoader_DefaultRequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
 plt_MonoTouch_Dialog_Utilities_ImageLoader_DefaultRequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated:
 _p_47:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1080,3476
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1080,3481
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor_get_Gray
 plt_MonoTouch_UIKit_UIColor_get_Gray:
 _p_48:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1084,3479
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1084,3484
 	.no_dead_strip plt_MonoTouch_UIKit_UIFont_SystemFontOfSize_single
 plt_MonoTouch_UIKit_UIFont_SystemFontOfSize_single:
 _p_49:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1088,3484
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1088,3489
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor_FromPatternImage_MonoTouch_UIKit_UIImage
 plt_MonoTouch_UIKit_UIColor_FromPatternImage_MonoTouch_UIKit_UIImage:
 _p_50:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1092,3489
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1092,3494
 	.no_dead_strip plt_System_Uri_op_Equality_System_Uri_System_Uri
 plt_System_Uri_op_Equality_System_Uri_System_Uri:
 _p_51:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1096,3494
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1096,3499
 	.no_dead_strip plt__jit_icall_mono_array_new_specific
 plt__jit_icall_mono_array_new_specific:
 _p_52:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1100,3499
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1100,3504
 	.no_dead_strip plt_MonoTouch_Dialog_Element_get_IndexPath
 plt_MonoTouch_Dialog_Element_get_IndexPath:
 _p_53:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1104,3525
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1104,3530
 	.no_dead_strip plt_MonoTouch_Dialog_StringElement_GetCell_MonoTouch_UIKit_UITableView
 plt_MonoTouch_Dialog_StringElement_GetCell_MonoTouch_UIKit_UITableView:
 _p_54:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1108,3527
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1108,3532
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_55:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1112,3529
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1112,3534
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_56:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1116,3549
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1116,3554
 	.no_dead_strip plt_MonoTouch_Dialog_RootElement_get_RadioSelected
 plt_MonoTouch_Dialog_RootElement_get_RadioSelected:
 _p_57:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1120,3577
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1120,3582
 	.no_dead_strip plt_MonoTouch_Dialog_RootElement_PathForRadio_int
 plt_MonoTouch_Dialog_RootElement_PathForRadio_int:
 _p_58:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1124,3580
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1124,3585
 	.no_dead_strip plt_MonoTouch_Dialog_RootElement_set_RadioSelected_int
 plt_MonoTouch_Dialog_RootElement_set_RadioSelected_int:
 _p_59:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1128,3583
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1128,3588
 	.no_dead_strip plt_MonoTouch_UIKit_UIGraphics_BeginImageContext_System_Drawing_SizeF
 plt_MonoTouch_UIKit_UIGraphics_BeginImageContext_System_Drawing_SizeF:
 _p_60:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1132,3586
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1132,3591
 	.no_dead_strip plt_MonoTouch_UIKit_UIGraphics_GetCurrentContext
 plt_MonoTouch_UIKit_UIGraphics_GetCurrentContext:
 _p_61:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1136,3591
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1136,3596
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_TranslateCTM_single_single
 plt_MonoTouch_CoreGraphics_CGContext_TranslateCTM_single_single:
 _p_62:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1140,3596
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1140,3601
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGImage_get_Width
 plt_MonoTouch_CoreGraphics_CGImage_get_Width:
 _p_63:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1144,3601
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1144,3606
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGImage_get_Height
 plt_MonoTouch_CoreGraphics_CGImage_get_Height:
 _p_64:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1148,3606
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1148,3611
 	.no_dead_strip plt__jit_icall___emul_op_idiv
 plt__jit_icall___emul_op_idiv:
 _p_65:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1152,3611
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1152,3616
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_ScaleCTM_single_single
 plt_MonoTouch_CoreGraphics_CGContext_ScaleCTM_single_single:
 _p_66:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1156,3628
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1156,3633
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_DrawImage_System_Drawing_RectangleF_MonoTouch_CoreGraphics_CGImage
 plt_MonoTouch_CoreGraphics_CGContext_DrawImage_System_Drawing_RectangleF_MonoTouch_CoreGraphics_CGImage:
 _p_67:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1160,3633
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1160,3638
 	.no_dead_strip plt_MonoTouch_UIKit_UIGraphics_GetImageFromCurrentImageContext
 plt_MonoTouch_UIKit_UIGraphics_GetImageFromCurrentImageContext:
 _p_68:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1164,3638
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1164,3643
 	.no_dead_strip plt_MonoTouch_UIKit_UIGraphics_EndImageContext
 plt_MonoTouch_UIKit_UIGraphics_EndImageContext:
 _p_69:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1168,3643
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1168,3648
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGColorSpace_CreateDeviceRGB
 plt_MonoTouch_CoreGraphics_CGColorSpace_CreateDeviceRGB:
 _p_70:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1172,3648
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1172,3653
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGBitmapContext__ctor_intptr_int_int_int_int_MonoTouch_CoreGraphics_CGColorSpace_MonoTouch_CoreGraphics_CGImageAlphaInfo
 plt_MonoTouch_CoreGraphics_CGBitmapContext__ctor_intptr_int_int_int_int_MonoTouch_CoreGraphics_CGColorSpace_MonoTouch_CoreGraphics_CGImageAlphaInfo:
 _p_71:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1176,3653
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1176,3658
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_AddArc_single_single_single_single_single_bool
 plt_MonoTouch_CoreGraphics_CGContext_AddArc_single_single_single_single_single_bool:
 _p_72:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1180,3658
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1180,3663
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_MoveTo_single_single
 plt_MonoTouch_CoreGraphics_CGContext_MoveTo_single_single:
 _p_73:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1184,3663
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1184,3668
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_AddLineToPoint_single_single
 plt_MonoTouch_CoreGraphics_CGContext_AddLineToPoint_single_single:
 _p_74:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1188,3668
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1188,3673
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_Clip
 plt_MonoTouch_CoreGraphics_CGContext_Clip:
 _p_75:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1192,3673
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1192,3678
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGBitmapContext_ToImage
 plt_MonoTouch_CoreGraphics_CGBitmapContext_ToImage:
 _p_76:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1196,3678
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1196,3683
 	.no_dead_strip plt_MonoTouch_UIKit_UIImage_FromImage_MonoTouch_CoreGraphics_CGImage
 plt_MonoTouch_UIKit_UIImage_FromImage_MonoTouch_CoreGraphics_CGImage:
 _p_77:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1200,3683
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1200,3688
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_78:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1204,3688
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1204,3693
 	.no_dead_strip plt_MonoTouch_Dialog_ImageElement_Scale_MonoTouch_UIKit_UIImage
 plt_MonoTouch_Dialog_ImageElement_Scale_MonoTouch_UIKit_UIImage:
 _p_79:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1208,3717
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1208,3722
 	.no_dead_strip plt__class_init_MonoTouch_UIKit_UIImagePickerController
 plt__class_init_MonoTouch_UIKit_UIImagePickerController:
 _p_80:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1212,3719
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1212,3724
 	.no_dead_strip plt_MonoTouch_UIKit_UIImagePickerController__ctor
 plt_MonoTouch_UIKit_UIImagePickerController__ctor:
 _p_81:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1216,3723
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1216,3728
 	.no_dead_strip plt_MonoTouch_UIKit_UIDevice_get_CurrentDevice
 plt_MonoTouch_UIKit_UIDevice_get_CurrentDevice:
 _p_82:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1220,3728
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1220,3733
 	.no_dead_strip plt_MonoTouch_UIKit_UIDevice_get_UserInterfaceIdiom
 plt_MonoTouch_UIKit_UIDevice_get_UserInterfaceIdiom:
 _p_83:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1224,3733
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1224,3738
 	.no_dead_strip plt_MonoTouch_UIKit_UIPopoverController__ctor_MonoTouch_UIKit_UIViewController
 plt_MonoTouch_UIKit_UIPopoverController__ctor_MonoTouch_UIKit_UIViewController:
 _p_84:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1228,3738
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1228,3743
 	.no_dead_strip plt_MonoTouch_UIKit_UIImagePickerControllerDelegate__ctor
 plt_MonoTouch_UIKit_UIImagePickerControllerDelegate__ctor:
 _p_85:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1232,3743
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1232,3748
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_86:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1236,3748
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1236,3753
 	.no_dead_strip plt_MonoTouch_Dialog_EntryElement_get_Value
 plt_MonoTouch_Dialog_EntryElement_get_Value:
 _p_87:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1240,3753
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1240,3758
 	.no_dead_strip plt_MonoTouch_UIKit_UIView_StringSize_string_MonoTouch_UIKit_UIFont
 plt_MonoTouch_UIKit_UIView_StringSize_string_MonoTouch_UIKit_UIFont:
 _p_88:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1244,3755
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1244,3760
 	.no_dead_strip plt_System_Math_Min_single_single
 plt_System_Math_Min_single_single:
 _p_89:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1248,3760
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1248,3765
 	.no_dead_strip plt_MonoTouch_UIKit_UITextField__ctor_System_Drawing_RectangleF
 plt_MonoTouch_UIKit_UITextField__ctor_System_Drawing_RectangleF:
 _p_90:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1252,3765
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1252,3770
 	.no_dead_strip plt_MonoTouch_Dialog_EntryElement_ComputeEntryPosition_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell
 plt_MonoTouch_Dialog_EntryElement_ComputeEntryPosition_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell:
 _p_91:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1256,3770
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1256,3775
 	.no_dead_strip plt_MonoTouch_UIKit_UIControl_add_ValueChanged_System_EventHandler
 plt_MonoTouch_UIKit_UIControl_add_ValueChanged_System_EventHandler:
 _p_92:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1260,3772
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1260,3777
 	.no_dead_strip plt_MonoTouch_UIKit_UITextField_add_Ended_System_EventHandler
 plt_MonoTouch_UIKit_UITextField_add_Ended_System_EventHandler:
 _p_93:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1264,3777
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1264,3782
 	.no_dead_strip plt_MonoTouch_UIKit_UITextField_get_ShouldReturn
 plt_MonoTouch_UIKit_UITextField_get_ShouldReturn:
 _p_94:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1268,3782
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1268,3787
 	.no_dead_strip plt_MonoTouch_UIKit_UITextField_set_ShouldReturn_MonoTouch_UIKit_UITextFieldCondition
 plt_MonoTouch_UIKit_UITextField_set_ShouldReturn_MonoTouch_UIKit_UITextFieldCondition:
 _p_95:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1272,3787
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1272,3792
 	.no_dead_strip plt_MonoTouch_UIKit_UITextField_add_Started_System_EventHandler
 plt_MonoTouch_UIKit_UITextField_add_Started_System_EventHandler:
 _p_96:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1276,3792
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1276,3797
 	.no_dead_strip plt_MonoTouch_Dialog_EntryElement_FetchValue
 plt_MonoTouch_Dialog_EntryElement_FetchValue:
 _p_97:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1280,3797
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1280,3802
 	.no_dead_strip plt_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_Value
 plt_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_Value:
 _p_98:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1284,3799
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1284,3804
 	.no_dead_strip plt_System_DateTime_get_Kind
 plt_System_DateTime_get_Kind:
 _p_99:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1288,3810
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1288,3815
 	.no_dead_strip plt_System_DateTime_SpecifyKind_System_DateTime_System_DateTimeKind
 plt_System_DateTime_SpecifyKind_System_DateTime_System_DateTimeKind:
 _p_100:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1292,3815
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1292,3820
 	.no_dead_strip plt_MonoTouch_Foundation_NSDate_op_Implicit_System_DateTime
 plt_MonoTouch_Foundation_NSDate_op_Implicit_System_DateTime:
 _p_101:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1296,3820
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1296,3825
 	.no_dead_strip plt_System_DateTime_ToLocalTime
 plt_System_DateTime_ToLocalTime:
 _p_102:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1300,3825
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1300,3830
 	.no_dead_strip plt_System_DateTime_ToShortTimeString
 plt_System_DateTime_ToShortTimeString:
 _p_103:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1304,3830
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1304,3835
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_104:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1308,3835
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1308,3840
 	.no_dead_strip plt_MonoTouch_UIKit_UIDatePicker__ctor_System_Drawing_RectangleF
 plt_MonoTouch_UIKit_UIDatePicker__ctor_System_Drawing_RectangleF:
 _p_105:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1312,3840
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1312,3845
 	.no_dead_strip plt_MonoTouch_Dialog_DateTimeElement_PickerFrameWithSize_System_Drawing_SizeF
 plt_MonoTouch_Dialog_DateTimeElement_PickerFrameWithSize_System_Drawing_SizeF:
 _p_106:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1316,3845
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1316,3850
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_ViewWillDisappear_bool
 plt_MonoTouch_UIKit_UIViewController_ViewWillDisappear_bool:
 _p_107:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1320,3847
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1320,3852
 	.no_dead_strip plt_MonoTouch_Foundation_NSDate_op_Implicit_MonoTouch_Foundation_NSDate
 plt_MonoTouch_Foundation_NSDate_op_Implicit_MonoTouch_Foundation_NSDate:
 _p_108:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1324,3852
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1324,3857
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
 plt_MonoTouch_UIKit_UIViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation:
 _p_109:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1328,3857
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1328,3862
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Element_Add_MonoTouch_Dialog_Element
 plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Element_Add_MonoTouch_Dialog_Element:
 _p_110:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1332,3862
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1332,3867
 	.no_dead_strip plt_MonoTouch_Dialog_Section_InsertVisual_int_MonoTouch_UIKit_UITableViewRowAnimation_int
 plt_MonoTouch_Dialog_Section_InsertVisual_int_MonoTouch_UIKit_UITableViewRowAnimation_int:
 _p_111:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1336,3873
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1336,3878
 	.no_dead_strip plt_MonoTouch_Dialog_RootElement_IndexOf_MonoTouch_Dialog_Section
 plt_MonoTouch_Dialog_RootElement_IndexOf_MonoTouch_Dialog_Section:
 _p_112:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1340,3875
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1340,3880
 	.no_dead_strip plt_MonoTouch_Dialog_Section_Clear
 plt_MonoTouch_Dialog_Section_Clear:
 _p_113:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1344,3878
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1344,3883
 	.no_dead_strip plt_MonoTouch_Foundation_NSIndexPath_Create_uint__
 plt_MonoTouch_Foundation_NSIndexPath_Create_uint__:
 _p_114:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1348,3880
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1348,3885
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Section_Add_MonoTouch_Dialog_Section
 plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Section_Add_MonoTouch_Dialog_Section:
 _p_115:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1352,3885
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1352,3890
 	.no_dead_strip plt_MonoTouch_Foundation_NSIndexSet_FromNSRange_MonoTouch_Foundation_NSRange
 plt_MonoTouch_Foundation_NSIndexSet_FromNSRange_MonoTouch_Foundation_NSRange:
 _p_116:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1356,3896
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1356,3901
 	.no_dead_strip plt_MonoTouch_Dialog_RootElement_Clear
 plt_MonoTouch_Dialog_RootElement_Clear:
 _p_117:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1360,3901
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1360,3906
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_118:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1364,3904
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1364,3909
 	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
 _p_119:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1368,3909
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1368,3914
 	.no_dead_strip plt_System_Threading_Interlocked_CompareExchange_System_Action_1_MonoTouch_Foundation_NSIndexPath_System_Action_1_MonoTouch_Foundation_NSIndexPath__System_Action_1_MonoTouch_Foundation_NSIndexPath_System_Action_1_MonoTouch_Foundation_NSIndexPath
 plt_System_Threading_Interlocked_CompareExchange_System_Action_1_MonoTouch_Foundation_NSIndexPath_System_Action_1_MonoTouch_Foundation_NSIndexPath__System_Action_1_MonoTouch_Foundation_NSIndexPath_System_Action_1_MonoTouch_Foundation_NSIndexPath:
 _p_120:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1372,3917
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1372,3922
 	.no_dead_strip plt_System_Threading_Interlocked_CompareExchange_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler__MonoTouch_Dialog_DialogViewController_SearchTextEventHandler_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
 plt_System_Threading_Interlocked_CompareExchange_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler__MonoTouch_Dialog_DialogViewController_SearchTextEventHandler_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler:
 _p_121:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1376,3929
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1376,3934
 	.no_dead_strip plt_System_Threading_Interlocked_CompareExchange_System_EventHandler_System_EventHandler__System_EventHandler_System_EventHandler
 plt_System_Threading_Interlocked_CompareExchange_System_EventHandler_System_EventHandler__System_EventHandler_System_EventHandler:
 _p_122:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1380,3941
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1380,3946
 	.no_dead_strip plt_MonoTouch_Dialog_DialogViewController_add_ViewDisappearing_System_EventHandler
 plt_MonoTouch_Dialog_DialogViewController_add_ViewDisappearing_System_EventHandler:
 _p_123:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1384,3953
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1384,3958
 	.no_dead_strip plt_MonoTouch_Dialog_DialogViewController_remove_ViewDisappearing_System_EventHandler
 plt_MonoTouch_Dialog_DialogViewController_remove_ViewDisappearing_System_EventHandler:
 _p_124:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1388,3956
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1388,3961
 	.no_dead_strip plt_MonoTouch_UIKit_UITableViewController__ctor_MonoTouch_UIKit_UITableViewStyle
 plt_MonoTouch_UIKit_UITableViewController__ctor_MonoTouch_UIKit_UITableViewStyle:
 _p_125:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1392,3959
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1392,3964
 	.no_dead_strip plt_MonoTouch_UIKit_UITableViewController__ctor_intptr
 plt_MonoTouch_UIKit_UITableViewController__ctor_intptr:
 _p_126:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1396,3964
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1396,3969
 	.no_dead_strip plt_MonoTouch_Dialog_RootElement__ctor_string
 plt_MonoTouch_Dialog_RootElement__ctor_string:
 _p_127:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1400,3969
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1400,3974
 	.no_dead_strip plt_MonoTouch_Dialog_DialogViewController_TriggerRefresh_bool
 plt_MonoTouch_Dialog_DialogViewController_TriggerRefresh_bool:
 _p_128:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1404,3972
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1404,3977
 	.no_dead_strip plt_MonoTouch_UIKit_UIView_BeginAnimations_string
 plt_MonoTouch_UIKit_UIView_BeginAnimations_string:
 _p_129:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1408,3975
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1408,3980
 	.no_dead_strip plt_MonoTouch_UIKit_UIView_SetAnimationDuration_double
 plt_MonoTouch_UIKit_UIView_SetAnimationDuration_double:
 _p_130:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1412,3980
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1412,3985
 	.no_dead_strip plt_MonoTouch_UIKit_UIEdgeInsets__ctor_single_single_single_single
 plt_MonoTouch_UIKit_UIEdgeInsets__ctor_single_single_single_single:
 _p_131:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1416,3985
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1416,3990
 	.no_dead_strip plt_MonoTouch_UIKit_UIView_CommitAnimations
 plt_MonoTouch_UIKit_UIView_CommitAnimations:
 _p_132:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1420,3990
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1420,3995
 	.no_dead_strip plt_System_DateTime_get_Now
 plt_System_DateTime_get_Now:
 _p_133:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1424,3995
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1424,4000
 	.no_dead_strip plt_MonoTouch_Dialog_RefreshTableHeaderView_set_LastUpdate_System_DateTime
 plt_MonoTouch_Dialog_RefreshTableHeaderView_set_LastUpdate_System_DateTime:
 _p_134:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1428,4000
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1428,4005
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Section_ToArray
 plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Section_ToArray:
 _p_135:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1432,4003
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1432,4008
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Element_ToArray
 plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Element_ToArray:
 _p_136:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1436,4014
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1436,4019
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Section__ctor_System_Collections_Generic_IEnumerable_1_MonoTouch_Dialog_Section
 plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Section__ctor_System_Collections_Generic_IEnumerable_1_MonoTouch_Dialog_Section:
 _p_137:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1440,4025
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1440,4030
 	.no_dead_strip plt_MonoTouch_Dialog_Section__ctor_string_string
 plt_MonoTouch_Dialog_Section__ctor_string_string:
 _p_138:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1444,4036
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1444,4041
 	.no_dead_strip plt_MonoTouch_UIKit_UISearchBar__ctor_System_Drawing_RectangleF
 plt_MonoTouch_UIKit_UISearchBar__ctor_System_Drawing_RectangleF:
 _p_139:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1448,4038
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1448,4043
 	.no_dead_strip plt_MonoTouch_UIKit_UISearchBar_set_Delegate_MonoTouch_UIKit_UISearchBarDelegate
 plt_MonoTouch_UIKit_UISearchBar_set_Delegate_MonoTouch_UIKit_UISearchBarDelegate:
 _p_140:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1452,4043
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1452,4048
 	.no_dead_strip plt_MonoTouch_UIKit_UITableView__ctor_System_Drawing_RectangleF_MonoTouch_UIKit_UITableViewStyle
 plt_MonoTouch_UIKit_UITableView__ctor_System_Drawing_RectangleF_MonoTouch_UIKit_UITableViewStyle:
 _p_141:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1456,4048
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1456,4053
 	.no_dead_strip plt_MonoTouch_Dialog_RootElement_Prepare
 plt_MonoTouch_Dialog_RootElement_Prepare:
 _p_142:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1460,4053
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1460,4058
 	.no_dead_strip plt_MonoTouch_Dialog_DialogViewController_SetupSearch
 plt_MonoTouch_Dialog_DialogViewController_SetupSearch:
 _p_143:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1464,4056
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1464,4061
 	.no_dead_strip plt_MonoTouch_Dialog_RefreshTableHeaderView__ctor_System_Drawing_RectangleF
 plt_MonoTouch_Dialog_RefreshTableHeaderView__ctor_System_Drawing_RectangleF:
 _p_144:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1468,4059
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1468,4064
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_ViewWillAppear_bool
 plt_MonoTouch_UIKit_UIViewController_ViewWillAppear_bool:
 _p_145:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1472,4062
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1472,4067
 	.no_dead_strip plt_MonoTouch_UIKit_UITableView_set_Source_MonoTouch_UIKit_UITableViewSource
 plt_MonoTouch_UIKit_UITableView_set_Source_MonoTouch_UIKit_UITableViewSource:
 _p_146:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1476,4067
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1476,4072
 	.no_dead_strip plt_MonoTouch_UIKit_UISearchBarDelegate__ctor
 plt_MonoTouch_UIKit_UISearchBarDelegate__ctor:
 _p_147:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1480,4072
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1480,4077
 	.no_dead_strip plt_MonoTouch_Dialog_DialogViewController_StartSearch
 plt_MonoTouch_Dialog_DialogViewController_StartSearch:
 _p_148:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1484,4077
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1484,4082
 	.no_dead_strip plt_MonoTouch_Dialog_DialogViewController_PerformFilter_string
 plt_MonoTouch_Dialog_DialogViewController_PerformFilter_string:
 _p_149:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1488,4080
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1488,4085
 	.no_dead_strip plt_MonoTouch_UIKit_UITableViewSource__ctor
 plt_MonoTouch_UIKit_UITableViewSource__ctor:
 _p_150:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1492,4083
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1492,4088
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGPath__ctor
 plt_MonoTouch_CoreGraphics_CGPath__ctor:
 _p_151:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1496,4088
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1496,4093
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGPath_MoveToPoint_single_single
 plt_MonoTouch_CoreGraphics_CGPath_MoveToPoint_single_single:
 _p_152:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1500,4093
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1500,4098
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGPath_AddArcToPoint_single_single_single_single_single
 plt_MonoTouch_CoreGraphics_CGPath_AddArcToPoint_single_single_single_single_single:
 _p_153:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1504,4098
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1504,4103
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGPath_CloseSubpath
 plt_MonoTouch_CoreGraphics_CGPath_CloseSubpath:
 _p_154:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1508,4103
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1508,4108
 	.no_dead_strip plt_MonoTouch_Dialog_GraphicsUtil_MakeRoundedRectPath_System_Drawing_RectangleF_single
 plt_MonoTouch_Dialog_GraphicsUtil_MakeRoundedRectPath_System_Drawing_RectangleF_single:
 _p_155:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1512,4108
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1512,4113
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_AddPath_MonoTouch_CoreGraphics_CGPath
 plt_MonoTouch_CoreGraphics_CGContext_AddPath_MonoTouch_CoreGraphics_CGPath:
 _p_156:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1516,4111
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1516,4116
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_FillPath
 plt_MonoTouch_CoreGraphics_CGContext_FillPath:
 _p_157:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1520,4116
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1520,4121
 	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
 plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
 _p_158:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1524,4121
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1524,4126
 	.no_dead_strip plt_System_IO_Path_Combine_string_string
 plt_System_IO_Path_Combine_string_string:
 _p_159:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1528,4126
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1528,4131
 	.no_dead_strip plt_System_IO_Directory_Exists_string
 plt_System_IO_Directory_Exists_string:
 _p_160:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1532,4131
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1532,4136
 	.no_dead_strip plt_System_IO_Directory_CreateDirectory_string
 plt_System_IO_Directory_CreateDirectory_string:
 _p_161:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1536,4136
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1536,4141
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated__ctor
 plt_System_Collections_Generic_Dictionary_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated__ctor:
 _p_162:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1540,4141
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1540,4146
 	.no_dead_strip plt_System_Collections_Generic_HashSet_1_System_Uri__ctor
 plt_System_Collections_Generic_HashSet_1_System_Uri__ctor:
 _p_163:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1544,4152
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1544,4157
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_LRUCache_2_System_Uri_MonoTouch_UIKit_UIImage__ctor_int_int_System_Func_2_MonoTouch_UIKit_UIImage_int
 plt_MonoTouch_Dialog_Utilities_LRUCache_2_System_Uri_MonoTouch_UIKit_UIImage__ctor_int_int_System_Func_2_MonoTouch_UIKit_UIImage_int:
 _p_164:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1548,4163
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1548,4168
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGImage_get_BytesPerRow
 plt_MonoTouch_CoreGraphics_CGImage_get_BytesPerRow:
 _p_165:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1552,4174
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1552,4179
 	.no_dead_strip plt__class_init_MonoTouch_Dialog_Utilities_ImageLoader
 plt__class_init_MonoTouch_Dialog_Utilities_ImageLoader:
 _p_166:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1556,4179
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1556,4184
 	.no_dead_strip plt_System_Text_Encoding_get_UTF8
 plt_System_Text_Encoding_get_UTF8:
 _p_167:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1560,4182
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1560,4187
 	.no_dead_strip plt_System_Security_Cryptography_HashAlgorithm_ComputeHash_byte__
 plt_System_Security_Cryptography_HashAlgorithm_ComputeHash_byte__:
 _p_168:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1564,4187
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1564,4192
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_ImageLoader_hex_int
 plt_MonoTouch_Dialog_Utilities_ImageLoader_hex_int:
 _p_169:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1568,4192
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1568,4197
 	.no_dead_strip plt_string__ctor_char__
 plt_string__ctor_char__:
 _p_170:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1572,4195
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1572,4200
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_ImageLoader__ctor_int_int
 plt_MonoTouch_Dialog_Utilities_ImageLoader__ctor_int_int:
 _p_171:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1576,4200
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1576,4205
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_ImageLoader_RequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
 plt_MonoTouch_Dialog_Utilities_ImageLoader_RequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated:
 _p_172:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1580,4203
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1580,4208
 	.no_dead_strip plt_System_Threading_Monitor_Enter_object_bool_
 plt_System_Threading_Monitor_Enter_object_bool_:
 _p_173:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1584,4206
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1584,4211
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_LRUCache_2_System_Uri_MonoTouch_UIKit_UIImage_get_Item_System_Uri
 plt_MonoTouch_Dialog_Utilities_LRUCache_2_System_Uri_MonoTouch_UIKit_UIImage_get_Item_System_Uri:
 _p_174:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1588,4211
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1588,4216
 	.no_dead_strip plt_System_Threading_Monitor_Exit_object
 plt_System_Threading_Monitor_Exit_object:
 _p_175:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1592,4222
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1592,4227
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_ContainsKey_System_Uri
 plt_System_Collections_Generic_Dictionary_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_ContainsKey_System_Uri:
 _p_176:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1596,4227
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1596,4232
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_get_Item_System_Uri
 plt_System_Collections_Generic_Dictionary_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_get_Item_System_Uri:
 _p_177:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1600,4238
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1600,4243
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_Contains_MonoTouch_Dialog_Utilities_IImageUpdated
 plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_Contains_MonoTouch_Dialog_Utilities_IImageUpdated:
 _p_178:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1604,4249
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1604,4254
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_Add_MonoTouch_Dialog_Utilities_IImageUpdated
 plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_Add_MonoTouch_Dialog_Utilities_IImageUpdated:
 _p_179:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1608,4260
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1608,4265
 	.no_dead_strip plt_System_Uri_get_IsFile
 plt_System_Uri_get_IsFile:
 _p_180:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1612,4271
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1612,4276
 	.no_dead_strip plt_System_Uri_get_LocalPath
 plt_System_Uri_get_LocalPath:
 _p_181:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1616,4276
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1616,4281
 	.no_dead_strip plt_System_Uri_get_AbsoluteUri
 plt_System_Uri_get_AbsoluteUri:
 _p_182:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1620,4281
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1620,4286
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_ImageLoader_md5_string
 plt_MonoTouch_Dialog_Utilities_ImageLoader_md5_string:
 _p_183:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1624,4286
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1624,4291
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_184:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1628,4289
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1628,4294
 	.no_dead_strip plt_System_IO_File_Exists_string
 plt_System_IO_File_Exists_string:
 _p_185:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1632,4294
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1632,4299
 	.no_dead_strip plt_MonoTouch_UIKit_UIImage_FromFile_string
 plt_MonoTouch_UIKit_UIImage_FromFile_string:
 _p_186:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1636,4299
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1636,4304
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_LRUCache_2_System_Uri_MonoTouch_UIKit_UIImage_set_Item_System_Uri_MonoTouch_UIKit_UIImage
 plt_MonoTouch_Dialog_Utilities_LRUCache_2_System_Uri_MonoTouch_UIKit_UIImage_set_Item_System_Uri_MonoTouch_UIKit_UIImage:
 _p_187:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1640,4304
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1640,4309
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_ImageLoader_QueueRequest_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
 plt_MonoTouch_Dialog_Utilities_ImageLoader_QueueRequest_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated:
 _p_188:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1644,4315
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1644,4320
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated__ctor_int
 plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated__ctor_int:
 _p_189:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1648,4318
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1648,4323
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_set_Item_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated
 plt_System_Collections_Generic_Dictionary_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_set_Item_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated:
 _p_190:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1652,4329
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1652,4334
 	.no_dead_strip plt_System_Collections_Generic_Stack_1_System_Uri_Push_System_Uri
 plt_System_Collections_Generic_Stack_1_System_Uri_Push_System_Uri:
 _p_191:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1656,4340
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1656,4345
 	.no_dead_strip plt_System_Threading_ThreadPool_QueueUserWorkItem_System_Threading_WaitCallback
 plt_System_Threading_ThreadPool_QueueUserWorkItem_System_Threading_WaitCallback:
 _p_192:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1660,4351
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1660,4356
 	.no_dead_strip plt_MonoTouch_Foundation_NSUrl__ctor_string
 plt_MonoTouch_Foundation_NSUrl__ctor_string:
 _p_193:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1664,4356
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1664,4361
 	.no_dead_strip plt_MonoTouch_Foundation_NSUrlRequest__ctor_MonoTouch_Foundation_NSUrl_MonoTouch_Foundation_NSUrlRequestCachePolicy_double
 plt_MonoTouch_Foundation_NSUrlRequest__ctor_MonoTouch_Foundation_NSUrl_MonoTouch_Foundation_NSUrlRequestCachePolicy_double:
 _p_194:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1668,4361
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1668,4366
 	.no_dead_strip plt_MonoTouch_Foundation_NSUrlConnection_SendSynchronousRequest_MonoTouch_Foundation_NSUrlRequest_MonoTouch_Foundation_NSUrlResponse__MonoTouch_Foundation_NSError_
 plt_MonoTouch_Foundation_NSUrlConnection_SendSynchronousRequest_MonoTouch_Foundation_NSUrlRequest_MonoTouch_Foundation_NSUrlResponse__MonoTouch_Foundation_NSError_:
 _p_195:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1672,4366
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1672,4371
 	.no_dead_strip plt_MonoTouch_Foundation_NSData_Save_string_bool_MonoTouch_Foundation_NSError_
 plt_MonoTouch_Foundation_NSData_Save_string_bool_MonoTouch_Foundation_NSError_:
 _p_196:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1676,4371
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1676,4376
 	.no_dead_strip plt_System_Console_WriteLine_string_object_object
 plt_System_Console_WriteLine_string_object_object:
 _p_197:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1680,4376
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1680,4381
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_198:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1684,4381
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1684,4386
 	.no_dead_strip plt_System_Threading_Interlocked_Increment_long_
 plt_System_Threading_Interlocked_Increment_long_:
 _p_199:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1688,4420
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1688,4425
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_ImageLoader__StartPicDownload_System_Uri
 plt_MonoTouch_Dialog_Utilities_ImageLoader__StartPicDownload_System_Uri:
 _p_200:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1692,4425
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1692,4430
 	.no_dead_strip plt_System_Console_get_Error
 plt_System_Console_get_Error:
 _p_201:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1696,4428
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1696,4433
 	.no_dead_strip plt_System_Threading_Interlocked_Decrement_long_
 plt_System_Threading_Interlocked_Decrement_long_:
 _p_202:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1700,4433
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1700,4438
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_ImageLoader_Download_System_Uri
 plt_MonoTouch_Dialog_Utilities_ImageLoader_Download_System_Uri:
 _p_203:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1704,4438
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1704,4443
 	.no_dead_strip plt_System_Collections_Generic_HashSet_1_System_Uri_Add_System_Uri
 plt_System_Collections_Generic_HashSet_1_System_Uri_Add_System_Uri:
 _p_204:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1708,4441
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1708,4446
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_Remove_System_Uri
 plt_System_Collections_Generic_Dictionary_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_Remove_System_Uri:
 _p_205:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1712,4452
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1712,4457
 	.no_dead_strip plt_System_Collections_Generic_Stack_1_System_Uri_Pop
 plt_System_Collections_Generic_Stack_1_System_Uri_Pop:
 _p_206:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1716,4463
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1716,4468
 	.no_dead_strip plt_MonoTouch_Foundation_NSObject_BeginInvokeOnMainThread_MonoTouch_Foundation_NSAction
 plt_MonoTouch_Foundation_NSObject_BeginInvokeOnMainThread_MonoTouch_Foundation_NSAction:
 _p_207:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1720,4474
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1720,4479
 	.no_dead_strip plt_System_Collections_Generic_HashSet_1_System_Uri_GetEnumerator
 plt_System_Collections_Generic_HashSet_1_System_Uri_GetEnumerator:
 _p_208:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1724,4479
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1724,4484
 	.no_dead_strip plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_GetEnumerator
 plt_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_GetEnumerator:
 _p_209:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1728,4490
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1728,4495
 	.no_dead_strip plt_System_Console_WriteLine_object
 plt_System_Console_WriteLine_object:
 _p_210:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1732,4501
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1732,4506
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_MonoTouch_Dialog_Utilities_IImageUpdated_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_MonoTouch_Dialog_Utilities_IImageUpdated_MoveNext:
 _p_211:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1736,4506
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1736,4511
 	.no_dead_strip plt_System_Collections_Generic_HashSet_1_Enumerator_System_Uri_MoveNext
 plt_System_Collections_Generic_HashSet_1_Enumerator_System_Uri_MoveNext:
 _p_212:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1740,4517
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1740,4522
 	.no_dead_strip plt_System_Collections_Generic_HashSet_1_System_Uri_Clear
 plt_System_Collections_Generic_HashSet_1_System_Uri_Clear:
 _p_213:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1744,4528
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1744,4533
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_ImageLoader_StartPicDownload_System_Uri
 plt_MonoTouch_Dialog_Utilities_ImageLoader_StartPicDownload_System_Uri:
 _p_214:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1748,4539
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1748,4544
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_215:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1752,4584
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1752,4589
 	.no_dead_strip plt_System_Collections_Generic_LinkedList_1_TValue__ctor
 plt_System_Collections_Generic_LinkedList_1_TValue__ctor:
 _p_216:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1756,4592
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1756,4597
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_217:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1760,4630
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1760,4635
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_TKey_System_Collections_Generic_LinkedListNode_1_TValue__ctor
 plt_System_Collections_Generic_Dictionary_2_TKey_System_Collections_Generic_LinkedListNode_1_TValue__ctor:
 _p_218:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1764,4638
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1764,4643
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_219:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1768,4671
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1768,4676
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_System_Collections_Generic_LinkedListNode_1_TValue_TKey__ctor
 plt_System_Collections_Generic_Dictionary_2_System_Collections_Generic_LinkedListNode_1_TValue_TKey__ctor:
 _p_220:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1772,4679
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1772,4684
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_TKey_System_Collections_Generic_LinkedListNode_1_TValue_TryGetValue_TKey_System_Collections_Generic_LinkedListNode_1_TValue_
 plt_System_Collections_Generic_Dictionary_2_TKey_System_Collections_Generic_LinkedListNode_1_TValue_TryGetValue_TKey_System_Collections_Generic_LinkedListNode_1_TValue_:
 _p_221:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1776,4701
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1776,4706
 	.no_dead_strip plt_System_Collections_Generic_LinkedList_1_TValue_Remove_System_Collections_Generic_LinkedListNode_1_TValue
 plt_System_Collections_Generic_LinkedList_1_TValue_Remove_System_Collections_Generic_LinkedListNode_1_TValue:
 _p_222:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1780,4723
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1780,4728
 	.no_dead_strip plt_System_Collections_Generic_LinkedList_1_TValue_AddFirst_System_Collections_Generic_LinkedListNode_1_TValue
 plt_System_Collections_Generic_LinkedList_1_TValue_AddFirst_System_Collections_Generic_LinkedListNode_1_TValue:
 _p_223:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1784,4742
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1784,4747
 	.no_dead_strip plt_System_Collections_Generic_LinkedListNode_1_TValue_get_Value
 plt_System_Collections_Generic_LinkedListNode_1_TValue_get_Value:
 _p_224:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1788,4761
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1788,4766
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_225:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1792,4800
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1792,4805
 	.no_dead_strip plt_System_Collections_Generic_LinkedListNode_1_TValue_set_Value_TValue
 plt_System_Collections_Generic_LinkedListNode_1_TValue_set_Value_TValue:
 _p_226:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1796,4808
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1796,4813
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_LRUCache_2_Evict
 plt_MonoTouch_Dialog_Utilities_LRUCache_2_Evict:
 _p_227:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1800,4827
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1800,4832
 	.no_dead_strip plt_System_Collections_Generic_LinkedList_1_TValue_get_Count
 plt_System_Collections_Generic_LinkedList_1_TValue_get_Count:
 _p_228:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1804,4830
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1804,4835
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_TKey_System_Collections_Generic_LinkedListNode_1_TValue_get_Count
 plt_System_Collections_Generic_Dictionary_2_TKey_System_Collections_Generic_LinkedListNode_1_TValue_get_Count:
 _p_229:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1808,4849
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1808,4854
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_230:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1812,4891
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1812,4896
 	.no_dead_strip plt_System_Collections_Generic_LinkedListNode_1_TValue__ctor_TValue
 plt_System_Collections_Generic_LinkedListNode_1_TValue__ctor_TValue:
 _p_231:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1816,4899
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1816,4904
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_TKey_System_Collections_Generic_LinkedListNode_1_TValue_set_Item_TKey_System_Collections_Generic_LinkedListNode_1_TValue
 plt_System_Collections_Generic_Dictionary_2_TKey_System_Collections_Generic_LinkedListNode_1_TValue_set_Item_TKey_System_Collections_Generic_LinkedListNode_1_TValue:
 _p_232:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1820,4918
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1820,4923
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_System_Collections_Generic_LinkedListNode_1_TValue_TKey_set_Item_System_Collections_Generic_LinkedListNode_1_TValue_TKey
 plt_System_Collections_Generic_Dictionary_2_System_Collections_Generic_LinkedListNode_1_TValue_TKey_set_Item_System_Collections_Generic_LinkedListNode_1_TValue_TKey:
 _p_233:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1824,4940
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1824,4945
 	.no_dead_strip plt_System_Collections_Generic_LinkedList_1_TValue_get_Last
 plt_System_Collections_Generic_LinkedList_1_TValue_get_Last:
 _p_234:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1828,4962
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1828,4967
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_System_Collections_Generic_LinkedListNode_1_TValue_TKey_get_Item_System_Collections_Generic_LinkedListNode_1_TValue
 plt_System_Collections_Generic_Dictionary_2_System_Collections_Generic_LinkedListNode_1_TValue_TKey_get_Item_System_Collections_Generic_LinkedListNode_1_TValue:
 _p_235:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1832,4981
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1832,4986
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_TKey_System_Collections_Generic_LinkedListNode_1_TValue_Remove_TKey
 plt_System_Collections_Generic_Dictionary_2_TKey_System_Collections_Generic_LinkedListNode_1_TValue_Remove_TKey:
 _p_236:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1836,5003
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1836,5008
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_System_Collections_Generic_LinkedListNode_1_TValue_TKey_Remove_System_Collections_Generic_LinkedListNode_1_TValue
 plt_System_Collections_Generic_Dictionary_2_System_Collections_Generic_LinkedListNode_1_TValue_TKey_Remove_System_Collections_Generic_LinkedListNode_1_TValue:
 _p_237:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1840,5025
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1840,5030
 	.no_dead_strip plt_System_Collections_Generic_LinkedList_1_TValue_RemoveLast
 plt_System_Collections_Generic_LinkedList_1_TValue_RemoveLast:
 _p_238:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1844,5047
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1844,5052
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_239:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1848,5066
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1848,5071
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGGradient__ctor_MonoTouch_CoreGraphics_CGColorSpace_single___single__
 plt_MonoTouch_CoreGraphics_CGGradient__ctor_MonoTouch_CoreGraphics_CGColorSpace_single___single__:
 _p_240:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1852,5071
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1852,5076
 	.no_dead_strip plt_MonoTouch_UIKit_UIView__ctor
 plt_MonoTouch_UIKit_UIView__ctor:
 _p_241:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1856,5076
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1856,5081
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_set_Sender_string
 plt_MonoTouch_Dialog_MessageSummaryView_set_Sender_string:
 _p_242:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1860,5081
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1860,5086
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_set_Body_string
 plt_MonoTouch_Dialog_MessageSummaryView_set_Body_string:
 _p_243:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1864,5084
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1864,5089
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_set_Subject_string
 plt_MonoTouch_Dialog_MessageSummaryView_set_Subject_string:
 _p_244:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1868,5087
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1868,5092
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_set_Date_System_DateTime
 plt_MonoTouch_Dialog_MessageSummaryView_set_Date_System_DateTime:
 _p_245:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1872,5090
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1872,5095
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_set_NewFlag_bool
 plt_MonoTouch_Dialog_MessageSummaryView_set_NewFlag_bool:
 _p_246:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1876,5093
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1876,5098
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_set_MessageCount_int
 plt_MonoTouch_Dialog_MessageSummaryView_set_MessageCount_int:
 _p_247:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1880,5096
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1880,5101
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_get_MessageCount
 plt_MonoTouch_Dialog_MessageSummaryView_get_MessageCount:
 _p_248:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1884,5099
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1884,5104
 	.no_dead_strip plt_MonoTouch_UIKit_UIView_DrawString_string_System_Drawing_RectangleF_MonoTouch_UIKit_UIFont
 plt_MonoTouch_UIKit_UIView_DrawString_string_System_Drawing_RectangleF_MonoTouch_UIKit_UIFont:
 _p_249:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1888,5102
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1888,5107
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor_FromRGB_int_int_int
 plt_MonoTouch_UIKit_UIColor_FromRGB_int_int_int:
 _p_250:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1892,5107
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1892,5112
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_get_Date
 plt_MonoTouch_Dialog_MessageSummaryView_get_Date:
 _p_251:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1896,5112
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1896,5117
 	.no_dead_strip plt_System_DateTime_op_Subtraction_System_DateTime_System_DateTime
 plt_System_DateTime_op_Subtraction_System_DateTime_System_DateTime:
 _p_252:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1900,5115
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1900,5120
 	.no_dead_strip plt_System_DateTime_get_Day
 plt_System_DateTime_get_Day:
 _p_253:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1904,5120
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1904,5125
 	.no_dead_strip plt_System_TimeSpan_FromHours_double
 plt_System_TimeSpan_FromHours_double:
 _p_254:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1908,5125
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1908,5130
 	.no_dead_strip plt_System_TimeSpan_op_LessThanOrEqual_System_TimeSpan_System_TimeSpan
 plt_System_TimeSpan_op_LessThanOrEqual_System_TimeSpan_System_TimeSpan:
 _p_255:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1912,5130
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1912,5135
 	.no_dead_strip plt_System_TimeSpan_FromDays_double
 plt_System_TimeSpan_FromDays_double:
 _p_256:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1916,5135
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1916,5140
 	.no_dead_strip plt_System_TimeSpan_op_LessThan_System_TimeSpan_System_TimeSpan
 plt_System_TimeSpan_op_LessThan_System_TimeSpan_System_TimeSpan:
 _p_257:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1920,5140
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1920,5145
 	.no_dead_strip plt_System_DateTime_ToString_string
 plt_System_DateTime_ToString_string:
 _p_258:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1924,5145
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1924,5150
 	.no_dead_strip plt_System_DateTime_ToShortDateString
 plt_System_DateTime_ToShortDateString:
 _p_259:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1928,5150
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1928,5155
 	.no_dead_strip plt_MonoTouch_UIKit_UIView_DrawString_string_System_Drawing_RectangleF_MonoTouch_UIKit_UIFont_MonoTouch_UIKit_UILineBreakMode_MonoTouch_UIKit_UITextAlignment
 plt_MonoTouch_UIKit_UIView_DrawString_string_System_Drawing_RectangleF_MonoTouch_UIKit_UIFont_MonoTouch_UIKit_UILineBreakMode_MonoTouch_UIKit_UITextAlignment:
 _p_260:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1932,5155
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1932,5160
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_get_Sender
 plt_MonoTouch_Dialog_MessageSummaryView_get_Sender:
 _p_261:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1936,5160
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1936,5165
 	.no_dead_strip plt_MonoTouch_UIKit_UIView_DrawString_string_System_Drawing_PointF_single_MonoTouch_UIKit_UIFont_MonoTouch_UIKit_UILineBreakMode
 plt_MonoTouch_UIKit_UIView_DrawString_string_System_Drawing_PointF_single_MonoTouch_UIKit_UIFont_MonoTouch_UIKit_UILineBreakMode:
 _p_262:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1940,5163
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1940,5168
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_get_Subject
 plt_MonoTouch_Dialog_MessageSummaryView_get_Subject:
 _p_263:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1944,5168
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1944,5173
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_get_Body
 plt_MonoTouch_Dialog_MessageSummaryView_get_Body:
 _p_264:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1948,5171
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1948,5176
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_get_NewFlag
 plt_MonoTouch_Dialog_MessageSummaryView_get_NewFlag:
 _p_265:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1952,5174
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1952,5179
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_SaveState
 plt_MonoTouch_CoreGraphics_CGContext_SaveState:
 _p_266:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1956,5177
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1956,5182
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_AddEllipseInRect_System_Drawing_RectangleF
 plt_MonoTouch_CoreGraphics_CGContext_AddEllipseInRect_System_Drawing_RectangleF:
 _p_267:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1960,5182
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1960,5187
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_DrawLinearGradient_MonoTouch_CoreGraphics_CGGradient_System_Drawing_PointF_System_Drawing_PointF_MonoTouch_CoreGraphics_CGGradientDrawingOptions
 plt_MonoTouch_CoreGraphics_CGContext_DrawLinearGradient_MonoTouch_CoreGraphics_CGGradient_System_Drawing_PointF_System_Drawing_PointF_MonoTouch_CoreGraphics_CGGradientDrawingOptions:
 _p_268:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1964,5187
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1964,5192
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_RestoreState
 plt_MonoTouch_CoreGraphics_CGContext_RestoreState:
 _p_269:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1968,5192
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1968,5197
 	.no_dead_strip plt_MonoTouch_Dialog_MessageElement_MessageCell__ctor
 plt_MonoTouch_Dialog_MessageElement_MessageCell__ctor:
 _p_270:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1972,5197
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1972,5202
 	.no_dead_strip plt__class_init_MonoTouch_Dialog_MessageSummaryView
 plt__class_init_MonoTouch_Dialog_MessageSummaryView:
 _p_271:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1976,5200
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1976,5205
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView__ctor
 plt_MonoTouch_Dialog_MessageSummaryView__ctor:
 _p_272:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1980,5203
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1980,5208
 	.no_dead_strip plt_MonoTouch_Dialog_MessageSummaryView_Update_string_string_string_System_DateTime_bool_int
 plt_MonoTouch_Dialog_MessageSummaryView_Update_string_string_string_System_DateTime_bool_int:
 _p_273:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1984,5206
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1984,5211
 	.no_dead_strip plt_MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_set_Element_MonoTouch_Dialog_OwnerDrawnElement
 plt_MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_set_Element_MonoTouch_Dialog_OwnerDrawnElement:
 _p_274:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1988,5209
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1988,5214
 	.no_dead_strip plt_System_Reflection_Assembly_GetCallingAssembly
 plt_System_Reflection_Assembly_GetCallingAssembly:
 _p_275:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1992,5212
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1992,5217
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_AllocHGlobal_int
 plt_System_Runtime_InteropServices_Marshal_AllocHGlobal_int:
 _p_276:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1996,5217
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 1996,5222
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_Copy_byte___int_intptr_int
 plt_System_Runtime_InteropServices_Marshal_Copy_byte___int_intptr_int:
 _p_277:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2000,5222
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2000,5227
 	.no_dead_strip plt_MonoTouch_Foundation_NSData_FromBytes_intptr_uint
 plt_MonoTouch_Foundation_NSData_FromBytes_intptr_uint:
 _p_278:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2004,5227
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2004,5232
 	.no_dead_strip plt_MonoTouch_UIKit_UIImage_LoadFromData_MonoTouch_Foundation_NSData
 plt_MonoTouch_UIKit_UIImage_LoadFromData_MonoTouch_Foundation_NSData:
 _p_279:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2008,5232
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2008,5237
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr
 plt_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr:
 _p_280:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2012,5237
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2012,5242
 	.no_dead_strip plt_System_IO_Stream_Dispose
 plt_System_IO_Stream_Dispose:
 _p_281:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2016,5242
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2016,5247
 	.no_dead_strip plt_MonoTouch_UIKit_UIView__ctor_System_Drawing_RectangleF
 plt_MonoTouch_UIKit_UIView__ctor_System_Drawing_RectangleF:
 _p_282:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2020,5247
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2020,5252
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor__ctor_single_single_single_single
 plt_MonoTouch_UIKit_UIColor__ctor_single_single_single_single:
 _p_283:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2024,5252
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2024,5257
 	.no_dead_strip plt_System_DateTime_op_Equality_System_DateTime_System_DateTime
 plt_System_DateTime_op_Equality_System_DateTime_System_DateTime:
 _p_284:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2028,5257
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2028,5262
 	.no_dead_strip plt__class_init_System_DateTime
 plt__class_init_System_DateTime:
 _p_285:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2032,5262
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2032,5267
 	.no_dead_strip plt__jit_icall_mono_object_new_ptrfree_box
 plt__jit_icall_mono_object_new_ptrfree_box:
 _p_286:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2036,5267
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2036,5272
 	.no_dead_strip plt_MonoTouch_UIKit_UIImageView__ctor
 plt_MonoTouch_UIKit_UIImageView__ctor:
 _p_287:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2040,5297
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2040,5302
 	.no_dead_strip plt_MonoTouch_CoreAnimation_CATransform3D_MakeRotation_single_single_single_single
 plt_MonoTouch_CoreAnimation_CATransform3D_MakeRotation_single_single_single_single:
 _p_288:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2044,5302
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2044,5307
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_DrawPath_MonoTouch_CoreGraphics_CGPathDrawingMode
 plt_MonoTouch_CoreGraphics_CGContext_DrawPath_MonoTouch_CoreGraphics_CGPathDrawingMode:
 _p_289:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2048,5307
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2048,5312
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_BeginPath
 plt_MonoTouch_CoreGraphics_CGContext_BeginPath:
 _p_290:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2052,5312
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2052,5317
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_StrokePath
 plt_MonoTouch_CoreGraphics_CGContext_StrokePath:
 _p_291:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2056,5317
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2056,5322
 	.no_dead_strip plt_MonoTouch_Dialog_Util_FromResource_System_Reflection_Assembly_string
 plt_MonoTouch_Dialog_Util_FromResource_System_Reflection_Assembly_string:
 _p_292:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2060,5322
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2060,5327
 	.no_dead_strip plt_System_Threading_Interlocked_CompareExchange_System_Action_1_MonoTouch_Dialog_GlassButton_System_Action_1_MonoTouch_Dialog_GlassButton__System_Action_1_MonoTouch_Dialog_GlassButton_System_Action_1_MonoTouch_Dialog_GlassButton
 plt_System_Threading_Interlocked_CompareExchange_System_Action_1_MonoTouch_Dialog_GlassButton_System_Action_1_MonoTouch_Dialog_GlassButton__System_Action_1_MonoTouch_Dialog_GlassButton_System_Action_1_MonoTouch_Dialog_GlassButton:
 _p_293:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2064,5325
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2064,5330
 	.no_dead_strip plt_MonoTouch_UIKit_UIButton__ctor_System_Drawing_RectangleF
 plt_MonoTouch_UIKit_UIButton__ctor_System_Drawing_RectangleF:
 _p_294:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2068,5337
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2068,5342
 	.no_dead_strip plt_MonoTouch_UIKit_UIControl_get_Enabled
 plt_MonoTouch_UIKit_UIControl_get_Enabled:
 _p_295:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2072,5342
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2072,5347
 	.no_dead_strip plt_MonoTouch_UIKit_UIControl_set_Enabled_bool
 plt_MonoTouch_UIKit_UIControl_set_Enabled_bool:
 _p_296:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2076,5347
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2076,5352
 	.no_dead_strip plt_MonoTouch_UIKit_UIControl_BeginTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
 plt_MonoTouch_UIKit_UIControl_BeginTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent:
 _p_297:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2080,5352
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2080,5357
 	.no_dead_strip plt_MonoTouch_UIKit_UIControl_EndTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
 plt_MonoTouch_UIKit_UIControl_EndTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent:
 _p_298:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2084,5357
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2084,5362
 	.no_dead_strip plt_System_Drawing_RectangleF_Contains_System_Drawing_PointF
 plt_System_Drawing_RectangleF_Contains_System_Drawing_PointF:
 _p_299:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2088,5362
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2088,5367
 	.no_dead_strip plt_MonoTouch_UIKit_UIControl_ContinueTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
 plt_MonoTouch_UIKit_UIControl_ContinueTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent:
 _p_300:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2092,5367
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2092,5372
 	.no_dead_strip plt_MonoTouch_CoreGraphics_RectangleFExtensions_GetMidX_System_Drawing_RectangleF
 plt_MonoTouch_CoreGraphics_RectangleFExtensions_GetMidX_System_Drawing_RectangleF:
 _p_301:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2096,5372
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2096,5377
 	.no_dead_strip plt_MonoTouch_CoreGraphics_RectangleFExtensions_GetMidY_System_Drawing_RectangleF
 plt_MonoTouch_CoreGraphics_RectangleFExtensions_GetMidY_System_Drawing_RectangleF:
 _p_302:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2100,5377
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2100,5382
 	.no_dead_strip plt_MonoTouch_CoreGraphics_RectangleFExtensions_GetMaxY_System_Drawing_RectangleF
 plt_MonoTouch_CoreGraphics_RectangleFExtensions_GetMaxY_System_Drawing_RectangleF:
 _p_303:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2104,5382
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2104,5387
 	.no_dead_strip plt_MonoTouch_CoreGraphics_RectangleFExtensions_Inset_System_Drawing_RectangleF_single_single
 plt_MonoTouch_CoreGraphics_RectangleFExtensions_Inset_System_Drawing_RectangleF_single_single:
 _p_304:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2108,5387
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2108,5392
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_FillRect_System_Drawing_RectangleF
 plt_MonoTouch_CoreGraphics_CGContext_FillRect_System_Drawing_RectangleF:
 _p_305:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2112,5392
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2112,5397
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_SetLineWidth_single
 plt_MonoTouch_CoreGraphics_CGContext_SetLineWidth_single:
 _p_306:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2116,5397
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2116,5402
 	.no_dead_strip plt_MonoTouch_CoreGraphics_CGContext_ReplacePathWithStrokedPath
 plt_MonoTouch_CoreGraphics_CGContext_ReplacePathWithStrokedPath:
 _p_307:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2120,5402
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2120,5407
 	.no_dead_strip plt_MonoTouch_Foundation_NSBundle_get_MainBundle
 plt_MonoTouch_Foundation_NSBundle_get_MainBundle:
 _p_308:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2124,5407
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2124,5412
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_309:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2128,5433
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2128,5438
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_310:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2132,5506
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2132,5511
 	.no_dead_strip plt_System_Collections_Generic_LinkedList_1__1__ctor
 plt_System_Collections_Generic_LinkedList_1__1__ctor:
 _p_311:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2136,5514
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2136,5519
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_312:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2140,5552
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2140,5557
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2__0_System_Collections_Generic_LinkedListNode_1__1__ctor
 plt_System_Collections_Generic_Dictionary_2__0_System_Collections_Generic_LinkedListNode_1__1__ctor:
 _p_313:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2144,5560
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2144,5565
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_314:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2148,5593
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2148,5598
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_System_Collections_Generic_LinkedListNode_1__1__0__ctor
 plt_System_Collections_Generic_Dictionary_2_System_Collections_Generic_LinkedListNode_1__1__0__ctor:
 _p_315:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2152,5601
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2152,5606
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_316:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2156,5644
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2156,5649
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_317:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2160,5721
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2160,5726
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_318:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2164,5765
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2164,5770
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_319:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2168,5801
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2168,5806
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_320:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2172,5837
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2172,5842
 	.no_dead_strip plt__jit_icall_mono_object_castclass_unbox
 plt__jit_icall_mono_object_castclass_unbox:
 _p_321:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2176,5868
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2176,5873
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_322:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2180,5919
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2180,5924
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_323:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2184,6027
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2184,6032
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_324:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2188,6063
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2188,6068
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_325:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2192,6107
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2192,6112
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_326:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2196,6138
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2196,6143
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_327:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2200,6174
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2200,6179
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_328:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2204,6210
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2204,6215
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_329:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2208,6218
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2208,6223
 	.no_dead_strip plt_MonoTouch_Dialog_Utilities_LRUCache_2__0__1_Evict
 plt_MonoTouch_Dialog_Utilities_LRUCache_2__0__1_Evict:
 _p_330:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2212,6250
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2212,6255
 	.no_dead_strip plt_System_Collections_Generic_LinkedList_1__1_get_Count
 plt_System_Collections_Generic_LinkedList_1__1_get_Count:
 _p_331:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2216,6272
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2216,6277
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2__0_System_Collections_Generic_LinkedListNode_1__1_get_Count
 plt_System_Collections_Generic_Dictionary_2__0_System_Collections_Generic_LinkedListNode_1__1_get_Count:
 _p_332:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2220,6291
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2220,6296
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_333:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2224,6313
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2224,6318
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_334:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2228,6321
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2228,6326
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_335:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2232,6353
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2232,6358
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_336:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2236,6396
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2236,6401
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_337:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2240,6460
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2240,6465
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_338:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2244,6545
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2244,6550
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_339:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2248,6580
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2248,6585
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_340:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2252,6622
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2252,6627
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_341:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2256,6653
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2256,6658
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_342:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2260,6689
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2260,6694
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_343:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2264,6724
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2264,6729
 	.no_dead_strip plt_System_Collections_Generic_LinkedList_1__1_RemoveLast
 plt_System_Collections_Generic_LinkedList_1__1_RemoveLast:
 _p_344:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2268,6763
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2268,6768
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_345:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2272,6782
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2272,6787
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_346:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2276,6811
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2276,6816
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_347:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2280,6840
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2280,6845
 	.no_dead_strip plt_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Unbox_object
 plt_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Unbox_object:
 _p_348:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2284,6878
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2284,6883
 	.no_dead_strip plt_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
 plt_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType:
 _p_349:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2288,6899
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2288,6904
 	.no_dead_strip plt_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType__ctor_MonoTouch_UIKit_UIReturnKeyType
 plt_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType__ctor_MonoTouch_UIKit_UIReturnKeyType:
 _p_350:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2292,6920
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2292,6925
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_351:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2296,6960
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2296,6965
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_352:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2300,6996
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2300,7001
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T__ctor_System_Array:
 _p_353:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2304,7004
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2304,7009
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_354:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2308,7023
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2308,7028
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_355:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2312,7052
+	.long _mono_aot_MonoTouch_Dialog_1_got - . + 2312,7057
 plt_end:
 .section __TEXT, __const
 	.align 3
@@ -14281,7 +14303,7 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampolines_end
 
-	.long 224,2320,356,378,10,118565375,0,12901
+	.long 224,2320,356,380,10,118565375,0,12914
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,128,4,4,14
 	.globl _mono_aot_module_MonoTouch_Dialog_1_info
@@ -14298,405 +14320,405 @@ blob:
 	.byte 13,0,2,14,15,1,4,1,16,1,4,2,17,18,1,4,3,19,12,16,1,5,5,20,21,22,23,24,1,5,0,1
 	.byte 5,0,1,5,0,1,5,1,21,1,5,0,1,6,1,25,1,6,0,1,6,1,9,1,6,12,26,27,28,22,29,24
 	.byte 22,30,24,31,32,33,1,6,3,34,12,25,0,0,0,0,0,0,0,0,0,0,0,2,35,36,0,0,0,2,37,38
-	.byte 1,9,0,1,9,2,39,40,1,9,2,39,40,1,9,5,41,42,41,9,10,1,9,0,1,9,0,1,9,0,1,9
-	.byte 6,43,12,41,44,12,42,1,10,1,45,1,10,1,9,1,10,1,10,1,10,0,1,10,0,1,10,1,46,1,10,0
-	.byte 1,10,10,47,48,12,49,12,50,12,51,12,45,0,3,6,52,52,0,1,6,0,0,0,0,0,0,1,16,1,53,1
-	.byte 16,1,54,1,16,7,9,5,55,56,54,57,57,1,16,0,1,16,0,1,16,9,58,59,58,58,60,58,61,54,58,1
-	.byte 16,4,54,62,12,53,0,0,0,1,46,1,18,1,13,1,18,0,1,18,0,1,18,0,1,18,0,1,18,0,1,18
-	.byte 0,1,18,0,1,18,0,1,18,2,63,64,1,18,0,1,18,8,5,65,66,7,67,66,7,7,1,18,3,68,10,10
-	.byte 1,18,15,69,9,22,70,24,22,71,24,72,73,74,75,22,76,24,1,18,1,13,1,18,0,1,18,0,1,18,0,1
-	.byte 18,0,1,18,0,1,18,10,77,12,78,66,79,12,63,77,12,64,0,0,0,0,0,0,0,8,8,7,67,67,7,7
-	.byte 8,8,0,7,80,5,7,67,7,7,80,0,0,0,0,0,0,0,1,81,0,2,82,83,0,1,84,0,2,85,86,0
-	.byte 0,0,0,0,0,0,0,0,1,86,0,0,0,2,87,88,0,2,87,88,0,1,89,0,1,89,0,0,0,1,90,0
-	.byte 0,0,1,90,0,0,0,0,0,2,6,46,0,1,91,0,6,7,7,7,87,88,6,0,0,0,3,10,9,92,0,0
-	.byte 0,0,0,0,0,5,93,94,7,7,7,0,2,95,7,0,0,0,0,0,0,1,26,4,96,97,96,97,1,26,1,52
-	.byte 1,26,1,52,1,26,9,52,8,7,98,99,7,7,8,8,1,26,3,8,8,8,1,26,11,8,7,98,100,100,101,101
-	.byte 7,7,8,8,1,26,0,1,26,0,1,26,5,8,8,8,96,97,1,26,0,1,26,1,102,1,26,1,103,1,26,19
-	.byte 104,105,9,52,8,7,98,7,7,8,8,8,7,106,107,7,7,8,8,1,26,0,1,26,1,108,1,26,0,1,26,6
-	.byte 109,12,104,110,12,105,0,0,0,0,0,0,0,5,111,112,8,8,8,0,2,113,8,0,0,0,0,0,0,0,0,0
-	.byte 5,114,115,8,8,8,0,2,116,8,0,0,0,3,117,118,119,0,3,117,118,119,0,0,0,0,0,1,120,0,1,120
-	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,121,122,0,2,121,122,0,0,0,0,0,2,120,123
-	.byte 0,2,120,123,0,0,0,0,0,0,0,0,0,0,0,0,0,2,10,124,0,0,0,2,13,125,0,1,126,0,0,0
-	.byte 0,0,1,127,0,1,96,0,1,128,128,0,7,96,97,89,89,128,129,90,90,0,0,0,2,128,130,128,130,0,1,128
-	.byte 130,0,2,128,131,128,132,0,0,0,0,0,1,128,133,0,0,0,0,0,1,128,134,0,0,0,2,128,135,128,136,0
-	.byte 0,0,0,0,1,13,0,0,0,0,0,0,0,1,10,0,1,10,0,0,0,0,0,1,128,137,0,0,0,0,0,0
-	.byte 0,1,89,0,0,0,3,101,101,128,138,0,0,0,0,0,1,90,0,2,90,90,0,1,90,0,2,90,90,0,0,0
-	.byte 0,0,0,0,0,0,3,100,100,128,139,0,1,128,140,0,0,1,36,19,128,141,128,142,128,143,12,128,144,128,145,55
-	.byte 128,146,128,142,128,147,128,148,128,148,128,148,128,149,128,150,128,151,128,152,128,153,128,154,1,36,7,128,155,128,156,128
-	.byte 157,128,158,128,155,128,155,128,159,1,36,0,1,36,0,1,36,2,128,146,128,160,1,36,4,128,161,128,162,128,161,128
-	.byte 161,1,36,5,128,154,128,150,128,150,128,150,128,148,1,36,11,128,163,128,154,128,150,128,150,128,164,128,150,128,165,128
-	.byte 154,128,166,128,167,128,168,1,36,4,128,148,128,169,128,170,128,171,1,36,3,128,165,128,172,128,165,1,36,15,128,154
-	.byte 128,152,128,152,128,150,128,154,128,154,128,173,128,150,128,144,128,174,128,175,128,176,128,177,128,174,128,174,1,36,12,128
-	.byte 154,128,152,128,178,128,150,128,150,128,179,128,180,128,179,128,179,128,178,128,178,128,152,0,0,0,0,0,0,0,0,0
-	.byte 1,57,0,1,57,0,1,128,181,1,39,0,1,39,0,1,39,0,1,39,0,1,39,0,1,39,0,1,39,0,1,39
-	.byte 0,1,39,0,1,39,0,1,39,0,1,39,0,1,39,9,128,182,128,183,128,184,128,185,128,186,128,187,128,188,128,189
-	.byte 57,1,39,0,1,39,0,1,39,10,128,185,128,185,128,190,128,191,128,183,128,183,128,182,128,183,128,184,128,189,1,40
-	.byte 3,128,192,128,193,128,194,1,40,0,1,40,0,1,40,3,128,195,12,128,192,0,2,128,192,128,196,0,0,0,0,0
-	.byte 0,0,0,0,0,0,2,128,197,128,198,0,0,0,0,0,1,128,199,0,0,0,0,0,0,0,0,0,0,0,0,0
-	.byte 0,0,2,55,128,200,1,47,1,128,201,1,47,0,1,47,5,128,202,128,203,128,204,128,205,128,206,1,47,7,20,128
-	.byte 201,20,128,201,128,207,128,208,35,1,47,0,1,47,3,128,209,128,210,128,211,1,47,0,1,47,0,1,47,0,1,47
-	.byte 2,128,212,128,208,0,0,0,0,0,3,128,213,118,128,214,0,3,128,213,118,128,214,0,1,128,201,0,0,0,0,0
-	.byte 0,0,0,0,1,128,215,0,21,128,186,128,216,128,186,128,188,57,128,186,128,217,128,186,128,188,57,128,186,128,218,128
-	.byte 186,128,188,57,128,186,128,219,128,186,128,188,57,57,0,2,10,10,0,0,0,0,0,1,57,0,1,57,0,1,128,181
-	.byte 0,1,128,220,0,1,128,220,0,0,0,0,0,0,0,3,128,221,80,80,0,2,128,222,128,222,0,1,128,222,0,0
-	.byte 0,2,128,222,10,0,1,128,222,0,2,128,223,80,0,1,128,220,0,0,0,1,128,220,0,1,128,220,0,1,128,220
-	.byte 0,1,128,220,0,1,128,220,0,1,128,220,0,1,128,220,0,1,128,220,0,1,128,220,0,0,0,0,5,19,0,0
-	.byte 1,5,19,1,0,1,4,1,38,2,7,133,252,7,134,1,255,253,0,0,0,7,134,6,0,198,0,1,5,2,7,133
-	.byte 252,7,134,1,0,255,253,0,0,0,7,134,6,0,198,0,1,6,2,7,133,252,7,134,1,0,255,253,0,0,0,7
-	.byte 134,6,0,198,0,1,7,2,7,133,252,7,134,1,0,255,253,0,0,0,7,134,6,0,198,0,1,8,2,7,133,252
-	.byte 7,134,1,0,255,253,0,0,0,7,134,6,0,198,0,1,9,2,7,133,252,7,134,1,0,255,252,0,0,0,1,1
-	.byte 3,219,0,0,5,255,252,0,0,0,1,1,3,219,0,0,6,255,253,0,0,0,3,219,0,0,7,1,198,0,21,80
-	.byte 1,2,70,2,0,255,254,0,0,0,0,202,0,0,158,255,254,0,0,0,0,202,0,0,160,255,253,0,0,0,3,219
-	.byte 0,0,7,1,198,0,21,83,1,2,70,2,0,255,253,0,0,0,3,219,0,0,7,1,198,0,21,84,1,2,70,2
-	.byte 0,255,253,0,0,0,3,219,0,0,7,1,198,0,21,85,1,2,70,2,0,255,253,0,0,0,3,219,0,0,7,1
-	.byte 198,0,21,86,1,2,70,2,0,255,253,0,0,0,3,219,0,0,7,1,198,0,21,87,1,2,70,2,0,255,253,0
-	.byte 0,0,3,219,0,0,7,1,198,0,21,88,1,2,70,2,0,255,253,0,0,0,3,219,0,0,7,1,198,0,21,89
-	.byte 1,2,70,2,0,255,252,0,0,0,1,1,3,219,0,0,8,5,30,0,1,255,255,255,255,255,193,0,16,6,255,253
-	.byte 0,0,0,2,130,117,1,1,198,0,16,6,0,1,7,135,81,255,252,0,0,0,1,1,3,219,0,0,11,255,252,0
-	.byte 0,0,1,1,3,219,0,0,13,4,2,121,1,2,2,129,167,3,3,219,0,0,20,4,2,99,1,3,2,129,167,3
-	.byte 3,219,0,0,20,7,135,137,255,252,0,0,0,1,1,7,135,151,255,252,0,0,0,1,1,3,219,0,0,18,4,2
-	.byte 73,3,1,2,111,2,4,2,121,1,2,2,129,167,3,7,135,190,4,2,99,1,3,2,129,167,3,7,135,190,7,135
-	.byte 198,255,252,0,0,0,1,1,7,135,210,4,2,121,1,2,7,135,190,2,129,167,3,4,2,99,1,3,7,135,190,2
-	.byte 129,167,3,7,135,235,255,252,0,0,0,1,1,7,135,247,255,252,0,0,0,1,1,3,219,0,0,30,255,252,0,0
-	.byte 0,1,1,3,219,0,0,31,255,252,0,0,0,1,0,0,32,2,1,28,18,1,48,255,252,0,0,0,2,0,32,4
-	.byte 18,2,130,187,1,28,18,1,48,18,2,130,126,1,28,255,252,0,0,0,3,0,32,1,1,18,2,130,187,1,12,0
-	.byte 39,42,47,16,1,2,3,11,1,22,11,1,26,14,3,219,0,0,2,14,3,219,0,0,4,14,2,128,129,2,16,2
-	.byte 130,255,1,138,75,17,0,1,14,2,128,173,2,16,2,130,170,1,137,172,17,0,7,17,0,13,16,1,4,6,11,1
-	.byte 5,14,1,5,17,0,21,14,2,129,15,2,16,1,5,9,14,2,130,172,1,6,27,30,2,130,172,1,16,1,6,16
-	.byte 14,1,8,14,1,7,14,2,129,70,2,6,38,6,39,14,3,219,0,0,5,6,40,30,3,219,0,0,5,17,0,61
-	.byte 14,2,129,9,2,14,2,94,2,17,0,85,17,0,128,236,11,2,128,217,2,34,255,254,0,0,0,0,255,43,0,0
-	.byte 1,16,1,9,23,16,1,9,24,17,0,129,18,17,0,129,46,16,1,10,28,14,6,1,2,128,156,2,14,6,1,2
-	.byte 128,173,2,17,0,129,84,17,0,129,90,17,0,129,96,17,0,129,102,11,1,25,16,1,16,47,16,1,16,46,16,2
-	.byte 130,202,1,137,218,14,2,128,197,2,6,193,0,20,50,16,1,16,50,14,2,118,2,14,1,17,14,2,121,2,17,0
-	.byte 129,218,16,1,18,72,16,1,18,73,17,0,129,244,16,1,18,67,11,1,18,14,2,128,130,2,14,1,19,6,95,6
-	.byte 96,14,2,129,91,2,6,97,30,2,129,91,2,11,2,129,91,2,6,98,17,0,129,248,16,1,18,56,17,0,130,18
-	.byte 14,3,219,0,0,7,17,0,130,62,16,2,3,2,7,14,2,129,17,2,8,4,129,132,129,132,128,204,128,204,14,1
-	.byte 21,16,2,4,2,10,14,3,219,0,0,1,4,2,130,159,1,1,1,2,16,7,137,204,137,104,11,2,130,255,1,11
-	.byte 2,128,134,2,14,1,23,17,0,130,66,8,2,108,128,188,8,1,129,84,8,2,128,164,104,14,3,219,0,0,3,4
-	.byte 2,130,159,1,1,1,22,16,7,137,255,137,104,11,1,14,14,6,1,2,131,25,1,23,1,12,23,1,13,14,1,27
-	.byte 14,1,28,16,1,26,95,16,1,26,96,11,1,15,11,1,3,14,1,29,17,0,130,124,17,0,130,150,8,2,108,128
-	.byte 188,8,1,129,84,8,2,128,164,104,8,2,108,128,188,8,1,129,84,8,2,128,164,104,11,3,219,0,0,13,43,34
-	.byte 255,254,0,0,0,0,255,43,0,0,2,11,2,130,172,1,11,1,30,34,255,254,0,0,0,0,255,43,0,0,3,34
-	.byte 255,254,0,0,0,0,255,43,0,0,4,14,1,26,17,0,131,154,17,0,131,182,14,6,1,6,1,1,2,14,1,48
-	.byte 14,1,22,11,2,113,2,14,2,124,2,14,1,31,14,2,128,128,2,14,1,47,14,1,33,14,1,32,11,1,10,6
-	.byte 58,6,57,14,2,128,207,2,17,0,131,210,16,1,36,128,141,17,0,131,216,16,1,36,128,147,14,2,13,1,16,1
-	.byte 36,128,148,17,0,131,220,16,1,36,128,142,14,3,219,0,0,15,16,1,36,128,144,14,3,219,0,0,16,16,1,36
-	.byte 128,145,14,3,219,0,0,17,16,1,36,128,146,16,1,36,128,151,14,3,219,0,0,18,6,128,249,30,3,219,0,0
-	.byte 18,14,3,219,0,0,19,14,6,1,2,130,137,1,16,1,36,128,149,14,1,36,14,1,37,14,3,219,0,0,20,16
-	.byte 1,36,128,150,14,2,130,99,1,6,129,4,30,2,130,99,1,14,2,128,174,2,14,2,128,163,2,17,0,132,62,17
-	.byte 0,132,104,17,0,132,186,16,1,36,128,152,14,2,128,217,2,6,129,2,30,2,128,217,2,14,3,219,0,0,21,14
-	.byte 3,219,0,0,22,6,128,246,17,0,133,116,16,1,39,128,161,16,1,39,128,162,16,1,39,128,163,16,1,39,128,164
-	.byte 14,6,1,2,130,253,1,29,0,196,0,0,203,0,14,2,128,204,2,16,1,39,128,171,17,0,133,194,17,0,133,214
-	.byte 16,1,40,128,172,11,1,41,14,1,41,17,0,133,224,14,1,39,11,1,43,14,1,43,14,1,44,14,6,1,2,130
-	.byte 134,1,14,2,98,2,16,2,130,145,1,137,27,17,0,134,8,17,0,134,48,14,2,130,145,1,17,0,134,96,14,2
-	.byte 129,16,2,16,1,47,128,189,17,0,134,112,17,0,134,150,17,0,134,172,17,0,134,220,11,3,219,0,0,31,34,255
-	.byte 254,0,0,0,0,255,43,0,0,5,11,2,129,63,2,29,0,196,0,0,204,0,29,0,196,0,0,205,0,29,0,196
-	.byte 0,0,206,0,29,0,196,0,0,207,0,33,11,2,70,2,14,2,70,2,11,2,130,200,1,3,255,254,0,0,0,0
-	.byte 202,0,0,2,3,255,254,0,0,0,0,202,0,0,4,3,194,0,4,97,3,255,254,0,0,0,0,202,0,0,7,3
-	.byte 255,254,0,0,0,0,202,0,0,9,7,24,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,115,112,101,99
-	.byte 105,102,105,99,0,3,194,0,2,247,3,11,3,193,0,22,118,3,194,0,4,231,3,129,71,3,194,0,2,241,3,22
-	.byte 3,194,0,6,210,3,194,0,1,242,3,194,0,1,234,7,20,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119
-	.byte 95,102,97,115,116,0,3,194,0,2,6,3,194,0,3,108,7,32,109,111,110,111,95,97,114,99,104,95,116,104,114,111
-	.byte 119,95,99,111,114,108,105,98,95,101,120,99,101,112,116,105,111,110,0,3,194,0,3,122,3,194,0,0,10,3,194,0
-	.byte 2,43,3,194,0,1,201,3,194,0,2,176,3,194,0,8,54,3,194,0,1,245,3,194,0,8,60,3,194,0,8,62
-	.byte 3,194,0,8,64,3,128,201,3,194,0,4,176,3,194,0,3,140,3,194,0,6,190,3,194,0,1,216,3,194,0,0
-	.byte 58,3,193,0,22,162,3,42,3,193,0,19,35,3,255,254,0,0,0,0,255,43,0,0,1,3,193,0,19,38,3,194
-	.byte 0,4,239,3,194,0,2,244,3,51,3,194,0,1,243,3,195,0,12,169,3,128,252,3,194,0,1,246,3,194,0,2
-	.byte 42,3,194,0,1,254,3,195,0,12,168,7,23,109,111,110,111,95,97,114,114,97,121,95,110,101,119,95,115,112,101,99
-	.byte 105,102,105,99,0,3,3,3,44,7,17,109,111,110,111,95,104,101,108,112,101,114,95,108,100,115,116,114,0,7,25,109
-	.byte 111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,101,120,99,101,112,116,105,111,110,0,3,128,136,3,128,138,3
-	.byte 128,137,3,194,0,2,70,3,194,0,2,74,3,194,0,5,170,3,194,0,5,223,3,194,0,5,224,7,14,95,95,101
-	.byte 109,117,108,95,111,112,95,105,100,105,118,0,3,194,0,5,168,3,194,0,5,200,3,194,0,2,73,3,194,0,2,72
-	.byte 3,194,0,5,152,3,194,0,5,119,3,194,0,5,182,3,194,0,5,176,3,194,0,5,178,3,194,0,5,196,3,194
-	.byte 0,5,122,3,194,0,2,86,7,26,109,111,110,111,95,104,101,108,112,101,114,95,108,100,115,116,114,95,109,115,99,111
-	.byte 114,108,105,98,0,3,65,15,2,118,2,3,194,0,2,127,3,194,0,2,31,3,194,0,2,28,3,194,0,2,156,3
-	.byte 194,0,6,254,3,193,0,22,73,3,73,3,194,0,3,117,3,193,0,20,205,3,194,0,3,2,3,84,3,194,0,2
-	.byte 10,3,194,0,3,19,3,194,0,3,21,3,194,0,3,22,3,194,0,3,17,3,87,3,255,254,0,0,0,0,202,0
-	.byte 0,160,3,193,0,18,62,3,193,0,18,80,3,194,0,4,15,3,193,0,18,117,3,193,0,18,112,3,193,0,22,170
-	.byte 3,194,0,6,237,3,104,3,194,0,3,162,3,194,0,4,14,3,194,0,3,167,3,255,254,0,0,0,0,202,0,0
-	.byte 182,3,122,3,128,139,3,124,3,194,0,4,92,3,255,254,0,0,0,0,202,0,0,190,3,194,0,8,131,3,128,143
-	.byte 3,193,0,20,109,3,255,252,0,0,0,19,9,3,255,254,0,0,0,0,255,43,0,0,2,3,255,254,0,0,0,0
-	.byte 255,43,0,0,3,3,255,254,0,0,0,0,255,43,0,0,4,3,128,182,3,128,183,3,194,0,7,175,3,194,0,7
-	.byte 174,3,128,135,3,128,192,3,194,0,3,110,3,194,0,3,126,3,194,0,1,130,3,194,0,3,125,3,193,0,18,57
-	.byte 3,129,52,3,255,254,0,0,0,0,202,0,0,213,3,255,254,0,0,0,0,202,0,0,214,3,255,254,0,0,0,0
-	.byte 202,0,0,215,3,113,3,194,0,2,181,3,194,0,2,184,3,194,0,2,223,3,128,140,3,128,203,3,129,50,3,194
-	.byte 0,3,160,3,194,0,2,220,3,194,0,7,111,3,128,196,3,128,199,3,194,0,7,144,3,194,0,5,234,3,194,0
-	.byte 5,248,3,194,0,5,252,3,194,0,5,250,3,128,244,3,194,0,5,184,3,194,0,5,190,3,193,0,19,173,3,193
-	.byte 0,7,60,3,193,0,6,150,3,193,0,6,148,3,255,254,0,0,0,0,202,0,1,1,3,255,254,0,0,0,0,202
-	.byte 0,1,2,3,255,254,0,0,0,0,202,0,1,5,3,194,0,5,225,15,1,36,3,193,0,13,80,3,193,0,12,98
-	.byte 3,128,250,3,193,0,22,70,3,128,248,3,128,253,3,193,0,15,39,3,255,254,0,0,0,0,202,0,1,12,3,193
-	.byte 0,15,37,3,255,254,0,0,0,0,202,0,1,14,3,255,254,0,0,0,0,202,0,1,15,3,255,254,0,0,0,0
-	.byte 202,0,1,16,3,255,254,0,0,0,0,202,0,1,17,3,195,0,12,148,3,195,0,12,150,3,195,0,12,142,3,128
-	.byte 251,3,193,0,22,169,3,193,0,6,182,3,194,0,2,84,3,255,254,0,0,0,0,202,0,1,24,3,128,254,3,255
-	.byte 254,0,0,0,0,202,0,1,26,3,255,254,0,0,0,0,202,0,1,27,3,255,254,0,0,0,0,202,0,1,28,3
-	.byte 193,0,15,102,3,194,0,4,251,3,194,0,4,173,3,194,0,5,5,3,194,0,3,242,3,193,0,17,32,7,36,109
-	.byte 111,110,111,95,116,104,114,101,97,100,95,103,101,116,95,117,110,100,101,110,105,97,98,108,101,95,101,120,99,101,112,116
-	.byte 105,111,110,0,3,193,0,15,16,3,129,1,3,193,0,17,25,3,193,0,15,14,3,128,255,3,255,254,0,0,0,0
-	.byte 202,0,1,40,3,255,254,0,0,0,0,202,0,1,42,3,255,254,0,0,0,0,202,0,1,44,3,194,0,0,65,3
-	.byte 255,254,0,0,0,0,202,0,1,47,3,255,254,0,0,0,0,202,0,1,49,3,193,0,17,30,3,255,254,0,0,0
-	.byte 0,202,0,1,52,3,255,254,0,0,0,0,202,0,1,53,3,255,254,0,0,0,0,202,0,1,54,3,129,0,5,19
-	.byte 0,1,0,1,38,5,19,1,1,0,1,38,255,253,0,0,0,1,38,0,198,0,1,5,2,7,145,190,7,145,197,0
-	.byte 4,2,71,3,1,7,145,197,35,145,204,150,4,7,145,224,3,255,253,0,0,0,7,145,224,3,198,0,2,36,1,7
-	.byte 145,197,0,4,2,73,3,1,7,145,197,4,2,98,1,2,7,145,190,7,146,3,35,145,204,150,4,7,146,11,3,255
-	.byte 253,0,0,0,7,146,11,1,198,0,2,244,2,7,145,190,7,146,3,0,4,2,98,1,2,7,146,3,7,145,190,35
-	.byte 145,204,150,4,7,146,52,3,255,253,0,0,0,7,146,52,1,198,0,2,244,2,7,146,3,7,145,190,0,3,255,253
-	.byte 0,0,0,7,146,11,1,198,0,3,15,2,7,145,190,7,146,3,0,3,255,253,0,0,0,7,145,224,3,198,0,2
-	.byte 52,1,7,145,197,0,3,255,253,0,0,0,7,145,224,3,198,0,2,42,1,7,145,197,0,3,255,253,0,0,0,7
-	.byte 146,3,3,198,0,2,68,1,7,145,197,0,255,253,0,0,0,1,38,0,198,0,1,6,2,7,145,190,7,145,197,0
-	.byte 35,146,172,150,24,7,145,197,3,255,253,0,0,0,7,146,3,3,198,0,2,69,1,7,145,197,0,3,129,8,3,255
-	.byte 253,0,0,0,7,145,224,3,198,0,2,38,1,7,145,197,0,3,255,253,0,0,0,7,146,11,1,198,0,2,241,2
-	.byte 7,145,190,7,146,3,0,255,253,0,0,0,1,38,0,198,0,1,7,2,7,145,190,7,145,197,0,35,147,7,150,4
-	.byte 7,146,3,3,255,253,0,0,0,7,146,3,3,198,0,2,64,1,7,145,197,0,3,255,253,0,0,0,7,146,11,1
-	.byte 198,0,2,243,2,7,145,190,7,146,3,0,3,255,253,0,0,0,7,146,52,1,198,0,2,243,2,7,146,3,7,145
-	.byte 190,0,3,255,253,0,0,0,7,145,224,3,198,0,2,39,1,7,145,197,0,3,255,253,0,0,0,7,146,52,1,198
-	.byte 0,2,242,2,7,146,3,7,145,190,0,3,255,253,0,0,0,7,146,11,1,198,0,3,14,2,7,145,190,7,146,3
-	.byte 0,3,255,253,0,0,0,7,146,52,1,198,0,3,14,2,7,146,3,7,145,190,0,3,255,253,0,0,0,7,145,224
-	.byte 3,198,0,2,53,1,7,145,197,0,3,193,0,22,215,3,194,0,5,213,3,194,0,3,83,3,129,11,3,129,13,3
-	.byte 129,15,3,129,17,3,129,19,3,129,21,3,129,20,3,194,0,3,115,3,194,0,1,250,3,129,16,3,193,0,18,126
-	.byte 3,193,0,18,51,3,193,0,23,26,3,193,0,23,42,3,193,0,23,25,3,193,0,23,41,3,193,0,18,115,3,193
-	.byte 0,18,111,3,194,0,3,116,3,129,10,3,194,0,3,114,3,129,14,3,129,12,3,129,18,3,194,0,5,165,3,194
-	.byte 0,5,180,3,194,0,5,202,3,194,0,5,166,3,129,30,15,1,39,3,129,23,3,129,24,3,129,41,3,193,0,8
-	.byte 55,3,193,0,10,98,3,193,0,10,101,3,194,0,3,243,3,194,0,2,85,3,193,0,10,106,3,193,0,7,90,3
-	.byte 194,0,3,86,3,194,0,1,241,3,193,0,18,120,15,2,130,145,1,7,27,109,111,110,111,95,111,98,106,101,99,116
-	.byte 95,110,101,119,95,112,116,114,102,114,101,101,95,98,111,120,0,3,194,0,6,228,3,194,0,5,53,3,194,0,5,188
-	.byte 3,194,0,5,174,3,194,0,5,192,3,129,49,3,255,254,0,0,0,0,255,43,0,0,5,3,194,0,1,232,3,194
-	.byte 0,2,17,3,194,0,2,18,3,194,0,2,21,3,194,0,2,23,3,194,0,0,26,3,194,0,2,22,3,194,0,5
-	.byte 204,3,194,0,5,206,3,194,0,5,208,3,194,0,5,210,3,194,0,5,194,3,194,0,5,172,3,194,0,5,186,3
-	.byte 194,0,3,222,255,253,0,0,0,7,134,6,0,198,0,1,5,2,7,133,252,7,134,1,0,35,149,36,192,0,92,40
-	.byte 255,253,0,0,0,7,134,6,0,198,0,1,5,2,7,133,252,7,134,1,0,6,15,7,134,6,128,156,15,7,134,6
-	.byte 128,154,15,7,134,6,128,155,15,7,134,6,128,157,15,7,134,6,128,158,15,7,134,6,128,160,4,2,71,3,1,7
-	.byte 134,1,35,149,36,150,4,7,149,122,3,255,253,0,0,0,7,149,122,3,198,0,2,36,1,7,134,1,0,4,2,73
-	.byte 3,1,7,134,1,4,2,98,1,2,7,133,252,7,149,157,35,149,36,150,4,7,149,165,3,255,253,0,0,0,7,149
-	.byte 165,1,198,0,2,244,2,7,133,252,7,149,157,0,4,2,98,1,2,7,149,157,7,133,252,35,149,36,150,4,7,149
-	.byte 206,3,255,253,0,0,0,7,149,206,1,198,0,2,244,2,7,149,157,7,133,252,0,255,253,0,0,0,7,134,6,0
-	.byte 198,0,1,6,2,7,133,252,7,134,1,0,35,149,247,192,0,92,40,255,253,0,0,0,7,134,6,0,198,0,1,6
-	.byte 2,7,133,252,7,134,1,0,11,15,7,134,6,128,154,15,7,134,6,128,156,1,7,134,1,19,7,134,1,25,7,134
-	.byte 1,14,7,134,1,22,7,134,1,21,7,134,1,21,7,134,1,21,7,134,1,21,7,134,1,35,149,247,192,0,90,34
-	.byte 32,2,2,19,7,133,252,16,21,2,73,3,1,7,134,1,255,253,0,0,0,7,149,165,1,198,0,3,15,2,7,133
-	.byte 252,7,149,157,0,35,149,247,192,0,90,32,32,1,1,21,2,73,3,1,7,134,1,255,253,0,0,0,7,149,122,3
-	.byte 198,0,2,52,1,7,134,1,0,35,149,247,192,0,90,32,32,1,1,21,2,73,3,1,7,134,1,255,253,0,0,0
-	.byte 7,149,122,3,198,0,2,42,1,7,134,1,0,35,149,247,192,0,90,32,32,0,19,7,134,1,255,253,0,0,0,7
-	.byte 149,157,3,198,0,2,68,1,7,134,1,0,7,27,109,111,110,111,95,111,98,106,101,99,116,95,99,97,115,116,99,108
-	.byte 97,115,115,95,117,110,98,111,120,0,255,253,0,0,0,7,134,6,0,198,0,1,7,2,7,133,252,7,134,1,0,35
-	.byte 151,10,192,0,92,40,255,253,0,0,0,7,134,6,0,198,0,1,7,2,7,133,252,7,134,1,0,13,15,7,134,6
-	.byte 128,158,15,7,134,6,128,160,15,7,134,6,128,154,15,7,134,6,128,159,15,7,134,6,128,156,15,7,134,6,128,157
-	.byte 15,7,134,6,128,155,14,7,134,1,23,7,134,1,21,7,134,1,21,7,134,1,21,7,134,1,21,7,134,1,4,2
-	.byte 130,179,1,2,7,134,1,2,130,200,1,35,151,10,192,0,90,34,32,1,8,19,7,134,1,255,253,0,0,0,7,151
-	.byte 126,1,198,0,19,224,2,7,134,1,2,130,200,1,0,35,151,10,192,0,90,34,32,2,2,19,7,133,252,16,21,2
-	.byte 73,3,1,7,134,1,255,253,0,0,0,7,149,165,1,198,0,3,15,2,7,133,252,7,149,157,0,35,151,10,192,0
-	.byte 90,32,32,0,19,7,134,1,255,253,0,0,0,7,149,157,3,198,0,2,68,1,7,134,1,0,35,151,10,192,0,90
-	.byte 32,32,1,1,21,2,73,3,1,7,134,1,255,253,0,0,0,7,149,122,3,198,0,2,52,1,7,134,1,0,35,151
-	.byte 10,192,0,90,32,32,1,1,21,2,73,3,1,7,134,1,255,253,0,0,0,7,149,122,3,198,0,2,42,1,7,134
-	.byte 1,0,35,151,10,150,2,7,134,1,35,151,10,192,0,90,32,32,1,1,19,7,134,1,255,253,0,0,0,7,149,157
-	.byte 3,198,0,2,69,1,7,134,1,0,3,255,253,0,0,0,7,134,6,0,198,0,1,8,2,7,133,252,7,134,1,0
-	.byte 3,255,253,0,0,0,7,149,122,3,198,0,2,38,1,7,134,1,0,3,255,253,0,0,0,7,149,165,1,198,0,2
-	.byte 241,2,7,133,252,7,149,157,0,35,151,10,150,4,7,149,157,35,151,10,192,0,90,32,32,1,1,19,7,134,1,255
-	.byte 253,0,0,0,7,149,157,3,198,0,2,64,1,7,134,1,0,35,151,10,192,0,90,34,32,2,1,19,7,133,252,21
-	.byte 2,73,3,1,7,134,1,255,253,0,0,0,7,149,165,1,198,0,2,243,2,7,133,252,7,149,157,0,35,151,10,192
-	.byte 0,90,34,32,2,1,21,2,73,3,1,7,134,1,19,7,133,252,255,253,0,0,0,7,149,206,1,198,0,2,243,2
-	.byte 7,149,157,7,133,252,0,255,253,0,0,0,7,134,6,0,198,0,1,8,2,7,133,252,7,134,1,0,35,153,39,192
-	.byte 0,92,40,255,253,0,0,0,7,134,6,0,198,0,1,8,2,7,133,252,7,134,1,0,11,15,7,134,6,128,156,15
-	.byte 7,134,6,128,155,15,7,134,6,128,158,15,7,134,6,128,160,15,7,134,6,128,159,15,7,134,6,128,154,14,7,134
-	.byte 1,23,7,134,1,21,7,133,252,21,7,134,1,21,7,134,1,35,153,39,192,0,90,32,32,0,21,2,73,3,1,7
-	.byte 134,1,255,253,0,0,0,7,149,122,3,198,0,2,39,1,7,134,1,0,35,153,39,192,0,90,34,32,1,19,7,133
-	.byte 252,21,2,73,3,1,7,134,1,255,253,0,0,0,7,149,206,1,198,0,2,242,2,7,149,157,7,133,252,0,35,153
-	.byte 39,192,0,90,32,32,0,19,7,134,1,255,253,0,0,0,7,149,157,3,198,0,2,68,1,7,134,1,0,35,153,39
-	.byte 192,0,90,34,32,1,8,19,7,134,1,255,253,0,0,0,7,151,126,1,198,0,19,224,2,7,134,1,2,130,200,1
-	.byte 0,35,153,39,192,0,90,34,32,1,2,19,7,133,252,255,253,0,0,0,7,149,165,1,198,0,3,14,2,7,133,252
-	.byte 7,149,157,0,35,153,39,192,0,90,34,32,1,2,21,2,73,3,1,7,134,1,255,253,0,0,0,7,149,206,1,198
-	.byte 0,3,14,2,7,149,157,7,133,252,0,3,255,253,0,0,0,7,149,122,3,198,0,2,53,1,7,134,1,0,35,153
-	.byte 39,150,2,7,134,1,255,253,0,0,0,7,134,6,0,198,0,1,9,2,7,133,252,7,134,1,0,35,154,134,192,0
-	.byte 92,40,255,253,0,0,0,7,134,6,0,198,0,1,9,2,7,133,252,7,134,1,0,0,7,35,109,111,110,111,95,116
-	.byte 104,114,101,97,100,95,105,110,116,101,114,114,117,112,116,105,111,110,95,99,104,101,99,107,112,111,105,110,116,0,3,255
-	.byte 253,0,0,0,3,219,0,0,7,1,198,0,21,89,1,2,70,2,0,3,255,253,0,0,0,3,219,0,0,7,1,198
-	.byte 0,21,84,1,2,70,2,0,3,255,253,0,0,0,3,219,0,0,7,1,198,0,21,80,1,2,70,2,0,255,253,0
-	.byte 0,0,2,130,117,1,1,198,0,16,6,0,1,7,135,81,35,155,29,192,0,92,41,255,253,0,0,0,2,130,117,1
-	.byte 1,198,0,16,6,0,1,7,135,81,0,4,2,130,118,1,1,7,135,81,35,155,29,150,5,7,155,75,3,255,253,0
-	.byte 0,0,7,155,75,1,198,0,16,83,1,7,135,81,0,7,26,109,111,110,111,95,100,101,108,101,103,97,116,101,95,98
-	.byte 101,103,105,110,95,105,110,118,111,107,101,0,7,24,109,111,110,111,95,100,101,108,101,103,97,116,101,95,101,110,100,95
-	.byte 105,110,118,111,107,101,0,2,0,0,2,0,0,38,19,2,2,2,0,130,32,129,136,129,244,129,248,2,0,130,120,129
-	.byte 68,130,76,130,80,0,8,129,192,1,4,129,196,0,2,0,0,2,0,0,2,52,0,2,71,0,2,0,0,2,52,0
-	.byte 2,52,0,2,92,0,2,119,0,2,0,0,2,0,0,2,0,0,2,128,137,0,2,119,0,2,0,0,2,128,158,0
-	.byte 2,0,0,2,128,185,0,2,52,0,2,128,208,0,2,128,235,0,2,0,0,2,128,137,0,2,0,0,2,0,0,2
-	.byte 129,0,0,2,129,23,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,128,185,0,2,71,0
-	.byte 2,128,185,0,2,52,0,2,129,52,0,2,129,52,0,2,129,81,0,2,0,0,2,129,110,0,2,129,129,0,2,52
-	.byte 0,2,0,0,2,129,152,0,2,129,81,0,2,128,137,0,2,129,177,0,2,129,204,0,2,119,0,2,129,227,0,2
-	.byte 129,81,0,2,129,246,0,2,129,129,0,2,0,0,2,130,17,0,2,0,0,2,130,40,0,6,130,71,2,2,0,134
-	.byte 112,130,52,134,36,134,40,2,0,134,192,129,188,134,116,134,120,0,2,71,0,2,128,235,0,2,130,104,0,2,130,136
-	.byte 0,2,130,160,0,2,130,181,0,2,129,0,0,2,128,235,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0
-	.byte 2,0,0,2,130,160,0,2,119,0,2,0,0,6,130,202,1,2,0,131,80,130,12,131,36,131,40,0,2,130,235,0
-	.byte 2,131,11,0,2,129,0,0,2,71,0,2,52,0,2,129,129,0,2,129,0,0,2,129,0,0,2,131,44,0,2,0
-	.byte 0,2,52,0,2,128,137,0,6,19,2,2,0,130,56,129,0,130,12,130,16,2,0,130,168,128,208,130,124,130,128,0
-	.byte 6,131,63,1,2,0,129,240,129,12,129,196,129,200,0,2,130,181,0,2,71,0,2,131,95,0,2,130,136,0,2,130
-	.byte 136,0,2,131,119,0,2,131,146,0,2,0,0,2,0,0,2,0,0,2,131,174,0,2,131,195,0,2,0,0,2,0
-	.byte 0,2,131,221,0,2,131,242,0,2,131,242,0,2,0,0,2,131,242,0,2,0,0,2,131,242,0,2,0,0,2,131
-	.byte 242,0,2,132,9,0,2,0,0,6,130,104,1,2,0,128,212,88,128,168,128,172,0,2,71,0,2,129,110,0,2,0
-	.byte 0,2,0,0,2,0,0,38,132,36,1,1,2,0,129,212,128,188,129,136,129,140,0,4,129,80,0,6,132,62,1,2
-	.byte 0,128,164,104,108,112,0,2,0,0,2,0,0,2,0,0,2,128,235,0,2,132,86,0,2,132,108,0,38,132,133,2
-	.byte 2,2,0,130,112,129,32,130,68,130,72,2,0,130,208,128,236,130,164,130,168,0,8,130,4,1,4,130,8,0,38,132
-	.byte 164,1,1,2,0,128,224,88,128,180,128,184,0,4,128,132,0,6,132,194,2,2,0,131,24,128,164,130,236,130,240,2
-	.byte 0,131,108,116,131,64,131,68,0,2,129,0,0,2,131,44,0,6,132,227,1,2,0,128,200,76,128,156,128,160,0,2
-	.byte 71,0,2,0,0,2,0,0,38,131,11,2,4,2,0,131,152,130,112,131,108,131,112,2,0,131,236,130,64,131,192,131
-	.byte 196,2,0,133,164,132,76,133,120,133,124,2,0,133,248,132,28,133,204,133,208,0,8,131,48,1,4,131,52,0,2,0
-	.byte 0,2,129,0,0,2,132,255,0,2,52,0,2,0,0,2,0,0,2,0,0,38,132,36,1,1,2,0,129,212,128,188
-	.byte 129,136,129,140,0,4,129,80,0,6,132,62,1,2,0,128,164,104,108,112,0,2,0,0,2,0,0,2,0,0,2,0
-	.byte 0,38,132,36,1,1,2,0,129,212,128,188,129,136,129,140,0,4,129,80,0,6,132,62,1,2,0,128,164,104,108,112
-	.byte 0,2,0,0,2,133,22,0,2,133,22,0,2,0,0,2,128,235,0,2,129,0,0,2,71,0,2,0,0,2,71,0
-	.byte 2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,129,52,0,2,129,52,0,2,0,0,2,71,0
-	.byte 2,129,52,0,2,129,52,0,2,0,0,2,0,0,2,128,235,0,2,131,221,0,2,128,235,0,2,133,45,0,2,133
-	.byte 66,0,2,0,0,2,133,87,0,2,133,87,0,2,128,235,0,2,133,113,0,2,129,0,0,2,128,137,0,2,133,66
-	.byte 0,2,133,139,0,2,0,0,2,133,168,0,2,128,158,0,2,133,194,0,2,133,223,0,2,133,223,0,2,131,95,0
-	.byte 2,133,250,0,2,134,20,0,2,131,95,0,2,134,46,0,2,133,66,0,2,119,0,2,119,0,2,128,137,0,2,0
-	.byte 0,2,0,0,2,0,0,2,129,129,0,2,71,0,2,52,0,2,128,235,0,2,134,67,0,2,134,96,0,2,0,0
-	.byte 2,129,152,0,2,129,52,0,2,134,121,0,2,134,146,0,2,52,0,2,133,45,0,2,129,52,0,2,134,67,0,2
-	.byte 129,52,0,2,134,67,0,2,128,185,0,2,0,0,2,131,174,0,2,0,0,2,134,171,0,2,134,200,0,2,133,250
-	.byte 0,2,0,0,2,129,152,0,2,52,0,2,119,0,2,129,152,0,2,52,0,38,134,225,2,3,2,0,128,192,96,128
-	.byte 156,128,160,2,0,129,200,128,224,129,164,129,168,2,0,130,184,130,108,130,148,130,152,0,4,128,148,1,4,129,156,0
-	.byte 38,135,1,1,1,2,0,130,68,116,130,32,130,36,0,4,128,240,0,6,135,33,1,0,44,1,2,130,173,1,56,129
-	.byte 68,129,68,0,6,135,57,1,0,4,1,2,130,173,1,64,76,76,0,6,135,81,1,2,0,129,236,96,129,200,129,204
-	.byte 0,6,135,109,4,0,56,1,2,130,173,1,129,176,129,224,129,224,2,0,130,96,129,136,130,52,130,56,2,0,130,192
-	.byte 128,220,130,136,130,140,2,0,131,12,128,168,130,232,130,236,0,2,0,0,6,135,134,1,0,4,1,2,130,173,1,36
-	.byte 52,52,0,3,135,158,0,1,13,0,255,253,0,0,0,1,38,0,198,0,1,5,2,7,145,190,7,145,197,0,0,0
-	.byte 3,52,0,1,13,4,255,253,0,0,0,1,38,0,198,0,1,6,2,7,145,190,7,145,197,0,0,0,3,132,9,0
-	.byte 1,13,12,255,253,0,0,0,1,38,0,198,0,1,7,2,7,145,190,7,145,197,0,0,0,3,130,181,0,1,13,12
-	.byte 255,253,0,0,0,1,38,0,198,0,1,8,2,7,145,190,7,145,197,0,0,0,3,0,0,1,13,0,255,253,0,0
-	.byte 0,1,38,0,198,0,1,9,2,7,145,190,7,145,197,0,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0
-	.byte 0,2,0,0,2,52,0,2,135,177,0,2,0,0,2,0,0,2,0,0,2,0,0,6,131,95,1,2,0,129,204,129
-	.byte 4,129,136,129,140,0,2,119,0,2,133,250,0,2,135,201,0,2,135,234,0,2,52,0,2,129,110,0,2,0,0,2
-	.byte 71,0,2,136,3,0,2,133,250,0,2,0,0,2,0,0,2,131,95,0,2,129,177,0,2,52,0,2,0,0,2,133
-	.byte 66,0,2,119,0,2,133,250,0,2,0,0,2,0,0,2,0,0,2,0,0,2,130,136,0,6,136,29,1,2,0,129
-	.byte 252,129,140,129,212,129,216,0,2,132,36,0,2,52,0,2,132,36,0,2,136,61,0,2,136,88,0,2,136,115,0,2
-	.byte 128,208,0,2,136,138,0,2,71,0,2,136,167,0,2,0,0,2,0,0,2,133,22,0,2,133,22,0,2,132,36,0
-	.byte 2,0,0,2,71,0,2,131,221,0,2,133,45,0,2,136,186,0,6,136,211,5,2,0,132,200,132,40,132,124,132,128
-	.byte 2,0,135,0,134,96,134,180,134,184,2,0,137,60,136,156,136,240,136,244,2,0,138,224,138,64,138,148,138,152,2,0
-	.byte 139,48,129,120,138,228,138,232,0,2,132,86,0,3,136,244,0,1,11,4,255,253,0,0,0,7,134,6,0,198,0,1
-	.byte 5,2,7,133,252,7,134,1,0,1,2,1,1,0,0,3,137,14,0,1,11,16,255,253,0,0,0,7,134,6,0,198
-	.byte 0,1,6,2,7,133,252,7,134,1,0,1,2,1,1,0,0,3,137,44,0,1,11,20,255,253,0,0,0,7,134,6
-	.byte 0,198,0,1,7,2,7,133,252,7,134,1,0,1,2,1,1,0,0,3,137,74,0,1,11,12,255,253,0,0,0,7
-	.byte 134,6,0,198,0,1,8,2,7,133,252,7,134,1,0,1,2,1,1,0,0,3,135,177,0,1,11,8,255,253,0,0
-	.byte 0,7,134,6,0,198,0,1,9,2,7,133,252,7,134,1,0,1,2,1,1,0,0,2,133,168,0,2,132,86,0,2
-	.byte 0,0,2,0,0,2,0,0,2,137,104,0,2,137,127,0,2,52,0,2,0,0,2,52,0,2,135,177,0,2,137,153
-	.byte 0,2,92,0,3,135,134,0,1,11,4,255,253,0,0,0,2,130,117,1,1,198,0,16,6,0,1,7,135,81,1,0
-	.byte 1,0,0,2,92,0,2,92,0,2,134,67,0,2,92,0,2,134,67,0,2,134,67,0,2,129,52,0,2,92,0,2
-	.byte 133,168,0,2,132,62,0,2,137,174,0,0,128,144,8,0,0,1,12,128,228,14,16,4,0,4,193,0,21,195,193,0
-	.byte 21,192,193,0,21,191,193,0,21,189,4,13,10,9,8,6,5,2,14,128,160,24,0,0,4,193,0,21,195,193,0,21
-	.byte 192,193,0,21,191,193,0,21,189,4,13,10,9,17,6,5,2,16,15,15,128,236,21,28,4,0,4,193,0,21,195,193
-	.byte 0,21,192,193,0,21,191,193,0,21,189,4,13,10,9,17,20,5,18,16,15,0,60,128,230,26,194,0,0,57,72,4
-	.byte 0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0
-	.byte 2,254,194,0,0,62,194,0,0,61,194,0,0,47,194,0,2,245,194,0,2,169,194,0,2,168,194,0,2,167,194,0
-	.byte 2,166,194,0,2,165,194,0,2,164,194,0,3,109,194,0,3,95,194,0,3,96,194,0,3,89,194,0,3,97,194,0
-	.byte 3,98,194,0,3,127,194,0,3,123,24,194,0,3,121,194,0,3,120,194,0,3,119,194,0,3,118,194,0,3,113,194
-	.byte 0,3,112,194,0,3,107,194,0,3,106,194,0,3,105,194,0,3,104,194,0,3,103,194,0,3,102,194,0,3,101,194
-	.byte 0,3,100,194,0,3,99,194,0,3,98,194,0,3,97,194,0,3,96,194,0,3,95,194,0,3,94,194,0,3,93,194
-	.byte 0,3,92,194,0,3,91,194,0,3,90,194,0,3,89,194,0,3,88,194,0,3,87,194,0,2,253,194,0,2,252,194
-	.byte 0,2,251,194,0,2,250,194,0,2,249,194,0,2,248,12,128,236,32,24,4,0,4,193,0,21,195,193,0,21,192,193
-	.byte 0,21,191,193,0,21,189,4,13,31,9,8,30,5,28,41,128,162,194,0,0,57,60,0,0,4,194,0,0,67,193,0
-	.byte 21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,3,170,194,0,0,62,194,0
-	.byte 0,61,194,0,0,47,194,0,3,139,194,0,2,169,194,0,2,168,194,0,2,167,194,0,2,166,194,0,2,165,194,0
-	.byte 2,164,194,0,3,157,194,0,3,169,194,0,3,168,194,0,3,167,36,194,0,3,165,194,0,3,164,194,0,3,163,194
-	.byte 0,3,162,194,0,3,161,194,0,3,160,194,0,3,159,194,0,3,158,194,0,3,153,194,0,3,152,194,0,3,151,194
-	.byte 0,3,150,194,0,3,149,194,0,3,148,194,0,3,147,194,0,3,146,194,0,3,145,194,0,3,144,4,128,160,20,0
-	.byte 0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,12,128,228,48,28,8,0,4,193,0,21,195,193,0
-	.byte 21,192,193,0,21,191,193,0,21,189,4,47,46,9,45,44,5,2,15,128,236,56,64,4,0,4,193,0,21,195,193,0
-	.byte 21,192,193,0,21,191,193,0,21,189,4,47,46,9,45,50,5,2,54,53,49,4,128,160,28,0,0,4,193,0,21,195
-	.byte 193,0,21,192,193,0,21,191,193,0,21,189,0,128,144,8,0,0,1,0,128,144,8,0,0,1,12,128,160,32,0,0
-	.byte 4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,47,60,9,45,59,5,2,12,128,160,32,0,0,4
-	.byte 193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,47,63,9,45,62,5,2,12,128,236,70,32,24,0,4
-	.byte 193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,13,69,9,8,66,67,64,21,128,162,194,0,0,57,36
+	.byte 1,9,0,1,9,0,1,9,2,39,40,1,9,2,39,40,1,9,5,41,42,41,9,10,1,9,0,1,9,0,1,9
+	.byte 0,1,9,6,43,12,41,44,12,42,1,10,1,45,1,10,1,9,1,10,1,10,1,10,0,1,10,0,1,10,1,46
+	.byte 1,10,0,1,10,10,47,48,12,49,12,50,12,51,12,45,0,3,6,52,52,0,1,6,0,0,0,0,0,0,0,0
+	.byte 1,16,1,53,1,16,1,54,1,16,7,9,5,55,56,54,57,57,1,16,0,1,16,0,1,16,9,58,59,58,58,60
+	.byte 58,61,54,58,1,16,4,54,62,12,53,0,0,0,1,46,1,18,1,13,1,18,0,1,18,0,1,18,0,1,18,0
+	.byte 1,18,0,1,18,0,1,18,0,1,18,0,1,18,2,63,64,1,18,0,1,18,8,5,65,66,7,67,66,7,7,1
+	.byte 18,3,68,10,10,1,18,15,69,9,22,70,24,22,71,24,72,73,74,75,22,76,24,1,18,1,13,1,18,0,1,18
+	.byte 0,1,18,0,1,18,0,1,18,0,1,18,10,77,12,78,66,79,12,63,77,12,64,0,0,0,0,0,0,0,8,8
+	.byte 7,67,67,7,7,8,8,0,7,80,5,7,67,7,7,80,0,0,0,0,0,0,0,1,81,0,2,82,83,0,1,84
+	.byte 0,2,85,86,0,0,0,0,0,0,0,0,0,1,86,0,0,0,2,87,88,0,2,87,88,0,1,89,0,1,89,0
+	.byte 0,0,1,90,0,0,0,1,90,0,0,0,0,0,2,6,46,0,1,91,0,6,7,7,7,87,88,6,0,0,0,3
+	.byte 10,9,92,0,0,0,0,0,0,0,5,93,94,7,7,7,0,2,95,7,0,0,0,0,0,0,1,26,4,96,97,96
+	.byte 97,1,26,1,52,1,26,1,52,1,26,9,52,8,7,98,99,7,7,8,8,1,26,3,8,8,8,1,26,11,8,7
+	.byte 98,100,100,101,101,7,7,8,8,1,26,0,1,26,0,1,26,5,8,8,8,96,97,1,26,0,1,26,1,102,1,26
+	.byte 1,103,1,26,19,104,105,9,52,8,7,98,7,7,8,8,8,7,106,107,7,7,8,8,1,26,0,1,26,1,108,1
+	.byte 26,0,1,26,6,109,12,104,110,12,105,0,0,0,0,0,0,0,5,111,112,8,8,8,0,2,113,8,0,0,0,0
+	.byte 0,0,0,0,0,5,114,115,8,8,8,0,2,116,8,0,0,0,3,117,118,119,0,3,117,118,119,0,0,0,0,0
+	.byte 1,120,0,1,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,121,122,0,2,121,122,0,0,0
+	.byte 0,0,2,120,123,0,2,120,123,0,0,0,0,0,0,0,0,0,0,0,0,0,2,10,124,0,0,0,2,13,125,0
+	.byte 1,126,0,0,0,0,0,1,127,0,1,96,0,1,128,128,0,7,96,97,89,89,128,129,90,90,0,0,0,2,128,130
+	.byte 128,130,0,1,128,130,0,2,128,131,128,132,0,0,0,0,0,1,128,133,0,0,0,0,0,1,128,134,0,0,0,2
+	.byte 128,135,128,136,0,0,0,0,0,1,13,0,0,0,0,0,0,0,1,10,0,1,10,0,0,0,0,0,1,128,137,0
+	.byte 0,0,0,0,0,0,1,89,0,0,0,3,101,101,128,138,0,0,0,0,0,1,90,0,2,90,90,0,1,90,0,2
+	.byte 90,90,0,0,0,0,0,0,0,0,0,3,100,100,128,139,0,1,128,140,0,0,1,36,19,128,141,128,142,128,143,12
+	.byte 128,144,128,145,55,128,146,128,142,128,147,128,148,128,148,128,148,128,149,128,150,128,151,128,152,128,153,128,154,1,36,7
+	.byte 128,155,128,156,128,157,128,158,128,155,128,155,128,159,1,36,0,1,36,0,1,36,2,128,146,128,160,1,36,4,128,161
+	.byte 128,162,128,161,128,161,1,36,5,128,154,128,150,128,150,128,150,128,148,1,36,11,128,163,128,154,128,150,128,150,128,164
+	.byte 128,150,128,165,128,154,128,166,128,167,128,168,1,36,4,128,148,128,169,128,170,128,171,1,36,3,128,165,128,172,128,165
+	.byte 1,36,15,128,154,128,152,128,152,128,150,128,154,128,154,128,173,128,150,128,144,128,174,128,175,128,176,128,177,128,174,128
+	.byte 174,1,36,12,128,154,128,152,128,178,128,150,128,150,128,179,128,180,128,179,128,179,128,178,128,178,128,152,0,0,0,0
+	.byte 0,0,0,0,0,1,57,0,1,57,0,1,128,181,1,39,0,1,39,0,1,39,0,1,39,0,1,39,0,1,39,0
+	.byte 1,39,0,1,39,0,1,39,0,1,39,0,1,39,0,1,39,0,1,39,9,128,182,128,183,128,184,128,185,128,186,128
+	.byte 187,128,188,128,189,57,1,39,0,1,39,0,1,39,10,128,185,128,185,128,190,128,191,128,183,128,183,128,182,128,183,128
+	.byte 184,128,189,1,40,3,128,192,128,193,128,194,1,40,0,1,40,0,1,40,3,128,195,12,128,192,0,2,128,192,128,196
+	.byte 0,0,0,0,0,0,0,0,0,0,0,2,128,197,128,198,0,0,0,0,0,1,128,199,0,0,0,0,0,0,0,0
+	.byte 0,0,0,0,0,0,0,2,55,128,200,1,47,1,128,201,1,47,0,1,47,5,128,202,128,203,128,204,128,205,128,206
+	.byte 1,47,7,20,128,201,20,128,201,128,207,128,208,35,1,47,0,1,47,3,128,209,128,210,128,211,1,47,0,1,47,0
+	.byte 1,47,0,1,47,2,128,212,128,208,0,0,0,0,0,3,128,213,118,128,214,0,3,128,213,118,128,214,0,1,128,201
+	.byte 0,0,0,0,0,0,0,0,0,1,128,215,0,21,128,186,128,216,128,186,128,188,57,128,186,128,217,128,186,128,188,57
+	.byte 128,186,128,218,128,186,128,188,57,128,186,128,219,128,186,128,188,57,57,0,2,10,10,0,0,0,0,0,1,57,0,1
+	.byte 57,0,1,128,181,0,1,128,220,0,1,128,220,0,0,0,0,0,0,0,3,128,221,80,80,0,2,128,222,128,222,0
+	.byte 1,128,222,0,0,0,2,128,222,10,0,1,128,222,0,2,128,223,80,0,1,128,220,0,0,0,1,128,220,0,1,128
+	.byte 220,0,1,128,220,0,1,128,220,0,1,128,220,0,1,128,220,0,1,128,220,0,1,128,220,0,1,128,220,0,0,0
+	.byte 0,5,19,0,0,1,5,19,1,0,1,4,1,38,2,7,134,1,7,134,6,255,253,0,0,0,7,134,11,0,198,0
+	.byte 1,7,2,7,134,1,7,134,6,0,255,253,0,0,0,7,134,11,0,198,0,1,8,2,7,134,1,7,134,6,0,255
+	.byte 253,0,0,0,7,134,11,0,198,0,1,9,2,7,134,1,7,134,6,0,255,253,0,0,0,7,134,11,0,198,0,1
+	.byte 10,2,7,134,1,7,134,6,0,255,253,0,0,0,7,134,11,0,198,0,1,11,2,7,134,1,7,134,6,0,255,252
+	.byte 0,0,0,1,1,3,219,0,0,5,255,252,0,0,0,1,1,3,219,0,0,6,255,253,0,0,0,3,219,0,0,7
+	.byte 1,198,0,21,80,1,2,70,2,0,255,254,0,0,0,0,202,0,0,158,255,254,0,0,0,0,202,0,0,160,255,253
+	.byte 0,0,0,3,219,0,0,7,1,198,0,21,83,1,2,70,2,0,255,253,0,0,0,3,219,0,0,7,1,198,0,21
+	.byte 84,1,2,70,2,0,255,253,0,0,0,3,219,0,0,7,1,198,0,21,85,1,2,70,2,0,255,253,0,0,0,3
+	.byte 219,0,0,7,1,198,0,21,86,1,2,70,2,0,255,253,0,0,0,3,219,0,0,7,1,198,0,21,87,1,2,70
+	.byte 2,0,255,253,0,0,0,3,219,0,0,7,1,198,0,21,88,1,2,70,2,0,255,253,0,0,0,3,219,0,0,7
+	.byte 1,198,0,21,89,1,2,70,2,0,255,252,0,0,0,1,1,3,219,0,0,8,5,30,0,1,255,255,255,255,255,193
+	.byte 0,16,6,255,253,0,0,0,2,130,117,1,1,198,0,16,6,0,1,7,135,86,255,252,0,0,0,1,1,3,219,0
+	.byte 0,11,255,252,0,0,0,1,1,3,219,0,0,13,4,2,121,1,2,2,129,167,3,3,219,0,0,20,4,2,99,1
+	.byte 3,2,129,167,3,3,219,0,0,20,7,135,142,255,252,0,0,0,1,1,7,135,156,255,252,0,0,0,1,1,3,219
+	.byte 0,0,18,4,2,73,3,1,2,111,2,4,2,121,1,2,2,129,167,3,7,135,195,4,2,99,1,3,2,129,167,3
+	.byte 7,135,195,7,135,203,255,252,0,0,0,1,1,7,135,215,4,2,121,1,2,7,135,195,2,129,167,3,4,2,99,1
+	.byte 3,7,135,195,2,129,167,3,7,135,240,255,252,0,0,0,1,1,7,135,252,255,252,0,0,0,1,1,3,219,0,0
+	.byte 30,255,252,0,0,0,1,1,3,219,0,0,31,255,252,0,0,0,1,0,0,32,2,1,28,18,1,48,255,252,0,0
+	.byte 0,2,0,32,4,18,2,130,187,1,28,18,1,48,18,2,130,126,1,28,255,252,0,0,0,3,0,32,1,1,18,2
+	.byte 130,187,1,12,0,39,42,47,16,1,2,3,11,1,22,11,1,26,14,3,219,0,0,2,14,3,219,0,0,4,14,2
+	.byte 128,129,2,16,2,130,255,1,138,75,17,0,1,14,2,128,173,2,16,2,130,170,1,137,172,17,0,7,17,0,13,16
+	.byte 1,4,6,11,1,5,14,1,5,17,0,21,14,2,129,15,2,16,1,5,9,14,2,130,172,1,6,27,30,2,130,172
+	.byte 1,16,1,6,16,14,1,8,14,1,7,14,2,129,70,2,6,38,6,39,14,3,219,0,0,5,6,40,30,3,219,0
+	.byte 0,5,17,0,61,14,2,129,9,2,14,2,94,2,17,0,85,17,0,128,236,11,2,128,217,2,34,255,254,0,0,0
+	.byte 0,255,43,0,0,1,16,1,9,23,16,1,9,24,17,0,129,18,17,0,129,46,16,1,10,28,14,6,1,2,128,156
+	.byte 2,14,6,1,2,128,173,2,17,0,129,84,17,0,129,90,17,0,129,96,17,0,129,102,11,1,25,16,1,16,47,16
+	.byte 1,16,46,16,2,130,202,1,137,218,14,2,128,197,2,6,193,0,20,50,16,1,16,50,14,2,118,2,14,1,17,14
+	.byte 2,121,2,17,0,129,218,16,1,18,72,16,1,18,73,17,0,129,244,16,1,18,67,11,1,18,14,2,128,130,2,14
+	.byte 1,19,6,97,6,98,14,2,129,91,2,6,99,30,2,129,91,2,11,2,129,91,2,6,100,17,0,129,248,16,1,18
+	.byte 56,17,0,130,18,14,3,219,0,0,7,17,0,130,62,16,2,3,2,7,14,2,129,17,2,8,4,129,132,129,132,128
+	.byte 204,128,204,14,1,21,16,2,4,2,10,14,3,219,0,0,1,4,2,130,159,1,1,1,2,16,7,137,209,137,104,11
+	.byte 2,130,255,1,11,2,128,134,2,14,1,23,17,0,130,66,8,2,108,128,188,8,1,129,84,8,2,128,164,104,14,3
+	.byte 219,0,0,3,4,2,130,159,1,1,1,22,16,7,138,4,137,104,11,1,14,14,6,1,2,131,25,1,23,1,12,23
+	.byte 1,13,14,1,27,14,1,28,16,1,26,95,16,1,26,96,11,1,15,11,1,3,14,1,29,17,0,130,124,17,0,130
+	.byte 150,8,2,108,128,188,8,1,129,84,8,2,128,164,104,8,2,108,128,188,8,1,129,84,8,2,128,164,104,11,3,219
+	.byte 0,0,13,43,34,255,254,0,0,0,0,255,43,0,0,2,11,2,130,172,1,11,1,30,34,255,254,0,0,0,0,255
+	.byte 43,0,0,3,34,255,254,0,0,0,0,255,43,0,0,4,14,1,26,17,0,131,154,17,0,131,182,14,6,1,6,1
+	.byte 1,2,14,1,48,14,1,22,11,2,113,2,14,2,124,2,14,1,31,14,2,128,128,2,14,1,47,14,1,33,14,1
+	.byte 32,11,1,10,6,59,6,58,14,2,128,207,2,17,0,131,210,16,1,36,128,141,17,0,131,216,16,1,36,128,147,14
+	.byte 2,13,1,16,1,36,128,148,17,0,131,220,16,1,36,128,142,14,3,219,0,0,15,16,1,36,128,144,14,3,219,0
+	.byte 0,16,16,1,36,128,145,14,3,219,0,0,17,16,1,36,128,146,16,1,36,128,151,14,3,219,0,0,18,6,128,251
+	.byte 30,3,219,0,0,18,14,3,219,0,0,19,14,6,1,2,130,137,1,16,1,36,128,149,14,1,36,14,1,37,14,3
+	.byte 219,0,0,20,16,1,36,128,150,14,2,130,99,1,6,129,6,30,2,130,99,1,14,2,128,174,2,14,2,128,163,2
+	.byte 17,0,132,62,17,0,132,104,17,0,132,186,16,1,36,128,152,14,2,128,217,2,6,129,4,30,2,128,217,2,14,3
+	.byte 219,0,0,21,14,3,219,0,0,22,6,128,248,17,0,133,116,16,1,39,128,161,16,1,39,128,162,16,1,39,128,163
+	.byte 16,1,39,128,164,14,6,1,2,130,253,1,29,0,196,0,0,203,0,14,2,128,204,2,16,1,39,128,171,17,0,133
+	.byte 194,17,0,133,214,16,1,40,128,172,11,1,41,14,1,41,17,0,133,224,14,1,39,11,1,43,14,1,43,14,1,44
+	.byte 14,6,1,2,130,134,1,14,2,98,2,16,2,130,145,1,137,27,17,0,134,8,17,0,134,48,14,2,130,145,1,17
+	.byte 0,134,96,14,2,129,16,2,16,1,47,128,189,17,0,134,112,17,0,134,150,17,0,134,172,17,0,134,220,11,3,219
+	.byte 0,0,31,34,255,254,0,0,0,0,255,43,0,0,5,11,2,129,63,2,29,0,196,0,0,204,0,29,0,196,0,0
+	.byte 205,0,29,0,196,0,0,206,0,29,0,196,0,0,207,0,33,11,2,70,2,14,2,70,2,11,2,130,200,1,3,255
+	.byte 254,0,0,0,0,202,0,0,2,3,255,254,0,0,0,0,202,0,0,4,3,194,0,4,97,3,255,254,0,0,0,0
+	.byte 202,0,0,7,3,255,254,0,0,0,0,202,0,0,9,7,24,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119
+	.byte 95,115,112,101,99,105,102,105,99,0,3,194,0,2,247,3,11,3,193,0,22,118,3,194,0,4,231,3,129,73,3,194
+	.byte 0,2,241,3,22,3,194,0,6,210,3,194,0,1,242,3,194,0,1,234,7,20,109,111,110,111,95,111,98,106,101,99
+	.byte 116,95,110,101,119,95,102,97,115,116,0,3,194,0,2,6,3,194,0,3,108,7,32,109,111,110,111,95,97,114,99,104
+	.byte 95,116,104,114,111,119,95,99,111,114,108,105,98,95,101,120,99,101,112,116,105,111,110,0,3,194,0,3,122,3,194,0
+	.byte 0,10,3,194,0,2,43,3,194,0,1,201,3,194,0,2,176,3,194,0,8,53,3,194,0,1,245,3,194,0,8,59
+	.byte 3,194,0,8,61,3,194,0,8,63,3,128,203,3,194,0,4,176,3,194,0,3,140,3,194,0,6,190,3,194,0,1
+	.byte 216,3,194,0,0,58,3,193,0,22,162,3,43,3,193,0,19,35,3,255,254,0,0,0,0,255,43,0,0,1,3,193
+	.byte 0,19,38,3,194,0,4,239,3,194,0,2,244,3,52,3,194,0,1,243,3,195,0,12,169,3,128,254,3,194,0,1
+	.byte 246,3,194,0,2,42,3,194,0,1,254,3,195,0,12,168,7,23,109,111,110,111,95,97,114,114,97,121,95,110,101,119
+	.byte 95,115,112,101,99,105,102,105,99,0,3,3,3,45,7,17,109,111,110,111,95,104,101,108,112,101,114,95,108,100,115,116
+	.byte 114,0,7,25,109,111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,101,120,99,101,112,116,105,111,110,0,3,128
+	.byte 138,3,128,140,3,128,139,3,194,0,2,70,3,194,0,2,74,3,194,0,5,170,3,194,0,5,223,3,194,0,5,224
+	.byte 7,14,95,95,101,109,117,108,95,111,112,95,105,100,105,118,0,3,194,0,5,168,3,194,0,5,200,3,194,0,2,73
+	.byte 3,194,0,2,72,3,194,0,5,152,3,194,0,5,119,3,194,0,5,182,3,194,0,5,176,3,194,0,5,178,3,194
+	.byte 0,5,196,3,194,0,5,122,3,194,0,2,86,7,26,109,111,110,111,95,104,101,108,112,101,114,95,108,100,115,116,114
+	.byte 95,109,115,99,111,114,108,105,98,0,3,67,15,2,118,2,3,194,0,2,127,3,194,0,2,31,3,194,0,2,28,3
+	.byte 194,0,2,156,3,194,0,6,254,3,193,0,22,73,3,75,3,194,0,3,117,3,193,0,20,205,3,194,0,3,2,3
+	.byte 86,3,194,0,2,10,3,194,0,3,19,3,194,0,3,21,3,194,0,3,22,3,194,0,3,17,3,89,3,255,254,0
+	.byte 0,0,0,202,0,0,160,3,193,0,18,62,3,193,0,18,80,3,194,0,4,15,3,193,0,18,117,3,193,0,18,112
+	.byte 3,193,0,22,170,3,194,0,6,237,3,106,3,194,0,3,162,3,194,0,4,14,3,194,0,3,167,3,255,254,0,0
+	.byte 0,0,202,0,0,182,3,124,3,128,141,3,126,3,194,0,4,92,3,255,254,0,0,0,0,202,0,0,190,3,194,0
+	.byte 8,130,3,128,145,3,193,0,20,109,3,255,252,0,0,0,19,9,3,255,254,0,0,0,0,255,43,0,0,2,3,255
+	.byte 254,0,0,0,0,255,43,0,0,3,3,255,254,0,0,0,0,255,43,0,0,4,3,128,184,3,128,185,3,194,0,7
+	.byte 174,3,194,0,7,173,3,128,137,3,128,194,3,194,0,3,110,3,194,0,3,126,3,194,0,1,130,3,194,0,3,125
+	.byte 3,193,0,18,57,3,129,54,3,255,254,0,0,0,0,202,0,0,213,3,255,254,0,0,0,0,202,0,0,214,3,255
+	.byte 254,0,0,0,0,202,0,0,215,3,115,3,194,0,2,181,3,194,0,2,184,3,194,0,2,223,3,128,142,3,128,205
+	.byte 3,129,52,3,194,0,3,160,3,194,0,2,220,3,194,0,7,111,3,128,198,3,128,201,3,194,0,7,143,3,194,0
+	.byte 5,234,3,194,0,5,248,3,194,0,5,252,3,194,0,5,250,3,128,246,3,194,0,5,184,3,194,0,5,190,3,193
+	.byte 0,19,173,3,193,0,7,60,3,193,0,6,150,3,193,0,6,148,3,255,254,0,0,0,0,202,0,1,1,3,255,254
+	.byte 0,0,0,0,202,0,1,2,3,255,254,0,0,0,0,202,0,1,5,3,194,0,5,225,15,1,36,3,193,0,13,80
+	.byte 3,193,0,12,98,3,128,252,3,193,0,22,70,3,128,250,3,128,255,3,193,0,15,39,3,255,254,0,0,0,0,202
+	.byte 0,1,12,3,193,0,15,37,3,255,254,0,0,0,0,202,0,1,14,3,255,254,0,0,0,0,202,0,1,15,3,255
+	.byte 254,0,0,0,0,202,0,1,16,3,255,254,0,0,0,0,202,0,1,17,3,195,0,12,148,3,195,0,12,150,3,195
+	.byte 0,12,142,3,128,253,3,193,0,22,169,3,193,0,6,182,3,194,0,2,84,3,255,254,0,0,0,0,202,0,1,24
+	.byte 3,129,0,3,255,254,0,0,0,0,202,0,1,26,3,255,254,0,0,0,0,202,0,1,27,3,255,254,0,0,0,0
+	.byte 202,0,1,28,3,193,0,15,102,3,194,0,4,251,3,194,0,4,173,3,194,0,5,5,3,194,0,3,242,3,193,0
+	.byte 17,32,7,36,109,111,110,111,95,116,104,114,101,97,100,95,103,101,116,95,117,110,100,101,110,105,97,98,108,101,95,101
+	.byte 120,99,101,112,116,105,111,110,0,3,193,0,15,16,3,129,3,3,193,0,17,25,3,193,0,15,14,3,129,1,3,255
+	.byte 254,0,0,0,0,202,0,1,40,3,255,254,0,0,0,0,202,0,1,42,3,255,254,0,0,0,0,202,0,1,44,3
+	.byte 194,0,0,65,3,255,254,0,0,0,0,202,0,1,47,3,255,254,0,0,0,0,202,0,1,49,3,193,0,17,30,3
+	.byte 255,254,0,0,0,0,202,0,1,52,3,255,254,0,0,0,0,202,0,1,53,3,255,254,0,0,0,0,202,0,1,54
+	.byte 3,129,2,5,19,0,1,0,1,38,5,19,1,1,0,1,38,255,253,0,0,0,1,38,0,198,0,1,7,2,7,145
+	.byte 195,7,145,202,0,4,2,71,3,1,7,145,202,35,145,209,150,4,7,145,229,3,255,253,0,0,0,7,145,229,3,198
+	.byte 0,2,36,1,7,145,202,0,4,2,73,3,1,7,145,202,4,2,98,1,2,7,145,195,7,146,8,35,145,209,150,4
+	.byte 7,146,16,3,255,253,0,0,0,7,146,16,1,198,0,2,244,2,7,145,195,7,146,8,0,4,2,98,1,2,7,146
+	.byte 8,7,145,195,35,145,209,150,4,7,146,57,3,255,253,0,0,0,7,146,57,1,198,0,2,244,2,7,146,8,7,145
+	.byte 195,0,3,255,253,0,0,0,7,146,16,1,198,0,3,15,2,7,145,195,7,146,8,0,3,255,253,0,0,0,7,145
+	.byte 229,3,198,0,2,52,1,7,145,202,0,3,255,253,0,0,0,7,145,229,3,198,0,2,42,1,7,145,202,0,3,255
+	.byte 253,0,0,0,7,146,8,3,198,0,2,68,1,7,145,202,0,255,253,0,0,0,1,38,0,198,0,1,8,2,7,145
+	.byte 195,7,145,202,0,35,146,177,150,24,7,145,202,3,255,253,0,0,0,7,146,8,3,198,0,2,69,1,7,145,202,0
+	.byte 3,129,10,3,255,253,0,0,0,7,145,229,3,198,0,2,38,1,7,145,202,0,3,255,253,0,0,0,7,146,16,1
+	.byte 198,0,2,241,2,7,145,195,7,146,8,0,255,253,0,0,0,1,38,0,198,0,1,9,2,7,145,195,7,145,202,0
+	.byte 35,147,12,150,4,7,146,8,3,255,253,0,0,0,7,146,8,3,198,0,2,64,1,7,145,202,0,3,255,253,0,0
+	.byte 0,7,146,16,1,198,0,2,243,2,7,145,195,7,146,8,0,3,255,253,0,0,0,7,146,57,1,198,0,2,243,2
+	.byte 7,146,8,7,145,195,0,3,255,253,0,0,0,7,145,229,3,198,0,2,39,1,7,145,202,0,3,255,253,0,0,0
+	.byte 7,146,57,1,198,0,2,242,2,7,146,8,7,145,195,0,3,255,253,0,0,0,7,146,16,1,198,0,3,14,2,7
+	.byte 145,195,7,146,8,0,3,255,253,0,0,0,7,146,57,1,198,0,3,14,2,7,146,8,7,145,195,0,3,255,253,0
+	.byte 0,0,7,145,229,3,198,0,2,53,1,7,145,202,0,3,193,0,22,215,3,194,0,5,213,3,194,0,3,83,3,129
+	.byte 13,3,129,15,3,129,17,3,129,19,3,129,21,3,129,23,3,129,22,3,194,0,3,115,3,194,0,1,250,3,129,18
+	.byte 3,193,0,18,126,3,193,0,18,51,3,193,0,23,26,3,193,0,23,42,3,193,0,23,25,3,193,0,23,41,3,193
+	.byte 0,18,115,3,193,0,18,111,3,194,0,3,116,3,129,12,3,194,0,3,114,3,129,16,3,129,14,3,129,20,3,194
+	.byte 0,5,165,3,194,0,5,180,3,194,0,5,202,3,194,0,5,166,3,129,32,15,1,39,3,129,25,3,129,26,3,129
+	.byte 43,3,193,0,8,55,3,193,0,10,98,3,193,0,10,101,3,194,0,3,243,3,194,0,2,85,3,193,0,10,106,3
+	.byte 193,0,7,90,3,194,0,3,86,3,194,0,1,241,3,193,0,18,120,15,2,130,145,1,7,27,109,111,110,111,95,111
+	.byte 98,106,101,99,116,95,110,101,119,95,112,116,114,102,114,101,101,95,98,111,120,0,3,194,0,6,228,3,194,0,5,53
+	.byte 3,194,0,5,188,3,194,0,5,174,3,194,0,5,192,3,129,51,3,255,254,0,0,0,0,255,43,0,0,5,3,194
+	.byte 0,1,232,3,194,0,2,17,3,194,0,2,18,3,194,0,2,21,3,194,0,2,23,3,194,0,0,26,3,194,0,2
+	.byte 22,3,194,0,5,204,3,194,0,5,206,3,194,0,5,208,3,194,0,5,210,3,194,0,5,194,3,194,0,5,172,3
+	.byte 194,0,5,186,3,194,0,3,222,255,253,0,0,0,7,134,11,0,198,0,1,7,2,7,134,1,7,134,6,0,35,149
+	.byte 41,192,0,92,40,255,253,0,0,0,7,134,11,0,198,0,1,7,2,7,134,1,7,134,6,0,6,15,7,134,11,128
+	.byte 156,15,7,134,11,128,154,15,7,134,11,128,155,15,7,134,11,128,157,15,7,134,11,128,158,15,7,134,11,128,160,4
+	.byte 2,71,3,1,7,134,6,35,149,41,150,4,7,149,127,3,255,253,0,0,0,7,149,127,3,198,0,2,36,1,7,134
+	.byte 6,0,4,2,73,3,1,7,134,6,4,2,98,1,2,7,134,1,7,149,162,35,149,41,150,4,7,149,170,3,255,253
+	.byte 0,0,0,7,149,170,1,198,0,2,244,2,7,134,1,7,149,162,0,4,2,98,1,2,7,149,162,7,134,1,35,149
+	.byte 41,150,4,7,149,211,3,255,253,0,0,0,7,149,211,1,198,0,2,244,2,7,149,162,7,134,1,0,255,253,0,0
+	.byte 0,7,134,11,0,198,0,1,8,2,7,134,1,7,134,6,0,35,149,252,192,0,92,40,255,253,0,0,0,7,134,11
+	.byte 0,198,0,1,8,2,7,134,1,7,134,6,0,11,15,7,134,11,128,154,15,7,134,11,128,156,1,7,134,6,19,7
+	.byte 134,6,25,7,134,6,14,7,134,6,22,7,134,6,21,7,134,6,21,7,134,6,21,7,134,6,21,7,134,6,35,149
+	.byte 252,192,0,90,34,32,2,2,19,7,134,1,16,21,2,73,3,1,7,134,6,255,253,0,0,0,7,149,170,1,198,0
+	.byte 3,15,2,7,134,1,7,149,162,0,35,149,252,192,0,90,32,32,1,1,21,2,73,3,1,7,134,6,255,253,0,0
+	.byte 0,7,149,127,3,198,0,2,52,1,7,134,6,0,35,149,252,192,0,90,32,32,1,1,21,2,73,3,1,7,134,6
+	.byte 255,253,0,0,0,7,149,127,3,198,0,2,42,1,7,134,6,0,35,149,252,192,0,90,32,32,0,19,7,134,6,255
+	.byte 253,0,0,0,7,149,162,3,198,0,2,68,1,7,134,6,0,7,27,109,111,110,111,95,111,98,106,101,99,116,95,99
+	.byte 97,115,116,99,108,97,115,115,95,117,110,98,111,120,0,255,253,0,0,0,7,134,11,0,198,0,1,9,2,7,134,1
+	.byte 7,134,6,0,35,151,15,192,0,92,40,255,253,0,0,0,7,134,11,0,198,0,1,9,2,7,134,1,7,134,6,0
+	.byte 13,15,7,134,11,128,158,15,7,134,11,128,160,15,7,134,11,128,154,15,7,134,11,128,159,15,7,134,11,128,156,15
+	.byte 7,134,11,128,157,15,7,134,11,128,155,14,7,134,6,23,7,134,6,21,7,134,6,21,7,134,6,21,7,134,6,21
+	.byte 7,134,6,4,2,130,179,1,2,7,134,6,2,130,200,1,35,151,15,192,0,90,34,32,1,8,19,7,134,6,255,253
+	.byte 0,0,0,7,151,131,1,198,0,19,224,2,7,134,6,2,130,200,1,0,35,151,15,192,0,90,34,32,2,2,19,7
+	.byte 134,1,16,21,2,73,3,1,7,134,6,255,253,0,0,0,7,149,170,1,198,0,3,15,2,7,134,1,7,149,162,0
+	.byte 35,151,15,192,0,90,32,32,0,19,7,134,6,255,253,0,0,0,7,149,162,3,198,0,2,68,1,7,134,6,0,35
+	.byte 151,15,192,0,90,32,32,1,1,21,2,73,3,1,7,134,6,255,253,0,0,0,7,149,127,3,198,0,2,52,1,7
+	.byte 134,6,0,35,151,15,192,0,90,32,32,1,1,21,2,73,3,1,7,134,6,255,253,0,0,0,7,149,127,3,198,0
+	.byte 2,42,1,7,134,6,0,35,151,15,150,2,7,134,6,35,151,15,192,0,90,32,32,1,1,19,7,134,6,255,253,0
+	.byte 0,0,7,149,162,3,198,0,2,69,1,7,134,6,0,3,255,253,0,0,0,7,134,11,0,198,0,1,10,2,7,134
+	.byte 1,7,134,6,0,3,255,253,0,0,0,7,149,127,3,198,0,2,38,1,7,134,6,0,3,255,253,0,0,0,7,149
+	.byte 170,1,198,0,2,241,2,7,134,1,7,149,162,0,35,151,15,150,4,7,149,162,35,151,15,192,0,90,32,32,1,1
+	.byte 19,7,134,6,255,253,0,0,0,7,149,162,3,198,0,2,64,1,7,134,6,0,35,151,15,192,0,90,34,32,2,1
+	.byte 19,7,134,1,21,2,73,3,1,7,134,6,255,253,0,0,0,7,149,170,1,198,0,2,243,2,7,134,1,7,149,162
+	.byte 0,35,151,15,192,0,90,34,32,2,1,21,2,73,3,1,7,134,6,19,7,134,1,255,253,0,0,0,7,149,211,1
+	.byte 198,0,2,243,2,7,149,162,7,134,1,0,255,253,0,0,0,7,134,11,0,198,0,1,10,2,7,134,1,7,134,6
+	.byte 0,35,153,44,192,0,92,40,255,253,0,0,0,7,134,11,0,198,0,1,10,2,7,134,1,7,134,6,0,11,15,7
+	.byte 134,11,128,156,15,7,134,11,128,155,15,7,134,11,128,158,15,7,134,11,128,160,15,7,134,11,128,159,15,7,134,11
+	.byte 128,154,14,7,134,6,23,7,134,6,21,7,134,1,21,7,134,6,21,7,134,6,35,153,44,192,0,90,32,32,0,21
+	.byte 2,73,3,1,7,134,6,255,253,0,0,0,7,149,127,3,198,0,2,39,1,7,134,6,0,35,153,44,192,0,90,34
+	.byte 32,1,19,7,134,1,21,2,73,3,1,7,134,6,255,253,0,0,0,7,149,211,1,198,0,2,242,2,7,149,162,7
+	.byte 134,1,0,35,153,44,192,0,90,32,32,0,19,7,134,6,255,253,0,0,0,7,149,162,3,198,0,2,68,1,7,134
+	.byte 6,0,35,153,44,192,0,90,34,32,1,8,19,7,134,6,255,253,0,0,0,7,151,131,1,198,0,19,224,2,7,134
+	.byte 6,2,130,200,1,0,35,153,44,192,0,90,34,32,1,2,19,7,134,1,255,253,0,0,0,7,149,170,1,198,0,3
+	.byte 14,2,7,134,1,7,149,162,0,35,153,44,192,0,90,34,32,1,2,21,2,73,3,1,7,134,6,255,253,0,0,0
+	.byte 7,149,211,1,198,0,3,14,2,7,149,162,7,134,1,0,3,255,253,0,0,0,7,149,127,3,198,0,2,53,1,7
+	.byte 134,6,0,35,153,44,150,2,7,134,6,255,253,0,0,0,7,134,11,0,198,0,1,11,2,7,134,1,7,134,6,0
+	.byte 35,154,139,192,0,92,40,255,253,0,0,0,7,134,11,0,198,0,1,11,2,7,134,1,7,134,6,0,0,7,35,109
+	.byte 111,110,111,95,116,104,114,101,97,100,95,105,110,116,101,114,114,117,112,116,105,111,110,95,99,104,101,99,107,112,111,105
+	.byte 110,116,0,3,255,253,0,0,0,3,219,0,0,7,1,198,0,21,89,1,2,70,2,0,3,255,253,0,0,0,3,219
+	.byte 0,0,7,1,198,0,21,84,1,2,70,2,0,3,255,253,0,0,0,3,219,0,0,7,1,198,0,21,80,1,2,70
+	.byte 2,0,255,253,0,0,0,2,130,117,1,1,198,0,16,6,0,1,7,135,86,35,155,34,192,0,92,41,255,253,0,0
+	.byte 0,2,130,117,1,1,198,0,16,6,0,1,7,135,86,0,4,2,130,118,1,1,7,135,86,35,155,34,150,5,7,155
+	.byte 80,3,255,253,0,0,0,7,155,80,1,198,0,16,83,1,7,135,86,0,7,26,109,111,110,111,95,100,101,108,101,103
+	.byte 97,116,101,95,98,101,103,105,110,95,105,110,118,111,107,101,0,7,24,109,111,110,111,95,100,101,108,101,103,97,116,101
+	.byte 95,101,110,100,95,105,110,118,111,107,101,0,2,0,0,2,0,0,38,19,2,2,2,0,130,32,129,136,129,244,129,248
+	.byte 2,0,130,120,129,68,130,76,130,80,0,8,129,192,1,4,129,196,0,2,0,0,2,0,0,2,52,0,2,71,0,2
+	.byte 0,0,2,52,0,2,52,0,2,92,0,2,119,0,2,0,0,2,0,0,2,0,0,2,128,137,0,2,119,0,2,0
+	.byte 0,2,128,158,0,2,0,0,2,128,185,0,2,52,0,2,128,208,0,2,128,235,0,2,0,0,2,128,137,0,2,0
+	.byte 0,2,0,0,2,129,0,0,2,129,23,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,128
+	.byte 185,0,2,71,0,2,128,185,0,2,0,0,2,52,0,2,129,52,0,2,129,52,0,2,129,81,0,2,0,0,2,129
+	.byte 110,0,2,129,129,0,2,52,0,2,0,0,2,129,152,0,2,129,81,0,2,128,137,0,2,129,177,0,2,129,204,0
+	.byte 2,119,0,2,129,227,0,2,129,81,0,2,129,246,0,2,52,0,2,129,129,0,2,0,0,2,130,17,0,2,0,0
+	.byte 2,130,40,0,6,130,71,2,2,0,134,112,130,52,134,36,134,40,2,0,134,192,129,188,134,116,134,120,0,2,71,0
+	.byte 2,128,235,0,2,130,104,0,2,130,136,0,2,130,160,0,2,130,181,0,2,129,0,0,2,128,235,0,2,0,0,2
+	.byte 0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,130,160,0,2,119,0,2,0,0,6,130,202,1,2,0,131,80
+	.byte 130,12,131,36,131,40,0,2,130,235,0,2,131,11,0,2,129,0,0,2,71,0,2,52,0,2,129,129,0,2,129,0
+	.byte 0,2,129,0,0,2,131,44,0,2,0,0,2,52,0,2,128,137,0,6,19,2,2,0,130,56,129,0,130,12,130,16
+	.byte 2,0,130,168,128,208,130,124,130,128,0,6,131,63,1,2,0,129,240,129,12,129,196,129,200,0,2,130,181,0,2,71
+	.byte 0,2,131,95,0,2,130,136,0,2,130,136,0,2,131,119,0,2,131,146,0,2,0,0,2,0,0,2,0,0,2,131
+	.byte 174,0,2,131,195,0,2,0,0,2,0,0,2,131,221,0,2,131,242,0,2,131,242,0,2,0,0,2,131,242,0,2
+	.byte 0,0,2,131,242,0,2,0,0,2,131,242,0,2,132,9,0,2,0,0,6,130,104,1,2,0,128,212,88,128,168,128
+	.byte 172,0,2,71,0,2,129,110,0,2,0,0,2,0,0,2,0,0,38,132,36,1,1,2,0,129,212,128,188,129,136,129
+	.byte 140,0,4,129,80,0,6,132,62,1,2,0,128,164,104,108,112,0,2,0,0,2,0,0,2,0,0,2,128,235,0,2
+	.byte 132,86,0,2,132,108,0,38,132,133,2,2,2,0,130,112,129,32,130,68,130,72,2,0,130,208,128,236,130,164,130,168
+	.byte 0,8,130,4,1,4,130,8,0,38,132,164,1,1,2,0,128,224,88,128,180,128,184,0,4,128,132,0,6,132,194,2
+	.byte 2,0,131,24,128,164,130,236,130,240,2,0,131,108,116,131,64,131,68,0,2,129,0,0,2,131,44,0,6,132,227,1
+	.byte 2,0,128,200,76,128,156,128,160,0,2,71,0,2,0,0,2,0,0,38,131,11,2,4,2,0,131,152,130,112,131,108
+	.byte 131,112,2,0,131,236,130,64,131,192,131,196,2,0,133,164,132,76,133,120,133,124,2,0,133,248,132,28,133,204,133,208
+	.byte 0,8,131,48,1,4,131,52,0,2,0,0,2,129,0,0,2,132,255,0,2,52,0,2,0,0,2,0,0,2,0,0
+	.byte 38,132,36,1,1,2,0,129,212,128,188,129,136,129,140,0,4,129,80,0,6,132,62,1,2,0,128,164,104,108,112,0
+	.byte 2,0,0,2,0,0,2,0,0,2,0,0,38,132,36,1,1,2,0,129,212,128,188,129,136,129,140,0,4,129,80,0
+	.byte 6,132,62,1,2,0,128,164,104,108,112,0,2,0,0,2,133,22,0,2,133,22,0,2,0,0,2,128,235,0,2,129
+	.byte 0,0,2,71,0,2,0,0,2,71,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,129,52
+	.byte 0,2,129,52,0,2,0,0,2,71,0,2,129,52,0,2,129,52,0,2,0,0,2,0,0,2,128,235,0,2,131,221
+	.byte 0,2,128,235,0,2,133,45,0,2,133,66,0,2,0,0,2,133,87,0,2,133,87,0,2,128,235,0,2,133,113,0
+	.byte 2,129,0,0,2,128,137,0,2,133,66,0,2,133,139,0,2,0,0,2,133,168,0,2,128,158,0,2,133,194,0,2
+	.byte 133,223,0,2,133,223,0,2,131,95,0,2,133,250,0,2,134,20,0,2,131,95,0,2,134,46,0,2,133,66,0,2
+	.byte 119,0,2,119,0,2,128,137,0,2,0,0,2,0,0,2,0,0,2,129,129,0,2,71,0,2,52,0,2,128,235,0
+	.byte 2,134,67,0,2,134,96,0,2,0,0,2,129,152,0,2,129,52,0,2,134,121,0,2,134,146,0,2,52,0,2,133
+	.byte 45,0,2,129,52,0,2,134,67,0,2,129,52,0,2,134,67,0,2,128,185,0,2,0,0,2,131,174,0,2,0,0
+	.byte 2,134,171,0,2,134,200,0,2,133,250,0,2,0,0,2,129,152,0,2,52,0,2,119,0,2,129,152,0,2,52,0
+	.byte 38,134,225,2,3,2,0,128,192,96,128,156,128,160,2,0,129,200,128,224,129,164,129,168,2,0,130,184,130,108,130,148
+	.byte 130,152,0,4,128,148,1,4,129,156,0,38,135,1,1,1,2,0,130,68,116,130,32,130,36,0,4,128,240,0,6,135
+	.byte 33,1,0,44,1,2,130,173,1,56,129,68,129,68,0,6,135,57,1,0,4,1,2,130,173,1,64,76,76,0,6,135
+	.byte 81,1,2,0,129,236,96,129,200,129,204,0,6,135,109,4,0,56,1,2,130,173,1,129,176,129,224,129,224,2,0,130
+	.byte 96,129,136,130,52,130,56,2,0,130,192,128,220,130,136,130,140,2,0,131,12,128,168,130,232,130,236,0,2,0,0,6
+	.byte 135,134,1,0,4,1,2,130,173,1,36,52,52,0,3,135,158,0,1,13,0,255,253,0,0,0,1,38,0,198,0,1
+	.byte 7,2,7,145,195,7,145,202,0,0,0,3,52,0,1,13,4,255,253,0,0,0,1,38,0,198,0,1,8,2,7,145
+	.byte 195,7,145,202,0,0,0,3,132,9,0,1,13,12,255,253,0,0,0,1,38,0,198,0,1,9,2,7,145,195,7,145
+	.byte 202,0,0,0,3,130,181,0,1,13,12,255,253,0,0,0,1,38,0,198,0,1,10,2,7,145,195,7,145,202,0,0
+	.byte 0,3,0,0,1,13,0,255,253,0,0,0,1,38,0,198,0,1,11,2,7,145,195,7,145,202,0,0,0,2,0,0
+	.byte 2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,52,0,2,135,177,0,2,0,0,2,0,0,2,0,0,2
+	.byte 0,0,6,131,95,1,2,0,129,204,129,4,129,136,129,140,0,2,119,0,2,133,250,0,2,135,201,0,2,135,234,0
+	.byte 2,52,0,2,129,110,0,2,0,0,2,71,0,2,136,3,0,2,133,250,0,2,0,0,2,0,0,2,131,95,0,2
+	.byte 129,177,0,2,52,0,2,0,0,2,133,66,0,2,119,0,2,133,250,0,2,0,0,2,0,0,2,0,0,2,0,0
+	.byte 2,130,136,0,6,136,29,1,2,0,129,252,129,140,129,212,129,216,0,2,132,36,0,2,52,0,2,132,36,0,2,136
+	.byte 61,0,2,136,88,0,2,136,115,0,2,128,208,0,2,136,138,0,2,71,0,2,136,167,0,2,0,0,2,0,0,2
+	.byte 133,22,0,2,133,22,0,2,132,36,0,2,0,0,2,71,0,2,131,221,0,2,133,45,0,2,136,186,0,6,136,211
+	.byte 5,2,0,132,200,132,40,132,124,132,128,2,0,135,0,134,96,134,180,134,184,2,0,137,60,136,156,136,240,136,244,2
+	.byte 0,138,224,138,64,138,148,138,152,2,0,139,48,129,120,138,228,138,232,0,2,132,86,0,3,136,244,0,1,11,4,255
+	.byte 253,0,0,0,7,134,11,0,198,0,1,7,2,7,134,1,7,134,6,0,1,2,1,1,0,0,3,137,14,0,1,11
+	.byte 16,255,253,0,0,0,7,134,11,0,198,0,1,8,2,7,134,1,7,134,6,0,1,2,1,1,0,0,3,137,44,0
+	.byte 1,11,20,255,253,0,0,0,7,134,11,0,198,0,1,9,2,7,134,1,7,134,6,0,1,2,1,1,0,0,3,137
+	.byte 74,0,1,11,12,255,253,0,0,0,7,134,11,0,198,0,1,10,2,7,134,1,7,134,6,0,1,2,1,1,0,0
+	.byte 3,135,177,0,1,11,8,255,253,0,0,0,7,134,11,0,198,0,1,11,2,7,134,1,7,134,6,0,1,2,1,1
+	.byte 0,0,2,133,168,0,2,132,86,0,2,0,0,2,0,0,2,0,0,2,137,104,0,2,137,127,0,2,52,0,2,0
+	.byte 0,2,52,0,2,135,177,0,2,137,153,0,2,92,0,3,135,134,0,1,11,4,255,253,0,0,0,2,130,117,1,1
+	.byte 198,0,16,6,0,1,7,135,86,1,0,1,0,0,2,92,0,2,92,0,2,134,67,0,2,92,0,2,134,67,0,2
+	.byte 134,67,0,2,129,52,0,2,92,0,2,133,168,0,2,132,62,0,2,137,174,0,0,128,144,8,0,0,1,12,128,228
+	.byte 14,16,4,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,13,10,9,8,6,5,2,14,128,160
+	.byte 24,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,13,10,9,17,6,5,2,16,15,15,128
+	.byte 236,21,28,4,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,13,10,9,17,20,5,18,16,15
+	.byte 0,60,128,230,26,194,0,0,57,72,4,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0
+	.byte 44,194,0,0,58,194,0,0,70,194,0,2,254,194,0,0,62,194,0,0,61,194,0,0,47,194,0,2,245,194,0,2
+	.byte 169,194,0,2,168,194,0,2,167,194,0,2,166,194,0,2,165,194,0,2,164,194,0,3,109,194,0,3,95,194,0,3
+	.byte 96,194,0,3,89,194,0,3,97,194,0,3,98,194,0,3,127,194,0,3,123,24,194,0,3,121,194,0,3,120,194,0
+	.byte 3,119,194,0,3,118,194,0,3,113,194,0,3,112,194,0,3,107,194,0,3,106,194,0,3,105,194,0,3,104,194,0
+	.byte 3,103,194,0,3,102,194,0,3,101,194,0,3,100,194,0,3,99,194,0,3,98,194,0,3,97,194,0,3,96,194,0
+	.byte 3,95,194,0,3,94,194,0,3,93,194,0,3,92,194,0,3,91,194,0,3,90,194,0,3,89,194,0,3,88,194,0
+	.byte 3,87,194,0,2,253,194,0,2,252,194,0,2,251,194,0,2,250,194,0,2,249,194,0,2,248,12,128,236,32,24,4
+	.byte 0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,13,31,9,8,30,5,28,41,128,162,194,0,0
+	.byte 57,60,0,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0
+	.byte 70,194,0,3,170,194,0,0,62,194,0,0,61,194,0,0,47,194,0,3,139,194,0,2,169,194,0,2,168,194,0,2
+	.byte 167,194,0,2,166,194,0,2,165,194,0,2,164,194,0,3,157,194,0,3,169,194,0,3,168,194,0,3,167,36,194,0
+	.byte 3,165,194,0,3,164,194,0,3,163,194,0,3,162,194,0,3,161,194,0,3,160,194,0,3,159,194,0,3,158,194,0
+	.byte 3,153,194,0,3,152,194,0,3,151,194,0,3,150,194,0,3,149,194,0,3,148,194,0,3,147,194,0,3,146,194,0
+	.byte 3,145,194,0,3,144,4,128,160,20,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,12,128,228
+	.byte 49,28,8,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,48,47,9,46,45,5,2,15,128,236
+	.byte 57,64,4,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,48,47,9,46,51,5,2,55,54,50
+	.byte 4,128,160,28,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,0,128,144,8,0,0,1,0,128
+	.byte 144,8,0,0,1,12,128,160,32,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,48,61,9
+	.byte 46,60,5,2,12,128,160,32,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,48,65,9,46
+	.byte 64,5,2,12,128,236,72,32,24,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,13,71,9,8
+	.byte 68,69,66,21,128,162,194,0,0,57,36,0,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0
+	.byte 0,44,194,0,0,58,194,0,0,70,194,0,0,69,194,0,0,62,194,0,0,61,194,0,0,47,194,0,0,46,194,0
+	.byte 7,8,194,0,7,7,194,0,7,6,194,0,7,5,194,0,7,4,194,0,7,3,194,0,7,2,194,0,7,1,74,15
+	.byte 128,236,95,80,16,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,92,91,9,85,88,90,84,94
+	.byte 93,87,4,128,160,16,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,14,128,168,52,0,0,4
+	.byte 193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,48,107,9,46,101,102,2,105,104,41,128,162,194,0,0
+	.byte 57,60,0,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0
+	.byte 70,194,0,3,170,194,0,0,62,194,0,0,61,194,0,0,47,194,0,3,139,194,0,2,169,194,0,2,168,194,0,2
+	.byte 167,194,0,2,166,194,0,2,165,194,0,2,164,194,0,3,157,194,0,3,169,194,0,3,168,112,113,194,0,3,165,194
+	.byte 0,3,164,194,0,3,163,111,194,0,3,161,194,0,3,160,194,0,3,159,194,0,3,158,194,0,3,153,194,0,3,152
+	.byte 194,0,3,151,194,0,3,150,194,0,3,149,194,0,3,148,194,0,3,147,194,0,3,146,194,0,3,145,194,0,3,144
+	.byte 13,128,168,36,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,13,10,9,8,128,128,127,2
+	.byte 125,9,128,160,44,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,128,130,128,132,128,134,128,133
+	.byte 128,129,4,128,144,8,0,0,1,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,6,128,128,12,0,0,4
+	.byte 193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,128,136,128,135,16,128,236,128,153,44,8,0,4,193,0,21
+	.byte 195,193,0,21,192,193,0,21,191,193,0,21,189,4,13,128,152,9,8,128,149,128,146,2,128,147,128,148,128,151,128,150
+	.byte 9,128,160,44,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,128,155,128,157,128,159,128,158,128
+	.byte 154,9,128,160,44,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,128,161,128,163,128,165,128,164
+	.byte 128,160,51,128,170,194,0,0,57,116,0,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0
+	.byte 44,194,0,0,58,194,0,0,70,194,0,7,177,194,0,0,62,194,0,0,61,194,0,0,47,194,0,7,172,194,0,2
+	.byte 169,194,0,2,168,194,0,2,167,194,0,2,166,194,0,2,165,194,0,2,164,194,0,3,157,194,0,3,169,194,0,3
+	.byte 168,128,197,128,196,194,0,3,165,194,0,3,164,194,0,3,163,128,216,194,0,3,161,128,212,194,0,3,159,128,209,194
+	.byte 0,3,153,194,0,3,152,194,0,3,151,194,0,3,150,194,0,3,149,194,0,3,148,194,0,3,147,194,0,3,146,194
+	.byte 0,3,145,194,0,3,144,194,0,7,176,194,0,7,175,128,213,128,211,128,208,128,207,128,206,128,202,128,200,128,199,14
+	.byte 128,160,52,0,0,4,193,0,21,195,193,0,21,59,193,0,21,191,193,0,21,58,193,0,19,29,193,0,21,57,193,0
+	.byte 21,64,193,0,21,61,193,0,21,60,193,0,21,57,193,0,19,29,128,220,128,219,128,218,24,128,162,194,0,0,57,28
 	.byte 0,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194
-	.byte 0,0,69,194,0,0,62,194,0,0,61,194,0,0,47,194,0,0,46,194,0,7,8,194,0,7,7,194,0,7,6,194
-	.byte 0,7,5,194,0,7,4,194,0,7,3,194,0,7,2,194,0,7,1,72,15,128,236,93,80,16,0,4,193,0,21,195
-	.byte 193,0,21,192,193,0,21,191,193,0,21,189,4,90,89,9,83,86,88,82,92,91,85,4,128,160,16,0,0,4,193,0
-	.byte 21,195,193,0,21,192,193,0,21,191,193,0,21,189,14,128,168,52,0,0,4,193,0,21,195,193,0,21,192,193,0,21
-	.byte 191,193,0,21,189,4,47,105,9,45,99,100,2,103,102,41,128,162,194,0,0,57,60,0,0,4,194,0,0,67,193,0
-	.byte 21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,3,170,194,0,0,62,194,0
-	.byte 0,61,194,0,0,47,194,0,3,139,194,0,2,169,194,0,2,168,194,0,2,167,194,0,2,166,194,0,2,165,194,0
-	.byte 2,164,194,0,3,157,194,0,3,169,194,0,3,168,110,111,194,0,3,165,194,0,3,164,194,0,3,163,109,194,0,3
-	.byte 161,194,0,3,160,194,0,3,159,194,0,3,158,194,0,3,153,194,0,3,152,194,0,3,151,194,0,3,150,194,0,3
-	.byte 149,194,0,3,148,194,0,3,147,194,0,3,146,194,0,3,145,194,0,3,144,13,128,168,36,0,0,4,193,0,21,195
-	.byte 193,0,21,192,193,0,21,191,193,0,21,189,4,13,10,9,8,126,125,2,123,9,128,160,44,0,0,4,193,0,21,195
-	.byte 193,0,21,192,193,0,21,191,193,0,21,189,128,128,128,130,128,132,128,131,127,4,128,144,8,0,0,1,193,0,21,195
-	.byte 193,0,21,192,193,0,21,191,193,0,21,189,6,128,128,12,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193
-	.byte 0,21,189,128,134,128,133,16,128,236,128,151,44,8,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189
-	.byte 4,13,128,150,9,8,128,147,128,144,2,128,145,128,146,128,149,128,148,9,128,160,44,0,0,4,193,0,21,195,193,0
-	.byte 21,192,193,0,21,191,193,0,21,189,128,153,128,155,128,157,128,156,128,152,9,128,160,44,0,0,4,193,0,21,195,193
-	.byte 0,21,192,193,0,21,191,193,0,21,189,128,159,128,161,128,163,128,162,128,158,51,128,170,194,0,0,57,116,0,0,4
-	.byte 194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,7,178
-	.byte 194,0,0,62,194,0,0,61,194,0,0,47,194,0,7,173,194,0,2,169,194,0,2,168,194,0,2,167,194,0,2,166
-	.byte 194,0,2,165,194,0,2,164,194,0,3,157,194,0,3,169,194,0,3,168,128,195,128,194,194,0,3,165,194,0,3,164
-	.byte 194,0,3,163,128,214,194,0,3,161,128,210,194,0,3,159,128,207,194,0,3,153,194,0,3,152,194,0,3,151,194,0
-	.byte 3,150,194,0,3,149,194,0,3,148,194,0,3,147,194,0,3,146,194,0,3,145,194,0,3,144,194,0,7,177,194,0
-	.byte 7,176,128,211,128,209,128,206,128,205,128,204,128,200,128,198,128,197,14,128,160,52,0,0,4,193,0,21,195,193,0,21
-	.byte 59,193,0,21,191,193,0,21,58,193,0,19,29,193,0,21,57,193,0,21,64,193,0,21,61,193,0,21,60,193,0,21
-	.byte 57,193,0,19,29,128,218,128,217,128,216,24,128,162,194,0,0,57,28,0,0,4,194,0,0,67,193,0,21,192,194,0
-	.byte 0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,0,69,194,0,0,62,194,0,0,61,194,0
-	.byte 0,47,194,0,0,46,194,0,7,124,194,0,7,123,194,0,7,122,128,223,194,0,7,120,128,224,194,0,7,118,128,222
-	.byte 128,221,194,0,7,115,128,220,194,0,7,113,39,128,162,194,0,0,57,36,0,0,4,194,0,0,67,193,0,21,192,194
-	.byte 0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,0,69,194,0,0,62,194,0,0,61,194
-	.byte 0,0,47,194,0,0,46,194,0,7,172,194,0,7,171,194,0,7,170,194,0,7,169,194,0,7,168,194,0,7,167,194
-	.byte 0,7,166,194,0,7,165,194,0,7,164,194,0,7,163,128,241,128,240,128,239,128,233,128,234,128,226,128,237,128,235,128
-	.byte 238,128,236,194,0,7,152,128,232,128,230,128,229,128,228,128,231,128,227,39,128,162,194,0,0,57,36,0,0,4,194,0
-	.byte 0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,0,69,194,0
-	.byte 0,62,194,0,0,61,194,0,0,47,194,0,0,46,194,0,7,172,194,0,7,171,194,0,7,170,194,0,7,169,194,0
-	.byte 7,168,194,0,7,167,194,0,7,166,194,0,7,165,194,0,7,164,194,0,7,163,128,241,128,240,128,239,128,233,128,234
-	.byte 128,226,128,237,128,235,128,238,128,236,128,243,128,232,128,230,128,229,128,228,128,231,128,227,4,128,144,8,0,0,1,193
-	.byte 0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,0,128,144,8,0,0,1,4,128,236,128,247,12,48,0,4,193
-	.byte 0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,128,160,12,0,0,4,193,0,21,195,193,0,21,192,193,0
-	.byte 21,191,193,0,21,189,255,255,255,255,255,54,128,230,129,22,194,0,0,57,72,20,0,4,194,0,0,67,193,0,21,192
-	.byte 194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,3,129,194,0,0,62,194,0,0,61
-	.byte 194,0,0,47,194,0,3,82,194,0,2,169,194,0,2,168,194,0,2,167,194,0,2,166,194,0,2,165,194,0,2,164
-	.byte 194,0,3,109,194,0,3,95,194,0,3,96,194,0,3,89,194,0,3,97,194,0,3,98,194,0,3,127,194,0,3,123
-	.byte 194,0,3,122,194,0,3,121,194,0,3,120,194,0,3,119,194,0,3,118,129,25,194,0,3,112,194,0,3,107,194,0
-	.byte 3,106,194,0,3,105,194,0,3,104,194,0,3,103,194,0,3,102,194,0,3,101,194,0,3,100,194,0,3,99,194,0
-	.byte 3,98,194,0,3,97,194,0,3,96,194,0,3,95,194,0,3,94,194,0,3,93,194,0,3,92,194,0,3,91,194,0
-	.byte 3,90,194,0,3,89,194,0,3,88,194,0,3,87,13,128,236,129,29,48,4,0,4,193,0,21,195,193,0,21,192,193
-	.byte 0,21,191,193,0,21,189,4,13,129,28,9,8,129,26,5,2,129,27,60,128,162,194,0,0,57,64,0,0,4,194,0
-	.byte 0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,2,254,194,0
-	.byte 0,62,194,0,0,61,194,0,0,47,194,0,2,245,194,0,2,169,194,0,2,168,194,0,2,167,194,0,2,166,194,0
-	.byte 2,165,194,0,2,164,194,0,3,109,194,0,3,95,194,0,3,96,194,0,3,89,194,0,3,97,194,0,3,98,194,0
-	.byte 3,127,194,0,3,123,129,32,194,0,3,121,194,0,3,120,194,0,3,119,194,0,3,118,194,0,3,113,194,0,3,112
-	.byte 194,0,3,107,194,0,3,106,194,0,3,105,194,0,3,104,194,0,3,103,194,0,3,102,194,0,3,101,194,0,3,100
-	.byte 194,0,3,99,194,0,3,98,194,0,3,97,194,0,3,96,194,0,3,95,194,0,3,94,194,0,3,93,194,0,3,92
-	.byte 194,0,3,91,194,0,3,90,194,0,3,89,194,0,3,88,194,0,3,87,194,0,2,253,194,0,2,252,194,0,2,251
-	.byte 194,0,2,250,194,0,2,249,194,0,2,248,15,128,168,24,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193
-	.byte 0,21,189,4,13,10,9,8,129,36,5,2,129,35,0,0,60,128,162,194,0,0,57,64,0,0,4,194,0,0,67,193
-	.byte 0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,2,254,194,0,0,62,194
-	.byte 0,0,61,194,0,0,47,194,0,2,245,194,0,2,169,194,0,2,168,194,0,2,167,194,0,2,166,194,0,2,165,194
-	.byte 0,2,164,194,0,3,109,194,0,3,95,194,0,3,96,194,0,3,89,194,0,3,97,194,0,3,98,194,0,3,127,194
-	.byte 0,3,123,129,43,194,0,3,121,194,0,3,120,194,0,3,119,194,0,3,118,194,0,3,113,194,0,3,112,194,0,3
-	.byte 107,194,0,3,106,194,0,3,105,194,0,3,104,194,0,3,103,194,0,3,102,194,0,3,101,194,0,3,100,194,0,3
-	.byte 99,194,0,3,98,194,0,3,97,194,0,3,96,194,0,3,95,194,0,3,94,194,0,3,93,194,0,3,92,194,0,3
-	.byte 91,194,0,3,90,194,0,3,89,194,0,3,88,194,0,3,87,194,0,2,253,194,0,2,252,194,0,2,251,194,0,2
-	.byte 250,194,0,2,249,194,0,2,248,54,128,162,194,0,0,57,48,0,0,4,194,0,0,67,193,0,21,192,194,0,0,57
-	.byte 193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,3,129,194,0,0,62,194,0,0,61,194,0,0,47
-	.byte 194,0,3,82,194,0,2,169,194,0,2,168,194,0,2,167,194,0,2,166,194,0,2,165,194,0,2,164,194,0,3,109
-	.byte 194,0,3,95,194,0,3,96,194,0,3,89,194,0,3,97,194,0,3,98,194,0,3,127,194,0,3,123,194,0,3,122
-	.byte 194,0,3,121,194,0,3,120,194,0,3,119,194,0,3,118,129,48,194,0,3,112,194,0,3,107,194,0,3,106,194,0
-	.byte 3,105,194,0,3,104,194,0,3,103,194,0,3,102,194,0,3,101,194,0,3,100,194,0,3,99,194,0,3,98,194,0
-	.byte 3,97,194,0,3,96,194,0,3,95,194,0,3,94,194,0,3,93,194,0,3,92,194,0,3,91,194,0,3,90,194,0
-	.byte 3,89,194,0,3,88,194,0,3,87,23,128,144,12,0,0,4,193,0,19,142,193,0,19,156,193,0,21,191,193,0,19
-	.byte 154,193,0,19,141,193,0,19,111,193,0,19,112,193,0,19,113,193,0,19,114,193,0,19,115,193,0,19,116,193,0,19
-	.byte 117,193,0,19,118,193,0,19,119,193,0,19,120,193,0,19,121,193,0,19,122,193,0,19,143,193,0,19,123,193,0,19
-	.byte 124,193,0,19,125,193,0,19,126,193,0,19,144,4,128,144,8,0,0,1,193,0,21,195,193,0,21,192,193,0,21,191
-	.byte 193,0,21,189,56,128,230,129,59,194,0,0,57,76,4,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21
-	.byte 189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,3,129,194,0,0,62,194,0,0,61,194,0,0,47,194,0,3
-	.byte 82,194,0,2,169,194,0,2,168,194,0,2,167,194,0,2,166,194,0,2,165,194,0,2,164,194,0,3,109,194,0,3
-	.byte 95,194,0,3,96,194,0,3,89,194,0,3,97,194,0,3,98,194,0,3,127,194,0,3,123,129,54,194,0,3,121,194
-	.byte 0,3,120,194,0,3,119,194,0,3,118,129,56,194,0,3,112,194,0,3,107,194,0,3,106,194,0,3,105,194,0,3
-	.byte 104,194,0,3,103,194,0,3,102,194,0,3,101,194,0,3,100,194,0,3,99,194,0,3,98,194,0,3,97,194,0,3
-	.byte 96,194,0,3,95,194,0,3,94,194,0,3,93,194,0,3,92,194,0,3,91,194,0,3,90,194,0,3,89,194,0,3
-	.byte 88,194,0,3,87,129,55,129,53,4,128,160,12,0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189
-	.byte 64,128,162,194,0,0,57,72,0,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194
-	.byte 0,0,58,194,0,0,70,194,0,1,237,194,0,0,62,194,0,0,61,194,0,0,47,194,0,1,230,194,0,2,169,194
+	.byte 0,0,69,194,0,0,62,194,0,0,61,194,0,0,47,194,0,0,46,194,0,7,124,194,0,7,123,194,0,7,122,128
+	.byte 225,194,0,7,120,128,226,194,0,7,118,128,224,128,223,194,0,7,115,128,222,194,0,7,113,39,128,162,194,0,0,57
+	.byte 36,0,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70
+	.byte 194,0,0,69,194,0,0,62,194,0,0,61,194,0,0,47,194,0,0,46,194,0,7,171,194,0,7,170,194,0,7,169
+	.byte 194,0,7,168,194,0,7,167,194,0,7,166,194,0,7,165,194,0,7,164,194,0,7,163,194,0,7,162,128,243,128,242
+	.byte 128,241,128,235,128,236,128,228,128,239,128,237,128,240,128,238,194,0,7,151,128,234,128,232,128,231,128,230,128,233,128,229
+	.byte 39,128,162,194,0,0,57,36,0,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194
+	.byte 0,0,58,194,0,0,70,194,0,0,69,194,0,0,62,194,0,0,61,194,0,0,47,194,0,0,46,194,0,7,171,194
+	.byte 0,7,170,194,0,7,169,194,0,7,168,194,0,7,167,194,0,7,166,194,0,7,165,194,0,7,164,194,0,7,163,194
+	.byte 0,7,162,128,243,128,242,128,241,128,235,128,236,128,228,128,239,128,237,128,240,128,238,128,245,128,234,128,232,128,231,128
+	.byte 230,128,233,128,229,4,128,144,8,0,0,1,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,0,128,144,8
+	.byte 0,0,1,4,128,236,128,249,12,48,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,128,160,12
+	.byte 0,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,255,255,255,255,255,54,128,230,129,24,194,0,0
+	.byte 57,72,20,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0
+	.byte 70,194,0,3,129,194,0,0,62,194,0,0,61,194,0,0,47,194,0,3,82,194,0,2,169,194,0,2,168,194,0,2
+	.byte 167,194,0,2,166,194,0,2,165,194,0,2,164,194,0,3,109,194,0,3,95,194,0,3,96,194,0,3,89,194,0,3
+	.byte 97,194,0,3,98,194,0,3,127,194,0,3,123,194,0,3,122,194,0,3,121,194,0,3,120,194,0,3,119,194,0,3
+	.byte 118,129,27,194,0,3,112,194,0,3,107,194,0,3,106,194,0,3,105,194,0,3,104,194,0,3,103,194,0,3,102,194
+	.byte 0,3,101,194,0,3,100,194,0,3,99,194,0,3,98,194,0,3,97,194,0,3,96,194,0,3,95,194,0,3,94,194
+	.byte 0,3,93,194,0,3,92,194,0,3,91,194,0,3,90,194,0,3,89,194,0,3,88,194,0,3,87,13,128,236,129,31
+	.byte 48,4,0,4,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,13,129,30,9,8,129,28,5,2,129,29
+	.byte 60,128,162,194,0,0,57,64,0,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194
+	.byte 0,0,58,194,0,0,70,194,0,2,254,194,0,0,62,194,0,0,61,194,0,0,47,194,0,2,245,194,0,2,169,194
 	.byte 0,2,168,194,0,2,167,194,0,2,166,194,0,2,165,194,0,2,164,194,0,3,109,194,0,3,95,194,0,3,96,194
-	.byte 0,3,89,194,0,3,97,194,0,3,98,194,0,3,127,194,0,3,123,194,0,3,122,194,0,3,121,194,0,3,120,194
-	.byte 0,3,119,194,0,3,118,129,70,194,0,3,112,194,0,3,107,194,0,3,106,194,0,3,105,194,0,3,104,194,0,3
+	.byte 0,3,89,194,0,3,97,194,0,3,98,194,0,3,127,194,0,3,123,129,34,194,0,3,121,194,0,3,120,194,0,3
+	.byte 119,194,0,3,118,194,0,3,113,194,0,3,112,194,0,3,107,194,0,3,106,194,0,3,105,194,0,3,104,194,0,3
 	.byte 103,194,0,3,102,194,0,3,101,194,0,3,100,194,0,3,99,194,0,3,98,194,0,3,97,194,0,3,96,194,0,3
 	.byte 95,194,0,3,94,194,0,3,93,194,0,3,92,194,0,3,91,194,0,3,90,194,0,3,89,194,0,3,88,194,0,3
-	.byte 87,194,0,2,25,194,0,2,24,129,68,129,69,129,67,129,66,129,65,194,0,1,236,194,0,1,235,194,0,1,233,4
-	.byte 128,144,8,0,0,1,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,128,136,8,128,160,0,1,193,0
-	.byte 21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,128,144,40,0,1,1,193,0,24,83,193,0,24,82,193,0,21
-	.byte 191,193,0,24,80,98,111,101,104,109,0
+	.byte 87,194,0,2,253,194,0,2,252,194,0,2,251,194,0,2,250,194,0,2,249,194,0,2,248,15,128,168,24,0,0,4
+	.byte 193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,13,10,9,8,129,38,5,2,129,37,0,0,60,128,162
+	.byte 194,0,0,57,64,0,0,4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58
+	.byte 194,0,0,70,194,0,2,254,194,0,0,62,194,0,0,61,194,0,0,47,194,0,2,245,194,0,2,169,194,0,2,168
+	.byte 194,0,2,167,194,0,2,166,194,0,2,165,194,0,2,164,194,0,3,109,194,0,3,95,194,0,3,96,194,0,3,89
+	.byte 194,0,3,97,194,0,3,98,194,0,3,127,194,0,3,123,129,45,194,0,3,121,194,0,3,120,194,0,3,119,194,0
+	.byte 3,118,194,0,3,113,194,0,3,112,194,0,3,107,194,0,3,106,194,0,3,105,194,0,3,104,194,0,3,103,194,0
+	.byte 3,102,194,0,3,101,194,0,3,100,194,0,3,99,194,0,3,98,194,0,3,97,194,0,3,96,194,0,3,95,194,0
+	.byte 3,94,194,0,3,93,194,0,3,92,194,0,3,91,194,0,3,90,194,0,3,89,194,0,3,88,194,0,3,87,194,0
+	.byte 2,253,194,0,2,252,194,0,2,251,194,0,2,250,194,0,2,249,194,0,2,248,54,128,162,194,0,0,57,48,0,0
+	.byte 4,194,0,0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,3
+	.byte 129,194,0,0,62,194,0,0,61,194,0,0,47,194,0,3,82,194,0,2,169,194,0,2,168,194,0,2,167,194,0,2
+	.byte 166,194,0,2,165,194,0,2,164,194,0,3,109,194,0,3,95,194,0,3,96,194,0,3,89,194,0,3,97,194,0,3
+	.byte 98,194,0,3,127,194,0,3,123,194,0,3,122,194,0,3,121,194,0,3,120,194,0,3,119,194,0,3,118,129,50,194
+	.byte 0,3,112,194,0,3,107,194,0,3,106,194,0,3,105,194,0,3,104,194,0,3,103,194,0,3,102,194,0,3,101,194
+	.byte 0,3,100,194,0,3,99,194,0,3,98,194,0,3,97,194,0,3,96,194,0,3,95,194,0,3,94,194,0,3,93,194
+	.byte 0,3,92,194,0,3,91,194,0,3,90,194,0,3,89,194,0,3,88,194,0,3,87,23,128,144,12,0,0,4,193,0
+	.byte 19,142,193,0,19,156,193,0,21,191,193,0,19,154,193,0,19,141,193,0,19,111,193,0,19,112,193,0,19,113,193,0
+	.byte 19,114,193,0,19,115,193,0,19,116,193,0,19,117,193,0,19,118,193,0,19,119,193,0,19,120,193,0,19,121,193,0
+	.byte 19,122,193,0,19,143,193,0,19,123,193,0,19,124,193,0,19,125,193,0,19,126,193,0,19,144,4,128,144,8,0,0
+	.byte 1,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,56,128,230,129,61,194,0,0,57,76,4,0,4,194,0
+	.byte 0,67,193,0,21,192,194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,3,129,194,0
+	.byte 0,62,194,0,0,61,194,0,0,47,194,0,3,82,194,0,2,169,194,0,2,168,194,0,2,167,194,0,2,166,194,0
+	.byte 2,165,194,0,2,164,194,0,3,109,194,0,3,95,194,0,3,96,194,0,3,89,194,0,3,97,194,0,3,98,194,0
+	.byte 3,127,194,0,3,123,129,56,194,0,3,121,194,0,3,120,194,0,3,119,194,0,3,118,129,58,194,0,3,112,194,0
+	.byte 3,107,194,0,3,106,194,0,3,105,194,0,3,104,194,0,3,103,194,0,3,102,194,0,3,101,194,0,3,100,194,0
+	.byte 3,99,194,0,3,98,194,0,3,97,194,0,3,96,194,0,3,95,194,0,3,94,194,0,3,93,194,0,3,92,194,0
+	.byte 3,91,194,0,3,90,194,0,3,89,194,0,3,88,194,0,3,87,129,57,129,55,4,128,160,12,0,0,4,193,0,21
+	.byte 195,193,0,21,192,193,0,21,191,193,0,21,189,64,128,162,194,0,0,57,72,0,0,4,194,0,0,67,193,0,21,192
+	.byte 194,0,0,57,193,0,21,189,194,0,0,44,194,0,0,58,194,0,0,70,194,0,1,237,194,0,0,62,194,0,0,61
+	.byte 194,0,0,47,194,0,1,230,194,0,2,169,194,0,2,168,194,0,2,167,194,0,2,166,194,0,2,165,194,0,2,164
+	.byte 194,0,3,109,194,0,3,95,194,0,3,96,194,0,3,89,194,0,3,97,194,0,3,98,194,0,3,127,194,0,3,123
+	.byte 194,0,3,122,194,0,3,121,194,0,3,120,194,0,3,119,194,0,3,118,129,72,194,0,3,112,194,0,3,107,194,0
+	.byte 3,106,194,0,3,105,194,0,3,104,194,0,3,103,194,0,3,102,194,0,3,101,194,0,3,100,194,0,3,99,194,0
+	.byte 3,98,194,0,3,97,194,0,3,96,194,0,3,95,194,0,3,94,194,0,3,93,194,0,3,92,194,0,3,91,194,0
+	.byte 3,90,194,0,3,89,194,0,3,88,194,0,3,87,194,0,2,25,194,0,2,24,129,70,129,71,129,69,129,68,129,67
+	.byte 194,0,1,236,194,0,1,235,194,0,1,233,4,128,144,8,0,0,1,193,0,21,195,193,0,21,192,193,0,21,191,193
+	.byte 0,21,189,4,128,136,8,128,160,0,1,193,0,21,195,193,0,21,192,193,0,21,191,193,0,21,189,4,128,144,40,0
+	.byte 1,1,193,0,24,83,193,0,24,82,193,0,21,191,193,0,24,80,98,111,101,104,109,0
 .section __TEXT, __const
 	.align 3
 Lglobals_hash:
@@ -18397,7 +18419,7 @@ LDIFF_SYM575=LTDIE_63 - Ldebug_info_start
 	.long LDIFF_SYM575
 	.byte 2
 	.asciz "MonoTouch.Dialog.StringElement:.ctor"
-	.long _MonoTouch_Dialog_StringElement__ctor_string_MonoTouch_Foundation_NSAction
+	.long _MonoTouch_Dialog_StringElement__ctor_string
 	.long Lme_28
 
 	.byte 2,118,16,3
@@ -18410,115 +18432,105 @@ LDIFF_SYM576=LTDIE_63_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM577=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM577
-	.byte 2,125,4,3
-	.asciz "tapped"
-
-LDIFF_SYM578=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM578
-	.byte 2,125,8,0
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM579=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM579
+LDIFF_SYM578=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM578
 Lfde39_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StringElement__ctor_string_MonoTouch_Foundation_NSAction
+	.long _MonoTouch_Dialog_StringElement__ctor_string
 
-LDIFF_SYM580=Lme_28 - _MonoTouch_Dialog_StringElement__ctor_string_MonoTouch_Foundation_NSAction
-	.long LDIFF_SYM580
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM579=Lme_28 - _MonoTouch_Dialog_StringElement__ctor_string
+	.long LDIFF_SYM579
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.StringElement:add_Tapped"
-	.long _MonoTouch_Dialog_StringElement_add_Tapped_MonoTouch_Foundation_NSAction
+	.asciz "MonoTouch.Dialog.StringElement:.ctor"
+	.long _MonoTouch_Dialog_StringElement__ctor_string_MonoTouch_Foundation_NSAction
 	.long Lme_29
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM581=LTDIE_63_REFERENCE - Ldebug_info_start
+LDIFF_SYM580=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM580
+	.byte 2,125,0,3
+	.asciz "caption"
+
+LDIFF_SYM581=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM581
-	.byte 1,86,3
-	.asciz "value"
+	.byte 2,125,4,3
+	.asciz "tapped"
 
 LDIFF_SYM582=LTDIE_43_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM582
-	.byte 2,125,0,11
-	.asciz "V_0"
-
-LDIFF_SYM583=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM583
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM584=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM584
-	.byte 1,85,0
+	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM585=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM585
+LDIFF_SYM583=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM583
 Lfde40_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StringElement_add_Tapped_MonoTouch_Foundation_NSAction
+	.long _MonoTouch_Dialog_StringElement__ctor_string_MonoTouch_Foundation_NSAction
 
-LDIFF_SYM586=Lme_29 - _MonoTouch_Dialog_StringElement_add_Tapped_MonoTouch_Foundation_NSAction
-	.long LDIFF_SYM586
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
+LDIFF_SYM584=Lme_29 - _MonoTouch_Dialog_StringElement__ctor_string_MonoTouch_Foundation_NSAction
+	.long LDIFF_SYM584
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.StringElement:remove_Tapped"
-	.long _MonoTouch_Dialog_StringElement_remove_Tapped_MonoTouch_Foundation_NSAction
+	.asciz "MonoTouch.Dialog.StringElement:add_Tapped"
+	.long _MonoTouch_Dialog_StringElement_add_Tapped_MonoTouch_Foundation_NSAction
 	.long Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM587=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM587
+LDIFF_SYM585=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM585
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM588=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM588
+LDIFF_SYM586=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM586
 	.byte 2,125,0,11
 	.asciz "V_0"
 
-LDIFF_SYM589=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM589
+LDIFF_SYM587=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM587
 	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM590=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM590
+LDIFF_SYM588=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM588
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM591=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM591
+LDIFF_SYM589=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM589
 Lfde41_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StringElement_remove_Tapped_MonoTouch_Foundation_NSAction
+	.long _MonoTouch_Dialog_StringElement_add_Tapped_MonoTouch_Foundation_NSAction
 
-LDIFF_SYM592=Lme_2a - _MonoTouch_Dialog_StringElement_remove_Tapped_MonoTouch_Foundation_NSAction
-	.long LDIFF_SYM592
+LDIFF_SYM590=Lme_2a - _MonoTouch_Dialog_StringElement_add_Tapped_MonoTouch_Foundation_NSAction
+	.long LDIFF_SYM590
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
 	.align 2
 Lfde41_end:
@@ -18526,136 +18538,146 @@ Lfde41_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.StringElement:GetCell"
-	.long _MonoTouch_Dialog_StringElement_GetCell_MonoTouch_UIKit_UITableView
+	.asciz "MonoTouch.Dialog.StringElement:remove_Tapped"
+	.long _MonoTouch_Dialog_StringElement_remove_Tapped_MonoTouch_Foundation_NSAction
 	.long Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM593=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM593
+LDIFF_SYM591=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM591
 	.byte 1,86,3
-	.asciz "tv"
+	.asciz "value"
 
-LDIFF_SYM594=LTDIE_17_REFERENCE - Ldebug_info_start
+LDIFF_SYM592=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM592
+	.byte 2,125,0,11
+	.asciz "V_0"
+
+LDIFF_SYM593=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM593
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM594=LTDIE_43_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM594
-	.byte 1,90,11
-	.asciz "cell"
-
-LDIFF_SYM595=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM595
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM596=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM596
+LDIFF_SYM595=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM595
 Lfde42_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StringElement_GetCell_MonoTouch_UIKit_UITableView
+	.long _MonoTouch_Dialog_StringElement_remove_Tapped_MonoTouch_Foundation_NSAction
 
-LDIFF_SYM597=Lme_2b - _MonoTouch_Dialog_StringElement_GetCell_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM597
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48
+LDIFF_SYM596=Lme_2b - _MonoTouch_Dialog_StringElement_remove_Tapped_MonoTouch_Foundation_NSAction
+	.long LDIFF_SYM596
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
 	.align 2
 Lfde42_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.StringElement:Summary"
-	.long _MonoTouch_Dialog_StringElement_Summary
+	.asciz "MonoTouch.Dialog.StringElement:GetCell"
+	.long _MonoTouch_Dialog_StringElement_GetCell_MonoTouch_UIKit_UITableView
 	.long Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM598=LTDIE_63_REFERENCE - Ldebug_info_start
+LDIFF_SYM597=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM597
+	.byte 1,86,3
+	.asciz "tv"
+
+LDIFF_SYM598=LTDIE_17_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM598
-	.byte 2,125,0,0
+	.byte 1,90,11
+	.asciz "cell"
+
+LDIFF_SYM599=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM599
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM599=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM599
+LDIFF_SYM600=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM600
 Lfde43_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StringElement_Summary
+	.long _MonoTouch_Dialog_StringElement_GetCell_MonoTouch_UIKit_UITableView
 
-LDIFF_SYM600=Lme_2c - _MonoTouch_Dialog_StringElement_Summary
-	.long LDIFF_SYM600
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM601=Lme_2c - _MonoTouch_Dialog_StringElement_GetCell_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM601
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48
 	.align 2
 Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.StringElement:Selected"
-	.long _MonoTouch_Dialog_StringElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.asciz "MonoTouch.Dialog.StringElement:Summary"
+	.long _MonoTouch_Dialog_StringElement_Summary
 	.long Lme_2d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM601=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM601
-	.byte 2,125,0,3
-	.asciz "dvc"
-
-LDIFF_SYM602=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM602=LTDIE_63_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM602
-	.byte 0,3
-	.asciz "tableView"
-
-LDIFF_SYM603=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM603
-	.byte 2,125,8,3
-	.asciz "indexPath"
-
-LDIFF_SYM604=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM604
-	.byte 2,125,12,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM605=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM605
+LDIFF_SYM603=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM603
 Lfde44_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StringElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long _MonoTouch_Dialog_StringElement_Summary
 
-LDIFF_SYM606=Lme_2d - _MonoTouch_Dialog_StringElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM606
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,40
+LDIFF_SYM604=Lme_2d - _MonoTouch_Dialog_StringElement_Summary
+	.long LDIFF_SYM604
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.StringElement:Matches"
-	.long _MonoTouch_Dialog_StringElement_Matches_string
+	.asciz "MonoTouch.Dialog.StringElement:Selected"
+	.long _MonoTouch_Dialog_StringElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM607=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM607
-	.byte 1,86,3
-	.asciz "text"
+LDIFF_SYM605=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM605
+	.byte 2,125,0,3
+	.asciz "dvc"
 
-LDIFF_SYM608=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM606=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM606
+	.byte 0,3
+	.asciz "tableView"
+
+LDIFF_SYM607=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM607
+	.byte 2,125,8,3
+	.asciz "indexPath"
+
+LDIFF_SYM608=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM608
-	.byte 2,125,0,0
+	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -18665,38 +18687,73 @@ Lfde45_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StringElement_Matches_string
+	.long _MonoTouch_Dialog_StringElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM610=Lme_2e - _MonoTouch_Dialog_StringElement_Matches_string
+LDIFF_SYM610=Lme_2e - _MonoTouch_Dialog_StringElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long LDIFF_SYM610
-	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,40
 	.align 2
 Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
+	.asciz "MonoTouch.Dialog.StringElement:Matches"
+	.long _MonoTouch_Dialog_StringElement_Matches_string
+	.long Lme_2f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM611=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM611
+	.byte 1,86,3
+	.asciz "text"
+
+LDIFF_SYM612=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM612
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM613=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM613
+Lfde46_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_StringElement_Matches_string
+
+LDIFF_SYM614=Lme_2f - _MonoTouch_Dialog_StringElement_Matches_string
+	.long LDIFF_SYM614
+	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,32
+	.align 2
+Lfde46_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
 	.asciz "MonoTouch.Dialog.StringElement:.cctor"
 	.long _MonoTouch_Dialog_StringElement__cctor
-	.long Lme_2f
+	.long Lme_30
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM611=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM611
-Lfde46_start:
+LDIFF_SYM615=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM615
+Lfde47_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_StringElement__cctor
 
-LDIFF_SYM612=Lme_2f - _MonoTouch_Dialog_StringElement__cctor
-	.long LDIFF_SYM612
+LDIFF_SYM616=Lme_30 - _MonoTouch_Dialog_StringElement__cctor
+	.long LDIFF_SYM616
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
-Lfde46_end:
+Lfde47_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_66:
@@ -18705,8 +18762,8 @@ LTDIE_66:
 	.asciz "MonoTouch_UIKit_UITableViewCellStyle"
 
 	.byte 4
-LDIFF_SYM613=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM613
+LDIFF_SYM617=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM617
 	.byte 9
 	.asciz "Default"
 
@@ -18722,72 +18779,72 @@ LDIFF_SYM613=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "MonoTouch_UIKit_UITableViewCellStyle"
 
-LDIFF_SYM614=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM614
+LDIFF_SYM618=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM618
 LTDIE_66_POINTER:
 
 	.byte 13
-LDIFF_SYM615=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM615
+LDIFF_SYM619=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM619
 LTDIE_66_REFERENCE:
 
 	.byte 14
-LDIFF_SYM616=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM616
+LDIFF_SYM620=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM620
 LTDIE_67:
 
 	.byte 5
 	.asciz "MonoTouch_UIKit_UIFont"
 
 	.byte 24,16
-LDIFF_SYM617=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM617
+LDIFF_SYM621=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM621
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UIFont"
 
-LDIFF_SYM618=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM618
+LDIFF_SYM622=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM622
 LTDIE_67_POINTER:
 
 	.byte 13
-LDIFF_SYM619=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM619
+LDIFF_SYM623=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM623
 LTDIE_67_REFERENCE:
 
 	.byte 14
-LDIFF_SYM620=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM620
+LDIFF_SYM624=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM624
 LTDIE_68:
 
 	.byte 5
 	.asciz "MonoTouch_UIKit_UIColor"
 
 	.byte 24,16
-LDIFF_SYM621=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM621
+LDIFF_SYM625=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM625
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UIColor"
 
-LDIFF_SYM622=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM622
+LDIFF_SYM626=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM626
 LTDIE_68_POINTER:
 
 	.byte 13
-LDIFF_SYM623=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM623
+LDIFF_SYM627=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM627
 LTDIE_68_REFERENCE:
 
 	.byte 14
-LDIFF_SYM624=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM624
+LDIFF_SYM628=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM628
 LTDIE_69:
 
 	.byte 8
 	.asciz "MonoTouch_UIKit_UILineBreakMode"
 
 	.byte 4
-LDIFF_SYM625=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM625
+LDIFF_SYM629=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM629
 	.byte 9
 	.asciz "WordWrap"
 
@@ -18809,26 +18866,26 @@ LDIFF_SYM625=LDIE_I4 - Ldebug_info_start
 	.byte 5,0,7
 	.asciz "MonoTouch_UIKit_UILineBreakMode"
 
-LDIFF_SYM626=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM626
+LDIFF_SYM630=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM630
 LTDIE_69_POINTER:
 
 	.byte 13
-LDIFF_SYM627=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM627
+LDIFF_SYM631=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM631
 LTDIE_69_REFERENCE:
 
 	.byte 14
-LDIFF_SYM628=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM628
+LDIFF_SYM632=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM632
 LTDIE_70:
 
 	.byte 8
 	.asciz "MonoTouch_UIKit_UITableViewCellAccessory"
 
 	.byte 4
-LDIFF_SYM629=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM629
+LDIFF_SYM633=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM633
 	.byte 9
 	.asciz "None"
 
@@ -18847,482 +18904,447 @@ LDIFF_SYM629=LDIE_I4 - Ldebug_info_start
 	.byte 4,0,7
 	.asciz "MonoTouch_UIKit_UITableViewCellAccessory"
 
-LDIFF_SYM630=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM630
+LDIFF_SYM634=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM634
 LTDIE_70_POINTER:
 
 	.byte 13
-LDIFF_SYM631=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM631
+LDIFF_SYM635=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM635
 LTDIE_70_REFERENCE:
 
 	.byte 14
-LDIFF_SYM632=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM632
+LDIFF_SYM636=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM636
 LTDIE_72:
 
 	.byte 5
 	.asciz "MonoTouch_UIKit_UIImage"
 
 	.byte 24,16
-LDIFF_SYM633=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM633
+LDIFF_SYM637=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM637
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UIImage"
 
-LDIFF_SYM634=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM634
+LDIFF_SYM638=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM638
 LTDIE_72_POINTER:
 
 	.byte 13
-LDIFF_SYM635=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM635
+LDIFF_SYM639=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM639
 LTDIE_72_REFERENCE:
 
 	.byte 14
-LDIFF_SYM636=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM636
+LDIFF_SYM640=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM640
 LTDIE_74:
 
 	.byte 5
 	.asciz "System_Int64"
 
 	.byte 16,16
-LDIFF_SYM637=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM637
+LDIFF_SYM641=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM641
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM638=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM638
+LDIFF_SYM642=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM642
 	.byte 2,35,8,0,7
 	.asciz "System_Int64"
 
-LDIFF_SYM639=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM639
+LDIFF_SYM643=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM643
 LTDIE_74_POINTER:
 
 	.byte 13
-LDIFF_SYM640=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM640
+LDIFF_SYM644=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM644
 LTDIE_74_REFERENCE:
 
 	.byte 14
-LDIFF_SYM641=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM641
+LDIFF_SYM645=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM645
 LTDIE_75:
 
 	.byte 5
 	.asciz "System_UriParser"
 
 	.byte 16,16
-LDIFF_SYM642=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM642
+LDIFF_SYM646=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM646
 	.byte 2,35,0,6
 	.asciz "scheme_name"
 
-LDIFF_SYM643=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM643
+LDIFF_SYM647=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM647
 	.byte 2,35,8,6
 	.asciz "default_port"
 
-LDIFF_SYM644=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM644
+LDIFF_SYM648=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM648
 	.byte 2,35,12,0,7
 	.asciz "System_UriParser"
 
-LDIFF_SYM645=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM645
+LDIFF_SYM649=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM649
 LTDIE_75_POINTER:
 
 	.byte 13
-LDIFF_SYM646=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM646
+LDIFF_SYM650=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM650
 LTDIE_75_REFERENCE:
 
 	.byte 14
-LDIFF_SYM647=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM647
+LDIFF_SYM651=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM651
 LTDIE_73:
 
 	.byte 5
 	.asciz "System_Uri"
 
 	.byte 80,16
-LDIFF_SYM648=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM648
+LDIFF_SYM652=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM652
 	.byte 2,35,0,6
 	.asciz "isUnixFilePath"
 
-LDIFF_SYM649=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM649
+LDIFF_SYM653=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM653
 	.byte 2,35,52,6
 	.asciz "source"
 
-LDIFF_SYM650=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM650
+LDIFF_SYM654=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM654
 	.byte 2,35,8,6
 	.asciz "scheme"
 
-LDIFF_SYM651=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM651
+LDIFF_SYM655=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM655
 	.byte 2,35,12,6
 	.asciz "host"
 
-LDIFF_SYM652=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM652
+LDIFF_SYM656=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM656
 	.byte 2,35,16,6
 	.asciz "port"
 
-LDIFF_SYM653=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM653
+LDIFF_SYM657=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM657
 	.byte 2,35,56,6
 	.asciz "path"
 
-LDIFF_SYM654=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM654
+LDIFF_SYM658=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM658
 	.byte 2,35,20,6
 	.asciz "query"
 
-LDIFF_SYM655=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM655
+LDIFF_SYM659=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM659
 	.byte 2,35,24,6
 	.asciz "fragment"
 
-LDIFF_SYM656=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM656
+LDIFF_SYM660=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM660
 	.byte 2,35,28,6
 	.asciz "userinfo"
 
-LDIFF_SYM657=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM657
+LDIFF_SYM661=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM661
 	.byte 2,35,32,6
 	.asciz "isUnc"
 
-LDIFF_SYM658=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM658
+LDIFF_SYM662=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM662
 	.byte 2,35,60,6
 	.asciz "isOpaquePart"
 
-LDIFF_SYM659=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM659
+LDIFF_SYM663=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM663
 	.byte 2,35,61,6
 	.asciz "isAbsoluteUri"
 
-LDIFF_SYM660=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM660
+LDIFF_SYM664=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM664
 	.byte 2,35,62,6
 	.asciz "scope_id"
 
-LDIFF_SYM661=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM661
+LDIFF_SYM665=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM665
 	.byte 2,35,64,6
 	.asciz "userEscaped"
 
-LDIFF_SYM662=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM662
+LDIFF_SYM666=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM666
 	.byte 2,35,72,6
 	.asciz "cachedAbsoluteUri"
 
-LDIFF_SYM663=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM663
+LDIFF_SYM667=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM667
 	.byte 2,35,36,6
 	.asciz "cachedToString"
 
-LDIFF_SYM664=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM664
+LDIFF_SYM668=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM668
 	.byte 2,35,40,6
 	.asciz "cachedLocalPath"
 
-LDIFF_SYM665=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM665
+LDIFF_SYM669=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM669
 	.byte 2,35,44,6
 	.asciz "cachedHashCode"
 
-LDIFF_SYM666=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM666
+LDIFF_SYM670=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM670
 	.byte 2,35,76,6
 	.asciz "parser"
 
-LDIFF_SYM667=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM667
+LDIFF_SYM671=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM671
 	.byte 2,35,48,0,7
 	.asciz "System_Uri"
 
-LDIFF_SYM668=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM668
+LDIFF_SYM672=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM672
 LTDIE_73_POINTER:
 
 	.byte 13
-LDIFF_SYM669=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM669
+LDIFF_SYM673=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM673
 LTDIE_73_REFERENCE:
 
 	.byte 14
-LDIFF_SYM670=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM670
+LDIFF_SYM674=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM674
 LTDIE_71:
 
 	.byte 5
 	.asciz "_ExtraInfo"
 
 	.byte 28,16
-LDIFF_SYM671=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM671
+LDIFF_SYM675=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM675
 	.byte 2,35,0,6
 	.asciz "Image"
 
-LDIFF_SYM672=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM672
+LDIFF_SYM676=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM676
 	.byte 2,35,8,6
 	.asciz "BackgroundColor"
 
-LDIFF_SYM673=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM673
+LDIFF_SYM677=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM677
 	.byte 2,35,12,6
 	.asciz "DetailColor"
 
-LDIFF_SYM674=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM674
+LDIFF_SYM678=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM678
 	.byte 2,35,16,6
 	.asciz "Uri"
 
-LDIFF_SYM675=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM675
+LDIFF_SYM679=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM679
 	.byte 2,35,20,6
 	.asciz "BackgroundUri"
 
-LDIFF_SYM676=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM676
+LDIFF_SYM680=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM680
 	.byte 2,35,24,0,7
 	.asciz "_ExtraInfo"
 
-LDIFF_SYM677=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM677
+LDIFF_SYM681=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM681
 LTDIE_71_POINTER:
 
 	.byte 13
-LDIFF_SYM678=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM678
+LDIFF_SYM682=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM682
 LTDIE_71_REFERENCE:
 
 	.byte 14
-LDIFF_SYM679=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM679
+LDIFF_SYM683=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM683
 LTDIE_65:
 
 	.byte 5
 	.asciz "MonoTouch_Dialog_StyledStringElement"
 
 	.byte 64,16
-LDIFF_SYM680=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM680
+LDIFF_SYM684=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM684
 	.byte 2,35,0,6
 	.asciz "style"
 
-LDIFF_SYM681=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM681
+LDIFF_SYM685=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM685
 	.byte 2,35,48,6
 	.asciz "AccessoryTapped"
 
-LDIFF_SYM682=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM682
+LDIFF_SYM686=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM686
 	.byte 2,35,28,6
 	.asciz "Font"
 
-LDIFF_SYM683=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM683
+LDIFF_SYM687=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM687
 	.byte 2,35,32,6
 	.asciz "SubtitleFont"
 
-LDIFF_SYM684=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM684
+LDIFF_SYM688=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM688
 	.byte 2,35,36,6
 	.asciz "TextColor"
 
-LDIFF_SYM685=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM685
+LDIFF_SYM689=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM689
 	.byte 2,35,40,6
 	.asciz "LineBreakMode"
 
-LDIFF_SYM686=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM686
+LDIFF_SYM690=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM690
 	.byte 2,35,52,6
 	.asciz "Lines"
 
-LDIFF_SYM687=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM687
+LDIFF_SYM691=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM691
 	.byte 2,35,56,6
 	.asciz "Accessory"
 
-LDIFF_SYM688=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM688
+LDIFF_SYM692=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM692
 	.byte 2,35,60,6
 	.asciz "extraInfo"
 
-LDIFF_SYM689=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM689
+LDIFF_SYM693=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM693
 	.byte 2,35,44,0,7
 	.asciz "MonoTouch_Dialog_StyledStringElement"
 
-LDIFF_SYM690=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM690
+LDIFF_SYM694=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM694
 LTDIE_65_POINTER:
 
 	.byte 13
-LDIFF_SYM691=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM691
+LDIFF_SYM695=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM695
 LTDIE_65_REFERENCE:
 
 	.byte 14
-LDIFF_SYM692=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM692
+LDIFF_SYM696=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM696
 	.byte 2
 	.asciz "MonoTouch.Dialog.StyledStringElement:GetKey"
 	.long _MonoTouch_Dialog_StyledStringElement_GetKey_int
-	.long Lme_30
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM693=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM693
-	.byte 0,3
-	.asciz "style"
-
-LDIFF_SYM694=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM694
-	.byte 2,125,4,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM695=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM695
-Lfde47_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_StyledStringElement_GetKey_int
-
-LDIFF_SYM696=Lme_30 - _MonoTouch_Dialog_StyledStringElement_GetKey_int
-	.long LDIFF_SYM696
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde47_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.StyledStringElement:GetCell"
-	.long _MonoTouch_Dialog_StyledStringElement_GetCell_MonoTouch_UIKit_UITableView
 	.long Lme_31
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM697=LTDIE_65_REFERENCE - Ldebug_info_start
+LDIFF_SYM697=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM697
-	.byte 1,86,3
-	.asciz "tv"
+	.byte 0,3
+	.asciz "style"
 
-LDIFF_SYM698=LTDIE_17_REFERENCE - Ldebug_info_start
+LDIFF_SYM698=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM698
-	.byte 1,90,11
-	.asciz "key"
-
-LDIFF_SYM699=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM699
-	.byte 1,85,11
-	.asciz "cell"
-
-LDIFF_SYM700=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM700
-	.byte 1,90,0
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM701=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM701
+LDIFF_SYM699=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM699
 Lfde48_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StyledStringElement_GetCell_MonoTouch_UIKit_UITableView
+	.long _MonoTouch_Dialog_StyledStringElement_GetKey_int
 
-LDIFF_SYM702=Lme_31 - _MonoTouch_Dialog_StyledStringElement_GetCell_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM702
-	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1,68,14,32
+LDIFF_SYM700=Lme_31 - _MonoTouch_Dialog_StyledStringElement_GetKey_int
+	.long LDIFF_SYM700
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde48_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.StyledStringElement:PrepareCell"
-	.long _MonoTouch_Dialog_StyledStringElement_PrepareCell_MonoTouch_UIKit_UITableViewCell
+	.asciz "MonoTouch.Dialog.StyledStringElement:GetCell"
+	.long _MonoTouch_Dialog_StyledStringElement_GetCell_MonoTouch_UIKit_UITableView
 	.long Lme_32
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM703=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM703
+LDIFF_SYM701=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM701
 	.byte 1,86,3
+	.asciz "tv"
+
+LDIFF_SYM702=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM702
+	.byte 1,90,11
+	.asciz "key"
+
+LDIFF_SYM703=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM703
+	.byte 1,85,11
 	.asciz "cell"
 
 LDIFF_SYM704=LTDIE_24_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM704
-	.byte 1,90,11
-	.asciz "tl"
-
-LDIFF_SYM705=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM705
-	.byte 1,91,11
-	.asciz "imgView"
-
-LDIFF_SYM706=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM706
-	.byte 1,85,11
-	.asciz "img"
-
-LDIFF_SYM707=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM707
-	.byte 1,84,0
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM708=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM708
+LDIFF_SYM705=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM705
 Lfde49_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StyledStringElement_PrepareCell_MonoTouch_UIKit_UITableViewCell
+	.long _MonoTouch_Dialog_StyledStringElement_GetCell_MonoTouch_UIKit_UITableView
 
-LDIFF_SYM709=Lme_32 - _MonoTouch_Dialog_StyledStringElement_PrepareCell_MonoTouch_UIKit_UITableViewCell
-	.long LDIFF_SYM709
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48
+LDIFF_SYM706=Lme_32 - _MonoTouch_Dialog_StyledStringElement_GetCell_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM706
+	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde49_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.StyledStringElement:ClearBackground"
-	.long _MonoTouch_Dialog_StyledStringElement_ClearBackground_MonoTouch_UIKit_UITableViewCell
+	.asciz "MonoTouch.Dialog.StyledStringElement:PrepareCell"
+	.long _MonoTouch_Dialog_StyledStringElement_PrepareCell_MonoTouch_UIKit_UITableViewCell
 	.long Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM710=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM710
-	.byte 0,3
+LDIFF_SYM707=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM707
+	.byte 1,86,3
 	.asciz "cell"
 
-LDIFF_SYM711=LTDIE_24_REFERENCE - Ldebug_info_start
+LDIFF_SYM708=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM708
+	.byte 1,90,11
+	.asciz "tl"
+
+LDIFF_SYM709=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM709
+	.byte 1,91,11
+	.asciz "imgView"
+
+LDIFF_SYM710=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM710
+	.byte 1,85,11
+	.asciz "img"
+
+LDIFF_SYM711=LTDIE_72_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM711
-	.byte 1,90,0
+	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -19332,122 +19354,122 @@ Lfde50_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StyledStringElement_ClearBackground_MonoTouch_UIKit_UITableViewCell
+	.long _MonoTouch_Dialog_StyledStringElement_PrepareCell_MonoTouch_UIKit_UITableViewCell
 
-LDIFF_SYM713=Lme_33 - _MonoTouch_Dialog_StyledStringElement_ClearBackground_MonoTouch_UIKit_UITableViewCell
+LDIFF_SYM713=Lme_33 - _MonoTouch_Dialog_StyledStringElement_PrepareCell_MonoTouch_UIKit_UITableViewCell
 	.long LDIFF_SYM713
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48
 	.align 2
 Lfde50_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.StyledStringElement:MonoTouch.Dialog.IColorizeBackground.WillDisplay"
-	.long _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_IColorizeBackground_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
+	.asciz "MonoTouch.Dialog.StyledStringElement:ClearBackground"
+	.long _MonoTouch_Dialog_StyledStringElement_ClearBackground_MonoTouch_UIKit_UITableViewCell
 	.long Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM714=LTDIE_65_REFERENCE - Ldebug_info_start
+LDIFF_SYM714=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM714
-	.byte 1,86,3
-	.asciz "tableView"
-
-LDIFF_SYM715=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM715
 	.byte 0,3
 	.asciz "cell"
 
-LDIFF_SYM716=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM716
-	.byte 1,90,3
-	.asciz "indexPath"
-
-LDIFF_SYM717=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM717
-	.byte 0,11
-	.asciz "img"
-
-LDIFF_SYM718=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM718
-	.byte 1,85,0
+LDIFF_SYM715=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM715
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM719=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM719
+LDIFF_SYM716=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM716
 Lfde51_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_IColorizeBackground_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
+	.long _MonoTouch_Dialog_StyledStringElement_ClearBackground_MonoTouch_UIKit_UITableViewCell
 
-LDIFF_SYM720=Lme_34 - _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_IColorizeBackground_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM720
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,48
+LDIFF_SYM717=Lme_34 - _MonoTouch_Dialog_StyledStringElement_ClearBackground_MonoTouch_UIKit_UITableViewCell
+	.long LDIFF_SYM717
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.StyledStringElement:MonoTouch.Dialog.Utilities.IImageUpdated.UpdatedImage"
-	.long _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_Utilities_IImageUpdated_UpdatedImage_System_Uri
+	.asciz "MonoTouch.Dialog.StyledStringElement:MonoTouch.Dialog.IColorizeBackground.WillDisplay"
+	.long _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_IColorizeBackground_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
 	.long Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM721=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM721
+LDIFF_SYM718=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM718
 	.byte 1,86,3
-	.asciz "uri"
+	.asciz "tableView"
 
-LDIFF_SYM722=LTDIE_73_REFERENCE - Ldebug_info_start
+LDIFF_SYM719=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM719
+	.byte 0,3
+	.asciz "cell"
+
+LDIFF_SYM720=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM720
+	.byte 1,90,3
+	.asciz "indexPath"
+
+LDIFF_SYM721=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM721
+	.byte 0,11
+	.asciz "img"
+
+LDIFF_SYM722=LTDIE_72_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM722
-	.byte 2,125,0,11
-	.asciz "root"
-
-LDIFF_SYM723=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM723
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM724=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM724
+LDIFF_SYM723=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM723
 Lfde52_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_Utilities_IImageUpdated_UpdatedImage_System_Uri
+	.long _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_IColorizeBackground_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM725=Lme_35 - _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_Utilities_IImageUpdated_UpdatedImage_System_Uri
-	.long LDIFF_SYM725
-	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,48
+LDIFF_SYM724=Lme_35 - _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_IColorizeBackground_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM724
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,48
 	.align 2
 Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.StyledStringElement:AccessoryTap"
-	.long _MonoTouch_Dialog_StyledStringElement_AccessoryTap
+	.asciz "MonoTouch.Dialog.StyledStringElement:MonoTouch.Dialog.Utilities.IImageUpdated.UpdatedImage"
+	.long _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_Utilities_IImageUpdated_UpdatedImage_System_Uri
 	.long Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM726=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM726
-	.byte 1,90,11
-	.asciz "tapped"
+LDIFF_SYM725=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM725
+	.byte 1,86,3
+	.asciz "uri"
 
-LDIFF_SYM727=LTDIE_43_REFERENCE - Ldebug_info_start
+LDIFF_SYM726=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM726
+	.byte 2,125,0,11
+	.asciz "root"
+
+LDIFF_SYM727=LTDIE_6_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM727
-	.byte 1,90,0
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -19457,38 +19479,73 @@ Lfde53_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_StyledStringElement_AccessoryTap
+	.long _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_Utilities_IImageUpdated_UpdatedImage_System_Uri
 
-LDIFF_SYM729=Lme_36 - _MonoTouch_Dialog_StyledStringElement_AccessoryTap
+LDIFF_SYM729=Lme_36 - _MonoTouch_Dialog_StyledStringElement_MonoTouch_Dialog_Utilities_IImageUpdated_UpdatedImage_System_Uri
 	.long LDIFF_SYM729
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,48
 	.align 2
 Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
+	.asciz "MonoTouch.Dialog.StyledStringElement:AccessoryTap"
+	.long _MonoTouch_Dialog_StyledStringElement_AccessoryTap
+	.long Lme_37
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM730=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM730
+	.byte 1,90,11
+	.asciz "tapped"
+
+LDIFF_SYM731=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM731
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM732=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM732
+Lfde54_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_StyledStringElement_AccessoryTap
+
+LDIFF_SYM733=Lme_37 - _MonoTouch_Dialog_StyledStringElement_AccessoryTap
+	.long LDIFF_SYM733
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+	.align 2
+Lfde54_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
 	.asciz "MonoTouch.Dialog.StyledStringElement:.cctor"
 	.long _MonoTouch_Dialog_StyledStringElement__cctor
-	.long Lme_37
+	.long Lme_38
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM730=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM730
-Lfde54_start:
+LDIFF_SYM734=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM734
+Lfde55_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_StyledStringElement__cctor
 
-LDIFF_SYM731=Lme_37 - _MonoTouch_Dialog_StyledStringElement__cctor
-	.long LDIFF_SYM731
+LDIFF_SYM735=Lme_38 - _MonoTouch_Dialog_StyledStringElement__cctor
+	.long LDIFF_SYM735
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,80
 	.align 2
-Lfde54_end:
+Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_76:
@@ -19497,135 +19554,135 @@ LTDIE_76:
 	.asciz "MonoTouch_Dialog_RadioElement"
 
 	.byte 32,16
-LDIFF_SYM732=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM732
+LDIFF_SYM736=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM736
 	.byte 2,35,0,6
 	.asciz "RadioIdx"
 
-LDIFF_SYM733=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM733
+LDIFF_SYM737=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM737
 	.byte 2,35,28,0,7
 	.asciz "MonoTouch_Dialog_RadioElement"
 
-LDIFF_SYM734=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM734
+LDIFF_SYM738=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM738
 LTDIE_76_POINTER:
 
 	.byte 13
-LDIFF_SYM735=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM735
+LDIFF_SYM739=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM739
 LTDIE_76_REFERENCE:
 
 	.byte 14
-LDIFF_SYM736=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM736
+LDIFF_SYM740=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM740
 	.byte 2
 	.asciz "MonoTouch.Dialog.RadioElement:GetCell"
 	.long _MonoTouch_Dialog_RadioElement_GetCell_MonoTouch_UIKit_UITableView
-	.long Lme_3a
+	.long Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM737=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM737
+LDIFF_SYM741=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM741
 	.byte 1,86,3
 	.asciz "tv"
 
-LDIFF_SYM738=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM738
+LDIFF_SYM742=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM742
 	.byte 1,90,11
 	.asciz "cell"
 
-LDIFF_SYM739=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM739
+LDIFF_SYM743=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM743
 	.byte 1,90,11
 	.asciz "root"
 
-LDIFF_SYM740=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM740
+LDIFF_SYM744=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM744
 	.byte 1,85,11
 	.asciz "selected"
 
-LDIFF_SYM741=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM741
+LDIFF_SYM745=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM745
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM742=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM742
-Lfde55_start:
+LDIFF_SYM746=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM746
+Lfde56_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_RadioElement_GetCell_MonoTouch_UIKit_UITableView
 
-LDIFF_SYM743=Lme_3a - _MonoTouch_Dialog_RadioElement_GetCell_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM743
+LDIFF_SYM747=Lme_3b - _MonoTouch_Dialog_RadioElement_GetCell_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM747
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48
 	.align 2
-Lfde55_end:
+Lfde56_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.RadioElement:Selected"
 	.long _MonoTouch_Dialog_RadioElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_3b
+	.long Lme_3c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM744=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM744
+LDIFF_SYM748=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM748
 	.byte 1,84,3
 	.asciz "dvc"
 
-LDIFF_SYM745=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM745
+LDIFF_SYM749=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM749
 	.byte 2,125,4,3
 	.asciz "tableView"
 
-LDIFF_SYM746=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM746
+LDIFF_SYM750=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM750
 	.byte 2,125,8,3
 	.asciz "indexPath"
 
-LDIFF_SYM747=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM747
+LDIFF_SYM751=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM751
 	.byte 2,125,12,11
 	.asciz "root"
 
-LDIFF_SYM748=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM748
+LDIFF_SYM752=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM752
 	.byte 1,91,11
 	.asciz "cell"
 
-LDIFF_SYM749=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM749
+LDIFF_SYM753=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM753
 	.byte 1,90,11
 	.asciz "selectedIndex"
 
-LDIFF_SYM750=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM750
+LDIFF_SYM754=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM754
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM751=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM751
-Lfde56_start:
+LDIFF_SYM755=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM755
+Lfde57_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_RadioElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM752=Lme_3b - _MonoTouch_Dialog_RadioElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM752
+LDIFF_SYM756=Lme_3c - _MonoTouch_Dialog_RadioElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM756
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,134,6,136,5,138,4,139,3,142,1,68,14,56
 	.align 2
-Lfde56_end:
+Lfde57_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_77:
@@ -19634,66 +19691,31 @@ LTDIE_77:
 	.asciz "MonoTouch_Dialog_CheckboxElement"
 
 	.byte 32,16
-LDIFF_SYM753=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM753
+LDIFF_SYM757=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM757
 	.byte 2,35,0,6
 	.asciz "Value"
 
-LDIFF_SYM754=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM754
+LDIFF_SYM758=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM758
 	.byte 2,35,28,0,7
 	.asciz "MonoTouch_Dialog_CheckboxElement"
 
-LDIFF_SYM755=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM755
+LDIFF_SYM759=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM759
 LTDIE_77_POINTER:
 
 	.byte 13
-LDIFF_SYM756=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM756
+LDIFF_SYM760=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM760
 LTDIE_77_REFERENCE:
 
 	.byte 14
-LDIFF_SYM757=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM757
-	.byte 2
-	.asciz "MonoTouch.Dialog.CheckboxElement:ConfigCell"
-	.long _MonoTouch_Dialog_CheckboxElement_ConfigCell_MonoTouch_UIKit_UITableViewCell
-	.long Lme_3c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM758=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM758
-	.byte 1,86,3
-	.asciz "cell"
-
-LDIFF_SYM759=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM759
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM760=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM760
-Lfde57_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_CheckboxElement_ConfigCell_MonoTouch_UIKit_UITableViewCell
-
-LDIFF_SYM761=Lme_3c - _MonoTouch_Dialog_CheckboxElement_ConfigCell_MonoTouch_UIKit_UITableViewCell
+LDIFF_SYM761=LTDIE_77 - Ldebug_info_start
 	.long LDIFF_SYM761
-	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,32
-	.align 2
-Lfde57_end:
-
-.section __DWARF, __debug_info,regular,debug
-
 	.byte 2
-	.asciz "MonoTouch.Dialog.CheckboxElement:GetCell"
-	.long _MonoTouch_Dialog_CheckboxElement_GetCell_MonoTouch_UIKit_UITableView
+	.asciz "MonoTouch.Dialog.CheckboxElement:.ctor"
+	.long _MonoTouch_Dialog_CheckboxElement__ctor_string_bool
 	.long Lme_3d
 
 	.byte 2,118,16,3
@@ -19702,77 +19724,152 @@ Lfde57_end:
 LDIFF_SYM762=LTDIE_77_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM762
 	.byte 2,125,0,3
-	.asciz "tv"
+	.asciz "caption"
 
-LDIFF_SYM763=LTDIE_17_REFERENCE - Ldebug_info_start
+LDIFF_SYM763=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM763
-	.byte 2,125,4,0
+	.byte 2,125,4,3
+	.asciz "value"
+
+LDIFF_SYM764=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM764
+	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM764=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM764
+LDIFF_SYM765=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM765
 Lfde58_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_CheckboxElement_GetCell_MonoTouch_UIKit_UITableView
+	.long _MonoTouch_Dialog_CheckboxElement__ctor_string_bool
 
-LDIFF_SYM765=Lme_3d - _MonoTouch_Dialog_CheckboxElement_GetCell_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM765
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM766=Lme_3d - _MonoTouch_Dialog_CheckboxElement__ctor_string_bool
+	.long LDIFF_SYM766
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde58_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.CheckboxElement:Selected"
-	.long _MonoTouch_Dialog_CheckboxElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.asciz "MonoTouch.Dialog.CheckboxElement:ConfigCell"
+	.long _MonoTouch_Dialog_CheckboxElement_ConfigCell_MonoTouch_UIKit_UITableViewCell
 	.long Lme_3e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM766=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM766
+LDIFF_SYM767=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM767
+	.byte 1,86,3
+	.asciz "cell"
+
+LDIFF_SYM768=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM768
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM769=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM769
+Lfde59_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_CheckboxElement_ConfigCell_MonoTouch_UIKit_UITableViewCell
+
+LDIFF_SYM770=Lme_3e - _MonoTouch_Dialog_CheckboxElement_ConfigCell_MonoTouch_UIKit_UITableViewCell
+	.long LDIFF_SYM770
+	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,32
+	.align 2
+Lfde59_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.CheckboxElement:GetCell"
+	.long _MonoTouch_Dialog_CheckboxElement_GetCell_MonoTouch_UIKit_UITableView
+	.long Lme_3f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM771=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM771
+	.byte 2,125,0,3
+	.asciz "tv"
+
+LDIFF_SYM772=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM772
+	.byte 2,125,4,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM773=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM773
+Lfde60_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_CheckboxElement_GetCell_MonoTouch_UIKit_UITableView
+
+LDIFF_SYM774=Lme_3f - _MonoTouch_Dialog_CheckboxElement_GetCell_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM774
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde60_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.CheckboxElement:Selected"
+	.long _MonoTouch_Dialog_CheckboxElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long Lme_40
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM775=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM775
 	.byte 1,84,3
 	.asciz "dvc"
 
-LDIFF_SYM767=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM767
+LDIFF_SYM776=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM776
 	.byte 2,125,0,3
 	.asciz "tableView"
 
-LDIFF_SYM768=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM768
+LDIFF_SYM777=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM777
 	.byte 1,86,3
 	.asciz "path"
 
-LDIFF_SYM769=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM769
+LDIFF_SYM778=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM778
 	.byte 2,125,4,11
 	.asciz "cell"
 
-LDIFF_SYM770=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM770
+LDIFF_SYM779=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM779
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM771=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM771
-Lfde59_start:
+LDIFF_SYM780=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM780
+Lfde61_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_CheckboxElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM772=Lme_3e - _MonoTouch_Dialog_CheckboxElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM772
+LDIFF_SYM781=Lme_40 - _MonoTouch_Dialog_CheckboxElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM781
 	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,134,4,136,3,142,1,68,14,32
 	.align 2
-Lfde59_end:
+Lfde61_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_79:
@@ -19781,98 +19878,98 @@ LTDIE_79:
 	.asciz "MonoTouch_UIKit_UIPopoverController"
 
 	.byte 28,16
-LDIFF_SYM773=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM773
+LDIFF_SYM782=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM782
 	.byte 2,35,0,6
 	.asciz "__mt_ContentViewController_var"
 
-LDIFF_SYM774=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM774
+LDIFF_SYM783=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM783
 	.byte 2,35,24,0,7
 	.asciz "MonoTouch_UIKit_UIPopoverController"
 
-LDIFF_SYM775=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM775
+LDIFF_SYM784=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM784
 LTDIE_79_POINTER:
 
 	.byte 13
-LDIFF_SYM776=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM776
+LDIFF_SYM785=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM785
 LTDIE_79_REFERENCE:
 
 	.byte 14
-LDIFF_SYM777=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM777
+LDIFF_SYM786=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM786
 LTDIE_78:
 
 	.byte 5
 	.asciz "MonoTouch_Dialog_ImageElement"
 
 	.byte 32,16
-LDIFF_SYM778=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM778
+LDIFF_SYM787=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM787
 	.byte 2,35,0,6
 	.asciz "Value"
 
-LDIFF_SYM779=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM779
+LDIFF_SYM788=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM788
 	.byte 2,35,16,6
 	.asciz "scaled"
 
-LDIFF_SYM780=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM780
+LDIFF_SYM789=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM789
 	.byte 2,35,20,6
 	.asciz "popover"
 
-LDIFF_SYM781=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM781
+LDIFF_SYM790=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM790
 	.byte 2,35,24,6
 	.asciz "currentController"
 
-LDIFF_SYM782=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM782
+LDIFF_SYM791=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM791
 	.byte 2,35,28,0,7
 	.asciz "MonoTouch_Dialog_ImageElement"
 
-LDIFF_SYM783=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM783
+LDIFF_SYM792=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM792
 LTDIE_78_POINTER:
 
 	.byte 13
-LDIFF_SYM784=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM784
+LDIFF_SYM793=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM793
 LTDIE_78_REFERENCE:
 
 	.byte 14
-LDIFF_SYM785=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM785
+LDIFF_SYM794=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM794
 	.byte 2
 	.asciz "MonoTouch.Dialog.ImageElement:get_CellKey"
 	.long _MonoTouch_Dialog_ImageElement_get_CellKey
-	.long Lme_3f
+	.long Lme_41
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM786=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM786
+LDIFF_SYM795=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM795
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM787=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM787
-Lfde60_start:
+LDIFF_SYM796=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM796
+Lfde62_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_ImageElement_get_CellKey
 
-LDIFF_SYM788=Lme_3f - _MonoTouch_Dialog_ImageElement_get_CellKey
-	.long LDIFF_SYM788
+LDIFF_SYM797=Lme_41 - _MonoTouch_Dialog_ImageElement_get_CellKey
+	.long LDIFF_SYM797
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde60_end:
+Lfde62_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_80:
@@ -19881,103 +19978,103 @@ LTDIE_80:
 	.asciz "MonoTouch_CoreGraphics_CGContext"
 
 	.byte 12,16
-LDIFF_SYM789=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM789
+LDIFF_SYM798=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM798
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM790=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM790
+LDIFF_SYM799=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM799
 	.byte 2,35,8,0,7
 	.asciz "MonoTouch_CoreGraphics_CGContext"
 
-LDIFF_SYM791=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM791
+LDIFF_SYM800=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM800
 LTDIE_80_POINTER:
 
 	.byte 13
-LDIFF_SYM792=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM792
+LDIFF_SYM801=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM801
 LTDIE_80_REFERENCE:
 
 	.byte 14
-LDIFF_SYM793=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM793
+LDIFF_SYM802=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM802
 LTDIE_81:
 
 	.byte 5
 	.asciz "MonoTouch_CoreGraphics_CGImage"
 
 	.byte 12,16
-LDIFF_SYM794=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM794
+LDIFF_SYM803=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM803
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM795=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM795
+LDIFF_SYM804=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM804
 	.byte 2,35,8,0,7
 	.asciz "MonoTouch_CoreGraphics_CGImage"
 
-LDIFF_SYM796=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM796
+LDIFF_SYM805=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM805
 LTDIE_81_POINTER:
 
 	.byte 13
-LDIFF_SYM797=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM797
+LDIFF_SYM806=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM806
 LTDIE_81_REFERENCE:
 
 	.byte 14
-LDIFF_SYM798=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM798
+LDIFF_SYM807=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM807
 	.byte 2
 	.asciz "MonoTouch.Dialog.ImageElement:Scale"
 	.long _MonoTouch_Dialog_ImageElement_Scale_MonoTouch_UIKit_UIImage
-	.long Lme_40
+	.long Lme_42
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM799=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM799
+LDIFF_SYM808=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM808
 	.byte 0,3
 	.asciz "source"
 
-LDIFF_SYM800=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM800
+LDIFF_SYM809=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM809
 	.byte 1,90,11
 	.asciz "ctx"
 
-LDIFF_SYM801=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM801
+LDIFF_SYM810=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM810
 	.byte 1,85,11
 	.asciz "img"
 
-LDIFF_SYM802=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM802
+LDIFF_SYM811=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM811
 	.byte 1,84,11
 	.asciz "ret"
 
-LDIFF_SYM803=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM803
+LDIFF_SYM812=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM812
 	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM804=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM804
-Lfde61_start:
+LDIFF_SYM813=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM813
+Lfde63_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_ImageElement_Scale_MonoTouch_UIKit_UIImage
 
-LDIFF_SYM805=Lme_40 - _MonoTouch_Dialog_ImageElement_Scale_MonoTouch_UIKit_UIImage
-	.long LDIFF_SYM805
+LDIFF_SYM814=Lme_42 - _MonoTouch_Dialog_ImageElement_Scale_MonoTouch_UIKit_UIImage
+	.long LDIFF_SYM814
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,136,5,138,4,139,3,142,1,68,14,144,1,68,13,11
 	.align 2
-Lfde61_end:
+Lfde63_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_82:
@@ -19986,183 +20083,183 @@ LTDIE_82:
 	.asciz "MonoTouch_CoreGraphics_CGColorSpace"
 
 	.byte 12,16
-LDIFF_SYM806=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM806
+LDIFF_SYM815=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM815
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM807=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM807
+LDIFF_SYM816=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM816
 	.byte 2,35,8,0,7
 	.asciz "MonoTouch_CoreGraphics_CGColorSpace"
 
-LDIFF_SYM808=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM808
+LDIFF_SYM817=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM817
 LTDIE_82_POINTER:
 
 	.byte 13
-LDIFF_SYM809=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM809
+LDIFF_SYM818=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM818
 LTDIE_82_REFERENCE:
 
 	.byte 14
-LDIFF_SYM810=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM810
+LDIFF_SYM819=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM819
 LTDIE_83:
 
 	.byte 5
 	.asciz "MonoTouch_CoreGraphics_CGBitmapContext"
 
 	.byte 12,16
-LDIFF_SYM811=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM811
+LDIFF_SYM820=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM820
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_CoreGraphics_CGBitmapContext"
 
-LDIFF_SYM812=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM812
+LDIFF_SYM821=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM821
 LTDIE_83_POINTER:
 
 	.byte 13
-LDIFF_SYM813=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM813
+LDIFF_SYM822=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM822
 LTDIE_83_REFERENCE:
 
 	.byte 14
-LDIFF_SYM814=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM814
+LDIFF_SYM823=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM823
 	.byte 2
 	.asciz "MonoTouch.Dialog.ImageElement:GetCell"
 	.long _MonoTouch_Dialog_ImageElement_GetCell_MonoTouch_UIKit_UITableView
-	.long Lme_41
+	.long Lme_43
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM815=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM815
+LDIFF_SYM824=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM824
 	.byte 1,86,3
 	.asciz "tv"
 
-LDIFF_SYM816=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM816
+LDIFF_SYM825=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM825
 	.byte 1,90,11
 	.asciz "cell"
 
-LDIFF_SYM817=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM817
+LDIFF_SYM826=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM826
 	.byte 1,90,11
 	.asciz "psection"
 
-LDIFF_SYM818=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM818
+LDIFF_SYM827=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM827
 	.byte 1,85,11
 	.asciz "roundTop"
 
-LDIFF_SYM819=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM819
+LDIFF_SYM828=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM828
 	.byte 2,123,24,11
 	.asciz "roundBottom"
 
-LDIFF_SYM820=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM820
+LDIFF_SYM829=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM829
 	.byte 2,123,25,11
 	.asciz "cs"
 
-LDIFF_SYM821=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM821
+LDIFF_SYM830=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM830
 	.byte 2,123,28,11
 	.asciz "bit"
 
-LDIFF_SYM822=LTDIE_83_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM822
+LDIFF_SYM831=LTDIE_83_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM831
 	.byte 2,123,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM823=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM823
-Lfde62_start:
+LDIFF_SYM832=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM832
+Lfde64_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_ImageElement_GetCell_MonoTouch_UIKit_UITableView
 
-LDIFF_SYM824=Lme_41 - _MonoTouch_Dialog_ImageElement_GetCell_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM824
+LDIFF_SYM833=Lme_43 - _MonoTouch_Dialog_ImageElement_GetCell_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM833
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,192,1,68,13,11
 	.align 2
-Lfde62_end:
+Lfde64_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.ImageElement:Dispose"
 	.long _MonoTouch_Dialog_ImageElement_Dispose_bool
-	.long Lme_42
+	.long Lme_44
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM825=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM825
+LDIFF_SYM834=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM834
 	.byte 1,90,3
 	.asciz "disposing"
 
-LDIFF_SYM826=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM826
+LDIFF_SYM835=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM835
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM827=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM827
-Lfde63_start:
+LDIFF_SYM836=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM836
+Lfde65_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_ImageElement_Dispose_bool
 
-LDIFF_SYM828=Lme_42 - _MonoTouch_Dialog_ImageElement_Dispose_bool
-	.long LDIFF_SYM828
+LDIFF_SYM837=Lme_44 - _MonoTouch_Dialog_ImageElement_Dispose_bool
+	.long LDIFF_SYM837
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
-Lfde63_end:
+Lfde65_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.ImageElement:Picked"
 	.long _MonoTouch_Dialog_ImageElement_Picked_MonoTouch_UIKit_UIImage
-	.long Lme_43
+	.long Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM829=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM829
+LDIFF_SYM838=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM838
 	.byte 1,86,3
 	.asciz "image"
 
-LDIFF_SYM830=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM830
+LDIFF_SYM839=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM839
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM831=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM831
-Lfde64_start:
+LDIFF_SYM840=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM840
+Lfde66_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_ImageElement_Picked_MonoTouch_UIKit_UIImage
 
-LDIFF_SYM832=Lme_43 - _MonoTouch_Dialog_ImageElement_Picked_MonoTouch_UIKit_UIImage
-	.long LDIFF_SYM832
+LDIFF_SYM841=Lme_45 - _MonoTouch_Dialog_ImageElement_Picked_MonoTouch_UIKit_UIImage
+	.long LDIFF_SYM841
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
-Lfde64_end:
+Lfde66_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_84:
@@ -20171,8 +20268,8 @@ LTDIE_84:
 	.asciz "MonoTouch_UIKit_UIUserInterfaceIdiom"
 
 	.byte 4
-LDIFF_SYM833=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM833
+LDIFF_SYM842=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM842
 	.byte 9
 	.asciz "Phone"
 
@@ -20182,100 +20279,100 @@ LDIFF_SYM833=LDIE_I4 - Ldebug_info_start
 	.byte 1,0,7
 	.asciz "MonoTouch_UIKit_UIUserInterfaceIdiom"
 
-LDIFF_SYM834=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM834
+LDIFF_SYM843=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM843
 LTDIE_84_POINTER:
 
 	.byte 13
-LDIFF_SYM835=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM835
+LDIFF_SYM844=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM844
 LTDIE_84_REFERENCE:
 
 	.byte 14
-LDIFF_SYM836=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM836
+LDIFF_SYM845=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM845
 	.byte 2
 	.asciz "MonoTouch.Dialog.ImageElement:Selected"
 	.long _MonoTouch_Dialog_ImageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_44
+	.long Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM837=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM837
+LDIFF_SYM846=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM846
 	.byte 1,84,3
 	.asciz "dvc"
 
-LDIFF_SYM838=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM838
+LDIFF_SYM847=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM847
 	.byte 1,85,3
 	.asciz "tableView"
 
-LDIFF_SYM839=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM839
+LDIFF_SYM848=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM848
 	.byte 2,123,32,3
 	.asciz "path"
 
-LDIFF_SYM840=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM840
+LDIFF_SYM849=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM849
 	.byte 2,123,36,11
 	.asciz ""
 
-LDIFF_SYM841=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM841
+LDIFF_SYM850=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM850
 	.byte 1,90,11
 	.asciz "useRect"
 
-LDIFF_SYM842=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM842
+LDIFF_SYM851=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM851
 	.byte 2,123,16,11
 	.asciz "cell"
 
-LDIFF_SYM843=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM843
+LDIFF_SYM852=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM852
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM844=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM844
-Lfde65_start:
+LDIFF_SYM853=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM853
+Lfde67_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_ImageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM845=Lme_44 - _MonoTouch_Dialog_ImageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM845
+LDIFF_SYM854=Lme_46 - _MonoTouch_Dialog_ImageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM854
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,88,68,13,11
 	.align 2
-Lfde65_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.ImageElement:.cctor"
 	.long _MonoTouch_Dialog_ImageElement__cctor
-	.long Lme_45
+	.long Lme_47
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM846=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM846
-Lfde66_start:
+LDIFF_SYM855=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM855
+Lfde68_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_ImageElement__cctor
 
-LDIFF_SYM847=Lme_45 - _MonoTouch_Dialog_ImageElement__cctor
-	.long LDIFF_SYM847
+LDIFF_SYM856=Lme_47 - _MonoTouch_Dialog_ImageElement__cctor
+	.long LDIFF_SYM856
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,72,68,13,11
 	.align 2
-Lfde66_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_87:
@@ -20284,126 +20381,126 @@ LTDIE_87:
 	.asciz "MonoTouch_UIKit_UINavigationControllerDelegate"
 
 	.byte 24,16
-LDIFF_SYM848=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM848
+LDIFF_SYM857=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM857
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UINavigationControllerDelegate"
 
-LDIFF_SYM849=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM849
+LDIFF_SYM858=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM858
 LTDIE_87_POINTER:
 
 	.byte 13
-LDIFF_SYM850=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM850
+LDIFF_SYM859=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM859
 LTDIE_87_REFERENCE:
 
 	.byte 14
-LDIFF_SYM851=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM851
+LDIFF_SYM860=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM860
 LTDIE_86:
 
 	.byte 5
 	.asciz "MonoTouch_UIKit_UIImagePickerControllerDelegate"
 
 	.byte 24,16
-LDIFF_SYM852=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM852
+LDIFF_SYM861=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM861
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UIImagePickerControllerDelegate"
 
-LDIFF_SYM853=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM853
+LDIFF_SYM862=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM862
 LTDIE_86_POINTER:
 
 	.byte 13
-LDIFF_SYM854=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM854
+LDIFF_SYM863=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM863
 LTDIE_86_REFERENCE:
 
 	.byte 14
-LDIFF_SYM855=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM855
+LDIFF_SYM864=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM864
 LTDIE_85:
 
 	.byte 5
 	.asciz "_MyDelegate"
 
 	.byte 36,16
-LDIFF_SYM856=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM856
+LDIFF_SYM865=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM865
 	.byte 2,35,0,6
 	.asciz "container"
 
-LDIFF_SYM857=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM857
+LDIFF_SYM866=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM866
 	.byte 2,35,24,6
 	.asciz "table"
 
-LDIFF_SYM858=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM858
+LDIFF_SYM867=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM867
 	.byte 2,35,28,6
 	.asciz "path"
 
-LDIFF_SYM859=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM859
+LDIFF_SYM868=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM868
 	.byte 2,35,32,0,7
 	.asciz "_MyDelegate"
 
-LDIFF_SYM860=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM860
+LDIFF_SYM869=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM869
 LTDIE_85_POINTER:
 
 	.byte 13
-LDIFF_SYM861=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM861
+LDIFF_SYM870=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM870
 LTDIE_85_REFERENCE:
 
 	.byte 14
-LDIFF_SYM862=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM862
+LDIFF_SYM871=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM871
 	.byte 2
 	.asciz "MonoTouch.Dialog.ImageElement/MyDelegate:.ctor"
 	.long _MonoTouch_Dialog_ImageElement_MyDelegate__ctor_MonoTouch_Dialog_ImageElement_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_46
+	.long Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM863=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM863
+LDIFF_SYM872=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM872
 	.byte 1,84,3
 	.asciz "container"
 
-LDIFF_SYM864=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM864
+LDIFF_SYM873=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM873
 	.byte 2,125,0,3
 	.asciz "table"
 
-LDIFF_SYM865=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM865
+LDIFF_SYM874=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM874
 	.byte 2,125,4,3
 	.asciz "path"
 
-LDIFF_SYM866=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM866
+LDIFF_SYM875=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM875
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM867=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM867
-Lfde67_start:
+LDIFF_SYM876=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM876
+Lfde69_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_ImageElement_MyDelegate__ctor_MonoTouch_Dialog_ImageElement_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM868=Lme_46 - _MonoTouch_Dialog_ImageElement_MyDelegate__ctor_MonoTouch_Dialog_ImageElement_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM868
+LDIFF_SYM877=Lme_48 - _MonoTouch_Dialog_ImageElement_MyDelegate__ctor_MonoTouch_Dialog_ImageElement_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM877
 	.byte 12,13,0,72,14,8,135,2,68,14,16,132,4,136,3,142,1,68,14,32
 	.align 2
-Lfde67_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_89:
@@ -20412,131 +20509,131 @@ LTDIE_89:
 	.asciz "MonoTouch_UIKit_UINavigationController"
 
 	.byte 56,16
-LDIFF_SYM869=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM869
+LDIFF_SYM878=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM878
 	.byte 2,35,0,6
 	.asciz "__mt_ViewControllers_var"
 
-LDIFF_SYM870=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM870
+LDIFF_SYM879=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM879
 	.byte 2,35,52,0,7
 	.asciz "MonoTouch_UIKit_UINavigationController"
 
-LDIFF_SYM871=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM871
+LDIFF_SYM880=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM880
 LTDIE_89_POINTER:
 
 	.byte 13
-LDIFF_SYM872=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM872
+LDIFF_SYM881=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM881
 LTDIE_89_REFERENCE:
 
 	.byte 14
-LDIFF_SYM873=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM873
+LDIFF_SYM882=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM882
 LTDIE_88:
 
 	.byte 5
 	.asciz "MonoTouch_UIKit_UIImagePickerController"
 
 	.byte 60,16
-LDIFF_SYM874=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM874
+LDIFF_SYM883=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM883
 	.byte 2,35,0,6
 	.asciz "__mt_Delegate_var"
 
-LDIFF_SYM875=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM875
+LDIFF_SYM884=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM884
 	.byte 2,35,56,0,7
 	.asciz "MonoTouch_UIKit_UIImagePickerController"
 
-LDIFF_SYM876=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM876
+LDIFF_SYM885=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM885
 LTDIE_88_POINTER:
 
 	.byte 13
-LDIFF_SYM877=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM877
+LDIFF_SYM886=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM886
 LTDIE_88_REFERENCE:
 
 	.byte 14
-LDIFF_SYM878=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM878
+LDIFF_SYM887=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM887
 LTDIE_90:
 
 	.byte 5
 	.asciz "MonoTouch_Foundation_NSDictionary"
 
 	.byte 32,16
-LDIFF_SYM879=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM879
+LDIFF_SYM888=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM888
 	.byte 2,35,0,6
 	.asciz "__mt_Keys_var"
 
-LDIFF_SYM880=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM880
+LDIFF_SYM889=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM889
 	.byte 2,35,24,6
 	.asciz "__mt_Values_var"
 
-LDIFF_SYM881=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM881
+LDIFF_SYM890=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM890
 	.byte 2,35,28,0,7
 	.asciz "MonoTouch_Foundation_NSDictionary"
 
-LDIFF_SYM882=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM882
+LDIFF_SYM891=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM891
 LTDIE_90_POINTER:
 
 	.byte 13
-LDIFF_SYM883=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM883
+LDIFF_SYM892=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM892
 LTDIE_90_REFERENCE:
 
 	.byte 14
-LDIFF_SYM884=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM884
+LDIFF_SYM893=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM893
 	.byte 2
 	.asciz "MonoTouch.Dialog.ImageElement/MyDelegate:FinishedPickingImage"
 	.long _MonoTouch_Dialog_ImageElement_MyDelegate_FinishedPickingImage_MonoTouch_UIKit_UIImagePickerController_MonoTouch_UIKit_UIImage_MonoTouch_Foundation_NSDictionary
-	.long Lme_47
+	.long Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM885=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM885
+LDIFF_SYM894=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM894
 	.byte 1,86,3
 	.asciz "picker"
 
-LDIFF_SYM886=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM886
+LDIFF_SYM895=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM895
 	.byte 0,3
 	.asciz "image"
 
-LDIFF_SYM887=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM887
+LDIFF_SYM896=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM896
 	.byte 2,125,4,3
 	.asciz "editingInfo"
 
-LDIFF_SYM888=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM888
+LDIFF_SYM897=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM897
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM889=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM889
-Lfde68_start:
+LDIFF_SYM898=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM898
+Lfde70_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_ImageElement_MyDelegate_FinishedPickingImage_MonoTouch_UIKit_UIImagePickerController_MonoTouch_UIKit_UIImage_MonoTouch_Foundation_NSDictionary
 
-LDIFF_SYM890=Lme_47 - _MonoTouch_Dialog_ImageElement_MyDelegate_FinishedPickingImage_MonoTouch_UIKit_UIImagePickerController_MonoTouch_UIKit_UIImage_MonoTouch_Foundation_NSDictionary
-	.long LDIFF_SYM890
+LDIFF_SYM899=Lme_49 - _MonoTouch_Dialog_ImageElement_MyDelegate_FinishedPickingImage_MonoTouch_UIKit_UIImagePickerController_MonoTouch_UIKit_UIImage_MonoTouch_Foundation_NSDictionary
+	.long LDIFF_SYM899
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,40
 	.align 2
-Lfde68_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_92:
@@ -20545,8 +20642,8 @@ LTDIE_92:
 	.asciz "MonoTouch_UIKit_UIKeyboardType"
 
 	.byte 4
-LDIFF_SYM891=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM891
+LDIFF_SYM900=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM900
 	.byte 9
 	.asciz "Default"
 
@@ -20583,26 +20680,26 @@ LDIFF_SYM891=LDIE_I4 - Ldebug_info_start
 	.byte 10,0,7
 	.asciz "MonoTouch_UIKit_UIKeyboardType"
 
-LDIFF_SYM892=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM892
+LDIFF_SYM901=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM901
 LTDIE_92_POINTER:
 
 	.byte 13
-LDIFF_SYM893=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM893
+LDIFF_SYM902=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM902
 LTDIE_92_REFERENCE:
 
 	.byte 14
-LDIFF_SYM894=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM894
+LDIFF_SYM903=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM903
 LTDIE_93:
 
 	.byte 8
 	.asciz "MonoTouch_UIKit_UITextAutocapitalizationType"
 
 	.byte 4
-LDIFF_SYM895=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM895
+LDIFF_SYM904=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM904
 	.byte 9
 	.asciz "None"
 
@@ -20618,26 +20715,26 @@ LDIFF_SYM895=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "MonoTouch_UIKit_UITextAutocapitalizationType"
 
-LDIFF_SYM896=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM896
+LDIFF_SYM905=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM905
 LTDIE_93_POINTER:
 
 	.byte 13
-LDIFF_SYM897=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM897
+LDIFF_SYM906=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM906
 LTDIE_93_REFERENCE:
 
 	.byte 14
-LDIFF_SYM898=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM898
+LDIFF_SYM907=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM907
 LTDIE_94:
 
 	.byte 8
 	.asciz "MonoTouch_UIKit_UITextAutocorrectionType"
 
 	.byte 4
-LDIFF_SYM899=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM899
+LDIFF_SYM908=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM908
 	.byte 9
 	.asciz "Default"
 
@@ -20650,26 +20747,26 @@ LDIFF_SYM899=LDIE_I4 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "MonoTouch_UIKit_UITextAutocorrectionType"
 
-LDIFF_SYM900=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM900
+LDIFF_SYM909=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM909
 LTDIE_94_POINTER:
 
 	.byte 13
-LDIFF_SYM901=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM901
+LDIFF_SYM910=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM910
 LTDIE_94_REFERENCE:
 
 	.byte 14
-LDIFF_SYM902=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM902
+LDIFF_SYM911=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM911
 LTDIE_95:
 
 	.byte 8
 	.asciz "MonoTouch_UIKit_UITextFieldViewMode"
 
 	.byte 4
-LDIFF_SYM903=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM903
+LDIFF_SYM912=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM912
 	.byte 9
 	.asciz "Never"
 
@@ -20685,346 +20782,256 @@ LDIFF_SYM903=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "MonoTouch_UIKit_UITextFieldViewMode"
 
-LDIFF_SYM904=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM904
+LDIFF_SYM913=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM913
 LTDIE_95_POINTER:
 
 	.byte 13
-LDIFF_SYM905=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM905
+LDIFF_SYM914=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM914
 LTDIE_95_REFERENCE:
 
 	.byte 14
-LDIFF_SYM906=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM906
+LDIFF_SYM915=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM915
 LTDIE_96:
 
 	.byte 5
 	.asciz "MonoTouch_UIKit_UITextField"
 
 	.byte 60,16
-LDIFF_SYM907=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM907
+LDIFF_SYM916=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM916
 	.byte 2,35,0,6
 	.asciz "__mt_TextColor_var"
 
-LDIFF_SYM908=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM908
+LDIFF_SYM917=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM917
 	.byte 2,35,48,6
 	.asciz "__mt_Font_var"
 
-LDIFF_SYM909=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM909
+LDIFF_SYM918=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM918
 	.byte 2,35,52,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM910=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM910
+LDIFF_SYM919=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM919
 	.byte 2,35,56,0,7
 	.asciz "MonoTouch_UIKit_UITextField"
 
-LDIFF_SYM911=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM911
+LDIFF_SYM920=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM920
 LTDIE_96_POINTER:
 
 	.byte 13
-LDIFF_SYM912=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM912
+LDIFF_SYM921=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM921
 LTDIE_96_REFERENCE:
 
 	.byte 14
-LDIFF_SYM913=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM913
+LDIFF_SYM922=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM922
 LTDIE_97:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 52,16
-LDIFF_SYM914=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM914
+LDIFF_SYM923=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM923
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM915=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM915
+LDIFF_SYM924=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM924
 LTDIE_97_POINTER:
 
 	.byte 13
-LDIFF_SYM916=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM916
+LDIFF_SYM925=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM925
 LTDIE_97_REFERENCE:
 
 	.byte 14
-LDIFF_SYM917=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM917
+LDIFF_SYM926=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM926
 LTDIE_91:
 
 	.byte 5
 	.asciz "MonoTouch_Dialog_EntryElement"
 
 	.byte 80,16
-LDIFF_SYM918=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM918
+LDIFF_SYM927=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM927
 	.byte 2,35,0,6
 	.asciz "val"
 
-LDIFF_SYM919=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM919
+LDIFF_SYM928=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM928
 	.byte 2,35,16,6
 	.asciz "textalignment"
 
-LDIFF_SYM920=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM920
+LDIFF_SYM929=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM929
 	.byte 2,35,48,6
 	.asciz "keyboardType"
 
-LDIFF_SYM921=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM921
+LDIFF_SYM930=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM930
 	.byte 2,35,52,6
 	.asciz "returnKeyType"
 
-LDIFF_SYM922=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM922
+LDIFF_SYM931=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM931
 	.byte 2,35,56,6
 	.asciz "autocapitalizationType"
 
-LDIFF_SYM923=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM923
+LDIFF_SYM932=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM932
 	.byte 2,35,64,6
 	.asciz "autocorrectionType"
 
-LDIFF_SYM924=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM924
+LDIFF_SYM933=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM933
 	.byte 2,35,68,6
 	.asciz "clearButtonMode"
 
-LDIFF_SYM925=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM925
+LDIFF_SYM934=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM934
 	.byte 2,35,72,6
 	.asciz "isPassword"
 
-LDIFF_SYM926=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM926
+LDIFF_SYM935=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM935
 	.byte 2,35,76,6
 	.asciz "becomeResponder"
 
-LDIFF_SYM927=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM927
+LDIFF_SYM936=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM936
 	.byte 2,35,77,6
 	.asciz "entry"
 
-LDIFF_SYM928=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM928
+LDIFF_SYM937=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM937
 	.byte 2,35,20,6
 	.asciz "placeholder"
 
-LDIFF_SYM929=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM929
+LDIFF_SYM938=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM938
 	.byte 2,35,24,6
 	.asciz "Changed"
 
-LDIFF_SYM930=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM930
+LDIFF_SYM939=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM939
 	.byte 2,35,28,6
 	.asciz "ShouldReturn"
 
-LDIFF_SYM931=LTDIE_97_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM931
+LDIFF_SYM940=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM940
 	.byte 2,35,32,6
 	.asciz "<EntryStarted>k__BackingField"
 
-LDIFF_SYM932=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM932
+LDIFF_SYM941=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM941
 	.byte 2,35,36,6
 	.asciz "<EntryEnded>k__BackingField"
 
-LDIFF_SYM933=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM933
+LDIFF_SYM942=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM942
 	.byte 2,35,40,6
 	.asciz "cell"
 
-LDIFF_SYM934=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM934
+LDIFF_SYM943=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM943
 	.byte 2,35,44,0,7
 	.asciz "MonoTouch_Dialog_EntryElement"
 
-LDIFF_SYM935=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM935
+LDIFF_SYM944=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM944
 LTDIE_91_POINTER:
 
 	.byte 13
-LDIFF_SYM936=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM936
+LDIFF_SYM945=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM945
 LTDIE_91_REFERENCE:
 
 	.byte 14
-LDIFF_SYM937=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM937
+LDIFF_SYM946=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM946
 	.byte 2
 	.asciz "MonoTouch.Dialog.EntryElement:get_Value"
 	.long _MonoTouch_Dialog_EntryElement_get_Value
-	.long Lme_48
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM938=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM938
-	.byte 1,90,11
-	.asciz "newValue"
-
-LDIFF_SYM939=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM939
-	.byte 1,86,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM940=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM940
-Lfde69_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_EntryElement_get_Value
-
-LDIFF_SYM941=Lme_48 - _MonoTouch_Dialog_EntryElement_get_Value
-	.long LDIFF_SYM941
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
-	.align 2
-Lfde69_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:set_Value"
-	.long _MonoTouch_Dialog_EntryElement_set_Value_string
-	.long Lme_49
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM942=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM942
-	.byte 1,86,3
-	.asciz "value"
-
-LDIFF_SYM943=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM943
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM944=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM944
-Lfde70_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_EntryElement_set_Value_string
-
-LDIFF_SYM945=Lme_49 - _MonoTouch_Dialog_EntryElement_set_Value_string
-	.long LDIFF_SYM945
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
-	.align 2
-Lfde70_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:get_KeyboardType"
-	.long _MonoTouch_Dialog_EntryElement_get_KeyboardType
 	.long Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM946=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM946
-	.byte 2,125,0,0
+LDIFF_SYM947=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM947
+	.byte 1,90,11
+	.asciz "newValue"
+
+LDIFF_SYM948=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM948
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM947=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM947
+LDIFF_SYM949=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM949
 Lfde71_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_get_KeyboardType
+	.long _MonoTouch_Dialog_EntryElement_get_Value
 
-LDIFF_SYM948=Lme_4a - _MonoTouch_Dialog_EntryElement_get_KeyboardType
-	.long LDIFF_SYM948
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM950=Lme_4a - _MonoTouch_Dialog_EntryElement_get_Value
+	.long LDIFF_SYM950
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:get_AutocapitalizationType"
-	.long _MonoTouch_Dialog_EntryElement_get_AutocapitalizationType
+	.asciz "MonoTouch.Dialog.EntryElement:set_Value"
+	.long _MonoTouch_Dialog_EntryElement_set_Value_string
 	.long Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM949=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM949
+LDIFF_SYM951=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM951
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM952=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM952
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM950=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM950
+LDIFF_SYM953=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM953
 Lfde72_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_get_AutocapitalizationType
+	.long _MonoTouch_Dialog_EntryElement_set_Value_string
 
-LDIFF_SYM951=Lme_4b - _MonoTouch_Dialog_EntryElement_get_AutocapitalizationType
-	.long LDIFF_SYM951
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM954=Lme_4b - _MonoTouch_Dialog_EntryElement_set_Value_string
+	.long LDIFF_SYM954
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:get_AutocorrectionType"
-	.long _MonoTouch_Dialog_EntryElement_get_AutocorrectionType
+	.asciz "MonoTouch.Dialog.EntryElement:get_KeyboardType"
+	.long _MonoTouch_Dialog_EntryElement_get_KeyboardType
 	.long Lme_4c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM952=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM952
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM953=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM953
-Lfde73_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_EntryElement_get_AutocorrectionType
-
-LDIFF_SYM954=Lme_4c - _MonoTouch_Dialog_EntryElement_get_AutocorrectionType
-	.long LDIFF_SYM954
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde73_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:get_ClearButtonMode"
-	.long _MonoTouch_Dialog_EntryElement_get_ClearButtonMode
-	.long Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -21035,26 +21042,26 @@ LDIFF_SYM955=LTDIE_91_REFERENCE - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM956=Lfde74_end - Lfde74_start
+LDIFF_SYM956=Lfde73_end - Lfde73_start
 	.long LDIFF_SYM956
-Lfde74_start:
+Lfde73_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_get_ClearButtonMode
+	.long _MonoTouch_Dialog_EntryElement_get_KeyboardType
 
-LDIFF_SYM957=Lme_4d - _MonoTouch_Dialog_EntryElement_get_ClearButtonMode
+LDIFF_SYM957=Lme_4c - _MonoTouch_Dialog_EntryElement_get_KeyboardType
 	.long LDIFF_SYM957
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde74_end:
+Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:get_EntryStarted"
-	.long _MonoTouch_Dialog_EntryElement_get_EntryStarted
-	.long Lme_4e
+	.asciz "MonoTouch.Dialog.EntryElement:get_AutocapitalizationType"
+	.long _MonoTouch_Dialog_EntryElement_get_AutocapitalizationType
+	.long Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -21065,26 +21072,26 @@ LDIFF_SYM958=LTDIE_91_REFERENCE - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM959=Lfde75_end - Lfde75_start
+LDIFF_SYM959=Lfde74_end - Lfde74_start
 	.long LDIFF_SYM959
-Lfde75_start:
+Lfde74_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_get_EntryStarted
+	.long _MonoTouch_Dialog_EntryElement_get_AutocapitalizationType
 
-LDIFF_SYM960=Lme_4e - _MonoTouch_Dialog_EntryElement_get_EntryStarted
+LDIFF_SYM960=Lme_4d - _MonoTouch_Dialog_EntryElement_get_AutocapitalizationType
 	.long LDIFF_SYM960
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde75_end:
+Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:get_EntryEnded"
-	.long _MonoTouch_Dialog_EntryElement_get_EntryEnded
-	.long Lme_4f
+	.asciz "MonoTouch.Dialog.EntryElement:get_AutocorrectionType"
+	.long _MonoTouch_Dialog_EntryElement_get_AutocorrectionType
+	.long Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -21095,16 +21102,46 @@ LDIFF_SYM961=LTDIE_91_REFERENCE - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM962=Lfde76_end - Lfde76_start
+LDIFF_SYM962=Lfde75_end - Lfde75_start
 	.long LDIFF_SYM962
+Lfde75_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_EntryElement_get_AutocorrectionType
+
+LDIFF_SYM963=Lme_4e - _MonoTouch_Dialog_EntryElement_get_AutocorrectionType
+	.long LDIFF_SYM963
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde75_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.EntryElement:get_ClearButtonMode"
+	.long _MonoTouch_Dialog_EntryElement_get_ClearButtonMode
+	.long Lme_4f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM964=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM964
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM965=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM965
 Lfde76_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_get_EntryEnded
+	.long _MonoTouch_Dialog_EntryElement_get_ClearButtonMode
 
-LDIFF_SYM963=Lme_4f - _MonoTouch_Dialog_EntryElement_get_EntryEnded
-	.long LDIFF_SYM963
+LDIFF_SYM966=Lme_4f - _MonoTouch_Dialog_EntryElement_get_ClearButtonMode
+	.long LDIFF_SYM966
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde76_end:
@@ -21112,31 +21149,16 @@ Lfde76_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:.ctor"
-	.long _MonoTouch_Dialog_EntryElement__ctor_string_string_string
+	.asciz "MonoTouch.Dialog.EntryElement:get_EntryStarted"
+	.long _MonoTouch_Dialog_EntryElement_get_EntryStarted
 	.long Lme_50
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM964=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM964
-	.byte 1,84,3
-	.asciz "caption"
-
-LDIFF_SYM965=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM965
-	.byte 2,125,0,3
-	.asciz "placeholder"
-
-LDIFF_SYM966=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM966
-	.byte 2,125,4,3
-	.asciz "value"
-
-LDIFF_SYM967=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM967=LTDIE_91_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM967
-	.byte 2,125,8,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -21146,19 +21168,19 @@ Lfde77_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement__ctor_string_string_string
+	.long _MonoTouch_Dialog_EntryElement_get_EntryStarted
 
-LDIFF_SYM969=Lme_50 - _MonoTouch_Dialog_EntryElement__ctor_string_string_string
+LDIFF_SYM969=Lme_50 - _MonoTouch_Dialog_EntryElement_get_EntryStarted
 	.long LDIFF_SYM969
-	.byte 12,13,0,72,14,8,135,2,68,14,16,132,4,136,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde77_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:get_CellKey"
-	.long _MonoTouch_Dialog_EntryElement_get_CellKey
+	.asciz "MonoTouch.Dialog.EntryElement:get_EntryEnded"
+	.long _MonoTouch_Dialog_EntryElement_get_EntryEnded
 	.long Lme_51
 
 	.byte 2,118,16,3
@@ -21166,7 +21188,7 @@ Lfde77_end:
 
 LDIFF_SYM970=LTDIE_91_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM970
-	.byte 1,90,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -21176,19 +21198,19 @@ Lfde78_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_get_CellKey
+	.long _MonoTouch_Dialog_EntryElement_get_EntryEnded
 
-LDIFF_SYM972=Lme_51 - _MonoTouch_Dialog_EntryElement_get_CellKey
+LDIFF_SYM972=Lme_51 - _MonoTouch_Dialog_EntryElement_get_EntryEnded
 	.long LDIFF_SYM972
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde78_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:Summary"
-	.long _MonoTouch_Dialog_EntryElement_Summary
+	.asciz "MonoTouch.Dialog.EntryElement:.ctor"
+	.long _MonoTouch_Dialog_EntryElement__ctor_string_string_string
 	.long Lme_52
 
 	.byte 2,118,16,3
@@ -21196,138 +21218,213 @@ Lfde78_end:
 
 LDIFF_SYM973=LTDIE_91_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM973
-	.byte 2,125,0,0
+	.byte 1,84,3
+	.asciz "caption"
+
+LDIFF_SYM974=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM974
+	.byte 2,125,0,3
+	.asciz "placeholder"
+
+LDIFF_SYM975=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM975
+	.byte 2,125,4,3
+	.asciz "value"
+
+LDIFF_SYM976=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM976
+	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM974=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM974
+LDIFF_SYM977=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM977
 Lfde79_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_Summary
+	.long _MonoTouch_Dialog_EntryElement__ctor_string_string_string
 
-LDIFF_SYM975=Lme_52 - _MonoTouch_Dialog_EntryElement_Summary
-	.long LDIFF_SYM975
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM978=Lme_52 - _MonoTouch_Dialog_EntryElement__ctor_string_string_string
+	.long LDIFF_SYM978
+	.byte 12,13,0,72,14,8,135,2,68,14,16,132,4,136,3,142,1,68,14,32
 	.align 2
 Lfde79_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:ComputeEntryPosition"
-	.long _MonoTouch_Dialog_EntryElement_ComputeEntryPosition_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell
+	.asciz "MonoTouch.Dialog.EntryElement:get_CellKey"
+	.long _MonoTouch_Dialog_EntryElement_get_CellKey
 	.long Lme_53
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM976=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM976
-	.byte 3,123,184,1,3
-	.asciz "tv"
-
-LDIFF_SYM977=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM977
-	.byte 3,123,188,1,3
-	.asciz "cell"
-
-LDIFF_SYM978=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM978
-	.byte 0,11
-	.asciz "s"
-
-LDIFF_SYM979=LTDIE_2_REFERENCE - Ldebug_info_start
+LDIFF_SYM979=LTDIE_91_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM979
-	.byte 2,123,12,11
-	.asciz "max"
-
-LDIFF_SYM980=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM980
-	.byte 2,123,16,11
-	.asciz ""
-
-LDIFF_SYM981=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM981
-	.byte 2,123,24,11
-	.asciz "e"
-
-LDIFF_SYM982=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM982
-	.byte 1,90,11
-	.asciz ""
-
-LDIFF_SYM983=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM983
-	.byte 2,123,32,11
-	.asciz "ee"
-
-LDIFF_SYM984=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM984
-	.byte 1,84,11
-	.asciz "size"
-
-LDIFF_SYM985=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM985
-	.byte 2,123,48,0
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM986=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM986
+LDIFF_SYM980=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM980
 Lfde80_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_ComputeEntryPosition_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell
+	.long _MonoTouch_Dialog_EntryElement_get_CellKey
 
-LDIFF_SYM987=Lme_53 - _MonoTouch_Dialog_EntryElement_ComputeEntryPosition_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell
-	.long LDIFF_SYM987
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,240,1,68,13,11
+LDIFF_SYM981=Lme_53 - _MonoTouch_Dialog_EntryElement_get_CellKey
+	.long LDIFF_SYM981
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:CreateTextField"
-	.long _MonoTouch_Dialog_EntryElement_CreateTextField_System_Drawing_RectangleF
+	.asciz "MonoTouch.Dialog.EntryElement:Summary"
+	.long _MonoTouch_Dialog_EntryElement_Summary
 	.long Lme_54
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM988=LTDIE_91_REFERENCE - Ldebug_info_start
+LDIFF_SYM982=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM982
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM983=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM983
+Lfde81_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_EntryElement_Summary
+
+LDIFF_SYM984=Lme_54 - _MonoTouch_Dialog_EntryElement_Summary
+	.long LDIFF_SYM984
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde81_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.EntryElement:ComputeEntryPosition"
+	.long _MonoTouch_Dialog_EntryElement_ComputeEntryPosition_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell
+	.long Lme_55
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM985=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM985
+	.byte 3,123,184,1,3
+	.asciz "tv"
+
+LDIFF_SYM986=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM986
+	.byte 3,123,188,1,3
+	.asciz "cell"
+
+LDIFF_SYM987=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM987
+	.byte 0,11
+	.asciz "s"
+
+LDIFF_SYM988=LTDIE_2_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM988
-	.byte 1,90,3
-	.asciz "frame"
+	.byte 2,123,12,11
+	.asciz "max"
 
 LDIFF_SYM989=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM989
+	.byte 2,123,16,11
+	.asciz ""
+
+LDIFF_SYM990=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM990
+	.byte 2,123,24,11
+	.asciz "e"
+
+LDIFF_SYM991=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM991
+	.byte 1,90,11
+	.asciz ""
+
+LDIFF_SYM992=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM992
+	.byte 2,123,32,11
+	.asciz "ee"
+
+LDIFF_SYM993=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM993
+	.byte 1,84,11
+	.asciz "size"
+
+LDIFF_SYM994=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM994
+	.byte 2,123,48,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM995=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM995
+Lfde82_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_EntryElement_ComputeEntryPosition_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell
+
+LDIFF_SYM996=Lme_55 - _MonoTouch_Dialog_EntryElement_ComputeEntryPosition_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell
+	.long LDIFF_SYM996
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,240,1,68,13,11
+	.align 2
+Lfde82_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.EntryElement:CreateTextField"
+	.long _MonoTouch_Dialog_EntryElement_CreateTextField_System_Drawing_RectangleF
+	.long Lme_56
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM997=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM997
+	.byte 1,90,3
+	.asciz "frame"
+
+LDIFF_SYM998=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM998
 	.byte 2,123,8,11
 	.asciz ""
 
-LDIFF_SYM990=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM990
+LDIFF_SYM999=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM999
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM991=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM991
-Lfde81_start:
+LDIFF_SYM1000=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM1000
+Lfde83_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_EntryElement_CreateTextField_System_Drawing_RectangleF
 
-LDIFF_SYM992=Lme_54 - _MonoTouch_Dialog_EntryElement_CreateTextField_System_Drawing_RectangleF
-	.long LDIFF_SYM992
+LDIFF_SYM1001=Lme_56 - _MonoTouch_Dialog_EntryElement_CreateTextField_System_Drawing_RectangleF
+	.long LDIFF_SYM1001
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,68,13,11
 	.align 2
-Lfde81_end:
+Lfde83_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_98:
@@ -21336,327 +21433,252 @@ LTDIE_98:
 	.asciz "_<GetCell>c__AnonStorey4"
 
 	.byte 16,16
-LDIFF_SYM993=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM993
+LDIFF_SYM1002=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1002
 	.byte 2,35,0,6
 	.asciz "tv"
 
-LDIFF_SYM994=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM994
+LDIFF_SYM1003=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1003
 	.byte 2,35,8,6
 	.asciz "$this"
 
-LDIFF_SYM995=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM995
+LDIFF_SYM1004=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1004
 	.byte 2,35,12,0,7
 	.asciz "_<GetCell>c__AnonStorey4"
 
-LDIFF_SYM996=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM996
+LDIFF_SYM1005=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1005
 LTDIE_98_POINTER:
 
 	.byte 13
-LDIFF_SYM997=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM997
+LDIFF_SYM1006=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1006
 LTDIE_98_REFERENCE:
 
 	.byte 14
-LDIFF_SYM998=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM998
+LDIFF_SYM1007=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1007
 LTDIE_99:
 
 	.byte 5
 	.asciz "System_Single"
 
 	.byte 12,16
-LDIFF_SYM999=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM999
+LDIFF_SYM1008=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1008
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM1000=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1000
+LDIFF_SYM1009=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1009
 	.byte 2,35,8,0,7
 	.asciz "System_Single"
 
-LDIFF_SYM1001=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1001
+LDIFF_SYM1010=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1010
 LTDIE_99_POINTER:
 
 	.byte 13
-LDIFF_SYM1002=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1002
+LDIFF_SYM1011=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1011
 LTDIE_99_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1003=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1003
+LDIFF_SYM1012=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1012
 	.byte 2
 	.asciz "MonoTouch.Dialog.EntryElement:GetCell"
 	.long _MonoTouch_Dialog_EntryElement_GetCell_MonoTouch_UIKit_UITableView
-	.long Lme_55
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1004=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1004
-	.byte 1,86,3
-	.asciz "tv"
-
-LDIFF_SYM1005=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1005
-	.byte 1,90,11
-	.asciz ""
-
-LDIFF_SYM1006=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1006
-	.byte 1,84,11
-	.asciz "offset"
-
-LDIFF_SYM1007=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1007
-	.byte 1,85,11
-	.asciz ""
-
-LDIFF_SYM1008=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1008
-	.byte 2,123,16,11
-	.asciz ""
-
-LDIFF_SYM1009=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1009
-	.byte 2,123,32,11
-	.asciz ""
-
-LDIFF_SYM1010=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1010
-	.byte 2,123,48,11
-	.asciz ""
-
-LDIFF_SYM1011=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1011
-	.byte 3,123,192,0,11
-	.asciz "size"
-
-LDIFF_SYM1012=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1012
-	.byte 3,123,208,0,11
-	.asciz "yOffset"
-
-LDIFF_SYM1013=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1013
-	.byte 3,123,216,0,11
-	.asciz ""
-
-LDIFF_SYM1014=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1014
-	.byte 3,123,220,0,11
-	.asciz "width"
-
-LDIFF_SYM1015=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1015
-	.byte 3,123,236,0,11
-	.asciz ""
-
-LDIFF_SYM1016=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1016
-	.byte 3,123,240,0,11
-	.asciz "entryFrame"
-
-LDIFF_SYM1017=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1017
-	.byte 3,123,128,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1018=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM1018
-Lfde82_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_EntryElement_GetCell_MonoTouch_UIKit_UITableView
-
-LDIFF_SYM1019=Lme_55 - _MonoTouch_Dialog_EntryElement_GetCell_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM1019
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,200,2,68,13,11
-	.align 2
-Lfde82_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:FetchValue"
-	.long _MonoTouch_Dialog_EntryElement_FetchValue
-	.long Lme_56
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1020=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1020
-	.byte 1,90,11
-	.asciz "newValue"
-
-LDIFF_SYM1021=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1021
-	.byte 1,86,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1022=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM1022
-Lfde83_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_EntryElement_FetchValue
-
-LDIFF_SYM1023=Lme_56 - _MonoTouch_Dialog_EntryElement_FetchValue
-	.long LDIFF_SYM1023
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
-	.align 2
-Lfde83_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:Dispose"
-	.long _MonoTouch_Dialog_EntryElement_Dispose_bool
 	.long Lme_57
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1024=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1024
-	.byte 1,90,3
-	.asciz "disposing"
+LDIFF_SYM1013=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1013
+	.byte 1,86,3
+	.asciz "tv"
 
-LDIFF_SYM1025=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1014=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1014
+	.byte 1,90,11
+	.asciz ""
+
+LDIFF_SYM1015=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1015
+	.byte 1,84,11
+	.asciz "offset"
+
+LDIFF_SYM1016=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1016
+	.byte 1,85,11
+	.asciz ""
+
+LDIFF_SYM1017=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1017
+	.byte 2,123,16,11
+	.asciz ""
+
+LDIFF_SYM1018=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1018
+	.byte 2,123,32,11
+	.asciz ""
+
+LDIFF_SYM1019=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1019
+	.byte 2,123,48,11
+	.asciz ""
+
+LDIFF_SYM1020=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1020
+	.byte 3,123,192,0,11
+	.asciz "size"
+
+LDIFF_SYM1021=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1021
+	.byte 3,123,208,0,11
+	.asciz "yOffset"
+
+LDIFF_SYM1022=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1022
+	.byte 3,123,216,0,11
+	.asciz ""
+
+LDIFF_SYM1023=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1023
+	.byte 3,123,220,0,11
+	.asciz "width"
+
+LDIFF_SYM1024=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1024
+	.byte 3,123,236,0,11
+	.asciz ""
+
+LDIFF_SYM1025=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1025
-	.byte 2,125,0,0
+	.byte 3,123,240,0,11
+	.asciz "entryFrame"
+
+LDIFF_SYM1026=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1026
+	.byte 3,123,128,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1026=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM1026
+LDIFF_SYM1027=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM1027
 Lfde84_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_Dispose_bool
+	.long _MonoTouch_Dialog_EntryElement_GetCell_MonoTouch_UIKit_UITableView
 
-LDIFF_SYM1027=Lme_57 - _MonoTouch_Dialog_EntryElement_Dispose_bool
-	.long LDIFF_SYM1027
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+LDIFF_SYM1028=Lme_57 - _MonoTouch_Dialog_EntryElement_GetCell_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM1028
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,200,2,68,13,11
 	.align 2
 Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:Selected"
-	.long _MonoTouch_Dialog_EntryElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.asciz "MonoTouch.Dialog.EntryElement:FetchValue"
+	.long _MonoTouch_Dialog_EntryElement_FetchValue
 	.long Lme_58
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1028=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1028
-	.byte 2,125,0,3
-	.asciz "dvc"
-
-LDIFF_SYM1029=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1029=LTDIE_91_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1029
-	.byte 0,3
-	.asciz "tableView"
+	.byte 1,90,11
+	.asciz "newValue"
 
-LDIFF_SYM1030=LTDIE_17_REFERENCE - Ldebug_info_start
+LDIFF_SYM1030=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM1030
-	.byte 2,125,8,3
-	.asciz "indexPath"
-
-LDIFF_SYM1031=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1031
-	.byte 2,125,12,0
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1032=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM1032
+LDIFF_SYM1031=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM1031
 Lfde85_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long _MonoTouch_Dialog_EntryElement_FetchValue
 
-LDIFF_SYM1033=Lme_58 - _MonoTouch_Dialog_EntryElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1033
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM1032=Lme_58 - _MonoTouch_Dialog_EntryElement_FetchValue
+	.long LDIFF_SYM1032
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde85_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:Matches"
-	.long _MonoTouch_Dialog_EntryElement_Matches_string
+	.asciz "MonoTouch.Dialog.EntryElement:Dispose"
+	.long _MonoTouch_Dialog_EntryElement_Dispose_bool
 	.long Lme_59
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1034=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1034
-	.byte 1,86,3
-	.asciz "text"
+LDIFF_SYM1033=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1033
+	.byte 1,90,3
+	.asciz "disposing"
 
-LDIFF_SYM1035=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1035
+LDIFF_SYM1034=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1034
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1036=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM1036
+LDIFF_SYM1035=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM1035
 Lfde86_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_Matches_string
+	.long _MonoTouch_Dialog_EntryElement_Dispose_bool
 
-LDIFF_SYM1037=Lme_59 - _MonoTouch_Dialog_EntryElement_Matches_string
-	.long LDIFF_SYM1037
-	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,32
+LDIFF_SYM1036=Lme_59 - _MonoTouch_Dialog_EntryElement_Dispose_bool
+	.long LDIFF_SYM1036
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde86_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:BecomeFirstResponder"
-	.long _MonoTouch_Dialog_EntryElement_BecomeFirstResponder_bool
+	.asciz "MonoTouch.Dialog.EntryElement:Selected"
+	.long _MonoTouch_Dialog_EntryElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long Lme_5a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1038=LTDIE_91_REFERENCE - Ldebug_info_start
+LDIFF_SYM1037=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1037
+	.byte 2,125,0,3
+	.asciz "dvc"
+
+LDIFF_SYM1038=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1038
-	.byte 1,90,3
-	.asciz "animated"
+	.byte 0,3
+	.asciz "tableView"
 
-LDIFF_SYM1039=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1039=LTDIE_17_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1039
-	.byte 2,125,0,11
-	.asciz "tv"
+	.byte 2,125,8,3
+	.asciz "indexPath"
 
-LDIFF_SYM1040=LTDIE_17_REFERENCE - Ldebug_info_start
+LDIFF_SYM1040=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1040
-	.byte 1,86,0
+	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -21666,19 +21688,19 @@ Lfde87_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_BecomeFirstResponder_bool
+	.long _MonoTouch_Dialog_EntryElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1042=Lme_5a - _MonoTouch_Dialog_EntryElement_BecomeFirstResponder_bool
+LDIFF_SYM1042=Lme_5a - _MonoTouch_Dialog_EntryElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long LDIFF_SYM1042
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde87_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:ResignFirstResponder"
-	.long _MonoTouch_Dialog_EntryElement_ResignFirstResponder_bool
+	.asciz "MonoTouch.Dialog.EntryElement:Matches"
+	.long _MonoTouch_Dialog_EntryElement_Matches_string
 	.long Lme_5b
 
 	.byte 2,118,16,3
@@ -21686,233 +21708,308 @@ Lfde87_end:
 
 LDIFF_SYM1043=LTDIE_91_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1043
-	.byte 1,90,3
-	.asciz "animated"
+	.byte 1,86,3
+	.asciz "text"
 
-LDIFF_SYM1044=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1044=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM1044
-	.byte 2,125,0,11
-	.asciz "tv"
-
-LDIFF_SYM1045=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1045
-	.byte 1,86,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1046=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM1046
+LDIFF_SYM1045=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM1045
 Lfde88_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement_ResignFirstResponder_bool
+	.long _MonoTouch_Dialog_EntryElement_Matches_string
 
-LDIFF_SYM1047=Lme_5b - _MonoTouch_Dialog_EntryElement_ResignFirstResponder_bool
-	.long LDIFF_SYM1047
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
+LDIFF_SYM1046=Lme_5b - _MonoTouch_Dialog_EntryElement_Matches_string
+	.long LDIFF_SYM1046
+	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,32
 	.align 2
 Lfde88_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement:.cctor"
-	.long _MonoTouch_Dialog_EntryElement__cctor
+	.asciz "MonoTouch.Dialog.EntryElement:BecomeFirstResponder"
+	.long _MonoTouch_Dialog_EntryElement_BecomeFirstResponder_bool
 	.long Lme_5c
 
-	.byte 2,118,16,0
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1047=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1047
+	.byte 1,90,3
+	.asciz "animated"
+
+LDIFF_SYM1048=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1048
+	.byte 2,125,0,11
+	.asciz "tv"
+
+LDIFF_SYM1049=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1049
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1048=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM1048
+LDIFF_SYM1050=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM1050
 Lfde89_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement__cctor
+	.long _MonoTouch_Dialog_EntryElement_BecomeFirstResponder_bool
 
-LDIFF_SYM1049=Lme_5c - _MonoTouch_Dialog_EntryElement__cctor
-	.long LDIFF_SYM1049
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
+LDIFF_SYM1051=Lme_5c - _MonoTouch_Dialog_EntryElement_BecomeFirstResponder_bool
+	.long LDIFF_SYM1051
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde89_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement/<GetCell>c__AnonStorey4:.ctor"
-	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__ctor
+	.asciz "MonoTouch.Dialog.EntryElement:ResignFirstResponder"
+	.long _MonoTouch_Dialog_EntryElement_ResignFirstResponder_bool
 	.long Lme_5d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1050=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1050
-	.byte 0,0
+LDIFF_SYM1052=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1052
+	.byte 1,90,3
+	.asciz "animated"
+
+LDIFF_SYM1053=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1053
+	.byte 2,125,0,11
+	.asciz "tv"
+
+LDIFF_SYM1054=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1054
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1051=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM1051
+LDIFF_SYM1055=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM1055
 Lfde90_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__ctor
+	.long _MonoTouch_Dialog_EntryElement_ResignFirstResponder_bool
 
-LDIFF_SYM1052=Lme_5d - _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__ctor
-	.long LDIFF_SYM1052
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1056=Lme_5d - _MonoTouch_Dialog_EntryElement_ResignFirstResponder_bool
+	.long LDIFF_SYM1056
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde90_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement/<GetCell>c__AnonStorey4:<>m__6"
-	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__6_object_System_EventArgs
+	.asciz "MonoTouch.Dialog.EntryElement:.cctor"
+	.long _MonoTouch_Dialog_EntryElement__cctor
 	.long Lme_5e
 
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1053=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1053
-	.byte 2,125,0,3
-	.asciz "param0"
-
-LDIFF_SYM1054=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1054
-	.byte 0,3
-	.asciz "param1"
-
-LDIFF_SYM1055=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1055
-	.byte 0,0
+	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1056=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM1056
+LDIFF_SYM1057=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM1057
 Lfde91_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__6_object_System_EventArgs
+	.long _MonoTouch_Dialog_EntryElement__cctor
 
-LDIFF_SYM1057=Lme_5e - _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__6_object_System_EventArgs
-	.long LDIFF_SYM1057
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM1058=Lme_5e - _MonoTouch_Dialog_EntryElement__cctor
+	.long LDIFF_SYM1058
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
 	.align 2
 Lfde91_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement/<GetCell>c__AnonStorey4:<>m__7"
-	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__7_object_System_EventArgs
+	.asciz "MonoTouch.Dialog.EntryElement/<GetCell>c__AnonStorey4:.ctor"
+	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__ctor
 	.long Lme_5f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1058=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1058
-	.byte 1,90,3
-	.asciz "param0"
-
 LDIFF_SYM1059=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1059
-	.byte 0,3
-	.asciz "param1"
-
-LDIFF_SYM1060=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1060
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1061=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM1061
+LDIFF_SYM1060=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM1060
 Lfde92_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__7_object_System_EventArgs
+	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__ctor
 
-LDIFF_SYM1062=Lme_5f - _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__7_object_System_EventArgs
-	.long LDIFF_SYM1062
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
+LDIFF_SYM1061=Lme_5f - _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__ctor
+	.long LDIFF_SYM1061
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde92_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.EntryElement/<GetCell>c__AnonStorey4:<>m__8"
-	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__8_MonoTouch_UIKit_UITextField
+	.asciz "MonoTouch.Dialog.EntryElement/<GetCell>c__AnonStorey4:<>m__6"
+	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__6_object_System_EventArgs
 	.long Lme_60
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1063=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1063
-	.byte 3,123,236,0,3
+LDIFF_SYM1062=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1062
+	.byte 2,125,0,3
 	.asciz "param0"
+
+LDIFF_SYM1063=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1063
+	.byte 0,3
+	.asciz "param1"
 
 LDIFF_SYM1064=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1064
-	.byte 0,11
-	.asciz "root"
+	.byte 0,0
 
-LDIFF_SYM1065=LTDIE_6_REFERENCE - Ldebug_info_start
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1065=Lfde93_end - Lfde93_start
 	.long LDIFF_SYM1065
-	.byte 1,86,11
-	.asciz "focus"
+Lfde93_start:
 
-LDIFF_SYM1066=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__6_object_System_EventArgs
+
+LDIFF_SYM1066=Lme_60 - _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__6_object_System_EventArgs
 	.long LDIFF_SYM1066
-	.byte 1,85,11
-	.asciz "s"
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+	.align 2
+Lfde93_end:
 
-LDIFF_SYM1067=LTDIE_2_REFERENCE - Ldebug_info_start
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.EntryElement/<GetCell>c__AnonStorey4:<>m__7"
+	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__7_object_System_EventArgs
+	.long Lme_61
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1067=LTDIE_98_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1067
-	.byte 1,84,11
-	.asciz ""
+	.byte 1,90,3
+	.asciz "param0"
 
 LDIFF_SYM1068=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1068
+	.byte 0,3
+	.asciz "param1"
+
+LDIFF_SYM1069=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1069
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1070=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM1070
+Lfde94_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__7_object_System_EventArgs
+
+LDIFF_SYM1071=Lme_61 - _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__7_object_System_EventArgs
+	.long LDIFF_SYM1071
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
+	.align 2
+Lfde94_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.EntryElement/<GetCell>c__AnonStorey4:<>m__8"
+	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__8_MonoTouch_UIKit_UITextField
+	.long Lme_62
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1072=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1072
+	.byte 3,123,236,0,3
+	.asciz "param0"
+
+LDIFF_SYM1073=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1073
+	.byte 0,11
+	.asciz "root"
+
+LDIFF_SYM1074=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1074
+	.byte 1,86,11
+	.asciz "focus"
+
+LDIFF_SYM1075=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1075
+	.byte 1,85,11
+	.asciz "s"
+
+LDIFF_SYM1076=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1076
+	.byte 1,84,11
+	.asciz ""
+
+LDIFF_SYM1077=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1077
 	.byte 2,123,0,11
 	.asciz "e"
 
-LDIFF_SYM1069=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1069
+LDIFF_SYM1078=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1078
 	.byte 1,90,11
 	.asciz ""
 
-LDIFF_SYM1070=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1070
+LDIFF_SYM1079=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1079
 	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1071=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM1071
-Lfde93_start:
+LDIFF_SYM1080=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM1080
+Lfde95_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__8_MonoTouch_UIKit_UITextField
 
-LDIFF_SYM1072=Lme_60 - _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__8_MonoTouch_UIKit_UITextField
-	.long LDIFF_SYM1072
+LDIFF_SYM1081=Lme_62 - _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__8_MonoTouch_UIKit_UITextField
+	.long LDIFF_SYM1081
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,160,1,68,13,11
 	.align 2
-Lfde93_end:
+Lfde95_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_100:
@@ -21921,8 +22018,8 @@ LTDIE_100:
 	.asciz "MonoTouch_UIKit_UIReturnKeyType"
 
 	.byte 4
-LDIFF_SYM1073=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1073
+LDIFF_SYM1082=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1082
 	.byte 9
 	.asciz "Default"
 
@@ -21959,75 +22056,75 @@ LDIFF_SYM1073=LDIE_I4 - Ldebug_info_start
 	.byte 10,0,7
 	.asciz "MonoTouch_UIKit_UIReturnKeyType"
 
-LDIFF_SYM1074=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1074
+LDIFF_SYM1083=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1083
 LTDIE_100_POINTER:
 
 	.byte 13
-LDIFF_SYM1075=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1075
+LDIFF_SYM1084=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1084
 LTDIE_100_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1076=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1076
+LDIFF_SYM1085=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1085
 	.byte 2
 	.asciz "MonoTouch.Dialog.EntryElement/<GetCell>c__AnonStorey4:<>m__9"
 	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__9_object_System_EventArgs
-	.long Lme_61
+	.long Lme_63
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1077=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1077
+LDIFF_SYM1086=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1086
 	.byte 1,90,3
 	.asciz "param0"
 
-LDIFF_SYM1078=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1078
+LDIFF_SYM1087=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1087
 	.byte 0,3
 	.asciz "param1"
 
-LDIFF_SYM1079=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1079
+LDIFF_SYM1088=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1088
 	.byte 0,11
 	.asciz "self"
 
-LDIFF_SYM1080=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1080
+LDIFF_SYM1089=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1089
 	.byte 1,84,11
 	.asciz "returnType"
 
-LDIFF_SYM1081=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1081
+LDIFF_SYM1090=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1090
 	.byte 1,86,11
 	.asciz "e"
 
-LDIFF_SYM1082=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1082
+LDIFF_SYM1091=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1091
 	.byte 1,85,11
 	.asciz ""
 
-LDIFF_SYM1083=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1083
+LDIFF_SYM1092=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1092
 	.byte 2,123,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1084=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM1084
-Lfde94_start:
+LDIFF_SYM1093=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM1093
+Lfde96_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__9_object_System_EventArgs
 
-LDIFF_SYM1085=Lme_61 - _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__9_object_System_EventArgs
-	.long LDIFF_SYM1085
+LDIFF_SYM1094=Lme_63 - _MonoTouch_Dialog_EntryElement__GetCellc__AnonStorey4__m__9_object_System_EventArgs
+	.long LDIFF_SYM1094
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11
 	.align 2
-Lfde94_end:
+Lfde96_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_102:
@@ -22036,276 +22133,201 @@ LTDIE_102:
 	.asciz "MonoTouch_UIKit_UIDatePicker"
 
 	.byte 52,16
-LDIFF_SYM1086=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM1086
+LDIFF_SYM1095=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM1095
 	.byte 2,35,0,6
 	.asciz "__mt_Date_var"
 
-LDIFF_SYM1087=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1087
+LDIFF_SYM1096=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1096
 	.byte 2,35,48,0,7
 	.asciz "MonoTouch_UIKit_UIDatePicker"
 
-LDIFF_SYM1088=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1088
+LDIFF_SYM1097=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1097
 LTDIE_102_POINTER:
 
 	.byte 13
-LDIFF_SYM1089=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1089
+LDIFF_SYM1098=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1098
 LTDIE_102_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1090=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1090
+LDIFF_SYM1099=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1099
 LTDIE_103:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 52,16
-LDIFF_SYM1091=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1091
+LDIFF_SYM1100=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1100
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1092=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1092
+LDIFF_SYM1101=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1101
 LTDIE_103_POINTER:
 
 	.byte 13
-LDIFF_SYM1093=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1093
+LDIFF_SYM1102=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1102
 LTDIE_103_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1094=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1094
+LDIFF_SYM1103=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1103
 LTDIE_105:
 
 	.byte 5
 	.asciz "MonoTouch_Foundation_NSFormatter"
 
 	.byte 24,16
-LDIFF_SYM1095=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM1095
+LDIFF_SYM1104=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM1104
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_Foundation_NSFormatter"
 
-LDIFF_SYM1096=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1096
+LDIFF_SYM1105=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1105
 LTDIE_105_POINTER:
 
 	.byte 13
-LDIFF_SYM1097=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1097
+LDIFF_SYM1106=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1106
 LTDIE_105_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1098=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1098
+LDIFF_SYM1107=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1107
 LTDIE_104:
 
 	.byte 5
 	.asciz "MonoTouch_Foundation_NSDateFormatter"
 
 	.byte 24,16
-LDIFF_SYM1099=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1099
+LDIFF_SYM1108=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1108
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_Foundation_NSDateFormatter"
 
-LDIFF_SYM1100=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1100
+LDIFF_SYM1109=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1109
 LTDIE_104_POINTER:
 
 	.byte 13
-LDIFF_SYM1101=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1101
+LDIFF_SYM1110=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1110
 LTDIE_104_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1102=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1102
+LDIFF_SYM1111=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1111
 LTDIE_101:
 
 	.byte 5
 	.asciz "MonoTouch_Dialog_DateTimeElement"
 
 	.byte 52,16
-LDIFF_SYM1103=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM1103
+LDIFF_SYM1112=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM1112
 	.byte 2,35,0,6
 	.asciz "DateValue"
 
-LDIFF_SYM1104=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1104
+LDIFF_SYM1113=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1113
 	.byte 2,35,44,6
 	.asciz "datePicker"
 
-LDIFF_SYM1105=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1105
+LDIFF_SYM1114=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1114
 	.byte 2,35,28,6
 	.asciz "DateSelected"
 
-LDIFF_SYM1106=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1106
+LDIFF_SYM1115=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1115
 	.byte 2,35,32,6
 	.asciz "BackgroundColor"
 
-LDIFF_SYM1107=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1107
+LDIFF_SYM1116=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1116
 	.byte 2,35,36,6
 	.asciz "fmt"
 
-LDIFF_SYM1108=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1108
+LDIFF_SYM1117=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1117
 	.byte 2,35,40,0,7
 	.asciz "MonoTouch_Dialog_DateTimeElement"
 
-LDIFF_SYM1109=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1109
+LDIFF_SYM1118=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1118
 LTDIE_101_POINTER:
 
 	.byte 13
-LDIFF_SYM1110=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1110
+LDIFF_SYM1119=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1119
 LTDIE_101_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1111=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1111
+LDIFF_SYM1120=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1120
 	.byte 2
 	.asciz "MonoTouch.Dialog.DateTimeElement:GetCell"
 	.long _MonoTouch_Dialog_DateTimeElement_GetCell_MonoTouch_UIKit_UITableView
-	.long Lme_62
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1112=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1112
-	.byte 1,86,3
-	.asciz "tv"
-
-LDIFF_SYM1113=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1113
-	.byte 2,125,8,11
-	.asciz "cell"
-
-LDIFF_SYM1114=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1114
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1115=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM1115
-Lfde95_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_GetCell_MonoTouch_UIKit_UITableView
-
-LDIFF_SYM1116=Lme_62 - _MonoTouch_Dialog_DateTimeElement_GetCell_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM1116
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,40
-	.align 2
-Lfde95_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.DateTimeElement:Dispose"
-	.long _MonoTouch_Dialog_DateTimeElement_Dispose_bool
-	.long Lme_63
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1117=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1117
-	.byte 1,90,3
-	.asciz "disposing"
-
-LDIFF_SYM1118=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1118
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1119=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM1119
-Lfde96_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_Dispose_bool
-
-LDIFF_SYM1120=Lme_63 - _MonoTouch_Dialog_DateTimeElement_Dispose_bool
-	.long LDIFF_SYM1120
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
-	.align 2
-Lfde96_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.DateTimeElement:GetDateWithKind"
-	.long _MonoTouch_Dialog_DateTimeElement_GetDateWithKind_System_DateTime
 	.long Lme_64
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1121=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1121=LTDIE_101_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1121
-	.byte 0,3
-	.asciz "dt"
+	.byte 1,86,3
+	.asciz "tv"
 
-LDIFF_SYM1122=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1122=LTDIE_17_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1122
-	.byte 2,123,32,0
+	.byte 2,125,8,11
+	.asciz "cell"
+
+LDIFF_SYM1123=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1123
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1123=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM1123
+LDIFF_SYM1124=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM1124
 Lfde97_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_GetDateWithKind_System_DateTime
+	.long _MonoTouch_Dialog_DateTimeElement_GetCell_MonoTouch_UIKit_UITableView
 
-LDIFF_SYM1124=Lme_64 - _MonoTouch_Dialog_DateTimeElement_GetDateWithKind_System_DateTime
-	.long LDIFF_SYM1124
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,56,68,13,11
+LDIFF_SYM1125=Lme_64 - _MonoTouch_Dialog_DateTimeElement_GetCell_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM1125
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,40
 	.align 2
 Lfde97_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DateTimeElement:FormatDate"
-	.long _MonoTouch_Dialog_DateTimeElement_FormatDate_System_DateTime
+	.asciz "MonoTouch.Dialog.DateTimeElement:Dispose"
+	.long _MonoTouch_Dialog_DateTimeElement_Dispose_bool
 	.long Lme_65
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1125=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1125
-	.byte 2,123,24,3
-	.asciz "dt"
-
-LDIFF_SYM1126=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1126=LTDIE_101_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1126
-	.byte 2,123,28,11
-	.asciz ""
+	.byte 1,90,3
+	.asciz "disposing"
 
-LDIFF_SYM1127=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1127=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1127
-	.byte 2,123,0,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -22315,103 +22337,178 @@ Lfde98_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_FormatDate_System_DateTime
+	.long _MonoTouch_Dialog_DateTimeElement_Dispose_bool
 
-LDIFF_SYM1129=Lme_65 - _MonoTouch_Dialog_DateTimeElement_FormatDate_System_DateTime
+LDIFF_SYM1129=Lme_65 - _MonoTouch_Dialog_DateTimeElement_Dispose_bool
 	.long LDIFF_SYM1129
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,72,68,13,11
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde98_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DateTimeElement:CreatePicker"
-	.long _MonoTouch_Dialog_DateTimeElement_CreatePicker
+	.asciz "MonoTouch.Dialog.DateTimeElement:GetDateWithKind"
+	.long _MonoTouch_Dialog_DateTimeElement_GetDateWithKind_System_DateTime
 	.long Lme_66
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1130=LTDIE_101_REFERENCE - Ldebug_info_start
+LDIFF_SYM1130=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1130
-	.byte 2,123,32,11
-	.asciz "picker"
+	.byte 0,3
+	.asciz "dt"
 
 LDIFF_SYM1131=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1131
-	.byte 0,11
-	.asciz ""
-
-LDIFF_SYM1132=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1132
-	.byte 0,0
+	.byte 2,123,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1133=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM1133
+LDIFF_SYM1132=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM1132
 Lfde99_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_CreatePicker
+	.long _MonoTouch_Dialog_DateTimeElement_GetDateWithKind_System_DateTime
 
-LDIFF_SYM1134=Lme_66 - _MonoTouch_Dialog_DateTimeElement_CreatePicker
-	.long LDIFF_SYM1134
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,72,68,13,11
+LDIFF_SYM1133=Lme_66 - _MonoTouch_Dialog_DateTimeElement_GetDateWithKind_System_DateTime
+	.long LDIFF_SYM1133
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
 Lfde99_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DateTimeElement:PickerFrameWithSize"
-	.long _MonoTouch_Dialog_DateTimeElement_PickerFrameWithSize_System_Drawing_SizeF
+	.asciz "MonoTouch.Dialog.DateTimeElement:FormatDate"
+	.long _MonoTouch_Dialog_DateTimeElement_FormatDate_System_DateTime
 	.long Lme_67
 
 	.byte 2,118,16,3
-	.asciz "size"
+	.asciz "this"
+
+LDIFF_SYM1134=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1134
+	.byte 2,123,24,3
+	.asciz "dt"
 
 LDIFF_SYM1135=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1135
-	.byte 3,123,244,0,11
-	.asciz "screenRect"
+	.byte 2,123,28,11
+	.asciz ""
 
 LDIFF_SYM1136=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1136
-	.byte 2,123,20,11
-	.asciz "fY"
+	.byte 2,123,0,0
 
-LDIFF_SYM1137=LDIE_R4 - Ldebug_info_start
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1137=Lfde100_end - Lfde100_start
 	.long LDIFF_SYM1137
-	.byte 2,123,36,11
-	.asciz "fX"
+Lfde100_start:
 
-LDIFF_SYM1138=LDIE_R4 - Ldebug_info_start
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_DateTimeElement_FormatDate_System_DateTime
+
+LDIFF_SYM1138=Lme_67 - _MonoTouch_Dialog_DateTimeElement_FormatDate_System_DateTime
 	.long LDIFF_SYM1138
-	.byte 2,123,40,11
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,72,68,13,11
+	.align 2
+Lfde100_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.DateTimeElement:CreatePicker"
+	.long _MonoTouch_Dialog_DateTimeElement_CreatePicker
+	.long Lme_68
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1139=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1139
+	.byte 2,123,32,11
+	.asciz "picker"
+
+LDIFF_SYM1140=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1140
+	.byte 0,11
 	.asciz ""
 
-LDIFF_SYM1139=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1139
+LDIFF_SYM1141=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1141
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1140=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM1140
-Lfde100_start:
+LDIFF_SYM1142=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM1142
+Lfde101_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_DateTimeElement_CreatePicker
+
+LDIFF_SYM1143=Lme_68 - _MonoTouch_Dialog_DateTimeElement_CreatePicker
+	.long LDIFF_SYM1143
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,72,68,13,11
+	.align 2
+Lfde101_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.DateTimeElement:PickerFrameWithSize"
+	.long _MonoTouch_Dialog_DateTimeElement_PickerFrameWithSize_System_Drawing_SizeF
+	.long Lme_69
+
+	.byte 2,118,16,3
+	.asciz "size"
+
+LDIFF_SYM1144=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1144
+	.byte 3,123,244,0,11
+	.asciz "screenRect"
+
+LDIFF_SYM1145=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1145
+	.byte 2,123,20,11
+	.asciz "fY"
+
+LDIFF_SYM1146=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1146
+	.byte 2,123,36,11
+	.asciz "fX"
+
+LDIFF_SYM1147=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1147
+	.byte 2,123,40,11
+	.asciz ""
+
+LDIFF_SYM1148=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1148
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1149=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM1149
+Lfde102_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_DateTimeElement_PickerFrameWithSize_System_Drawing_SizeF
 
-LDIFF_SYM1141=Lme_67 - _MonoTouch_Dialog_DateTimeElement_PickerFrameWithSize_System_Drawing_SizeF
-	.long LDIFF_SYM1141
+LDIFF_SYM1150=Lme_69 - _MonoTouch_Dialog_DateTimeElement_PickerFrameWithSize_System_Drawing_SizeF
+	.long LDIFF_SYM1150
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,139,3,142,1,68,14,152,1,68,13,11
 	.align 2
-Lfde100_end:
+Lfde102_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_106:
@@ -22420,182 +22517,117 @@ LTDIE_106:
 	.asciz "_MyViewController"
 
 	.byte 60,16
-LDIFF_SYM1142=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM1142
+LDIFF_SYM1151=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM1151
 	.byte 2,35,0,6
 	.asciz "container"
 
-LDIFF_SYM1143=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1143
+LDIFF_SYM1152=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1152
 	.byte 2,35,52,6
 	.asciz "<Autorotate>k__BackingField"
 
-LDIFF_SYM1144=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1144
+LDIFF_SYM1153=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1153
 	.byte 2,35,56,0,7
 	.asciz "_MyViewController"
 
-LDIFF_SYM1145=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1145
+LDIFF_SYM1154=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1154
 LTDIE_106_POINTER:
 
 	.byte 13
-LDIFF_SYM1146=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1146
+LDIFF_SYM1155=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1155
 LTDIE_106_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1147=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1147
+LDIFF_SYM1156=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1156
 	.byte 2
 	.asciz "MonoTouch.Dialog.DateTimeElement:Selected"
 	.long _MonoTouch_Dialog_DateTimeElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_68
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1148=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1148
-	.byte 1,86,3
-	.asciz "dvc"
-
-LDIFF_SYM1149=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1149
-	.byte 1,90,3
-	.asciz "tableView"
-
-LDIFF_SYM1150=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1150
-	.byte 0,3
-	.asciz "path"
-
-LDIFF_SYM1151=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1151
-	.byte 0,11
-	.asciz "vc"
-
-LDIFF_SYM1152=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1152
-	.byte 0,11
-	.asciz ""
-
-LDIFF_SYM1153=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1153
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1154=Lfde101_end - Lfde101_start
-	.long LDIFF_SYM1154
-Lfde101_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-
-LDIFF_SYM1155=Lme_68 - _MonoTouch_Dialog_DateTimeElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1155
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,96,68,13,11
-	.align 2
-Lfde101_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:.ctor"
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController__ctor_MonoTouch_Dialog_DateTimeElement
-	.long Lme_69
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1156=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1156
-	.byte 2,125,0,3
-	.asciz "container"
-
-LDIFF_SYM1157=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1157
-	.byte 2,125,4,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1158=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM1158
-Lfde102_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController__ctor_MonoTouch_Dialog_DateTimeElement
-
-LDIFF_SYM1159=Lme_69 - _MonoTouch_Dialog_DateTimeElement_MyViewController__ctor_MonoTouch_Dialog_DateTimeElement
-	.long LDIFF_SYM1159
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde102_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:get_Autorotate"
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_get_Autorotate
 	.long Lme_6a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1160=LTDIE_106_REFERENCE - Ldebug_info_start
+LDIFF_SYM1157=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1157
+	.byte 1,86,3
+	.asciz "dvc"
+
+LDIFF_SYM1158=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1158
+	.byte 1,90,3
+	.asciz "tableView"
+
+LDIFF_SYM1159=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1159
+	.byte 0,3
+	.asciz "path"
+
+LDIFF_SYM1160=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1160
-	.byte 2,125,0,0
+	.byte 0,11
+	.asciz "vc"
+
+LDIFF_SYM1161=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1161
+	.byte 0,11
+	.asciz ""
+
+LDIFF_SYM1162=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1162
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1161=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM1161
+LDIFF_SYM1163=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM1163
 Lfde103_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_get_Autorotate
+	.long _MonoTouch_Dialog_DateTimeElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1162=Lme_6a - _MonoTouch_Dialog_DateTimeElement_MyViewController_get_Autorotate
-	.long LDIFF_SYM1162
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1164=Lme_6a - _MonoTouch_Dialog_DateTimeElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM1164
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,96,68,13,11
 	.align 2
 Lfde103_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:set_Autorotate"
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_set_Autorotate_bool
+	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:.ctor"
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController__ctor_MonoTouch_Dialog_DateTimeElement
 	.long Lme_6b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1163=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1163
+LDIFF_SYM1165=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1165
 	.byte 2,125,0,3
-	.asciz "value"
+	.asciz "container"
 
-LDIFF_SYM1164=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1164
+LDIFF_SYM1166=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1166
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1165=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM1165
+LDIFF_SYM1167=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM1167
 Lfde104_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_set_Autorotate_bool
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController__ctor_MonoTouch_Dialog_DateTimeElement
 
-LDIFF_SYM1166=Lme_6b - _MonoTouch_Dialog_DateTimeElement_MyViewController_set_Autorotate_bool
-	.long LDIFF_SYM1166
+LDIFF_SYM1168=Lme_6b - _MonoTouch_Dialog_DateTimeElement_MyViewController__ctor_MonoTouch_Dialog_DateTimeElement
+	.long LDIFF_SYM1168
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde104_end:
@@ -22603,166 +22635,156 @@ Lfde104_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:ViewWillDisappear"
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_ViewWillDisappear_bool
+	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:get_Autorotate"
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_get_Autorotate
 	.long Lme_6c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1167=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1167
-	.byte 1,90,3
-	.asciz "animated"
-
-LDIFF_SYM1168=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1168
-	.byte 2,125,8,0
+LDIFF_SYM1169=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1169
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1169=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM1169
+LDIFF_SYM1170=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM1170
 Lfde105_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_ViewWillDisappear_bool
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_get_Autorotate
 
-LDIFF_SYM1170=Lme_6c - _MonoTouch_Dialog_DateTimeElement_MyViewController_ViewWillDisappear_bool
-	.long LDIFF_SYM1170
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,40
+LDIFF_SYM1171=Lme_6c - _MonoTouch_Dialog_DateTimeElement_MyViewController_get_Autorotate
+	.long LDIFF_SYM1171
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde105_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:DidRotate"
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
+	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:set_Autorotate"
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_set_Autorotate_bool
 	.long Lme_6d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1171=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1171
-	.byte 1,86,3
-	.asciz "fromInterfaceOrientation"
-
-LDIFF_SYM1172=LTDIE_60 - Ldebug_info_start
+LDIFF_SYM1172=LTDIE_106_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1172
-	.byte 2,123,40,0
+	.byte 2,125,0,3
+	.asciz "value"
+
+LDIFF_SYM1173=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1173
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1173=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM1173
+LDIFF_SYM1174=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM1174
 Lfde106_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_set_Autorotate_bool
 
-LDIFF_SYM1174=Lme_6d - _MonoTouch_Dialog_DateTimeElement_MyViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
-	.long LDIFF_SYM1174
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,139,3,142,1,68,14,80,68,13,11
+LDIFF_SYM1175=Lme_6d - _MonoTouch_Dialog_DateTimeElement_MyViewController_set_Autorotate_bool
+	.long LDIFF_SYM1175
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde106_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:ShouldAutorotateToInterfaceOrientation"
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
+	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:ViewWillDisappear"
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_ViewWillDisappear_bool
 	.long Lme_6e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1175=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1175
-	.byte 2,125,0,3
-	.asciz "toInterfaceOrientation"
-
-LDIFF_SYM1176=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1176=LTDIE_106_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1176
-	.byte 0,0
+	.byte 1,90,3
+	.asciz "animated"
+
+LDIFF_SYM1177=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1177
+	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1177=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM1177
+LDIFF_SYM1178=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM1178
 Lfde107_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_ViewWillDisappear_bool
 
-LDIFF_SYM1178=Lme_6e - _MonoTouch_Dialog_DateTimeElement_MyViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
-	.long LDIFF_SYM1178
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1179=Lme_6e - _MonoTouch_Dialog_DateTimeElement_MyViewController_ViewWillDisappear_bool
+	.long LDIFF_SYM1179
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,40
 	.align 2
 Lfde107_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section:.ctor"
-	.long _MonoTouch_Dialog_Section__ctor_string
+	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:DidRotate"
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
 	.long Lme_6f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1179=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1179
-	.byte 2,125,0,3
-	.asciz "caption"
-
-LDIFF_SYM1180=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM1180=LTDIE_106_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1180
-	.byte 2,125,4,0
+	.byte 1,86,3
+	.asciz "fromInterfaceOrientation"
+
+LDIFF_SYM1181=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM1181
+	.byte 2,123,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1181=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM1181
+LDIFF_SYM1182=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM1182
 Lfde108_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section__ctor_string
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
 
-LDIFF_SYM1182=Lme_6f - _MonoTouch_Dialog_Section__ctor_string
-	.long LDIFF_SYM1182
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1183=Lme_6f - _MonoTouch_Dialog_DateTimeElement_MyViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
+	.long LDIFF_SYM1183
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,139,3,142,1,68,14,80,68,13,11
 	.align 2
 Lfde108_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section:.ctor"
-	.long _MonoTouch_Dialog_Section__ctor_string_string
+	.asciz "MonoTouch.Dialog.DateTimeElement/MyViewController:ShouldAutorotateToInterfaceOrientation"
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
 	.long Lme_70
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1183=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1183
-	.byte 1,85,3
-	.asciz "caption"
-
-LDIFF_SYM1184=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM1184=LTDIE_106_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1184
 	.byte 2,125,0,3
-	.asciz "footer"
+	.asciz "toInterfaceOrientation"
 
-LDIFF_SYM1185=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM1185=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1185
-	.byte 2,125,4,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -22772,19 +22794,19 @@ Lfde109_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section__ctor_string_string
+	.long _MonoTouch_Dialog_DateTimeElement_MyViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
 
-LDIFF_SYM1187=Lme_70 - _MonoTouch_Dialog_Section__ctor_string_string
+LDIFF_SYM1187=Lme_70 - _MonoTouch_Dialog_DateTimeElement_MyViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
 	.long LDIFF_SYM1187
-	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,24
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde109_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section:get_Header"
-	.long _MonoTouch_Dialog_Section_get_Header
+	.asciz "MonoTouch.Dialog.Section:.ctor"
+	.long _MonoTouch_Dialog_Section__ctor_string
 	.long Lme_71
 
 	.byte 2,118,16,3
@@ -22792,115 +22814,125 @@ Lfde109_end:
 
 LDIFF_SYM1188=LTDIE_2_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1188
-	.byte 1,90,0
+	.byte 2,125,0,3
+	.asciz "caption"
+
+LDIFF_SYM1189=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1189
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1189=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1190=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM1190
 Lfde110_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section_get_Header
+	.long _MonoTouch_Dialog_Section__ctor_string
 
-LDIFF_SYM1190=Lme_71 - _MonoTouch_Dialog_Section_get_Header
-	.long LDIFF_SYM1190
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
+LDIFF_SYM1191=Lme_71 - _MonoTouch_Dialog_Section__ctor_string
+	.long LDIFF_SYM1191
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde110_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section:get_Footer"
-	.long _MonoTouch_Dialog_Section_get_Footer
+	.asciz "MonoTouch.Dialog.Section:.ctor"
+	.long _MonoTouch_Dialog_Section__ctor_string_string
 	.long Lme_72
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1191=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1191
-	.byte 1,90,0
+LDIFF_SYM1192=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1192
+	.byte 1,85,3
+	.asciz "caption"
+
+LDIFF_SYM1193=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1193
+	.byte 2,125,0,3
+	.asciz "footer"
+
+LDIFF_SYM1194=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1194
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1192=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM1192
+LDIFF_SYM1195=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM1195
 Lfde111_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section_get_Footer
+	.long _MonoTouch_Dialog_Section__ctor_string_string
 
-LDIFF_SYM1193=Lme_72 - _MonoTouch_Dialog_Section_get_Footer
-	.long LDIFF_SYM1193
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
+LDIFF_SYM1196=Lme_72 - _MonoTouch_Dialog_Section__ctor_string_string
+	.long LDIFF_SYM1196
+	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,24
 	.align 2
 Lfde111_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section:set_Footer"
-	.long _MonoTouch_Dialog_Section_set_Footer_string
+	.asciz "MonoTouch.Dialog.Section:get_Header"
+	.long _MonoTouch_Dialog_Section_get_Header
 	.long Lme_73
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1194=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1194
-	.byte 2,125,0,3
-	.asciz "value"
-
-LDIFF_SYM1195=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1195
-	.byte 2,125,4,0
+LDIFF_SYM1197=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1197
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1196=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1198=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM1198
 Lfde112_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section_set_Footer_string
+	.long _MonoTouch_Dialog_Section_get_Header
 
-LDIFF_SYM1197=Lme_73 - _MonoTouch_Dialog_Section_set_Footer_string
-	.long LDIFF_SYM1197
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1199=Lme_73 - _MonoTouch_Dialog_Section_get_Header
+	.long LDIFF_SYM1199
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde112_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section:get_HeaderView"
-	.long _MonoTouch_Dialog_Section_get_HeaderView
+	.asciz "MonoTouch.Dialog.Section:get_Footer"
+	.long _MonoTouch_Dialog_Section_get_Footer
 	.long Lme_74
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1198=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1200=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1200
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1199=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1201=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM1201
 Lfde113_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section_get_HeaderView
+	.long _MonoTouch_Dialog_Section_get_Footer
 
-LDIFF_SYM1200=Lme_74 - _MonoTouch_Dialog_Section_get_HeaderView
-	.long LDIFF_SYM1200
+LDIFF_SYM1202=Lme_74 - _MonoTouch_Dialog_Section_get_Footer
+	.long LDIFF_SYM1202
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde113_end:
@@ -22908,34 +22940,34 @@ Lfde113_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section:set_HeaderView"
-	.long _MonoTouch_Dialog_Section_set_HeaderView_MonoTouch_UIKit_UIView
+	.asciz "MonoTouch.Dialog.Section:set_Footer"
+	.long _MonoTouch_Dialog_Section_set_Footer_string
 	.long Lme_75
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1201=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1201
+LDIFF_SYM1203=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1203
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM1202=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1204=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1204
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1203=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1205=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM1205
 Lfde114_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section_set_HeaderView_MonoTouch_UIKit_UIView
+	.long _MonoTouch_Dialog_Section_set_Footer_string
 
-LDIFF_SYM1204=Lme_75 - _MonoTouch_Dialog_Section_set_HeaderView_MonoTouch_UIKit_UIView
-	.long LDIFF_SYM1204
+LDIFF_SYM1206=Lme_75 - _MonoTouch_Dialog_Section_set_Footer_string
+	.long LDIFF_SYM1206
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde114_end:
@@ -22943,29 +22975,29 @@ Lfde114_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section:get_FooterView"
-	.long _MonoTouch_Dialog_Section_get_FooterView
+	.asciz "MonoTouch.Dialog.Section:get_HeaderView"
+	.long _MonoTouch_Dialog_Section_get_HeaderView
 	.long Lme_76
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1205=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1207=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1207
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1206=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM1206
+LDIFF_SYM1208=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM1208
 Lfde115_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section_get_FooterView
+	.long _MonoTouch_Dialog_Section_get_HeaderView
 
-LDIFF_SYM1207=Lme_76 - _MonoTouch_Dialog_Section_get_FooterView
-	.long LDIFF_SYM1207
+LDIFF_SYM1209=Lme_76 - _MonoTouch_Dialog_Section_get_HeaderView
+	.long LDIFF_SYM1209
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde115_end:
@@ -22973,34 +23005,34 @@ Lfde115_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section:set_FooterView"
-	.long _MonoTouch_Dialog_Section_set_FooterView_MonoTouch_UIKit_UIView
+	.asciz "MonoTouch.Dialog.Section:set_HeaderView"
+	.long _MonoTouch_Dialog_Section_set_HeaderView_MonoTouch_UIKit_UIView
 	.long Lme_77
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1208=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1208
+LDIFF_SYM1210=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1210
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM1209=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1209
+LDIFF_SYM1211=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1211
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1210=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM1210
+LDIFF_SYM1212=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM1212
 Lfde116_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section_set_FooterView_MonoTouch_UIKit_UIView
+	.long _MonoTouch_Dialog_Section_set_HeaderView_MonoTouch_UIKit_UIView
 
-LDIFF_SYM1211=Lme_77 - _MonoTouch_Dialog_Section_set_FooterView_MonoTouch_UIKit_UIView
-	.long LDIFF_SYM1211
+LDIFF_SYM1213=Lme_77 - _MonoTouch_Dialog_Section_set_HeaderView_MonoTouch_UIKit_UIView
+	.long LDIFF_SYM1213
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde116_end:
@@ -23008,37 +23040,102 @@ Lfde116_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section:Add"
-	.long _MonoTouch_Dialog_Section_Add_MonoTouch_Dialog_Element
+	.asciz "MonoTouch.Dialog.Section:get_FooterView"
+	.long _MonoTouch_Dialog_Section_get_FooterView
 	.long Lme_78
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1212=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1212
-	.byte 1,86,3
-	.asciz "element"
-
-LDIFF_SYM1213=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1213
+LDIFF_SYM1214=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1214
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1214=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM1214
+LDIFF_SYM1215=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM1215
 Lfde117_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Section_get_FooterView
+
+LDIFF_SYM1216=Lme_78 - _MonoTouch_Dialog_Section_get_FooterView
+	.long LDIFF_SYM1216
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
+	.align 2
+Lfde117_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Section:set_FooterView"
+	.long _MonoTouch_Dialog_Section_set_FooterView_MonoTouch_UIKit_UIView
+	.long Lme_79
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1217=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1217
+	.byte 2,125,0,3
+	.asciz "value"
+
+LDIFF_SYM1218=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1218
+	.byte 2,125,4,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1219=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM1219
+Lfde118_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Section_set_FooterView_MonoTouch_UIKit_UIView
+
+LDIFF_SYM1220=Lme_79 - _MonoTouch_Dialog_Section_set_FooterView_MonoTouch_UIKit_UIView
+	.long LDIFF_SYM1220
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde118_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Section:Add"
+	.long _MonoTouch_Dialog_Section_Add_MonoTouch_Dialog_Element
+	.long Lme_7a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1221=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1221
+	.byte 1,86,3
+	.asciz "element"
+
+LDIFF_SYM1222=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1222
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1223=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM1223
+Lfde119_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Section_Add_MonoTouch_Dialog_Element
 
-LDIFF_SYM1215=Lme_78 - _MonoTouch_Dialog_Section_Add_MonoTouch_Dialog_Element
-	.long LDIFF_SYM1215
+LDIFF_SYM1224=Lme_7a - _MonoTouch_Dialog_Section_Add_MonoTouch_Dialog_Element
+	.long LDIFF_SYM1224
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,24
 	.align 2
-Lfde117_end:
+Lfde119_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_107:
@@ -23047,8 +23144,8 @@ LTDIE_107:
 	.asciz "MonoTouch_UIKit_UITableViewRowAnimation"
 
 	.byte 4
-LDIFF_SYM1216=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1225=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1225
 	.byte 9
 	.asciz "Fade"
 
@@ -23076,80 +23173,80 @@ LDIFF_SYM1216=LDIE_I4 - Ldebug_info_start
 	.byte 228,0,0,7
 	.asciz "MonoTouch_UIKit_UITableViewRowAnimation"
 
-LDIFF_SYM1217=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1217
+LDIFF_SYM1226=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1226
 LTDIE_107_POINTER:
 
 	.byte 13
-LDIFF_SYM1218=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1218
+LDIFF_SYM1227=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1227
 LTDIE_107_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1219=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1219
+LDIFF_SYM1228=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1228
 	.byte 2
 	.asciz "MonoTouch.Dialog.Section:InsertVisual"
 	.long _MonoTouch_Dialog_Section_InsertVisual_int_MonoTouch_UIKit_UITableViewRowAnimation_int
-	.long Lme_79
+	.long Lme_7b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1220=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1220
+LDIFF_SYM1229=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 2,125,12,3
 	.asciz "idx"
 
-LDIFF_SYM1221=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1221
+LDIFF_SYM1230=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1230
 	.byte 1,85,3
 	.asciz "anim"
 
-LDIFF_SYM1222=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1231=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1231
 	.byte 2,125,16,3
 	.asciz "count"
 
-LDIFF_SYM1223=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1223
+LDIFF_SYM1232=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 2,125,20,11
 	.asciz "root"
 
-LDIFF_SYM1224=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1224
+LDIFF_SYM1233=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1233
 	.byte 2,125,0,11
 	.asciz "sidx"
 
-LDIFF_SYM1225=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1225
+LDIFF_SYM1234=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1234
 	.byte 1,86,11
 	.asciz "paths"
 
-LDIFF_SYM1226=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1226
+LDIFF_SYM1235=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1235
 	.byte 1,91,11
 	.asciz "i"
 
-LDIFF_SYM1227=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1227
+LDIFF_SYM1236=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1236
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1228=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM1228
-Lfde118_start:
+LDIFF_SYM1237=Lfde120_end - Lfde120_start
+	.long LDIFF_SYM1237
+Lfde120_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Section_InsertVisual_int_MonoTouch_UIKit_UITableViewRowAnimation_int
 
-LDIFF_SYM1229=Lme_79 - _MonoTouch_Dialog_Section_InsertVisual_int_MonoTouch_UIKit_UITableViewRowAnimation_int
-	.long LDIFF_SYM1229
+LDIFF_SYM1238=Lme_7b - _MonoTouch_Dialog_Section_InsertVisual_int_MonoTouch_UIKit_UITableViewRowAnimation_int
+	.long LDIFF_SYM1238
 	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56
 	.align 2
-Lfde118_end:
+Lfde120_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_108:
@@ -23158,189 +23255,114 @@ LTDIE_108:
 	.asciz "_<GetEnumerator>c__Iterator0"
 
 	.byte 44,16
-LDIFF_SYM1230=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1239=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1239
 	.byte 2,35,0,6
 	.asciz "$locvar0"
 
-LDIFF_SYM1231=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1231
+LDIFF_SYM1240=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1240
 	.byte 2,35,8,6
 	.asciz "<e>__0"
 
-LDIFF_SYM1232=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1232
+LDIFF_SYM1241=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1241
 	.byte 2,35,24,6
 	.asciz "$this"
 
-LDIFF_SYM1233=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1233
+LDIFF_SYM1242=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1242
 	.byte 2,35,28,6
 	.asciz "$current"
 
-LDIFF_SYM1234=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1234
+LDIFF_SYM1243=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1243
 	.byte 2,35,32,6
 	.asciz "$disposing"
 
-LDIFF_SYM1235=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1235
+LDIFF_SYM1244=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1244
 	.byte 2,35,36,6
 	.asciz "$PC"
 
-LDIFF_SYM1236=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1236
+LDIFF_SYM1245=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1245
 	.byte 2,35,40,0,7
 	.asciz "_<GetEnumerator>c__Iterator0"
 
-LDIFF_SYM1237=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1246=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1246
 LTDIE_108_POINTER:
 
 	.byte 13
-LDIFF_SYM1238=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1238
+LDIFF_SYM1247=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1247
 LTDIE_108_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1239=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1248=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1248
 	.byte 2
 	.asciz "MonoTouch.Dialog.Section:GetEnumerator"
 	.long _MonoTouch_Dialog_Section_GetEnumerator
-	.long Lme_7a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1240=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1240
-	.byte 2,125,0,11
-	.asciz "V_0"
-
-LDIFF_SYM1241=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1241
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1242=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM1242
-Lfde119_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_Section_GetEnumerator
-
-LDIFF_SYM1243=Lme_7a - _MonoTouch_Dialog_Section_GetEnumerator
-	.long LDIFF_SYM1243
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde119_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.Section:Clear"
-	.long _MonoTouch_Dialog_Section_Clear
-	.long Lme_7b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1244=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1244
-	.byte 1,90,11
-	.asciz "e"
-
-LDIFF_SYM1245=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1245
-	.byte 1,86,11
-	.asciz ""
-
-LDIFF_SYM1246=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1246
-	.byte 2,123,0,11
-	.asciz "root"
-
-LDIFF_SYM1247=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1247
-	.byte 1,85,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1248=Lfde120_end - Lfde120_start
-	.long LDIFF_SYM1248
-Lfde120_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_Section_Clear
-
-LDIFF_SYM1249=Lme_7b - _MonoTouch_Dialog_Section_Clear
-	.long LDIFF_SYM1249
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,88,68,13,11
-	.align 2
-Lfde120_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.Section:Dispose"
-	.long _MonoTouch_Dialog_Section_Dispose_bool
 	.long Lme_7c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1250=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1250
-	.byte 1,90,3
-	.asciz "disposing"
+LDIFF_SYM1249=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1249
+	.byte 2,125,0,11
+	.asciz "V_0"
 
-LDIFF_SYM1251=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1251
-	.byte 2,125,0,0
+LDIFF_SYM1250=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1250
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1252=Lfde121_end - Lfde121_start
-	.long LDIFF_SYM1252
+LDIFF_SYM1251=Lfde121_end - Lfde121_start
+	.long LDIFF_SYM1251
 Lfde121_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section_Dispose_bool
+	.long _MonoTouch_Dialog_Section_GetEnumerator
 
-LDIFF_SYM1253=Lme_7c - _MonoTouch_Dialog_Section_Dispose_bool
-	.long LDIFF_SYM1253
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+LDIFF_SYM1252=Lme_7c - _MonoTouch_Dialog_Section_GetEnumerator
+	.long LDIFF_SYM1252
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde121_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section:GetCell"
-	.long _MonoTouch_Dialog_Section_GetCell_MonoTouch_UIKit_UITableView
+	.asciz "MonoTouch.Dialog.Section:Clear"
+	.long _MonoTouch_Dialog_Section_Clear
 	.long Lme_7d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1254=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1253=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1253
+	.byte 1,90,11
+	.asciz "e"
+
+LDIFF_SYM1254=LTDIE_0_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1254
-	.byte 0,3
-	.asciz "tv"
+	.byte 1,86,11
+	.asciz ""
 
 LDIFF_SYM1255=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1255
-	.byte 0,11
-	.asciz "cell"
+	.byte 2,123,0,11
+	.asciz "root"
 
-LDIFF_SYM1256=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1256=LTDIE_6_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1256
-	.byte 0,0
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -23350,83 +23372,68 @@ Lfde122_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section_GetCell_MonoTouch_UIKit_UITableView
+	.long _MonoTouch_Dialog_Section_Clear
 
-LDIFF_SYM1258=Lme_7d - _MonoTouch_Dialog_Section_GetCell_MonoTouch_UIKit_UITableView
+LDIFF_SYM1258=Lme_7d - _MonoTouch_Dialog_Section_Clear
 	.long LDIFF_SYM1258
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,40
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,88,68,13,11
 	.align 2
 Lfde122_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section/<GetEnumerator>c__Iterator0:System.Collections.Generic.IEnumerator<object>.get_Current"
-	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_Generic_IEnumerator_object_get_Current
+	.asciz "MonoTouch.Dialog.Section:Dispose"
+	.long _MonoTouch_Dialog_Section_Dispose_bool
 	.long Lme_7e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1259=LTDIE_108_REFERENCE - Ldebug_info_start
+LDIFF_SYM1259=LTDIE_2_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1259
+	.byte 1,90,3
+	.asciz "disposing"
+
+LDIFF_SYM1260=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1260
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1260=Lfde123_end - Lfde123_start
-	.long LDIFF_SYM1260
+LDIFF_SYM1261=Lfde123_end - Lfde123_start
+	.long LDIFF_SYM1261
 Lfde123_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_Generic_IEnumerator_object_get_Current
+	.long _MonoTouch_Dialog_Section_Dispose_bool
 
-LDIFF_SYM1261=Lme_7e - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_Generic_IEnumerator_object_get_Current
-	.long LDIFF_SYM1261
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1262=Lme_7e - _MonoTouch_Dialog_Section_Dispose_bool
+	.long LDIFF_SYM1262
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde123_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Section/<GetEnumerator>c__Iterator0:System.Collections.IEnumerator.get_Current"
-	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_IEnumerator_get_Current
+	.asciz "MonoTouch.Dialog.Section:GetCell"
+	.long _MonoTouch_Dialog_Section_GetCell_MonoTouch_UIKit_UITableView
 	.long Lme_7f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1262=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1262
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1263=Lfde124_end - Lfde124_start
+LDIFF_SYM1263=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1263
-Lfde124_start:
+	.byte 0,3
+	.asciz "tv"
 
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_IEnumerator_get_Current
-
-LDIFF_SYM1264=Lme_7f - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_IEnumerator_get_Current
+LDIFF_SYM1264=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1264
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde124_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.Section/<GetEnumerator>c__Iterator0:.ctor"
-	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0__ctor
-	.long Lme_80
-
-	.byte 2,118,16,3
-	.asciz "this"
+	.byte 0,11
+	.asciz "cell"
 
 LDIFF_SYM1265=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1265
@@ -23434,19 +23441,109 @@ LDIFF_SYM1265=LDIE_I4 - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1266=Lfde125_end - Lfde125_start
+LDIFF_SYM1266=Lfde124_end - Lfde124_start
 	.long LDIFF_SYM1266
+Lfde124_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Section_GetCell_MonoTouch_UIKit_UITableView
+
+LDIFF_SYM1267=Lme_7f - _MonoTouch_Dialog_Section_GetCell_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM1267
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,40
+	.align 2
+Lfde124_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Section/<GetEnumerator>c__Iterator0:System.Collections.Generic.IEnumerator<object>.get_Current"
+	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_Generic_IEnumerator_object_get_Current
+	.long Lme_80
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1268=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1268
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1269=Lfde125_end - Lfde125_start
+	.long LDIFF_SYM1269
 Lfde125_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_Generic_IEnumerator_object_get_Current
+
+LDIFF_SYM1270=Lme_80 - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_Generic_IEnumerator_object_get_Current
+	.long LDIFF_SYM1270
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde125_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Section/<GetEnumerator>c__Iterator0:System.Collections.IEnumerator.get_Current"
+	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_IEnumerator_get_Current
+	.long Lme_81
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1271=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1271
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1272=Lfde126_end - Lfde126_start
+	.long LDIFF_SYM1272
+Lfde126_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_IEnumerator_get_Current
+
+LDIFF_SYM1273=Lme_81 - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM1273
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde126_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Section/<GetEnumerator>c__Iterator0:.ctor"
+	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0__ctor
+	.long Lme_82
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1274=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1274
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1275=Lfde127_end - Lfde127_start
+	.long LDIFF_SYM1275
+Lfde127_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0__ctor
 
-LDIFF_SYM1267=Lme_80 - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0__ctor
-	.long LDIFF_SYM1267
+LDIFF_SYM1276=Lme_82 - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0__ctor
+	.long LDIFF_SYM1276
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde125_end:
+Lfde127_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_109:
@@ -23455,130 +23552,130 @@ LTDIE_109:
 	.asciz "System_UInt32"
 
 	.byte 12,16
-LDIFF_SYM1268=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1268
+LDIFF_SYM1277=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1277
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM1269=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1269
+LDIFF_SYM1278=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1278
 	.byte 2,35,8,0,7
 	.asciz "System_UInt32"
 
-LDIFF_SYM1270=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1270
+LDIFF_SYM1279=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1279
 LTDIE_109_POINTER:
 
 	.byte 13
-LDIFF_SYM1271=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1271
+LDIFF_SYM1280=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1280
 LTDIE_109_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1272=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1272
+LDIFF_SYM1281=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1281
 	.byte 2
 	.asciz "MonoTouch.Dialog.Section/<GetEnumerator>c__Iterator0:MoveNext"
 	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_MoveNext
-	.long Lme_81
+	.long Lme_83
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1273=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1273
+LDIFF_SYM1282=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1282
 	.byte 2,123,56,11
 	.asciz ""
 
-LDIFF_SYM1274=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1274
+LDIFF_SYM1283=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1283
 	.byte 1,90,11
 	.asciz ""
 
-LDIFF_SYM1275=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1275
+LDIFF_SYM1284=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1284
 	.byte 2,123,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1276=Lfde126_end - Lfde126_start
-	.long LDIFF_SYM1276
-Lfde126_start:
+LDIFF_SYM1285=Lfde128_end - Lfde128_start
+	.long LDIFF_SYM1285
+Lfde128_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_MoveNext
 
-LDIFF_SYM1277=Lme_81 - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_MoveNext
-	.long LDIFF_SYM1277
+LDIFF_SYM1286=Lme_83 - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_MoveNext
+	.long LDIFF_SYM1286
 	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,96,68,13,11
 	.align 2
-Lfde126_end:
+Lfde128_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.Section/<GetEnumerator>c__Iterator0:Dispose"
 	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_Dispose
-	.long Lme_82
+	.long Lme_84
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1278=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1278
+LDIFF_SYM1287=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1287
 	.byte 2,123,20,11
 	.asciz "V_0"
 
-LDIFF_SYM1279=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1279
+LDIFF_SYM1288=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1288
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1280=Lfde127_end - Lfde127_start
-	.long LDIFF_SYM1280
-Lfde127_start:
+LDIFF_SYM1289=Lfde129_end - Lfde129_start
+	.long LDIFF_SYM1289
+Lfde129_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_Dispose
 
-LDIFF_SYM1281=Lme_82 - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_Dispose
-	.long LDIFF_SYM1281
+LDIFF_SYM1290=Lme_84 - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_Dispose
+	.long LDIFF_SYM1290
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
 	.align 2
-Lfde127_end:
+Lfde129_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.Section/<GetEnumerator>c__Iterator0:Reset"
 	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_Reset
-	.long Lme_83
+	.long Lme_85
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1282=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1282
+LDIFF_SYM1291=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1291
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1283=Lfde128_end - Lfde128_start
-	.long LDIFF_SYM1283
-Lfde128_start:
+LDIFF_SYM1292=Lfde130_end - Lfde130_start
+	.long LDIFF_SYM1292
+Lfde130_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_Reset
 
-LDIFF_SYM1284=Lme_83 - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_Reset
-	.long LDIFF_SYM1284
+LDIFF_SYM1293=Lme_85 - _MonoTouch_Dialog_Section__GetEnumeratorc__Iterator0_Reset
+	.long LDIFF_SYM1293
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde128_end:
+Lfde130_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_110:
@@ -23587,184 +23684,109 @@ LTDIE_110:
 	.asciz "MonoTouch_Dialog_RadioGroup"
 
 	.byte 12,16
-LDIFF_SYM1285=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1285
+LDIFF_SYM1294=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1294
 	.byte 2,35,0,6
 	.asciz "selected"
 
-LDIFF_SYM1286=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1286
+LDIFF_SYM1295=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1295
 	.byte 2,35,8,0,7
 	.asciz "MonoTouch_Dialog_RadioGroup"
 
-LDIFF_SYM1287=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1287
+LDIFF_SYM1296=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1296
 LTDIE_110_POINTER:
 
 	.byte 13
-LDIFF_SYM1288=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1288
+LDIFF_SYM1297=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1297
 LTDIE_110_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1289=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1289
+LDIFF_SYM1298=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1298
 	.byte 2
 	.asciz "MonoTouch.Dialog.RadioGroup:get_Selected"
 	.long _MonoTouch_Dialog_RadioGroup_get_Selected
-	.long Lme_84
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1290=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1290
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1291=Lfde129_end - Lfde129_start
-	.long LDIFF_SYM1291
-Lfde129_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_RadioGroup_get_Selected
-
-LDIFF_SYM1292=Lme_84 - _MonoTouch_Dialog_RadioGroup_get_Selected
-	.long LDIFF_SYM1292
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde129_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.RadioGroup:set_Selected"
-	.long _MonoTouch_Dialog_RadioGroup_set_Selected_int
-	.long Lme_85
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1293=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1293
-	.byte 2,125,0,3
-	.asciz "value"
-
-LDIFF_SYM1294=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1294
-	.byte 2,125,4,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1295=Lfde130_end - Lfde130_start
-	.long LDIFF_SYM1295
-Lfde130_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_RadioGroup_set_Selected_int
-
-LDIFF_SYM1296=Lme_85 - _MonoTouch_Dialog_RadioGroup_set_Selected_int
-	.long LDIFF_SYM1296
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde130_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:.ctor"
-	.long _MonoTouch_Dialog_RootElement__ctor_string
 	.long Lme_86
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1297=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1297
-	.byte 1,86,3
-	.asciz "caption"
-
-LDIFF_SYM1298=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1298
+LDIFF_SYM1299=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1299
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1299=Lfde131_end - Lfde131_start
-	.long LDIFF_SYM1299
+LDIFF_SYM1300=Lfde131_end - Lfde131_start
+	.long LDIFF_SYM1300
 Lfde131_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__ctor_string
+	.long _MonoTouch_Dialog_RadioGroup_get_Selected
 
-LDIFF_SYM1300=Lme_86 - _MonoTouch_Dialog_RootElement__ctor_string
-	.long LDIFF_SYM1300
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
+LDIFF_SYM1301=Lme_86 - _MonoTouch_Dialog_RadioGroup_get_Selected
+	.long LDIFF_SYM1301
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde131_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:get_RadioSelected"
-	.long _MonoTouch_Dialog_RootElement_get_RadioSelected
+	.asciz "MonoTouch.Dialog.RadioGroup:set_Selected"
+	.long _MonoTouch_Dialog_RadioGroup_set_Selected_int
 	.long Lme_87
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1301=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1301
-	.byte 1,90,11
-	.asciz "radio"
-
 LDIFF_SYM1302=LTDIE_110_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1302
-	.byte 1,86,0
+	.byte 2,125,0,3
+	.asciz "value"
+
+LDIFF_SYM1303=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1303
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1303=Lfde132_end - Lfde132_start
-	.long LDIFF_SYM1303
+LDIFF_SYM1304=Lfde132_end - Lfde132_start
+	.long LDIFF_SYM1304
 Lfde132_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement_get_RadioSelected
+	.long _MonoTouch_Dialog_RadioGroup_set_Selected_int
 
-LDIFF_SYM1304=Lme_87 - _MonoTouch_Dialog_RootElement_get_RadioSelected
-	.long LDIFF_SYM1304
-	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
+LDIFF_SYM1305=Lme_87 - _MonoTouch_Dialog_RadioGroup_set_Selected_int
+	.long LDIFF_SYM1305
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde132_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:set_RadioSelected"
-	.long _MonoTouch_Dialog_RootElement_set_RadioSelected_int
+	.asciz "MonoTouch.Dialog.RootElement:.ctor"
+	.long _MonoTouch_Dialog_RootElement__ctor_string
 	.long Lme_88
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1305=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1305
-	.byte 1,86,3
-	.asciz "value"
-
-LDIFF_SYM1306=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1306=LTDIE_6_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1306
-	.byte 2,125,0,11
-	.asciz "radio"
+	.byte 1,86,3
+	.asciz "caption"
 
-LDIFF_SYM1307=LTDIE_110_REFERENCE - Ldebug_info_start
+LDIFF_SYM1307=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM1307
-	.byte 1,85,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -23774,19 +23796,19 @@ Lfde133_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement_set_RadioSelected_int
+	.long _MonoTouch_Dialog_RootElement__ctor_string
 
-LDIFF_SYM1309=Lme_88 - _MonoTouch_Dialog_RootElement_set_RadioSelected_int
+LDIFF_SYM1309=Lme_88 - _MonoTouch_Dialog_RootElement__ctor_string
 	.long LDIFF_SYM1309
-	.byte 12,13,0,72,14,8,135,2,68,14,24,132,6,133,5,134,4,136,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde133_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:PathForRadio"
-	.long _MonoTouch_Dialog_RootElement_PathForRadio_int
+	.asciz "MonoTouch.Dialog.RootElement:get_RadioSelected"
+	.long _MonoTouch_Dialog_RootElement_get_RadioSelected
 	.long Lme_89
 
 	.byte 2,118,16,3
@@ -23794,325 +23816,325 @@ Lfde133_end:
 
 LDIFF_SYM1310=LTDIE_6_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1310
-	.byte 3,123,252,0,3
-	.asciz "idx"
-
-LDIFF_SYM1311=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1311
-	.byte 3,123,128,1,11
+	.byte 1,90,11
 	.asciz "radio"
 
-LDIFF_SYM1312=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1312
-	.byte 2,123,0,11
-	.asciz "current"
-
-LDIFF_SYM1313=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1313
-	.byte 2,123,4,11
-	.asciz "section"
-
-LDIFF_SYM1314=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1314
-	.byte 2,123,8,11
-	.asciz "s"
-
-LDIFF_SYM1315=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1315
-	.byte 2,123,12,11
-	.asciz ""
-
-LDIFF_SYM1316=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1316
-	.byte 2,123,16,11
-	.asciz "row"
-
-LDIFF_SYM1317=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1317
-	.byte 1,90,11
-	.asciz "e"
-
-LDIFF_SYM1318=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1318
-	.byte 2,123,32,11
-	.asciz ""
-
-LDIFF_SYM1319=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1319
-	.byte 2,123,36,11
-	.asciz ""
-
-LDIFF_SYM1320=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1320
-	.byte 2,123,52,0
+LDIFF_SYM1311=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1311
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1321=Lfde134_end - Lfde134_start
-	.long LDIFF_SYM1321
+LDIFF_SYM1312=Lfde134_end - Lfde134_start
+	.long LDIFF_SYM1312
 Lfde134_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement_PathForRadio_int
+	.long _MonoTouch_Dialog_RootElement_get_RadioSelected
 
-LDIFF_SYM1322=Lme_89 - _MonoTouch_Dialog_RootElement_PathForRadio_int
-	.long LDIFF_SYM1322
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,134,6,136,5,138,4,139,3,142,1,68,14,168,1,68,13,11
+LDIFF_SYM1313=Lme_89 - _MonoTouch_Dialog_RootElement_get_RadioSelected
+	.long LDIFF_SYM1313
+	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
 	.align 2
 Lfde134_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:IndexOf"
-	.long _MonoTouch_Dialog_RootElement_IndexOf_MonoTouch_Dialog_Section
+	.asciz "MonoTouch.Dialog.RootElement:set_RadioSelected"
+	.long _MonoTouch_Dialog_RootElement_set_RadioSelected_int
 	.long Lme_8a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1323=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1323
-	.byte 2,123,52,3
-	.asciz "target"
+LDIFF_SYM1314=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1314
+	.byte 1,86,3
+	.asciz "value"
 
-LDIFF_SYM1324=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1324
-	.byte 1,90,11
-	.asciz "idx"
+LDIFF_SYM1315=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1315
+	.byte 2,125,0,11
+	.asciz "radio"
 
-LDIFF_SYM1325=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1325
-	.byte 1,84,11
-	.asciz "s"
-
-LDIFF_SYM1326=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1326
-	.byte 1,85,11
-	.asciz ""
-
-LDIFF_SYM1327=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1327
-	.byte 2,123,0,11
-	.asciz ""
-
-LDIFF_SYM1328=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1328
-	.byte 2,123,16,0
+LDIFF_SYM1316=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1316
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1329=Lfde135_end - Lfde135_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1317=Lfde135_end - Lfde135_start
+	.long LDIFF_SYM1317
 Lfde135_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement_IndexOf_MonoTouch_Dialog_Section
+	.long _MonoTouch_Dialog_RootElement_set_RadioSelected_int
 
-LDIFF_SYM1330=Lme_8a - _MonoTouch_Dialog_RootElement_IndexOf_MonoTouch_Dialog_Section
-	.long LDIFF_SYM1330
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,136,5,138,4,139,3,142,1,68,14,88,68,13,11
+LDIFF_SYM1318=Lme_8a - _MonoTouch_Dialog_RootElement_set_RadioSelected_int
+	.long LDIFF_SYM1318
+	.byte 12,13,0,72,14,8,135,2,68,14,24,132,6,133,5,134,4,136,3,142,1,68,14,32
 	.align 2
 Lfde135_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:Prepare"
-	.long _MonoTouch_Dialog_RootElement_Prepare
+	.asciz "MonoTouch.Dialog.RootElement:PathForRadio"
+	.long _MonoTouch_Dialog_RootElement_PathForRadio_int
 	.long Lme_8b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1331=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1331
-	.byte 1,90,11
+LDIFF_SYM1319=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1319
+	.byte 3,123,252,0,3
+	.asciz "idx"
+
+LDIFF_SYM1320=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1320
+	.byte 3,123,128,1,11
+	.asciz "radio"
+
+LDIFF_SYM1321=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1321
+	.byte 2,123,0,11
 	.asciz "current"
 
-LDIFF_SYM1332=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1332
-	.byte 2,123,0,11
+LDIFF_SYM1322=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1322
+	.byte 2,123,4,11
+	.asciz "section"
+
+LDIFF_SYM1323=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1323
+	.byte 2,123,8,11
 	.asciz "s"
 
-LDIFF_SYM1333=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1333
-	.byte 1,86,11
+LDIFF_SYM1324=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1324
+	.byte 2,123,12,11
 	.asciz ""
 
-LDIFF_SYM1334=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1334
-	.byte 2,123,4,11
+LDIFF_SYM1325=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1325
+	.byte 2,123,16,11
+	.asciz "row"
+
+LDIFF_SYM1326=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1326
+	.byte 1,90,11
 	.asciz "e"
 
-LDIFF_SYM1335=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1335
-	.byte 1,85,11
+LDIFF_SYM1327=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1327
+	.byte 2,123,32,11
 	.asciz ""
 
-LDIFF_SYM1336=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1336
-	.byte 2,123,20,11
-	.asciz "re"
+LDIFF_SYM1328=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1328
+	.byte 2,123,36,11
+	.asciz ""
 
-LDIFF_SYM1337=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1337
-	.byte 1,84,0
+LDIFF_SYM1329=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1329
+	.byte 2,123,52,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1338=Lfde136_end - Lfde136_start
-	.long LDIFF_SYM1338
+LDIFF_SYM1330=Lfde136_end - Lfde136_start
+	.long LDIFF_SYM1330
 Lfde136_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement_Prepare
+	.long _MonoTouch_Dialog_RootElement_PathForRadio_int
 
-LDIFF_SYM1339=Lme_8b - _MonoTouch_Dialog_RootElement_Prepare
-	.long LDIFF_SYM1339
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,176,1,68,13,11
+LDIFF_SYM1331=Lme_8b - _MonoTouch_Dialog_RootElement_PathForRadio_int
+	.long LDIFF_SYM1331
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,134,6,136,5,138,4,139,3,142,1,68,14,168,1,68,13,11
 	.align 2
 Lfde136_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:Add"
-	.long _MonoTouch_Dialog_RootElement_Add_MonoTouch_Dialog_Section
+	.asciz "MonoTouch.Dialog.RootElement:IndexOf"
+	.long _MonoTouch_Dialog_RootElement_IndexOf_MonoTouch_Dialog_Section
 	.long Lme_8c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1340=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1340
-	.byte 1,86,3
-	.asciz "section"
+LDIFF_SYM1332=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1332
+	.byte 2,123,52,3
+	.asciz "target"
 
-LDIFF_SYM1341=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1341
-	.byte 1,90,0
+LDIFF_SYM1333=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1333
+	.byte 1,90,11
+	.asciz "idx"
+
+LDIFF_SYM1334=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1334
+	.byte 1,84,11
+	.asciz "s"
+
+LDIFF_SYM1335=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1335
+	.byte 1,85,11
+	.asciz ""
+
+LDIFF_SYM1336=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1336
+	.byte 2,123,0,11
+	.asciz ""
+
+LDIFF_SYM1337=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1337
+	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1342=Lfde137_end - Lfde137_start
-	.long LDIFF_SYM1342
+LDIFF_SYM1338=Lfde137_end - Lfde137_start
+	.long LDIFF_SYM1338
 Lfde137_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement_Add_MonoTouch_Dialog_Section
+	.long _MonoTouch_Dialog_RootElement_IndexOf_MonoTouch_Dialog_Section
 
-LDIFF_SYM1343=Lme_8c - _MonoTouch_Dialog_RootElement_Add_MonoTouch_Dialog_Section
-	.long LDIFF_SYM1343
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
+LDIFF_SYM1339=Lme_8c - _MonoTouch_Dialog_RootElement_IndexOf_MonoTouch_Dialog_Section
+	.long LDIFF_SYM1339
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,136,5,138,4,139,3,142,1,68,14,88,68,13,11
 	.align 2
 Lfde137_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:MakeIndexSet"
-	.long _MonoTouch_Dialog_RootElement_MakeIndexSet_int_int
+	.asciz "MonoTouch.Dialog.RootElement:Prepare"
+	.long _MonoTouch_Dialog_RootElement_Prepare
 	.long Lme_8d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1344=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1340=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1340
+	.byte 1,90,11
+	.asciz "current"
+
+LDIFF_SYM1341=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1341
+	.byte 2,123,0,11
+	.asciz "s"
+
+LDIFF_SYM1342=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1342
+	.byte 1,86,11
+	.asciz ""
+
+LDIFF_SYM1343=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1343
+	.byte 2,123,4,11
+	.asciz "e"
+
+LDIFF_SYM1344=LTDIE_0_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1344
-	.byte 0,3
-	.asciz "start"
+	.byte 1,85,11
+	.asciz ""
 
 LDIFF_SYM1345=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1345
-	.byte 2,125,20,3
-	.asciz "count"
+	.byte 2,123,20,11
+	.asciz "re"
 
-LDIFF_SYM1346=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1346=LTDIE_76_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1346
-	.byte 2,125,24,11
-	.asciz "range"
-
-LDIFF_SYM1347=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1347
-	.byte 2,125,0,0
+	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1348=Lfde138_end - Lfde138_start
-	.long LDIFF_SYM1348
+LDIFF_SYM1347=Lfde138_end - Lfde138_start
+	.long LDIFF_SYM1347
 Lfde138_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement_MakeIndexSet_int_int
+	.long _MonoTouch_Dialog_RootElement_Prepare
 
-LDIFF_SYM1349=Lme_8d - _MonoTouch_Dialog_RootElement_MakeIndexSet_int_int
-	.long LDIFF_SYM1349
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
+LDIFF_SYM1348=Lme_8d - _MonoTouch_Dialog_RootElement_Prepare
+	.long LDIFF_SYM1348
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,176,1,68,13,11
 	.align 2
 Lfde138_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:Clear"
-	.long _MonoTouch_Dialog_RootElement_Clear
+	.asciz "MonoTouch.Dialog.RootElement:Add"
+	.long _MonoTouch_Dialog_RootElement_Add_MonoTouch_Dialog_Section
 	.long Lme_8e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1350=LTDIE_6_REFERENCE - Ldebug_info_start
+LDIFF_SYM1349=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1349
+	.byte 1,86,3
+	.asciz "section"
+
+LDIFF_SYM1350=LTDIE_2_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1350
-	.byte 1,90,11
-	.asciz "s"
-
-LDIFF_SYM1351=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1351
-	.byte 1,86,11
-	.asciz ""
-
-LDIFF_SYM1352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1352
-	.byte 2,123,0,0
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1353=Lfde139_end - Lfde139_start
-	.long LDIFF_SYM1353
+LDIFF_SYM1351=Lfde139_end - Lfde139_start
+	.long LDIFF_SYM1351
 Lfde139_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement_Clear
+	.long _MonoTouch_Dialog_RootElement_Add_MonoTouch_Dialog_Section
 
-LDIFF_SYM1354=Lme_8e - _MonoTouch_Dialog_RootElement_Clear
-	.long LDIFF_SYM1354
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
+LDIFF_SYM1352=Lme_8e - _MonoTouch_Dialog_RootElement_Add_MonoTouch_Dialog_Section
+	.long LDIFF_SYM1352
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde139_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:Dispose"
-	.long _MonoTouch_Dialog_RootElement_Dispose_bool
+	.asciz "MonoTouch.Dialog.RootElement:MakeIndexSet"
+	.long _MonoTouch_Dialog_RootElement_MakeIndexSet_int_int
 	.long Lme_8f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1355=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1355
-	.byte 1,90,3
-	.asciz "disposing"
+LDIFF_SYM1353=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1353
+	.byte 0,3
+	.asciz "start"
 
-LDIFF_SYM1356=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1354=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1354
+	.byte 2,125,20,3
+	.asciz "count"
+
+LDIFF_SYM1355=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1355
+	.byte 2,125,24,11
+	.asciz "range"
+
+LDIFF_SYM1356=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1356
 	.byte 2,125,0,0
 
@@ -24124,13 +24146,88 @@ Lfde140_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement_Dispose_bool
+	.long _MonoTouch_Dialog_RootElement_MakeIndexSet_int_int
 
-LDIFF_SYM1358=Lme_8f - _MonoTouch_Dialog_RootElement_Dispose_bool
+LDIFF_SYM1358=Lme_8f - _MonoTouch_Dialog_RootElement_MakeIndexSet_int_int
 	.long LDIFF_SYM1358
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
 	.align 2
 Lfde140_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.RootElement:Clear"
+	.long _MonoTouch_Dialog_RootElement_Clear
+	.long Lme_90
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1359=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1359
+	.byte 1,90,11
+	.asciz "s"
+
+LDIFF_SYM1360=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1360
+	.byte 1,86,11
+	.asciz ""
+
+LDIFF_SYM1361=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1361
+	.byte 2,123,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1362=Lfde141_end - Lfde141_start
+	.long LDIFF_SYM1362
+Lfde141_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_RootElement_Clear
+
+LDIFF_SYM1363=Lme_90 - _MonoTouch_Dialog_RootElement_Clear
+	.long LDIFF_SYM1363
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
+	.align 2
+Lfde141_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.RootElement:Dispose"
+	.long _MonoTouch_Dialog_RootElement_Dispose_bool
+	.long Lme_91
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1364=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1364
+	.byte 1,90,3
+	.asciz "disposing"
+
+LDIFF_SYM1365=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1365
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1366=Lfde142_end - Lfde142_start
+	.long LDIFF_SYM1366
+Lfde142_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_RootElement_Dispose_bool
+
+LDIFF_SYM1367=Lme_91 - _MonoTouch_Dialog_RootElement_Dispose_bool
+	.long LDIFF_SYM1367
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+	.align 2
+Lfde142_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_111:
@@ -24139,85 +24236,85 @@ LTDIE_111:
 	.asciz "<System_Collections_IEnumerable_GetEnumerator>c__Iterator1"
 
 	.byte 44,16
-LDIFF_SYM1359=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1359
+LDIFF_SYM1368=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1368
 	.byte 2,35,0,6
 	.asciz "$locvar0"
 
-LDIFF_SYM1360=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1360
+LDIFF_SYM1369=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1369
 	.byte 2,35,8,6
 	.asciz "<s>__0"
 
-LDIFF_SYM1361=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1361
+LDIFF_SYM1370=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1370
 	.byte 2,35,24,6
 	.asciz "$this"
 
-LDIFF_SYM1362=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1371=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1371
 	.byte 2,35,28,6
 	.asciz "$current"
 
-LDIFF_SYM1363=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1372=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1372
 	.byte 2,35,32,6
 	.asciz "$disposing"
 
-LDIFF_SYM1364=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1364
+LDIFF_SYM1373=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1373
 	.byte 2,35,36,6
 	.asciz "$PC"
 
-LDIFF_SYM1365=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1365
+LDIFF_SYM1374=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1374
 	.byte 2,35,40,0,7
 	.asciz "<System_Collections_IEnumerable_GetEnumerator>c__Iterator1"
 
-LDIFF_SYM1366=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1366
+LDIFF_SYM1375=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1375
 LTDIE_111_POINTER:
 
 	.byte 13
-LDIFF_SYM1367=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1367
+LDIFF_SYM1376=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1376
 LTDIE_111_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1368=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1368
+LDIFF_SYM1377=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1377
 	.byte 2
 	.asciz "MonoTouch.Dialog.RootElement:System.Collections.IEnumerable.GetEnumerator"
 	.long _MonoTouch_Dialog_RootElement_System_Collections_IEnumerable_GetEnumerator
-	.long Lme_90
+	.long Lme_92
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1369=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1369
+LDIFF_SYM1378=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1378
 	.byte 2,125,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1370=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1370
+LDIFF_SYM1379=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1379
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1371=Lfde141_end - Lfde141_start
-	.long LDIFF_SYM1371
-Lfde141_start:
+LDIFF_SYM1380=Lfde143_end - Lfde143_start
+	.long LDIFF_SYM1380
+Lfde143_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_RootElement_System_Collections_IEnumerable_GetEnumerator
 
-LDIFF_SYM1372=Lme_90 - _MonoTouch_Dialog_RootElement_System_Collections_IEnumerable_GetEnumerator
-	.long LDIFF_SYM1372
+LDIFF_SYM1381=Lme_92 - _MonoTouch_Dialog_RootElement_System_Collections_IEnumerable_GetEnumerator
+	.long LDIFF_SYM1381
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde141_end:
+Lfde143_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_112:
@@ -24226,85 +24323,85 @@ LTDIE_112:
 	.asciz "<System_Collections_Generic_IEnumerable<MonoTouch_Dialog_Section>_GetEnumerator>c__Iterator2"
 
 	.byte 44,16
-LDIFF_SYM1373=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1373
+LDIFF_SYM1382=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1382
 	.byte 2,35,0,6
 	.asciz "$locvar0"
 
-LDIFF_SYM1374=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1374
+LDIFF_SYM1383=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1383
 	.byte 2,35,8,6
 	.asciz "<s>__0"
 
-LDIFF_SYM1375=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1384=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1384
 	.byte 2,35,24,6
 	.asciz "$this"
 
-LDIFF_SYM1376=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1385=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1385
 	.byte 2,35,28,6
 	.asciz "$current"
 
-LDIFF_SYM1377=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1377
+LDIFF_SYM1386=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1386
 	.byte 2,35,32,6
 	.asciz "$disposing"
 
-LDIFF_SYM1378=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1378
+LDIFF_SYM1387=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1387
 	.byte 2,35,36,6
 	.asciz "$PC"
 
-LDIFF_SYM1379=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1379
+LDIFF_SYM1388=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1388
 	.byte 2,35,40,0,7
 	.asciz "<System_Collections_Generic_IEnumerable<MonoTouch_Dialog_Section>_GetEnumerator>c__Iterator2"
 
-LDIFF_SYM1380=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1380
+LDIFF_SYM1389=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1389
 LTDIE_112_POINTER:
 
 	.byte 13
-LDIFF_SYM1381=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1381
+LDIFF_SYM1390=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1390
 LTDIE_112_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1382=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1382
+LDIFF_SYM1391=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1391
 	.byte 2
 	.asciz "MonoTouch.Dialog.RootElement:System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator"
 	.long _MonoTouch_Dialog_RootElement_System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumerator
-	.long Lme_91
+	.long Lme_93
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1383=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1383
+LDIFF_SYM1392=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1392
 	.byte 2,125,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1384=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1384
+LDIFF_SYM1393=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1393
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1385=Lfde142_end - Lfde142_start
-	.long LDIFF_SYM1385
-Lfde142_start:
+LDIFF_SYM1394=Lfde144_end - Lfde144_start
+	.long LDIFF_SYM1394
+Lfde144_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_RootElement_System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumerator
 
-LDIFF_SYM1386=Lme_91 - _MonoTouch_Dialog_RootElement_System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumerator
-	.long LDIFF_SYM1386
+LDIFF_SYM1395=Lme_93 - _MonoTouch_Dialog_RootElement_System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumerator
+	.long LDIFF_SYM1395
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde142_end:
+Lfde144_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_113:
@@ -24313,274 +24410,199 @@ LTDIE_113:
 	.asciz "MonoTouch_Foundation_NSString"
 
 	.byte 24,16
-LDIFF_SYM1387=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM1387
+LDIFF_SYM1396=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM1396
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_Foundation_NSString"
 
-LDIFF_SYM1388=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1388
+LDIFF_SYM1397=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1397
 LTDIE_113_POINTER:
 
 	.byte 13
-LDIFF_SYM1389=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1389
+LDIFF_SYM1398=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1398
 LTDIE_113_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1390=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1399=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1399
 	.byte 2
 	.asciz "MonoTouch.Dialog.RootElement:GetCell"
 	.long _MonoTouch_Dialog_RootElement_GetCell_MonoTouch_UIKit_UITableView
-	.long Lme_92
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1391=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1391
-	.byte 3,123,148,2,3
-	.asciz "tv"
-
-LDIFF_SYM1392=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1392
-	.byte 3,123,152,2,11
-	.asciz "key"
-
-LDIFF_SYM1393=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1393
-	.byte 2,123,0,11
-	.asciz "cell"
-
-LDIFF_SYM1394=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1394
-	.byte 2,123,4,11
-	.asciz "style"
-
-LDIFF_SYM1395=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM1395
-	.byte 2,123,8,11
-	.asciz "radio"
-
-LDIFF_SYM1396=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1396
-	.byte 2,123,12,11
-	.asciz "selected"
-
-LDIFF_SYM1397=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1397
-	.byte 2,123,16,11
-	.asciz "current"
-
-LDIFF_SYM1398=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1398
-	.byte 2,123,20,11
-	.asciz "s"
-
-LDIFF_SYM1399=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1399
-	.byte 2,123,24,11
-	.asciz ""
-
-LDIFF_SYM1400=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1400
-	.byte 2,123,28,11
-	.asciz "e"
-
-LDIFF_SYM1401=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1401
-	.byte 2,123,44,11
-	.asciz ""
-
-LDIFF_SYM1402=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1402
-	.byte 2,123,48,11
-	.asciz "count"
-
-LDIFF_SYM1403=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1403
-	.byte 3,123,192,0,11
-	.asciz "s"
-
-LDIFF_SYM1404=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1404
-	.byte 3,123,196,0,11
-	.asciz ""
-
-LDIFF_SYM1405=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1405
-	.byte 3,123,200,0,11
-	.asciz "e"
-
-LDIFF_SYM1406=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1406
-	.byte 1,84,11
-	.asciz ""
-
-LDIFF_SYM1407=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1407
-	.byte 3,123,216,0,11
-	.asciz "ce"
-
-LDIFF_SYM1408=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1408
-	.byte 3,123,232,0,11
-	.asciz "be"
-
-LDIFF_SYM1409=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1409
-	.byte 3,123,236,0,11
-	.asciz "s"
-
-LDIFF_SYM1410=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1410
-	.byte 3,123,240,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1411=Lfde143_end - Lfde143_start
-	.long LDIFF_SYM1411
-Lfde143_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_RootElement_GetCell_MonoTouch_UIKit_UITableView
-
-LDIFF_SYM1412=Lme_92 - _MonoTouch_Dialog_RootElement_GetCell_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM1412
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,200,2,68,13,11
-	.align 2
-Lfde143_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:PrepareDialogViewController"
-	.long _MonoTouch_Dialog_RootElement_PrepareDialogViewController_MonoTouch_UIKit_UIViewController
-	.long Lme_93
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1413=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1413
-	.byte 0,3
-	.asciz "dvc"
-
-LDIFF_SYM1414=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1414
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1415=Lfde144_end - Lfde144_start
-	.long LDIFF_SYM1415
-Lfde144_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_RootElement_PrepareDialogViewController_MonoTouch_UIKit_UIViewController
-
-LDIFF_SYM1416=Lme_93 - _MonoTouch_Dialog_RootElement_PrepareDialogViewController_MonoTouch_UIKit_UIViewController
-	.long LDIFF_SYM1416
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde144_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:MakeViewController"
-	.long _MonoTouch_Dialog_RootElement_MakeViewController
 	.long Lme_94
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1417=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1417
-	.byte 1,90,11
+LDIFF_SYM1400=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1400
+	.byte 3,123,148,2,3
+	.asciz "tv"
+
+LDIFF_SYM1401=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1401
+	.byte 3,123,152,2,11
+	.asciz "key"
+
+LDIFF_SYM1402=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1402
+	.byte 2,123,0,11
+	.asciz "cell"
+
+LDIFF_SYM1403=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1403
+	.byte 2,123,4,11
+	.asciz "style"
+
+LDIFF_SYM1404=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM1404
+	.byte 2,123,8,11
+	.asciz "radio"
+
+LDIFF_SYM1405=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1405
+	.byte 2,123,12,11
+	.asciz "selected"
+
+LDIFF_SYM1406=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1406
+	.byte 2,123,16,11
+	.asciz "current"
+
+LDIFF_SYM1407=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1407
+	.byte 2,123,20,11
+	.asciz "s"
+
+LDIFF_SYM1408=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1408
+	.byte 2,123,24,11
 	.asciz ""
 
-LDIFF_SYM1418=LTDIE_25_REFERENCE - Ldebug_info_start
+LDIFF_SYM1409=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1409
+	.byte 2,123,28,11
+	.asciz "e"
+
+LDIFF_SYM1410=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1410
+	.byte 2,123,44,11
+	.asciz ""
+
+LDIFF_SYM1411=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1411
+	.byte 2,123,48,11
+	.asciz "count"
+
+LDIFF_SYM1412=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1412
+	.byte 3,123,192,0,11
+	.asciz "s"
+
+LDIFF_SYM1413=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1413
+	.byte 3,123,196,0,11
+	.asciz ""
+
+LDIFF_SYM1414=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1414
+	.byte 3,123,200,0,11
+	.asciz "e"
+
+LDIFF_SYM1415=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1415
+	.byte 1,84,11
+	.asciz ""
+
+LDIFF_SYM1416=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1416
+	.byte 3,123,216,0,11
+	.asciz "ce"
+
+LDIFF_SYM1417=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1417
+	.byte 3,123,232,0,11
+	.asciz "be"
+
+LDIFF_SYM1418=LTDIE_41_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1418
-	.byte 1,86,0
+	.byte 3,123,236,0,11
+	.asciz "s"
+
+LDIFF_SYM1419=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1419
+	.byte 3,123,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1419=Lfde145_end - Lfde145_start
-	.long LDIFF_SYM1419
+LDIFF_SYM1420=Lfde145_end - Lfde145_start
+	.long LDIFF_SYM1420
 Lfde145_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement_MakeViewController
+	.long _MonoTouch_Dialog_RootElement_GetCell_MonoTouch_UIKit_UITableView
 
-LDIFF_SYM1420=Lme_94 - _MonoTouch_Dialog_RootElement_MakeViewController
-	.long LDIFF_SYM1420
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
+LDIFF_SYM1421=Lme_94 - _MonoTouch_Dialog_RootElement_GetCell_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM1421
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,200,2,68,13,11
 	.align 2
 Lfde145_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:Selected"
-	.long _MonoTouch_Dialog_RootElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.asciz "MonoTouch.Dialog.RootElement:PrepareDialogViewController"
+	.long _MonoTouch_Dialog_RootElement_PrepareDialogViewController_MonoTouch_UIKit_UIViewController
 	.long Lme_95
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1421=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1421
-	.byte 1,84,3
+LDIFF_SYM1422=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1422
+	.byte 0,3
 	.asciz "dvc"
 
-LDIFF_SYM1422=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1422
-	.byte 1,85,3
-	.asciz "tableView"
-
-LDIFF_SYM1423=LTDIE_17_REFERENCE - Ldebug_info_start
+LDIFF_SYM1423=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1423
-	.byte 2,125,0,3
-	.asciz "path"
-
-LDIFF_SYM1424=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1424
-	.byte 2,125,4,11
-	.asciz "newDvc"
-
-LDIFF_SYM1425=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1425
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1426=Lfde146_end - Lfde146_start
-	.long LDIFF_SYM1426
+LDIFF_SYM1424=Lfde146_end - Lfde146_start
+	.long LDIFF_SYM1424
 Lfde146_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long _MonoTouch_Dialog_RootElement_PrepareDialogViewController_MonoTouch_UIKit_UIViewController
 
-LDIFF_SYM1427=Lme_95 - _MonoTouch_Dialog_RootElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1427
-	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,133,4,136,3,142,1,68,14,40
+LDIFF_SYM1425=Lme_95 - _MonoTouch_Dialog_RootElement_PrepareDialogViewController_MonoTouch_UIKit_UIViewController
+	.long LDIFF_SYM1425
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde146_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement:.cctor"
-	.long _MonoTouch_Dialog_RootElement__cctor
+	.asciz "MonoTouch.Dialog.RootElement:MakeViewController"
+	.long _MonoTouch_Dialog_RootElement_MakeViewController
 	.long Lme_96
 
-	.byte 2,118,16,0
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1426=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1426
+	.byte 1,90,11
+	.asciz ""
+
+LDIFF_SYM1427=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1427
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -24590,100 +24612,115 @@ Lfde147_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__cctor
+	.long _MonoTouch_Dialog_RootElement_MakeViewController
 
-LDIFF_SYM1429=Lme_96 - _MonoTouch_Dialog_RootElement__cctor
+LDIFF_SYM1429=Lme_96 - _MonoTouch_Dialog_RootElement_MakeViewController
 	.long LDIFF_SYM1429
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde147_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:System.Collections.Generic.IEnumerator<object>.get_Current"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_Generic_IEnumerator_object_get_Current
+	.asciz "MonoTouch.Dialog.RootElement:Selected"
+	.long _MonoTouch_Dialog_RootElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long Lme_97
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1430=LTDIE_111_REFERENCE - Ldebug_info_start
+LDIFF_SYM1430=LTDIE_6_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1430
-	.byte 2,125,0,0
+	.byte 1,84,3
+	.asciz "dvc"
+
+LDIFF_SYM1431=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1431
+	.byte 1,85,3
+	.asciz "tableView"
+
+LDIFF_SYM1432=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1432
+	.byte 2,125,0,3
+	.asciz "path"
+
+LDIFF_SYM1433=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1433
+	.byte 2,125,4,11
+	.asciz "newDvc"
+
+LDIFF_SYM1434=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1434
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1431=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM1431
+LDIFF_SYM1435=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM1435
 Lfde148_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_Generic_IEnumerator_object_get_Current
+	.long _MonoTouch_Dialog_RootElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1432=Lme_97 - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_Generic_IEnumerator_object_get_Current
-	.long LDIFF_SYM1432
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1436=Lme_97 - _MonoTouch_Dialog_RootElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM1436
+	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,133,4,136,3,142,1,68,14,40
 	.align 2
 Lfde148_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:System.Collections.IEnumerator.get_Current"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_IEnumerator_get_Current
+	.asciz "MonoTouch.Dialog.RootElement:.cctor"
+	.long _MonoTouch_Dialog_RootElement__cctor
 	.long Lme_98
 
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1433=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1433
-	.byte 2,125,0,0
+	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1434=Lfde149_end - Lfde149_start
-	.long LDIFF_SYM1434
+LDIFF_SYM1437=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM1437
 Lfde149_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_IEnumerator_get_Current
+	.long _MonoTouch_Dialog_RootElement__cctor
 
-LDIFF_SYM1435=Lme_98 - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM1435
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1438=Lme_98 - _MonoTouch_Dialog_RootElement__cctor
+	.long LDIFF_SYM1438
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde149_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:.ctor"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1__ctor
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:System.Collections.Generic.IEnumerator<object>.get_Current"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_Generic_IEnumerator_object_get_Current
 	.long Lme_99
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1436=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1436
-	.byte 0,0
+LDIFF_SYM1439=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1439
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1437=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM1437
+LDIFF_SYM1440=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM1440
 Lfde150_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1__ctor
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_Generic_IEnumerator_object_get_Current
 
-LDIFF_SYM1438=Lme_99 - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1__ctor
-	.long LDIFF_SYM1438
+LDIFF_SYM1441=Lme_99 - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_Generic_IEnumerator_object_get_Current
+	.long LDIFF_SYM1441
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde150_end:
@@ -24691,57 +24728,42 @@ Lfde150_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:MoveNext"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_MoveNext
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:System.Collections.IEnumerator.get_Current"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_IEnumerator_get_Current
 	.long Lme_9a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1439=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1439
-	.byte 2,123,56,11
-	.asciz ""
-
-LDIFF_SYM1440=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1440
-	.byte 1,90,11
-	.asciz ""
-
-LDIFF_SYM1441=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1441
-	.byte 2,123,0,0
+LDIFF_SYM1442=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1442
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1442=Lfde151_end - Lfde151_start
-	.long LDIFF_SYM1442
+LDIFF_SYM1443=Lfde151_end - Lfde151_start
+	.long LDIFF_SYM1443
 Lfde151_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_MoveNext
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM1443=Lme_9a - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_MoveNext
-	.long LDIFF_SYM1443
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,96,68,13,11
+LDIFF_SYM1444=Lme_9a - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM1444
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde151_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:Dispose"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Dispose
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:.ctor"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1__ctor
 	.long Lme_9b
 
 	.byte 2,118,16,3
 	.asciz "this"
-
-LDIFF_SYM1444=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1444
-	.byte 2,123,20,11
-	.asciz "V_0"
 
 LDIFF_SYM1445=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1445
@@ -24755,110 +24777,95 @@ Lfde152_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Dispose
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1__ctor
 
-LDIFF_SYM1447=Lme_9b - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Dispose
+LDIFF_SYM1447=Lme_9b - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1__ctor
 	.long LDIFF_SYM1447
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde152_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:Reset"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Reset
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:MoveNext"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_MoveNext
 	.long Lme_9c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1448=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1448=LTDIE_111_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1448
-	.byte 0,0
+	.byte 2,123,56,11
+	.asciz ""
+
+LDIFF_SYM1449=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1449
+	.byte 1,90,11
+	.asciz ""
+
+LDIFF_SYM1450=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1450
+	.byte 2,123,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1449=Lfde153_end - Lfde153_start
-	.long LDIFF_SYM1449
+LDIFF_SYM1451=Lfde153_end - Lfde153_start
+	.long LDIFF_SYM1451
 Lfde153_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Reset
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_MoveNext
 
-LDIFF_SYM1450=Lme_9c - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Reset
-	.long LDIFF_SYM1450
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1452=Lme_9c - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_MoveNext
+	.long LDIFF_SYM1452
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,96,68,13,11
 	.align 2
 Lfde153_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:System.Collections.Generic.IEnumerator<MonoTouch.Dialog.Section>.get_Current"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_Generic_IEnumerator_MonoTouch_Dialog_Section_get_Current
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:Dispose"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Dispose
 	.long Lme_9d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1451=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1451
-	.byte 2,125,0,0
+LDIFF_SYM1453=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1453
+	.byte 2,123,20,11
+	.asciz "V_0"
+
+LDIFF_SYM1454=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1454
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1452=Lfde154_end - Lfde154_start
-	.long LDIFF_SYM1452
+LDIFF_SYM1455=Lfde154_end - Lfde154_start
+	.long LDIFF_SYM1455
 Lfde154_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_Generic_IEnumerator_MonoTouch_Dialog_Section_get_Current
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Dispose
 
-LDIFF_SYM1453=Lme_9d - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_Generic_IEnumerator_MonoTouch_Dialog_Section_get_Current
-	.long LDIFF_SYM1453
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1456=Lme_9d - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Dispose
+	.long LDIFF_SYM1456
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
 	.align 2
 Lfde154_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:System.Collections.IEnumerator.get_Current"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_IEnumerator_get_Current
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.IEnumerable.GetEnumerator>c__Iterator1:Reset"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Reset
 	.long Lme_9e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1454=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1454
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1455=Lfde155_end - Lfde155_start
-	.long LDIFF_SYM1455
-Lfde155_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_IEnumerator_get_Current
-
-LDIFF_SYM1456=Lme_9e - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM1456
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde155_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:.ctor"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2__ctor
-	.long Lme_9f
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -24869,16 +24876,46 @@ LDIFF_SYM1457=LDIE_I4 - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1458=Lfde156_end - Lfde156_start
+LDIFF_SYM1458=Lfde155_end - Lfde155_start
 	.long LDIFF_SYM1458
+Lfde155_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Reset
+
+LDIFF_SYM1459=Lme_9e - _MonoTouch_Dialog_RootElement__System_Collections_IEnumerable_GetEnumeratorc__Iterator1_Reset
+	.long LDIFF_SYM1459
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde155_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:System.Collections.Generic.IEnumerator<MonoTouch.Dialog.Section>.get_Current"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_Generic_IEnumerator_MonoTouch_Dialog_Section_get_Current
+	.long Lme_9f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1460=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1460
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1461=Lfde156_end - Lfde156_start
+	.long LDIFF_SYM1461
 Lfde156_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2__ctor
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_Generic_IEnumerator_MonoTouch_Dialog_Section_get_Current
 
-LDIFF_SYM1459=Lme_9f - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2__ctor
-	.long LDIFF_SYM1459
+LDIFF_SYM1462=Lme_9f - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_Generic_IEnumerator_MonoTouch_Dialog_Section_get_Current
+	.long LDIFF_SYM1462
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde156_end:
@@ -24886,57 +24923,42 @@ Lfde156_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:MoveNext"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_MoveNext
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:System.Collections.IEnumerator.get_Current"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_IEnumerator_get_Current
 	.long Lme_a0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1460=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1460
-	.byte 2,123,56,11
-	.asciz ""
-
-LDIFF_SYM1461=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1461
-	.byte 1,90,11
-	.asciz ""
-
-LDIFF_SYM1462=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1462
-	.byte 2,123,0,0
+LDIFF_SYM1463=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1463
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1463=Lfde157_end - Lfde157_start
-	.long LDIFF_SYM1463
+LDIFF_SYM1464=Lfde157_end - Lfde157_start
+	.long LDIFF_SYM1464
 Lfde157_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_MoveNext
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM1464=Lme_a0 - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_MoveNext
-	.long LDIFF_SYM1464
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,96,68,13,11
+LDIFF_SYM1465=Lme_a0 - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM1465
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde157_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:Dispose"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Dispose
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:.ctor"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2__ctor
 	.long Lme_a1
 
 	.byte 2,118,16,3
 	.asciz "this"
-
-LDIFF_SYM1465=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1465
-	.byte 2,123,20,11
-	.asciz "V_0"
 
 LDIFF_SYM1466=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1466
@@ -24950,72 +24972,72 @@ Lfde158_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Dispose
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2__ctor
 
-LDIFF_SYM1468=Lme_a1 - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Dispose
+LDIFF_SYM1468=Lme_a1 - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2__ctor
 	.long LDIFF_SYM1468
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde158_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:Reset"
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Reset
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:MoveNext"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_MoveNext
 	.long Lme_a2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1469=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1469=LTDIE_112_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1469
-	.byte 0,0
+	.byte 2,123,56,11
+	.asciz ""
+
+LDIFF_SYM1470=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1470
+	.byte 1,90,11
+	.asciz ""
+
+LDIFF_SYM1471=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1471
+	.byte 2,123,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1470=Lfde159_end - Lfde159_start
-	.long LDIFF_SYM1470
+LDIFF_SYM1472=Lfde159_end - Lfde159_start
+	.long LDIFF_SYM1472
 Lfde159_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Reset
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_MoveNext
 
-LDIFF_SYM1471=Lme_a2 - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Reset
-	.long LDIFF_SYM1471
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1473=Lme_a2 - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_MoveNext
+	.long LDIFF_SYM1473
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,96,68,13,11
 	.align 2
 Lfde159_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:add_OnSelection"
-	.long _MonoTouch_Dialog_DialogViewController_add_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:Dispose"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Dispose
 	.long Lme_a3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1472=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1472
-	.byte 1,86,3
-	.asciz "value"
-
-LDIFF_SYM1473=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1473
-	.byte 2,125,4,11
+LDIFF_SYM1474=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1474
+	.byte 2,123,20,11
 	.asciz "V_0"
 
-LDIFF_SYM1474=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1474
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM1475=LTDIE_29_REFERENCE - Ldebug_info_start
+LDIFF_SYM1475=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1475
-	.byte 2,125,0,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -25025,70 +25047,70 @@ Lfde160_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_add_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Dispose
 
-LDIFF_SYM1477=Lme_a3 - _MonoTouch_Dialog_DialogViewController_add_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
+LDIFF_SYM1477=Lme_a3 - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Dispose
 	.long LDIFF_SYM1477
-	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,134,4,136,3,142,1,68,14,40
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
 	.align 2
 Lfde160_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:remove_OnSelection"
-	.long _MonoTouch_Dialog_DialogViewController_remove_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
+	.asciz "MonoTouch.Dialog.RootElement/<System.Collections.Generic.IEnumerable<MonoTouch.Dialog.Section>.GetEnumerator>c__Iterator2:Reset"
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Reset
 	.long Lme_a4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1478=LTDIE_25_REFERENCE - Ldebug_info_start
+LDIFF_SYM1478=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1478
-	.byte 1,86,3
-	.asciz "value"
-
-LDIFF_SYM1479=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1479
-	.byte 2,125,4,11
-	.asciz "V_0"
-
-LDIFF_SYM1480=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1480
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM1481=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1481
-	.byte 2,125,0,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1482=Lfde161_end - Lfde161_start
-	.long LDIFF_SYM1482
+LDIFF_SYM1479=Lfde161_end - Lfde161_start
+	.long LDIFF_SYM1479
 Lfde161_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_remove_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
+	.long _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Reset
 
-LDIFF_SYM1483=Lme_a4 - _MonoTouch_Dialog_DialogViewController_remove_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1483
-	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,134,4,136,3,142,1,68,14,40
+LDIFF_SYM1480=Lme_a4 - _MonoTouch_Dialog_RootElement__System_Collections_Generic_IEnumerable_MonoTouch_Dialog_Section_GetEnumeratorc__Iterator2_Reset
+	.long LDIFF_SYM1480
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde161_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:get_Root"
-	.long _MonoTouch_Dialog_DialogViewController_get_Root
+	.asciz "MonoTouch.Dialog.DialogViewController:add_OnSelection"
+	.long _MonoTouch_Dialog_DialogViewController_add_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
 	.long Lme_a5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1484=LTDIE_25_REFERENCE - Ldebug_info_start
+LDIFF_SYM1481=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1481
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM1482=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1482
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM1483=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1483
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM1484=LTDIE_29_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1484
 	.byte 2,125,0,0
 
@@ -25100,19 +25122,19 @@ Lfde162_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_get_Root
+	.long _MonoTouch_Dialog_DialogViewController_add_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1486=Lme_a5 - _MonoTouch_Dialog_DialogViewController_get_Root
+LDIFF_SYM1486=Lme_a5 - _MonoTouch_Dialog_DialogViewController_add_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
 	.long LDIFF_SYM1486
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,134,4,136,3,142,1,68,14,40
 	.align 2
 Lfde162_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:set_Root"
-	.long _MonoTouch_Dialog_DialogViewController_set_Root_MonoTouch_Dialog_RootElement
+	.asciz "MonoTouch.Dialog.DialogViewController:remove_OnSelection"
+	.long _MonoTouch_Dialog_DialogViewController_remove_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
 	.long Lme_a6
 
 	.byte 2,118,16,3
@@ -25123,157 +25145,167 @@ LDIFF_SYM1487=LTDIE_25_REFERENCE - Ldebug_info_start
 	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM1488=LTDIE_6_REFERENCE - Ldebug_info_start
+LDIFF_SYM1488=LTDIE_29_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1488
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM1489=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1489
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM1490=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1490
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1489=Lfde163_end - Lfde163_start
-	.long LDIFF_SYM1489
+LDIFF_SYM1491=Lfde163_end - Lfde163_start
+	.long LDIFF_SYM1491
 Lfde163_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_set_Root_MonoTouch_Dialog_RootElement
+	.long _MonoTouch_Dialog_DialogViewController_remove_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1490=Lme_a6 - _MonoTouch_Dialog_DialogViewController_set_Root_MonoTouch_Dialog_RootElement
-	.long LDIFF_SYM1490
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
+LDIFF_SYM1492=Lme_a6 - _MonoTouch_Dialog_DialogViewController_remove_OnSelection_System_Action_1_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM1492
+	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,134,4,136,3,142,1,68,14,40
 	.align 2
 Lfde163_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:add_RefreshRequested"
-	.long _MonoTouch_Dialog_DialogViewController_add_RefreshRequested_System_EventHandler
+	.asciz "MonoTouch.Dialog.DialogViewController:get_Root"
+	.long _MonoTouch_Dialog_DialogViewController_get_Root
 	.long Lme_a7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1491=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1491
-	.byte 1,86,3
-	.asciz "value"
-
-LDIFF_SYM1492=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1492
-	.byte 1,90,0
+LDIFF_SYM1493=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1493
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1493=Lfde164_end - Lfde164_start
-	.long LDIFF_SYM1493
+LDIFF_SYM1494=Lfde164_end - Lfde164_start
+	.long LDIFF_SYM1494
 Lfde164_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_add_RefreshRequested_System_EventHandler
+	.long _MonoTouch_Dialog_DialogViewController_get_Root
 
-LDIFF_SYM1494=Lme_a7 - _MonoTouch_Dialog_DialogViewController_add_RefreshRequested_System_EventHandler
-	.long LDIFF_SYM1494
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
+LDIFF_SYM1495=Lme_a7 - _MonoTouch_Dialog_DialogViewController_get_Root
+	.long LDIFF_SYM1495
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde164_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:remove_RefreshRequested"
-	.long _MonoTouch_Dialog_DialogViewController_remove_RefreshRequested_System_EventHandler
+	.asciz "MonoTouch.Dialog.DialogViewController:set_Root"
+	.long _MonoTouch_Dialog_DialogViewController_set_Root_MonoTouch_Dialog_RootElement
 	.long Lme_a8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1495=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1495
-	.byte 2,125,4,3
+LDIFF_SYM1496=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1496
+	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM1496=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1496
-	.byte 1,90,0
+LDIFF_SYM1497=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1497
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1497=Lfde165_end - Lfde165_start
-	.long LDIFF_SYM1497
+LDIFF_SYM1498=Lfde165_end - Lfde165_start
+	.long LDIFF_SYM1498
 Lfde165_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_remove_RefreshRequested_System_EventHandler
+	.long _MonoTouch_Dialog_DialogViewController_set_Root_MonoTouch_Dialog_RootElement
 
-LDIFF_SYM1498=Lme_a8 - _MonoTouch_Dialog_DialogViewController_remove_RefreshRequested_System_EventHandler
-	.long LDIFF_SYM1498
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+LDIFF_SYM1499=Lme_a8 - _MonoTouch_Dialog_DialogViewController_set_Root_MonoTouch_Dialog_RootElement
+	.long LDIFF_SYM1499
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde165_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:get_EnableSearch"
-	.long _MonoTouch_Dialog_DialogViewController_get_EnableSearch
+	.asciz "MonoTouch.Dialog.DialogViewController:add_RefreshRequested"
+	.long _MonoTouch_Dialog_DialogViewController_add_RefreshRequested_System_EventHandler
 	.long Lme_a9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1499=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1499
-	.byte 2,125,0,0
+LDIFF_SYM1500=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1500
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM1501=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1501
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1500=Lfde166_end - Lfde166_start
-	.long LDIFF_SYM1500
+LDIFF_SYM1502=Lfde166_end - Lfde166_start
+	.long LDIFF_SYM1502
 Lfde166_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_get_EnableSearch
+	.long _MonoTouch_Dialog_DialogViewController_add_RefreshRequested_System_EventHandler
 
-LDIFF_SYM1501=Lme_a9 - _MonoTouch_Dialog_DialogViewController_get_EnableSearch
-	.long LDIFF_SYM1501
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1503=Lme_a9 - _MonoTouch_Dialog_DialogViewController_add_RefreshRequested_System_EventHandler
+	.long LDIFF_SYM1503
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde166_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:set_EnableSearch"
-	.long _MonoTouch_Dialog_DialogViewController_set_EnableSearch_bool
+	.asciz "MonoTouch.Dialog.DialogViewController:remove_RefreshRequested"
+	.long _MonoTouch_Dialog_DialogViewController_remove_RefreshRequested_System_EventHandler
 	.long Lme_aa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1502=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1502
-	.byte 1,90,3
+LDIFF_SYM1504=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1504
+	.byte 2,125,4,3
 	.asciz "value"
 
-LDIFF_SYM1503=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1503
-	.byte 2,125,0,0
+LDIFF_SYM1505=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1505
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1504=Lfde167_end - Lfde167_start
-	.long LDIFF_SYM1504
+LDIFF_SYM1506=Lfde167_end - Lfde167_start
+	.long LDIFF_SYM1506
 Lfde167_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_set_EnableSearch_bool
+	.long _MonoTouch_Dialog_DialogViewController_remove_RefreshRequested_System_EventHandler
 
-LDIFF_SYM1505=Lme_aa - _MonoTouch_Dialog_DialogViewController_set_EnableSearch_bool
-	.long LDIFF_SYM1505
+LDIFF_SYM1507=Lme_aa - _MonoTouch_Dialog_DialogViewController_remove_RefreshRequested_System_EventHandler
+	.long LDIFF_SYM1507
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde167_end:
@@ -25281,29 +25313,29 @@ Lfde167_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:get_AutoHideSearch"
-	.long _MonoTouch_Dialog_DialogViewController_get_AutoHideSearch
+	.asciz "MonoTouch.Dialog.DialogViewController:get_EnableSearch"
+	.long _MonoTouch_Dialog_DialogViewController_get_EnableSearch
 	.long Lme_ab
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1506=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1506
+LDIFF_SYM1508=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1508
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1507=Lfde168_end - Lfde168_start
-	.long LDIFF_SYM1507
+LDIFF_SYM1509=Lfde168_end - Lfde168_start
+	.long LDIFF_SYM1509
 Lfde168_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_get_AutoHideSearch
+	.long _MonoTouch_Dialog_DialogViewController_get_EnableSearch
 
-LDIFF_SYM1508=Lme_ab - _MonoTouch_Dialog_DialogViewController_get_AutoHideSearch
-	.long LDIFF_SYM1508
+LDIFF_SYM1510=Lme_ab - _MonoTouch_Dialog_DialogViewController_get_EnableSearch
+	.long LDIFF_SYM1510
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde168_end:
@@ -25311,64 +25343,64 @@ Lfde168_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:set_AutoHideSearch"
-	.long _MonoTouch_Dialog_DialogViewController_set_AutoHideSearch_bool
+	.asciz "MonoTouch.Dialog.DialogViewController:set_EnableSearch"
+	.long _MonoTouch_Dialog_DialogViewController_set_EnableSearch_bool
 	.long Lme_ac
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1509=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1509
-	.byte 2,125,0,3
+LDIFF_SYM1511=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1511
+	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM1510=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1510
-	.byte 2,125,4,0
+LDIFF_SYM1512=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1512
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1511=Lfde169_end - Lfde169_start
-	.long LDIFF_SYM1511
+LDIFF_SYM1513=Lfde169_end - Lfde169_start
+	.long LDIFF_SYM1513
 Lfde169_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_set_AutoHideSearch_bool
+	.long _MonoTouch_Dialog_DialogViewController_set_EnableSearch_bool
 
-LDIFF_SYM1512=Lme_ac - _MonoTouch_Dialog_DialogViewController_set_AutoHideSearch_bool
-	.long LDIFF_SYM1512
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1514=Lme_ac - _MonoTouch_Dialog_DialogViewController_set_EnableSearch_bool
+	.long LDIFF_SYM1514
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde169_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:get_SearchPlaceholder"
-	.long _MonoTouch_Dialog_DialogViewController_get_SearchPlaceholder
+	.asciz "MonoTouch.Dialog.DialogViewController:get_AutoHideSearch"
+	.long _MonoTouch_Dialog_DialogViewController_get_AutoHideSearch
 	.long Lme_ad
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1513=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1513
+LDIFF_SYM1515=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1515
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1514=Lfde170_end - Lfde170_start
-	.long LDIFF_SYM1514
+LDIFF_SYM1516=Lfde170_end - Lfde170_start
+	.long LDIFF_SYM1516
 Lfde170_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_get_SearchPlaceholder
+	.long _MonoTouch_Dialog_DialogViewController_get_AutoHideSearch
 
-LDIFF_SYM1515=Lme_ad - _MonoTouch_Dialog_DialogViewController_get_SearchPlaceholder
-	.long LDIFF_SYM1515
+LDIFF_SYM1517=Lme_ad - _MonoTouch_Dialog_DialogViewController_get_AutoHideSearch
+	.long LDIFF_SYM1517
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde170_end:
@@ -25376,34 +25408,34 @@ Lfde170_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:set_SearchPlaceholder"
-	.long _MonoTouch_Dialog_DialogViewController_set_SearchPlaceholder_string
+	.asciz "MonoTouch.Dialog.DialogViewController:set_AutoHideSearch"
+	.long _MonoTouch_Dialog_DialogViewController_set_AutoHideSearch_bool
 	.long Lme_ae
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1516=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1516
+LDIFF_SYM1518=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1518
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM1517=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1517
+LDIFF_SYM1519=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1519
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1518=Lfde171_end - Lfde171_start
-	.long LDIFF_SYM1518
+LDIFF_SYM1520=Lfde171_end - Lfde171_start
+	.long LDIFF_SYM1520
 Lfde171_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_set_SearchPlaceholder_string
+	.long _MonoTouch_Dialog_DialogViewController_set_AutoHideSearch_bool
 
-LDIFF_SYM1519=Lme_ae - _MonoTouch_Dialog_DialogViewController_set_SearchPlaceholder_string
-	.long LDIFF_SYM1519
+LDIFF_SYM1521=Lme_ae - _MonoTouch_Dialog_DialogViewController_set_AutoHideSearch_bool
+	.long LDIFF_SYM1521
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde171_end:
@@ -25411,29 +25443,29 @@ Lfde171_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:get_Autorotate"
-	.long _MonoTouch_Dialog_DialogViewController_get_Autorotate
+	.asciz "MonoTouch.Dialog.DialogViewController:get_SearchPlaceholder"
+	.long _MonoTouch_Dialog_DialogViewController_get_SearchPlaceholder
 	.long Lme_af
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1520=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1520
+LDIFF_SYM1522=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1522
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1521=Lfde172_end - Lfde172_start
-	.long LDIFF_SYM1521
+LDIFF_SYM1523=Lfde172_end - Lfde172_start
+	.long LDIFF_SYM1523
 Lfde172_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_get_Autorotate
+	.long _MonoTouch_Dialog_DialogViewController_get_SearchPlaceholder
 
-LDIFF_SYM1522=Lme_af - _MonoTouch_Dialog_DialogViewController_get_Autorotate
-	.long LDIFF_SYM1522
+LDIFF_SYM1524=Lme_af - _MonoTouch_Dialog_DialogViewController_get_SearchPlaceholder
+	.long LDIFF_SYM1524
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde172_end:
@@ -25441,34 +25473,34 @@ Lfde172_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:set_Autorotate"
-	.long _MonoTouch_Dialog_DialogViewController_set_Autorotate_bool
+	.asciz "MonoTouch.Dialog.DialogViewController:set_SearchPlaceholder"
+	.long _MonoTouch_Dialog_DialogViewController_set_SearchPlaceholder_string
 	.long Lme_b0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1523=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1523
+LDIFF_SYM1525=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1525
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM1524=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1524
+LDIFF_SYM1526=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1526
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1525=Lfde173_end - Lfde173_start
-	.long LDIFF_SYM1525
+LDIFF_SYM1527=Lfde173_end - Lfde173_start
+	.long LDIFF_SYM1527
 Lfde173_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_set_Autorotate_bool
+	.long _MonoTouch_Dialog_DialogViewController_set_SearchPlaceholder_string
 
-LDIFF_SYM1526=Lme_b0 - _MonoTouch_Dialog_DialogViewController_set_Autorotate_bool
-	.long LDIFF_SYM1526
+LDIFF_SYM1528=Lme_b0 - _MonoTouch_Dialog_DialogViewController_set_SearchPlaceholder_string
+	.long LDIFF_SYM1528
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde173_end:
@@ -25476,106 +25508,96 @@ Lfde173_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:add_SearchTextChanged"
-	.long _MonoTouch_Dialog_DialogViewController_add_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
+	.asciz "MonoTouch.Dialog.DialogViewController:get_Autorotate"
+	.long _MonoTouch_Dialog_DialogViewController_get_Autorotate
 	.long Lme_b1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1527=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1527
-	.byte 1,86,3
-	.asciz "value"
-
-LDIFF_SYM1528=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1528
-	.byte 2,125,0,11
-	.asciz "V_0"
-
-LDIFF_SYM1529=LTDIE_37_REFERENCE - Ldebug_info_start
+LDIFF_SYM1529=LTDIE_25_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1529
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM1530=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1530
-	.byte 1,85,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1531=Lfde174_end - Lfde174_start
-	.long LDIFF_SYM1531
+LDIFF_SYM1530=Lfde174_end - Lfde174_start
+	.long LDIFF_SYM1530
 Lfde174_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_add_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
+	.long _MonoTouch_Dialog_DialogViewController_get_Autorotate
 
-LDIFF_SYM1532=Lme_b1 - _MonoTouch_Dialog_DialogViewController_add_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
-	.long LDIFF_SYM1532
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
+LDIFF_SYM1531=Lme_b1 - _MonoTouch_Dialog_DialogViewController_get_Autorotate
+	.long LDIFF_SYM1531
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde174_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:remove_SearchTextChanged"
-	.long _MonoTouch_Dialog_DialogViewController_remove_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
+	.asciz "MonoTouch.Dialog.DialogViewController:set_Autorotate"
+	.long _MonoTouch_Dialog_DialogViewController_set_Autorotate_bool
 	.long Lme_b2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1533=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1533
-	.byte 1,86,3
+LDIFF_SYM1532=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1532
+	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM1534=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1534
-	.byte 2,125,0,11
-	.asciz "V_0"
-
-LDIFF_SYM1535=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1535
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM1536=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1536
-	.byte 1,85,0
+LDIFF_SYM1533=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1533
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1537=Lfde175_end - Lfde175_start
-	.long LDIFF_SYM1537
+LDIFF_SYM1534=Lfde175_end - Lfde175_start
+	.long LDIFF_SYM1534
 Lfde175_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_remove_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
+	.long _MonoTouch_Dialog_DialogViewController_set_Autorotate_bool
 
-LDIFF_SYM1538=Lme_b2 - _MonoTouch_Dialog_DialogViewController_remove_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
-	.long LDIFF_SYM1538
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
+LDIFF_SYM1535=Lme_b2 - _MonoTouch_Dialog_DialogViewController_set_Autorotate_bool
+	.long LDIFF_SYM1535
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde175_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:get_Pushing"
-	.long _MonoTouch_Dialog_DialogViewController_get_Pushing
+	.asciz "MonoTouch.Dialog.DialogViewController:add_SearchTextChanged"
+	.long _MonoTouch_Dialog_DialogViewController_add_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
 	.long Lme_b3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1539=LTDIE_25_REFERENCE - Ldebug_info_start
+LDIFF_SYM1536=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1536
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM1537=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1537
+	.byte 2,125,0,11
+	.asciz "V_0"
+
+LDIFF_SYM1538=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1538
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM1539=LTDIE_37_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1539
-	.byte 2,125,0,0
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -25585,19 +25607,19 @@ Lfde176_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_get_Pushing
+	.long _MonoTouch_Dialog_DialogViewController_add_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
 
-LDIFF_SYM1541=Lme_b3 - _MonoTouch_Dialog_DialogViewController_get_Pushing
+LDIFF_SYM1541=Lme_b3 - _MonoTouch_Dialog_DialogViewController_add_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
 	.long LDIFF_SYM1541
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
 	.align 2
 Lfde176_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:set_Pushing"
-	.long _MonoTouch_Dialog_DialogViewController_set_Pushing_bool
+	.asciz "MonoTouch.Dialog.DialogViewController:remove_SearchTextChanged"
+	.long _MonoTouch_Dialog_DialogViewController_remove_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
 	.long Lme_b4
 
 	.byte 2,118,16,3
@@ -25605,245 +25627,245 @@ Lfde176_end:
 
 LDIFF_SYM1542=LTDIE_25_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1542
-	.byte 1,90,3
+	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM1543=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1543=LTDIE_37_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1543
-	.byte 2,125,0,0
+	.byte 2,125,0,11
+	.asciz "V_0"
+
+LDIFF_SYM1544=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1544
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM1545=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1545
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1544=Lfde177_end - Lfde177_start
-	.long LDIFF_SYM1544
+LDIFF_SYM1546=Lfde177_end - Lfde177_start
+	.long LDIFF_SYM1546
 Lfde177_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_set_Pushing_bool
+	.long _MonoTouch_Dialog_DialogViewController_remove_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
 
-LDIFF_SYM1545=Lme_b4 - _MonoTouch_Dialog_DialogViewController_set_Pushing_bool
-	.long LDIFF_SYM1545
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+LDIFF_SYM1547=Lme_b4 - _MonoTouch_Dialog_DialogViewController_remove_SearchTextChanged_MonoTouch_Dialog_DialogViewController_SearchTextEventHandler
+	.long LDIFF_SYM1547
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
 	.align 2
 Lfde177_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:add_ViewDisappearing"
-	.long _MonoTouch_Dialog_DialogViewController_add_ViewDisappearing_System_EventHandler
+	.asciz "MonoTouch.Dialog.DialogViewController:get_Pushing"
+	.long _MonoTouch_Dialog_DialogViewController_get_Pushing
 	.long Lme_b5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1546=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1546
-	.byte 1,86,3
-	.asciz "value"
-
-LDIFF_SYM1547=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1547
-	.byte 2,125,0,11
-	.asciz "V_0"
-
-LDIFF_SYM1548=LTDIE_36_REFERENCE - Ldebug_info_start
+LDIFF_SYM1548=LTDIE_25_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1548
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM1549=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1549
-	.byte 1,85,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1550=Lfde178_end - Lfde178_start
-	.long LDIFF_SYM1550
+LDIFF_SYM1549=Lfde178_end - Lfde178_start
+	.long LDIFF_SYM1549
 Lfde178_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_add_ViewDisappearing_System_EventHandler
+	.long _MonoTouch_Dialog_DialogViewController_get_Pushing
 
-LDIFF_SYM1551=Lme_b5 - _MonoTouch_Dialog_DialogViewController_add_ViewDisappearing_System_EventHandler
-	.long LDIFF_SYM1551
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
+LDIFF_SYM1550=Lme_b5 - _MonoTouch_Dialog_DialogViewController_get_Pushing
+	.long LDIFF_SYM1550
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde178_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:remove_ViewDisappearing"
-	.long _MonoTouch_Dialog_DialogViewController_remove_ViewDisappearing_System_EventHandler
+	.asciz "MonoTouch.Dialog.DialogViewController:set_Pushing"
+	.long _MonoTouch_Dialog_DialogViewController_set_Pushing_bool
 	.long Lme_b6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1552=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1552
-	.byte 1,86,3
+LDIFF_SYM1551=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1551
+	.byte 1,90,3
 	.asciz "value"
 
-LDIFF_SYM1553=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1553
-	.byte 2,125,0,11
-	.asciz "V_0"
-
-LDIFF_SYM1554=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1554
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM1555=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1555
-	.byte 1,85,0
+LDIFF_SYM1552=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1552
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1556=Lfde179_end - Lfde179_start
-	.long LDIFF_SYM1556
+LDIFF_SYM1553=Lfde179_end - Lfde179_start
+	.long LDIFF_SYM1553
 Lfde179_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_remove_ViewDisappearing_System_EventHandler
+	.long _MonoTouch_Dialog_DialogViewController_set_Pushing_bool
 
-LDIFF_SYM1557=Lme_b6 - _MonoTouch_Dialog_DialogViewController_remove_ViewDisappearing_System_EventHandler
-	.long LDIFF_SYM1557
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
+LDIFF_SYM1554=Lme_b6 - _MonoTouch_Dialog_DialogViewController_set_Pushing_bool
+	.long LDIFF_SYM1554
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde179_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:add_ViewDissapearing"
-	.long _MonoTouch_Dialog_DialogViewController_add_ViewDissapearing_System_EventHandler
+	.asciz "MonoTouch.Dialog.DialogViewController:add_ViewDisappearing"
+	.long _MonoTouch_Dialog_DialogViewController_add_ViewDisappearing_System_EventHandler
 	.long Lme_b7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1558=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1558
-	.byte 2,125,0,3
+LDIFF_SYM1555=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1555
+	.byte 1,86,3
 	.asciz "value"
 
-LDIFF_SYM1559=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1559
-	.byte 2,125,4,0
+LDIFF_SYM1556=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1556
+	.byte 2,125,0,11
+	.asciz "V_0"
+
+LDIFF_SYM1557=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1557
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM1558=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1558
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1560=Lfde180_end - Lfde180_start
-	.long LDIFF_SYM1560
+LDIFF_SYM1559=Lfde180_end - Lfde180_start
+	.long LDIFF_SYM1559
 Lfde180_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_add_ViewDissapearing_System_EventHandler
+	.long _MonoTouch_Dialog_DialogViewController_add_ViewDisappearing_System_EventHandler
 
-LDIFF_SYM1561=Lme_b7 - _MonoTouch_Dialog_DialogViewController_add_ViewDissapearing_System_EventHandler
-	.long LDIFF_SYM1561
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1560=Lme_b7 - _MonoTouch_Dialog_DialogViewController_add_ViewDisappearing_System_EventHandler
+	.long LDIFF_SYM1560
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
 	.align 2
 Lfde180_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:remove_ViewDissapearing"
-	.long _MonoTouch_Dialog_DialogViewController_remove_ViewDissapearing_System_EventHandler
+	.asciz "MonoTouch.Dialog.DialogViewController:remove_ViewDisappearing"
+	.long _MonoTouch_Dialog_DialogViewController_remove_ViewDisappearing_System_EventHandler
 	.long Lme_b8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1562=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1562
-	.byte 2,125,0,3
+LDIFF_SYM1561=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1561
+	.byte 1,86,3
 	.asciz "value"
+
+LDIFF_SYM1562=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1562
+	.byte 2,125,0,11
+	.asciz "V_0"
 
 LDIFF_SYM1563=LTDIE_36_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1563
-	.byte 2,125,4,0
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM1564=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1564
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1564=Lfde181_end - Lfde181_start
-	.long LDIFF_SYM1564
+LDIFF_SYM1565=Lfde181_end - Lfde181_start
+	.long LDIFF_SYM1565
 Lfde181_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_remove_ViewDissapearing_System_EventHandler
+	.long _MonoTouch_Dialog_DialogViewController_remove_ViewDisappearing_System_EventHandler
 
-LDIFF_SYM1565=Lme_b8 - _MonoTouch_Dialog_DialogViewController_remove_ViewDissapearing_System_EventHandler
-	.long LDIFF_SYM1565
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1566=Lme_b8 - _MonoTouch_Dialog_DialogViewController_remove_ViewDisappearing_System_EventHandler
+	.long LDIFF_SYM1566
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
 	.align 2
 Lfde181_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:.ctor"
-	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement
+	.asciz "MonoTouch.Dialog.DialogViewController:add_ViewDissapearing"
+	.long _MonoTouch_Dialog_DialogViewController_add_ViewDissapearing_System_EventHandler
 	.long Lme_b9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1566=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1566
-	.byte 1,86,3
-	.asciz "root"
-
-LDIFF_SYM1567=LTDIE_6_REFERENCE - Ldebug_info_start
+LDIFF_SYM1567=LTDIE_25_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1567
-	.byte 2,125,0,0
+	.byte 2,125,0,3
+	.asciz "value"
+
+LDIFF_SYM1568=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1568
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1568=Lfde182_end - Lfde182_start
-	.long LDIFF_SYM1568
+LDIFF_SYM1569=Lfde182_end - Lfde182_start
+	.long LDIFF_SYM1569
 Lfde182_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement
+	.long _MonoTouch_Dialog_DialogViewController_add_ViewDissapearing_System_EventHandler
 
-LDIFF_SYM1569=Lme_b9 - _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement
-	.long LDIFF_SYM1569
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
+LDIFF_SYM1570=Lme_b9 - _MonoTouch_Dialog_DialogViewController_add_ViewDissapearing_System_EventHandler
+	.long LDIFF_SYM1570
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde182_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:.ctor"
-	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement
+	.asciz "MonoTouch.Dialog.DialogViewController:remove_ViewDissapearing"
+	.long _MonoTouch_Dialog_DialogViewController_remove_ViewDissapearing_System_EventHandler
 	.long Lme_ba
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1570=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1570
-	.byte 1,85,3
-	.asciz "style"
-
-LDIFF_SYM1571=LTDIE_28 - Ldebug_info_start
+LDIFF_SYM1571=LTDIE_25_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1571
 	.byte 2,125,0,3
-	.asciz "root"
+	.asciz "value"
 
-LDIFF_SYM1572=LTDIE_6_REFERENCE - Ldebug_info_start
+LDIFF_SYM1572=LTDIE_36_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1572
 	.byte 2,125,4,0
 
@@ -25855,11 +25877,11 @@ Lfde183_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement
+	.long _MonoTouch_Dialog_DialogViewController_remove_ViewDissapearing_System_EventHandler
 
-LDIFF_SYM1574=Lme_ba - _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement
+LDIFF_SYM1574=Lme_ba - _MonoTouch_Dialog_DialogViewController_remove_ViewDissapearing_System_EventHandler
 	.long LDIFF_SYM1574
-	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,24
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde183_end:
 
@@ -25867,7 +25889,7 @@ Lfde183_end:
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.DialogViewController:.ctor"
-	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement_bool
+	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement
 	.long Lme_bb
 
 	.byte 2,118,16,3
@@ -25880,25 +25902,20 @@ LDIFF_SYM1575=LTDIE_25_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM1576=LTDIE_6_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1576
-	.byte 2,125,0,3
-	.asciz "pushing"
-
-LDIFF_SYM1577=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1577
-	.byte 2,125,4,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1578=Lfde184_end - Lfde184_start
-	.long LDIFF_SYM1578
+LDIFF_SYM1577=Lfde184_end - Lfde184_start
+	.long LDIFF_SYM1577
 Lfde184_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement_bool
+	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement
 
-LDIFF_SYM1579=Lme_bb - _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement_bool
-	.long LDIFF_SYM1579
+LDIFF_SYM1578=Lme_bb - _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement
+	.long LDIFF_SYM1578
 	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde184_end:
@@ -25907,44 +25924,39 @@ Lfde184_end:
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.DialogViewController:.ctor"
-	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement_bool
+	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement
 	.long Lme_bc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1580=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1580
+LDIFF_SYM1579=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1579
 	.byte 1,85,3
 	.asciz "style"
 
-LDIFF_SYM1581=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1581
+LDIFF_SYM1580=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1580
 	.byte 2,125,0,3
 	.asciz "root"
 
-LDIFF_SYM1582=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1582
-	.byte 2,125,4,3
-	.asciz "pushing"
-
-LDIFF_SYM1583=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1583
-	.byte 2,125,8,0
+LDIFF_SYM1581=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1581
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1584=Lfde185_end - Lfde185_start
-	.long LDIFF_SYM1584
+LDIFF_SYM1582=Lfde185_end - Lfde185_start
+	.long LDIFF_SYM1582
 Lfde185_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement_bool
+	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement
 
-LDIFF_SYM1585=Lme_bc - _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement_bool
-	.long LDIFF_SYM1585
-	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,32
+LDIFF_SYM1583=Lme_bc - _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement
+	.long LDIFF_SYM1583
+	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,24
 	.align 2
 Lfde185_end:
 
@@ -25952,190 +25964,200 @@ Lfde185_end:
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.DialogViewController:.ctor"
-	.long _MonoTouch_Dialog_DialogViewController__ctor_intptr
+	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement_bool
 	.long Lme_bd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1586=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1586
+LDIFF_SYM1584=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1584
 	.byte 1,86,3
-	.asciz "handle"
+	.asciz "root"
 
-LDIFF_SYM1587=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1587
-	.byte 2,125,0,0
+LDIFF_SYM1585=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1585
+	.byte 2,125,0,3
+	.asciz "pushing"
+
+LDIFF_SYM1586=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1586
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1588=Lfde186_end - Lfde186_start
-	.long LDIFF_SYM1588
+LDIFF_SYM1587=Lfde186_end - Lfde186_start
+	.long LDIFF_SYM1587
 Lfde186_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController__ctor_intptr
+	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement_bool
 
-LDIFF_SYM1589=Lme_bd - _MonoTouch_Dialog_DialogViewController__ctor_intptr
-	.long LDIFF_SYM1589
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,32
+LDIFF_SYM1588=Lme_bd - _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_Dialog_RootElement_bool
+	.long LDIFF_SYM1588
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde186_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:TriggerRefresh"
-	.long _MonoTouch_Dialog_DialogViewController_TriggerRefresh
+	.asciz "MonoTouch.Dialog.DialogViewController:.ctor"
+	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement_bool
 	.long Lme_be
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1590=LTDIE_25_REFERENCE - Ldebug_info_start
+LDIFF_SYM1589=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1589
+	.byte 1,85,3
+	.asciz "style"
+
+LDIFF_SYM1590=LTDIE_28 - Ldebug_info_start
 	.long LDIFF_SYM1590
-	.byte 2,125,0,0
+	.byte 2,125,0,3
+	.asciz "root"
+
+LDIFF_SYM1591=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1591
+	.byte 2,125,4,3
+	.asciz "pushing"
+
+LDIFF_SYM1592=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1592
+	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1591=Lfde187_end - Lfde187_start
-	.long LDIFF_SYM1591
+LDIFF_SYM1593=Lfde187_end - Lfde187_start
+	.long LDIFF_SYM1593
 Lfde187_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_TriggerRefresh
+	.long _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement_bool
 
-LDIFF_SYM1592=Lme_be - _MonoTouch_Dialog_DialogViewController_TriggerRefresh
-	.long LDIFF_SYM1592
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1594=Lme_be - _MonoTouch_Dialog_DialogViewController__ctor_MonoTouch_UIKit_UITableViewStyle_MonoTouch_Dialog_RootElement_bool
+	.long LDIFF_SYM1594
+	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,32
 	.align 2
 Lfde187_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:TriggerRefresh"
-	.long _MonoTouch_Dialog_DialogViewController_TriggerRefresh_bool
+	.asciz "MonoTouch.Dialog.DialogViewController:.ctor"
+	.long _MonoTouch_Dialog_DialogViewController__ctor_intptr
 	.long Lme_bf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1593=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1593
-	.byte 1,90,3
-	.asciz "showStatus"
+LDIFF_SYM1595=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1595
+	.byte 1,86,3
+	.asciz "handle"
 
-LDIFF_SYM1594=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1594
-	.byte 2,123,48,0
+LDIFF_SYM1596=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1596
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1595=Lfde188_end - Lfde188_start
-	.long LDIFF_SYM1595
+LDIFF_SYM1597=Lfde188_end - Lfde188_start
+	.long LDIFF_SYM1597
 Lfde188_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_TriggerRefresh_bool
+	.long _MonoTouch_Dialog_DialogViewController__ctor_intptr
 
-LDIFF_SYM1596=Lme_bf - _MonoTouch_Dialog_DialogViewController_TriggerRefresh_bool
-	.long LDIFF_SYM1596
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,88,68,13,11
+LDIFF_SYM1598=Lme_bf - _MonoTouch_Dialog_DialogViewController__ctor_intptr
+	.long LDIFF_SYM1598
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,32
 	.align 2
 Lfde188_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:ReloadComplete"
-	.long _MonoTouch_Dialog_DialogViewController_ReloadComplete
+	.asciz "MonoTouch.Dialog.DialogViewController:TriggerRefresh"
+	.long _MonoTouch_Dialog_DialogViewController_TriggerRefresh
 	.long Lme_c0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1597=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1597
-	.byte 1,90,0
+LDIFF_SYM1599=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1599
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1598=Lfde189_end - Lfde189_start
-	.long LDIFF_SYM1598
+LDIFF_SYM1600=Lfde189_end - Lfde189_start
+	.long LDIFF_SYM1600
 Lfde189_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_ReloadComplete
+	.long _MonoTouch_Dialog_DialogViewController_TriggerRefresh
 
-LDIFF_SYM1599=Lme_c0 - _MonoTouch_Dialog_DialogViewController_ReloadComplete
-	.long LDIFF_SYM1599
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,88,68,13,11
+LDIFF_SYM1601=Lme_c0 - _MonoTouch_Dialog_DialogViewController_TriggerRefresh
+	.long LDIFF_SYM1601
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde189_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:ShouldAutorotateToInterfaceOrientation"
-	.long _MonoTouch_Dialog_DialogViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
+	.asciz "MonoTouch.Dialog.DialogViewController:TriggerRefresh"
+	.long _MonoTouch_Dialog_DialogViewController_TriggerRefresh_bool
 	.long Lme_c1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1600=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1600
-	.byte 1,86,3
-	.asciz "toInterfaceOrientation"
+LDIFF_SYM1602=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1602
+	.byte 1,90,3
+	.asciz "showStatus"
 
-LDIFF_SYM1601=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM1601
-	.byte 2,125,0,0
+LDIFF_SYM1603=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1603
+	.byte 2,123,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1602=Lfde190_end - Lfde190_start
-	.long LDIFF_SYM1602
+LDIFF_SYM1604=Lfde190_end - Lfde190_start
+	.long LDIFF_SYM1604
 Lfde190_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
+	.long _MonoTouch_Dialog_DialogViewController_TriggerRefresh_bool
 
-LDIFF_SYM1603=Lme_c1 - _MonoTouch_Dialog_DialogViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
-	.long LDIFF_SYM1603
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
+LDIFF_SYM1605=Lme_c1 - _MonoTouch_Dialog_DialogViewController_TriggerRefresh_bool
+	.long LDIFF_SYM1605
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,88,68,13,11
 	.align 2
 Lfde190_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:DidRotate"
-	.long _MonoTouch_Dialog_DialogViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
+	.asciz "MonoTouch.Dialog.DialogViewController:ReloadComplete"
+	.long _MonoTouch_Dialog_DialogViewController_ReloadComplete
 	.long Lme_c2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1604=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1604
-	.byte 1,86,3
-	.asciz "fromInterfaceOrientation"
-
-LDIFF_SYM1605=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM1605
-	.byte 3,123,204,0,11
-	.asciz "bounds"
-
-LDIFF_SYM1606=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1606=LTDIE_25_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1606
-	.byte 2,123,16,0
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -26145,19 +26167,19 @@ Lfde191_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
+	.long _MonoTouch_Dialog_DialogViewController_ReloadComplete
 
-LDIFF_SYM1608=Lme_c2 - _MonoTouch_Dialog_DialogViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
+LDIFF_SYM1608=Lme_c2 - _MonoTouch_Dialog_DialogViewController_ReloadComplete
 	.long LDIFF_SYM1608
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,139,3,142,1,68,14,112,68,13,11
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,88,68,13,11
 	.align 2
 Lfde191_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:StartSearch"
-	.long _MonoTouch_Dialog_DialogViewController_StartSearch
+	.asciz "MonoTouch.Dialog.DialogViewController:ShouldAutorotateToInterfaceOrientation"
+	.long _MonoTouch_Dialog_DialogViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
 	.long Lme_c3
 
 	.byte 2,118,16,3
@@ -26165,12 +26187,12 @@ Lfde191_end:
 
 LDIFF_SYM1609=LTDIE_25_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1609
-	.byte 1,90,11
-	.asciz "i"
+	.byte 1,86,3
+	.asciz "toInterfaceOrientation"
 
-LDIFF_SYM1610=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1610=LTDIE_60 - Ldebug_info_start
 	.long LDIFF_SYM1610
-	.byte 1,86,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -26180,19 +26202,19 @@ Lfde192_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_StartSearch
+	.long _MonoTouch_Dialog_DialogViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
 
-LDIFF_SYM1612=Lme_c3 - _MonoTouch_Dialog_DialogViewController_StartSearch
+LDIFF_SYM1612=Lme_c3 - _MonoTouch_Dialog_DialogViewController_ShouldAutorotateToInterfaceOrientation_MonoTouch_UIKit_UIInterfaceOrientation
 	.long LDIFF_SYM1612
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde192_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:FinishSearch"
-	.long _MonoTouch_Dialog_DialogViewController_FinishSearch
+	.asciz "MonoTouch.Dialog.DialogViewController:DidRotate"
+	.long _MonoTouch_Dialog_DialogViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
 	.long Lme_c4
 
 	.byte 2,118,16,3
@@ -26200,547 +26222,547 @@ Lfde192_end:
 
 LDIFF_SYM1613=LTDIE_25_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1613
-	.byte 1,90,0
+	.byte 1,86,3
+	.asciz "fromInterfaceOrientation"
+
+LDIFF_SYM1614=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM1614
+	.byte 3,123,204,0,11
+	.asciz "bounds"
+
+LDIFF_SYM1615=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1615
+	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1614=Lfde193_end - Lfde193_start
-	.long LDIFF_SYM1614
+LDIFF_SYM1616=Lfde193_end - Lfde193_start
+	.long LDIFF_SYM1616
 Lfde193_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_FinishSearch
+	.long _MonoTouch_Dialog_DialogViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
 
-LDIFF_SYM1615=Lme_c4 - _MonoTouch_Dialog_DialogViewController_FinishSearch
-	.long LDIFF_SYM1615
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
+LDIFF_SYM1617=Lme_c4 - _MonoTouch_Dialog_DialogViewController_DidRotate_MonoTouch_UIKit_UIInterfaceOrientation
+	.long LDIFF_SYM1617
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,139,3,142,1,68,14,112,68,13,11
 	.align 2
 Lfde193_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:OnSearchTextChanged"
-	.long _MonoTouch_Dialog_DialogViewController_OnSearchTextChanged_string
+	.asciz "MonoTouch.Dialog.DialogViewController:StartSearch"
+	.long _MonoTouch_Dialog_DialogViewController_StartSearch
 	.long Lme_c5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1616=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1616
-	.byte 1,86,3
-	.asciz "text"
+LDIFF_SYM1618=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1618
+	.byte 1,90,11
+	.asciz "i"
 
-LDIFF_SYM1617=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1617
-	.byte 2,125,0,0
+LDIFF_SYM1619=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1619
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1618=Lfde194_end - Lfde194_start
-	.long LDIFF_SYM1618
+LDIFF_SYM1620=Lfde194_end - Lfde194_start
+	.long LDIFF_SYM1620
 Lfde194_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_OnSearchTextChanged_string
+	.long _MonoTouch_Dialog_DialogViewController_StartSearch
 
-LDIFF_SYM1619=Lme_c5 - _MonoTouch_Dialog_DialogViewController_OnSearchTextChanged_string
-	.long LDIFF_SYM1619
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,32
+LDIFF_SYM1621=Lme_c5 - _MonoTouch_Dialog_DialogViewController_StartSearch
+	.long LDIFF_SYM1621
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde194_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:PerformFilter"
-	.long _MonoTouch_Dialog_DialogViewController_PerformFilter_string
+	.asciz "MonoTouch.Dialog.DialogViewController:FinishSearch"
+	.long _MonoTouch_Dialog_DialogViewController_FinishSearch
 	.long Lme_c6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1620=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1620
-	.byte 2,125,52,3
-	.asciz "text"
-
-LDIFF_SYM1621=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1621
-	.byte 2,125,56,11
-	.asciz "newSections"
-
-LDIFF_SYM1622=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM1622=LTDIE_25_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1622
-	.byte 2,125,0,11
-	.asciz "sidx"
-
-LDIFF_SYM1623=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1623
-	.byte 2,125,4,11
-	.asciz "newSection"
-
-LDIFF_SYM1624=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1624
-	.byte 1,91,11
-	.asciz "section"
-
-LDIFF_SYM1625=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1625
-	.byte 1,86,11
-	.asciz "elements"
-
-LDIFF_SYM1626=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1626
-	.byte 1,85,11
-	.asciz "eidx"
-
-LDIFF_SYM1627=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1627
-	.byte 1,90,11
-	.asciz ""
-
-LDIFF_SYM1628=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1628
-	.byte 1,84,0
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1629=Lfde195_end - Lfde195_start
-	.long LDIFF_SYM1629
+LDIFF_SYM1623=Lfde195_end - Lfde195_start
+	.long LDIFF_SYM1623
 Lfde195_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_PerformFilter_string
+	.long _MonoTouch_Dialog_DialogViewController_FinishSearch
 
-LDIFF_SYM1630=Lme_c6 - _MonoTouch_Dialog_DialogViewController_PerformFilter_string
-	.long LDIFF_SYM1630
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,104
+LDIFF_SYM1624=Lme_c6 - _MonoTouch_Dialog_DialogViewController_FinishSearch
+	.long LDIFF_SYM1624
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde195_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:SearchButtonClicked"
-	.long _MonoTouch_Dialog_DialogViewController_SearchButtonClicked_string
+	.asciz "MonoTouch.Dialog.DialogViewController:OnSearchTextChanged"
+	.long _MonoTouch_Dialog_DialogViewController_OnSearchTextChanged_string
 	.long Lme_c7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1631=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1631
-	.byte 0,3
+LDIFF_SYM1625=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1625
+	.byte 1,86,3
 	.asciz "text"
 
-LDIFF_SYM1632=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1632
-	.byte 0,0
+LDIFF_SYM1626=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1626
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1633=Lfde196_end - Lfde196_start
-	.long LDIFF_SYM1633
+LDIFF_SYM1627=Lfde196_end - Lfde196_start
+	.long LDIFF_SYM1627
 Lfde196_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_SearchButtonClicked_string
+	.long _MonoTouch_Dialog_DialogViewController_OnSearchTextChanged_string
 
-LDIFF_SYM1634=Lme_c7 - _MonoTouch_Dialog_DialogViewController_SearchButtonClicked_string
-	.long LDIFF_SYM1634
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1628=Lme_c7 - _MonoTouch_Dialog_DialogViewController_OnSearchTextChanged_string
+	.long LDIFF_SYM1628
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,32
 	.align 2
 Lfde196_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:ActivateController"
-	.long _MonoTouch_Dialog_DialogViewController_ActivateController_MonoTouch_UIKit_UIViewController
+	.asciz "MonoTouch.Dialog.DialogViewController:PerformFilter"
+	.long _MonoTouch_Dialog_DialogViewController_PerformFilter_string
 	.long Lme_c8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1635=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1635
-	.byte 1,86,3
-	.asciz "controller"
+LDIFF_SYM1629=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1629
+	.byte 2,125,52,3
+	.asciz "text"
 
-LDIFF_SYM1636=LTDIE_27_REFERENCE - Ldebug_info_start
+LDIFF_SYM1630=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1630
+	.byte 2,125,56,11
+	.asciz "newSections"
+
+LDIFF_SYM1631=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1631
+	.byte 2,125,0,11
+	.asciz "sidx"
+
+LDIFF_SYM1632=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1632
+	.byte 2,125,4,11
+	.asciz "newSection"
+
+LDIFF_SYM1633=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1633
+	.byte 1,91,11
+	.asciz "section"
+
+LDIFF_SYM1634=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1634
+	.byte 1,86,11
+	.asciz "elements"
+
+LDIFF_SYM1635=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1635
+	.byte 1,85,11
+	.asciz "eidx"
+
+LDIFF_SYM1636=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1636
 	.byte 1,90,11
-	.asciz "parent"
+	.asciz ""
 
-LDIFF_SYM1637=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1637=LTDIE_2_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1637
-	.byte 0,11
-	.asciz "nav"
-
-LDIFF_SYM1638=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1638
-	.byte 1,85,0
+	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1639=Lfde197_end - Lfde197_start
-	.long LDIFF_SYM1639
+LDIFF_SYM1638=Lfde197_end - Lfde197_start
+	.long LDIFF_SYM1638
 Lfde197_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_ActivateController_MonoTouch_UIKit_UIViewController
+	.long _MonoTouch_Dialog_DialogViewController_PerformFilter_string
 
-LDIFF_SYM1640=Lme_c8 - _MonoTouch_Dialog_DialogViewController_ActivateController_MonoTouch_UIKit_UIViewController
-	.long LDIFF_SYM1640
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
+LDIFF_SYM1639=Lme_c8 - _MonoTouch_Dialog_DialogViewController_PerformFilter_string
+	.long LDIFF_SYM1639
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,104
 	.align 2
 Lfde197_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:DeactivateController"
-	.long _MonoTouch_Dialog_DialogViewController_DeactivateController_bool
+	.asciz "MonoTouch.Dialog.DialogViewController:SearchButtonClicked"
+	.long _MonoTouch_Dialog_DialogViewController_SearchButtonClicked_string
 	.long Lme_c9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1641=LTDIE_25_REFERENCE - Ldebug_info_start
+LDIFF_SYM1640=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1640
+	.byte 0,3
+	.asciz "text"
+
+LDIFF_SYM1641=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1641
-	.byte 1,90,3
-	.asciz "animated"
-
-LDIFF_SYM1642=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1642
-	.byte 2,125,0,11
-	.asciz "parent"
-
-LDIFF_SYM1643=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1643
-	.byte 0,11
-	.asciz "nav"
-
-LDIFF_SYM1644=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1644
-	.byte 1,86,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1645=Lfde198_end - Lfde198_start
-	.long LDIFF_SYM1645
+LDIFF_SYM1642=Lfde198_end - Lfde198_start
+	.long LDIFF_SYM1642
 Lfde198_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_DeactivateController_bool
+	.long _MonoTouch_Dialog_DialogViewController_SearchButtonClicked_string
 
-LDIFF_SYM1646=Lme_c9 - _MonoTouch_Dialog_DialogViewController_DeactivateController_bool
-	.long LDIFF_SYM1646
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,40
+LDIFF_SYM1643=Lme_c9 - _MonoTouch_Dialog_DialogViewController_SearchButtonClicked_string
+	.long LDIFF_SYM1643
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde198_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:SetupSearch"
-	.long _MonoTouch_Dialog_DialogViewController_SetupSearch
+	.asciz "MonoTouch.Dialog.DialogViewController:ActivateController"
+	.long _MonoTouch_Dialog_DialogViewController_ActivateController_MonoTouch_UIKit_UIViewController
 	.long Lme_ca
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1647=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1647
+LDIFF_SYM1644=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1644
+	.byte 1,86,3
+	.asciz "controller"
+
+LDIFF_SYM1645=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1645
 	.byte 1,90,11
-	.asciz ""
+	.asciz "parent"
 
-LDIFF_SYM1648=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1648
-	.byte 2,123,16,11
-	.asciz ""
+LDIFF_SYM1646=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1646
+	.byte 0,11
+	.asciz "nav"
 
-LDIFF_SYM1649=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1649
-	.byte 1,86,0
+LDIFF_SYM1647=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1647
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1650=Lfde199_end - Lfde199_start
-	.long LDIFF_SYM1650
+LDIFF_SYM1648=Lfde199_end - Lfde199_start
+	.long LDIFF_SYM1648
 Lfde199_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_SetupSearch
+	.long _MonoTouch_Dialog_DialogViewController_ActivateController_MonoTouch_UIKit_UIViewController
 
-LDIFF_SYM1651=Lme_ca - _MonoTouch_Dialog_DialogViewController_SetupSearch
-	.long LDIFF_SYM1651
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,128,1,68,13,11
+LDIFF_SYM1649=Lme_ca - _MonoTouch_Dialog_DialogViewController_ActivateController_MonoTouch_UIKit_UIViewController
+	.long LDIFF_SYM1649
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
 	.align 2
 Lfde199_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:Deselected"
-	.long _MonoTouch_Dialog_DialogViewController_Deselected_MonoTouch_Foundation_NSIndexPath
+	.asciz "MonoTouch.Dialog.DialogViewController:DeactivateController"
+	.long _MonoTouch_Dialog_DialogViewController_DeactivateController_bool
 	.long Lme_cb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1652=LTDIE_25_REFERENCE - Ldebug_info_start
+LDIFF_SYM1650=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1650
+	.byte 1,90,3
+	.asciz "animated"
+
+LDIFF_SYM1651=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1651
+	.byte 2,125,0,11
+	.asciz "parent"
+
+LDIFF_SYM1652=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1652
-	.byte 1,86,3
-	.asciz "indexPath"
+	.byte 0,11
+	.asciz "nav"
 
-LDIFF_SYM1653=LTDIE_23_REFERENCE - Ldebug_info_start
+LDIFF_SYM1653=LTDIE_89_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1653
-	.byte 1,90,11
-	.asciz "section"
-
-LDIFF_SYM1654=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1654
-	.byte 1,85,11
-	.asciz "element"
-
-LDIFF_SYM1655=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1655
-	.byte 2,125,0,0
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1656=Lfde200_end - Lfde200_start
-	.long LDIFF_SYM1656
+LDIFF_SYM1654=Lfde200_end - Lfde200_start
+	.long LDIFF_SYM1654
 Lfde200_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Deselected_MonoTouch_Foundation_NSIndexPath
+	.long _MonoTouch_Dialog_DialogViewController_DeactivateController_bool
 
-LDIFF_SYM1657=Lme_cb - _MonoTouch_Dialog_DialogViewController_Deselected_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1657
-	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
+LDIFF_SYM1655=Lme_cb - _MonoTouch_Dialog_DialogViewController_DeactivateController_bool
+	.long LDIFF_SYM1655
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,40
 	.align 2
 Lfde200_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:Selected"
-	.long _MonoTouch_Dialog_DialogViewController_Selected_MonoTouch_Foundation_NSIndexPath
+	.asciz "MonoTouch.Dialog.DialogViewController:SetupSearch"
+	.long _MonoTouch_Dialog_DialogViewController_SetupSearch
 	.long Lme_cc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1658=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1658
-	.byte 1,86,3
-	.asciz "indexPath"
-
-LDIFF_SYM1659=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1659
+LDIFF_SYM1656=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1656
 	.byte 1,90,11
-	.asciz "section"
+	.asciz ""
 
-LDIFF_SYM1660=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1660
-	.byte 1,85,11
-	.asciz "element"
+LDIFF_SYM1657=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1657
+	.byte 2,123,16,11
+	.asciz ""
 
-LDIFF_SYM1661=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1661
-	.byte 2,125,0,0
+LDIFF_SYM1658=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1658
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1662=Lfde201_end - Lfde201_start
-	.long LDIFF_SYM1662
+LDIFF_SYM1659=Lfde201_end - Lfde201_start
+	.long LDIFF_SYM1659
 Lfde201_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Selected_MonoTouch_Foundation_NSIndexPath
+	.long _MonoTouch_Dialog_DialogViewController_SetupSearch
 
-LDIFF_SYM1663=Lme_cc - _MonoTouch_Dialog_DialogViewController_Selected_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1663
-	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
+LDIFF_SYM1660=Lme_cc - _MonoTouch_Dialog_DialogViewController_SetupSearch
+	.long LDIFF_SYM1660
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,128,1,68,13,11
 	.align 2
 Lfde201_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:MakeTableView"
-	.long _MonoTouch_Dialog_DialogViewController_MakeTableView_System_Drawing_RectangleF_MonoTouch_UIKit_UITableViewStyle
+	.asciz "MonoTouch.Dialog.DialogViewController:Deselected"
+	.long _MonoTouch_Dialog_DialogViewController_Deselected_MonoTouch_Foundation_NSIndexPath
 	.long Lme_cd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1664=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1661=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1661
+	.byte 1,86,3
+	.asciz "indexPath"
+
+LDIFF_SYM1662=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1662
+	.byte 1,90,11
+	.asciz "section"
+
+LDIFF_SYM1663=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1663
+	.byte 1,85,11
+	.asciz "element"
+
+LDIFF_SYM1664=LTDIE_0_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1664
-	.byte 0,3
-	.asciz "bounds"
-
-LDIFF_SYM1665=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1665
-	.byte 2,123,12,3
-	.asciz "style"
-
-LDIFF_SYM1666=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1666
-	.byte 2,123,28,0
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1667=Lfde202_end - Lfde202_start
-	.long LDIFF_SYM1667
+LDIFF_SYM1665=Lfde202_end - Lfde202_start
+	.long LDIFF_SYM1665
 Lfde202_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_MakeTableView_System_Drawing_RectangleF_MonoTouch_UIKit_UITableViewStyle
+	.long _MonoTouch_Dialog_DialogViewController_Deselected_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1668=Lme_cd - _MonoTouch_Dialog_DialogViewController_MakeTableView_System_Drawing_RectangleF_MonoTouch_UIKit_UITableViewStyle
-	.long LDIFF_SYM1668
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,56,68,13,11
+LDIFF_SYM1666=Lme_cd - _MonoTouch_Dialog_DialogViewController_Deselected_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM1666
+	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
 	.align 2
 Lfde202_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:LoadView"
-	.long _MonoTouch_Dialog_DialogViewController_LoadView
+	.asciz "MonoTouch.Dialog.DialogViewController:Selected"
+	.long _MonoTouch_Dialog_DialogViewController_Selected_MonoTouch_Foundation_NSIndexPath
 	.long Lme_ce
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1669=LTDIE_25_REFERENCE - Ldebug_info_start
+LDIFF_SYM1667=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1667
+	.byte 1,86,3
+	.asciz "indexPath"
+
+LDIFF_SYM1668=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1668
+	.byte 1,90,11
+	.asciz "section"
+
+LDIFF_SYM1669=LTDIE_2_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1669
-	.byte 1,90,0
+	.byte 1,85,11
+	.asciz "element"
+
+LDIFF_SYM1670=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1670
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1670=Lfde203_end - Lfde203_start
-	.long LDIFF_SYM1670
+LDIFF_SYM1671=Lfde203_end - Lfde203_start
+	.long LDIFF_SYM1671
 Lfde203_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_LoadView
+	.long _MonoTouch_Dialog_DialogViewController_Selected_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1671=Lme_ce - _MonoTouch_Dialog_DialogViewController_LoadView
-	.long LDIFF_SYM1671
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11
+LDIFF_SYM1672=Lme_ce - _MonoTouch_Dialog_DialogViewController_Selected_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM1672
+	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
 	.align 2
 Lfde203_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:ConfigureTableView"
-	.long _MonoTouch_Dialog_DialogViewController_ConfigureTableView
+	.asciz "MonoTouch.Dialog.DialogViewController:MakeTableView"
+	.long _MonoTouch_Dialog_DialogViewController_MakeTableView_System_Drawing_RectangleF_MonoTouch_UIKit_UITableViewStyle
 	.long Lme_cf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1672=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1672
-	.byte 1,90,11
-	.asciz "bounds"
-
 LDIFF_SYM1673=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1673
-	.byte 2,123,16,0
+	.byte 0,3
+	.asciz "bounds"
+
+LDIFF_SYM1674=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1674
+	.byte 2,123,12,3
+	.asciz "style"
+
+LDIFF_SYM1675=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1675
+	.byte 2,123,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1674=Lfde204_end - Lfde204_start
-	.long LDIFF_SYM1674
+LDIFF_SYM1676=Lfde204_end - Lfde204_start
+	.long LDIFF_SYM1676
 Lfde204_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_ConfigureTableView
+	.long _MonoTouch_Dialog_DialogViewController_MakeTableView_System_Drawing_RectangleF_MonoTouch_UIKit_UITableViewStyle
 
-LDIFF_SYM1675=Lme_cf - _MonoTouch_Dialog_DialogViewController_ConfigureTableView
-	.long LDIFF_SYM1675
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,104,68,13,11
+LDIFF_SYM1677=Lme_cf - _MonoTouch_Dialog_DialogViewController_MakeTableView_System_Drawing_RectangleF_MonoTouch_UIKit_UITableViewStyle
+	.long LDIFF_SYM1677
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
 Lfde204_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:MakeRefreshTableHeaderView"
-	.long _MonoTouch_Dialog_DialogViewController_MakeRefreshTableHeaderView_System_Drawing_RectangleF
+	.asciz "MonoTouch.Dialog.DialogViewController:LoadView"
+	.long _MonoTouch_Dialog_DialogViewController_LoadView
 	.long Lme_d0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1676=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1676
-	.byte 0,3
-	.asciz "rect"
-
-LDIFF_SYM1677=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1677
-	.byte 2,123,12,0
+LDIFF_SYM1678=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1678
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1678=Lfde205_end - Lfde205_start
-	.long LDIFF_SYM1678
+LDIFF_SYM1679=Lfde205_end - Lfde205_start
+	.long LDIFF_SYM1679
 Lfde205_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_MakeRefreshTableHeaderView_System_Drawing_RectangleF
+	.long _MonoTouch_Dialog_DialogViewController_LoadView
 
-LDIFF_SYM1679=Lme_d0 - _MonoTouch_Dialog_DialogViewController_MakeRefreshTableHeaderView_System_Drawing_RectangleF
-	.long LDIFF_SYM1679
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,56,68,13,11
+LDIFF_SYM1680=Lme_d0 - _MonoTouch_Dialog_DialogViewController_LoadView
+	.long LDIFF_SYM1680
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
 Lfde205_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:ViewWillAppear"
-	.long _MonoTouch_Dialog_DialogViewController_ViewWillAppear_bool
+	.asciz "MonoTouch.Dialog.DialogViewController:ConfigureTableView"
+	.long _MonoTouch_Dialog_DialogViewController_ConfigureTableView
 	.long Lme_d1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1680=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1680
-	.byte 1,90,3
-	.asciz "animated"
-
-LDIFF_SYM1681=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1681=LTDIE_25_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1681
-	.byte 2,125,44,11
-	.asciz ""
+	.byte 1,90,11
+	.asciz "bounds"
 
 LDIFF_SYM1682=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1682
-	.byte 2,125,0,0
+	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -26750,32 +26772,32 @@ Lfde206_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_ViewWillAppear_bool
+	.long _MonoTouch_Dialog_DialogViewController_ConfigureTableView
 
-LDIFF_SYM1684=Lme_d1 - _MonoTouch_Dialog_DialogViewController_ViewWillAppear_bool
+LDIFF_SYM1684=Lme_d1 - _MonoTouch_Dialog_DialogViewController_ConfigureTableView
 	.long LDIFF_SYM1684
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,64
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,104,68,13,11
 	.align 2
 Lfde206_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:CreateSizingSource"
-	.long _MonoTouch_Dialog_DialogViewController_CreateSizingSource_bool
+	.asciz "MonoTouch.Dialog.DialogViewController:MakeRefreshTableHeaderView"
+	.long _MonoTouch_Dialog_DialogViewController_MakeRefreshTableHeaderView_System_Drawing_RectangleF
 	.long Lme_d2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1685=LTDIE_25_REFERENCE - Ldebug_info_start
+LDIFF_SYM1685=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1685
-	.byte 2,125,0,3
-	.asciz "unevenRows"
+	.byte 0,3
+	.asciz "rect"
 
-LDIFF_SYM1686=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1686=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1686
-	.byte 2,125,4,0
+	.byte 2,123,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -26785,19 +26807,19 @@ Lfde207_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_CreateSizingSource_bool
+	.long _MonoTouch_Dialog_DialogViewController_MakeRefreshTableHeaderView_System_Drawing_RectangleF
 
-LDIFF_SYM1688=Lme_d2 - _MonoTouch_Dialog_DialogViewController_CreateSizingSource_bool
+LDIFF_SYM1688=Lme_d2 - _MonoTouch_Dialog_DialogViewController_MakeRefreshTableHeaderView_System_Drawing_RectangleF
 	.long LDIFF_SYM1688
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
 Lfde207_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:UpdateSource"
-	.long _MonoTouch_Dialog_DialogViewController_UpdateSource
+	.asciz "MonoTouch.Dialog.DialogViewController:ViewWillAppear"
+	.long _MonoTouch_Dialog_DialogViewController_ViewWillAppear_bool
 	.long Lme_d3
 
 	.byte 2,118,16,3
@@ -26805,88 +26827,163 @@ Lfde207_end:
 
 LDIFF_SYM1689=LTDIE_25_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1689
-	.byte 1,90,0
+	.byte 1,90,3
+	.asciz "animated"
+
+LDIFF_SYM1690=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1690
+	.byte 2,125,44,11
+	.asciz ""
+
+LDIFF_SYM1691=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1691
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1690=Lfde208_end - Lfde208_start
-	.long LDIFF_SYM1690
+LDIFF_SYM1692=Lfde208_end - Lfde208_start
+	.long LDIFF_SYM1692
 Lfde208_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_UpdateSource
+	.long _MonoTouch_Dialog_DialogViewController_ViewWillAppear_bool
 
-LDIFF_SYM1691=Lme_d3 - _MonoTouch_Dialog_DialogViewController_UpdateSource
-	.long LDIFF_SYM1691
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+LDIFF_SYM1693=Lme_d3 - _MonoTouch_Dialog_DialogViewController_ViewWillAppear_bool
+	.long LDIFF_SYM1693
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,64
 	.align 2
 Lfde208_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:ReloadData"
-	.long _MonoTouch_Dialog_DialogViewController_ReloadData
+	.asciz "MonoTouch.Dialog.DialogViewController:CreateSizingSource"
+	.long _MonoTouch_Dialog_DialogViewController_CreateSizingSource_bool
 	.long Lme_d4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1692=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1692
-	.byte 1,90,0
+LDIFF_SYM1694=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1694
+	.byte 2,125,0,3
+	.asciz "unevenRows"
+
+LDIFF_SYM1695=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1695
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1693=Lfde209_end - Lfde209_start
-	.long LDIFF_SYM1693
+LDIFF_SYM1696=Lfde209_end - Lfde209_start
+	.long LDIFF_SYM1696
 Lfde209_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_ReloadData
+	.long _MonoTouch_Dialog_DialogViewController_CreateSizingSource_bool
 
-LDIFF_SYM1694=Lme_d4 - _MonoTouch_Dialog_DialogViewController_ReloadData
-	.long LDIFF_SYM1694
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+LDIFF_SYM1697=Lme_d4 - _MonoTouch_Dialog_DialogViewController_CreateSizingSource_bool
+	.long LDIFF_SYM1697
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,32
 	.align 2
 Lfde209_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController:ViewWillDisappear"
-	.long _MonoTouch_Dialog_DialogViewController_ViewWillDisappear_bool
+	.asciz "MonoTouch.Dialog.DialogViewController:UpdateSource"
+	.long _MonoTouch_Dialog_DialogViewController_UpdateSource
 	.long Lme_d5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1695=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1695
+LDIFF_SYM1698=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1698
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1699=Lfde210_end - Lfde210_start
+	.long LDIFF_SYM1699
+Lfde210_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_DialogViewController_UpdateSource
+
+LDIFF_SYM1700=Lme_d5 - _MonoTouch_Dialog_DialogViewController_UpdateSource
+	.long LDIFF_SYM1700
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+	.align 2
+Lfde210_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.DialogViewController:ReloadData"
+	.long _MonoTouch_Dialog_DialogViewController_ReloadData
+	.long Lme_d6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1701=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1701
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1702=Lfde211_end - Lfde211_start
+	.long LDIFF_SYM1702
+Lfde211_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_DialogViewController_ReloadData
+
+LDIFF_SYM1703=Lme_d6 - _MonoTouch_Dialog_DialogViewController_ReloadData
+	.long LDIFF_SYM1703
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+	.align 2
+Lfde211_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.DialogViewController:ViewWillDisappear"
+	.long _MonoTouch_Dialog_DialogViewController_ViewWillDisappear_bool
+	.long Lme_d7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1704=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1704
 	.byte 1,90,3
 	.asciz "animated"
 
-LDIFF_SYM1696=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1696
+LDIFF_SYM1705=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1705
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1697=Lfde210_end - Lfde210_start
-	.long LDIFF_SYM1697
-Lfde210_start:
+LDIFF_SYM1706=Lfde212_end - Lfde212_start
+	.long LDIFF_SYM1706
+Lfde212_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_DialogViewController_ViewWillDisappear_bool
 
-LDIFF_SYM1698=Lme_d5 - _MonoTouch_Dialog_DialogViewController_ViewWillDisappear_bool
-	.long LDIFF_SYM1698
+LDIFF_SYM1707=Lme_d7 - _MonoTouch_Dialog_DialogViewController_ViewWillDisappear_bool
+	.long LDIFF_SYM1707
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde210_end:
+Lfde212_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_116:
@@ -26895,173 +26992,103 @@ LTDIE_116:
 	.asciz "MonoTouch_UIKit_UIBarPositioningDelegate"
 
 	.byte 24,16
-LDIFF_SYM1699=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM1699
+LDIFF_SYM1708=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM1708
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UIBarPositioningDelegate"
 
-LDIFF_SYM1700=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1700
+LDIFF_SYM1709=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1709
 LTDIE_116_POINTER:
 
 	.byte 13
-LDIFF_SYM1701=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1701
+LDIFF_SYM1710=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1710
 LTDIE_116_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1702=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1702
+LDIFF_SYM1711=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1711
 LTDIE_115:
 
 	.byte 5
 	.asciz "MonoTouch_UIKit_UISearchBarDelegate"
 
 	.byte 24,16
-LDIFF_SYM1703=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1703
+LDIFF_SYM1712=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1712
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UISearchBarDelegate"
 
-LDIFF_SYM1704=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1704
+LDIFF_SYM1713=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1713
 LTDIE_115_POINTER:
 
 	.byte 13
-LDIFF_SYM1705=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1705
+LDIFF_SYM1714=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1714
 LTDIE_115_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1706=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1706
+LDIFF_SYM1715=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1715
 LTDIE_114:
 
 	.byte 5
 	.asciz "_SearchDelegate"
 
 	.byte 28,16
-LDIFF_SYM1707=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1707
+LDIFF_SYM1716=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1716
 	.byte 2,35,0,6
 	.asciz "container"
 
-LDIFF_SYM1708=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1708
+LDIFF_SYM1717=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1717
 	.byte 2,35,24,0,7
 	.asciz "_SearchDelegate"
 
-LDIFF_SYM1709=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1709
+LDIFF_SYM1718=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1718
 LTDIE_114_POINTER:
 
 	.byte 13
-LDIFF_SYM1710=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1710
+LDIFF_SYM1719=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1719
 LTDIE_114_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1711=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1711
+LDIFF_SYM1720=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1720
 	.byte 2
 	.asciz "MonoTouch.Dialog.DialogViewController/SearchDelegate:.ctor"
 	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate__ctor_MonoTouch_Dialog_DialogViewController
-	.long Lme_da
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1712=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1712
-	.byte 2,125,0,3
-	.asciz "container"
-
-LDIFF_SYM1713=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1713
-	.byte 2,125,4,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1714=Lfde211_end - Lfde211_start
-	.long LDIFF_SYM1714
-Lfde211_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate__ctor_MonoTouch_Dialog_DialogViewController
-
-LDIFF_SYM1715=Lme_da - _MonoTouch_Dialog_DialogViewController_SearchDelegate__ctor_MonoTouch_Dialog_DialogViewController
-	.long LDIFF_SYM1715
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde211_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/SearchDelegate:OnEditingStarted"
-	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStarted_MonoTouch_UIKit_UISearchBar
-	.long Lme_db
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1716=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1716
-	.byte 2,125,0,3
-	.asciz "searchBar"
-
-LDIFF_SYM1717=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1717
-	.byte 2,125,4,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1718=Lfde212_end - Lfde212_start
-	.long LDIFF_SYM1718
-Lfde212_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStarted_MonoTouch_UIKit_UISearchBar
-
-LDIFF_SYM1719=Lme_db - _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStarted_MonoTouch_UIKit_UISearchBar
-	.long LDIFF_SYM1719
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde212_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/SearchDelegate:OnEditingStopped"
-	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStopped_MonoTouch_UIKit_UISearchBar
 	.long Lme_dc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1720=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1720
-	.byte 2,125,0,3
-	.asciz "searchBar"
-
-LDIFF_SYM1721=LTDIE_30_REFERENCE - Ldebug_info_start
+LDIFF_SYM1721=LTDIE_114_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1721
+	.byte 2,125,0,3
+	.asciz "container"
+
+LDIFF_SYM1722=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1722
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1722=Lfde213_end - Lfde213_start
-	.long LDIFF_SYM1722
+LDIFF_SYM1723=Lfde213_end - Lfde213_start
+	.long LDIFF_SYM1723
 Lfde213_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStopped_MonoTouch_UIKit_UISearchBar
+	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate__ctor_MonoTouch_Dialog_DialogViewController
 
-LDIFF_SYM1723=Lme_dc - _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStopped_MonoTouch_UIKit_UISearchBar
-	.long LDIFF_SYM1723
+LDIFF_SYM1724=Lme_dc - _MonoTouch_Dialog_DialogViewController_SearchDelegate__ctor_MonoTouch_Dialog_DialogViewController
+	.long LDIFF_SYM1724
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde213_end:
@@ -27069,24 +27096,19 @@ Lfde213_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/SearchDelegate:TextChanged"
-	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_TextChanged_MonoTouch_UIKit_UISearchBar_string
+	.asciz "MonoTouch.Dialog.DialogViewController/SearchDelegate:OnEditingStarted"
+	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStarted_MonoTouch_UIKit_UISearchBar
 	.long Lme_dd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1724=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1724
-	.byte 1,86,3
+LDIFF_SYM1725=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1725
+	.byte 2,125,0,3
 	.asciz "searchBar"
 
-LDIFF_SYM1725=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1725
-	.byte 0,3
-	.asciz "searchText"
-
-LDIFF_SYM1726=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM1726=LTDIE_30_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1726
 	.byte 2,125,4,0
 
@@ -27098,19 +27120,19 @@ Lfde214_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_TextChanged_MonoTouch_UIKit_UISearchBar_string
+	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStarted_MonoTouch_UIKit_UISearchBar
 
-LDIFF_SYM1728=Lme_dd - _MonoTouch_Dialog_DialogViewController_SearchDelegate_TextChanged_MonoTouch_UIKit_UISearchBar_string
+LDIFF_SYM1728=Lme_dd - _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStarted_MonoTouch_UIKit_UISearchBar
 	.long LDIFF_SYM1728
-	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde214_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/SearchDelegate:CancelButtonClicked"
-	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_CancelButtonClicked_MonoTouch_UIKit_UISearchBar
+	.asciz "MonoTouch.Dialog.DialogViewController/SearchDelegate:OnEditingStopped"
+	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStopped_MonoTouch_UIKit_UISearchBar
 	.long Lme_de
 
 	.byte 2,118,16,3
@@ -27123,7 +27145,7 @@ LDIFF_SYM1729=LTDIE_114_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM1730=LTDIE_30_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1730
-	.byte 1,90,0
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -27133,19 +27155,19 @@ Lfde215_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_CancelButtonClicked_MonoTouch_UIKit_UISearchBar
+	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStopped_MonoTouch_UIKit_UISearchBar
 
-LDIFF_SYM1732=Lme_de - _MonoTouch_Dialog_DialogViewController_SearchDelegate_CancelButtonClicked_MonoTouch_UIKit_UISearchBar
+LDIFF_SYM1732=Lme_de - _MonoTouch_Dialog_DialogViewController_SearchDelegate_OnEditingStopped_MonoTouch_UIKit_UISearchBar
 	.long LDIFF_SYM1732
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde215_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/SearchDelegate:SearchButtonClicked"
-	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_SearchButtonClicked_MonoTouch_UIKit_UISearchBar
+	.asciz "MonoTouch.Dialog.DialogViewController/SearchDelegate:TextChanged"
+	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_TextChanged_MonoTouch_UIKit_UISearchBar_string
 	.long Lme_df
 
 	.byte 2,118,16,3
@@ -27153,222 +27175,222 @@ Lfde215_end:
 
 LDIFF_SYM1733=LTDIE_114_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1733
-	.byte 2,125,0,3
+	.byte 1,86,3
 	.asciz "searchBar"
 
-LDIFF_SYM1734=LTDIE_30_REFERENCE - Ldebug_info_start
+LDIFF_SYM1734=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1734
+	.byte 0,3
+	.asciz "searchText"
+
+LDIFF_SYM1735=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1735
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1735=Lfde216_end - Lfde216_start
-	.long LDIFF_SYM1735
+LDIFF_SYM1736=Lfde216_end - Lfde216_start
+	.long LDIFF_SYM1736
 Lfde216_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_SearchButtonClicked_MonoTouch_UIKit_UISearchBar
+	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_TextChanged_MonoTouch_UIKit_UISearchBar_string
 
-LDIFF_SYM1736=Lme_df - _MonoTouch_Dialog_DialogViewController_SearchDelegate_SearchButtonClicked_MonoTouch_UIKit_UISearchBar
-	.long LDIFF_SYM1736
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM1737=Lme_df - _MonoTouch_Dialog_DialogViewController_SearchDelegate_TextChanged_MonoTouch_UIKit_UISearchBar_string
+	.long LDIFF_SYM1737
+	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,32
 	.align 2
 Lfde216_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:.ctor"
-	.long _MonoTouch_Dialog_DialogViewController_Source__ctor_MonoTouch_Dialog_DialogViewController
+	.asciz "MonoTouch.Dialog.DialogViewController/SearchDelegate:CancelButtonClicked"
+	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_CancelButtonClicked_MonoTouch_UIKit_UISearchBar
 	.long Lme_e0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1737=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1737
-	.byte 1,86,3
-	.asciz "container"
-
-LDIFF_SYM1738=LTDIE_25_REFERENCE - Ldebug_info_start
+LDIFF_SYM1738=LTDIE_114_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1738
-	.byte 2,125,0,0
+	.byte 2,125,0,3
+	.asciz "searchBar"
+
+LDIFF_SYM1739=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1739
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1739=Lfde217_end - Lfde217_start
-	.long LDIFF_SYM1739
+LDIFF_SYM1740=Lfde217_end - Lfde217_start
+	.long LDIFF_SYM1740
 Lfde217_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source__ctor_MonoTouch_Dialog_DialogViewController
+	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_CancelButtonClicked_MonoTouch_UIKit_UISearchBar
 
-LDIFF_SYM1740=Lme_e0 - _MonoTouch_Dialog_DialogViewController_Source__ctor_MonoTouch_Dialog_DialogViewController
-	.long LDIFF_SYM1740
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
+LDIFF_SYM1741=Lme_e0 - _MonoTouch_Dialog_DialogViewController_SearchDelegate_CancelButtonClicked_MonoTouch_UIKit_UISearchBar
+	.long LDIFF_SYM1741
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde217_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:AccessoryButtonTapped"
-	.long _MonoTouch_Dialog_DialogViewController_Source_AccessoryButtonTapped_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.asciz "MonoTouch.Dialog.DialogViewController/SearchDelegate:SearchButtonClicked"
+	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_SearchButtonClicked_MonoTouch_UIKit_UISearchBar
 	.long Lme_e1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1741=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1741
-	.byte 1,86,3
-	.asciz "tableView"
-
-LDIFF_SYM1742=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1742=LTDIE_114_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1742
-	.byte 0,3
-	.asciz "indexPath"
+	.byte 2,125,0,3
+	.asciz "searchBar"
 
-LDIFF_SYM1743=LTDIE_23_REFERENCE - Ldebug_info_start
+LDIFF_SYM1743=LTDIE_30_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1743
-	.byte 2,125,20,11
-	.asciz "section"
-
-LDIFF_SYM1744=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1744
-	.byte 1,85,11
-	.asciz "element"
-
-LDIFF_SYM1745=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1745
-	.byte 1,84,0
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1746=Lfde218_end - Lfde218_start
-	.long LDIFF_SYM1746
+LDIFF_SYM1744=Lfde218_end - Lfde218_start
+	.long LDIFF_SYM1744
 Lfde218_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_AccessoryButtonTapped_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long _MonoTouch_Dialog_DialogViewController_SearchDelegate_SearchButtonClicked_MonoTouch_UIKit_UISearchBar
 
-LDIFF_SYM1747=Lme_e1 - _MonoTouch_Dialog_DialogViewController_Source_AccessoryButtonTapped_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1747
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
+LDIFF_SYM1745=Lme_e1 - _MonoTouch_Dialog_DialogViewController_SearchDelegate_SearchButtonClicked_MonoTouch_UIKit_UISearchBar
+	.long LDIFF_SYM1745
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde218_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:RowsInSection"
-	.long _MonoTouch_Dialog_DialogViewController_Source_RowsInSection_MonoTouch_UIKit_UITableView_int
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:.ctor"
+	.long _MonoTouch_Dialog_DialogViewController_Source__ctor_MonoTouch_Dialog_DialogViewController
 	.long Lme_e2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1748=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1748
+LDIFF_SYM1746=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1746
 	.byte 1,86,3
-	.asciz "tableview"
+	.asciz "container"
 
-LDIFF_SYM1749=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1749
-	.byte 0,3
-	.asciz "section"
-
-LDIFF_SYM1750=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1750
-	.byte 1,90,11
-	.asciz "s"
-
-LDIFF_SYM1751=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1751
-	.byte 2,125,0,11
-	.asciz "count"
-
-LDIFF_SYM1752=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1752
-	.byte 2,125,4,0
+LDIFF_SYM1747=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1747
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1753=Lfde219_end - Lfde219_start
-	.long LDIFF_SYM1753
+LDIFF_SYM1748=Lfde219_end - Lfde219_start
+	.long LDIFF_SYM1748
 Lfde219_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_RowsInSection_MonoTouch_UIKit_UITableView_int
+	.long _MonoTouch_Dialog_DialogViewController_Source__ctor_MonoTouch_Dialog_DialogViewController
 
-LDIFF_SYM1754=Lme_e2 - _MonoTouch_Dialog_DialogViewController_Source_RowsInSection_MonoTouch_UIKit_UITableView_int
-	.long LDIFF_SYM1754
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,40
+LDIFF_SYM1749=Lme_e2 - _MonoTouch_Dialog_DialogViewController_Source__ctor_MonoTouch_Dialog_DialogViewController
+	.long LDIFF_SYM1749
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde219_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:NumberOfSections"
-	.long _MonoTouch_Dialog_DialogViewController_Source_NumberOfSections_MonoTouch_UIKit_UITableView
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:AccessoryButtonTapped"
+	.long _MonoTouch_Dialog_DialogViewController_Source_AccessoryButtonTapped_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long Lme_e3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1755=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1755
-	.byte 2,125,0,3
+LDIFF_SYM1750=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1750
+	.byte 1,86,3
 	.asciz "tableView"
 
-LDIFF_SYM1756=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1756
-	.byte 0,0
+LDIFF_SYM1751=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1751
+	.byte 0,3
+	.asciz "indexPath"
+
+LDIFF_SYM1752=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1752
+	.byte 2,125,20,11
+	.asciz "section"
+
+LDIFF_SYM1753=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1753
+	.byte 1,85,11
+	.asciz "element"
+
+LDIFF_SYM1754=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1754
+	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1757=Lfde220_end - Lfde220_start
-	.long LDIFF_SYM1757
+LDIFF_SYM1755=Lfde220_end - Lfde220_start
+	.long LDIFF_SYM1755
 Lfde220_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_NumberOfSections_MonoTouch_UIKit_UITableView
+	.long _MonoTouch_Dialog_DialogViewController_Source_AccessoryButtonTapped_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1758=Lme_e3 - _MonoTouch_Dialog_DialogViewController_Source_NumberOfSections_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM1758
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1756=Lme_e3 - _MonoTouch_Dialog_DialogViewController_Source_AccessoryButtonTapped_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM1756
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
 	.align 2
 Lfde220_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:TitleForHeader"
-	.long _MonoTouch_Dialog_DialogViewController_Source_TitleForHeader_MonoTouch_UIKit_UITableView_int
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:RowsInSection"
+	.long _MonoTouch_Dialog_DialogViewController_Source_RowsInSection_MonoTouch_UIKit_UITableView_int
 	.long Lme_e4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1759=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1759
+LDIFF_SYM1757=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1757
 	.byte 1,86,3
-	.asciz "tableView"
+	.asciz "tableview"
 
-LDIFF_SYM1760=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1760
+LDIFF_SYM1758=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1758
 	.byte 0,3
 	.asciz "section"
 
+LDIFF_SYM1759=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1759
+	.byte 1,90,11
+	.asciz "s"
+
+LDIFF_SYM1760=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1760
+	.byte 2,125,0,11
+	.asciz "count"
+
 LDIFF_SYM1761=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1761
-	.byte 1,90,0
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -27378,19 +27400,19 @@ Lfde221_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_TitleForHeader_MonoTouch_UIKit_UITableView_int
+	.long _MonoTouch_Dialog_DialogViewController_Source_RowsInSection_MonoTouch_UIKit_UITableView_int
 
-LDIFF_SYM1763=Lme_e4 - _MonoTouch_Dialog_DialogViewController_Source_TitleForHeader_MonoTouch_UIKit_UITableView_int
+LDIFF_SYM1763=Lme_e4 - _MonoTouch_Dialog_DialogViewController_Source_RowsInSection_MonoTouch_UIKit_UITableView_int
 	.long LDIFF_SYM1763
-	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,40
 	.align 2
 Lfde221_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:TitleForFooter"
-	.long _MonoTouch_Dialog_DialogViewController_Source_TitleForFooter_MonoTouch_UIKit_UITableView_int
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:NumberOfSections"
+	.long _MonoTouch_Dialog_DialogViewController_Source_NumberOfSections_MonoTouch_UIKit_UITableView
 	.long Lme_e5
 
 	.byte 2,118,16,3
@@ -27398,83 +27420,158 @@ Lfde221_end:
 
 LDIFF_SYM1764=LTDIE_38_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1764
-	.byte 1,86,3
+	.byte 2,125,0,3
 	.asciz "tableView"
 
 LDIFF_SYM1765=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1765
-	.byte 0,3
-	.asciz "section"
-
-LDIFF_SYM1766=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1766
-	.byte 1,90,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1767=Lfde222_end - Lfde222_start
-	.long LDIFF_SYM1767
+LDIFF_SYM1766=Lfde222_end - Lfde222_start
+	.long LDIFF_SYM1766
 Lfde222_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_TitleForFooter_MonoTouch_UIKit_UITableView_int
+	.long _MonoTouch_Dialog_DialogViewController_Source_NumberOfSections_MonoTouch_UIKit_UITableView
 
-LDIFF_SYM1768=Lme_e5 - _MonoTouch_Dialog_DialogViewController_Source_TitleForFooter_MonoTouch_UIKit_UITableView_int
-	.long LDIFF_SYM1768
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
+LDIFF_SYM1767=Lme_e5 - _MonoTouch_Dialog_DialogViewController_Source_NumberOfSections_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM1767
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde222_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:GetCell"
-	.long _MonoTouch_Dialog_DialogViewController_Source_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:TitleForHeader"
+	.long _MonoTouch_Dialog_DialogViewController_Source_TitleForHeader_MonoTouch_UIKit_UITableView_int
 	.long Lme_e6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1769=LTDIE_38_REFERENCE - Ldebug_info_start
+LDIFF_SYM1768=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1768
+	.byte 1,86,3
+	.asciz "tableView"
+
+LDIFF_SYM1769=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1769
+	.byte 0,3
+	.asciz "section"
+
+LDIFF_SYM1770=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1770
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1771=Lfde223_end - Lfde223_start
+	.long LDIFF_SYM1771
+Lfde223_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_DialogViewController_Source_TitleForHeader_MonoTouch_UIKit_UITableView_int
+
+LDIFF_SYM1772=Lme_e6 - _MonoTouch_Dialog_DialogViewController_Source_TitleForHeader_MonoTouch_UIKit_UITableView_int
+	.long LDIFF_SYM1772
+	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1,68,14,32
+	.align 2
+Lfde223_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:TitleForFooter"
+	.long _MonoTouch_Dialog_DialogViewController_Source_TitleForFooter_MonoTouch_UIKit_UITableView_int
+	.long Lme_e7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1773=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1773
+	.byte 1,86,3
+	.asciz "tableView"
+
+LDIFF_SYM1774=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1774
+	.byte 0,3
+	.asciz "section"
+
+LDIFF_SYM1775=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1775
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1776=Lfde224_end - Lfde224_start
+	.long LDIFF_SYM1776
+Lfde224_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_DialogViewController_Source_TitleForFooter_MonoTouch_UIKit_UITableView_int
+
+LDIFF_SYM1777=Lme_e7 - _MonoTouch_Dialog_DialogViewController_Source_TitleForFooter_MonoTouch_UIKit_UITableView_int
+	.long LDIFF_SYM1777
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
+	.align 2
+Lfde224_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:GetCell"
+	.long _MonoTouch_Dialog_DialogViewController_Source_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long Lme_e8
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1778=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1778
 	.byte 1,85,3
 	.asciz "tableView"
 
-LDIFF_SYM1770=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1770
+LDIFF_SYM1779=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1779
 	.byte 2,125,16,3
 	.asciz "indexPath"
 
-LDIFF_SYM1771=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1771
+LDIFF_SYM1780=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1780
 	.byte 2,125,20,11
 	.asciz "section"
 
-LDIFF_SYM1772=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1772
+LDIFF_SYM1781=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1781
 	.byte 1,84,11
 	.asciz "element"
 
-LDIFF_SYM1773=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1773
+LDIFF_SYM1782=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1782
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1774=Lfde223_end - Lfde223_start
-	.long LDIFF_SYM1774
-Lfde223_start:
+LDIFF_SYM1783=Lfde225_end - Lfde225_start
+	.long LDIFF_SYM1783
+Lfde225_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_DialogViewController_Source_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1775=Lme_e6 - _MonoTouch_Dialog_DialogViewController_Source_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1775
+LDIFF_SYM1784=Lme_e8 - _MonoTouch_Dialog_DialogViewController_Source_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM1784
 	.byte 12,13,0,72,14,8,135,2,68,14,24,132,6,133,5,136,4,138,3,142,1,68,14,56
 	.align 2
-Lfde223_end:
+Lfde225_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_117:
@@ -27485,297 +27582,202 @@ LTDIE_117:
 	.byte 8,7
 	.asciz "MonoTouch_Dialog_IColorizeBackground"
 
-LDIFF_SYM1776=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1776
+LDIFF_SYM1785=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1785
 LTDIE_117_POINTER:
 
 	.byte 13
-LDIFF_SYM1777=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1777
+LDIFF_SYM1786=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1786
 LTDIE_117_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1778=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1778
+LDIFF_SYM1787=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1787
 	.byte 2
 	.asciz "MonoTouch.Dialog.DialogViewController/Source:WillDisplay"
 	.long _MonoTouch_Dialog_DialogViewController_Source_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
-	.long Lme_e7
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1779=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1779
-	.byte 1,84,3
-	.asciz "tableView"
-
-LDIFF_SYM1780=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1780
-	.byte 2,125,44,3
-	.asciz "cell"
-
-LDIFF_SYM1781=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1781
-	.byte 2,125,48,3
-	.asciz "indexPath"
-
-LDIFF_SYM1782=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1782
-	.byte 1,90,11
-	.asciz "section"
-
-LDIFF_SYM1783=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1783
-	.byte 1,91,11
-	.asciz "element"
-
-LDIFF_SYM1784=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1784
-	.byte 2,125,0,11
-	.asciz "colorized"
-
-LDIFF_SYM1785=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1785
-	.byte 2,125,4,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1786=Lfde224_end - Lfde224_start
-	.long LDIFF_SYM1786
-Lfde224_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
-
-LDIFF_SYM1787=Lme_e7 - _MonoTouch_Dialog_DialogViewController_Source_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1787
-	.byte 12,13,0,72,14,8,135,2,68,14,24,132,6,136,5,138,4,139,3,142,1,68,14,88
-	.align 2
-Lfde224_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:RowDeselected"
-	.long _MonoTouch_Dialog_DialogViewController_Source_RowDeselected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_e8
+	.long Lme_e9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
 LDIFF_SYM1788=LTDIE_38_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1788
-	.byte 2,125,0,3
+	.byte 1,84,3
 	.asciz "tableView"
 
-LDIFF_SYM1789=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1789=LTDIE_17_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1789
-	.byte 0,3
-	.asciz "indexPath"
+	.byte 2,125,44,3
+	.asciz "cell"
 
-LDIFF_SYM1790=LTDIE_23_REFERENCE - Ldebug_info_start
+LDIFF_SYM1790=LTDIE_24_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1790
-	.byte 2,125,8,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1791=Lfde225_end - Lfde225_start
-	.long LDIFF_SYM1791
-Lfde225_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_RowDeselected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-
-LDIFF_SYM1792=Lme_e8 - _MonoTouch_Dialog_DialogViewController_Source_RowDeselected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1792
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
-	.align 2
-Lfde225_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:RowSelected"
-	.long _MonoTouch_Dialog_DialogViewController_Source_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_e9
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1793=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1793
-	.byte 2,125,0,3
-	.asciz "tableView"
-
-LDIFF_SYM1794=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1794
-	.byte 0,3
+	.byte 2,125,48,3
 	.asciz "indexPath"
 
-LDIFF_SYM1795=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1795
-	.byte 2,125,8,11
-	.asciz "onSelection"
+LDIFF_SYM1791=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1791
+	.byte 1,90,11
+	.asciz "section"
 
-LDIFF_SYM1796=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1796
-	.byte 1,85,0
+LDIFF_SYM1792=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1792
+	.byte 1,91,11
+	.asciz "element"
+
+LDIFF_SYM1793=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1793
+	.byte 2,125,0,11
+	.asciz "colorized"
+
+LDIFF_SYM1794=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1794
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1797=Lfde226_end - Lfde226_start
-	.long LDIFF_SYM1797
+LDIFF_SYM1795=Lfde226_end - Lfde226_start
+	.long LDIFF_SYM1795
 Lfde226_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long _MonoTouch_Dialog_DialogViewController_Source_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1798=Lme_e9 - _MonoTouch_Dialog_DialogViewController_Source_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1798
-	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,32
+LDIFF_SYM1796=Lme_e9 - _MonoTouch_Dialog_DialogViewController_Source_WillDisplay_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCell_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM1796
+	.byte 12,13,0,72,14,8,135,2,68,14,24,132,6,136,5,138,4,139,3,142,1,68,14,88
 	.align 2
 Lfde226_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:GetViewForHeader"
-	.long _MonoTouch_Dialog_DialogViewController_Source_GetViewForHeader_MonoTouch_UIKit_UITableView_int
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:RowDeselected"
+	.long _MonoTouch_Dialog_DialogViewController_Source_RowDeselected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long Lme_ea
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1799=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1799
-	.byte 1,86,3
+LDIFF_SYM1797=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1797
+	.byte 2,125,0,3
 	.asciz "tableView"
 
-LDIFF_SYM1800=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1800
+LDIFF_SYM1798=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1798
 	.byte 0,3
-	.asciz "sectionIdx"
+	.asciz "indexPath"
 
-LDIFF_SYM1801=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1801
-	.byte 1,90,11
-	.asciz "section"
-
-LDIFF_SYM1802=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1802
-	.byte 1,85,0
+LDIFF_SYM1799=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1799
+	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1803=Lfde227_end - Lfde227_start
-	.long LDIFF_SYM1803
+LDIFF_SYM1800=Lfde227_end - Lfde227_start
+	.long LDIFF_SYM1800
 Lfde227_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_GetViewForHeader_MonoTouch_UIKit_UITableView_int
+	.long _MonoTouch_Dialog_DialogViewController_Source_RowDeselected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1804=Lme_ea - _MonoTouch_Dialog_DialogViewController_Source_GetViewForHeader_MonoTouch_UIKit_UITableView_int
-	.long LDIFF_SYM1804
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
+LDIFF_SYM1801=Lme_ea - _MonoTouch_Dialog_DialogViewController_Source_RowDeselected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM1801
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde227_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:GetHeightForHeader"
-	.long _MonoTouch_Dialog_DialogViewController_Source_GetHeightForHeader_MonoTouch_UIKit_UITableView_int
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:RowSelected"
+	.long _MonoTouch_Dialog_DialogViewController_Source_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long Lme_eb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1805=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1805
-	.byte 1,86,3
+LDIFF_SYM1802=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1802
+	.byte 2,125,0,3
 	.asciz "tableView"
 
-LDIFF_SYM1806=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1806
+LDIFF_SYM1803=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1803
 	.byte 0,3
-	.asciz "sectionIdx"
+	.asciz "indexPath"
 
-LDIFF_SYM1807=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1807
-	.byte 1,90,11
-	.asciz "section"
+LDIFF_SYM1804=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1804
+	.byte 2,125,8,11
+	.asciz "onSelection"
 
-LDIFF_SYM1808=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1808
-	.byte 1,85,11
-	.asciz ""
-
-LDIFF_SYM1809=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1809
-	.byte 2,125,0,0
+LDIFF_SYM1805=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1805
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1810=Lfde228_end - Lfde228_start
-	.long LDIFF_SYM1810
+LDIFF_SYM1806=Lfde228_end - Lfde228_start
+	.long LDIFF_SYM1806
 Lfde228_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_GetHeightForHeader_MonoTouch_UIKit_UITableView_int
+	.long _MonoTouch_Dialog_DialogViewController_Source_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1811=Lme_eb - _MonoTouch_Dialog_DialogViewController_Source_GetHeightForHeader_MonoTouch_UIKit_UITableView_int
-	.long LDIFF_SYM1811
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
+LDIFF_SYM1807=Lme_eb - _MonoTouch_Dialog_DialogViewController_Source_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM1807
+	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,32
 	.align 2
 Lfde228_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:GetViewForFooter"
-	.long _MonoTouch_Dialog_DialogViewController_Source_GetViewForFooter_MonoTouch_UIKit_UITableView_int
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:GetViewForHeader"
+	.long _MonoTouch_Dialog_DialogViewController_Source_GetViewForHeader_MonoTouch_UIKit_UITableView_int
 	.long Lme_ec
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1812=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1812
+LDIFF_SYM1808=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1808
 	.byte 1,86,3
 	.asciz "tableView"
 
-LDIFF_SYM1813=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1813
+LDIFF_SYM1809=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1809
 	.byte 0,3
 	.asciz "sectionIdx"
 
-LDIFF_SYM1814=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1814
+LDIFF_SYM1810=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1810
 	.byte 1,90,11
 	.asciz "section"
 
-LDIFF_SYM1815=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1815
+LDIFF_SYM1811=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1811
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1816=Lfde229_end - Lfde229_start
-	.long LDIFF_SYM1816
+LDIFF_SYM1812=Lfde229_end - Lfde229_start
+	.long LDIFF_SYM1812
 Lfde229_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_GetViewForFooter_MonoTouch_UIKit_UITableView_int
+	.long _MonoTouch_Dialog_DialogViewController_Source_GetViewForHeader_MonoTouch_UIKit_UITableView_int
 
-LDIFF_SYM1817=Lme_ec - _MonoTouch_Dialog_DialogViewController_Source_GetViewForFooter_MonoTouch_UIKit_UITableView_int
-	.long LDIFF_SYM1817
+LDIFF_SYM1813=Lme_ec - _MonoTouch_Dialog_DialogViewController_Source_GetViewForHeader_MonoTouch_UIKit_UITableView_int
+	.long LDIFF_SYM1813
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
 	.align 2
 Lfde229_end:
@@ -27783,49 +27785,49 @@ Lfde229_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:GetHeightForFooter"
-	.long _MonoTouch_Dialog_DialogViewController_Source_GetHeightForFooter_MonoTouch_UIKit_UITableView_int
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:GetHeightForHeader"
+	.long _MonoTouch_Dialog_DialogViewController_Source_GetHeightForHeader_MonoTouch_UIKit_UITableView_int
 	.long Lme_ed
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1818=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1818
+LDIFF_SYM1814=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1814
 	.byte 1,86,3
 	.asciz "tableView"
 
-LDIFF_SYM1819=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1819
+LDIFF_SYM1815=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1815
 	.byte 0,3
 	.asciz "sectionIdx"
 
-LDIFF_SYM1820=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1820
+LDIFF_SYM1816=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1816
 	.byte 1,90,11
 	.asciz "section"
 
-LDIFF_SYM1821=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1821
+LDIFF_SYM1817=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1817
 	.byte 1,85,11
 	.asciz ""
 
-LDIFF_SYM1822=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1822
+LDIFF_SYM1818=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1818
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1823=Lfde230_end - Lfde230_start
-	.long LDIFF_SYM1823
+LDIFF_SYM1819=Lfde230_end - Lfde230_start
+	.long LDIFF_SYM1819
 Lfde230_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_GetHeightForFooter_MonoTouch_UIKit_UITableView_int
+	.long _MonoTouch_Dialog_DialogViewController_Source_GetHeightForHeader_MonoTouch_UIKit_UITableView_int
 
-LDIFF_SYM1824=Lme_ed - _MonoTouch_Dialog_DialogViewController_Source_GetHeightForFooter_MonoTouch_UIKit_UITableView_int
-	.long LDIFF_SYM1824
+LDIFF_SYM1820=Lme_ed - _MonoTouch_Dialog_DialogViewController_Source_GetHeightForHeader_MonoTouch_UIKit_UITableView_int
+	.long LDIFF_SYM1820
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
 	.align 2
 Lfde230_end:
@@ -27833,127 +27835,222 @@ Lfde230_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:Scrolled"
-	.long _MonoTouch_Dialog_DialogViewController_Source_Scrolled_MonoTouch_UIKit_UIScrollView
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:GetViewForFooter"
+	.long _MonoTouch_Dialog_DialogViewController_Source_GetViewForFooter_MonoTouch_UIKit_UITableView_int
 	.long Lme_ee
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1825=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1825
-	.byte 1,90,3
-	.asciz "scrollView"
+LDIFF_SYM1821=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1821
+	.byte 1,86,3
+	.asciz "tableView"
 
-LDIFF_SYM1826=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1826
-	.byte 0,11
-	.asciz "view"
+LDIFF_SYM1822=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1822
+	.byte 0,3
+	.asciz "sectionIdx"
 
-LDIFF_SYM1827=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1827
-	.byte 1,86,11
-	.asciz "point"
+LDIFF_SYM1823=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1823
+	.byte 1,90,11
+	.asciz "section"
 
-LDIFF_SYM1828=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1828
-	.byte 2,125,0,0
+LDIFF_SYM1824=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1824
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1829=Lfde231_end - Lfde231_start
-	.long LDIFF_SYM1829
+LDIFF_SYM1825=Lfde231_end - Lfde231_start
+	.long LDIFF_SYM1825
 Lfde231_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_Scrolled_MonoTouch_UIKit_UIScrollView
+	.long _MonoTouch_Dialog_DialogViewController_Source_GetViewForFooter_MonoTouch_UIKit_UITableView_int
 
-LDIFF_SYM1830=Lme_ee - _MonoTouch_Dialog_DialogViewController_Source_Scrolled_MonoTouch_UIKit_UIScrollView
-	.long LDIFF_SYM1830
-	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,48
+LDIFF_SYM1826=Lme_ee - _MonoTouch_Dialog_DialogViewController_Source_GetViewForFooter_MonoTouch_UIKit_UITableView_int
+	.long LDIFF_SYM1826
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
 	.align 2
 Lfde231_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:DraggingStarted"
-	.long _MonoTouch_Dialog_DialogViewController_Source_DraggingStarted_MonoTouch_UIKit_UIScrollView
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:GetHeightForFooter"
+	.long _MonoTouch_Dialog_DialogViewController_Source_GetHeightForFooter_MonoTouch_UIKit_UITableView_int
 	.long Lme_ef
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1831=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1831
-	.byte 2,125,0,3
-	.asciz "scrollView"
+LDIFF_SYM1827=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1827
+	.byte 1,86,3
+	.asciz "tableView"
 
-LDIFF_SYM1832=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1832
-	.byte 0,0
+LDIFF_SYM1828=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1828
+	.byte 0,3
+	.asciz "sectionIdx"
+
+LDIFF_SYM1829=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1829
+	.byte 1,90,11
+	.asciz "section"
+
+LDIFF_SYM1830=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1830
+	.byte 1,85,11
+	.asciz ""
+
+LDIFF_SYM1831=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1831
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1833=Lfde232_end - Lfde232_start
-	.long LDIFF_SYM1833
+LDIFF_SYM1832=Lfde232_end - Lfde232_start
+	.long LDIFF_SYM1832
 Lfde232_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_DialogViewController_Source_DraggingStarted_MonoTouch_UIKit_UIScrollView
+	.long _MonoTouch_Dialog_DialogViewController_Source_GetHeightForFooter_MonoTouch_UIKit_UITableView_int
 
-LDIFF_SYM1834=Lme_ef - _MonoTouch_Dialog_DialogViewController_Source_DraggingStarted_MonoTouch_UIKit_UIScrollView
-	.long LDIFF_SYM1834
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1833=Lme_ef - _MonoTouch_Dialog_DialogViewController_Source_GetHeightForFooter_MonoTouch_UIKit_UITableView_int
+	.long LDIFF_SYM1833
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
 	.align 2
 Lfde232_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.DialogViewController/Source:DraggingEnded"
-	.long _MonoTouch_Dialog_DialogViewController_Source_DraggingEnded_MonoTouch_UIKit_UIScrollView_bool
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:Scrolled"
+	.long _MonoTouch_Dialog_DialogViewController_Source_Scrolled_MonoTouch_UIKit_UIScrollView
 	.long Lme_f0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1835=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1835
+LDIFF_SYM1834=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1834
 	.byte 1,90,3
 	.asciz "scrollView"
 
-LDIFF_SYM1836=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1835=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1835
+	.byte 0,11
+	.asciz "view"
+
+LDIFF_SYM1836=LTDIE_31_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1836
-	.byte 0,3
-	.asciz "willDecelerate"
+	.byte 1,86,11
+	.asciz "point"
 
 LDIFF_SYM1837=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1837
-	.byte 0,11
-	.asciz ""
-
-LDIFF_SYM1838=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1838
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1839=Lfde233_end - Lfde233_start
-	.long LDIFF_SYM1839
+LDIFF_SYM1838=Lfde233_end - Lfde233_start
+	.long LDIFF_SYM1838
 Lfde233_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_DialogViewController_Source_Scrolled_MonoTouch_UIKit_UIScrollView
+
+LDIFF_SYM1839=Lme_f0 - _MonoTouch_Dialog_DialogViewController_Source_Scrolled_MonoTouch_UIKit_UIScrollView
+	.long LDIFF_SYM1839
+	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,138,3,142,1,68,14,48
+	.align 2
+Lfde233_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:DraggingStarted"
+	.long _MonoTouch_Dialog_DialogViewController_Source_DraggingStarted_MonoTouch_UIKit_UIScrollView
+	.long Lme_f1
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1840=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1840
+	.byte 2,125,0,3
+	.asciz "scrollView"
+
+LDIFF_SYM1841=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1841
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1842=Lfde234_end - Lfde234_start
+	.long LDIFF_SYM1842
+Lfde234_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_DialogViewController_Source_DraggingStarted_MonoTouch_UIKit_UIScrollView
+
+LDIFF_SYM1843=Lme_f1 - _MonoTouch_Dialog_DialogViewController_Source_DraggingStarted_MonoTouch_UIKit_UIScrollView
+	.long LDIFF_SYM1843
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde234_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.DialogViewController/Source:DraggingEnded"
+	.long _MonoTouch_Dialog_DialogViewController_Source_DraggingEnded_MonoTouch_UIKit_UIScrollView_bool
+	.long Lme_f2
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1844=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1844
+	.byte 1,90,3
+	.asciz "scrollView"
+
+LDIFF_SYM1845=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1845
+	.byte 0,3
+	.asciz "willDecelerate"
+
+LDIFF_SYM1846=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1846
+	.byte 0,11
+	.asciz ""
+
+LDIFF_SYM1847=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1847
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1848=Lfde235_end - Lfde235_start
+	.long LDIFF_SYM1848
+Lfde235_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_DialogViewController_Source_DraggingEnded_MonoTouch_UIKit_UIScrollView_bool
 
-LDIFF_SYM1840=Lme_f0 - _MonoTouch_Dialog_DialogViewController_Source_DraggingEnded_MonoTouch_UIKit_UIScrollView_bool
-	.long LDIFF_SYM1840
+LDIFF_SYM1849=Lme_f2 - _MonoTouch_Dialog_DialogViewController_Source_DraggingEnded_MonoTouch_UIKit_UIScrollView_bool
+	.long LDIFF_SYM1849
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,40
 	.align 2
-Lfde233_end:
+Lfde235_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_118:
@@ -27962,55 +28059,55 @@ LTDIE_118:
 	.asciz "_SizingSource"
 
 	.byte 36,16
-LDIFF_SYM1841=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM1841
+LDIFF_SYM1850=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM1850
 	.byte 2,35,0,0,7
 	.asciz "_SizingSource"
 
-LDIFF_SYM1842=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1842
+LDIFF_SYM1851=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1851
 LTDIE_118_POINTER:
 
 	.byte 13
-LDIFF_SYM1843=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1843
+LDIFF_SYM1852=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1852
 LTDIE_118_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1844=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1844
+LDIFF_SYM1853=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1853
 	.byte 2
 	.asciz "MonoTouch.Dialog.DialogViewController/SizingSource:.ctor"
 	.long _MonoTouch_Dialog_DialogViewController_SizingSource__ctor_MonoTouch_Dialog_DialogViewController
-	.long Lme_f1
+	.long Lme_f3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1845=LTDIE_118_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1845
+LDIFF_SYM1854=LTDIE_118_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1854
 	.byte 2,125,0,3
 	.asciz "controller"
 
-LDIFF_SYM1846=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1846
+LDIFF_SYM1855=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1855
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1847=Lfde234_end - Lfde234_start
-	.long LDIFF_SYM1847
-Lfde234_start:
+LDIFF_SYM1856=Lfde236_end - Lfde236_start
+	.long LDIFF_SYM1856
+Lfde236_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_DialogViewController_SizingSource__ctor_MonoTouch_Dialog_DialogViewController
 
-LDIFF_SYM1848=Lme_f1 - _MonoTouch_Dialog_DialogViewController_SizingSource__ctor_MonoTouch_Dialog_DialogViewController
-	.long LDIFF_SYM1848
+LDIFF_SYM1857=Lme_f3 - _MonoTouch_Dialog_DialogViewController_SizingSource__ctor_MonoTouch_Dialog_DialogViewController
+	.long LDIFF_SYM1857
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde234_end:
+Lfde236_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_119:
@@ -28021,70 +28118,70 @@ LTDIE_119:
 	.byte 8,7
 	.asciz "MonoTouch_Dialog_IElementSizing"
 
-LDIFF_SYM1849=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1849
+LDIFF_SYM1858=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1858
 LTDIE_119_POINTER:
 
 	.byte 13
-LDIFF_SYM1850=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1850
+LDIFF_SYM1859=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1859
 LTDIE_119_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1851=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1851
+LDIFF_SYM1860=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1860
 	.byte 2
 	.asciz "MonoTouch.Dialog.DialogViewController/SizingSource:GetHeightForRow"
 	.long _MonoTouch_Dialog_DialogViewController_SizingSource_GetHeightForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_f2
+	.long Lme_f4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1852=LTDIE_118_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1852
+LDIFF_SYM1861=LTDIE_118_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1861
 	.byte 1,85,3
 	.asciz "tableView"
 
-LDIFF_SYM1853=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1853
+LDIFF_SYM1862=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1862
 	.byte 1,86,3
 	.asciz "indexPath"
 
-LDIFF_SYM1854=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1854
+LDIFF_SYM1863=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1863
 	.byte 1,90,11
 	.asciz "section"
 
-LDIFF_SYM1855=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1855
+LDIFF_SYM1864=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1864
 	.byte 1,84,11
 	.asciz "element"
 
-LDIFF_SYM1856=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1856
+LDIFF_SYM1865=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1865
 	.byte 1,91,11
 	.asciz "sizable"
 
-LDIFF_SYM1857=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1857
+LDIFF_SYM1866=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1866
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1858=Lfde235_end - Lfde235_start
-	.long LDIFF_SYM1858
-Lfde235_start:
+LDIFF_SYM1867=Lfde237_end - Lfde237_start
+	.long LDIFF_SYM1867
+Lfde237_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_DialogViewController_SizingSource_GetHeightForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM1859=Lme_f2 - _MonoTouch_Dialog_DialogViewController_SizingSource_GetHeightForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM1859
+LDIFF_SYM1868=Lme_f4 - _MonoTouch_Dialog_DialogViewController_SizingSource_GetHeightForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM1868
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,80
 	.align 2
-Lfde235_end:
+Lfde237_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_120:
@@ -28093,170 +28190,170 @@ LTDIE_120:
 	.asciz "MonoTouch_CoreGraphics_CGPath"
 
 	.byte 12,16
-LDIFF_SYM1860=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1860
+LDIFF_SYM1869=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1869
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM1861=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1861
+LDIFF_SYM1870=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1870
 	.byte 2,35,8,0,7
 	.asciz "MonoTouch_CoreGraphics_CGPath"
 
-LDIFF_SYM1862=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1862
+LDIFF_SYM1871=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1871
 LTDIE_120_POINTER:
 
 	.byte 13
-LDIFF_SYM1863=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1863
+LDIFF_SYM1872=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1872
 LTDIE_120_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1864=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1864
+LDIFF_SYM1873=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1873
 	.byte 2
 	.asciz "MonoTouch.Dialog.GraphicsUtil:MakeRoundedRectPath"
 	.long _MonoTouch_Dialog_GraphicsUtil_MakeRoundedRectPath_System_Drawing_RectangleF_single
-	.long Lme_f3
+	.long Lme_f5
 
 	.byte 2,118,16,3
 	.asciz "rect"
 
-LDIFF_SYM1865=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1865
+LDIFF_SYM1874=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1874
 	.byte 3,123,148,1,3
 	.asciz "radius"
 
-LDIFF_SYM1866=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1866
+LDIFF_SYM1875=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1875
 	.byte 3,123,164,1,11
 	.asciz "minx"
 
-LDIFF_SYM1867=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1867
+LDIFF_SYM1876=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1876
 	.byte 2,123,16,11
 	.asciz "midx"
 
-LDIFF_SYM1868=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1868
+LDIFF_SYM1877=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1877
 	.byte 2,123,20,11
 	.asciz "maxx"
 
-LDIFF_SYM1869=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1869
+LDIFF_SYM1878=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1878
 	.byte 2,123,24,11
 	.asciz "miny"
 
-LDIFF_SYM1870=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1870
+LDIFF_SYM1879=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1879
 	.byte 2,123,28,11
 	.asciz "midy"
 
-LDIFF_SYM1871=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1871
+LDIFF_SYM1880=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1880
 	.byte 2,123,32,11
 	.asciz ""
 
-LDIFF_SYM1872=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1872
+LDIFF_SYM1881=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1881
 	.byte 2,123,36,11
 	.asciz "maxy"
 
-LDIFF_SYM1873=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1873
+LDIFF_SYM1882=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1882
 	.byte 2,123,44,11
 	.asciz "path"
 
-LDIFF_SYM1874=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1874
+LDIFF_SYM1883=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1883
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1875=Lfde236_end - Lfde236_start
-	.long LDIFF_SYM1875
-Lfde236_start:
+LDIFF_SYM1884=Lfde238_end - Lfde238_start
+	.long LDIFF_SYM1884
+Lfde238_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_GraphicsUtil_MakeRoundedRectPath_System_Drawing_RectangleF_single
 
-LDIFF_SYM1876=Lme_f3 - _MonoTouch_Dialog_GraphicsUtil_MakeRoundedRectPath_System_Drawing_RectangleF_single
-	.long LDIFF_SYM1876
+LDIFF_SYM1885=Lme_f5 - _MonoTouch_Dialog_GraphicsUtil_MakeRoundedRectPath_System_Drawing_RectangleF_single
+	.long LDIFF_SYM1885
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,216,1,68,13,11
 	.align 2
-Lfde236_end:
+Lfde238_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.GraphicsUtil:FillRoundedRect"
 	.long _MonoTouch_Dialog_GraphicsUtil_FillRoundedRect_MonoTouch_CoreGraphics_CGContext_System_Drawing_RectangleF_single
-	.long Lme_f4
+	.long Lme_f6
 
 	.byte 2,118,16,3
 	.asciz "ctx"
 
-LDIFF_SYM1877=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1877
+LDIFF_SYM1886=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1886
 	.byte 1,90,3
 	.asciz "rect"
 
-LDIFF_SYM1878=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1878
+LDIFF_SYM1887=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1887
 	.byte 2,123,8,3
 	.asciz "radius"
 
-LDIFF_SYM1879=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1879
+LDIFF_SYM1888=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1888
 	.byte 2,123,24,11
 	.asciz "p"
 
-LDIFF_SYM1880=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1880
+LDIFF_SYM1889=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1889
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1881=Lfde237_end - Lfde237_start
-	.long LDIFF_SYM1881
-Lfde237_start:
+LDIFF_SYM1890=Lfde239_end - Lfde239_start
+	.long LDIFF_SYM1890
+Lfde239_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_GraphicsUtil_FillRoundedRect_MonoTouch_CoreGraphics_CGContext_System_Drawing_RectangleF_single
 
-LDIFF_SYM1882=Lme_f4 - _MonoTouch_Dialog_GraphicsUtil_FillRoundedRect_MonoTouch_CoreGraphics_CGContext_System_Drawing_RectangleF_single
-	.long LDIFF_SYM1882
+LDIFF_SYM1891=Lme_f6 - _MonoTouch_Dialog_GraphicsUtil_FillRoundedRect_MonoTouch_CoreGraphics_CGContext_System_Drawing_RectangleF_single
+	.long LDIFF_SYM1891
 	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
-Lfde237_end:
+Lfde239_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:.cctor"
 	.long _MonoTouch_Dialog_Utilities_ImageLoader__cctor
-	.long Lme_f6
+	.long Lme_f8
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1883=Lfde238_end - Lfde238_start
-	.long LDIFF_SYM1883
-Lfde238_start:
+LDIFF_SYM1892=Lfde240_end - Lfde240_start
+	.long LDIFF_SYM1892
+Lfde240_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Utilities_ImageLoader__cctor
 
-LDIFF_SYM1884=Lme_f6 - _MonoTouch_Dialog_Utilities_ImageLoader__cctor
-	.long LDIFF_SYM1884
+LDIFF_SYM1893=Lme_f8 - _MonoTouch_Dialog_Utilities_ImageLoader__cctor
+	.long LDIFF_SYM1893
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde238_end:
+Lfde240_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_124:
@@ -28267,96 +28364,96 @@ LTDIE_124:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM1885=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1885
+LDIFF_SYM1894=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1894
 LTDIE_124_POINTER:
 
 	.byte 13
-LDIFF_SYM1886=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1886
+LDIFF_SYM1895=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1895
 LTDIE_124_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1887=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1887
+LDIFF_SYM1896=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1896
 LTDIE_123:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 52,16
-LDIFF_SYM1888=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1888
+LDIFF_SYM1897=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1897
 	.byte 2,35,0,6
 	.asciz "table"
 
-LDIFF_SYM1889=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1889
+LDIFF_SYM1898=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1898
 	.byte 2,35,8,6
 	.asciz "linkSlots"
 
-LDIFF_SYM1890=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1890
+LDIFF_SYM1899=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1899
 	.byte 2,35,12,6
 	.asciz "keySlots"
 
-LDIFF_SYM1891=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1891
+LDIFF_SYM1900=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1900
 	.byte 2,35,16,6
 	.asciz "valueSlots"
 
-LDIFF_SYM1892=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1892
+LDIFF_SYM1901=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1901
 	.byte 2,35,20,6
 	.asciz "hcp"
 
-LDIFF_SYM1893=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1893
+LDIFF_SYM1902=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1902
 	.byte 2,35,24,6
 	.asciz "serialization_info"
 
-LDIFF_SYM1894=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1894
+LDIFF_SYM1903=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1903
 	.byte 2,35,28,6
 	.asciz "touchedSlots"
 
-LDIFF_SYM1895=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1895
+LDIFF_SYM1904=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1904
 	.byte 2,35,32,6
 	.asciz "emptySlot"
 
-LDIFF_SYM1896=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1896
+LDIFF_SYM1905=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1905
 	.byte 2,35,36,6
 	.asciz "count"
 
-LDIFF_SYM1897=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1897
+LDIFF_SYM1906=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1906
 	.byte 2,35,40,6
 	.asciz "threshold"
 
-LDIFF_SYM1898=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1898
+LDIFF_SYM1907=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1907
 	.byte 2,35,44,6
 	.asciz "generation"
 
-LDIFF_SYM1899=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1899
+LDIFF_SYM1908=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1908
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM1900=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1900
+LDIFF_SYM1909=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1909
 LTDIE_123_POINTER:
 
 	.byte 13
-LDIFF_SYM1901=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1901
+LDIFF_SYM1910=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1910
 LTDIE_123_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1902=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1902
+LDIFF_SYM1911=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1911
 LTDIE_126:
 
 	.byte 17
@@ -28365,422 +28462,347 @@ LTDIE_126:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM1903=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM1903
+LDIFF_SYM1912=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1912
 LTDIE_126_POINTER:
 
 	.byte 13
-LDIFF_SYM1904=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM1904
+LDIFF_SYM1913=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1913
 LTDIE_126_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1905=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM1905
+LDIFF_SYM1914=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM1914
 LTDIE_125:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 52,16
-LDIFF_SYM1906=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1906
+LDIFF_SYM1915=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1915
 	.byte 2,35,0,6
 	.asciz "table"
 
-LDIFF_SYM1907=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1907
+LDIFF_SYM1916=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1916
 	.byte 2,35,8,6
 	.asciz "linkSlots"
 
-LDIFF_SYM1908=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1908
+LDIFF_SYM1917=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1917
 	.byte 2,35,12,6
 	.asciz "keySlots"
 
-LDIFF_SYM1909=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1909
+LDIFF_SYM1918=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1918
 	.byte 2,35,16,6
 	.asciz "valueSlots"
 
-LDIFF_SYM1910=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1910
+LDIFF_SYM1919=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1919
 	.byte 2,35,20,6
 	.asciz "hcp"
 
-LDIFF_SYM1911=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1911
+LDIFF_SYM1920=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1920
 	.byte 2,35,24,6
 	.asciz "serialization_info"
 
-LDIFF_SYM1912=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1912
+LDIFF_SYM1921=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1921
 	.byte 2,35,28,6
 	.asciz "touchedSlots"
 
-LDIFF_SYM1913=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1913
+LDIFF_SYM1922=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1922
 	.byte 2,35,32,6
 	.asciz "emptySlot"
 
-LDIFF_SYM1914=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1914
+LDIFF_SYM1923=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1923
 	.byte 2,35,36,6
 	.asciz "count"
 
-LDIFF_SYM1915=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1915
+LDIFF_SYM1924=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1924
 	.byte 2,35,40,6
 	.asciz "threshold"
 
-LDIFF_SYM1916=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1916
+LDIFF_SYM1925=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1925
 	.byte 2,35,44,6
 	.asciz "generation"
 
-LDIFF_SYM1917=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1917
+LDIFF_SYM1926=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1926
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM1918=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM1918
+LDIFF_SYM1927=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1927
 LTDIE_125_POINTER:
 
 	.byte 13
-LDIFF_SYM1919=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM1919
+LDIFF_SYM1928=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1928
 LTDIE_125_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1920=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM1920
+LDIFF_SYM1929=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1929
 LTDIE_128:
 
 	.byte 5
 	.asciz "System_Collections_Generic_LinkedListNode`1"
 
 	.byte 24,16
-LDIFF_SYM1921=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1921
+LDIFF_SYM1930=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1930
 	.byte 2,35,0,6
 	.asciz "item"
 
-LDIFF_SYM1922=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1922
+LDIFF_SYM1931=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1931
 	.byte 2,35,8,6
 	.asciz "container"
 
-LDIFF_SYM1923=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1923
+LDIFF_SYM1932=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1932
 	.byte 2,35,12,6
 	.asciz "forward"
 
-LDIFF_SYM1924=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1924
+LDIFF_SYM1933=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1933
 	.byte 2,35,16,6
 	.asciz "back"
 
-LDIFF_SYM1925=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1925
+LDIFF_SYM1934=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1934
 	.byte 2,35,20,0,7
 	.asciz "System_Collections_Generic_LinkedListNode`1"
 
-LDIFF_SYM1926=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM1926
+LDIFF_SYM1935=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM1935
 LTDIE_128_POINTER:
 
 	.byte 13
-LDIFF_SYM1927=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM1927
+LDIFF_SYM1936=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM1936
 LTDIE_128_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1928=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM1928
+LDIFF_SYM1937=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM1937
 LTDIE_127:
 
 	.byte 5
 	.asciz "System_Collections_Generic_LinkedList`1"
 
 	.byte 24,16
-LDIFF_SYM1929=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1929
+LDIFF_SYM1938=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1938
 	.byte 2,35,0,6
 	.asciz "count"
 
-LDIFF_SYM1930=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1930
+LDIFF_SYM1939=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1939
 	.byte 2,35,16,6
 	.asciz "version"
 
-LDIFF_SYM1931=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1931
+LDIFF_SYM1940=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1940
 	.byte 2,35,20,6
 	.asciz "first"
 
-LDIFF_SYM1932=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1932
+LDIFF_SYM1941=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1941
 	.byte 2,35,8,6
 	.asciz "si"
 
-LDIFF_SYM1933=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1933
+LDIFF_SYM1942=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1942
 	.byte 2,35,12,0,7
 	.asciz "System_Collections_Generic_LinkedList`1"
 
-LDIFF_SYM1934=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM1934
+LDIFF_SYM1943=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM1943
 LTDIE_127_POINTER:
 
 	.byte 13
-LDIFF_SYM1935=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM1935
+LDIFF_SYM1944=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM1944
 LTDIE_127_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1936=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM1936
+LDIFF_SYM1945=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM1945
 LTDIE_129:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 52,16
-LDIFF_SYM1937=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1937
+LDIFF_SYM1946=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1946
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1938=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM1938
+LDIFF_SYM1947=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1947
 LTDIE_129_POINTER:
 
 	.byte 13
-LDIFF_SYM1939=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM1939
+LDIFF_SYM1948=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1948
 LTDIE_129_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1940=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM1940
+LDIFF_SYM1949=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1949
 LTDIE_122:
 
 	.byte 5
 	.asciz "MonoTouch_Dialog_Utilities_LRUCache`2"
 
 	.byte 36,16
-LDIFF_SYM1941=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1941
+LDIFF_SYM1950=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1950
 	.byte 2,35,0,6
 	.asciz "dict"
 
-LDIFF_SYM1942=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1942
+LDIFF_SYM1951=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1951
 	.byte 2,35,8,6
 	.asciz "revdict"
 
-LDIFF_SYM1943=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1943
+LDIFF_SYM1952=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1952
 	.byte 2,35,12,6
 	.asciz "list"
 
-LDIFF_SYM1944=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1944
+LDIFF_SYM1953=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1953
 	.byte 2,35,16,6
 	.asciz "entryLimit"
 
-LDIFF_SYM1945=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1945
+LDIFF_SYM1954=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1954
 	.byte 2,35,24,6
 	.asciz "sizeLimit"
 
-LDIFF_SYM1946=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1946
+LDIFF_SYM1955=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1955
 	.byte 2,35,28,6
 	.asciz "currentSize"
 
-LDIFF_SYM1947=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1947
+LDIFF_SYM1956=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1956
 	.byte 2,35,32,6
 	.asciz "slotSizeFunc"
 
-LDIFF_SYM1948=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1948
+LDIFF_SYM1957=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1957
 	.byte 2,35,20,0,7
 	.asciz "MonoTouch_Dialog_Utilities_LRUCache`2"
 
-LDIFF_SYM1949=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1949
+LDIFF_SYM1958=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1958
 LTDIE_122_POINTER:
 
 	.byte 13
-LDIFF_SYM1950=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1950
+LDIFF_SYM1959=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1959
 LTDIE_122_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1951=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1951
+LDIFF_SYM1960=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1960
 LTDIE_121:
 
 	.byte 5
 	.asciz "MonoTouch_Dialog_Utilities_ImageLoader"
 
 	.byte 12,16
-LDIFF_SYM1952=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1952
+LDIFF_SYM1961=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1961
 	.byte 2,35,0,6
 	.asciz "cache"
 
-LDIFF_SYM1953=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1953
+LDIFF_SYM1962=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1962
 	.byte 2,35,8,0,7
 	.asciz "MonoTouch_Dialog_Utilities_ImageLoader"
 
-LDIFF_SYM1954=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1954
+LDIFF_SYM1963=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1963
 LTDIE_121_POINTER:
 
 	.byte 13
-LDIFF_SYM1955=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1955
+LDIFF_SYM1964=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1964
 LTDIE_121_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1956=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1956
+LDIFF_SYM1965=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1965
 	.byte 2
 	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:.ctor"
 	.long _MonoTouch_Dialog_Utilities_ImageLoader__ctor_int_int
-	.long Lme_f7
+	.long Lme_f9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1957=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1957
+LDIFF_SYM1966=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1966
 	.byte 1,85,3
 	.asciz "cacheSize"
 
-LDIFF_SYM1958=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1958
+LDIFF_SYM1967=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1967
 	.byte 1,86,3
 	.asciz "memoryLimit"
 
-LDIFF_SYM1959=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1959
+LDIFF_SYM1968=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1968
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1960=Lfde239_end - Lfde239_start
-	.long LDIFF_SYM1960
-Lfde239_start:
+LDIFF_SYM1969=Lfde241_end - Lfde241_start
+	.long LDIFF_SYM1969
+Lfde241_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Utilities_ImageLoader__ctor_int_int
 
-LDIFF_SYM1961=Lme_f7 - _MonoTouch_Dialog_Utilities_ImageLoader__ctor_int_int
-	.long LDIFF_SYM1961
+LDIFF_SYM1970=Lme_f9 - _MonoTouch_Dialog_Utilities_ImageLoader__ctor_int_int
+	.long LDIFF_SYM1970
 	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1,68,14,32
-	.align 2
-Lfde239_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:sizer"
-	.long _MonoTouch_Dialog_Utilities_ImageLoader_sizer_MonoTouch_UIKit_UIImage
-	.long Lme_f8
-
-	.byte 2,118,16,3
-	.asciz "img"
-
-LDIFF_SYM1962=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1962
-	.byte 2,125,0,11
-	.asciz "cg"
-
-LDIFF_SYM1963=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1963
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1964=Lfde240_end - Lfde240_start
-	.long LDIFF_SYM1964
-Lfde240_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_Utilities_ImageLoader_sizer_MonoTouch_UIKit_UIImage
-
-LDIFF_SYM1965=Lme_f8 - _MonoTouch_Dialog_Utilities_ImageLoader_sizer_MonoTouch_UIKit_UIImage
-	.long LDIFF_SYM1965
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
-	.align 2
-Lfde240_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:hex"
-	.long _MonoTouch_Dialog_Utilities_ImageLoader_hex_int
-	.long Lme_f9
-
-	.byte 2,118,16,3
-	.asciz "v"
-
-LDIFF_SYM1966=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1966
-	.byte 1,90,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1967=Lfde241_end - Lfde241_start
-	.long LDIFF_SYM1967
-Lfde241_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_Utilities_ImageLoader_hex_int
-
-LDIFF_SYM1968=Lme_f9 - _MonoTouch_Dialog_Utilities_ImageLoader_hex_int
-	.long LDIFF_SYM1968
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde241_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:md5"
-	.long _MonoTouch_Dialog_Utilities_ImageLoader_md5_string
+	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:sizer"
+	.long _MonoTouch_Dialog_Utilities_ImageLoader_sizer_MonoTouch_UIKit_UIImage
 	.long Lme_fa
 
 	.byte 2,118,16,3
-	.asciz "input"
+	.asciz "img"
 
-LDIFF_SYM1969=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1969
-	.byte 1,90,11
-	.asciz "bytes"
-
-LDIFF_SYM1970=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1970
-	.byte 1,90,11
-	.asciz "ret"
-
-LDIFF_SYM1971=LDIE_SZARRAY - Ldebug_info_start
+LDIFF_SYM1971=LTDIE_72_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1971
-	.byte 1,86,11
-	.asciz "i"
+	.byte 2,125,0,11
+	.asciz "cg"
 
 LDIFF_SYM1972=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1972
-	.byte 1,85,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -28790,13 +28812,88 @@ Lfde242_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Utilities_ImageLoader_md5_string
+	.long _MonoTouch_Dialog_Utilities_ImageLoader_sizer_MonoTouch_UIKit_UIImage
 
-LDIFF_SYM1974=Lme_fa - _MonoTouch_Dialog_Utilities_ImageLoader_md5_string
+LDIFF_SYM1974=Lme_fa - _MonoTouch_Dialog_Utilities_ImageLoader_sizer_MonoTouch_UIKit_UIImage
 	.long LDIFF_SYM1974
-	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde242_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:hex"
+	.long _MonoTouch_Dialog_Utilities_ImageLoader_hex_int
+	.long Lme_fb
+
+	.byte 2,118,16,3
+	.asciz "v"
+
+LDIFF_SYM1975=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1975
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1976=Lfde243_end - Lfde243_start
+	.long LDIFF_SYM1976
+Lfde243_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Utilities_ImageLoader_hex_int
+
+LDIFF_SYM1977=Lme_fb - _MonoTouch_Dialog_Utilities_ImageLoader_hex_int
+	.long LDIFF_SYM1977
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+	.align 2
+Lfde243_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:md5"
+	.long _MonoTouch_Dialog_Utilities_ImageLoader_md5_string
+	.long Lme_fc
+
+	.byte 2,118,16,3
+	.asciz "input"
+
+LDIFF_SYM1978=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1978
+	.byte 1,90,11
+	.asciz "bytes"
+
+LDIFF_SYM1979=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1979
+	.byte 1,90,11
+	.asciz "ret"
+
+LDIFF_SYM1980=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1980
+	.byte 1,86,11
+	.asciz "i"
+
+LDIFF_SYM1981=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1981
+	.byte 1,85,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1982=Lfde244_end - Lfde244_start
+	.long LDIFF_SYM1982
+Lfde244_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Utilities_ImageLoader_md5_string
+
+LDIFF_SYM1983=Lme_fc - _MonoTouch_Dialog_Utilities_ImageLoader_md5_string
+	.long LDIFF_SYM1983
+	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1,68,14,32
+	.align 2
+Lfde244_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_130:
@@ -28807,135 +28904,135 @@ LTDIE_130:
 	.byte 8,7
 	.asciz "MonoTouch_Dialog_Utilities_IImageUpdated"
 
-LDIFF_SYM1975=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM1975
+LDIFF_SYM1984=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM1984
 LTDIE_130_POINTER:
 
 	.byte 13
-LDIFF_SYM1976=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM1976
+LDIFF_SYM1985=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM1985
 LTDIE_130_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1977=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM1977
+LDIFF_SYM1986=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM1986
 	.byte 2
 	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:DefaultRequestImage"
 	.long _MonoTouch_Dialog_Utilities_ImageLoader_DefaultRequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
-	.long Lme_fb
+	.long Lme_fd
 
 	.byte 2,118,16,3
 	.asciz "uri"
 
-LDIFF_SYM1978=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1978
+LDIFF_SYM1987=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1987
 	.byte 2,125,0,3
 	.asciz "notify"
 
-LDIFF_SYM1979=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1979
+LDIFF_SYM1988=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1988
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1980=Lfde243_end - Lfde243_start
-	.long LDIFF_SYM1980
-Lfde243_start:
+LDIFF_SYM1989=Lfde245_end - Lfde245_start
+	.long LDIFF_SYM1989
+Lfde245_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Utilities_ImageLoader_DefaultRequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
 
-LDIFF_SYM1981=Lme_fb - _MonoTouch_Dialog_Utilities_ImageLoader_DefaultRequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
-	.long LDIFF_SYM1981
+LDIFF_SYM1990=Lme_fd - _MonoTouch_Dialog_Utilities_ImageLoader_DefaultRequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
+	.long LDIFF_SYM1990
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
-Lfde243_end:
+Lfde245_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:RequestImage"
 	.long _MonoTouch_Dialog_Utilities_ImageLoader_RequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
-	.long Lme_fc
+	.long Lme_fe
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1982=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1982
+LDIFF_SYM1991=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1991
 	.byte 1,85,3
 	.asciz "uri"
 
-LDIFF_SYM1983=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1983
+LDIFF_SYM1992=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1992
 	.byte 1,86,3
 	.asciz "notify"
 
-LDIFF_SYM1984=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1984
+LDIFF_SYM1993=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1993
 	.byte 1,90,11
 	.asciz "ret"
 
-LDIFF_SYM1985=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1985
+LDIFF_SYM1994=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1994
 	.byte 1,84,11
 	.asciz ""
 
-LDIFF_SYM1986=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1986
+LDIFF_SYM1995=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1995
 	.byte 2,123,0,11
 	.asciz ""
 
-LDIFF_SYM1987=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1987
+LDIFF_SYM1996=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1996
 	.byte 2,123,4,11
 	.asciz ""
 
-LDIFF_SYM1988=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1988
+LDIFF_SYM1997=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1997
 	.byte 2,123,8,11
 	.asciz ""
 
-LDIFF_SYM1989=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1989
+LDIFF_SYM1998=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1998
 	.byte 2,123,12,11
 	.asciz ""
 
-LDIFF_SYM1990=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1990
+LDIFF_SYM1999=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1999
 	.byte 2,123,16,11
 	.asciz "picfile"
 
-LDIFF_SYM1991=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1991
+LDIFF_SYM2000=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2000
 	.byte 2,123,20,11
 	.asciz ""
 
-LDIFF_SYM1992=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1992
+LDIFF_SYM2001=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2001
 	.byte 2,123,24,11
 	.asciz ""
 
-LDIFF_SYM1993=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1993
+LDIFF_SYM2002=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2002
 	.byte 2,123,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1994=Lfde244_end - Lfde244_start
-	.long LDIFF_SYM1994
-Lfde244_start:
+LDIFF_SYM2003=Lfde246_end - Lfde246_start
+	.long LDIFF_SYM2003
+Lfde246_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Utilities_ImageLoader_RequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
 
-LDIFF_SYM1995=Lme_fc - _MonoTouch_Dialog_Utilities_ImageLoader_RequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
-	.long LDIFF_SYM1995
+LDIFF_SYM2004=Lme_fe - _MonoTouch_Dialog_Utilities_ImageLoader_RequestImage_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
+	.long LDIFF_SYM2004
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,104,68,13,11
 	.align 2
-Lfde244_end:
+Lfde246_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_131:
@@ -28944,118 +29041,118 @@ LTDIE_131:
 	.asciz "_<QueueRequest>c__AnonStorey7"
 
 	.byte 12,16
-LDIFF_SYM1996=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1996
+LDIFF_SYM2005=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2005
 	.byte 2,35,0,6
 	.asciz "uri"
 
-LDIFF_SYM1997=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1997
+LDIFF_SYM2006=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2006
 	.byte 2,35,8,0,7
 	.asciz "_<QueueRequest>c__AnonStorey7"
 
-LDIFF_SYM1998=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM1998
+LDIFF_SYM2007=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM2007
 LTDIE_131_POINTER:
 
 	.byte 13
-LDIFF_SYM1999=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM1999
+LDIFF_SYM2008=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM2008
 LTDIE_131_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2000=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM2000
+LDIFF_SYM2009=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM2009
 LTDIE_132:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 20,16
-LDIFF_SYM2001=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2001
+LDIFF_SYM2010=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2010
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM2002=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2002
+LDIFF_SYM2011=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2011
 	.byte 2,35,8,6
 	.asciz "_size"
 
-LDIFF_SYM2003=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2003
+LDIFF_SYM2012=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2012
 	.byte 2,35,12,6
 	.asciz "_version"
 
-LDIFF_SYM2004=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2004
+LDIFF_SYM2013=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2013
 	.byte 2,35,16,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM2005=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM2005
+LDIFF_SYM2014=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM2014
 LTDIE_132_POINTER:
 
 	.byte 13
-LDIFF_SYM2006=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM2006
+LDIFF_SYM2015=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM2015
 LTDIE_132_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2007=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM2007
+LDIFF_SYM2016=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM2016
 	.byte 2
 	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:QueueRequest"
 	.long _MonoTouch_Dialog_Utilities_ImageLoader_QueueRequest_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
-	.long Lme_fd
+	.long Lme_ff
 
 	.byte 2,118,16,3
 	.asciz "uri"
 
-LDIFF_SYM2008=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2008
+LDIFF_SYM2017=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2017
 	.byte 1,86,3
 	.asciz "notify"
 
-LDIFF_SYM2009=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2009
+LDIFF_SYM2018=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2018
 	.byte 1,90,11
 	.asciz ""
 
-LDIFF_SYM2010=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2010
+LDIFF_SYM2019=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2019
 	.byte 1,84,11
 	.asciz ""
 
-LDIFF_SYM2011=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2011
+LDIFF_SYM2020=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2020
 	.byte 2,123,0,11
 	.asciz ""
 
-LDIFF_SYM2012=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2012
+LDIFF_SYM2021=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2021
 	.byte 2,123,4,11
 	.asciz "slot"
 
-LDIFF_SYM2013=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2013
+LDIFF_SYM2022=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2022
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2014=Lfde245_end - Lfde245_start
-	.long LDIFF_SYM2014
-Lfde245_start:
+LDIFF_SYM2023=Lfde247_end - Lfde247_start
+	.long LDIFF_SYM2023
+Lfde247_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Utilities_ImageLoader_QueueRequest_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
 
-LDIFF_SYM2015=Lme_fd - _MonoTouch_Dialog_Utilities_ImageLoader_QueueRequest_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
-	.long LDIFF_SYM2015
+LDIFF_SYM2024=Lme_ff - _MonoTouch_Dialog_Utilities_ImageLoader_QueueRequest_System_Uri_MonoTouch_Dialog_Utilities_IImageUpdated
+	.long LDIFF_SYM2024
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
 	.align 2
-Lfde245_end:
+Lfde247_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_133:
@@ -29064,74 +29161,74 @@ LTDIE_133:
 	.asciz "MonoTouch_Foundation_NSUrlResponse"
 
 	.byte 24,16
-LDIFF_SYM2016=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM2016
+LDIFF_SYM2025=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM2025
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_Foundation_NSUrlResponse"
 
-LDIFF_SYM2017=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM2017
+LDIFF_SYM2026=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM2026
 LTDIE_133_POINTER:
 
 	.byte 13
-LDIFF_SYM2018=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM2018
+LDIFF_SYM2027=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM2027
 LTDIE_133_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2019=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM2019
+LDIFF_SYM2028=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM2028
 LTDIE_134:
 
 	.byte 5
 	.asciz "MonoTouch_Foundation_NSUrlRequest"
 
 	.byte 28,16
-LDIFF_SYM2020=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM2020
+LDIFF_SYM2029=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM2029
 	.byte 2,35,0,6
 	.asciz "__mt_Url_var"
 
-LDIFF_SYM2021=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2021
+LDIFF_SYM2030=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2030
 	.byte 2,35,24,0,7
 	.asciz "MonoTouch_Foundation_NSUrlRequest"
 
-LDIFF_SYM2022=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM2022
+LDIFF_SYM2031=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM2031
 LTDIE_134_POINTER:
 
 	.byte 13
-LDIFF_SYM2023=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM2023
+LDIFF_SYM2032=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM2032
 LTDIE_134_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2024=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM2024
+LDIFF_SYM2033=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM2033
 LTDIE_135:
 
 	.byte 5
 	.asciz "MonoTouch_Foundation_NSData"
 
 	.byte 24,16
-LDIFF_SYM2025=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM2025
+LDIFF_SYM2034=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM2034
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_Foundation_NSData"
 
-LDIFF_SYM2026=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM2026
+LDIFF_SYM2035=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM2035
 LTDIE_135_POINTER:
 
 	.byte 13
-LDIFF_SYM2027=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM2027
+LDIFF_SYM2036=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM2036
 LTDIE_135_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2028=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM2028
+LDIFF_SYM2037=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM2037
 LTDIE_137:
 
 	.byte 17
@@ -29140,388 +29237,388 @@ LTDIE_137:
 	.byte 8,7
 	.asciz "System_Collections_IDictionary"
 
-LDIFF_SYM2029=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM2029
+LDIFF_SYM2038=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM2038
 LTDIE_137_POINTER:
 
 	.byte 13
-LDIFF_SYM2030=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM2030
+LDIFF_SYM2039=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM2039
 LTDIE_137_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2031=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM2031
+LDIFF_SYM2040=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM2040
 LTDIE_136:
 
 	.byte 5
 	.asciz "System_Exception"
 
 	.byte 60,16
-LDIFF_SYM2032=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2032
+LDIFF_SYM2041=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2041
 	.byte 2,35,0,6
 	.asciz "trace_ips"
 
-LDIFF_SYM2033=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2033
+LDIFF_SYM2042=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2042
 	.byte 2,35,8,6
 	.asciz "inner_exception"
 
-LDIFF_SYM2034=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2034
+LDIFF_SYM2043=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2043
 	.byte 2,35,12,6
 	.asciz "message"
 
-LDIFF_SYM2035=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2035
+LDIFF_SYM2044=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2044
 	.byte 2,35,16,6
 	.asciz "help_link"
 
-LDIFF_SYM2036=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2036
+LDIFF_SYM2045=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2045
 	.byte 2,35,20,6
 	.asciz "class_name"
 
-LDIFF_SYM2037=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2037
+LDIFF_SYM2046=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2046
 	.byte 2,35,24,6
 	.asciz "stack_trace"
 
-LDIFF_SYM2038=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2038
+LDIFF_SYM2047=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2047
 	.byte 2,35,28,6
 	.asciz "_remoteStackTraceString"
 
-LDIFF_SYM2039=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2039
+LDIFF_SYM2048=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2048
 	.byte 2,35,32,6
 	.asciz "remote_stack_index"
 
-LDIFF_SYM2040=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2040
+LDIFF_SYM2049=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2049
 	.byte 2,35,36,6
 	.asciz "hresult"
 
-LDIFF_SYM2041=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2041
+LDIFF_SYM2050=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2050
 	.byte 2,35,40,6
 	.asciz "source"
 
-LDIFF_SYM2042=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2042
+LDIFF_SYM2051=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2051
 	.byte 2,35,44,6
 	.asciz "_data"
 
-LDIFF_SYM2043=LTDIE_137_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2043
+LDIFF_SYM2052=LTDIE_137_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2052
 	.byte 2,35,48,6
 	.asciz "captured_traces"
 
-LDIFF_SYM2044=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2044
+LDIFF_SYM2053=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2053
 	.byte 2,35,52,6
 	.asciz "native_trace_ips"
 
-LDIFF_SYM2045=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2045
+LDIFF_SYM2054=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2054
 	.byte 2,35,56,0,7
 	.asciz "System_Exception"
 
-LDIFF_SYM2046=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM2046
+LDIFF_SYM2055=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM2055
 LTDIE_136_POINTER:
 
 	.byte 13
-LDIFF_SYM2047=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM2047
+LDIFF_SYM2056=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM2056
 LTDIE_136_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2048=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM2048
+LDIFF_SYM2057=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM2057
 	.byte 2
 	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:Download"
 	.long _MonoTouch_Dialog_Utilities_ImageLoader_Download_System_Uri
-	.long Lme_fe
-
-	.byte 2,118,16,3
-	.asciz "uri"
-
-LDIFF_SYM2049=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2049
-	.byte 3,123,192,0,11
-	.asciz "response"
-
-LDIFF_SYM2050=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2050
-	.byte 2,123,16,11
-	.asciz "error"
-
-LDIFF_SYM2051=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2051
-	.byte 2,123,20,11
-	.asciz "target"
-
-LDIFF_SYM2052=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2052
-	.byte 2,123,24,11
-	.asciz "req"
-
-LDIFF_SYM2053=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2053
-	.byte 2,123,28,11
-	.asciz "data"
-
-LDIFF_SYM2054=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2054
-	.byte 2,123,32,11
-	.asciz ""
-
-LDIFF_SYM2055=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2055
-	.byte 2,123,36,11
-	.asciz "e"
-
-LDIFF_SYM2056=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2056
-	.byte 2,123,40,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2057=Lfde246_end - Lfde246_start
-	.long LDIFF_SYM2057
-Lfde246_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_Utilities_ImageLoader_Download_System_Uri
-
-LDIFF_SYM2058=Lme_fe - _MonoTouch_Dialog_Utilities_ImageLoader_Download_System_Uri
-	.long LDIFF_SYM2058
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,112,68,13,11
-	.align 2
-Lfde246_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:StartPicDownload"
-	.long _MonoTouch_Dialog_Utilities_ImageLoader_StartPicDownload_System_Uri
-	.long Lme_ff
-
-	.byte 2,118,16,3
-	.asciz "uri"
-
-LDIFF_SYM2059=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2059
-	.byte 2,123,40,11
-	.asciz "e"
-
-LDIFF_SYM2060=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2060
-	.byte 2,123,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2061=Lfde247_end - Lfde247_start
-	.long LDIFF_SYM2061
-Lfde247_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_Utilities_ImageLoader_StartPicDownload_System_Uri
-
-LDIFF_SYM2062=Lme_ff - _MonoTouch_Dialog_Utilities_ImageLoader_StartPicDownload_System_Uri
-	.long LDIFF_SYM2062
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,64,68,13,11
-	.align 2
-Lfde247_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:_StartPicDownload"
-	.long _MonoTouch_Dialog_Utilities_ImageLoader__StartPicDownload_System_Uri
 	.long Lme_100
 
 	.byte 2,118,16,3
 	.asciz "uri"
 
-LDIFF_SYM2063=LTDIE_73_REFERENCE - Ldebug_info_start
+LDIFF_SYM2058=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2058
+	.byte 3,123,192,0,11
+	.asciz "response"
+
+LDIFF_SYM2059=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2059
+	.byte 2,123,16,11
+	.asciz "error"
+
+LDIFF_SYM2060=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2060
+	.byte 2,123,20,11
+	.asciz "target"
+
+LDIFF_SYM2061=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2061
+	.byte 2,123,24,11
+	.asciz "req"
+
+LDIFF_SYM2062=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2062
+	.byte 2,123,28,11
+	.asciz "data"
+
+LDIFF_SYM2063=LTDIE_135_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2063
-	.byte 1,90,11
-	.asciz "downloaded"
+	.byte 2,123,32,11
+	.asciz ""
 
 LDIFF_SYM2064=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM2064
-	.byte 2,123,0,11
-	.asciz "doInvoke"
+	.byte 2,123,36,11
+	.asciz "e"
 
-LDIFF_SYM2065=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM2065=LTDIE_136_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2065
-	.byte 2,123,1,11
-	.asciz ""
-
-LDIFF_SYM2066=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2066
-	.byte 2,123,4,11
-	.asciz ""
-
-LDIFF_SYM2067=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2067
-	.byte 2,123,8,0
+	.byte 2,123,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2068=Lfde248_end - Lfde248_start
-	.long LDIFF_SYM2068
+LDIFF_SYM2066=Lfde248_end - Lfde248_start
+	.long LDIFF_SYM2066
 Lfde248_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Utilities_ImageLoader__StartPicDownload_System_Uri
+	.long _MonoTouch_Dialog_Utilities_ImageLoader_Download_System_Uri
 
-LDIFF_SYM2069=Lme_100 - _MonoTouch_Dialog_Utilities_ImageLoader__StartPicDownload_System_Uri
-	.long LDIFF_SYM2069
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,56,68,13,11
+LDIFF_SYM2067=Lme_100 - _MonoTouch_Dialog_Utilities_ImageLoader_Download_System_Uri
+	.long LDIFF_SYM2067
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,112,68,13,11
 	.align 2
 Lfde248_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:NotifyImageListeners"
-	.long _MonoTouch_Dialog_Utilities_ImageLoader_NotifyImageListeners
+	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:StartPicDownload"
+	.long _MonoTouch_Dialog_Utilities_ImageLoader_StartPicDownload_System_Uri
 	.long Lme_101
 
-	.byte 2,118,16,11
-	.asciz ""
+	.byte 2,118,16,3
+	.asciz "uri"
 
-LDIFF_SYM2070=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2070
-	.byte 2,123,0,11
-	.asciz ""
-
-LDIFF_SYM2071=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2071
-	.byte 2,123,4,11
-	.asciz "quri"
-
-LDIFF_SYM2072=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2072
-	.byte 2,123,8,11
-	.asciz ""
-
-LDIFF_SYM2073=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2073
-	.byte 2,123,12,11
-	.asciz "list"
-
-LDIFF_SYM2074=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2074
-	.byte 2,123,28,11
-	.asciz "pr"
-
-LDIFF_SYM2075=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2075
-	.byte 2,123,32,11
-	.asciz ""
-
-LDIFF_SYM2076=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2076
-	.byte 2,123,36,11
+LDIFF_SYM2068=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2068
+	.byte 2,123,40,11
 	.asciz "e"
 
-LDIFF_SYM2077=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2077
-	.byte 2,123,52,0
+LDIFF_SYM2069=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2069
+	.byte 2,123,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2078=Lfde249_end - Lfde249_start
-	.long LDIFF_SYM2078
+LDIFF_SYM2070=Lfde249_end - Lfde249_start
+	.long LDIFF_SYM2070
 Lfde249_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Utilities_ImageLoader_NotifyImageListeners
+	.long _MonoTouch_Dialog_Utilities_ImageLoader_StartPicDownload_System_Uri
 
-LDIFF_SYM2079=Lme_101 - _MonoTouch_Dialog_Utilities_ImageLoader_NotifyImageListeners
-	.long LDIFF_SYM2079
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,192,1,68,13,11
+LDIFF_SYM2071=Lme_101 - _MonoTouch_Dialog_Utilities_ImageLoader_StartPicDownload_System_Uri
+	.long LDIFF_SYM2071
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,64,68,13,11
 	.align 2
 Lfde249_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.ImageLoader/<QueueRequest>c__AnonStorey7:.ctor"
-	.long _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__ctor
+	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:_StartPicDownload"
+	.long _MonoTouch_Dialog_Utilities_ImageLoader__StartPicDownload_System_Uri
 	.long Lme_102
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "uri"
 
-LDIFF_SYM2080=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2080
-	.byte 0,0
+LDIFF_SYM2072=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2072
+	.byte 1,90,11
+	.asciz "downloaded"
+
+LDIFF_SYM2073=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2073
+	.byte 2,123,0,11
+	.asciz "doInvoke"
+
+LDIFF_SYM2074=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2074
+	.byte 2,123,1,11
+	.asciz ""
+
+LDIFF_SYM2075=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2075
+	.byte 2,123,4,11
+	.asciz ""
+
+LDIFF_SYM2076=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2076
+	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2081=Lfde250_end - Lfde250_start
-	.long LDIFF_SYM2081
+LDIFF_SYM2077=Lfde250_end - Lfde250_start
+	.long LDIFF_SYM2077
 Lfde250_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__ctor
+	.long _MonoTouch_Dialog_Utilities_ImageLoader__StartPicDownload_System_Uri
 
-LDIFF_SYM2082=Lme_102 - _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__ctor
-	.long LDIFF_SYM2082
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM2078=Lme_102 - _MonoTouch_Dialog_Utilities_ImageLoader__StartPicDownload_System_Uri
+	.long LDIFF_SYM2078
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
 Lfde250_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.ImageLoader/<QueueRequest>c__AnonStorey7:<>m__B"
-	.long _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__m__B_object
+	.asciz "MonoTouch.Dialog.Utilities.ImageLoader:NotifyImageListeners"
+	.long _MonoTouch_Dialog_Utilities_ImageLoader_NotifyImageListeners
 	.long Lme_103
+
+	.byte 2,118,16,11
+	.asciz ""
+
+LDIFF_SYM2079=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2079
+	.byte 2,123,0,11
+	.asciz ""
+
+LDIFF_SYM2080=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2080
+	.byte 2,123,4,11
+	.asciz "quri"
+
+LDIFF_SYM2081=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2081
+	.byte 2,123,8,11
+	.asciz ""
+
+LDIFF_SYM2082=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2082
+	.byte 2,123,12,11
+	.asciz "list"
+
+LDIFF_SYM2083=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2083
+	.byte 2,123,28,11
+	.asciz "pr"
+
+LDIFF_SYM2084=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2084
+	.byte 2,123,32,11
+	.asciz ""
+
+LDIFF_SYM2085=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2085
+	.byte 2,123,36,11
+	.asciz "e"
+
+LDIFF_SYM2086=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2086
+	.byte 2,123,52,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2087=Lfde251_end - Lfde251_start
+	.long LDIFF_SYM2087
+Lfde251_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Utilities_ImageLoader_NotifyImageListeners
+
+LDIFF_SYM2088=Lme_103 - _MonoTouch_Dialog_Utilities_ImageLoader_NotifyImageListeners
+	.long LDIFF_SYM2088
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,192,1,68,13,11
+	.align 2
+Lfde251_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Utilities.ImageLoader/<QueueRequest>c__AnonStorey7:.ctor"
+	.long _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__ctor
+	.long Lme_104
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2083=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2083
+LDIFF_SYM2089=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2089
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2090=Lfde252_end - Lfde252_start
+	.long LDIFF_SYM2090
+Lfde252_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__ctor
+
+LDIFF_SYM2091=Lme_104 - _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__ctor
+	.long LDIFF_SYM2091
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde252_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Utilities.ImageLoader/<QueueRequest>c__AnonStorey7:<>m__B"
+	.long _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__m__B_object
+	.long Lme_105
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2092=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2092
 	.byte 2,123,24,3
 	.asciz "param0"
 
-LDIFF_SYM2084=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2084
+LDIFF_SYM2093=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2093
 	.byte 0,11
 	.asciz "e"
 
-LDIFF_SYM2085=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2085
+LDIFF_SYM2094=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2094
 	.byte 2,123,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2086=Lfde251_end - Lfde251_start
-	.long LDIFF_SYM2086
-Lfde251_start:
+LDIFF_SYM2095=Lfde253_end - Lfde253_start
+	.long LDIFF_SYM2095
+Lfde253_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__m__B_object
 
-LDIFF_SYM2087=Lme_103 - _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__m__B_object
-	.long LDIFF_SYM2087
+LDIFF_SYM2096=Lme_105 - _MonoTouch_Dialog_Utilities_ImageLoader__QueueRequestc__AnonStorey7__m__B_object
+	.long LDIFF_SYM2096
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,48,68,13,11
 	.align 2
-Lfde251_end:
+Lfde253_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_140:
@@ -29532,96 +29629,96 @@ LTDIE_140:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM2088=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM2088
+LDIFF_SYM2097=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM2097
 LTDIE_140_POINTER:
 
 	.byte 13
-LDIFF_SYM2089=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM2089
+LDIFF_SYM2098=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM2098
 LTDIE_140_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2090=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM2090
+LDIFF_SYM2099=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM2099
 LTDIE_139:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 52,16
-LDIFF_SYM2091=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2091
+LDIFF_SYM2100=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2100
 	.byte 2,35,0,6
 	.asciz "table"
 
-LDIFF_SYM2092=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2092
+LDIFF_SYM2101=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2101
 	.byte 2,35,8,6
 	.asciz "linkSlots"
 
-LDIFF_SYM2093=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2093
+LDIFF_SYM2102=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2102
 	.byte 2,35,12,6
 	.asciz "keySlots"
 
-LDIFF_SYM2094=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2094
+LDIFF_SYM2103=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2103
 	.byte 2,35,16,6
 	.asciz "valueSlots"
 
-LDIFF_SYM2095=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2095
+LDIFF_SYM2104=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2104
 	.byte 2,35,20,6
 	.asciz "hcp"
 
-LDIFF_SYM2096=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2096
+LDIFF_SYM2105=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2105
 	.byte 2,35,24,6
 	.asciz "serialization_info"
 
-LDIFF_SYM2097=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2097
+LDIFF_SYM2106=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2106
 	.byte 2,35,28,6
 	.asciz "touchedSlots"
 
-LDIFF_SYM2098=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2098
+LDIFF_SYM2107=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2107
 	.byte 2,35,32,6
 	.asciz "emptySlot"
 
-LDIFF_SYM2099=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2099
+LDIFF_SYM2108=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2108
 	.byte 2,35,36,6
 	.asciz "count"
 
-LDIFF_SYM2100=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2100
+LDIFF_SYM2109=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2109
 	.byte 2,35,40,6
 	.asciz "threshold"
 
-LDIFF_SYM2101=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2101
+LDIFF_SYM2110=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2110
 	.byte 2,35,44,6
 	.asciz "generation"
 
-LDIFF_SYM2102=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2102
+LDIFF_SYM2111=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2111
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM2103=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM2103
+LDIFF_SYM2112=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM2112
 LTDIE_139_POINTER:
 
 	.byte 13
-LDIFF_SYM2104=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM2104
+LDIFF_SYM2113=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM2113
 LTDIE_139_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2105=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM2105
+LDIFF_SYM2114=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM2114
 LTDIE_142:
 
 	.byte 17
@@ -29630,485 +29727,485 @@ LTDIE_142:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM2106=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM2106
+LDIFF_SYM2115=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM2115
 LTDIE_142_POINTER:
 
 	.byte 13
-LDIFF_SYM2107=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM2107
+LDIFF_SYM2116=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM2116
 LTDIE_142_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2108=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM2108
+LDIFF_SYM2117=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM2117
 LTDIE_141:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 52,16
-LDIFF_SYM2109=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2109
+LDIFF_SYM2118=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2118
 	.byte 2,35,0,6
 	.asciz "table"
 
-LDIFF_SYM2110=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2110
+LDIFF_SYM2119=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2119
 	.byte 2,35,8,6
 	.asciz "linkSlots"
 
-LDIFF_SYM2111=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2111
+LDIFF_SYM2120=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2120
 	.byte 2,35,12,6
 	.asciz "keySlots"
 
-LDIFF_SYM2112=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2112
+LDIFF_SYM2121=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2121
 	.byte 2,35,16,6
 	.asciz "valueSlots"
 
-LDIFF_SYM2113=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2113
+LDIFF_SYM2122=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2122
 	.byte 2,35,20,6
 	.asciz "hcp"
 
-LDIFF_SYM2114=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2114
+LDIFF_SYM2123=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2123
 	.byte 2,35,24,6
 	.asciz "serialization_info"
 
-LDIFF_SYM2115=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2115
+LDIFF_SYM2124=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2124
 	.byte 2,35,28,6
 	.asciz "touchedSlots"
 
-LDIFF_SYM2116=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2116
+LDIFF_SYM2125=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2125
 	.byte 2,35,32,6
 	.asciz "emptySlot"
 
-LDIFF_SYM2117=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2117
+LDIFF_SYM2126=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2126
 	.byte 2,35,36,6
 	.asciz "count"
 
-LDIFF_SYM2118=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2118
+LDIFF_SYM2127=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2127
 	.byte 2,35,40,6
 	.asciz "threshold"
 
-LDIFF_SYM2119=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2119
+LDIFF_SYM2128=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2128
 	.byte 2,35,44,6
 	.asciz "generation"
 
-LDIFF_SYM2120=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2120
+LDIFF_SYM2129=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2129
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM2121=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM2121
+LDIFF_SYM2130=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM2130
 LTDIE_141_POINTER:
 
 	.byte 13
-LDIFF_SYM2122=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM2122
+LDIFF_SYM2131=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM2131
 LTDIE_141_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2123=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM2123
+LDIFF_SYM2132=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM2132
 LTDIE_144:
 
 	.byte 5
 	.asciz "System_Collections_Generic_LinkedListNode`1"
 
 	.byte 24,16
-LDIFF_SYM2124=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2124
+LDIFF_SYM2133=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2133
 	.byte 2,35,0,6
 	.asciz "item"
 
-LDIFF_SYM2125=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2125
+LDIFF_SYM2134=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2134
 	.byte 2,35,8,6
 	.asciz "container"
 
-LDIFF_SYM2126=LTDIE_143_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2126
+LDIFF_SYM2135=LTDIE_143_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2135
 	.byte 2,35,12,6
 	.asciz "forward"
 
-LDIFF_SYM2127=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2127
+LDIFF_SYM2136=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2136
 	.byte 2,35,16,6
 	.asciz "back"
 
-LDIFF_SYM2128=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2128
+LDIFF_SYM2137=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2137
 	.byte 2,35,20,0,7
 	.asciz "System_Collections_Generic_LinkedListNode`1"
 
-LDIFF_SYM2129=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM2129
+LDIFF_SYM2138=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM2138
 LTDIE_144_POINTER:
 
 	.byte 13
-LDIFF_SYM2130=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM2130
+LDIFF_SYM2139=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM2139
 LTDIE_144_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2131=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM2131
+LDIFF_SYM2140=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM2140
 LTDIE_143:
 
 	.byte 5
 	.asciz "System_Collections_Generic_LinkedList`1"
 
 	.byte 24,16
-LDIFF_SYM2132=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2132
+LDIFF_SYM2141=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2141
 	.byte 2,35,0,6
 	.asciz "count"
 
-LDIFF_SYM2133=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2133
+LDIFF_SYM2142=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2142
 	.byte 2,35,16,6
 	.asciz "version"
 
-LDIFF_SYM2134=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2134
+LDIFF_SYM2143=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2143
 	.byte 2,35,20,6
 	.asciz "first"
 
-LDIFF_SYM2135=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2135
+LDIFF_SYM2144=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2144
 	.byte 2,35,8,6
 	.asciz "si"
 
-LDIFF_SYM2136=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2136
+LDIFF_SYM2145=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2145
 	.byte 2,35,12,0,7
 	.asciz "System_Collections_Generic_LinkedList`1"
 
-LDIFF_SYM2137=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM2137
+LDIFF_SYM2146=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM2146
 LTDIE_143_POINTER:
 
 	.byte 13
-LDIFF_SYM2138=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM2138
+LDIFF_SYM2147=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM2147
 LTDIE_143_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2139=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM2139
+LDIFF_SYM2148=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM2148
 LTDIE_145:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 52,16
-LDIFF_SYM2140=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2140
+LDIFF_SYM2149=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2149
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2141=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM2141
+LDIFF_SYM2150=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM2150
 LTDIE_145_POINTER:
 
 	.byte 13
-LDIFF_SYM2142=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM2142
+LDIFF_SYM2151=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM2151
 LTDIE_145_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2143=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM2143
+LDIFF_SYM2152=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM2152
 LTDIE_138:
 
 	.byte 5
 	.asciz "MonoTouch_Dialog_Utilities_LRUCache`2"
 
 	.byte 36,16
-LDIFF_SYM2144=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2144
+LDIFF_SYM2153=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2153
 	.byte 2,35,0,6
 	.asciz "dict"
 
-LDIFF_SYM2145=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2145
+LDIFF_SYM2154=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2154
 	.byte 2,35,8,6
 	.asciz "revdict"
 
-LDIFF_SYM2146=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2146
+LDIFF_SYM2155=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2155
 	.byte 2,35,12,6
 	.asciz "list"
 
-LDIFF_SYM2147=LTDIE_143_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2147
+LDIFF_SYM2156=LTDIE_143_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2156
 	.byte 2,35,16,6
 	.asciz "entryLimit"
 
-LDIFF_SYM2148=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2148
+LDIFF_SYM2157=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2157
 	.byte 2,35,24,6
 	.asciz "sizeLimit"
 
-LDIFF_SYM2149=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2149
+LDIFF_SYM2158=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2158
 	.byte 2,35,28,6
 	.asciz "currentSize"
 
-LDIFF_SYM2150=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2150
+LDIFF_SYM2159=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2159
 	.byte 2,35,32,6
 	.asciz "slotSizeFunc"
 
-LDIFF_SYM2151=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2151
+LDIFF_SYM2160=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2160
 	.byte 2,35,20,0,7
 	.asciz "MonoTouch_Dialog_Utilities_LRUCache`2"
 
-LDIFF_SYM2152=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM2152
+LDIFF_SYM2161=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM2161
 LTDIE_138_POINTER:
 
 	.byte 13
-LDIFF_SYM2153=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM2153
+LDIFF_SYM2162=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM2162
 LTDIE_138_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2154=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM2154
+LDIFF_SYM2163=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM2163
 	.byte 2
 	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2:.ctor"
 	.long _MonoTouch_Dialog_Utilities_LRUCache_2__ctor_int_int_System_Func_2_TValue_int
-	.long Lme_104
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2155=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2155
-	.byte 2,125,0,3
-	.asciz "entryLimit"
-
-LDIFF_SYM2156=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2156
-	.byte 2,125,4,3
-	.asciz "sizeLimit"
-
-LDIFF_SYM2157=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2157
-	.byte 2,125,8,3
-	.asciz "slotSizer"
-
-LDIFF_SYM2158=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2158
-	.byte 2,125,12,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2159=Lfde252_end - Lfde252_start
-	.long LDIFF_SYM2159
-Lfde252_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2__ctor_int_int_System_Func_2_TValue_int
-
-LDIFF_SYM2160=Lme_104 - _MonoTouch_Dialog_Utilities_LRUCache_2__ctor_int_int_System_Func_2_TValue_int
-	.long LDIFF_SYM2160
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,56
-	.align 2
-Lfde252_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2:get_Item"
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2_get_Item_TKey
-	.long Lme_105
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2161=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2161
-	.byte 2,125,4,3
-	.asciz "key"
-
-LDIFF_SYM2162=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2162
-	.byte 2,125,8,11
-	.asciz "node"
-
-LDIFF_SYM2163=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2163
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2164=Lfde253_end - Lfde253_start
-	.long LDIFF_SYM2164
-Lfde253_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2_get_Item_TKey
-
-LDIFF_SYM2165=Lme_105 - _MonoTouch_Dialog_Utilities_LRUCache_2_get_Item_TKey
-	.long LDIFF_SYM2165
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
-	.align 2
-Lfde253_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2:set_Item"
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2_set_Item_TKey_TValue
 	.long Lme_106
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2166=LTDIE_138_REFERENCE - Ldebug_info_start
+LDIFF_SYM2164=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2164
+	.byte 2,125,0,3
+	.asciz "entryLimit"
+
+LDIFF_SYM2165=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2165
+	.byte 2,125,4,3
+	.asciz "sizeLimit"
+
+LDIFF_SYM2166=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2166
-	.byte 2,125,12,3
-	.asciz "key"
+	.byte 2,125,8,3
+	.asciz "slotSizer"
 
-LDIFF_SYM2167=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2167=LTDIE_145_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2167
-	.byte 1,86,3
-	.asciz "value"
-
-LDIFF_SYM2168=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2168
-	.byte 1,90,11
-	.asciz "node"
-
-LDIFF_SYM2169=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2169
-	.byte 2,125,0,11
-	.asciz "size"
-
-LDIFF_SYM2170=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2170
-	.byte 1,85,11
-	.asciz "repSize"
-
-LDIFF_SYM2171=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2171
-	.byte 2,125,4,11
-	.asciz ""
-
-LDIFF_SYM2172=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2172
-	.byte 2,125,8,0
+	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2173=Lfde254_end - Lfde254_start
-	.long LDIFF_SYM2173
+LDIFF_SYM2168=Lfde254_end - Lfde254_start
+	.long LDIFF_SYM2168
 Lfde254_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2_set_Item_TKey_TValue
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2__ctor_int_int_System_Func_2_TValue_int
 
-LDIFF_SYM2174=Lme_106 - _MonoTouch_Dialog_Utilities_LRUCache_2_set_Item_TKey_TValue
-	.long LDIFF_SYM2174
-	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56
+LDIFF_SYM2169=Lme_106 - _MonoTouch_Dialog_Utilities_LRUCache_2__ctor_int_int_System_Func_2_TValue_int
+	.long LDIFF_SYM2169
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,56
 	.align 2
 Lfde254_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2:Evict"
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2_Evict
+	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2:get_Item"
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2_get_Item_TKey
 	.long Lme_107
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2175=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2175
-	.byte 2,125,12,11
-	.asciz "last"
-
-LDIFF_SYM2176=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2176
-	.byte 1,86,11
+LDIFF_SYM2170=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2170
+	.byte 2,125,4,3
 	.asciz "key"
 
-LDIFF_SYM2177=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2177
-	.byte 2,125,0,11
-	.asciz "size"
+LDIFF_SYM2171=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2171
+	.byte 2,125,8,11
+	.asciz "node"
 
-LDIFF_SYM2178=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2178
-	.byte 2,125,4,11
-	.asciz ""
-
-LDIFF_SYM2179=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2179
-	.byte 2,125,8,0
+LDIFF_SYM2172=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2172
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2180=Lfde255_end - Lfde255_start
-	.long LDIFF_SYM2180
+LDIFF_SYM2173=Lfde255_end - Lfde255_start
+	.long LDIFF_SYM2173
 Lfde255_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2_Evict
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2_get_Item_TKey
 
-LDIFF_SYM2181=Lme_107 - _MonoTouch_Dialog_Utilities_LRUCache_2_Evict
-	.long LDIFF_SYM2181
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,40
+LDIFF_SYM2174=Lme_107 - _MonoTouch_Dialog_Utilities_LRUCache_2_get_Item_TKey
+	.long LDIFF_SYM2174
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde255_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2:ToString"
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2_ToString
+	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2:set_Item"
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2_set_Item_TKey_TValue
 	.long Lme_108
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2182=LTDIE_138_REFERENCE - Ldebug_info_start
+LDIFF_SYM2175=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2175
+	.byte 2,125,12,3
+	.asciz "key"
+
+LDIFF_SYM2176=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2176
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM2177=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2177
+	.byte 1,90,11
+	.asciz "node"
+
+LDIFF_SYM2178=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2178
+	.byte 2,125,0,11
+	.asciz "size"
+
+LDIFF_SYM2179=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2179
+	.byte 1,85,11
+	.asciz "repSize"
+
+LDIFF_SYM2180=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2180
+	.byte 2,125,4,11
+	.asciz ""
+
+LDIFF_SYM2181=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2181
+	.byte 2,125,8,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2182=Lfde256_end - Lfde256_start
 	.long LDIFF_SYM2182
+Lfde256_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2_set_Item_TKey_TValue
+
+LDIFF_SYM2183=Lme_108 - _MonoTouch_Dialog_Utilities_LRUCache_2_set_Item_TKey_TValue
+	.long LDIFF_SYM2183
+	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56
+	.align 2
+Lfde256_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2:Evict"
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2_Evict
+	.long Lme_109
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2184=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2184
+	.byte 2,125,12,11
+	.asciz "last"
+
+LDIFF_SYM2185=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2185
+	.byte 1,86,11
+	.asciz "key"
+
+LDIFF_SYM2186=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2186
+	.byte 2,125,0,11
+	.asciz "size"
+
+LDIFF_SYM2187=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2187
+	.byte 2,125,4,11
+	.asciz ""
+
+LDIFF_SYM2188=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2188
+	.byte 2,125,8,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2189=Lfde257_end - Lfde257_start
+	.long LDIFF_SYM2189
+Lfde257_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2_Evict
+
+LDIFF_SYM2190=Lme_109 - _MonoTouch_Dialog_Utilities_LRUCache_2_Evict
+	.long LDIFF_SYM2190
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,40
+	.align 2
+Lfde257_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2:ToString"
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2_ToString
+	.long Lme_10a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2191=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2191
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2183=Lfde256_end - Lfde256_start
-	.long LDIFF_SYM2183
-Lfde256_start:
+LDIFF_SYM2192=Lfde258_end - Lfde258_start
+	.long LDIFF_SYM2192
+Lfde258_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Utilities_LRUCache_2_ToString
 
-LDIFF_SYM2184=Lme_108 - _MonoTouch_Dialog_Utilities_LRUCache_2_ToString
-	.long LDIFF_SYM2184
+LDIFF_SYM2193=Lme_10a - _MonoTouch_Dialog_Utilities_LRUCache_2_ToString
+	.long LDIFF_SYM2193
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde256_end:
+Lfde258_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_146:
@@ -30117,142 +30214,77 @@ LTDIE_146:
 	.asciz "MonoTouch_Dialog_MessageSummaryView"
 
 	.byte 72,16
-LDIFF_SYM2185=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM2185
+LDIFF_SYM2194=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM2194
 	.byte 2,35,0,6
 	.asciz "<Sender>k__BackingField"
 
-LDIFF_SYM2186=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2186
+LDIFF_SYM2195=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2195
 	.byte 2,35,44,6
 	.asciz "<Body>k__BackingField"
 
-LDIFF_SYM2187=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2187
+LDIFF_SYM2196=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2196
 	.byte 2,35,48,6
 	.asciz "<Subject>k__BackingField"
 
-LDIFF_SYM2188=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2188
+LDIFF_SYM2197=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2197
 	.byte 2,35,52,6
 	.asciz "<Date>k__BackingField"
 
-LDIFF_SYM2189=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2189
+LDIFF_SYM2198=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2198
 	.byte 2,35,56,6
 	.asciz "<NewFlag>k__BackingField"
 
-LDIFF_SYM2190=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2190
+LDIFF_SYM2199=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2199
 	.byte 2,35,64,6
 	.asciz "<MessageCount>k__BackingField"
 
-LDIFF_SYM2191=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2191
+LDIFF_SYM2200=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2200
 	.byte 2,35,68,0,7
 	.asciz "MonoTouch_Dialog_MessageSummaryView"
 
-LDIFF_SYM2192=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM2192
+LDIFF_SYM2201=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM2201
 LTDIE_146_POINTER:
 
 	.byte 13
-LDIFF_SYM2193=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM2193
+LDIFF_SYM2202=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM2202
 LTDIE_146_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2194=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM2194
+LDIFF_SYM2203=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM2203
 	.byte 2
 	.asciz "MonoTouch.Dialog.MessageSummaryView:get_Sender"
 	.long _MonoTouch_Dialog_MessageSummaryView_get_Sender
-	.long Lme_109
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2195=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2195
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2196=Lfde257_end - Lfde257_start
-	.long LDIFF_SYM2196
-Lfde257_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_get_Sender
-
-LDIFF_SYM2197=Lme_109 - _MonoTouch_Dialog_MessageSummaryView_get_Sender
-	.long LDIFF_SYM2197
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde257_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:set_Sender"
-	.long _MonoTouch_Dialog_MessageSummaryView_set_Sender_string
-	.long Lme_10a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2198=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2198
-	.byte 2,125,0,3
-	.asciz "value"
-
-LDIFF_SYM2199=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2199
-	.byte 2,125,4,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2200=Lfde258_end - Lfde258_start
-	.long LDIFF_SYM2200
-Lfde258_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_set_Sender_string
-
-LDIFF_SYM2201=Lme_10a - _MonoTouch_Dialog_MessageSummaryView_set_Sender_string
-	.long LDIFF_SYM2201
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde258_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:get_Body"
-	.long _MonoTouch_Dialog_MessageSummaryView_get_Body
 	.long Lme_10b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2202=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2202
+LDIFF_SYM2204=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2204
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2203=Lfde259_end - Lfde259_start
-	.long LDIFF_SYM2203
+LDIFF_SYM2205=Lfde259_end - Lfde259_start
+	.long LDIFF_SYM2205
 Lfde259_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_get_Body
+	.long _MonoTouch_Dialog_MessageSummaryView_get_Sender
 
-LDIFF_SYM2204=Lme_10b - _MonoTouch_Dialog_MessageSummaryView_get_Body
-	.long LDIFF_SYM2204
+LDIFF_SYM2206=Lme_10b - _MonoTouch_Dialog_MessageSummaryView_get_Sender
+	.long LDIFF_SYM2206
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde259_end:
@@ -30260,34 +30292,34 @@ Lfde259_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:set_Body"
-	.long _MonoTouch_Dialog_MessageSummaryView_set_Body_string
+	.asciz "MonoTouch.Dialog.MessageSummaryView:set_Sender"
+	.long _MonoTouch_Dialog_MessageSummaryView_set_Sender_string
 	.long Lme_10c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2205=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2205
+LDIFF_SYM2207=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2207
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM2206=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2206
+LDIFF_SYM2208=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2208
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2207=Lfde260_end - Lfde260_start
-	.long LDIFF_SYM2207
+LDIFF_SYM2209=Lfde260_end - Lfde260_start
+	.long LDIFF_SYM2209
 Lfde260_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_set_Body_string
+	.long _MonoTouch_Dialog_MessageSummaryView_set_Sender_string
 
-LDIFF_SYM2208=Lme_10c - _MonoTouch_Dialog_MessageSummaryView_set_Body_string
-	.long LDIFF_SYM2208
+LDIFF_SYM2210=Lme_10c - _MonoTouch_Dialog_MessageSummaryView_set_Sender_string
+	.long LDIFF_SYM2210
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde260_end:
@@ -30295,29 +30327,29 @@ Lfde260_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:get_Subject"
-	.long _MonoTouch_Dialog_MessageSummaryView_get_Subject
+	.asciz "MonoTouch.Dialog.MessageSummaryView:get_Body"
+	.long _MonoTouch_Dialog_MessageSummaryView_get_Body
 	.long Lme_10d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2209=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2209
+LDIFF_SYM2211=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2211
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2210=Lfde261_end - Lfde261_start
-	.long LDIFF_SYM2210
+LDIFF_SYM2212=Lfde261_end - Lfde261_start
+	.long LDIFF_SYM2212
 Lfde261_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_get_Subject
+	.long _MonoTouch_Dialog_MessageSummaryView_get_Body
 
-LDIFF_SYM2211=Lme_10d - _MonoTouch_Dialog_MessageSummaryView_get_Subject
-	.long LDIFF_SYM2211
+LDIFF_SYM2213=Lme_10d - _MonoTouch_Dialog_MessageSummaryView_get_Body
+	.long LDIFF_SYM2213
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde261_end:
@@ -30325,34 +30357,34 @@ Lfde261_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:set_Subject"
-	.long _MonoTouch_Dialog_MessageSummaryView_set_Subject_string
+	.asciz "MonoTouch.Dialog.MessageSummaryView:set_Body"
+	.long _MonoTouch_Dialog_MessageSummaryView_set_Body_string
 	.long Lme_10e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2212=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2212
+LDIFF_SYM2214=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2214
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM2213=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2213
+LDIFF_SYM2215=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2215
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2214=Lfde262_end - Lfde262_start
-	.long LDIFF_SYM2214
+LDIFF_SYM2216=Lfde262_end - Lfde262_start
+	.long LDIFF_SYM2216
 Lfde262_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_set_Subject_string
+	.long _MonoTouch_Dialog_MessageSummaryView_set_Body_string
 
-LDIFF_SYM2215=Lme_10e - _MonoTouch_Dialog_MessageSummaryView_set_Subject_string
-	.long LDIFF_SYM2215
+LDIFF_SYM2217=Lme_10e - _MonoTouch_Dialog_MessageSummaryView_set_Body_string
+	.long LDIFF_SYM2217
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde262_end:
@@ -30360,159 +30392,159 @@ Lfde262_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:get_Date"
-	.long _MonoTouch_Dialog_MessageSummaryView_get_Date
+	.asciz "MonoTouch.Dialog.MessageSummaryView:get_Subject"
+	.long _MonoTouch_Dialog_MessageSummaryView_get_Subject
 	.long Lme_10f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2216=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2216
-	.byte 2,125,12,0
+LDIFF_SYM2218=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2218
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2217=Lfde263_end - Lfde263_start
-	.long LDIFF_SYM2217
+LDIFF_SYM2219=Lfde263_end - Lfde263_start
+	.long LDIFF_SYM2219
 Lfde263_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_get_Date
+	.long _MonoTouch_Dialog_MessageSummaryView_get_Subject
 
-LDIFF_SYM2218=Lme_10f - _MonoTouch_Dialog_MessageSummaryView_get_Date
-	.long LDIFF_SYM2218
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM2220=Lme_10f - _MonoTouch_Dialog_MessageSummaryView_get_Subject
+	.long LDIFF_SYM2220
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde263_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:set_Date"
-	.long _MonoTouch_Dialog_MessageSummaryView_set_Date_System_DateTime
+	.asciz "MonoTouch.Dialog.MessageSummaryView:set_Subject"
+	.long _MonoTouch_Dialog_MessageSummaryView_set_Subject_string
 	.long Lme_110
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2219=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2219
-	.byte 2,123,0,3
+LDIFF_SYM2221=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2221
+	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM2220=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2220
-	.byte 2,123,4,0
+LDIFF_SYM2222=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2222
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2221=Lfde264_end - Lfde264_start
-	.long LDIFF_SYM2221
+LDIFF_SYM2223=Lfde264_end - Lfde264_start
+	.long LDIFF_SYM2223
 Lfde264_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_set_Date_System_DateTime
+	.long _MonoTouch_Dialog_MessageSummaryView_set_Subject_string
 
-LDIFF_SYM2222=Lme_110 - _MonoTouch_Dialog_MessageSummaryView_set_Date_System_DateTime
-	.long LDIFF_SYM2222
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,32,68,13,11
+LDIFF_SYM2224=Lme_110 - _MonoTouch_Dialog_MessageSummaryView_set_Subject_string
+	.long LDIFF_SYM2224
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde264_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:get_NewFlag"
-	.long _MonoTouch_Dialog_MessageSummaryView_get_NewFlag
+	.asciz "MonoTouch.Dialog.MessageSummaryView:get_Date"
+	.long _MonoTouch_Dialog_MessageSummaryView_get_Date
 	.long Lme_111
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2223=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2223
-	.byte 2,125,0,0
+LDIFF_SYM2225=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2225
+	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2224=Lfde265_end - Lfde265_start
-	.long LDIFF_SYM2224
+LDIFF_SYM2226=Lfde265_end - Lfde265_start
+	.long LDIFF_SYM2226
 Lfde265_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_get_NewFlag
+	.long _MonoTouch_Dialog_MessageSummaryView_get_Date
 
-LDIFF_SYM2225=Lme_111 - _MonoTouch_Dialog_MessageSummaryView_get_NewFlag
-	.long LDIFF_SYM2225
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM2227=Lme_111 - _MonoTouch_Dialog_MessageSummaryView_get_Date
+	.long LDIFF_SYM2227
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde265_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:set_NewFlag"
-	.long _MonoTouch_Dialog_MessageSummaryView_set_NewFlag_bool
+	.asciz "MonoTouch.Dialog.MessageSummaryView:set_Date"
+	.long _MonoTouch_Dialog_MessageSummaryView_set_Date_System_DateTime
 	.long Lme_112
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2226=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2226
-	.byte 2,125,0,3
+LDIFF_SYM2228=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2228
+	.byte 2,123,0,3
 	.asciz "value"
 
-LDIFF_SYM2227=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2227
-	.byte 2,125,4,0
+LDIFF_SYM2229=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2229
+	.byte 2,123,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2228=Lfde266_end - Lfde266_start
-	.long LDIFF_SYM2228
+LDIFF_SYM2230=Lfde266_end - Lfde266_start
+	.long LDIFF_SYM2230
 Lfde266_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_set_NewFlag_bool
+	.long _MonoTouch_Dialog_MessageSummaryView_set_Date_System_DateTime
 
-LDIFF_SYM2229=Lme_112 - _MonoTouch_Dialog_MessageSummaryView_set_NewFlag_bool
-	.long LDIFF_SYM2229
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM2231=Lme_112 - _MonoTouch_Dialog_MessageSummaryView_set_Date_System_DateTime
+	.long LDIFF_SYM2231
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,32,68,13,11
 	.align 2
 Lfde266_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:get_MessageCount"
-	.long _MonoTouch_Dialog_MessageSummaryView_get_MessageCount
+	.asciz "MonoTouch.Dialog.MessageSummaryView:get_NewFlag"
+	.long _MonoTouch_Dialog_MessageSummaryView_get_NewFlag
 	.long Lme_113
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2230=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2230
+LDIFF_SYM2232=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2232
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2231=Lfde267_end - Lfde267_start
-	.long LDIFF_SYM2231
+LDIFF_SYM2233=Lfde267_end - Lfde267_start
+	.long LDIFF_SYM2233
 Lfde267_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_get_MessageCount
+	.long _MonoTouch_Dialog_MessageSummaryView_get_NewFlag
 
-LDIFF_SYM2232=Lme_113 - _MonoTouch_Dialog_MessageSummaryView_get_MessageCount
-	.long LDIFF_SYM2232
+LDIFF_SYM2234=Lme_113 - _MonoTouch_Dialog_MessageSummaryView_get_NewFlag
+	.long LDIFF_SYM2234
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde267_end:
@@ -30520,34 +30552,34 @@ Lfde267_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:set_MessageCount"
-	.long _MonoTouch_Dialog_MessageSummaryView_set_MessageCount_int
+	.asciz "MonoTouch.Dialog.MessageSummaryView:set_NewFlag"
+	.long _MonoTouch_Dialog_MessageSummaryView_set_NewFlag_bool
 	.long Lme_114
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2233=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2233
+LDIFF_SYM2235=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2235
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM2234=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2234
+LDIFF_SYM2236=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2236
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2235=Lfde268_end - Lfde268_start
-	.long LDIFF_SYM2235
+LDIFF_SYM2237=Lfde268_end - Lfde268_start
+	.long LDIFF_SYM2237
 Lfde268_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_set_MessageCount_int
+	.long _MonoTouch_Dialog_MessageSummaryView_set_NewFlag_bool
 
-LDIFF_SYM2236=Lme_114 - _MonoTouch_Dialog_MessageSummaryView_set_MessageCount_int
-	.long LDIFF_SYM2236
+LDIFF_SYM2238=Lme_114 - _MonoTouch_Dialog_MessageSummaryView_set_NewFlag_bool
+	.long LDIFF_SYM2238
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde268_end:
@@ -30555,129 +30587,134 @@ Lfde268_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:.cctor"
-	.long _MonoTouch_Dialog_MessageSummaryView__cctor
+	.asciz "MonoTouch.Dialog.MessageSummaryView:get_MessageCount"
+	.long _MonoTouch_Dialog_MessageSummaryView_get_MessageCount
 	.long Lme_115
 
-	.byte 2,118,16,11
-	.asciz "colorspace"
+	.byte 2,118,16,3
+	.asciz "this"
 
-LDIFF_SYM2237=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2237
-	.byte 2,123,8,0
+LDIFF_SYM2239=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2239
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2238=Lfde269_end - Lfde269_start
-	.long LDIFF_SYM2238
+LDIFF_SYM2240=Lfde269_end - Lfde269_start
+	.long LDIFF_SYM2240
 Lfde269_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView__cctor
+	.long _MonoTouch_Dialog_MessageSummaryView_get_MessageCount
 
-LDIFF_SYM2239=Lme_115 - _MonoTouch_Dialog_MessageSummaryView__cctor
-	.long LDIFF_SYM2239
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,56,68,13,11
+LDIFF_SYM2241=Lme_115 - _MonoTouch_Dialog_MessageSummaryView_get_MessageCount
+	.long LDIFF_SYM2241
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde269_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:.ctor"
-	.long _MonoTouch_Dialog_MessageSummaryView__ctor
+	.asciz "MonoTouch.Dialog.MessageSummaryView:set_MessageCount"
+	.long _MonoTouch_Dialog_MessageSummaryView_set_MessageCount_int
 	.long Lme_116
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2240=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2240
-	.byte 1,90,0
+LDIFF_SYM2242=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2242
+	.byte 2,125,0,3
+	.asciz "value"
+
+LDIFF_SYM2243=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2243
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2241=Lfde270_end - Lfde270_start
-	.long LDIFF_SYM2241
+LDIFF_SYM2244=Lfde270_end - Lfde270_start
+	.long LDIFF_SYM2244
 Lfde270_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView__ctor
+	.long _MonoTouch_Dialog_MessageSummaryView_set_MessageCount_int
 
-LDIFF_SYM2242=Lme_116 - _MonoTouch_Dialog_MessageSummaryView__ctor
-	.long LDIFF_SYM2242
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+LDIFF_SYM2245=Lme_116 - _MonoTouch_Dialog_MessageSummaryView_set_MessageCount_int
+	.long LDIFF_SYM2245
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde270_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:Update"
-	.long _MonoTouch_Dialog_MessageSummaryView_Update_string_string_string_System_DateTime_bool_int
+	.asciz "MonoTouch.Dialog.MessageSummaryView:.cctor"
+	.long _MonoTouch_Dialog_MessageSummaryView__cctor
 	.long Lme_117
 
-	.byte 2,118,16,3
-	.asciz "this"
+	.byte 2,118,16,11
+	.asciz "colorspace"
 
-LDIFF_SYM2243=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2243
-	.byte 1,90,3
-	.asciz "sender"
-
-LDIFF_SYM2244=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2244
-	.byte 2,123,0,3
-	.asciz "body"
-
-LDIFF_SYM2245=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2245
-	.byte 2,123,4,3
-	.asciz "subject"
-
-LDIFF_SYM2246=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM2246=LTDIE_82_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2246
-	.byte 2,123,8,3
-	.asciz "date"
-
-LDIFF_SYM2247=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2247
-	.byte 2,123,12,3
-	.asciz "newFlag"
-
-LDIFF_SYM2248=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2248
-	.byte 2,123,20,3
-	.asciz "messageCount"
-
-LDIFF_SYM2249=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2249
-	.byte 2,123,24,0
+	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2250=Lfde271_end - Lfde271_start
-	.long LDIFF_SYM2250
+LDIFF_SYM2247=Lfde271_end - Lfde271_start
+	.long LDIFF_SYM2247
 Lfde271_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageSummaryView_Update_string_string_string_System_DateTime_bool_int
+	.long _MonoTouch_Dialog_MessageSummaryView__cctor
 
-LDIFF_SYM2251=Lme_117 - _MonoTouch_Dialog_MessageSummaryView_Update_string_string_string_System_DateTime_bool_int
-	.long LDIFF_SYM2251
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11
+LDIFF_SYM2248=Lme_117 - _MonoTouch_Dialog_MessageSummaryView__cctor
+	.long LDIFF_SYM2248
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
 Lfde271_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageSummaryView:Draw"
-	.long _MonoTouch_Dialog_MessageSummaryView_Draw_System_Drawing_RectangleF
+	.asciz "MonoTouch.Dialog.MessageSummaryView:.ctor"
+	.long _MonoTouch_Dialog_MessageSummaryView__ctor
 	.long Lme_118
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2249=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2249
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2250=Lfde272_end - Lfde272_start
+	.long LDIFF_SYM2250
+Lfde272_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_MessageSummaryView__ctor
+
+LDIFF_SYM2251=Lme_118 - _MonoTouch_Dialog_MessageSummaryView__ctor
+	.long LDIFF_SYM2251
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+	.align 2
+Lfde272_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.MessageSummaryView:Update"
+	.long _MonoTouch_Dialog_MessageSummaryView_Update_string_string_string_System_DateTime_bool_int
+	.long Lme_119
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -30685,117 +30722,177 @@ Lfde271_end:
 LDIFF_SYM2252=LTDIE_146_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2252
 	.byte 1,90,3
-	.asciz "rect"
+	.asciz "sender"
 
-LDIFF_SYM2253=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2253=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM2253
-	.byte 0,11
-	.asciz "ctx"
+	.byte 2,123,0,3
+	.asciz "body"
 
-LDIFF_SYM2254=LTDIE_80_REFERENCE - Ldebug_info_start
+LDIFF_SYM2254=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM2254
-	.byte 1,84,11
-	.asciz "boxWidth"
+	.byte 2,123,4,3
+	.asciz "subject"
 
-LDIFF_SYM2255=LDIE_R4 - Ldebug_info_start
+LDIFF_SYM2255=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM2255
-	.byte 2,123,32,11
-	.asciz "ssize"
+	.byte 2,123,8,3
+	.asciz "date"
 
 LDIFF_SYM2256=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2256
-	.byte 2,123,36,11
-	.asciz "ms"
+	.byte 2,123,12,3
+	.asciz "newFlag"
 
-LDIFF_SYM2257=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM2257=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM2257
-	.byte 1,86,11
-	.asciz ""
+	.byte 2,123,20,3
+	.asciz "messageCount"
 
 LDIFF_SYM2258=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2258
-	.byte 2,123,44,11
-	.asciz "crect"
+	.byte 2,123,24,0
 
-LDIFF_SYM2259=LDIE_I4 - Ldebug_info_start
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2259=Lfde273_end - Lfde273_start
 	.long LDIFF_SYM2259
-	.byte 2,123,48,11
-	.asciz ""
+Lfde273_start:
 
-LDIFF_SYM2260=LDIE_I4 - Ldebug_info_start
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_MessageSummaryView_Update_string_string_string_System_DateTime_bool_int
+
+LDIFF_SYM2260=Lme_119 - _MonoTouch_Dialog_MessageSummaryView_Update_string_string_string_System_DateTime_bool_int
 	.long LDIFF_SYM2260
-	.byte 3,123,192,0,11
-	.asciz "diff"
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11
+	.align 2
+Lfde273_end:
 
-LDIFF_SYM2261=LDIE_I4 - Ldebug_info_start
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.MessageSummaryView:Draw"
+	.long _MonoTouch_Dialog_MessageSummaryView_Draw_System_Drawing_RectangleF
+	.long Lme_11a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2261=LTDIE_146_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2261
-	.byte 3,123,208,0,11
-	.asciz "label"
+	.byte 1,90,3
+	.asciz "rect"
 
-LDIFF_SYM2262=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM2262=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2262
-	.byte 1,85,11
-	.asciz ""
+	.byte 0,11
+	.asciz "ctx"
 
-LDIFF_SYM2263=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2263=LTDIE_80_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2263
-	.byte 3,123,216,0,11
-	.asciz ""
+	.byte 1,84,11
+	.asciz "boxWidth"
 
-LDIFF_SYM2264=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2264=LDIE_R4 - Ldebug_info_start
 	.long LDIFF_SYM2264
-	.byte 3,123,224,0,11
-	.asciz ""
+	.byte 2,123,32,11
+	.asciz "ssize"
 
 LDIFF_SYM2265=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2265
-	.byte 3,123,232,0,11
-	.asciz ""
+	.byte 2,123,36,11
+	.asciz "ms"
 
-LDIFF_SYM2266=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2266=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM2266
-	.byte 3,123,240,0,11
+	.byte 1,86,11
 	.asciz ""
 
 LDIFF_SYM2267=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2267
-	.byte 3,123,248,0,11
-	.asciz "dateSize"
+	.byte 2,123,44,11
+	.asciz "crect"
 
-LDIFF_SYM2268=LDIE_R4 - Ldebug_info_start
+LDIFF_SYM2268=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2268
-	.byte 3,123,128,1,11
+	.byte 2,123,48,11
 	.asciz ""
 
 LDIFF_SYM2269=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2269
+	.byte 3,123,192,0,11
+	.asciz "diff"
+
+LDIFF_SYM2270=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2270
+	.byte 3,123,208,0,11
+	.asciz "label"
+
+LDIFF_SYM2271=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2271
+	.byte 1,85,11
+	.asciz ""
+
+LDIFF_SYM2272=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2272
+	.byte 3,123,216,0,11
+	.asciz ""
+
+LDIFF_SYM2273=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2273
+	.byte 3,123,224,0,11
+	.asciz ""
+
+LDIFF_SYM2274=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2274
+	.byte 3,123,232,0,11
+	.asciz ""
+
+LDIFF_SYM2275=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2275
+	.byte 3,123,240,0,11
+	.asciz ""
+
+LDIFF_SYM2276=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2276
+	.byte 3,123,248,0,11
+	.asciz "dateSize"
+
+LDIFF_SYM2277=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM2277
+	.byte 3,123,128,1,11
+	.asciz ""
+
+LDIFF_SYM2278=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2278
 	.byte 3,123,132,1,11
 	.asciz "bw"
 
-LDIFF_SYM2270=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM2270
+LDIFF_SYM2279=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM2279
 	.byte 3,123,148,1,11
 	.asciz ""
 
-LDIFF_SYM2271=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2271
+LDIFF_SYM2280=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2280
 	.byte 3,123,152,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2272=Lfde272_end - Lfde272_start
-	.long LDIFF_SYM2272
-Lfde272_start:
+LDIFF_SYM2281=Lfde274_end - Lfde274_start
+	.long LDIFF_SYM2281
+Lfde274_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_MessageSummaryView_Draw_System_Drawing_RectangleF
 
-LDIFF_SYM2273=Lme_118 - _MonoTouch_Dialog_MessageSummaryView_Draw_System_Drawing_RectangleF
-	.long LDIFF_SYM2273
+LDIFF_SYM2282=Lme_11a - _MonoTouch_Dialog_MessageSummaryView_Draw_System_Drawing_RectangleF
+	.long LDIFF_SYM2282
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,216,4,68,13,11
 	.align 2
-Lfde272_end:
+Lfde274_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_148:
@@ -30804,351 +30901,351 @@ LTDIE_148:
 	.asciz "System_Action`3"
 
 	.byte 52,16
-LDIFF_SYM2274=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2274
+LDIFF_SYM2283=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2283
 	.byte 2,35,0,0,7
 	.asciz "System_Action`3"
 
-LDIFF_SYM2275=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM2275
+LDIFF_SYM2284=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM2284
 LTDIE_148_POINTER:
 
 	.byte 13
-LDIFF_SYM2276=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM2276
+LDIFF_SYM2285=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM2285
 LTDIE_148_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2277=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM2277
+LDIFF_SYM2286=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM2286
 LTDIE_147:
 
 	.byte 5
 	.asciz "MonoTouch_Dialog_MessageElement"
 
 	.byte 48,16
-LDIFF_SYM2278=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM2278
+LDIFF_SYM2287=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM2287
 	.byte 2,35,0,6
 	.asciz "Sender"
 
-LDIFF_SYM2279=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2279
+LDIFF_SYM2288=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2288
 	.byte 2,35,16,6
 	.asciz "Body"
 
-LDIFF_SYM2280=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2280
+LDIFF_SYM2289=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2289
 	.byte 2,35,20,6
 	.asciz "Subject"
 
-LDIFF_SYM2281=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2281
+LDIFF_SYM2290=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2290
 	.byte 2,35,24,6
 	.asciz "Date"
 
-LDIFF_SYM2282=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2282
+LDIFF_SYM2291=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2291
 	.byte 2,35,32,6
 	.asciz "NewFlag"
 
-LDIFF_SYM2283=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2283
+LDIFF_SYM2292=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2292
 	.byte 2,35,40,6
 	.asciz "MessageCount"
 
-LDIFF_SYM2284=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2284
+LDIFF_SYM2293=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2293
 	.byte 2,35,44,6
 	.asciz "Tapped"
 
-LDIFF_SYM2285=LTDIE_148_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2285
+LDIFF_SYM2294=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2294
 	.byte 2,35,28,0,7
 	.asciz "MonoTouch_Dialog_MessageElement"
 
-LDIFF_SYM2286=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM2286
+LDIFF_SYM2295=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM2295
 LTDIE_147_POINTER:
 
 	.byte 13
-LDIFF_SYM2287=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM2287
+LDIFF_SYM2296=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM2296
 LTDIE_147_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2288=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM2288
+LDIFF_SYM2297=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM2297
 LTDIE_149:
 
 	.byte 5
 	.asciz "_MessageCell"
 
 	.byte 64,16
-LDIFF_SYM2289=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM2289
+LDIFF_SYM2298=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM2298
 	.byte 2,35,0,6
 	.asciz "view"
 
-LDIFF_SYM2290=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2290
+LDIFF_SYM2299=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2299
 	.byte 2,35,60,0,7
 	.asciz "_MessageCell"
 
-LDIFF_SYM2291=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM2291
+LDIFF_SYM2300=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM2300
 LTDIE_149_POINTER:
 
 	.byte 13
-LDIFF_SYM2292=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM2292
+LDIFF_SYM2301=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM2301
 LTDIE_149_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2293=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM2293
+LDIFF_SYM2302=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM2302
 	.byte 2
 	.asciz "MonoTouch.Dialog.MessageElement:GetCell"
 	.long _MonoTouch_Dialog_MessageElement_GetCell_MonoTouch_UIKit_UITableView
-	.long Lme_119
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2294=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2294
-	.byte 2,125,0,3
-	.asciz "tv"
-
-LDIFF_SYM2295=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2295
-	.byte 1,90,11
-	.asciz "cell"
-
-LDIFF_SYM2296=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2296
-	.byte 1,85,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2297=Lfde273_end - Lfde273_start
-	.long LDIFF_SYM2297
-Lfde273_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_MessageElement_GetCell_MonoTouch_UIKit_UITableView
-
-LDIFF_SYM2298=Lme_119 - _MonoTouch_Dialog_MessageElement_GetCell_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM2298
-	.byte 12,13,0,72,14,8,135,2,68,14,24,132,6,133,5,136,4,138,3,142,1,68,14,40
-	.align 2
-Lfde273_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.MessageElement:GetHeight"
-	.long _MonoTouch_Dialog_MessageElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_11a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2299=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2299
-	.byte 0,3
-	.asciz "tableView"
-
-LDIFF_SYM2300=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2300
-	.byte 0,3
-	.asciz "indexPath"
-
-LDIFF_SYM2301=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2301
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2302=Lfde274_end - Lfde274_start
-	.long LDIFF_SYM2302
-Lfde274_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_MessageElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-
-LDIFF_SYM2303=Lme_11a - _MonoTouch_Dialog_MessageElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM2303
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
-	.align 2
-Lfde274_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.MessageElement:Selected"
-	.long _MonoTouch_Dialog_MessageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long Lme_11b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2304=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2304
+LDIFF_SYM2303=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2303
 	.byte 2,125,0,3
-	.asciz "dvc"
+	.asciz "tv"
 
-LDIFF_SYM2305=LTDIE_25_REFERENCE - Ldebug_info_start
+LDIFF_SYM2304=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2304
+	.byte 1,90,11
+	.asciz "cell"
+
+LDIFF_SYM2305=LTDIE_149_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2305
-	.byte 2,125,4,3
-	.asciz "tableView"
-
-LDIFF_SYM2306=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2306
-	.byte 2,125,8,3
-	.asciz "path"
-
-LDIFF_SYM2307=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2307
-	.byte 2,125,12,0
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2308=Lfde275_end - Lfde275_start
-	.long LDIFF_SYM2308
+LDIFF_SYM2306=Lfde275_end - Lfde275_start
+	.long LDIFF_SYM2306
 Lfde275_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long _MonoTouch_Dialog_MessageElement_GetCell_MonoTouch_UIKit_UITableView
 
-LDIFF_SYM2309=Lme_11b - _MonoTouch_Dialog_MessageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM2309
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,40
+LDIFF_SYM2307=Lme_11b - _MonoTouch_Dialog_MessageElement_GetCell_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM2307
+	.byte 12,13,0,72,14,8,135,2,68,14,24,132,6,133,5,136,4,138,3,142,1,68,14,40
 	.align 2
 Lfde275_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageElement:.cctor"
-	.long _MonoTouch_Dialog_MessageElement__cctor
+	.asciz "MonoTouch.Dialog.MessageElement:GetHeight"
+	.long _MonoTouch_Dialog_MessageElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long Lme_11c
 
-	.byte 2,118,16,0
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2308=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2308
+	.byte 0,3
+	.asciz "tableView"
+
+LDIFF_SYM2309=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2309
+	.byte 0,3
+	.asciz "indexPath"
+
+LDIFF_SYM2310=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2310
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2310=Lfde276_end - Lfde276_start
-	.long LDIFF_SYM2310
+LDIFF_SYM2311=Lfde276_end - Lfde276_start
+	.long LDIFF_SYM2311
 Lfde276_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageElement__cctor
+	.long _MonoTouch_Dialog_MessageElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM2311=Lme_11c - _MonoTouch_Dialog_MessageElement__cctor
-	.long LDIFF_SYM2311
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM2312=Lme_11c - _MonoTouch_Dialog_MessageElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM2312
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde276_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageElement/MessageCell:.ctor"
-	.long _MonoTouch_Dialog_MessageElement_MessageCell__ctor
+	.asciz "MonoTouch.Dialog.MessageElement:Selected"
+	.long _MonoTouch_Dialog_MessageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long Lme_11d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2312=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2312
-	.byte 1,90,0
+LDIFF_SYM2313=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2313
+	.byte 2,125,0,3
+	.asciz "dvc"
+
+LDIFF_SYM2314=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2314
+	.byte 2,125,4,3
+	.asciz "tableView"
+
+LDIFF_SYM2315=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2315
+	.byte 2,125,8,3
+	.asciz "path"
+
+LDIFF_SYM2316=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2316
+	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2313=Lfde277_end - Lfde277_start
-	.long LDIFF_SYM2313
+LDIFF_SYM2317=Lfde277_end - Lfde277_start
+	.long LDIFF_SYM2317
 Lfde277_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageElement_MessageCell__ctor
+	.long _MonoTouch_Dialog_MessageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM2314=Lme_11d - _MonoTouch_Dialog_MessageElement_MessageCell__ctor
-	.long LDIFF_SYM2314
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+LDIFF_SYM2318=Lme_11d - _MonoTouch_Dialog_MessageElement_Selected_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM2318
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,40
 	.align 2
 Lfde277_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageElement/MessageCell:Update"
-	.long _MonoTouch_Dialog_MessageElement_MessageCell_Update_MonoTouch_Dialog_MessageElement
+	.asciz "MonoTouch.Dialog.MessageElement:.cctor"
+	.long _MonoTouch_Dialog_MessageElement__cctor
 	.long Lme_11e
 
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2315=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2315
-	.byte 2,123,24,3
-	.asciz "me"
-
-LDIFF_SYM2316=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2316
-	.byte 1,90,0
+	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2317=Lfde278_end - Lfde278_start
-	.long LDIFF_SYM2317
+LDIFF_SYM2319=Lfde278_end - Lfde278_start
+	.long LDIFF_SYM2319
 Lfde278_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_MessageElement_MessageCell_Update_MonoTouch_Dialog_MessageElement
+	.long _MonoTouch_Dialog_MessageElement__cctor
 
-LDIFF_SYM2318=Lme_11e - _MonoTouch_Dialog_MessageElement_MessageCell_Update_MonoTouch_Dialog_MessageElement
-	.long LDIFF_SYM2318
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,72,68,13,11
+LDIFF_SYM2320=Lme_11e - _MonoTouch_Dialog_MessageElement__cctor
+	.long LDIFF_SYM2320
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde278_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.MessageElement/MessageCell:LayoutSubviews"
-	.long _MonoTouch_Dialog_MessageElement_MessageCell_LayoutSubviews
+	.asciz "MonoTouch.Dialog.MessageElement/MessageCell:.ctor"
+	.long _MonoTouch_Dialog_MessageElement_MessageCell__ctor
 	.long Lme_11f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2319=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2319
+LDIFF_SYM2321=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2321
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2320=Lfde279_end - Lfde279_start
-	.long LDIFF_SYM2320
+LDIFF_SYM2322=Lfde279_end - Lfde279_start
+	.long LDIFF_SYM2322
 Lfde279_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_MessageElement_MessageCell__ctor
+
+LDIFF_SYM2323=Lme_11f - _MonoTouch_Dialog_MessageElement_MessageCell__ctor
+	.long LDIFF_SYM2323
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+	.align 2
+Lfde279_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.MessageElement/MessageCell:Update"
+	.long _MonoTouch_Dialog_MessageElement_MessageCell_Update_MonoTouch_Dialog_MessageElement
+	.long Lme_120
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2324=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2324
+	.byte 2,123,24,3
+	.asciz "me"
+
+LDIFF_SYM2325=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2325
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2326=Lfde280_end - Lfde280_start
+	.long LDIFF_SYM2326
+Lfde280_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_MessageElement_MessageCell_Update_MonoTouch_Dialog_MessageElement
+
+LDIFF_SYM2327=Lme_120 - _MonoTouch_Dialog_MessageElement_MessageCell_Update_MonoTouch_Dialog_MessageElement
+	.long LDIFF_SYM2327
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,72,68,13,11
+	.align 2
+Lfde280_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.MessageElement/MessageCell:LayoutSubviews"
+	.long _MonoTouch_Dialog_MessageElement_MessageCell_LayoutSubviews
+	.long Lme_121
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2328=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2328
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2329=Lfde281_end - Lfde281_start
+	.long LDIFF_SYM2329
+Lfde281_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_MessageElement_MessageCell_LayoutSubviews
 
-LDIFF_SYM2321=Lme_11f - _MonoTouch_Dialog_MessageElement_MessageCell_LayoutSubviews
-	.long LDIFF_SYM2321
+LDIFF_SYM2330=Lme_121 - _MonoTouch_Dialog_MessageElement_MessageCell_LayoutSubviews
+	.long LDIFF_SYM2330
 	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
-Lfde279_end:
+Lfde281_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_150:
@@ -31157,130 +31254,130 @@ LTDIE_150:
 	.asciz "MonoTouch_Dialog_OwnerDrawnElement"
 
 	.byte 24,16
-LDIFF_SYM2322=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM2322
+LDIFF_SYM2331=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM2331
 	.byte 2,35,0,6
 	.asciz "<CellReuseIdentifier>k__BackingField"
 
-LDIFF_SYM2323=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2323
+LDIFF_SYM2332=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2332
 	.byte 2,35,16,6
 	.asciz "<Style>k__BackingField"
 
-LDIFF_SYM2324=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM2324
+LDIFF_SYM2333=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM2333
 	.byte 2,35,20,0,7
 	.asciz "MonoTouch_Dialog_OwnerDrawnElement"
 
-LDIFF_SYM2325=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM2325
+LDIFF_SYM2334=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM2334
 LTDIE_150_POINTER:
 
 	.byte 13
-LDIFF_SYM2326=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM2326
+LDIFF_SYM2335=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM2335
 LTDIE_150_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2327=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM2327
+LDIFF_SYM2336=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM2336
 	.byte 2
 	.asciz "MonoTouch.Dialog.OwnerDrawnElement:get_CellReuseIdentifier"
 	.long _MonoTouch_Dialog_OwnerDrawnElement_get_CellReuseIdentifier
-	.long Lme_120
+	.long Lme_122
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2328=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2328
+LDIFF_SYM2337=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2337
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2329=Lfde280_end - Lfde280_start
-	.long LDIFF_SYM2329
-Lfde280_start:
+LDIFF_SYM2338=Lfde282_end - Lfde282_start
+	.long LDIFF_SYM2338
+Lfde282_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_OwnerDrawnElement_get_CellReuseIdentifier
 
-LDIFF_SYM2330=Lme_120 - _MonoTouch_Dialog_OwnerDrawnElement_get_CellReuseIdentifier
-	.long LDIFF_SYM2330
+LDIFF_SYM2339=Lme_122 - _MonoTouch_Dialog_OwnerDrawnElement_get_CellReuseIdentifier
+	.long LDIFF_SYM2339
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde280_end:
+Lfde282_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.OwnerDrawnElement:get_Style"
 	.long _MonoTouch_Dialog_OwnerDrawnElement_get_Style
-	.long Lme_121
+	.long Lme_123
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2331=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2331
+LDIFF_SYM2340=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2340
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2332=Lfde281_end - Lfde281_start
-	.long LDIFF_SYM2332
-Lfde281_start:
+LDIFF_SYM2341=Lfde283_end - Lfde283_start
+	.long LDIFF_SYM2341
+Lfde283_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_OwnerDrawnElement_get_Style
 
-LDIFF_SYM2333=Lme_121 - _MonoTouch_Dialog_OwnerDrawnElement_get_Style
-	.long LDIFF_SYM2333
+LDIFF_SYM2342=Lme_123 - _MonoTouch_Dialog_OwnerDrawnElement_get_Style
+	.long LDIFF_SYM2342
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde281_end:
+Lfde283_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.OwnerDrawnElement:GetHeight"
 	.long _MonoTouch_Dialog_OwnerDrawnElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_122
+	.long Lme_124
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2334=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2334
+LDIFF_SYM2343=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2343
 	.byte 2,123,24,3
 	.asciz "tableView"
 
-LDIFF_SYM2335=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2335
+LDIFF_SYM2344=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2344
 	.byte 2,123,28,3
 	.asciz "indexPath"
 
-LDIFF_SYM2336=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2336
+LDIFF_SYM2345=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2345
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2337=Lfde282_end - Lfde282_start
-	.long LDIFF_SYM2337
-Lfde282_start:
+LDIFF_SYM2346=Lfde284_end - Lfde284_start
+	.long LDIFF_SYM2346
+Lfde284_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_OwnerDrawnElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM2338=Lme_122 - _MonoTouch_Dialog_OwnerDrawnElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM2338
+LDIFF_SYM2347=Lme_124 - _MonoTouch_Dialog_OwnerDrawnElement_GetHeight_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM2347
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
-Lfde282_end:
+Lfde284_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_152:
@@ -31289,152 +31386,77 @@ LTDIE_152:
 	.asciz "_OwnerDrawnCellView"
 
 	.byte 48,16
-LDIFF_SYM2339=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM2339
+LDIFF_SYM2348=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM2348
 	.byte 2,35,0,6
 	.asciz "element"
 
-LDIFF_SYM2340=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2340
+LDIFF_SYM2349=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2349
 	.byte 2,35,44,0,7
 	.asciz "_OwnerDrawnCellView"
 
-LDIFF_SYM2341=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM2341
+LDIFF_SYM2350=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM2350
 LTDIE_152_POINTER:
 
 	.byte 13
-LDIFF_SYM2342=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM2342
+LDIFF_SYM2351=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM2351
 LTDIE_152_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2343=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM2343
+LDIFF_SYM2352=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM2352
 LTDIE_151:
 
 	.byte 5
 	.asciz "_OwnerDrawnCell"
 
 	.byte 64,16
-LDIFF_SYM2344=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM2344
+LDIFF_SYM2353=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM2353
 	.byte 2,35,0,6
 	.asciz "view"
 
-LDIFF_SYM2345=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2345
+LDIFF_SYM2354=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2354
 	.byte 2,35,60,0,7
 	.asciz "_OwnerDrawnCell"
 
-LDIFF_SYM2346=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM2346
+LDIFF_SYM2355=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM2355
 LTDIE_151_POINTER:
 
 	.byte 13
-LDIFF_SYM2347=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM2347
+LDIFF_SYM2356=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM2356
 LTDIE_151_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2348=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM2348
+LDIFF_SYM2357=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM2357
 	.byte 2
 	.asciz "MonoTouch.Dialog.OwnerDrawnElement:GetCell"
 	.long _MonoTouch_Dialog_OwnerDrawnElement_GetCell_MonoTouch_UIKit_UITableView
-	.long Lme_123
+	.long Lme_125
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2349=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2349
+LDIFF_SYM2358=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2358
 	.byte 1,86,3
 	.asciz "tv"
 
-LDIFF_SYM2350=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2350
+LDIFF_SYM2359=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2359
 	.byte 1,90,11
 	.asciz "cell"
 
-LDIFF_SYM2351=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2351
-	.byte 1,85,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2352=Lfde283_end - Lfde283_start
-	.long LDIFF_SYM2352
-Lfde283_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_OwnerDrawnElement_GetCell_MonoTouch_UIKit_UITableView
-
-LDIFF_SYM2353=Lme_123 - _MonoTouch_Dialog_OwnerDrawnElement_GetCell_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM2353
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,48
-	.align 2
-Lfde283_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCell:.ctor"
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell__ctor_MonoTouch_Dialog_OwnerDrawnElement_MonoTouch_UIKit_UITableViewCellStyle_string
-	.long Lme_126
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2354=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2354
-	.byte 2,125,0,3
-	.asciz "element"
-
-LDIFF_SYM2355=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2355
-	.byte 2,125,4,3
-	.asciz "style"
-
-LDIFF_SYM2356=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM2356
-	.byte 2,125,8,3
-	.asciz "cellReuseIdentifier"
-
-LDIFF_SYM2357=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2357
-	.byte 2,125,12,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2358=Lfde284_end - Lfde284_start
-	.long LDIFF_SYM2358
-Lfde284_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell__ctor_MonoTouch_Dialog_OwnerDrawnElement_MonoTouch_UIKit_UITableViewCellStyle_string
-
-LDIFF_SYM2359=Lme_126 - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell__ctor_MonoTouch_Dialog_OwnerDrawnElement_MonoTouch_UIKit_UITableViewCellStyle_string
-	.long LDIFF_SYM2359
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
-	.align 2
-Lfde284_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCell:get_Element"
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_get_Element
-	.long Lme_127
-
-	.byte 2,118,16,3
-	.asciz "this"
-
 LDIFF_SYM2360=LTDIE_151_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2360
-	.byte 2,125,0,0
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -31444,19 +31466,19 @@ Lfde285_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_get_Element
+	.long _MonoTouch_Dialog_OwnerDrawnElement_GetCell_MonoTouch_UIKit_UITableView
 
-LDIFF_SYM2362=Lme_127 - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_get_Element
+LDIFF_SYM2362=Lme_125 - _MonoTouch_Dialog_OwnerDrawnElement_GetCell_MonoTouch_UIKit_UITableView
 	.long LDIFF_SYM2362
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,48
 	.align 2
 Lfde285_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCell:set_Element"
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_set_Element_MonoTouch_Dialog_OwnerDrawnElement
+	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCell:.ctor"
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell__ctor_MonoTouch_Dialog_OwnerDrawnElement_MonoTouch_UIKit_UITableViewCellStyle_string
 	.long Lme_128
 
 	.byte 2,118,16,3
@@ -31464,185 +31486,195 @@ Lfde285_end:
 
 LDIFF_SYM2363=LTDIE_151_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2363
-	.byte 1,86,3
-	.asciz "value"
+	.byte 2,125,0,3
+	.asciz "element"
 
 LDIFF_SYM2364=LTDIE_150_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2364
-	.byte 2,125,0,0
+	.byte 2,125,4,3
+	.asciz "style"
+
+LDIFF_SYM2365=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM2365
+	.byte 2,125,8,3
+	.asciz "cellReuseIdentifier"
+
+LDIFF_SYM2366=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2366
+	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2365=Lfde286_end - Lfde286_start
-	.long LDIFF_SYM2365
+LDIFF_SYM2367=Lfde286_end - Lfde286_start
+	.long LDIFF_SYM2367
 Lfde286_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_set_Element_MonoTouch_Dialog_OwnerDrawnElement
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell__ctor_MonoTouch_Dialog_OwnerDrawnElement_MonoTouch_UIKit_UITableViewCellStyle_string
 
-LDIFF_SYM2366=Lme_128 - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_set_Element_MonoTouch_Dialog_OwnerDrawnElement
-	.long LDIFF_SYM2366
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,32
+LDIFF_SYM2368=Lme_128 - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell__ctor_MonoTouch_Dialog_OwnerDrawnElement_MonoTouch_UIKit_UITableViewCellStyle_string
+	.long LDIFF_SYM2368
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde286_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCell:Update"
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_Update
+	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCell:get_Element"
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_get_Element
 	.long Lme_129
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2367=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2367
-	.byte 1,90,0
+LDIFF_SYM2369=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2369
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2368=Lfde287_end - Lfde287_start
-	.long LDIFF_SYM2368
+LDIFF_SYM2370=Lfde287_end - Lfde287_start
+	.long LDIFF_SYM2370
 Lfde287_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_Update
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_get_Element
 
-LDIFF_SYM2369=Lme_129 - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_Update
-	.long LDIFF_SYM2369
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+LDIFF_SYM2371=Lme_129 - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_get_Element
+	.long LDIFF_SYM2371
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde287_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCell:LayoutSubviews"
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_LayoutSubviews
+	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCell:set_Element"
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_set_Element_MonoTouch_Dialog_OwnerDrawnElement
 	.long Lme_12a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2370=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2370
-	.byte 1,90,0
+LDIFF_SYM2372=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2372
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM2373=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2373
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2371=Lfde288_end - Lfde288_start
-	.long LDIFF_SYM2371
+LDIFF_SYM2374=Lfde288_end - Lfde288_start
+	.long LDIFF_SYM2374
 Lfde288_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_LayoutSubviews
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_set_Element_MonoTouch_Dialog_OwnerDrawnElement
 
-LDIFF_SYM2372=Lme_12a - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_LayoutSubviews
-	.long LDIFF_SYM2372
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11
+LDIFF_SYM2375=Lme_12a - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_set_Element_MonoTouch_Dialog_OwnerDrawnElement
+	.long LDIFF_SYM2375
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,32
 	.align 2
 Lfde288_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCellView:.ctor"
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView__ctor_MonoTouch_Dialog_OwnerDrawnElement
+	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCell:Update"
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_Update
 	.long Lme_12b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2373=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2373
-	.byte 2,125,0,3
-	.asciz "element"
-
-LDIFF_SYM2374=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2374
-	.byte 2,125,4,0
+LDIFF_SYM2376=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2376
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2375=Lfde289_end - Lfde289_start
-	.long LDIFF_SYM2375
+LDIFF_SYM2377=Lfde289_end - Lfde289_start
+	.long LDIFF_SYM2377
 Lfde289_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView__ctor_MonoTouch_Dialog_OwnerDrawnElement
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_Update
 
-LDIFF_SYM2376=Lme_12b - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView__ctor_MonoTouch_Dialog_OwnerDrawnElement
-	.long LDIFF_SYM2376
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM2378=Lme_12b - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_Update
+	.long LDIFF_SYM2378
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde289_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCellView:get_Element"
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_get_Element
+	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCell:LayoutSubviews"
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_LayoutSubviews
 	.long Lme_12c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2377=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2377
-	.byte 2,125,0,0
+LDIFF_SYM2379=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2379
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2378=Lfde290_end - Lfde290_start
-	.long LDIFF_SYM2378
+LDIFF_SYM2380=Lfde290_end - Lfde290_start
+	.long LDIFF_SYM2380
 Lfde290_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_get_Element
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_LayoutSubviews
 
-LDIFF_SYM2379=Lme_12c - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_get_Element
-	.long LDIFF_SYM2379
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM2381=Lme_12c - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCell_LayoutSubviews
+	.long LDIFF_SYM2381
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
 Lfde290_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCellView:set_Element"
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_set_Element_MonoTouch_Dialog_OwnerDrawnElement
+	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCellView:.ctor"
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView__ctor_MonoTouch_Dialog_OwnerDrawnElement
 	.long Lme_12d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2380=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2380
+LDIFF_SYM2382=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2382
 	.byte 2,125,0,3
-	.asciz "value"
+	.asciz "element"
 
-LDIFF_SYM2381=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2381
+LDIFF_SYM2383=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2383
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2382=Lfde291_end - Lfde291_start
-	.long LDIFF_SYM2382
+LDIFF_SYM2384=Lfde291_end - Lfde291_start
+	.long LDIFF_SYM2384
 Lfde291_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_set_Element_MonoTouch_Dialog_OwnerDrawnElement
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView__ctor_MonoTouch_Dialog_OwnerDrawnElement
 
-LDIFF_SYM2383=Lme_12d - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_set_Element_MonoTouch_Dialog_OwnerDrawnElement
-	.long LDIFF_SYM2383
+LDIFF_SYM2385=Lme_12d - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView__ctor_MonoTouch_Dialog_OwnerDrawnElement
+	.long LDIFF_SYM2385
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde291_end:
@@ -31650,29 +31682,29 @@ Lfde291_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCellView:Update"
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Update
+	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCellView:get_Element"
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_get_Element
 	.long Lme_12e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2384=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2384
+LDIFF_SYM2386=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2386
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2385=Lfde292_end - Lfde292_start
-	.long LDIFF_SYM2385
+LDIFF_SYM2387=Lfde292_end - Lfde292_start
+	.long LDIFF_SYM2387
 Lfde292_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Update
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_get_Element
 
-LDIFF_SYM2386=Lme_12e - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Update
-	.long LDIFF_SYM2386
+LDIFF_SYM2388=Lme_12e - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_get_Element
+	.long LDIFF_SYM2388
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde292_end:
@@ -31680,42 +31712,107 @@ Lfde292_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCellView:Draw"
-	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Draw_System_Drawing_RectangleF
+	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCellView:set_Element"
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_set_Element_MonoTouch_Dialog_OwnerDrawnElement
 	.long Lme_12f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2387=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2387
+LDIFF_SYM2389=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2389
+	.byte 2,125,0,3
+	.asciz "value"
+
+LDIFF_SYM2390=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2390
+	.byte 2,125,4,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2391=Lfde293_end - Lfde293_start
+	.long LDIFF_SYM2391
+Lfde293_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_set_Element_MonoTouch_Dialog_OwnerDrawnElement
+
+LDIFF_SYM2392=Lme_12f - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_set_Element_MonoTouch_Dialog_OwnerDrawnElement
+	.long LDIFF_SYM2392
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde293_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCellView:Update"
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Update
+	.long Lme_130
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2393=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2393
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2394=Lfde294_end - Lfde294_start
+	.long LDIFF_SYM2394
+Lfde294_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Update
+
+LDIFF_SYM2395=Lme_130 - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Update
+	.long LDIFF_SYM2395
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde294_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.OwnerDrawnElement/OwnerDrawnCellView:Draw"
+	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Draw_System_Drawing_RectangleF
+	.long Lme_131
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2396=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2396
 	.byte 2,123,16,3
 	.asciz "rect"
 
-LDIFF_SYM2388=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2388
+LDIFF_SYM2397=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2397
 	.byte 2,123,20,11
 	.asciz "context"
 
-LDIFF_SYM2389=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2389
+LDIFF_SYM2398=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2398
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2390=Lfde293_end - Lfde293_start
-	.long LDIFF_SYM2390
-Lfde293_start:
+LDIFF_SYM2399=Lfde295_end - Lfde295_start
+	.long LDIFF_SYM2399
+Lfde295_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Draw_System_Drawing_RectangleF
 
-LDIFF_SYM2391=Lme_12f - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Draw_System_Drawing_RectangleF
-	.long LDIFF_SYM2391
+LDIFF_SYM2400=Lme_131 - _MonoTouch_Dialog_OwnerDrawnElement_OwnerDrawnCellView_Draw_System_Drawing_RectangleF
+	.long LDIFF_SYM2400
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,72,68,13,11
 	.align 2
-Lfde293_end:
+Lfde295_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_154:
@@ -31724,563 +31821,498 @@ LTDIE_154:
 	.asciz "_ResolveEventHolder"
 
 	.byte 8,16
-LDIFF_SYM2392=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2392
+LDIFF_SYM2401=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2401
 	.byte 2,35,0,0,7
 	.asciz "_ResolveEventHolder"
 
-LDIFF_SYM2393=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM2393
+LDIFF_SYM2402=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM2402
 LTDIE_154_POINTER:
 
 	.byte 13
-LDIFF_SYM2394=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM2394
+LDIFF_SYM2403=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM2403
 LTDIE_154_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2395=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM2395
+LDIFF_SYM2404=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM2404
 LTDIE_153:
 
 	.byte 5
 	.asciz "System_Reflection_Assembly"
 
 	.byte 48,16
-LDIFF_SYM2396=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2396
+LDIFF_SYM2405=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2405
 	.byte 2,35,0,6
 	.asciz "_mono_assembly"
 
-LDIFF_SYM2397=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2397
+LDIFF_SYM2406=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2406
 	.byte 2,35,8,6
 	.asciz "resolve_event_holder"
 
-LDIFF_SYM2398=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2398
+LDIFF_SYM2407=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2407
 	.byte 2,35,12,6
 	.asciz "_evidence"
 
-LDIFF_SYM2399=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2399
+LDIFF_SYM2408=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2408
 	.byte 2,35,16,6
 	.asciz "_minimum"
 
-LDIFF_SYM2400=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2400
+LDIFF_SYM2409=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2409
 	.byte 2,35,20,6
 	.asciz "_optional"
 
-LDIFF_SYM2401=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2401
+LDIFF_SYM2410=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2410
 	.byte 2,35,24,6
 	.asciz "_refuse"
 
-LDIFF_SYM2402=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2402
+LDIFF_SYM2411=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2411
 	.byte 2,35,28,6
 	.asciz "_granted"
 
-LDIFF_SYM2403=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2403
+LDIFF_SYM2412=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2412
 	.byte 2,35,32,6
 	.asciz "_denied"
 
-LDIFF_SYM2404=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2404
+LDIFF_SYM2413=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2413
 	.byte 2,35,36,6
 	.asciz "fromByteArray"
 
-LDIFF_SYM2405=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2405
+LDIFF_SYM2414=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2414
 	.byte 2,35,40,6
 	.asciz "assemblyName"
 
-LDIFF_SYM2406=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2406
+LDIFF_SYM2415=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2415
 	.byte 2,35,44,0,7
 	.asciz "System_Reflection_Assembly"
 
-LDIFF_SYM2407=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM2407
+LDIFF_SYM2416=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM2416
 LTDIE_153_POINTER:
 
 	.byte 13
-LDIFF_SYM2408=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM2408
+LDIFF_SYM2417=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM2417
 LTDIE_153_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2409=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM2409
+LDIFF_SYM2418=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM2418
 LTDIE_156:
 
 	.byte 5
 	.asciz "System_Func`4"
 
 	.byte 52,16
-LDIFF_SYM2410=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2410
+LDIFF_SYM2419=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2419
 	.byte 2,35,0,0,7
 	.asciz "System_Func`4"
 
-LDIFF_SYM2411=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM2411
+LDIFF_SYM2420=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM2420
 LTDIE_156_POINTER:
 
 	.byte 13
-LDIFF_SYM2412=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM2412
+LDIFF_SYM2421=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM2421
 LTDIE_156_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2413=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM2413
+LDIFF_SYM2422=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM2422
 LTDIE_157:
 
 	.byte 5
 	.asciz "System_Action`3"
 
 	.byte 52,16
-LDIFF_SYM2414=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2414
+LDIFF_SYM2423=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2423
 	.byte 2,35,0,0,7
 	.asciz "System_Action`3"
 
-LDIFF_SYM2415=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM2415
+LDIFF_SYM2424=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM2424
 LTDIE_157_POINTER:
 
 	.byte 13
-LDIFF_SYM2416=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM2416
+LDIFF_SYM2425=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM2425
 LTDIE_157_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2417=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM2417
+LDIFF_SYM2426=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM2426
 LTDIE_161:
 
 	.byte 5
 	.asciz "System_MarshalByRefObject"
 
 	.byte 12,16
-LDIFF_SYM2418=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2418
+LDIFF_SYM2427=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2427
 	.byte 2,35,0,6
 	.asciz "_identity"
 
-LDIFF_SYM2419=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2419
+LDIFF_SYM2428=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2428
 	.byte 2,35,8,0,7
 	.asciz "System_MarshalByRefObject"
 
-LDIFF_SYM2420=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM2420
+LDIFF_SYM2429=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM2429
 LTDIE_161_POINTER:
 
 	.byte 13
-LDIFF_SYM2421=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM2421
+LDIFF_SYM2430=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM2430
 LTDIE_161_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2422=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM2422
+LDIFF_SYM2431=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM2431
 LTDIE_165:
 
 	.byte 5
 	.asciz "System_Runtime_ConstrainedExecution_CriticalFinalizerObject"
 
 	.byte 8,16
-LDIFF_SYM2423=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2423
+LDIFF_SYM2432=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2432
 	.byte 2,35,0,0,7
 	.asciz "System_Runtime_ConstrainedExecution_CriticalFinalizerObject"
 
-LDIFF_SYM2424=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM2424
+LDIFF_SYM2433=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM2433
 LTDIE_165_POINTER:
 
 	.byte 13
-LDIFF_SYM2425=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM2425
+LDIFF_SYM2434=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM2434
 LTDIE_165_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2426=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM2426
+LDIFF_SYM2435=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM2435
 LTDIE_164:
 
 	.byte 5
 	.asciz "System_Runtime_InteropServices_SafeHandle"
 
 	.byte 24,16
-LDIFF_SYM2427=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM2427
+LDIFF_SYM2436=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM2436
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM2428=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2428
+LDIFF_SYM2437=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2437
 	.byte 2,35,8,6
 	.asciz "invalid_handle_value"
 
-LDIFF_SYM2429=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2429
+LDIFF_SYM2438=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2438
 	.byte 2,35,12,6
 	.asciz "refcount"
 
-LDIFF_SYM2430=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2430
+LDIFF_SYM2439=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2439
 	.byte 2,35,16,6
 	.asciz "owns_handle"
 
-LDIFF_SYM2431=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2431
+LDIFF_SYM2440=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2440
 	.byte 2,35,20,0,7
 	.asciz "System_Runtime_InteropServices_SafeHandle"
 
-LDIFF_SYM2432=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM2432
+LDIFF_SYM2441=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM2441
 LTDIE_164_POINTER:
 
 	.byte 13
-LDIFF_SYM2433=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM2433
+LDIFF_SYM2442=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM2442
 LTDIE_164_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2434=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM2434
+LDIFF_SYM2443=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM2443
 LTDIE_163:
 
 	.byte 5
 	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
 
 	.byte 24,16
-LDIFF_SYM2435=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM2435
+LDIFF_SYM2444=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM2444
 	.byte 2,35,0,0,7
 	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
 
-LDIFF_SYM2436=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM2436
+LDIFF_SYM2445=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM2445
 LTDIE_163_POINTER:
 
 	.byte 13
-LDIFF_SYM2437=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM2437
+LDIFF_SYM2446=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM2446
 LTDIE_163_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2438=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM2438
+LDIFF_SYM2447=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM2447
 LTDIE_162:
 
 	.byte 5
 	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
 
 	.byte 24,16
-LDIFF_SYM2439=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM2439
+LDIFF_SYM2448=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM2448
 	.byte 2,35,0,0,7
 	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
 
-LDIFF_SYM2440=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM2440
+LDIFF_SYM2449=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM2449
 LTDIE_162_POINTER:
 
 	.byte 13
-LDIFF_SYM2441=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM2441
+LDIFF_SYM2450=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM2450
 LTDIE_162_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2442=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM2442
+LDIFF_SYM2451=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM2451
 LTDIE_160:
 
 	.byte 5
 	.asciz "System_Threading_WaitHandle"
 
 	.byte 20,16
-LDIFF_SYM2443=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM2443
+LDIFF_SYM2452=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM2452
 	.byte 2,35,0,6
 	.asciz "safe_wait_handle"
 
-LDIFF_SYM2444=LTDIE_162_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2444
+LDIFF_SYM2453=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2453
 	.byte 2,35,12,6
 	.asciz "disposed"
 
-LDIFF_SYM2445=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2445
+LDIFF_SYM2454=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2454
 	.byte 2,35,16,0,7
 	.asciz "System_Threading_WaitHandle"
 
-LDIFF_SYM2446=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM2446
+LDIFF_SYM2455=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM2455
 LTDIE_160_POINTER:
 
 	.byte 13
-LDIFF_SYM2447=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM2447
+LDIFF_SYM2456=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM2456
 LTDIE_160_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2448=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM2448
+LDIFF_SYM2457=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM2457
 LTDIE_159:
 
 	.byte 5
 	.asciz "System_Threading_EventWaitHandle"
 
 	.byte 20,16
-LDIFF_SYM2449=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM2449
+LDIFF_SYM2458=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM2458
 	.byte 2,35,0,0,7
 	.asciz "System_Threading_EventWaitHandle"
 
-LDIFF_SYM2450=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM2450
+LDIFF_SYM2459=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM2459
 LTDIE_159_POINTER:
 
 	.byte 13
-LDIFF_SYM2451=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM2451
+LDIFF_SYM2460=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM2460
 LTDIE_159_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2452=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM2452
+LDIFF_SYM2461=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM2461
 LTDIE_158:
 
 	.byte 5
 	.asciz "System_Threading_AutoResetEvent"
 
 	.byte 20,16
-LDIFF_SYM2453=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM2453
+LDIFF_SYM2462=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM2462
 	.byte 2,35,0,0,7
 	.asciz "System_Threading_AutoResetEvent"
 
-LDIFF_SYM2454=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM2454
+LDIFF_SYM2463=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM2463
 LTDIE_158_POINTER:
 
 	.byte 13
-LDIFF_SYM2455=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM2455
+LDIFF_SYM2464=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM2464
 LTDIE_158_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2456=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM2456
+LDIFF_SYM2465=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM2465
 LTDIE_155:
 
 	.byte 5
 	.asciz "System_IO_Stream"
 
 	.byte 20,16
-LDIFF_SYM2457=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2457
+LDIFF_SYM2466=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2466
 	.byte 2,35,0,6
 	.asciz "async_read"
 
-LDIFF_SYM2458=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2458
+LDIFF_SYM2467=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2467
 	.byte 2,35,8,6
 	.asciz "async_write"
 
-LDIFF_SYM2459=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2459
+LDIFF_SYM2468=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2468
 	.byte 2,35,12,6
 	.asciz "async_event"
 
-LDIFF_SYM2460=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2460
+LDIFF_SYM2469=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2469
 	.byte 2,35,16,0,7
 	.asciz "System_IO_Stream"
 
-LDIFF_SYM2461=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM2461
+LDIFF_SYM2470=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM2470
 LTDIE_155_POINTER:
 
 	.byte 13
-LDIFF_SYM2462=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM2462
+LDIFF_SYM2471=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM2471
 LTDIE_155_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2463=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM2463
+LDIFF_SYM2472=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM2472
 	.byte 2
 	.asciz "MonoTouch.Dialog.Util:FromResource"
 	.long _MonoTouch_Dialog_Util_FromResource_System_Reflection_Assembly_string
-	.long Lme_130
+	.long Lme_132
 
 	.byte 2,118,16,3
 	.asciz "assembly"
 
-LDIFF_SYM2464=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2464
+LDIFF_SYM2473=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2473
 	.byte 1,86,3
 	.asciz "name"
 
-LDIFF_SYM2465=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2465
+LDIFF_SYM2474=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2474
 	.byte 1,90,11
 	.asciz "stream"
 
-LDIFF_SYM2466=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2466
+LDIFF_SYM2475=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2475
 	.byte 2,123,0,11
 	.asciz "buffer"
 
-LDIFF_SYM2467=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2467
+LDIFF_SYM2476=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2476
 	.byte 2,123,4,11
 	.asciz "copyBuffer"
 
-LDIFF_SYM2468=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2468
+LDIFF_SYM2477=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2477
 	.byte 1,85,11
 	.asciz "n"
 
-LDIFF_SYM2469=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2469
+LDIFF_SYM2478=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2478
 	.byte 1,84,11
 	.asciz "target"
 
-LDIFF_SYM2470=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2470
+LDIFF_SYM2479=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2479
 	.byte 2,123,8,11
 	.asciz "data"
 
-LDIFF_SYM2471=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2471
+LDIFF_SYM2480=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2480
 	.byte 2,123,12,11
 	.asciz ""
 
-LDIFF_SYM2472=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2472
+LDIFF_SYM2481=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2481
 	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2473=Lfde294_end - Lfde294_start
-	.long LDIFF_SYM2473
-Lfde294_start:
+LDIFF_SYM2482=Lfde296_end - Lfde296_start
+	.long LDIFF_SYM2482
+Lfde296_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Util_FromResource_System_Reflection_Assembly_string
 
-LDIFF_SYM2474=Lme_130 - _MonoTouch_Dialog_Util_FromResource_System_Reflection_Assembly_string
-	.long LDIFF_SYM2474
+LDIFF_SYM2483=Lme_132 - _MonoTouch_Dialog_Util_FromResource_System_Reflection_Assembly_string
+	.long LDIFF_SYM2483
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,120,68,13,11
-	.align 2
-Lfde294_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:.ctor"
-	.long _MonoTouch_Dialog_RefreshTableHeaderView__ctor_System_Drawing_RectangleF
-	.long Lme_131
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2475=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2475
-	.byte 1,90,3
-	.asciz "rect"
-
-LDIFF_SYM2476=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2476
-	.byte 2,123,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2477=Lfde295_end - Lfde295_start
-	.long LDIFF_SYM2477
-Lfde295_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_RefreshTableHeaderView__ctor_System_Drawing_RectangleF
-
-LDIFF_SYM2478=Lme_131 - _MonoTouch_Dialog_RefreshTableHeaderView__ctor_System_Drawing_RectangleF
-	.long LDIFF_SYM2478
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,96,68,13,11
-	.align 2
-Lfde295_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:get_LastUpdate"
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_get_LastUpdate
-	.long Lme_132
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2479=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2479
-	.byte 2,125,12,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2480=Lfde296_end - Lfde296_start
-	.long LDIFF_SYM2480
-Lfde296_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_get_LastUpdate
-
-LDIFF_SYM2481=Lme_132 - _MonoTouch_Dialog_RefreshTableHeaderView_get_LastUpdate
-	.long LDIFF_SYM2481
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde296_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:set_LastUpdate"
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_set_LastUpdate_System_DateTime
+	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:.ctor"
+	.long _MonoTouch_Dialog_RefreshTableHeaderView__ctor_System_Drawing_RectangleF
 	.long Lme_133
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2482=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2482
+LDIFF_SYM2484=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2484
 	.byte 1,90,3
-	.asciz "value"
+	.asciz "rect"
 
-LDIFF_SYM2483=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2483
-	.byte 2,123,48,0
+LDIFF_SYM2485=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2485
+	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2484=Lfde297_end - Lfde297_start
-	.long LDIFF_SYM2484
+LDIFF_SYM2486=Lfde297_end - Lfde297_start
+	.long LDIFF_SYM2486
 Lfde297_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_set_LastUpdate_System_DateTime
+	.long _MonoTouch_Dialog_RefreshTableHeaderView__ctor_System_Drawing_RectangleF
 
-LDIFF_SYM2485=Lme_133 - _MonoTouch_Dialog_RefreshTableHeaderView_set_LastUpdate_System_DateTime
-	.long LDIFF_SYM2485
+LDIFF_SYM2487=Lme_133 - _MonoTouch_Dialog_RefreshTableHeaderView__ctor_System_Drawing_RectangleF
+	.long LDIFF_SYM2487
 	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,96,68,13,11
 	.align 2
 Lfde297_end:
@@ -32288,106 +32320,96 @@ Lfde297_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:CreateViews"
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_CreateViews
+	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:get_LastUpdate"
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_get_LastUpdate
 	.long Lme_134
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2486=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2486
-	.byte 1,90,11
-	.asciz ""
-
-LDIFF_SYM2487=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2487
-	.byte 0,11
-	.asciz ""
-
-LDIFF_SYM2488=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2488=LTDIE_31_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2488
-	.byte 0,11
-	.asciz ""
-
-LDIFF_SYM2489=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2489
-	.byte 0,0
+	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2490=Lfde298_end - Lfde298_start
-	.long LDIFF_SYM2490
+LDIFF_SYM2489=Lfde298_end - Lfde298_start
+	.long LDIFF_SYM2489
 Lfde298_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_CreateViews
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_get_LastUpdate
 
-LDIFF_SYM2491=Lme_134 - _MonoTouch_Dialog_RefreshTableHeaderView_CreateViews
-	.long LDIFF_SYM2491
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,152,3,68,13,11
+LDIFF_SYM2490=Lme_134 - _MonoTouch_Dialog_RefreshTableHeaderView_get_LastUpdate
+	.long LDIFF_SYM2490
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde298_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:LayoutSubviews"
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_LayoutSubviews
+	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:set_LastUpdate"
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_set_LastUpdate_System_DateTime
 	.long Lme_135
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2492=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2492
-	.byte 1,90,11
-	.asciz "bounds"
+LDIFF_SYM2491=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2491
+	.byte 1,90,3
+	.asciz "value"
 
-LDIFF_SYM2493=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2493
-	.byte 2,123,16,0
+LDIFF_SYM2492=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2492
+	.byte 2,123,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2494=Lfde299_end - Lfde299_start
-	.long LDIFF_SYM2494
+LDIFF_SYM2493=Lfde299_end - Lfde299_start
+	.long LDIFF_SYM2493
 Lfde299_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_LayoutSubviews
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_set_LastUpdate_System_DateTime
 
-LDIFF_SYM2495=Lme_135 - _MonoTouch_Dialog_RefreshTableHeaderView_LayoutSubviews
-	.long LDIFF_SYM2495
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,240,1,68,13,11
+LDIFF_SYM2494=Lme_135 - _MonoTouch_Dialog_RefreshTableHeaderView_set_LastUpdate_System_DateTime
+	.long LDIFF_SYM2494
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,96,68,13,11
 	.align 2
 Lfde299_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:SetStatus"
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_SetStatus_MonoTouch_Dialog_RefreshViewStatus
+	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:CreateViews"
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_CreateViews
 	.long Lme_136
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2496=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2496
-	.byte 2,125,0,3
-	.asciz "status"
-
-LDIFF_SYM2497=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM2497
+LDIFF_SYM2495=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2495
 	.byte 1,90,11
-	.asciz "s"
+	.asciz ""
 
-LDIFF_SYM2498=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM2496=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2496
+	.byte 0,11
+	.asciz ""
+
+LDIFF_SYM2497=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2497
+	.byte 0,11
+	.asciz ""
+
+LDIFF_SYM2498=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2498
-	.byte 1,85,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -32397,19 +32419,19 @@ Lfde300_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_SetStatus_MonoTouch_Dialog_RefreshViewStatus
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_CreateViews
 
-LDIFF_SYM2500=Lme_136 - _MonoTouch_Dialog_RefreshTableHeaderView_SetStatus_MonoTouch_Dialog_RefreshViewStatus
+LDIFF_SYM2500=Lme_136 - _MonoTouch_Dialog_RefreshTableHeaderView_CreateViews
 	.long LDIFF_SYM2500
-	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,136,4,138,3,142,1,68,14,32
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,152,3,68,13,11
 	.align 2
 Lfde300_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:Draw"
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_Draw_System_Drawing_RectangleF
+	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:LayoutSubviews"
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_LayoutSubviews
 	.long Lme_137
 
 	.byte 2,118,16,3
@@ -32417,143 +32439,218 @@ Lfde300_end:
 
 LDIFF_SYM2501=LTDIE_31_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2501
-	.byte 1,90,3
-	.asciz "rect"
+	.byte 1,90,11
+	.asciz "bounds"
 
 LDIFF_SYM2502=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2502
-	.byte 0,11
-	.asciz "context"
-
-LDIFF_SYM2503=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2503
-	.byte 0,11
-	.asciz ""
-
-LDIFF_SYM2504=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2504
-	.byte 2,123,8,11
-	.asciz ""
-
-LDIFF_SYM2505=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2505
-	.byte 2,123,24,11
-	.asciz ""
-
-LDIFF_SYM2506=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2506
-	.byte 2,123,40,0
+	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2507=Lfde301_end - Lfde301_start
-	.long LDIFF_SYM2507
+LDIFF_SYM2503=Lfde301_end - Lfde301_start
+	.long LDIFF_SYM2503
 Lfde301_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_Draw_System_Drawing_RectangleF
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_LayoutSubviews
 
-LDIFF_SYM2508=Lme_137 - _MonoTouch_Dialog_RefreshTableHeaderView_Draw_System_Drawing_RectangleF
-	.long LDIFF_SYM2508
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,168,1,68,13,11
+LDIFF_SYM2504=Lme_137 - _MonoTouch_Dialog_RefreshTableHeaderView_LayoutSubviews
+	.long LDIFF_SYM2504
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,240,1,68,13,11
 	.align 2
 Lfde301_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:Flip"
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_Flip_bool
+	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:SetStatus"
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_SetStatus_MonoTouch_Dialog_RefreshViewStatus
 	.long Lme_138
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2509=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2509
-	.byte 1,90,3
-	.asciz "animate"
+LDIFF_SYM2505=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2505
+	.byte 2,125,0,3
+	.asciz "status"
 
-LDIFF_SYM2510=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2510
-	.byte 3,123,136,1,0
+LDIFF_SYM2506=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM2506
+	.byte 1,90,11
+	.asciz "s"
+
+LDIFF_SYM2507=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2507
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2511=Lfde302_end - Lfde302_start
-	.long LDIFF_SYM2511
+LDIFF_SYM2508=Lfde302_end - Lfde302_start
+	.long LDIFF_SYM2508
 Lfde302_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_Flip_bool
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_SetStatus_MonoTouch_Dialog_RefreshViewStatus
 
-LDIFF_SYM2512=Lme_138 - _MonoTouch_Dialog_RefreshTableHeaderView_Flip_bool
-	.long LDIFF_SYM2512
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,168,1,68,13,11
+LDIFF_SYM2509=Lme_138 - _MonoTouch_Dialog_RefreshTableHeaderView_SetStatus_MonoTouch_Dialog_RefreshViewStatus
+	.long LDIFF_SYM2509
+	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde302_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:SetActivity"
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_SetActivity_bool
+	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:Draw"
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_Draw_System_Drawing_RectangleF
 	.long Lme_139
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2513=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2513
+LDIFF_SYM2510=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2510
 	.byte 1,90,3
-	.asciz "active"
+	.asciz "rect"
 
-LDIFF_SYM2514=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM2511=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2511
+	.byte 0,11
+	.asciz "context"
+
+LDIFF_SYM2512=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2512
+	.byte 0,11
+	.asciz ""
+
+LDIFF_SYM2513=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2513
+	.byte 2,123,8,11
+	.asciz ""
+
+LDIFF_SYM2514=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2514
-	.byte 2,125,0,0
+	.byte 2,123,24,11
+	.asciz ""
+
+LDIFF_SYM2515=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2515
+	.byte 2,123,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2515=Lfde303_end - Lfde303_start
-	.long LDIFF_SYM2515
+LDIFF_SYM2516=Lfde303_end - Lfde303_start
+	.long LDIFF_SYM2516
 Lfde303_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_RefreshTableHeaderView_SetActivity_bool
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_Draw_System_Drawing_RectangleF
 
-LDIFF_SYM2516=Lme_139 - _MonoTouch_Dialog_RefreshTableHeaderView_SetActivity_bool
-	.long LDIFF_SYM2516
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+LDIFF_SYM2517=Lme_139 - _MonoTouch_Dialog_RefreshTableHeaderView_Draw_System_Drawing_RectangleF
+	.long LDIFF_SYM2517
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,168,1,68,13,11
 	.align 2
 Lfde303_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
+	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:Flip"
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_Flip_bool
+	.long Lme_13a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2518=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2518
+	.byte 1,90,3
+	.asciz "animate"
+
+LDIFF_SYM2519=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2519
+	.byte 3,123,136,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2520=Lfde304_end - Lfde304_start
+	.long LDIFF_SYM2520
+Lfde304_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_Flip_bool
+
+LDIFF_SYM2521=Lme_13a - _MonoTouch_Dialog_RefreshTableHeaderView_Flip_bool
+	.long LDIFF_SYM2521
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,168,1,68,13,11
+	.align 2
+Lfde304_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:SetActivity"
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_SetActivity_bool
+	.long Lme_13b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2522=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2522
+	.byte 1,90,3
+	.asciz "active"
+
+LDIFF_SYM2523=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2523
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2524=Lfde305_end - Lfde305_start
+	.long LDIFF_SYM2524
+Lfde305_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_RefreshTableHeaderView_SetActivity_bool
+
+LDIFF_SYM2525=Lme_13b - _MonoTouch_Dialog_RefreshTableHeaderView_SetActivity_bool
+	.long LDIFF_SYM2525
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+	.align 2
+Lfde305_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
 	.asciz "MonoTouch.Dialog.RefreshTableHeaderView:.cctor"
 	.long _MonoTouch_Dialog_RefreshTableHeaderView__cctor
-	.long Lme_13a
+	.long Lme_13c
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2517=Lfde304_end - Lfde304_start
-	.long LDIFF_SYM2517
-Lfde304_start:
+LDIFF_SYM2526=Lfde306_end - Lfde306_start
+	.long LDIFF_SYM2526
+Lfde306_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_RefreshTableHeaderView__cctor
 
-LDIFF_SYM2518=Lme_13a - _MonoTouch_Dialog_RefreshTableHeaderView__cctor
-	.long LDIFF_SYM2518
+LDIFF_SYM2527=Lme_13c - _MonoTouch_Dialog_RefreshTableHeaderView__cctor
+	.long LDIFF_SYM2527
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,16
 	.align 2
-Lfde304_end:
+Lfde306_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_166:
@@ -32562,95 +32659,95 @@ LTDIE_166:
 	.asciz "MonoTouch_Dialog_SearchChangedEventArgs"
 
 	.byte 12,16
-LDIFF_SYM2519=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM2519
+LDIFF_SYM2528=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM2528
 	.byte 2,35,0,6
 	.asciz "<Text>k__BackingField"
 
-LDIFF_SYM2520=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2520
+LDIFF_SYM2529=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2529
 	.byte 2,35,8,0,7
 	.asciz "MonoTouch_Dialog_SearchChangedEventArgs"
 
-LDIFF_SYM2521=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM2521
+LDIFF_SYM2530=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM2530
 LTDIE_166_POINTER:
 
 	.byte 13
-LDIFF_SYM2522=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM2522
+LDIFF_SYM2531=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM2531
 LTDIE_166_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2523=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM2523
+LDIFF_SYM2532=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM2532
 	.byte 2
 	.asciz "MonoTouch.Dialog.SearchChangedEventArgs:.ctor"
 	.long _MonoTouch_Dialog_SearchChangedEventArgs__ctor_string
-	.long Lme_13b
+	.long Lme_13d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2524=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2524
+LDIFF_SYM2533=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2533
 	.byte 2,125,0,3
 	.asciz "text"
 
-LDIFF_SYM2525=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2525
+LDIFF_SYM2534=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2534
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2526=Lfde305_end - Lfde305_start
-	.long LDIFF_SYM2526
-Lfde305_start:
+LDIFF_SYM2535=Lfde307_end - Lfde307_start
+	.long LDIFF_SYM2535
+Lfde307_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_SearchChangedEventArgs__ctor_string
 
-LDIFF_SYM2527=Lme_13b - _MonoTouch_Dialog_SearchChangedEventArgs__ctor_string
-	.long LDIFF_SYM2527
+LDIFF_SYM2536=Lme_13d - _MonoTouch_Dialog_SearchChangedEventArgs__ctor_string
+	.long LDIFF_SYM2536
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde305_end:
+Lfde307_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.SearchChangedEventArgs:set_Text"
 	.long _MonoTouch_Dialog_SearchChangedEventArgs_set_Text_string
-	.long Lme_13c
+	.long Lme_13e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2528=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2528
+LDIFF_SYM2537=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2537
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM2529=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2529
+LDIFF_SYM2538=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2538
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2530=Lfde306_end - Lfde306_start
-	.long LDIFF_SYM2530
-Lfde306_start:
+LDIFF_SYM2539=Lfde308_end - Lfde308_start
+	.long LDIFF_SYM2539
+Lfde308_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_SearchChangedEventArgs_set_Text_string
 
-LDIFF_SYM2531=Lme_13c - _MonoTouch_Dialog_SearchChangedEventArgs_set_Text_string
-	.long LDIFF_SYM2531
+LDIFF_SYM2540=Lme_13e - _MonoTouch_Dialog_SearchChangedEventArgs_set_Text_string
+	.long LDIFF_SYM2540
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
-Lfde306_end:
+Lfde308_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_168:
@@ -32659,258 +32756,258 @@ LTDIE_168:
 	.asciz "System_Action`1"
 
 	.byte 52,16
-LDIFF_SYM2532=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2532
+LDIFF_SYM2541=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2541
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2533=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM2533
+LDIFF_SYM2542=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM2542
 LTDIE_168_POINTER:
 
 	.byte 13
-LDIFF_SYM2534=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM2534
+LDIFF_SYM2543=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM2543
 LTDIE_168_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2535=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM2535
+LDIFF_SYM2544=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM2544
 LTDIE_167:
 
 	.byte 5
 	.asciz "MonoTouch_Dialog_GlassButton"
 
 	.byte 72,16
-LDIFF_SYM2536=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM2536
+LDIFF_SYM2545=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM2545
 	.byte 2,35,0,6
 	.asciz "pressed"
 
-LDIFF_SYM2537=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2537
+LDIFF_SYM2546=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2546
 	.byte 2,35,68,6
 	.asciz "NormalColor"
 
-LDIFF_SYM2538=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2538
+LDIFF_SYM2547=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2547
 	.byte 2,35,52,6
 	.asciz "HighlightedColor"
 
-LDIFF_SYM2539=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2539
+LDIFF_SYM2548=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2548
 	.byte 2,35,56,6
 	.asciz "DisabledColor"
 
-LDIFF_SYM2540=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2540
+LDIFF_SYM2549=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2549
 	.byte 2,35,60,6
 	.asciz "Tapped"
 
-LDIFF_SYM2541=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2541
+LDIFF_SYM2550=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2550
 	.byte 2,35,64,0,7
 	.asciz "MonoTouch_Dialog_GlassButton"
 
-LDIFF_SYM2542=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM2542
+LDIFF_SYM2551=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM2551
 LTDIE_167_POINTER:
 
 	.byte 13
-LDIFF_SYM2543=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM2543
+LDIFF_SYM2552=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM2552
 LTDIE_167_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2544=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM2544
+LDIFF_SYM2553=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM2553
 	.byte 2
 	.asciz "MonoTouch.Dialog.GlassButton:add_Tapped"
 	.long _MonoTouch_Dialog_GlassButton_add_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
-	.long Lme_13d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2545=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2545
-	.byte 1,86,3
-	.asciz "value"
-
-LDIFF_SYM2546=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2546
-	.byte 2,125,4,11
-	.asciz "V_0"
-
-LDIFF_SYM2547=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2547
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM2548=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2548
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2549=Lfde307_end - Lfde307_start
-	.long LDIFF_SYM2549
-Lfde307_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_GlassButton_add_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
-
-LDIFF_SYM2550=Lme_13d - _MonoTouch_Dialog_GlassButton_add_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
-	.long LDIFF_SYM2550
-	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,134,4,136,3,142,1,68,14,40
-	.align 2
-Lfde307_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.GlassButton:remove_Tapped"
-	.long _MonoTouch_Dialog_GlassButton_remove_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
-	.long Lme_13e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2551=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2551
-	.byte 1,86,3
-	.asciz "value"
-
-LDIFF_SYM2552=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2552
-	.byte 2,125,4,11
-	.asciz "V_0"
-
-LDIFF_SYM2553=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2553
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM2554=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2554
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2555=Lfde308_end - Lfde308_start
-	.long LDIFF_SYM2555
-Lfde308_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_GlassButton_remove_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
-
-LDIFF_SYM2556=Lme_13e - _MonoTouch_Dialog_GlassButton_remove_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
-	.long LDIFF_SYM2556
-	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,134,4,136,3,142,1,68,14,40
-	.align 2
-Lfde308_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.GlassButton:.ctor"
-	.long _MonoTouch_Dialog_GlassButton__ctor_System_Drawing_RectangleF
 	.long Lme_13f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2557=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2557
-	.byte 1,90,3
-	.asciz "frame"
+LDIFF_SYM2554=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2554
+	.byte 1,86,3
+	.asciz "value"
 
-LDIFF_SYM2558=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2558
-	.byte 2,123,16,0
+LDIFF_SYM2555=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2555
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM2556=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2556
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM2557=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2557
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2559=Lfde309_end - Lfde309_start
-	.long LDIFF_SYM2559
+LDIFF_SYM2558=Lfde309_end - Lfde309_start
+	.long LDIFF_SYM2558
 Lfde309_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_GlassButton__ctor_System_Drawing_RectangleF
+	.long _MonoTouch_Dialog_GlassButton_add_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
 
-LDIFF_SYM2560=Lme_13f - _MonoTouch_Dialog_GlassButton__ctor_System_Drawing_RectangleF
-	.long LDIFF_SYM2560
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,96,68,13,11
+LDIFF_SYM2559=Lme_13f - _MonoTouch_Dialog_GlassButton_add_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
+	.long LDIFF_SYM2559
+	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,134,4,136,3,142,1,68,14,40
 	.align 2
 Lfde309_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.GlassButton:get_Enabled"
-	.long _MonoTouch_Dialog_GlassButton_get_Enabled
+	.asciz "MonoTouch.Dialog.GlassButton:remove_Tapped"
+	.long _MonoTouch_Dialog_GlassButton_remove_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
 	.long Lme_140
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2561=LTDIE_167_REFERENCE - Ldebug_info_start
+LDIFF_SYM2560=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2560
+	.byte 1,86,3
+	.asciz "value"
+
+LDIFF_SYM2561=LTDIE_168_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2561
+	.byte 2,125,4,11
+	.asciz "V_0"
+
+LDIFF_SYM2562=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2562
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM2563=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2563
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2562=Lfde310_end - Lfde310_start
-	.long LDIFF_SYM2562
+LDIFF_SYM2564=Lfde310_end - Lfde310_start
+	.long LDIFF_SYM2564
 Lfde310_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_GlassButton_get_Enabled
+	.long _MonoTouch_Dialog_GlassButton_remove_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
 
-LDIFF_SYM2563=Lme_140 - _MonoTouch_Dialog_GlassButton_get_Enabled
-	.long LDIFF_SYM2563
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM2565=Lme_140 - _MonoTouch_Dialog_GlassButton_remove_Tapped_System_Action_1_MonoTouch_Dialog_GlassButton
+	.long LDIFF_SYM2565
+	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,134,4,136,3,142,1,68,14,40
 	.align 2
 Lfde310_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.GlassButton:set_Enabled"
-	.long _MonoTouch_Dialog_GlassButton_set_Enabled_bool
+	.asciz "MonoTouch.Dialog.GlassButton:.ctor"
+	.long _MonoTouch_Dialog_GlassButton__ctor_System_Drawing_RectangleF
 	.long Lme_141
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2564=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2564
+LDIFF_SYM2566=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2566
 	.byte 1,90,3
-	.asciz "value"
+	.asciz "frame"
 
-LDIFF_SYM2565=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2565
+LDIFF_SYM2567=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2567
+	.byte 2,123,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2568=Lfde311_end - Lfde311_start
+	.long LDIFF_SYM2568
+Lfde311_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_GlassButton__ctor_System_Drawing_RectangleF
+
+LDIFF_SYM2569=Lme_141 - _MonoTouch_Dialog_GlassButton__ctor_System_Drawing_RectangleF
+	.long LDIFF_SYM2569
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,96,68,13,11
+	.align 2
+Lfde311_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.GlassButton:get_Enabled"
+	.long _MonoTouch_Dialog_GlassButton_get_Enabled
+	.long Lme_142
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2570=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2570
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2566=Lfde311_end - Lfde311_start
-	.long LDIFF_SYM2566
-Lfde311_start:
+LDIFF_SYM2571=Lfde312_end - Lfde312_start
+	.long LDIFF_SYM2571
+Lfde312_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_GlassButton_get_Enabled
+
+LDIFF_SYM2572=Lme_142 - _MonoTouch_Dialog_GlassButton_get_Enabled
+	.long LDIFF_SYM2572
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde312_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.GlassButton:set_Enabled"
+	.long _MonoTouch_Dialog_GlassButton_set_Enabled_bool
+	.long Lme_143
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2573=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2573
+	.byte 1,90,3
+	.asciz "value"
+
+LDIFF_SYM2574=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2574
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2575=Lfde313_end - Lfde313_start
+	.long LDIFF_SYM2575
+Lfde313_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_GlassButton_set_Enabled_bool
 
-LDIFF_SYM2567=Lme_141 - _MonoTouch_Dialog_GlassButton_set_Enabled_bool
-	.long LDIFF_SYM2567
+LDIFF_SYM2576=Lme_143 - _MonoTouch_Dialog_GlassButton_set_Enabled_bool
+	.long LDIFF_SYM2576
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
-Lfde311_end:
+Lfde313_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_169:
@@ -32919,178 +33016,178 @@ LTDIE_169:
 	.asciz "MonoTouch_UIKit_UITouch"
 
 	.byte 24,16
-LDIFF_SYM2568=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM2568
+LDIFF_SYM2577=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM2577
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UITouch"
 
-LDIFF_SYM2569=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM2569
+LDIFF_SYM2578=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM2578
 LTDIE_169_POINTER:
 
 	.byte 13
-LDIFF_SYM2570=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM2570
+LDIFF_SYM2579=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM2579
 LTDIE_169_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2571=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM2571
+LDIFF_SYM2580=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM2580
 LTDIE_170:
 
 	.byte 5
 	.asciz "MonoTouch_UIKit_UIEvent"
 
 	.byte 28,16
-LDIFF_SYM2572=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM2572
+LDIFF_SYM2581=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM2581
 	.byte 2,35,0,6
 	.asciz "__mt_AllTouches_var"
 
-LDIFF_SYM2573=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2573
+LDIFF_SYM2582=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2582
 	.byte 2,35,24,0,7
 	.asciz "MonoTouch_UIKit_UIEvent"
 
-LDIFF_SYM2574=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM2574
+LDIFF_SYM2583=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM2583
 LTDIE_170_POINTER:
 
 	.byte 13
-LDIFF_SYM2575=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM2575
+LDIFF_SYM2584=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM2584
 LTDIE_170_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2576=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM2576
+LDIFF_SYM2585=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM2585
 	.byte 2
 	.asciz "MonoTouch.Dialog.GlassButton:BeginTracking"
 	.long _MonoTouch_Dialog_GlassButton_BeginTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
-	.long Lme_142
+	.long Lme_144
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2577=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2577
+LDIFF_SYM2586=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2586
 	.byte 1,85,3
 	.asciz "uitouch"
 
-LDIFF_SYM2578=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2578
+LDIFF_SYM2587=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2587
 	.byte 2,125,0,3
 	.asciz "uievent"
 
-LDIFF_SYM2579=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2579
+LDIFF_SYM2588=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2588
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2580=Lfde312_end - Lfde312_start
-	.long LDIFF_SYM2580
-Lfde312_start:
+LDIFF_SYM2589=Lfde314_end - Lfde314_start
+	.long LDIFF_SYM2589
+Lfde314_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_GlassButton_BeginTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
 
-LDIFF_SYM2581=Lme_142 - _MonoTouch_Dialog_GlassButton_BeginTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
-	.long LDIFF_SYM2581
+LDIFF_SYM2590=Lme_144 - _MonoTouch_Dialog_GlassButton_BeginTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
+	.long LDIFF_SYM2590
 	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,24
 	.align 2
-Lfde312_end:
+Lfde314_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.GlassButton:EndTracking"
 	.long _MonoTouch_Dialog_GlassButton_EndTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
-	.long Lme_143
+	.long Lme_145
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2582=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2582
+LDIFF_SYM2591=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2591
 	.byte 1,85,3
 	.asciz "uitouch"
 
-LDIFF_SYM2583=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2583
+LDIFF_SYM2592=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2592
 	.byte 2,125,0,3
 	.asciz "uievent"
 
-LDIFF_SYM2584=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2584
+LDIFF_SYM2593=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2593
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2585=Lfde313_end - Lfde313_start
-	.long LDIFF_SYM2585
-Lfde313_start:
+LDIFF_SYM2594=Lfde315_end - Lfde315_start
+	.long LDIFF_SYM2594
+Lfde315_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_GlassButton_EndTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
 
-LDIFF_SYM2586=Lme_143 - _MonoTouch_Dialog_GlassButton_EndTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
-	.long LDIFF_SYM2586
+LDIFF_SYM2595=Lme_145 - _MonoTouch_Dialog_GlassButton_EndTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
+	.long LDIFF_SYM2595
 	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,32
 	.align 2
-Lfde313_end:
+Lfde315_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.GlassButton:ContinueTracking"
 	.long _MonoTouch_Dialog_GlassButton_ContinueTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
-	.long Lme_144
+	.long Lme_146
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2587=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2587
+LDIFF_SYM2596=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2596
 	.byte 1,85,3
 	.asciz "uitouch"
 
-LDIFF_SYM2588=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2588
+LDIFF_SYM2597=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2597
 	.byte 2,125,28,3
 	.asciz "uievent"
 
-LDIFF_SYM2589=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2589
+LDIFF_SYM2598=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2598
 	.byte 2,125,32,11
 	.asciz "touch"
 
-LDIFF_SYM2590=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2590
+LDIFF_SYM2599=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2599
 	.byte 2,125,0,11
 	.asciz ""
 
-LDIFF_SYM2591=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2591
+LDIFF_SYM2600=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2600
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2592=Lfde314_end - Lfde314_start
-	.long LDIFF_SYM2592
-Lfde314_start:
+LDIFF_SYM2601=Lfde316_end - Lfde316_start
+	.long LDIFF_SYM2601
+Lfde316_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_GlassButton_ContinueTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
 
-LDIFF_SYM2593=Lme_144 - _MonoTouch_Dialog_GlassButton_ContinueTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
-	.long LDIFF_SYM2593
+LDIFF_SYM2602=Lme_146 - _MonoTouch_Dialog_GlassButton_ContinueTracking_MonoTouch_UIKit_UITouch_MonoTouch_UIKit_UIEvent
+	.long LDIFF_SYM2602
 	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,136,5,138,4,139,3,142,1,68,14,72
 	.align 2
-Lfde314_end:
+Lfde316_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_171:
@@ -33099,160 +33196,160 @@ LTDIE_171:
 	.asciz "MonoTouch_CoreGraphics_CGGradient"
 
 	.byte 12,16
-LDIFF_SYM2594=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2594
+LDIFF_SYM2603=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2603
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM2595=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2595
+LDIFF_SYM2604=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2604
 	.byte 2,35,8,0,7
 	.asciz "MonoTouch_CoreGraphics_CGGradient"
 
-LDIFF_SYM2596=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM2596
+LDIFF_SYM2605=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM2605
 LTDIE_171_POINTER:
 
 	.byte 13
-LDIFF_SYM2597=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM2597
+LDIFF_SYM2606=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM2606
 LTDIE_171_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2598=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM2598
+LDIFF_SYM2607=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM2607
 	.byte 2
 	.asciz "MonoTouch.Dialog.GlassButton:Draw"
 	.long _MonoTouch_Dialog_GlassButton_Draw_System_Drawing_RectangleF
-	.long Lme_145
+	.long Lme_147
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2599=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2599
+LDIFF_SYM2608=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2608
 	.byte 1,90,3
 	.asciz "rect"
 
-LDIFF_SYM2600=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2600
+LDIFF_SYM2609=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2609
 	.byte 0,11
 	.asciz "context"
 
-LDIFF_SYM2601=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2601
+LDIFF_SYM2610=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2610
 	.byte 1,84,11
 	.asciz "bounds"
 
-LDIFF_SYM2602=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2602
+LDIFF_SYM2611=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2611
 	.byte 2,123,24,11
 	.asciz "background"
 
-LDIFF_SYM2603=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2603
+LDIFF_SYM2612=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2612
 	.byte 1,86,11
 	.asciz "alpha"
 
-LDIFF_SYM2604=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM2604
+LDIFF_SYM2613=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM2613
 	.byte 2,123,40,11
 	.asciz "container"
 
-LDIFF_SYM2605=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2605
+LDIFF_SYM2614=LTDIE_120_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2614
 	.byte 1,85,11
 	.asciz "cs"
 
-LDIFF_SYM2606=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2606
+LDIFF_SYM2615=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2615
 	.byte 2,123,44,11
 	.asciz "topCenter"
 
-LDIFF_SYM2607=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2607
+LDIFF_SYM2616=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2616
 	.byte 2,123,48,11
 	.asciz "midCenter"
 
-LDIFF_SYM2608=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2608
+LDIFF_SYM2617=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2617
 	.byte 2,123,56,11
 	.asciz "bottomCenter"
 
-LDIFF_SYM2609=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2609
+LDIFF_SYM2618=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2618
 	.byte 3,123,192,0,11
 	.asciz "gradient"
 
-LDIFF_SYM2610=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2610
+LDIFF_SYM2619=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2619
 	.byte 3,123,200,0,11
 	.asciz "gradient"
 
-LDIFF_SYM2611=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2611
+LDIFF_SYM2620=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2620
 	.byte 3,123,204,0,11
 	.asciz "nb"
 
-LDIFF_SYM2612=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2612
+LDIFF_SYM2621=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2621
 	.byte 3,123,208,0,11
 	.asciz "gradient"
 
-LDIFF_SYM2613=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2613
+LDIFF_SYM2622=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2622
 	.byte 3,123,224,0,11
 	.asciz "gradient"
 
-LDIFF_SYM2614=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2614
+LDIFF_SYM2623=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2623
 	.byte 3,123,228,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2615=Lfde315_end - Lfde315_start
-	.long LDIFF_SYM2615
-Lfde315_start:
+LDIFF_SYM2624=Lfde317_end - Lfde317_start
+	.long LDIFF_SYM2624
+Lfde317_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_GlassButton_Draw_System_Drawing_RectangleF
 
-LDIFF_SYM2616=Lme_145 - _MonoTouch_Dialog_GlassButton_Draw_System_Drawing_RectangleF
-	.long LDIFF_SYM2616
+LDIFF_SYM2625=Lme_147 - _MonoTouch_Dialog_GlassButton_Draw_System_Drawing_RectangleF
+	.long LDIFF_SYM2625
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,176,3,68,13,11
 	.align 2
-Lfde315_end:
+Lfde317_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "MonoTouch.Dialog.LocalizationExtensions:GetText"
 	.long _MonoTouch_Dialog_LocalizationExtensions_GetText_string
-	.long Lme_146
+	.long Lme_148
 
 	.byte 2,118,16,3
 	.asciz "text"
 
-LDIFF_SYM2617=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2617
+LDIFF_SYM2626=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2626
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2618=Lfde316_end - Lfde316_start
-	.long LDIFF_SYM2618
-Lfde316_start:
+LDIFF_SYM2627=Lfde318_end - Lfde318_start
+	.long LDIFF_SYM2627
+Lfde318_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_LocalizationExtensions_GetText_string
 
-LDIFF_SYM2619=Lme_146 - _MonoTouch_Dialog_LocalizationExtensions_GetText_string
-	.long LDIFF_SYM2619
+LDIFF_SYM2628=Lme_148 - _MonoTouch_Dialog_LocalizationExtensions_GetText_string
+	.long LDIFF_SYM2628
 	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
 	.align 2
-Lfde316_end:
+Lfde318_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_174:
@@ -33263,96 +33360,96 @@ LTDIE_174:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM2620=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM2620
+LDIFF_SYM2629=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM2629
 LTDIE_174_POINTER:
 
 	.byte 13
-LDIFF_SYM2621=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM2621
+LDIFF_SYM2630=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM2630
 LTDIE_174_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2622=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM2622
+LDIFF_SYM2631=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM2631
 LTDIE_173:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 52,16
-LDIFF_SYM2623=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2623
+LDIFF_SYM2632=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2632
 	.byte 2,35,0,6
 	.asciz "table"
 
-LDIFF_SYM2624=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2624
+LDIFF_SYM2633=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2633
 	.byte 2,35,8,6
 	.asciz "linkSlots"
 
-LDIFF_SYM2625=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2625
+LDIFF_SYM2634=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2634
 	.byte 2,35,12,6
 	.asciz "keySlots"
 
-LDIFF_SYM2626=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2626
+LDIFF_SYM2635=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2635
 	.byte 2,35,16,6
 	.asciz "valueSlots"
 
-LDIFF_SYM2627=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2627
+LDIFF_SYM2636=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2636
 	.byte 2,35,20,6
 	.asciz "hcp"
 
-LDIFF_SYM2628=LTDIE_174_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2628
+LDIFF_SYM2637=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2637
 	.byte 2,35,24,6
 	.asciz "serialization_info"
 
-LDIFF_SYM2629=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2629
+LDIFF_SYM2638=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2638
 	.byte 2,35,28,6
 	.asciz "touchedSlots"
 
-LDIFF_SYM2630=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2630
+LDIFF_SYM2639=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2639
 	.byte 2,35,32,6
 	.asciz "emptySlot"
 
-LDIFF_SYM2631=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2631
+LDIFF_SYM2640=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2640
 	.byte 2,35,36,6
 	.asciz "count"
 
-LDIFF_SYM2632=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2632
+LDIFF_SYM2641=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2641
 	.byte 2,35,40,6
 	.asciz "threshold"
 
-LDIFF_SYM2633=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2633
+LDIFF_SYM2642=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2642
 	.byte 2,35,44,6
 	.asciz "generation"
 
-LDIFF_SYM2634=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2634
+LDIFF_SYM2643=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2643
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM2635=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM2635
+LDIFF_SYM2644=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM2644
 LTDIE_173_POINTER:
 
 	.byte 13
-LDIFF_SYM2636=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM2636
+LDIFF_SYM2645=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM2645
 LTDIE_173_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2637=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM2637
+LDIFF_SYM2646=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM2646
 LTDIE_176:
 
 	.byte 17
@@ -33361,485 +33458,485 @@ LTDIE_176:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM2638=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM2638
+LDIFF_SYM2647=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM2647
 LTDIE_176_POINTER:
 
 	.byte 13
-LDIFF_SYM2639=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM2639
+LDIFF_SYM2648=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM2648
 LTDIE_176_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2640=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM2640
+LDIFF_SYM2649=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM2649
 LTDIE_175:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 52,16
-LDIFF_SYM2641=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2641
+LDIFF_SYM2650=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2650
 	.byte 2,35,0,6
 	.asciz "table"
 
-LDIFF_SYM2642=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2642
+LDIFF_SYM2651=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2651
 	.byte 2,35,8,6
 	.asciz "linkSlots"
 
-LDIFF_SYM2643=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2643
+LDIFF_SYM2652=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2652
 	.byte 2,35,12,6
 	.asciz "keySlots"
 
-LDIFF_SYM2644=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2644
+LDIFF_SYM2653=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2653
 	.byte 2,35,16,6
 	.asciz "valueSlots"
 
-LDIFF_SYM2645=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2645
+LDIFF_SYM2654=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2654
 	.byte 2,35,20,6
 	.asciz "hcp"
 
-LDIFF_SYM2646=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2646
+LDIFF_SYM2655=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2655
 	.byte 2,35,24,6
 	.asciz "serialization_info"
 
-LDIFF_SYM2647=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2647
+LDIFF_SYM2656=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2656
 	.byte 2,35,28,6
 	.asciz "touchedSlots"
 
-LDIFF_SYM2648=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2648
+LDIFF_SYM2657=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2657
 	.byte 2,35,32,6
 	.asciz "emptySlot"
 
-LDIFF_SYM2649=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2649
+LDIFF_SYM2658=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2658
 	.byte 2,35,36,6
 	.asciz "count"
 
-LDIFF_SYM2650=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2650
+LDIFF_SYM2659=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2659
 	.byte 2,35,40,6
 	.asciz "threshold"
 
-LDIFF_SYM2651=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2651
+LDIFF_SYM2660=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2660
 	.byte 2,35,44,6
 	.asciz "generation"
 
-LDIFF_SYM2652=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2652
+LDIFF_SYM2661=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2661
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM2653=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM2653
+LDIFF_SYM2662=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM2662
 LTDIE_175_POINTER:
 
 	.byte 13
-LDIFF_SYM2654=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM2654
+LDIFF_SYM2663=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM2663
 LTDIE_175_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2655=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM2655
+LDIFF_SYM2664=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM2664
 LTDIE_178:
 
 	.byte 5
 	.asciz "System_Collections_Generic_LinkedListNode`1"
 
 	.byte 24,16
-LDIFF_SYM2656=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2656
+LDIFF_SYM2665=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2665
 	.byte 2,35,0,6
 	.asciz "item"
 
-LDIFF_SYM2657=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2657
+LDIFF_SYM2666=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2666
 	.byte 2,35,8,6
 	.asciz "container"
 
-LDIFF_SYM2658=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2658
+LDIFF_SYM2667=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2667
 	.byte 2,35,12,6
 	.asciz "forward"
 
-LDIFF_SYM2659=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2659
+LDIFF_SYM2668=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2668
 	.byte 2,35,16,6
 	.asciz "back"
 
-LDIFF_SYM2660=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2660
+LDIFF_SYM2669=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2669
 	.byte 2,35,20,0,7
 	.asciz "System_Collections_Generic_LinkedListNode`1"
 
-LDIFF_SYM2661=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM2661
+LDIFF_SYM2670=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM2670
 LTDIE_178_POINTER:
 
 	.byte 13
-LDIFF_SYM2662=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM2662
+LDIFF_SYM2671=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM2671
 LTDIE_178_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2663=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM2663
+LDIFF_SYM2672=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM2672
 LTDIE_177:
 
 	.byte 5
 	.asciz "System_Collections_Generic_LinkedList`1"
 
 	.byte 24,16
-LDIFF_SYM2664=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2664
+LDIFF_SYM2673=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2673
 	.byte 2,35,0,6
 	.asciz "count"
 
-LDIFF_SYM2665=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2665
+LDIFF_SYM2674=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2674
 	.byte 2,35,16,6
 	.asciz "version"
 
-LDIFF_SYM2666=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2666
+LDIFF_SYM2675=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2675
 	.byte 2,35,20,6
 	.asciz "first"
 
-LDIFF_SYM2667=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2667
+LDIFF_SYM2676=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2676
 	.byte 2,35,8,6
 	.asciz "si"
 
-LDIFF_SYM2668=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2668
+LDIFF_SYM2677=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2677
 	.byte 2,35,12,0,7
 	.asciz "System_Collections_Generic_LinkedList`1"
 
-LDIFF_SYM2669=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM2669
+LDIFF_SYM2678=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM2678
 LTDIE_177_POINTER:
 
 	.byte 13
-LDIFF_SYM2670=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM2670
+LDIFF_SYM2679=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM2679
 LTDIE_177_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2671=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM2671
+LDIFF_SYM2680=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM2680
 LTDIE_179:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 52,16
-LDIFF_SYM2672=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2672
+LDIFF_SYM2681=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2681
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2673=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM2673
+LDIFF_SYM2682=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM2682
 LTDIE_179_POINTER:
 
 	.byte 13
-LDIFF_SYM2674=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM2674
+LDIFF_SYM2683=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM2683
 LTDIE_179_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2675=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM2675
+LDIFF_SYM2684=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM2684
 LTDIE_172:
 
 	.byte 5
 	.asciz "MonoTouch_Dialog_Utilities_LRUCache`2"
 
 	.byte 36,16
-LDIFF_SYM2676=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2676
+LDIFF_SYM2685=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2685
 	.byte 2,35,0,6
 	.asciz "dict"
 
-LDIFF_SYM2677=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2677
+LDIFF_SYM2686=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2686
 	.byte 2,35,8,6
 	.asciz "revdict"
 
-LDIFF_SYM2678=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2678
+LDIFF_SYM2687=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2687
 	.byte 2,35,12,6
 	.asciz "list"
 
-LDIFF_SYM2679=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2679
+LDIFF_SYM2688=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2688
 	.byte 2,35,16,6
 	.asciz "entryLimit"
 
-LDIFF_SYM2680=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2680
+LDIFF_SYM2689=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2689
 	.byte 2,35,24,6
 	.asciz "sizeLimit"
 
-LDIFF_SYM2681=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2681
+LDIFF_SYM2690=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2690
 	.byte 2,35,28,6
 	.asciz "currentSize"
 
-LDIFF_SYM2682=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2682
+LDIFF_SYM2691=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2691
 	.byte 2,35,32,6
 	.asciz "slotSizeFunc"
 
-LDIFF_SYM2683=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2683
+LDIFF_SYM2692=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2692
 	.byte 2,35,20,0,7
 	.asciz "MonoTouch_Dialog_Utilities_LRUCache`2"
 
-LDIFF_SYM2684=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM2684
+LDIFF_SYM2693=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM2693
 LTDIE_172_POINTER:
 
 	.byte 13
-LDIFF_SYM2685=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM2685
+LDIFF_SYM2694=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM2694
 LTDIE_172_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2686=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM2686
+LDIFF_SYM2695=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM2695
 	.byte 2
 	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2<!0, !1>:.ctor"
 	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1__ctor_int_int_System_Func_2__1_int
-	.long Lme_148
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2687=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2687
-	.byte 2,123,4,3
-	.asciz "entryLimit"
-
-LDIFF_SYM2688=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2688
-	.byte 2,123,8,3
-	.asciz "sizeLimit"
-
-LDIFF_SYM2689=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2689
-	.byte 2,123,12,3
-	.asciz "slotSizer"
-
-LDIFF_SYM2690=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2690
-	.byte 2,123,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2691=Lfde317_end - Lfde317_start
-	.long LDIFF_SYM2691
-Lfde317_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1__ctor_int_int_System_Func_2__1_int
-
-LDIFF_SYM2692=Lme_148 - _MonoTouch_Dialog_Utilities_LRUCache_2__0__1__ctor_int_int_System_Func_2__1_int
-	.long LDIFF_SYM2692
-	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,136,4,139,3,142,1,68,14,72,68,13,11
-	.align 2
-Lfde317_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2<!0, !1>:get_Item"
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_get_Item__0
-	.long Lme_149
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2693=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2693
-	.byte 2,123,16,3
-	.asciz "key"
-
-LDIFF_SYM2694=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2694
-	.byte 1,80,11
-	.asciz "node"
-
-LDIFF_SYM2695=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2695
-	.byte 2,123,4,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2696=Lfde318_end - Lfde318_start
-	.long LDIFF_SYM2696
-Lfde318_start:
-
-	.long 0
-	.align 2
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_get_Item__0
-
-LDIFF_SYM2697=Lme_149 - _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_get_Item__0
-	.long LDIFF_SYM2697
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,139,3,142,1,68,14,80,68,13,11
-	.align 2
-Lfde318_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2<!0, !1>:set_Item"
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_set_Item__0__1
 	.long Lme_14a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2698=LTDIE_172_REFERENCE - Ldebug_info_start
+LDIFF_SYM2696=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2696
+	.byte 2,123,4,3
+	.asciz "entryLimit"
+
+LDIFF_SYM2697=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2697
+	.byte 2,123,8,3
+	.asciz "sizeLimit"
+
+LDIFF_SYM2698=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2698
-	.byte 2,123,20,3
-	.asciz "key"
+	.byte 2,123,12,3
+	.asciz "slotSizer"
 
-LDIFF_SYM2699=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2699=LTDIE_179_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2699
-	.byte 1,80,3
-	.asciz "value"
-
-LDIFF_SYM2700=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2700
-	.byte 1,80,11
-	.asciz "node"
-
-LDIFF_SYM2701=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2701
-	.byte 2,123,8,11
-	.asciz "size"
-
-LDIFF_SYM2702=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2702
-	.byte 1,85,11
-	.asciz "repSize"
-
-LDIFF_SYM2703=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2703
-	.byte 2,123,12,11
-	.asciz ""
-
-LDIFF_SYM2704=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2704
-	.byte 1,80,0
+	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2705=Lfde319_end - Lfde319_start
-	.long LDIFF_SYM2705
+LDIFF_SYM2700=Lfde319_end - Lfde319_start
+	.long LDIFF_SYM2700
 Lfde319_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_set_Item__0__1
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1__ctor_int_int_System_Func_2__1_int
 
-LDIFF_SYM2706=Lme_14a - _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_set_Item__0__1
-	.long LDIFF_SYM2706
-	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,96,68,13,11
+LDIFF_SYM2701=Lme_14a - _MonoTouch_Dialog_Utilities_LRUCache_2__0__1__ctor_int_int_System_Func_2__1_int
+	.long LDIFF_SYM2701
+	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,136,4,139,3,142,1,68,14,72,68,13,11
 	.align 2
 Lfde319_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2<!0, !1>:Evict"
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_Evict
+	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2<!0, !1>:get_Item"
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_get_Item__0
 	.long Lme_14b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2707=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2707
-	.byte 2,123,12,11
-	.asciz "last"
-
-LDIFF_SYM2708=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2708
-	.byte 1,84,11
+LDIFF_SYM2702=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2702
+	.byte 2,123,16,3
 	.asciz "key"
 
-LDIFF_SYM2709=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2709
+LDIFF_SYM2703=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2703
 	.byte 1,80,11
-	.asciz "size"
+	.asciz "node"
 
-LDIFF_SYM2710=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2710
-	.byte 2,123,8,11
-	.asciz ""
-
-LDIFF_SYM2711=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2711
-	.byte 1,80,0
+LDIFF_SYM2704=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2704
+	.byte 2,123,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2712=Lfde320_end - Lfde320_start
-	.long LDIFF_SYM2712
+LDIFF_SYM2705=Lfde320_end - Lfde320_start
+	.long LDIFF_SYM2705
 Lfde320_start:
 
 	.long 0
 	.align 2
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_Evict
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_get_Item__0
 
-LDIFF_SYM2713=Lme_14b - _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_Evict
-	.long LDIFF_SYM2713
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,134,6,136,5,138,4,139,3,142,1,68,14,64,68,13,11
+LDIFF_SYM2706=Lme_14b - _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_get_Item__0
+	.long LDIFF_SYM2706
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,139,3,142,1,68,14,80,68,13,11
 	.align 2
 Lfde320_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2<!0, !1>:ToString"
-	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_ToString
+	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2<!0, !1>:set_Item"
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_set_Item__0__1
 	.long Lme_14c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2714=LTDIE_172_REFERENCE - Ldebug_info_start
+LDIFF_SYM2707=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2707
+	.byte 2,123,20,3
+	.asciz "key"
+
+LDIFF_SYM2708=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2708
+	.byte 1,80,3
+	.asciz "value"
+
+LDIFF_SYM2709=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2709
+	.byte 1,80,11
+	.asciz "node"
+
+LDIFF_SYM2710=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2710
+	.byte 2,123,8,11
+	.asciz "size"
+
+LDIFF_SYM2711=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2711
+	.byte 1,85,11
+	.asciz "repSize"
+
+LDIFF_SYM2712=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2712
+	.byte 2,123,12,11
+	.asciz ""
+
+LDIFF_SYM2713=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2713
+	.byte 1,80,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2714=Lfde321_end - Lfde321_start
 	.long LDIFF_SYM2714
+Lfde321_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_set_Item__0__1
+
+LDIFF_SYM2715=Lme_14c - _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_set_Item__0__1
+	.long LDIFF_SYM2715
+	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,96,68,13,11
+	.align 2
+Lfde321_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2<!0, !1>:Evict"
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_Evict
+	.long Lme_14d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2716=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2716
+	.byte 2,123,12,11
+	.asciz "last"
+
+LDIFF_SYM2717=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2717
+	.byte 1,84,11
+	.asciz "key"
+
+LDIFF_SYM2718=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2718
+	.byte 1,80,11
+	.asciz "size"
+
+LDIFF_SYM2719=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2719
+	.byte 2,123,8,11
+	.asciz ""
+
+LDIFF_SYM2720=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2720
+	.byte 1,80,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2721=Lfde322_end - Lfde322_start
+	.long LDIFF_SYM2721
+Lfde322_start:
+
+	.long 0
+	.align 2
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_Evict
+
+LDIFF_SYM2722=Lme_14d - _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_Evict
+	.long LDIFF_SYM2722
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,134,6,136,5,138,4,139,3,142,1,68,14,64,68,13,11
+	.align 2
+Lfde322_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MonoTouch.Dialog.Utilities.LRUCache`2<!0, !1>:ToString"
+	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_ToString
+	.long Lme_14e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2723=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2723
 	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2715=Lfde321_end - Lfde321_start
-	.long LDIFF_SYM2715
-Lfde321_start:
+LDIFF_SYM2724=Lfde323_end - Lfde323_start
+	.long LDIFF_SYM2724
+Lfde323_start:
 
 	.long 0
 	.align 2
 	.long _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_ToString
 
-LDIFF_SYM2716=Lme_14c - _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_ToString
-	.long LDIFF_SYM2716
+LDIFF_SYM2725=Lme_14e - _MonoTouch_Dialog_Utilities_LRUCache_2__0__1_ToString
+	.long LDIFF_SYM2725
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,32,68,13,11
 	.align 2
-Lfde321_end:
+Lfde323_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_180:
@@ -33848,110 +33945,110 @@ LTDIE_180:
 	.asciz "System_EventHandler`1"
 
 	.byte 52,16
-LDIFF_SYM2717=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2717
+LDIFF_SYM2726=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2726
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM2718=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM2718
+LDIFF_SYM2727=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM2727
 LTDIE_180_POINTER:
 
 	.byte 13
-LDIFF_SYM2719=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM2719
+LDIFF_SYM2728=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM2728
 LTDIE_180_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2720=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM2720
+LDIFF_SYM2729=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM2729
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.EventHandler`1<MonoTouch.UIKit.UIWebErrorArgs>:invoke_void__this___object_TEventArgs"
 	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_UIKit_UIWebErrorArgs_invoke_void__this___object_TEventArgs_object_MonoTouch_UIKit_UIWebErrorArgs
-	.long Lme_14d
+	.long Lme_14f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2721=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2721
+LDIFF_SYM2730=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2730
 	.byte 1,85,3
 	.asciz "param0"
 
-LDIFF_SYM2722=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2722
+LDIFF_SYM2731=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2731
 	.byte 1,86,3
 	.asciz "param1"
 
-LDIFF_SYM2723=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2723
+LDIFF_SYM2732=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2732
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM2724=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2724
+LDIFF_SYM2733=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2733
 	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM2725=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2725
+LDIFF_SYM2734=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2734
 	.byte 1,91,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2726=Lfde322_end - Lfde322_start
-	.long LDIFF_SYM2726
-Lfde322_start:
+LDIFF_SYM2735=Lfde324_end - Lfde324_start
+	.long LDIFF_SYM2735
+Lfde324_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_UIKit_UIWebErrorArgs_invoke_void__this___object_TEventArgs_object_MonoTouch_UIKit_UIWebErrorArgs
 
-LDIFF_SYM2727=Lme_14d - _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_UIKit_UIWebErrorArgs_invoke_void__this___object_TEventArgs_object_MonoTouch_UIKit_UIWebErrorArgs
-	.long LDIFF_SYM2727
+LDIFF_SYM2736=Lme_14f - _wrapper_delegate_invoke_System_EventHandler_1_MonoTouch_UIKit_UIWebErrorArgs_invoke_void__this___object_TEventArgs_object_MonoTouch_UIKit_UIWebErrorArgs
+	.long LDIFF_SYM2736
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
 	.align 2
-Lfde322_end:
+Lfde324_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.Func`1<bool>:invoke_TResult__this__"
 	.long _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult__this__
-	.long Lme_152
+	.long Lme_154
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2728=LTDIE_97_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2728
+LDIFF_SYM2737=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2737
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM2729=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2729
+LDIFF_SYM2738=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2738
 	.byte 1,86,11
 	.asciz "V_1"
 
-LDIFF_SYM2730=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2730
+LDIFF_SYM2739=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2739
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2731=Lfde323_end - Lfde323_start
-	.long LDIFF_SYM2731
-Lfde323_start:
+LDIFF_SYM2740=Lfde325_end - Lfde325_start
+	.long LDIFF_SYM2740
+Lfde325_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult__this__
 
-LDIFF_SYM2732=Lme_152 - _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult__this__
-	.long LDIFF_SYM2732
+LDIFF_SYM2741=Lme_154 - _wrapper_delegate_invoke_System_Func_1_bool_invoke_TResult__this__
+	.long LDIFF_SYM2741
 	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1
 	.align 2
-Lfde323_end:
+Lfde325_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_181:
@@ -33960,122 +34057,62 @@ LTDIE_181:
 	.asciz "System_Nullable`1"
 
 	.byte 16,16
-LDIFF_SYM2733=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM2733
+LDIFF_SYM2742=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM2742
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM2734=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM2734
+LDIFF_SYM2743=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM2743
 	.byte 2,35,8,6
 	.asciz "has_value"
 
-LDIFF_SYM2735=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2735
+LDIFF_SYM2744=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2744
 	.byte 2,35,12,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM2736=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM2736
+LDIFF_SYM2745=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM2745
 LTDIE_181_POINTER:
 
 	.byte 13
-LDIFF_SYM2737=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM2737
+LDIFF_SYM2746=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM2746
 LTDIE_181_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2738=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM2738
+LDIFF_SYM2747=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM2747
 	.byte 2
 	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:.ctor"
 	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType__ctor_MonoTouch_UIKit_UIReturnKeyType
-	.long Lme_153
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2739=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2739
-	.byte 2,125,0,3
-	.asciz "value"
-
-LDIFF_SYM2740=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM2740
-	.byte 2,125,4,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2741=Lfde324_end - Lfde324_start
-	.long LDIFF_SYM2741
-Lfde324_start:
-
-	.long 0
-	.align 2
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType__ctor_MonoTouch_UIKit_UIReturnKeyType
-
-LDIFF_SYM2742=Lme_153 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType__ctor_MonoTouch_UIKit_UIReturnKeyType
-	.long LDIFF_SYM2742
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde324_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:get_HasValue"
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_HasValue
-	.long Lme_154
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2743=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2743
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2744=Lfde325_end - Lfde325_start
-	.long LDIFF_SYM2744
-Lfde325_start:
-
-	.long 0
-	.align 2
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_HasValue
-
-LDIFF_SYM2745=Lme_154 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_HasValue
-	.long LDIFF_SYM2745
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde325_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:get_Value"
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_Value
 	.long Lme_155
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2746=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2746
-	.byte 2,125,0,0
+LDIFF_SYM2748=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2748
+	.byte 2,125,0,3
+	.asciz "value"
+
+LDIFF_SYM2749=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM2749
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2747=Lfde326_end - Lfde326_start
-	.long LDIFF_SYM2747
+LDIFF_SYM2750=Lfde326_end - Lfde326_start
+	.long LDIFF_SYM2750
 Lfde326_start:
 
 	.long 0
 	.align 2
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_Value
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType__ctor_MonoTouch_UIKit_UIReturnKeyType
 
-LDIFF_SYM2748=Lme_155 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_Value
-	.long LDIFF_SYM2748
+LDIFF_SYM2751=Lme_155 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType__ctor_MonoTouch_UIKit_UIReturnKeyType
+	.long LDIFF_SYM2751
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde326_end:
@@ -34083,159 +34120,159 @@ Lfde326_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:Equals"
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_object
+	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:get_HasValue"
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_HasValue
 	.long Lme_156
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2749=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2749
-	.byte 2,125,12,3
-	.asciz "other"
-
-LDIFF_SYM2750=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2750
-	.byte 1,90,0
+LDIFF_SYM2752=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2752
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2751=Lfde327_end - Lfde327_start
-	.long LDIFF_SYM2751
+LDIFF_SYM2753=Lfde327_end - Lfde327_start
+	.long LDIFF_SYM2753
 Lfde327_start:
 
 	.long 0
 	.align 2
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_object
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_HasValue
 
-LDIFF_SYM2752=Lme_156 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_object
-	.long LDIFF_SYM2752
-	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,136,4,138,3,142,1,68,14,40
+LDIFF_SYM2754=Lme_156 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_HasValue
+	.long LDIFF_SYM2754
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde327_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:Equals"
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
+	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:get_Value"
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_Value
 	.long Lme_157
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2753=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2753
-	.byte 1,90,3
-	.asciz "other"
-
-LDIFF_SYM2754=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2754
-	.byte 2,123,0,0
+LDIFF_SYM2755=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2755
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2755=Lfde328_end - Lfde328_start
-	.long LDIFF_SYM2755
+LDIFF_SYM2756=Lfde328_end - Lfde328_start
+	.long LDIFF_SYM2756
 Lfde328_start:
 
 	.long 0
 	.align 2
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_Value
 
-LDIFF_SYM2756=Lme_157 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
-	.long LDIFF_SYM2756
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,48,68,13,11
+LDIFF_SYM2757=Lme_157 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_get_Value
+	.long LDIFF_SYM2757
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde328_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:GetHashCode"
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetHashCode
+	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:Equals"
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_object
 	.long Lme_158
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2757=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2757
-	.byte 2,125,0,0
+LDIFF_SYM2758=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2758
+	.byte 2,125,12,3
+	.asciz "other"
+
+LDIFF_SYM2759=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2759
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2758=Lfde329_end - Lfde329_start
-	.long LDIFF_SYM2758
+LDIFF_SYM2760=Lfde329_end - Lfde329_start
+	.long LDIFF_SYM2760
 Lfde329_start:
 
 	.long 0
 	.align 2
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetHashCode
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_object
 
-LDIFF_SYM2759=Lme_158 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetHashCode
-	.long LDIFF_SYM2759
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM2761=Lme_158 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_object
+	.long LDIFF_SYM2761
+	.byte 12,13,0,72,14,8,135,2,68,14,20,132,5,136,4,138,3,142,1,68,14,40
 	.align 2
 Lfde329_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:GetValueOrDefault"
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetValueOrDefault
+	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:Equals"
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
 	.long Lme_159
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2760=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2760
-	.byte 2,125,0,0
+LDIFF_SYM2762=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2762
+	.byte 1,90,3
+	.asciz "other"
+
+LDIFF_SYM2763=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2763
+	.byte 2,123,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2761=Lfde330_end - Lfde330_start
-	.long LDIFF_SYM2761
+LDIFF_SYM2764=Lfde330_end - Lfde330_start
+	.long LDIFF_SYM2764
 Lfde330_start:
 
 	.long 0
 	.align 2
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetValueOrDefault
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
 
-LDIFF_SYM2762=Lme_159 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetValueOrDefault
-	.long LDIFF_SYM2762
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM2765=Lme_159 - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Equals_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
+	.long LDIFF_SYM2765
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,48,68,13,11
 	.align 2
 Lfde330_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:ToString"
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_ToString
+	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:GetHashCode"
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetHashCode
 	.long Lme_15a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2763=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2763
+LDIFF_SYM2766=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2766
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2764=Lfde331_end - Lfde331_start
-	.long LDIFF_SYM2764
+LDIFF_SYM2767=Lfde331_end - Lfde331_start
+	.long LDIFF_SYM2767
 Lfde331_start:
 
 	.long 0
 	.align 2
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_ToString
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetHashCode
 
-LDIFF_SYM2765=Lme_15a - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_ToString
-	.long LDIFF_SYM2765
+LDIFF_SYM2768=Lme_15a - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetHashCode
+	.long LDIFF_SYM2768
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde331_end:
@@ -34243,112 +34280,172 @@ Lfde331_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:Box"
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Box_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
+	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:GetValueOrDefault"
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetValueOrDefault
 	.long Lme_15b
 
 	.byte 2,118,16,3
-	.asciz "o"
+	.asciz "this"
 
-LDIFF_SYM2766=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2766
-	.byte 2,123,0,0
+LDIFF_SYM2769=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2769
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2767=Lfde332_end - Lfde332_start
-	.long LDIFF_SYM2767
+LDIFF_SYM2770=Lfde332_end - Lfde332_start
+	.long LDIFF_SYM2770
 Lfde332_start:
 
 	.long 0
 	.align 2
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Box_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetValueOrDefault
 
-LDIFF_SYM2768=Lme_15b - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Box_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
-	.long LDIFF_SYM2768
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,32,68,13,11
+LDIFF_SYM2771=Lme_15b - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_GetValueOrDefault
+	.long LDIFF_SYM2771
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde332_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:Unbox"
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Unbox_object
+	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:ToString"
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_ToString
 	.long Lme_15c
 
 	.byte 2,118,16,3
-	.asciz "o"
+	.asciz "this"
 
-LDIFF_SYM2769=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2769
-	.byte 1,86,11
-	.asciz ""
-
-LDIFF_SYM2770=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2770
-	.byte 2,125,4,0
+LDIFF_SYM2772=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2772
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2771=Lfde333_end - Lfde333_start
-	.long LDIFF_SYM2771
+LDIFF_SYM2773=Lfde333_end - Lfde333_start
+	.long LDIFF_SYM2773
 Lfde333_start:
 
 	.long 0
 	.align 2
-	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Unbox_object
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_ToString
 
-LDIFF_SYM2772=Lme_15c - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Unbox_object
-	.long LDIFF_SYM2772
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,56
+LDIFF_SYM2774=Lme_15c - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_ToString
+	.long LDIFF_SYM2774
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde333_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
+	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:Box"
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Box_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
+	.long Lme_15d
+
+	.byte 2,118,16,3
+	.asciz "o"
+
+LDIFF_SYM2775=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2775
+	.byte 2,123,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2776=Lfde334_end - Lfde334_start
+	.long LDIFF_SYM2776
+Lfde334_start:
+
+	.long 0
+	.align 2
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Box_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
+
+LDIFF_SYM2777=Lme_15d - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Box_System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType
+	.long LDIFF_SYM2777
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,32,68,13,11
+	.align 2
+Lfde334_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<MonoTouch.UIKit.UIReturnKeyType>:Unbox"
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Unbox_object
+	.long Lme_15e
+
+	.byte 2,118,16,3
+	.asciz "o"
+
+LDIFF_SYM2778=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2778
+	.byte 1,86,11
+	.asciz ""
+
+LDIFF_SYM2779=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2779
+	.byte 2,125,4,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2780=Lfde335_end - Lfde335_start
+	.long LDIFF_SYM2780
+Lfde335_start:
+
+	.long 0
+	.align 2
+	.long _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Unbox_object
+
+LDIFF_SYM2781=Lme_15e - _System_Nullable_1_MonoTouch_UIKit_UIReturnKeyType_Unbox_object
+	.long LDIFF_SYM2781
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,56
+	.align 2
+Lfde335_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
 	.asciz "(wrapper delegate-invoke) System.Action`1<MonoTouch.Dialog.DateTimeElement>:invoke_void__this___T"
 	.long _wrapper_delegate_invoke_System_Action_1_MonoTouch_Dialog_DateTimeElement_invoke_void__this___T_MonoTouch_Dialog_DateTimeElement
-	.long Lme_15d
+	.long Lme_15f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2773=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2773
+LDIFF_SYM2782=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2782
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM2774=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2774
+LDIFF_SYM2783=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2783
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM2775=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2775
+LDIFF_SYM2784=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2784
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM2776=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2776
+LDIFF_SYM2785=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2785
 	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2777=Lfde334_end - Lfde334_start
-	.long LDIFF_SYM2777
-Lfde334_start:
+LDIFF_SYM2786=Lfde336_end - Lfde336_start
+	.long LDIFF_SYM2786
+Lfde336_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_Action_1_MonoTouch_Dialog_DateTimeElement_invoke_void__this___T_MonoTouch_Dialog_DateTimeElement
 
-LDIFF_SYM2778=Lme_15d - _wrapper_delegate_invoke_System_Action_1_MonoTouch_Dialog_DateTimeElement_invoke_void__this___T_MonoTouch_Dialog_DateTimeElement
-	.long LDIFF_SYM2778
+LDIFF_SYM2787=Lme_15f - _wrapper_delegate_invoke_System_Action_1_MonoTouch_Dialog_DateTimeElement_invoke_void__this___T_MonoTouch_Dialog_DateTimeElement
+	.long LDIFF_SYM2787
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde334_end:
+Lfde336_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_182:
@@ -34357,140 +34454,140 @@ LTDIE_182:
 	.asciz "System_Array"
 
 	.byte 8,16
-LDIFF_SYM2779=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2779
+LDIFF_SYM2788=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2788
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM2780=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM2780
+LDIFF_SYM2789=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM2789
 LTDIE_182_POINTER:
 
 	.byte 13
-LDIFF_SYM2781=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM2781
+LDIFF_SYM2790=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM2790
 LTDIE_182_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2782=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM2782
+LDIFF_SYM2791=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM2791
 	.byte 2
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T>"
 	.long _System_Array_InternalArray__IEnumerable_GetEnumerator_T
-	.long Lme_15e
+	.long Lme_160
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2783=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2783
+LDIFF_SYM2792=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2792
 	.byte 2,123,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2784=Lfde335_end - Lfde335_start
-	.long LDIFF_SYM2784
-Lfde335_start:
+LDIFF_SYM2793=Lfde337_end - Lfde337_start
+	.long LDIFF_SYM2793
+Lfde337_start:
 
 	.long 0
 	.align 2
 	.long _System_Array_InternalArray__IEnumerable_GetEnumerator_T
 
-LDIFF_SYM2785=Lme_15e - _System_Array_InternalArray__IEnumerable_GetEnumerator_T
-	.long LDIFF_SYM2785
+LDIFF_SYM2794=Lme_160 - _System_Array_InternalArray__IEnumerable_GetEnumerator_T
+	.long LDIFF_SYM2794
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,48,68,13,11
 	.align 2
-Lfde335_end:
+Lfde337_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.Func`2<MonoTouch.Dialog.RootElement, MonoTouch.UIKit.UIViewController>:invoke_TResult__this___T"
 	.long _wrapper_delegate_invoke_System_Func_2_MonoTouch_Dialog_RootElement_MonoTouch_UIKit_UIViewController_invoke_TResult__this___T_MonoTouch_Dialog_RootElement
-	.long Lme_15f
+	.long Lme_161
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2786=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2786
+LDIFF_SYM2795=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2795
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM2787=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2787
+LDIFF_SYM2796=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2796
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM2788=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2788
+LDIFF_SYM2797=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2797
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM2789=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2789
+LDIFF_SYM2798=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2798
 	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2790=Lfde336_end - Lfde336_start
-	.long LDIFF_SYM2790
-Lfde336_start:
+LDIFF_SYM2799=Lfde338_end - Lfde338_start
+	.long LDIFF_SYM2799
+Lfde338_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_Func_2_MonoTouch_Dialog_RootElement_MonoTouch_UIKit_UIViewController_invoke_TResult__this___T_MonoTouch_Dialog_RootElement
 
-LDIFF_SYM2791=Lme_15f - _wrapper_delegate_invoke_System_Func_2_MonoTouch_Dialog_RootElement_MonoTouch_UIKit_UIViewController_invoke_TResult__this___T_MonoTouch_Dialog_RootElement
-	.long LDIFF_SYM2791
+LDIFF_SYM2800=Lme_161 - _wrapper_delegate_invoke_System_Func_2_MonoTouch_Dialog_RootElement_MonoTouch_UIKit_UIViewController_invoke_TResult__this___T_MonoTouch_Dialog_RootElement
+	.long LDIFF_SYM2800
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde336_end:
+Lfde338_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.Action`1<MonoTouch.Foundation.NSIndexPath>:invoke_void__this___T"
 	.long _wrapper_delegate_invoke_System_Action_1_MonoTouch_Foundation_NSIndexPath_invoke_void__this___T_MonoTouch_Foundation_NSIndexPath
-	.long Lme_160
+	.long Lme_162
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2792=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2792
+LDIFF_SYM2801=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2801
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM2793=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2793
+LDIFF_SYM2802=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2802
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM2794=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2794
+LDIFF_SYM2803=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2803
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM2795=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2795
+LDIFF_SYM2804=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2804
 	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2796=Lfde337_end - Lfde337_start
-	.long LDIFF_SYM2796
-Lfde337_start:
+LDIFF_SYM2805=Lfde339_end - Lfde339_start
+	.long LDIFF_SYM2805
+Lfde339_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_Action_1_MonoTouch_Foundation_NSIndexPath_invoke_void__this___T_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM2797=Lme_160 - _wrapper_delegate_invoke_System_Action_1_MonoTouch_Foundation_NSIndexPath_invoke_void__this___T_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM2797
+LDIFF_SYM2806=Lme_162 - _wrapper_delegate_invoke_System_Action_1_MonoTouch_Foundation_NSIndexPath_invoke_void__this___T_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM2806
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde337_end:
+Lfde339_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_183:
@@ -34499,115 +34596,115 @@ LTDIE_183:
 	.asciz "_Transform`1"
 
 	.byte 52,16
-LDIFF_SYM2798=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2798
+LDIFF_SYM2807=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2807
 	.byte 2,35,0,0,7
 	.asciz "_Transform`1"
 
-LDIFF_SYM2799=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM2799
+LDIFF_SYM2808=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM2808
 LTDIE_183_POINTER:
 
 	.byte 13
-LDIFF_SYM2800=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM2800
+LDIFF_SYM2809=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM2809
 LTDIE_183_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2801=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM2801
+LDIFF_SYM2810=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM2810
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.Collections.Generic.Dictionary`2/Transform`1<System.Uri, System.Collections.Generic.List`1<MonoTouch.Dialog.Utilities.IImageUpdated>, System.Collections.Generic.KeyValuePair`2<System.Uri, System.Collections.Generic.List`1<MonoTouch.Dialog.Utilities.IImageUpdated>>>:invoke_TRet__this___TKey_TValue"
 	.long _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_System_Collections_Generic_KeyValuePair_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_invoke_TRet__this___TKey_TValue_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated
-	.long Lme_165
+	.long Lme_167
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2802=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2802
+LDIFF_SYM2811=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2811
 	.byte 1,84,3
 	.asciz "param0"
 
-LDIFF_SYM2803=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2803
+LDIFF_SYM2812=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2812
 	.byte 1,85,3
 	.asciz "param1"
 
-LDIFF_SYM2804=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2804
+LDIFF_SYM2813=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2813
 	.byte 1,86,11
 	.asciz "V_0"
 
-LDIFF_SYM2805=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2805
+LDIFF_SYM2814=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2814
 	.byte 1,91,11
 	.asciz "V_1"
 
-LDIFF_SYM2806=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2806
+LDIFF_SYM2815=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2815
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2807=Lfde338_end - Lfde338_start
-	.long LDIFF_SYM2807
-Lfde338_start:
+LDIFF_SYM2816=Lfde340_end - Lfde340_start
+	.long LDIFF_SYM2816
+Lfde340_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_System_Collections_Generic_KeyValuePair_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_invoke_TRet__this___TKey_TValue_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated
 
-LDIFF_SYM2808=Lme_165 - _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_System_Collections_Generic_KeyValuePair_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_invoke_TRet__this___TKey_TValue_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated
-	.long LDIFF_SYM2808
+LDIFF_SYM2817=Lme_167 - _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_System_Collections_Generic_KeyValuePair_2_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated_invoke_TRet__this___TKey_TValue_System_Uri_System_Collections_Generic_List_1_MonoTouch_Dialog_Utilities_IImageUpdated
+	.long LDIFF_SYM2817
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
 	.align 2
-Lfde338_end:
+Lfde340_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.Func`2<MonoTouch.UIKit.UIImage, int>:invoke_TResult__this___T"
 	.long _wrapper_delegate_invoke_System_Func_2_MonoTouch_UIKit_UIImage_int_invoke_TResult__this___T_MonoTouch_UIKit_UIImage
-	.long Lme_16a
+	.long Lme_16c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2809=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2809
+LDIFF_SYM2818=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2818
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM2810=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2810
+LDIFF_SYM2819=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2819
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM2811=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2811
+LDIFF_SYM2820=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2820
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM2812=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2812
+LDIFF_SYM2821=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2821
 	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2813=Lfde339_end - Lfde339_start
-	.long LDIFF_SYM2813
-Lfde339_start:
+LDIFF_SYM2822=Lfde341_end - Lfde341_start
+	.long LDIFF_SYM2822
+Lfde341_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_Func_2_MonoTouch_UIKit_UIImage_int_invoke_TResult__this___T_MonoTouch_UIKit_UIImage
 
-LDIFF_SYM2814=Lme_16a - _wrapper_delegate_invoke_System_Func_2_MonoTouch_UIKit_UIImage_int_invoke_TResult__this___T_MonoTouch_UIKit_UIImage
-	.long LDIFF_SYM2814
+LDIFF_SYM2823=Lme_16c - _wrapper_delegate_invoke_System_Func_2_MonoTouch_UIKit_UIImage_int_invoke_TResult__this___T_MonoTouch_UIKit_UIImage
+	.long LDIFF_SYM2823
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde339_end:
+Lfde341_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_184:
@@ -34616,70 +34713,70 @@ LTDIE_184:
 	.asciz "_Transform`1"
 
 	.byte 52,16
-LDIFF_SYM2815=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2815
+LDIFF_SYM2824=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2824
 	.byte 2,35,0,0,7
 	.asciz "_Transform`1"
 
-LDIFF_SYM2816=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM2816
+LDIFF_SYM2825=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM2825
 LTDIE_184_POINTER:
 
 	.byte 13
-LDIFF_SYM2817=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM2817
+LDIFF_SYM2826=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM2826
 LTDIE_184_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2818=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM2818
+LDIFF_SYM2827=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM2827
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.Collections.Generic.Dictionary`2/Transform`1<System.Uri, System.Collections.Generic.LinkedListNode`1<MonoTouch.UIKit.UIImage>, System.Collections.Generic.KeyValuePair`2<System.Uri, System.Collections.Generic.LinkedListNode`1<MonoTouch.UIKit.UIImage>>>:invoke_TRet__this___TKey_TValue"
 	.long _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Collections_Generic_KeyValuePair_2_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_invoke_TRet__this___TKey_TValue_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage
-	.long Lme_16f
+	.long Lme_171
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2819=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2819
+LDIFF_SYM2828=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2828
 	.byte 1,84,3
 	.asciz "param0"
 
-LDIFF_SYM2820=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2820
+LDIFF_SYM2829=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2829
 	.byte 1,85,3
 	.asciz "param1"
 
-LDIFF_SYM2821=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2821
+LDIFF_SYM2830=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2830
 	.byte 1,86,11
 	.asciz "V_0"
 
-LDIFF_SYM2822=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2822
+LDIFF_SYM2831=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2831
 	.byte 1,91,11
 	.asciz "V_1"
 
-LDIFF_SYM2823=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2823
+LDIFF_SYM2832=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2832
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2824=Lfde340_end - Lfde340_start
-	.long LDIFF_SYM2824
-Lfde340_start:
+LDIFF_SYM2833=Lfde342_end - Lfde342_start
+	.long LDIFF_SYM2833
+Lfde342_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Collections_Generic_KeyValuePair_2_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_invoke_TRet__this___TKey_TValue_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage
 
-LDIFF_SYM2825=Lme_16f - _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Collections_Generic_KeyValuePair_2_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_invoke_TRet__this___TKey_TValue_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage
-	.long LDIFF_SYM2825
+LDIFF_SYM2834=Lme_171 - _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Collections_Generic_KeyValuePair_2_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_invoke_TRet__this___TKey_TValue_System_Uri_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage
+	.long LDIFF_SYM2834
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
 	.align 2
-Lfde340_end:
+Lfde342_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_185:
@@ -34688,170 +34785,170 @@ LTDIE_185:
 	.asciz "_Transform`1"
 
 	.byte 52,16
-LDIFF_SYM2826=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2826
+LDIFF_SYM2835=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2835
 	.byte 2,35,0,0,7
 	.asciz "_Transform`1"
 
-LDIFF_SYM2827=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM2827
+LDIFF_SYM2836=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM2836
 LTDIE_185_POINTER:
 
 	.byte 13
-LDIFF_SYM2828=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM2828
+LDIFF_SYM2837=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM2837
 LTDIE_185_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2829=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM2829
+LDIFF_SYM2838=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM2838
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.Collections.Generic.Dictionary`2/Transform`1<System.Collections.Generic.LinkedListNode`1<MonoTouch.UIKit.UIImage>, System.Uri, System.Collections.Generic.KeyValuePair`2<System.Collections.Generic.LinkedListNode`1<MonoTouch.UIKit.UIImage>, System.Uri>>:invoke_TRet__this___TKey_TValue"
 	.long _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri_System_Collections_Generic_KeyValuePair_2_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri_invoke_TRet__this___TKey_TValue_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri
-	.long Lme_174
+	.long Lme_176
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2830=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2830
+LDIFF_SYM2839=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2839
 	.byte 1,84,3
 	.asciz "param0"
 
-LDIFF_SYM2831=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2831
+LDIFF_SYM2840=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2840
 	.byte 1,85,3
 	.asciz "param1"
 
-LDIFF_SYM2832=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2832
+LDIFF_SYM2841=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2841
 	.byte 1,86,11
 	.asciz "V_0"
 
-LDIFF_SYM2833=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2833
+LDIFF_SYM2842=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2842
 	.byte 1,91,11
 	.asciz "V_1"
 
-LDIFF_SYM2834=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2834
+LDIFF_SYM2843=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2843
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2835=Lfde341_end - Lfde341_start
-	.long LDIFF_SYM2835
-Lfde341_start:
+LDIFF_SYM2844=Lfde343_end - Lfde343_start
+	.long LDIFF_SYM2844
+Lfde343_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri_System_Collections_Generic_KeyValuePair_2_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri_invoke_TRet__this___TKey_TValue_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri
 
-LDIFF_SYM2836=Lme_174 - _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri_System_Collections_Generic_KeyValuePair_2_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri_invoke_TRet__this___TKey_TValue_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri
-	.long LDIFF_SYM2836
+LDIFF_SYM2845=Lme_176 - _wrapper_delegate_invoke_System_Collections_Generic_Dictionary_2_Transform_1_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri_System_Collections_Generic_KeyValuePair_2_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri_invoke_TRet__this___TKey_TValue_System_Collections_Generic_LinkedListNode_1_MonoTouch_UIKit_UIImage_System_Uri
+	.long LDIFF_SYM2845
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64
 	.align 2
-Lfde341_end:
+Lfde343_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.Action`3<MonoTouch.Dialog.DialogViewController, MonoTouch.UIKit.UITableView, MonoTouch.Foundation.NSIndexPath>:invoke_void__this___T1_T2_T3"
 	.long _wrapper_delegate_invoke_System_Action_3_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath_invoke_void__this___T1_T2_T3_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_175
+	.long Lme_177
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2837=LTDIE_148_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2837
+LDIFF_SYM2846=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2846
 	.byte 1,84,3
 	.asciz "param0"
 
-LDIFF_SYM2838=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2838
+LDIFF_SYM2847=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2847
 	.byte 1,85,3
 	.asciz "param1"
 
-LDIFF_SYM2839=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2839
+LDIFF_SYM2848=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2848
 	.byte 1,86,3
 	.asciz "param2"
 
-LDIFF_SYM2840=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2840
+LDIFF_SYM2849=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2849
 	.byte 2,125,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2841=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2841
+LDIFF_SYM2850=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2850
 	.byte 1,91,11
 	.asciz "V_1"
 
-LDIFF_SYM2842=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2842
+LDIFF_SYM2851=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2851
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2843=Lfde342_end - Lfde342_start
-	.long LDIFF_SYM2843
-Lfde342_start:
+LDIFF_SYM2852=Lfde344_end - Lfde344_start
+	.long LDIFF_SYM2852
+Lfde344_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_Action_3_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath_invoke_void__this___T1_T2_T3_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM2844=Lme_175 - _wrapper_delegate_invoke_System_Action_3_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath_invoke_void__this___T1_T2_T3_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM2844
+LDIFF_SYM2853=Lme_177 - _wrapper_delegate_invoke_System_Action_3_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath_invoke_void__this___T1_T2_T3_MonoTouch_Dialog_DialogViewController_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM2853
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
 	.align 2
-Lfde342_end:
+Lfde344_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
 	.asciz "(wrapper delegate-invoke) System.Action`1<MonoTouch.Dialog.GlassButton>:invoke_void__this___T"
 	.long _wrapper_delegate_invoke_System_Action_1_MonoTouch_Dialog_GlassButton_invoke_void__this___T_MonoTouch_Dialog_GlassButton
-	.long Lme_176
+	.long Lme_178
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2845=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2845
+LDIFF_SYM2854=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2854
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM2846=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2846
+LDIFF_SYM2855=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2855
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM2847=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2847
+LDIFF_SYM2856=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2856
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM2848=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2848
+LDIFF_SYM2857=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2857
 	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2849=Lfde343_end - Lfde343_start
-	.long LDIFF_SYM2849
-Lfde343_start:
+LDIFF_SYM2858=Lfde345_end - Lfde345_start
+	.long LDIFF_SYM2858
+Lfde345_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke_System_Action_1_MonoTouch_Dialog_GlassButton_invoke_void__this___T_MonoTouch_Dialog_GlassButton
 
-LDIFF_SYM2850=Lme_176 - _wrapper_delegate_invoke_System_Action_1_MonoTouch_Dialog_GlassButton_invoke_void__this___T_MonoTouch_Dialog_GlassButton
-	.long LDIFF_SYM2850
+LDIFF_SYM2859=Lme_178 - _wrapper_delegate_invoke_System_Action_1_MonoTouch_Dialog_GlassButton_invoke_void__this___T_MonoTouch_Dialog_GlassButton
+	.long LDIFF_SYM2859
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
-Lfde343_end:
+Lfde345_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_186:
@@ -34862,65 +34959,65 @@ LTDIE_186:
 	.byte 8,7
 	.asciz "_<Module>"
 
-LDIFF_SYM2851=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM2851
+LDIFF_SYM2860=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM2860
 LTDIE_186_POINTER:
 
 	.byte 13
-LDIFF_SYM2852=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM2852
+LDIFF_SYM2861=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM2861
 LTDIE_186_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2853=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM2853
+LDIFF_SYM2862=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM2862
 	.byte 2
 	.asciz "(wrapper delegate-invoke) <Module>:invoke_void__this___object_SearchChangedEventArgs"
 	.long _wrapper_delegate_invoke__Module_invoke_void__this___object_SearchChangedEventArgs_object_MonoTouch_Dialog_SearchChangedEventArgs
-	.long Lme_177
+	.long Lme_179
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2854=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2854
+LDIFF_SYM2863=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2863
 	.byte 1,85,3
 	.asciz "param0"
 
-LDIFF_SYM2855=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2855
+LDIFF_SYM2864=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2864
 	.byte 1,86,3
 	.asciz "param1"
 
-LDIFF_SYM2856=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2856
+LDIFF_SYM2865=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2865
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM2857=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2857
+LDIFF_SYM2866=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2866
 	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM2858=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2858
+LDIFF_SYM2867=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2867
 	.byte 1,91,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2859=Lfde344_end - Lfde344_start
-	.long LDIFF_SYM2859
-Lfde344_start:
+LDIFF_SYM2868=Lfde346_end - Lfde346_start
+	.long LDIFF_SYM2868
+Lfde346_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_invoke__Module_invoke_void__this___object_SearchChangedEventArgs_object_MonoTouch_Dialog_SearchChangedEventArgs
 
-LDIFF_SYM2860=Lme_177 - _wrapper_delegate_invoke__Module_invoke_void__this___object_SearchChangedEventArgs_object_MonoTouch_Dialog_SearchChangedEventArgs
-	.long LDIFF_SYM2860
+LDIFF_SYM2869=Lme_179 - _wrapper_delegate_invoke__Module_invoke_void__this___object_SearchChangedEventArgs_object_MonoTouch_Dialog_SearchChangedEventArgs
+	.long LDIFF_SYM2869
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
 	.align 2
-Lfde344_end:
+Lfde346_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_187:
@@ -34929,118 +35026,54 @@ LTDIE_187:
 	.asciz "System_AsyncCallback"
 
 	.byte 52,16
-LDIFF_SYM2861=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2861
+LDIFF_SYM2870=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2870
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM2862=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM2862
+LDIFF_SYM2871=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2871
 LTDIE_187_POINTER:
 
 	.byte 13
-LDIFF_SYM2863=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM2863
+LDIFF_SYM2872=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2872
 LTDIE_187_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2864=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM2864
+LDIFF_SYM2873=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM2873
 	.byte 2
 	.asciz "(wrapper delegate-begin-invoke) <Module>:begin_invoke_IAsyncResult__this___object_SearchChangedEventArgs_AsyncCallback_object"
 	.long _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_SearchChangedEventArgs_AsyncCallback_object_object_MonoTouch_Dialog_SearchChangedEventArgs_System_AsyncCallback_object
-	.long Lme_178
+	.long Lme_17a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2865=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2865
+LDIFF_SYM2874=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2874
 	.byte 2,123,0,3
 	.asciz "param0"
 
-LDIFF_SYM2866=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2866
+LDIFF_SYM2875=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2875
 	.byte 2,123,4,3
 	.asciz "param1"
 
-LDIFF_SYM2867=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2867
+LDIFF_SYM2876=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2876
 	.byte 2,123,8,3
 	.asciz "param2"
 
-LDIFF_SYM2868=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2868
+LDIFF_SYM2877=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2877
 	.byte 2,123,12,3
 	.asciz "param3"
 
-LDIFF_SYM2869=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2869
-	.byte 2,123,16,11
-	.asciz "V_0"
-
-LDIFF_SYM2870=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2870
-	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM2871=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2871
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2872=Lfde345_end - Lfde345_start
-	.long LDIFF_SYM2872
-Lfde345_start:
-
-	.long 0
-	.align 2
-	.long _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_SearchChangedEventArgs_AsyncCallback_object_object_MonoTouch_Dialog_SearchChangedEventArgs_System_AsyncCallback_object
-
-LDIFF_SYM2873=Lme_178 - _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_SearchChangedEventArgs_AsyncCallback_object_object_MonoTouch_Dialog_SearchChangedEventArgs_System_AsyncCallback_object
-	.long LDIFF_SYM2873
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
-	.align 2
-Lfde345_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_188:
-
-	.byte 17
-	.asciz "System_IAsyncResult"
-
-	.byte 8,7
-	.asciz "System_IAsyncResult"
-
-LDIFF_SYM2874=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM2874
-LTDIE_188_POINTER:
-
-	.byte 13
-LDIFF_SYM2875=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM2875
-LTDIE_188_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2876=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM2876
-	.byte 2
-	.asciz "(wrapper delegate-end-invoke) <Module>:end_invoke_void__this___IAsyncResult"
-	.long _wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.long Lme_179
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2877=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2877
-	.byte 2,123,0,3
-	.asciz "param0"
-
-LDIFF_SYM2878=LTDIE_188_REFERENCE - Ldebug_info_start
+LDIFF_SYM2878=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM2878
-	.byte 2,123,4,11
+	.byte 2,123,16,11
 	.asciz "V_0"
 
 LDIFF_SYM2879=LDIE_I4 - Ldebug_info_start
@@ -35054,19 +35087,83 @@ LDIFF_SYM2880=LDIE_I4 - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2881=Lfde346_end - Lfde346_start
+LDIFF_SYM2881=Lfde347_end - Lfde347_start
 	.long LDIFF_SYM2881
-Lfde346_start:
+Lfde347_start:
+
+	.long 0
+	.align 2
+	.long _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_SearchChangedEventArgs_AsyncCallback_object_object_MonoTouch_Dialog_SearchChangedEventArgs_System_AsyncCallback_object
+
+LDIFF_SYM2882=Lme_17a - _wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_SearchChangedEventArgs_AsyncCallback_object_object_MonoTouch_Dialog_SearchChangedEventArgs_System_AsyncCallback_object
+	.long LDIFF_SYM2882
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
+	.align 2
+Lfde347_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_188:
+
+	.byte 17
+	.asciz "System_IAsyncResult"
+
+	.byte 8,7
+	.asciz "System_IAsyncResult"
+
+LDIFF_SYM2883=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM2883
+LTDIE_188_POINTER:
+
+	.byte 13
+LDIFF_SYM2884=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM2884
+LTDIE_188_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2885=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM2885
+	.byte 2
+	.asciz "(wrapper delegate-end-invoke) <Module>:end_invoke_void__this___IAsyncResult"
+	.long _wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
+	.long Lme_17b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2886=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2886
+	.byte 2,123,0,3
+	.asciz "param0"
+
+LDIFF_SYM2887=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2887
+	.byte 2,123,4,11
+	.asciz "V_0"
+
+LDIFF_SYM2888=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2888
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM2889=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2889
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2890=Lfde348_end - Lfde348_start
+	.long LDIFF_SYM2890
+Lfde348_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM2882=Lme_179 - _wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM2882
+LDIFF_SYM2891=Lme_17b - _wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM2891
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,24,68,13,11
 	.align 2
-Lfde346_end:
+Lfde348_end:
 
 .section __DWARF, __debug_info,regular,debug
 

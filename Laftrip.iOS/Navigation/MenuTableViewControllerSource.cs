@@ -63,7 +63,7 @@ namespace Laftrip.iOS
 			else if (indexPath.Row == 1)
 				controller.NavigationController.PushViewController( new PhotosTabBarController(), true);
 			else if (indexPath.Row == 2)
-				controller.NavigationController.PushViewController( new Settings(), true);
+				controller.NavigationController.PushViewController( new UserPreferencesView(), true);
 
 			tableView.DeselectRow (indexPath, true);
 		}

@@ -11,21 +11,27 @@ namespace Laftrip.API
 
 		public static SqliteConnection GetConnection()
 		{
+			var newdb = false;
 			var documents = Environment.GetFolderPath (
 				Environment.SpecialFolder.Personal);
 			string db = Path.Combine (documents, "laftrip.db3");
 			bool exists = File.Exists (db);
-			if (!exists)
-				SqliteConnection.CreateFile (db);
-			var conn = new SqliteConnection("Data Source=" + db);
 			if (!exists) {
+				SqliteConnection.CreateFile (db);
+				newdb = true;
+			}
+//			else {
+//				File.Delete (db);
+//			}
+
+			var conn = new SqliteConnection("Data Source=" + db);
+			if (newdb == true) {
 				var commands = new[] {
 					"CREATE TABLE LikedJokes (JokeId INTEGER NOT NULL)",
-					"CREATE TABLE LikedPhotos (PhotoId INTEGER NOT NULL)"
-//					"INSERT INTO People (PersonID, FirstName, LastName) VALUES (1, 'First', 'Last')",
-//					"INSERT INTO People (PersonID, FirstName, LastName) VALUES (2, 'Dewey', 'Cheatem')",
-//					"INSERT INTO People (PersonID, FirstName, LastName) VALUES (3, 'And', 'How')",
-     			};
+					"CREATE TABLE LikedPhotos (PhotoId INTEGER NOT NULL)",
+					"CREATE TABLE UserPreferences (Filtered INTEGER NOT NULL)",
+					"INSERT INTO UserPreferences (Filtered) VALUES (1)"
+				};
 				conn.Open ();
 				foreach (var cmd in commands) {
 					using (var c = conn.CreateCommand()) {
@@ -35,7 +41,8 @@ namespace Laftrip.API
 					}
 				}
 				conn.Close ();
-			}
+			} 
+
 			return conn;
 		}
 

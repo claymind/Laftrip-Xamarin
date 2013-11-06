@@ -57,6 +57,7 @@
     <Compile Include="WebServices\Downloader.cs" />
     <Compile Include="Data\LikeProvider.cs" />
     <Compile Include="Utils\ImageHelper.cs" />
+    <Compile Include="Data\PreferencesProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="json.net">
