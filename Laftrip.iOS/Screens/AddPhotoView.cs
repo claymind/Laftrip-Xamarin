@@ -51,33 +51,37 @@ namespace Laftrip.iOS
 				string photoTitle = title.Value;
 				string AddedBy = name.Value;
 
-				Downloader downloader = new Downloader ();
-				Stream s = (imageView.Image).AsPNG().AsStream ();
+				//validate
+				if (photoTitle == String.Empty || AddedBy == String.Empty || imageView.Image == null) {
+					new UIAlertView ("Invalid Entry", "All fields are required.", null, "ok", null).Show ();
+				}
+				else {
+					Downloader downloader = new Downloader ();
+					Stream s = (imageView.Image).AsPNG().AsStream ();
 
-				DisplayProgress ("Submitting Photo");
+					DisplayProgress ("Submitting Photo");
 
-				Task.Factory.StartNew(() => {
-					success	 = downloader.AddPhoto(photoTitle, AddedBy, ImageHelper.ReadFully(s));
+					Task.Factory.StartNew(() => {
+						success	 = downloader.AddPhoto(photoTitle, AddedBy, ImageHelper.ReadFully(s));
 
-				}).ContinueWith(task3 => {
+					}).ContinueWith(task3 => {
 
-					HideProgress();
-					View.BackgroundColor = UIColor.White;
+						HideProgress();
+						View.BackgroundColor = UIColor.White;
 
-					if (success > 0){
-						new UIAlertView ("Photo Submitted", "Thank you! Your photo will be posted after review.", null, "ok", null).Show ();
-						this.NavigationController.PopViewControllerAnimated(true);
-					}
-					else {
-						new UIAlertView ("Photo Not Submitted", "Uh oh something went wrong.  Please try again.", null, "ok", null).Show ();
-					}
+						if (success > 0){
+							new UIAlertView ("Photo Submitted", "Thank you! Your photo will be posted after review.", null, "ok", null).Show ();
+							this.NavigationController.PopViewControllerAnimated(true);
+						}
+						else {
+							new UIAlertView ("Photo Not Submitted", "Uh oh something went wrong.  Please try again.", null, "ok", null).Show ();
+						}
 
-				}, 
-				TaskScheduler.FromCurrentSynchronizationContext ());
+					}, 
+					TaskScheduler.FromCurrentSynchronizationContext ());
+				}
 
-			})
-
-				, true);
+			}), true);
 
 
 			imagePicker.SourceType = UIImagePickerControllerSourceType.PhotoLibrary;

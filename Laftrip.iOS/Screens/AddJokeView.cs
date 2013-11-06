@@ -45,40 +45,42 @@ namespace Laftrip.iOS
 				string jokeDesc = desc.Value;
 				string AddedBy = name.Value;
 
-				Downloader downloader = new Downloader ();
+				//validate
 
-				DisplayProgress ("Submitting Joke");
+				if (jokeTitle == String.Empty || jokeDesc == String.Empty || AddedBy == String.Empty)
+				{
+					new UIAlertView ("Invalid Entry", "All fields are required.", null, "ok", null).Show ();
+				}
+				else {
+					Downloader downloader = new Downloader ();
+					DisplayProgress ("Submitting Joke");
 
-				Task.Factory.StartNew(() => {
-					Joke newJoke = new Joke();
-					newJoke.Title = jokeTitle;
-					newJoke.JokeDesc = jokeDesc;
-					newJoke.Tags = jokeTitle;
-					newJoke.AddedBy = AddedBy;
+					Task.Factory.StartNew(() => {
+						Joke newJoke = new Joke();
+						newJoke.Title = jokeTitle;
+						newJoke.JokeDesc = jokeDesc;
+						newJoke.Tags = jokeTitle;
+						newJoke.AddedBy = AddedBy;
 
-					success	 = downloader.AddJoke(newJoke);
+						success	 = downloader.AddJoke(newJoke);
 
-				}).ContinueWith(task3 => {
+					}).ContinueWith(task3 => {
 
-					HideProgress();
-					View.BackgroundColor = UIColor.White;
+						HideProgress();
+						View.BackgroundColor = UIColor.White;
 
-					if (success > 0){
-						new UIAlertView ("Joke Submitted", "Thank you! Your joke will be posted after review.", null, "ok", null).Show ();
-						this.NavigationController.PopViewControllerAnimated(true);
-					}
-					else {
-						new UIAlertView ("Joke Not Submitted", "Uh oh something went wrong.  Please try again.", null, "ok", null).Show ();
-					}
+						if (success > 0){
+							new UIAlertView ("Joke Submitted", "Thank you! Your joke will be posted after review.", null, "ok", null).Show ();
+							this.NavigationController.PopViewControllerAnimated(true);
+						}
+						else {
+							new UIAlertView ("Joke Not Submitted", "Uh oh something went wrong.  Please try again.", null, "ok", null).Show ();
+						}
 
-				}, 
-				TaskScheduler.FromCurrentSynchronizationContext ());
-
-				})
-
-						, true);
-				
-
+					}, 
+					TaskScheduler.FromCurrentSynchronizationContext ());
+				}
+			}), true);
 		}
 
 		private void DisplayProgress(string details)
