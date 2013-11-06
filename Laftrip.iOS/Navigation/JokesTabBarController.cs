@@ -14,11 +14,19 @@ namespace Laftrip.iOS
 		{
 			base.ViewDidLoad ();
 
-			var vcRecentJokes = new UINavigationController ();
-			vcRecentJokes.PushViewController (new JokesViewController(Enums.JokeFilter.MostRecent), false);
+			//determine explicit filter
+			long filtered = PreferencesProvider.GetFilter ();
 
+			var vcRecentJokes = new UINavigationController ();
 			var vcPopularJokes = new UINavigationController ();
-			vcPopularJokes.PushViewController (new JokesViewController(Enums.JokeFilter.MostPopular), false);
+
+			if (filtered == 1) {
+				vcRecentJokes.PushViewController (new JokesViewController (Enums.JokeFilter.MostRecentNoExplicit), false);
+				vcPopularJokes.PushViewController (new JokesViewController(Enums.JokeFilter.MostPopularNoExplicit), false);
+			} else {
+				vcRecentJokes.PushViewController (new JokesViewController (Enums.JokeFilter.MostRecent), false);
+				vcPopularJokes.PushViewController (new JokesViewController(Enums.JokeFilter.MostPopular), false);
+			}
 
 			var vcSearchJokes = new JokesSearchViewController ();
 

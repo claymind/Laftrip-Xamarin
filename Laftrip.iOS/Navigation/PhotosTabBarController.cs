@@ -14,11 +14,21 @@ namespace Laftrip.iOS
 		{
 			base.ViewDidLoad ();
 
-			var vcRecentPhotos = new UINavigationController ();
-			vcRecentPhotos.PushViewController (new PhotosViewController(Enums.PhotoFilter.MostRecent), false);
+			//determine explicit filter
+			long filtered = PreferencesProvider.GetFilter ();
 
+			var vcRecentPhotos = new UINavigationController ();
 			var vcPopularPhotos = new UINavigationController ();
-			vcPopularPhotos.PushViewController (new PhotosViewController(Enums.PhotoFilter.MostPopular), false);
+
+			if (filtered == 1) {
+				vcRecentPhotos.PushViewController (new PhotosViewController(Enums.PhotoFilter.MostRecentNoExplicit), false);
+				vcPopularPhotos.PushViewController (new PhotosViewController(Enums.PhotoFilter.MostPopularNoExplicit), false);
+			} else {
+				vcRecentPhotos.PushViewController (new PhotosViewController(Enums.PhotoFilter.MostRecent), false);
+				vcPopularPhotos.PushViewController (new PhotosViewController(Enums.PhotoFilter.MostPopular), false);
+			}
+
+
 
 			var vcSearchPhotos = new PhotosSearchViewController ();
 

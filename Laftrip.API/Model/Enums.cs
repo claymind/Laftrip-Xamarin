@@ -6,13 +6,13 @@ namespace Laftrip.API
 	{
 		public enum JokeFilter 
 		{
-			MostRecent = 1, MostPopular = 2
+			MostRecent = 1, MostPopular = 2, MostRecentNoExplicit = 3, MostPopularNoExplicit = 4
 
 		}
 
 		public enum PhotoFilter
 		{
-			MostRecent = 1, MostPopular = 2
+			MostRecent = 1, MostPopular = 2,MostRecentNoExplicit = 3, MostPopularNoExplicit = 4
 		}
 
 		public enum ItemType

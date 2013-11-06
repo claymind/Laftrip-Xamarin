@@ -101,8 +101,14 @@ namespace Laftrip.API
 			case Enums.JokeFilter.MostPopular:
 				request = new RestRequest (String.Format (getJokesUrl, "2", page));
 				break;
+			case Enums.JokeFilter.MostRecentNoExplicit:
+				request = new RestRequest (String.Format (getJokesUrl, "3", page));
+				break;
+			case Enums.JokeFilter.MostPopularNoExplicit:
+				request = new RestRequest (String.Format (getJokesUrl, "4", page));
+				break;
 			default:
-				request = new RestRequest (String.Format (getJokesUrl, "1", page));
+				request = new RestRequest (String.Format (getJokesUrl, "3", page));
 				break;
 
 			}
@@ -136,13 +142,19 @@ namespace Laftrip.API
 			switch (filter) 
 			{
 				case Enums.JokeFilter.MostRecent:
-				request = new RestRequest (String.Format (getJokeCountUrl, "1"));
-				break;
+					request = new RestRequest (String.Format (getJokeCountUrl, "1"));
+					break;
 				case Enums.JokeFilter.MostPopular:
-				request = new RestRequest (String.Format (getJokeCountUrl, "2"));
-				break;
+					request = new RestRequest (String.Format (getJokeCountUrl, "2"));
+					break;
+				case Enums.JokeFilter.MostRecentNoExplicit:
+					request = new RestRequest (String.Format (getJokeCountUrl, "3"));
+					break;
+				case Enums.JokeFilter.MostPopularNoExplicit:
+					request = new RestRequest (String.Format (getJokeCountUrl, "4"));
+					break;
 				default:
-				request = new RestRequest (String.Format (getJokeCountUrl, "1"));
+					request = new RestRequest (String.Format (getJokeCountUrl, "3"));
 				break;
 
 			}
@@ -273,14 +285,20 @@ namespace Laftrip.API
 			switch (filter) 
 			{
 				case Enums.PhotoFilter.MostRecent:
-				request = new RestRequest (String.Format (getPhotosUrl, "1", page));
-				break;
+					request = new RestRequest (String.Format (getPhotosUrl, "1", page));
+					break;
 				case Enums.PhotoFilter.MostPopular:
-				request = new RestRequest (String.Format (getPhotosUrl, "2", page));
-				break;
+					request = new RestRequest (String.Format (getPhotosUrl, "2", page));
+					break;
+				case Enums.PhotoFilter.MostRecentNoExplicit:
+					request = new RestRequest (String.Format (getPhotosUrl, "3", page));
+					break;
+				case Enums.PhotoFilter.MostPopularNoExplicit:
+					request = new RestRequest (String.Format (getPhotosUrl, "4", page));
+					break;
 				default:
-				request = new RestRequest (String.Format (getPhotosUrl, "1", page));
-				break;
+					request = new RestRequest (String.Format (getPhotosUrl, "3", page));
+					break;
 
 			}
 
@@ -336,14 +354,20 @@ namespace Laftrip.API
 			switch (filter) 
 			{
 				case Enums.PhotoFilter.MostRecent:
-				request = new RestRequest (String.Format (getPhotoCountUrl, "1"));
-				break;
+					request = new RestRequest (String.Format (getPhotoCountUrl, "1"));
+					break;
 				case Enums.PhotoFilter.MostPopular:
-				request = new RestRequest (String.Format (getPhotoCountUrl, "2"));
-				break;
+					request = new RestRequest (String.Format (getPhotoCountUrl, "2"));
+					break;
+				case Enums.PhotoFilter.MostRecentNoExplicit:
+					request = new RestRequest (String.Format (getPhotoCountUrl, "3"));
+					break;
+				case Enums.PhotoFilter.MostPopularNoExplicit:
+					request = new RestRequest (String.Format (getPhotoCountUrl, "4"));
+					break;
 				default:
-				request = new RestRequest (String.Format (getPhotoCountUrl, "1"));
-				break;
+					request = new RestRequest (String.Format (getPhotoCountUrl, "3"));
+					break;
 
 			}
 
