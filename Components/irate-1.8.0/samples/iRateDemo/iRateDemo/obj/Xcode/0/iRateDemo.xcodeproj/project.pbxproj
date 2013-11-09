@@ -1,0 +1,218 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241A7BA60000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AB88440000000000000000 /* UIKit.framework */; };
+		5B01ED900000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9412B7700000000000000000 /* MapKit.framework */; };
+		1AE387710000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E74940F0000000000000000 /* Foundation.framework */; };
+		E4E69BA00000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DF76580000000000000000 /* CoreGraphics.framework */; };
+		347FD7900000000000000000 /* iRateDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3810E42E0000000000000000 /* iRateDemoViewController.xib */; };
+		2ED9EFF90000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 326AFC970000000000000000 /* AppDelegate.h */; };
+		23F3E7030000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2784F3A10000000000000000 /* AppDelegate.m */; };
+		3CB85C390000000000000000 /* iRateDemoViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 4968D7000000000000000000 /* iRateDemoViewController.h */; };
+		1685BB000000000000000000 /* iRateDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7925900000000000000000 /* iRateDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37B9B6B80000000000000000 /* iRateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "iRateDemo.app"; path = "iRateDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AB88440000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		9412B7700000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		1E74940F0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		11DF76580000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		3810E42E0000000000000000 /* iRateDemoViewController.xib */ = {isa = PBXFileReference; name = "iRateDemoViewController.xib"; path = "iRateDemoViewController.xib"; sourceTree = "<group>"; };
+		326AFC970000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		2784F3A10000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		4968D7000000000000000000 /* iRateDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iRateDemoViewController.h"; path = "iRateDemoViewController.h"; sourceTree = "<group>"; };
+		3A7925900000000000000000 /* iRateDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "iRateDemoViewController.m"; path = "iRateDemoViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E3F2260000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241A7BA60000000000000000 /* UIKit.framework in Frameworks */,
+				5B01ED900000000000000000 /* MapKit.framework in Frameworks */,
+				1AE387710000000000000000 /* Foundation.framework in Frameworks */,
+				E4E69BA00000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FD63B40000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				1B9718000000000000000000 /* iRateDemo */,
+				3F41962C0000000000000000 /* Frameworks */,
+				264A3DDA0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		264A3DDA0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37B9B6B80000000000000000 /* iRateDemo.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		3F41962C0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27AB88440000000000000000 /* UIKit.framework */,
+				9412B7700000000000000000 /* MapKit.framework */,
+				1E74940F0000000000000000 /* Foundation.framework */,
+				11DF76580000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		1B9718000000000000000000 /* iRateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				326AFC970000000000000000 /* AppDelegate.h */,
+				4968D7000000000000000000 /* iRateDemoViewController.h */,
+				3810E42E0000000000000000 /* iRateDemoViewController.xib */,
+				25D5DEE00000000000000000 /* Supporting Files */,
+			);
+			name = "iRateDemo";
+			sourceTree = "<group>";
+		};
+		25D5DEE00000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2784F3A10000000000000000 /* AppDelegate.m */,
+				3A7925900000000000000000 /* iRateDemoViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28DCDAEC0000000000000000 /* iRateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0690DE0000000000000000 /* Build configuration list for PBXNativeTarget "iRateDemo" */;
+			buildPhases = (
+				3B7DA6720000000000000000 /* Sources */,
+				10E3F2260000000000000000 /* Frameworks */,
+				246845FD0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iRateDemo";
+			productName = "iRateDemo";
+			productReference = 37B9B6B80000000000000000 /* iRateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E29B5120000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1EC25E660000000000000000 /* Build configuration list for PBXProject "iRateDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30FD63B40000000000000000;
+			productRefGroup = 264A3DDA0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28DCDAEC0000000000000000 /* iRateDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		246845FD0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347FD7900000000000000000 /* iRateDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7DA6720000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED9EFF90000000000000000 /* AppDelegate.h in Sources */,
+				23F3E7030000000000000000 /* AppDelegate.m in Sources */,
+				3CB85C390000000000000000 /* iRateDemoViewController.h in Sources */,
+				1685BB000000000000000000 /* iRateDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		203E900B0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		140F388C0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "iRateDemo";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EC25E660000000000000000 /* Build configuration list for PBXProject "iRateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203E900B0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		2D0690DE0000000000000000 /* Build configuration list for PBXNativeTarget "iRateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140F388C0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E29B5120000000000000000 /* Project object */;
+}

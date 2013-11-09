@@ -143,7 +143,7 @@ namespace Laftrip.iOS
 					//Console.WriteLine ("got the original image");
 
 
-					UIImage newImage = ImageHelper.MaxResizeImage (originalImage, 400, 400);
+					UIImage newImage = ImageHelper.MaxResizeImage (originalImage, 400, 0);
 					imageView.Image = newImage; // display
 
 				}

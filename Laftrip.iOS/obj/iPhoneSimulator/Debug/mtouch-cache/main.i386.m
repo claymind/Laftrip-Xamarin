@@ -12,6 +12,7 @@ void monotouch_register_assemblies ()
 	monotouch_open_and_register ("MBProgressHUD.dll");
 	monotouch_open_and_register ("Laftrip.API.dll");
 	monotouch_open_and_register ("GoogleAdMobAds.dll");
+	monotouch_open_and_register ("MTiRate.dll");
 	monotouch_open_and_register ("Xamarin.Social.iOS.dll");
 	monotouch_open_and_register ("Xamarin.Auth.iOS.dll");
 	monotouch_open_and_register ("SDWebImage.dll");

@@ -20,6 +20,7 @@ namespace Laftrip.iOS
 		 
 			var filter =	new CheckboxElement("Filter explicit jokes and photos", filtered);
 
+
 			this.Pushing = true;
 
 			Root = new RootElement ("Settings") {

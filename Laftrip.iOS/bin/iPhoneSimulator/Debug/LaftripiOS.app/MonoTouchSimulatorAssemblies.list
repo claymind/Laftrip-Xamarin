@@ -12,6 +12,7 @@ Mono.Data.Tds.dll
 Mono.Security.dll
 System.Transactions.dll
 GoogleAdMobAds.dll
+MTiRate.dll
 Xamarin.Social.iOS.dll
 Xamarin.Auth.iOS.dll
 SDWebImage.dll

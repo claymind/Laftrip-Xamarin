@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using MTiRate;
 
 namespace Laftrip.iOS
 {
@@ -33,7 +34,36 @@ namespace Laftrip.iOS
 			
 			// If you have defined a root view controller, set it here:
 			window.RootViewController = laftripNavigationController;
-			
+
+			//start rate alert
+      		
+			var rateAlert = iRate.SharedInstance;
+
+			//set the bundle ID. normally you wouldn't need to do this
+			//as it is picked up automatically from your Info.plist file
+			//but we want to test with an app that's actually on the store
+			rateAlert.ApplicationBundleID = "com.claymind.laftrip";
+			rateAlert.OnlyPromptIfLatestVersion = false;
+			rateAlert.UsesUntilPrompt = 15;
+
+			// Subscribe to events
+			rateAlert.UserDidAttemptToRateApp += (sender, e) => {
+				Console.WriteLine ("User is rating app now!");	
+			};
+
+			rateAlert.UserDidDeclineToRateApp += (sender, e) => {
+				Console.WriteLine ("User does not want to rate app");
+			};
+
+			rateAlert.UserDidRequestReminderToRateApp += (sender, e) => {
+				Console.WriteLine ("User will rate app later");
+			};
+
+			// Enable preview mode so everytime Application is launched you get the promt
+			rateAlert.PreviewMode = false;
+
+			//end rate alert
+
 			// make the window visible
 			window.MakeKeyAndVisible ();
 

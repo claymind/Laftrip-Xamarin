@@ -100,6 +100,9 @@
     <Reference Include="System.Data" />
     <Reference Include="Mono.Data.Sqlite" />
     <Reference Include="MonoTouch.Dialog-1" />
+    <Reference Include="MTiRate">
+      <HintPath>..\Components\irate-1.8.0\lib\ios\MTiRate.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -155,10 +158,6 @@
     <Compile Include="Screens\AddJokeView.cs" />
     <Compile Include="ElementPack\SimpleMultilineEntryElement.cs" />
     <Compile Include="Screens\AddPhotoView.cs" />
-    <Compile Include="Settings.cs" />
-    <Compile Include="Settings.designer.cs">
-      <DependentUpon>Settings.cs</DependentUpon>
-    </Compile>
     <Compile Include="Screens\UserPreferencesView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -170,6 +169,7 @@
     <InterfaceDefinition Include="Screens\SinglePhotoViewController.xib" />
     <InterfaceDefinition Include="Screens\JokesViewController.xib" />
     <InterfaceDefinition Include="Screens\PhotosViewController.xib" />
+    <InterfaceDefinition Include="Screens\iRateViewController.xib" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="mbprogresshud">
@@ -190,6 +190,11 @@
     </XamarinComponentReference>
     <XamarinComponentReference Include="googleadmob">
       <Version>6.5.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="irate">
+      <InstallationInProgress>True</InstallationInProgress>
+      <Version>1.8.0</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
   </ItemGroup>
