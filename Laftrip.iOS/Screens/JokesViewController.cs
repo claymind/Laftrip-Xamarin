@@ -30,6 +30,7 @@ namespace Laftrip.iOS
 		GADBannerView adView;
 		bool viewOnScreen = false;
 		Enums.JokeFilter filter = Enums.JokeFilter.MostRecent;
+		bool isLiked = false;
 
 		List<Joke> filteredJokesBatch;
 		public JokesViewController (Enums.JokeFilter filter) : base ("JokesViewController", null)
@@ -50,6 +51,9 @@ namespace Laftrip.iOS
 		{
 			base.ViewDidLoad ();
 
+			//set share button image
+			btnShare.SetImage(UIImage.FromFile("share.png"), UIControlState.Normal);
+
 			if(Reachability.IsHostReachable("www.laftrip.com")) {
 				this.ParentViewController.ParentViewController.NavigationItem.SetRightBarButtonItem(
 					new UIBarButtonItem(UIBarButtonSystemItem.Add, (sender, args) => {
@@ -69,7 +73,8 @@ namespace Laftrip.iOS
 
 				btnLike.TouchUpInside+= (object sender, EventArgs e) => {
 
-					if (btnLike.TitleLabel.Text != "Liked") {
+
+					if (!isLiked) {
 						int success = -1;
 						Downloader downloader = new Downloader ();
 
@@ -86,8 +91,9 @@ namespace Laftrip.iOS
 							LikeProvider.SaveLikedJoke(currentJokeId);
 
 							//add jokeid to array
-							btnLike.SetTitle ("Liked", UIControlState.Normal);
+							btnLike.SetImage(UIImage.FromFile("liked.png"), UIControlState.Normal);
 							likedJokes.Add(currentJokeId);
+							isLiked = true;
 
 							return success;
 						}, 
@@ -96,8 +102,9 @@ namespace Laftrip.iOS
 					else { //already liked.  dislike.
 						//remove from db
 						LikeProvider.DeleteLikedPhoto(currentJokeId);
-						btnLike.SetTitle("Like", UIControlState.Normal);
+						btnLike.SetImage(UIImage.FromFile("unliked.png"), UIControlState.Normal);
 						likedJokes.Remove(currentJokeId);
+						isLiked = false;
 					}
 
 
@@ -281,9 +288,11 @@ namespace Laftrip.iOS
 			}
 
 			if (found == true) {
-				btnLike.SetTitle ("Liked", UIControlState.Normal);
+				btnLike.SetImage(UIImage.FromFile("liked.png"), UIControlState.Normal);
+				isLiked = true;
 			} else {
-				btnLike.SetTitle ("Like", UIControlState.Normal);
+				btnLike.SetImage(UIImage.FromFile("unliked.png"), UIControlState.Normal);
+				isLiked = false;
 			}
 		}
 

@@ -1,10 +1,11 @@
 // WARNING
 //
 // This file has been generated automatically by Xamarin Studio to store outlets and
-// actions made in the Xcode designer. If it is removed, they will be lost.
+// actions made in the UI designer. If it is removed, they will be lost.
 // Manual changes to this file may not be handled correctly.
 //
 using MonoTouch.Foundation;
+using System.CodeDom.Compiler;
 
 namespace Laftrip.iOS
 {
@@ -12,16 +13,13 @@ namespace Laftrip.iOS
 	partial class JokesShareViewController
 	{
 		[Outlet]
-		MonoTouch.UIKit.UIButton btnTwitterShare { get; set; }
+		MonoTouch.UIKit.UIButton btnEmailShare { get; set; }
 
 		[Outlet]
 		MonoTouch.UIKit.UIButton btnFacebookShare { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UIButton btnEmailShare { get; set; }
-
-		[Outlet]
-		MonoTouch.UIKit.UIButton btnTextShare { get; set; }
+		MonoTouch.UIKit.UIButton btnTwitterShare { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
@@ -38,11 +36,6 @@ namespace Laftrip.iOS
 			if (btnEmailShare != null) {
 				btnEmailShare.Dispose ();
 				btnEmailShare = null;
-			}
-
-			if (btnTextShare != null) {
-				btnTextShare.Dispose ();
-				btnTextShare = null;
 			}
 		}
 	}

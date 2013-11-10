@@ -36,6 +36,11 @@ namespace Laftrip.iOS
 		{
 			base.ViewDidLoad ();
 
+			//initialize button icons
+			btnFacebookShare.SetImage(UIImage.FromFile("facebook.png"), UIControlState.Normal);
+			btnTwitterShare.SetImage(UIImage.FromFile("twitter.png"), UIControlState.Normal);
+			btnEmailShare.SetImage(UIImage.FromFile("email.png"), UIControlState.Normal);
+
 			switch (type) 
 			{
 			case Laftrip.API.Enums.ItemType.Joke:

@@ -12,6 +12,5 @@
 @synthesize btnTwitterShare = _btnTwitterShare;
 @synthesize btnFacebookShare = _btnFacebookShare;
 @synthesize btnEmailShare = _btnEmailShare;
-@synthesize btnTextShare = _btnTextShare;
 
 @end

@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C91C4B73-9E1D-4663-BE5B-1F243AFA6397</string>
+	<string>C539B83E-4258-41FA-81F2-C613EA63FF24</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Laftrip.iOS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>87F3D336-9EBC-4E63-B8E1-113A33252E21</key>
+		<key>E6647DD9-89D8-4AFC-B1F4-9E4BEF793AB9</key>
 		<string>https://github.com/g3misa/laftrip.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Laftrip.iOS/obj/Xcode/4/Laftrip.iOS.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>87F3D336-9EBC-4E63-B8E1-113A33252E21</key>
+		<key>E6647DD9-89D8-4AFC-B1F4-9E4BEF793AB9</key>
 		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>87F3D336-9EBC-4E63-B8E1-113A33252E21</string>
+	<string>E6647DD9-89D8-4AFC-B1F4-9E4BEF793AB9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>87F3D336-9EBC-4E63-B8E1-113A33252E21</string>
+			<string>E6647DD9-89D8-4AFC-B1F4-9E4BEF793AB9</string>
 			<key>IDESourceControlWCCName</key>
 			<string>laftrip</string>
 		</dict>

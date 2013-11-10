@@ -13,7 +13,6 @@
 	UIButton *_btnTwitterShare;
 	UIButton *_btnFacebookShare;
 	UIButton *_btnEmailShare;
-	UIButton *_btnTextShare;
 }
 
 @property (nonatomic, retain) IBOutlet UIButton *btnTwitterShare;
@@ -21,7 +20,5 @@
 @property (nonatomic, retain) IBOutlet UIButton *btnFacebookShare;
 
 @property (nonatomic, retain) IBOutlet UIButton *btnEmailShare;
-
-@property (nonatomic, retain) IBOutlet UIButton *btnTextShare;
 
 @end

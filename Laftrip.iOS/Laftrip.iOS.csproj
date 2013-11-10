@@ -193,7 +193,6 @@
       <Visible>False</Visible>
     </XamarinComponentReference>
     <XamarinComponentReference Include="irate">
-      <InstallationInProgress>True</InstallationInProgress>
       <Version>1.8.0</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
@@ -207,6 +206,12 @@
     <BundleResource Include="Resources\Default%402x.png" />
     <BundleResource Include="Resources\Default-568h%402x.png" />
     <BundleResource Include="Resources\laftrip-menu.png" />
+    <BundleResource Include="Resources\unliked.png" />
+    <BundleResource Include="Resources\liked.png" />
+    <BundleResource Include="Resources\share.png" />
+    <BundleResource Include="Resources\email.png" />
+    <BundleResource Include="Resources\twitter.png" />
+    <BundleResource Include="Resources\facebook.png" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />

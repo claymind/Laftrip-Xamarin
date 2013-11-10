@@ -9,3 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
+@interface AppDelegate : NSObject {
+}
+
+@end

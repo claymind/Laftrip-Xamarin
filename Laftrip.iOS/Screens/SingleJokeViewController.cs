@@ -28,6 +28,7 @@ namespace Laftrip.iOS
 		const string AdmobID = "ca-app-pub-0860554497941889/9016955114";
 		GADBannerView adView;
 		bool viewOnScreen = false;
+		bool isLiked = false;
 
 		Joke chosenJoke;
 	
@@ -44,6 +45,9 @@ namespace Laftrip.iOS
 		{
 			base.ViewDidLoad ();
 
+			//set share icon
+			btnShare.SetImage(UIImage.FromFile("share.png"), UIControlState.Normal);
+
 			if(Reachability.IsHostReachable("www.laftrip.com")) {
 				this.NavigationItem.SetRightBarButtonItem(
 					new UIBarButtonItem(UIBarButtonSystemItem.Add, (sender, args) => {
@@ -57,12 +61,12 @@ namespace Laftrip.iOS
 
 				//
 				btnShare.TouchUpInside+= (object sender, EventArgs e) => {
-					this.TabBarController.NavigationController.PushViewController( new JokesShareViewController(Laftrip.API.Enums.ItemType.Joke, currentJokeTitle, currentJokeDesc, currentJokeId), true);
+					this.NavigationController.PushViewController( new JokesShareViewController(Laftrip.API.Enums.ItemType.Joke, currentJokeTitle, currentJokeDesc, currentJokeId), true);
 				};
 
 				btnLike.TouchUpInside += (object sender, EventArgs e) => {
 
-					if (btnLike.TitleLabel.Text != "Liked") {
+					if (!isLiked) {
 						int success = -1;
 						Downloader downloader = new Downloader ();
 
@@ -79,7 +83,8 @@ namespace Laftrip.iOS
 							LikeProvider.SaveLikedJoke (currentJokeId);
 
 							//add jokeid to array
-							btnLike.SetTitle ("Liked", UIControlState.Normal);
+							btnLike.SetImage(UIImage.FromFile("liked.png"), UIControlState.Normal);
+							isLiked = true;
 							likedJokes.Add (currentJokeId);
 
 							return success;
@@ -88,7 +93,8 @@ namespace Laftrip.iOS
 					} else { //already liked.  dislike.
 						//remove from db
 						LikeProvider.DeleteLikedJoke(currentJokeId);
-						btnLike.SetTitle("Like", UIControlState.Normal);
+						btnLike.SetImage(UIImage.FromFile("unliked.png"), UIControlState.Normal);
+						isLiked = false;
 						likedJokes.Remove(currentJokeId);
 					}
 				};
@@ -181,9 +187,11 @@ namespace Laftrip.iOS
 			}
 
 			if (found == true) {
-				btnLike.SetTitle ("Liked", UIControlState.Normal);
+				btnLike.SetImage(UIImage.FromFile("liked.png"), UIControlState.Normal);
+				isLiked = true;
 			} else {
-				btnLike.SetTitle ("Like", UIControlState.Normal);
+				btnLike.SetImage(UIImage.FromFile("unliked.png"), UIControlState.Normal);
+				isLiked = false;
 			}
 		}
 

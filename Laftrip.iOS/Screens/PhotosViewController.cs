@@ -30,6 +30,7 @@ namespace Laftrip.iOS
 		NoConnectionDelegate connDelegate;
 		List<int> likedPhotos;
 		Enums.PhotoFilter filter = Enums.PhotoFilter.MostRecent;
+		bool isLiked = false;
 
 		List<Photo> filteredphotosBatch;
 
@@ -50,6 +51,8 @@ namespace Laftrip.iOS
 		{
 			base.ViewDidLoad ();
 
+			//set share button image
+			btnShare.SetImage(UIImage.FromFile("share.png"), UIControlState.Normal);
 			
 			if (Reachability.IsHostReachable ("www.laftrip.com")) {
 
@@ -77,7 +80,7 @@ namespace Laftrip.iOS
 				};
 
 				btnLike.TouchUpInside+= (object sender, EventArgs e) => {
-					if (btnLike.TitleLabel.Text != "Liked") {
+					if (!isLiked) {
 						int success = -1;
 						Downloader downloader = new Downloader ();
 
@@ -93,7 +96,8 @@ namespace Laftrip.iOS
 							LikeProvider.SaveLikedPhoto(currentphotoId);
 
 							//add photoid to array
-							btnLike.SetTitle ("Liked", UIControlState.Normal);
+							btnLike.SetImage(UIImage.FromFile("liked.png"), UIControlState.Normal);
+							isLiked = true;
 							likedPhotos.Add(currentphotoId);
 
 							return success;
@@ -103,7 +107,8 @@ namespace Laftrip.iOS
 					else {
 						//remove from db
 						LikeProvider.DeleteLikedPhoto(currentphotoId);
-						btnLike.SetTitle("Like", UIControlState.Normal);
+						btnLike.SetImage(UIImage.FromFile("unliked.png"), UIControlState.Normal);
+						isLiked = false;
 						likedPhotos.Remove(currentphotoId);
 					}
 				};
@@ -330,11 +335,15 @@ namespace Laftrip.iOS
 			}
 
 			if (found == true) {
-				btnLike.SetTitle ("Liked", UIControlState.Normal);
+				btnLike.SetImage(UIImage.FromFile("liked.png"), UIControlState.Normal);
+				isLiked = true;
 			} else {
-				btnLike.SetTitle ("Like", UIControlState.Normal);
+				btnLike.SetImage(UIImage.FromFile("unliked.png"), UIControlState.Normal);
+				isLiked = false;
 			}
 		}
+
+
 	}
 }
 

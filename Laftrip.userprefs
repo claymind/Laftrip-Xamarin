@@ -1,41 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina4.7.0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Laftrip.iOS/Screens/JokesViewController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina4.6.0" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Laftrip.iOS/Screens/JokesViewController.cs" Line="230" Column="1" />
-      <File FileName="Laftrip.iOS/Navigation/MenuTableViewControllerSource.cs" Line="1" Column="1" />
-      <File FileName="Laftrip.iOS/Navigation/MenuTableViewControllerCell.cs" Line="1" Column="1" />
-      <File FileName="Laftrip.iOS/Navigation/MenuTableViewControllerController.cs" Line="1" Column="1" />
-      <File FileName="Laftrip.iOS/Screens/AddJokeView.cs" Line="1" Column="1" />
-      <File FileName="Laftrip.iOS/Screens/SingleJokeViewController.cs" Line="1" Column="1" />
-      <File FileName="Laftrip.iOS/Main.cs" Line="1" Column="1" />
-      <File FileName="Laftrip.iOS/ElementPack/SimpleMultilineEntryElement.cs" Line="1" Column="1" />
-      <File FileName="Laftrip.iOS/Screens/PhotosViewController.cs" Line="1" Column="1" />
-      <File FileName="Laftrip.iOS/Screens/JokesSearchViewController.cs" Line="1" Column="1" />
-      <File FileName="Laftrip.iOS/Screens/JokesShareViewController.cs" Line="1" Column="1" />
-      <File FileName="Laftrip.API/WebServices/Downloader.cs" Line="179" Column="1" />
-      <File FileName="Laftrip.API/Model/Joke.cs" Line="1" Column="1" />
+      <File FileName="Laftrip.iOS/Screens/AddPhotoView.cs" Line="142" Column="36" />
+      <File FileName="Laftrip.iOS/Screens/UserPreferencesView.cs" Line="30" Column="6" />
+      <File FileName="Laftrip.iOS/AppDelegate.cs" Line="66" Column="4" />
+      <File FileName="Laftrip.iOS/Info.plist" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Laftrip.API" expanded="True">
-            <Node name="Data" expanded="True" />
-            <Node name="Model" expanded="True" />
-            <Node name="WebServices" expanded="True" />
-          </Node>
           <Node name="Laftrip.iOS" expanded="True">
-            <Node name="References" expanded="True" />
-            <Node name="ElementPack" expanded="True" />
-            <Node name="Navigation" expanded="True" />
-            <Node name="Screens" expanded="True">
-              <Node name="JokesViewController.cs" selected="True" />
-            </Node>
+            <Node name="ComponentReferenceFolder" expanded="True" selected="True" />
           </Node>
         </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State expanded="True" selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
@@ -78,8 +56,8 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/g3misa/Projects/Laftrip/Components/json.net-4.5.11/samples/Json.NET.iOS.Sample/SampleViewController.cs" line="22" column="40" />
-      <Breakpoint file="/Users/g3misa/XamarinProjects/laftrip/Laftrip.API/WebServices/Downloader.cs" line="175" column="1" />
+      <Breakpoint enabled="false" file="/Users/g3misa/Projects/Laftrip/Components/json.net-4.5.11/samples/Json.NET.iOS.Sample/SampleViewController.cs" line="22" column="40" />
+      <Breakpoint enabled="false" file="/Users/g3misa/XamarinProjects/laftrip/Laftrip.API/WebServices/Downloader.cs" line="175" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
